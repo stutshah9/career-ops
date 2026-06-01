@@ -1,11 +1,5 @@
-%-------------------------
-% Career-Ops LaTeX CV Template
-% Based on: Gabriel Sison / sb2nov resume template
-% License: MIT
-%------------------------
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Random Stuff %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[letterpaper,11pt]{article}
+
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -17,107 +11,190 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
-\usepackage{fontawesome}
-\usepackage{multicol}
-\setlength{\multicolsep}{-3.0pt}
-\setlength{\columnsep}{-1pt}
-\input{glyphtounicode}
+
 \pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
+\fancyhf{}
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
-% Adjust margins
-\addtolength{\oddsidemargin}{-0.6in}
+
+\addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1.19in}
-\addtolength{\topmargin}{-.7in}
-\addtolength{\textheight}{1.4in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
 \urlstyle{same}
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
-% Sections formatting
-\titleformat{\section}{
-  \vspace{-7pt}\scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{0pt}]
-% Ensure that generate pdf is machine readable/ATS parsable
-\pdfgentounicode=1
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Commands  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\titleformat{\section}{
+  \vspace{0pt}\vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Tectonic uses XeTeX which embeds proper unicode mappings natively, so PDFs
+% are ATS-parsable without pdfTeX's \pdfgentounicode primitive.
+
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-3pt}}
+    {#1 \vspace{-2pt}}
   }
 }
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-3pt}\item
-    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textbf{\small #2} \\
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
 }
-\newcommand{\resumeSubheadingContinue}[2]{
-  \vspace{-3pt}
-    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
 \newcommand{\resumeProjectHeading}[2]{
-  \vspace{-3pt}\item
-    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textbf{\small #2} \\
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
     \end{tabular*}\vspace{-7pt}
 }
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{0pt}}
-\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Heading  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-    \begin{center}
-        % NAME
-        {\Huge\scshape {{NAME}}}
-        % SUBHEADING
-        \\ {{CONTACT_LINE}}\\
-        \small
-        % EMAIL
-        \href{mailto:{{EMAIL_URL}}}{\raisebox{-0.2\height}\faEnvelope\  \underline{{{EMAIL_DISPLAY}}}} ~
-        % LINKEDIN
-        \href{{{LINKEDIN_URL}}}{\raisebox{-0.2\height}\faLinkedin\ \underline{{{LINKEDIN_DISPLAY}}}}  ~
-        % GITHUB
-        \href{{{GITHUB_URL}}}{\raisebox{-0.2\height}\faGithub\ \underline{{{GITHUB_DISPLAY}}}}
-    \end{center}
+\begin{center}
+    \textbf{\Huge \scshape Stuti Shah} \\ \vspace{1pt}
+    \small +1-540-200-5844 $|$ \href{mailto:stutishah2706@gmail.com}{\underline{stutishah2706@gmail.com}} $|$ \href{https://linkedin.com/in/stutishah9}{\underline{LinkedIn}} $|$ \href{https://github.com/stutshah9}{\underline{GitHub}} $|$ \href{https://stutshah9.github.io/}{\underline{Portfolio}}
+\end{center}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Education  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Education}
   \resumeSubHeadingListStart
-{{EDUCATION}}
+    \resumeSubheading
+      {Virginia Tech}{Blacksburg, VA}
+      {Master of Engineering in Computer Science}{Aug 2025 -- May 2026}
+    \resumeSubheading
+      {Virginia Tech}{Blacksburg, VA}
+      {Bachelor of Science in Computer Science, Minor in Economics}{Aug 2022 -- May 2025}
   \resumeSubHeadingListEnd
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Experience  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Work Experience}
+\section{Experience}
   \resumeSubHeadingListStart
-{{EXPERIENCE}}
+    \resumeSubheading
+      {Software Engineering / Data Science Intern}{May 2025 -- Aug 2025}
+      {Volvo Group}{Greensboro, NC}
+      \resumeItemListStart
+        \resumeItem{Built backend and analytics services using Python, Flask, PostgreSQL, Docker, Kubernetes, and Argo CD, improving reliability, deployment reproducibility, and maintainability across engineering workflows.}
+        \resumeItem{Automated DMIS output file generation using Streamlit, reducing processing time from 4 hours to under 6 minutes and delivering \$176,980 in annual operational savings across distributed engineering teams.}
+        \resumeItem{Designed an end-to-end ML analytics platform linking complete vehicle modeling signals with millions of vehicle sensor records for scalable predictive performance analysis and engineering decision support.}
+        \resumeItem{Developed REST APIs to connect high-volume vehicle test data with analytics pipelines, improving data traceability, query access, and workflow execution speed.}
+        \resumeItem{Built and validated Random Forest models to predict truck component damage and acceleration, supporting data-driven test readiness decisions across vehicle platforms and configurations.}
+        \resumeItem{Integrated predictive models into analytics workflows, including component performance prediction and GHG emissions estimation.}
+        \resumeItem{Built a GHG emissions prediction pipeline in Power BI by estimating missing CdA values and enabling scenario-based emissions classification for sustainability and regulatory reporting.}
+        \resumeItem{Deployed services through GitOps-based infrastructure using Kubernetes and Argo CD, ensuring reproducible environments across development, staging, and production-aligned workflows.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {AI Intern}{Jun 2024 -- Aug 2024}
+      {AquaOrange}{Bangkok, Thailand}
+      \resumeItemListStart
+        \resumeItem{Automated test workflows for 10+ Zoho CRM customizations using BrowserStack and testRigor, improving regression coverage across frontend and backend features.}
+        \resumeItem{Built validation pipelines for customized CRM workflows, reducing manual QA effort and improving defect detection during release cycles.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Data Science Intern / Solutions Associate}{Jun 2023 -- Jul 2024}
+      {HERE! Wireless USA}{Dallas, TX}
+      \resumeItemListStart
+        \resumeItem{Executed 50+ alpha testing workflows across Android and iOS applications, improving parental control feature stability and reducing post-release issues.}
+        \resumeItem{Conducted root-cause analysis for mobile app issues, helping improve feature reliability and user experience across product iterations.}
+        \resumeItem{Collaborated with product managers and engineers to translate customer feedback into actionable product and engineering requirements.}
+        \resumeItem{Developed four pricing models to support leadership in minimizing revenue leakage, improving market positioning, and optimizing product strategy.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {CS Undergraduate Teaching Assistant}{Aug 2024 -- May 2025}
+      {Virginia Tech}{Blacksburg, VA}
+      \resumeItemListStart
+        \resumeItem{Mentored 200+ students in computer systems topics including processor architecture, assembly programming, memory hierarchy, caching, and performance optimization.}
+        \resumeItem{Debugged low-level programming assignments involving register usage, memory access patterns, instruction execution, stack behavior, and control flow.}
+        \resumeItem{Guided students through system-level reasoning concepts including cache behavior, instruction-level execution, processor pipelines, and execution-time analysis.}
+        \resumeItem{Supported students through office hours, debugging sessions, and assignment guidance focused on low-level software and hardware interactions.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Director of Finance}{Jan 2025 -- Jan 2026}
+      {CS Careers @ VT}{Blacksburg, VA}
+      \resumeItemListStart
+        \resumeItem{Managed finance-related operations for a student organization focused on supporting computer science career development and professional opportunities.}
+        \resumeItem{Coordinated budgeting and organizational planning to support events, career initiatives, and student engagement activities.}
+        \resumeItem{Collaborated with student leaders to support programming that connects students with career resources, industry opportunities, and technical growth.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Division I Badminton Athlete}{Aug 2022 -- May 2026}
+      {Virginia Tech}{Blacksburg, VA}
+      \resumeItemListStart
+        \resumeItem{Singles runner-up in Division I collegiate competition, demonstrating consistency and competitive execution under pressure.}
+        \resumeItem{Contributed to team championship wins and a third-place Division I collegiate team finish across tournament play.}
+        \resumeItem{Helped the team secure qualification for nationals through strong performances in high-stakes matches.}
+        \resumeItem{Developed composure, resilience, and decision-making in pressure-heavy tournament environments.}
+      \resumeItemListEnd
   \resumeSubHeadingListEnd
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%  PROJECTS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Personal Projects}
-\resumeSubHeadingListStart
-{{PROJECTS}}
-\resumeSubHeadingListEnd
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Multimodal Uncertainty-Aware Stock Return Forecasting After Earnings Calls}}{}
+          \resumeItemListStart
+            \resumeItem{Built a multimodal forecasting pipeline for next-trading-day post-earnings log returns using S\&P 500 earnings call transcripts, structured financial indicators, and Reddit-based sentiment features.}
+            \resumeItem{Encoded long earnings call transcripts with ProsusAI FinBERT using 256-512 token chunks, cached frozen transcript embeddings, and projected text representations into a shared multimodal embedding space.}
+            \resumeItem{Engineered structured inputs from standardized earnings surprise, price momentum, and implied volatility, and aggregated Reddit sentiment with TextBlob polarity and log message-volume features.}
+            \resumeItem{Implemented a PyTorch cross-modal fusion model using multi-head attention across transcript, financial, and sentiment modality tokens, with quantile prediction heads trained using pinball loss.}
+            \resumeItem{Applied conformalized quantile regression with global, event-conditioned, and modality-disagreement-normalized calibration to generate 80\%, 90\%, and 95\% prediction intervals.}
+            \resumeItem{Evaluated raw multimodal, single-modality ablations, conformal variants, and same-ticker historical baselines using empirical coverage, interval width, calibration error, MAE, RMSE, and directional accuracy.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{YOLO11 Shelf Detection for Planogram Compliance}}{}
+          \resumeItemListStart
+            \resumeItem{Built an end-to-end shelf-auditing system using YOLO11, OpenCV, and Qwen2-VL to detect products, identify empty shelf spaces, extract SKU-level details, and assess planogram compliance.}
+            \resumeItem{Deployed the application on AWS EC2, supporting image-based audit processing for retail inventory and shelf-compliance use cases.}
+            \resumeItem{Designed planogram comparison logic to classify shelf items as correctly stocked, missing, misplaced, or unverified for retail restocking workflows.}
+            \resumeItem{Developed Flask backend APIs to process shelf images, run detection and visual analysis pipelines, and return structured audit results to a React dashboard.}
+            \resumeItem{Curated public shelf-image datasets, trained detection models, and analyzed failure cases involving occlusion, partial visibility, visually similar products, and inconsistent planogram data.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{CS Source JobHub}}{}
+          \resumeItemListStart
+            \resumeItem{Developed backend services and REST APIs using Flask, SQLAlchemy, and MySQL to support employer registration, contact management, membership lifecycle tracking, and role-based workflows.}
+            \resumeItem{Designed relational database models for employers, contacts, contact types, billing details, and membership records with validation logic to improve data consistency and integrity.}
+            \resumeItem{Implemented backend workflows for form submission, data persistence, authentication-related logic, and structured employer/contact management.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Location-Aware Task Management App}}{}
+          \resumeItemListStart
+            \resumeItem{Built an MVVM-based Android application using Java, Room, LiveData, and ViewModel, enabling offline-first CRUD workflows for creating, updating, deleting, and managing location-aware tasks.}
+            \resumeItem{Implemented local database persistence and geolocation-based task features to support reliable task management without continuous network access.}
+            \resumeItem{Designed responsive user workflows for task creation, task updates, task deletion, and location-aware task organization.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{HybridDiff AR: Efficient Image Generation Pipeline}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a performance-focused image generation pipeline combining a 33M-parameter DDPM with transformer-based refinement for efficient CelebA 64x64 image generation.}
+            \resumeItem{Optimized the inference workflow to reduce generation latency while preserving image quality, achieving up to 250x faster inference in experimental evaluation.}
+            \resumeItem{Evaluated model performance with attention to inference speed, image quality, and practical deployment tradeoffs.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Technical Skills  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Technical Skills}
-\vspace{-7pt}
-\begin{itemize}
-[leftmargin=0.15in, label={}]\small{\item{
-{{SKILLS}}
-}}
-\end{itemize}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming}{: Python, Java, C, SQL} \\
+     \textbf{AI \& ML}{: AI Agents, Prompt Engineering, Feature Engineering, Model Evaluation} \\
+     \textbf{AI/ML Libraries}{: PyTorch, scikit-learn, TensorFlow} \\
+     \textbf{Backend \& Systems}{: Flask, REST APIs, Linux, System Design Fundamentals, Memory Management} \\
+     \textbf{Databases \& Data Engineering}{: PostgreSQL, MySQL, SQLAlchemy, Spark/PySpark, ETL Pipelines, Query Optimization} \\
+     \textbf{Cloud}{: AWS Bedrock, SageMaker, AWS Redshift, AWS S3/Blob Storage, AWS Lambda, AWS Functions, Azure Databricks, Azure SQL, AWS EC2} \\
+     \textbf{DevOps}{: Docker, Kubernetes, Argo CD, GitOps, CI/CD, Git} \\
+     \textbf{BI \& Analytics}{: Dashboard Storytelling, KPI Frameworks, Streamlit Analytics, Power BI, Tableau, Data Visualization} \\
+     \textbf{Software Engineering}{: OOP, Data Structures \& Algorithms, Unit Testing, Debugging, Logging \& Monitoring} \\
+    }}
+ \end{itemize}
+
+% \section{Interests}
+% Competitive sports (badminton, basketball, and pickleball), stock market research, traveling, cooking, and puzzle/problem-solving challenges.
 
 \end{document}
