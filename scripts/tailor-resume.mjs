@@ -52,6 +52,11 @@ const ROLES = {
     focus: 'Has real experience with pricing, forecasting, and optimization modeling, which maps naturally to marketplace bidding, pacing, and auction problems.',
     priority: ['pricing', 'forecasting', 'ml', 'ai', 'eval', 'optimization', 'sensor', 'data'],
   },
+  'doordash-sevenrooms-da': {
+    focus: 'Pairs SQL-driven analysis and dashboard storytelling with direct product-manager collaboration and quantified business impact, a good fit for building data products and feature-launch analytics for product teams.',
+    priority: ['impact', 'bi', 'ds', 'data', 'product', 'pricing', 'automation', 'ml'],
+    dropExp: ['aquaorange'],
+  },
   glean: {
     focus: 'Comfortable across backend, machine learning, and cloud deployment, and ready to grow into scalable platform work.',
     priority: ['swe', 'backend', 'infra', 'automation', 'ml', 'data', 'systems'],
@@ -185,6 +190,60 @@ const ROLES = {
     focus: 'Combines inference-optimization work with systems fundamentals in memory, caching, and compilers, a base for machine learning application and compiler tooling.',
     priority: ['inference', 'perf', 'ml', 'systems', 'ai', 'sensor'],
   },
+  'amazon-sde-2026': {
+    focus: 'Has built cloud-native backend services and ML pipelines in production using Python, distributed data flows, and Kubernetes with CI/CD via Argo CD, a direct fit for Amazon\'s SDE program and ML specialization track.',
+    priority: ['backend', 'infra', 'swe', 'ml', 'data', 'systems', 'automation', 'ai'],
+  },
+  'pinterest-swe-i-backend': {
+    focus: 'Has shipped production backend services and REST APIs at scale with Python, Flask, and PostgreSQL, and is comfortable owning distributed systems end-to-end from design through deployment.',
+    priority: ['backend', 'swe', 'data', 'infra', 'ml', 'automation', 'systems'],
+  },
+  'sierra-agentdataplat': {
+    focus: 'Has built end-to-end data pipelines and analytics platforms on Python, Flask, and PostgreSQL with Kubernetes deployment, delivering measurable operational savings — a strong fit for agent data infrastructure work.',
+    priority: ['data', 'backend', 'infra', 'ml', 'automation', 'swe', 'ai'],
+  },
+  'sierra-agentbuilder': {
+    focus: 'Combines backend API engineering, AI and prompt tooling, and Streamlit-based user interfaces, a natural fit for building the tooling that lets teams configure and deploy AI agents.',
+    priority: ['ai', 'backend', 'automation', 'swe', 'data', 'fullstack', 'ml'],
+  },
+  'robinhood-mle': {
+    focus: 'Strongest in applied machine learning with production modeling on real data, tabular ML pipelines, and Kubernetes deployment experience, well positioned for a fintech ML engineering role.',
+    priority: ['ml', 'ai', 'forecasting', 'eval', 'infra', 'backend', 'data'],
+  },
+  'robinhood-agenticai': {
+    focus: 'Has shipped production backend services and ML pipelines on Python with Kubernetes and AWS, and is comfortable owning cloud systems end-to-end from design through GitOps deployment.',
+    priority: ['infra', 'backend', 'swe', 'ml', 'data', 'ai', 'automation', 'systems'],
+  },
+  'stripe-swe': {
+    focus: 'Has shipped backend services, REST APIs, and data pipelines in production with Python, Flask, PostgreSQL, and AWS, and is comfortable working across the stack from data models through cloud deployment.',
+    priority: ['backend', 'infra', 'swe', 'data', 'systems', 'automation'],
+    dropExp: ['aquaorange'],
+  },
+  'doppel-infra': {
+    focus: 'Has deployed backend services through Kubernetes and Argo CD GitOps pipelines across dev, staging, and production-aligned environments, and built internal automation tooling that measurably supported engineering team scale.',
+    priority: ['impact', 'infra', 'backend', 'swe', 'automation', 'systems', 'data'],
+    dropExp: ['aquaorange'],
+  },
+  'oracle-oci-loadbalancer': {
+    focus: 'Has built backend services and internal tooling that improved reliability and operational efficiency for engineering teams, with hands-on production experience across Python, Flask, PostgreSQL, Docker, and Kubernetes, and is comfortable working as a generalist across the stack.',
+    priority: ['impact', 'backend', 'infra', 'automation', 'systems', 'swe', 'data'],
+    dropExp: ['aquaorange'],
+  },
+  'magnolia-inventory': {
+    focus: 'Has used data analysis, automation, and BI tooling including Excel, Power BI, and Streamlit to turn operational data into measurable process improvements, and is comfortable maintaining accurate databases and translating data into actionable operational decisions.',
+    priority: ['bi', 'data', 'pricing', 'automation', 'backend', 'systems'],
+    dropExp: ['aquaorange'],
+  },
+  'loma-linda-pace': {
+    focus: 'Has used data analysis, automation, and BI tooling including Excel, Power BI, and Streamlit to support leadership with performance-improvement efforts, identify operational opportunities, and turn data into measurable, actionable results.',
+    priority: ['bi', 'data', 'pricing', 'automation', 'backend', 'systems'],
+    dropExp: ['aquaorange'],
+  },
+  'uline-data-analyst': {
+    focus: 'Has built SQL-driven data systems and automation tools that replace manual processes with measurable results, including an automation tool that cut a 4-hour manual workflow to under 6 minutes and saved $176,980 annually, and is comfortable scoping a problem and shipping a working solution end to end.',
+    priority: ['bi', 'data', 'pricing', 'automation', 'backend', 'systems'],
+    dropExp: ['aquaorange'],
+  },
 };
 
 const TAG_RULES = [
@@ -300,6 +359,12 @@ function sectionRange(tex, title) {
   const endDoc = tex.indexOf('\\end{document}', bodyStart);
   const end = next >= 0 ? next : endDoc >= 0 ? endDoc : tex.length;
   return { start, bodyStart, end, body: tex.slice(bodyStart, end) };
+}
+
+function firstSectionStart(tex) {
+  const start = tex.indexOf('\\section{');
+  if (start < 0) throw new Error('master resume is missing section headers');
+  return start;
 }
 
 function extractItems(block) {
@@ -506,7 +571,7 @@ const CAP_SEQUENCE = [
 ];
 
 function renderTex(master, parsed, role, caps) {
-  const header = master.slice(0, master.indexOf('\\section{Education}'));
+  const header = master.slice(0, firstSectionStart(master));
   const education = (() => {
     const r = sectionRange(master, 'Education');
     return master.slice(r.start, r.end).replace(/\s+$/, '');
@@ -516,13 +581,13 @@ function renderTex(master, parsed, role, caps) {
     '',
     renderSummary(role),
     '',
-    education,
+    renderSkills(parsed.skills, role, caps),
     '',
     renderExperience(parsed.experiences, role, caps),
     '',
     renderProjects(parsed.projects, role, caps),
     '',
-    renderSkills(parsed.skills, role, caps),
+    education,
     '',
     '\\end{document}',
     '',
