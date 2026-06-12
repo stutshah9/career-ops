@@ -11,7 +11,12 @@ const MAX_LINKS_PER_PAGE = 250;
 const MAX_TITLE_LENGTH = 180;
 
 function normalizeText(value) {
-  return String(value || '').replace(/\s+/g, ' ').trim();
+  return String(value || '')
+    .replace(/\s+/g, ' ')
+    .replace(/^learn more about\s+/i, '')
+    .replace(/United States,\s+[^|]+?Posted\b.*$/i, '')
+    .replace(/\bPosted\s+(?:an?|[0-9]+)\s+\w+\s+ago.*$/i, '')
+    .trim();
 }
 
 function isLikelyJobUrl(url, patterns = []) {
@@ -29,10 +34,13 @@ function isLikelyJobUrl(url, patterns = []) {
   return [
     '/job/',
     '/jobs/',
-    '/careers/',
-    '/career/',
+    '/careers/job',
+    '/careers/jobs',
+    '/career/job',
+    '/career/jobs',
     '/positions/',
     '/position/',
+    '/details/',
     '/requisitions',
     'jobid=',
     'job_id=',
@@ -52,7 +60,6 @@ function isGenericTitle(title) {
     'learn more',
     'see more',
     'read more',
-    'careers',
     'privacy',
     'terms',
     'home',
@@ -110,6 +117,15 @@ export default {
 
     try {
       const page = await browser.newPage();
+      const sourceUrls = new Set(urls.map((url) => {
+        try {
+          const parsed = new URL(url);
+          parsed.hash = '';
+          return parsed.href;
+        } catch {
+          return url;
+        }
+      }));
       for (const url of urls) {
         let links = [];
         try {
@@ -121,6 +137,15 @@ export default {
         for (const item of links) {
           const title = normalizeText(item.title);
           const href = item.url;
+          let normalizedHref = href;
+          try {
+            const parsed = new URL(href);
+            parsed.hash = '';
+            normalizedHref = parsed.href;
+          } catch {
+            // handled by isLikelyJobUrl below
+          }
+          if (sourceUrls.has(normalizedHref)) continue;
           if (isGenericTitle(title)) continue;
           if (!isLikelyJobUrl(href, item.patterns)) continue;
           const key = `${title.toLowerCase()}|${href}`;

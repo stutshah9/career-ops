@@ -1,204 +1,203 @@
-# Mode: pdf — Jake's LaTeX Resume (ATS-Optimized)
-
-## Output rules (CRITICAL)
-
-- ALL output goes to `output/resumes/drafts/`
-- NEVER move or copy files to `output/resumes/submitted/` automatically
-- The user will manually move files to `submitted/` when ready to apply
+# Mode: pdf — ATS-Optimized PDF Generation
 
 ## Full pipeline
 
-1. Read `cv.md` as the source of truth (NEVER hardcode metrics — read them fresh)
-2. Read `article-digest.md` if it exists (supplementary proof points)
-3. If JD is not already in context, ask the user: "Paste the JD text or URL."
-4. Extract 15–20 keywords from the JD
-5. Detect role archetype → adapt framing and bullet selection strategy
-6. Detect company location → confirm `letterpaper` (US/Canada) or `a4paper` (rest of world)
-7. Write a role-specific **Summary** paragraph (3–5 sentences, keyword-dense, no overclaiming)
-8. **Rank and select experience bullets** by JD relevance:
-   - Pick 4 most relevant Volvo bullets (from the full list in `cv.md`)
-   - Pick 1 optional secondary role bullet (HERE! Wireless, AquaOrange, or TA) if it adds a proof point not covered by Volvo
-   - Use natural language — no bullet stuffing, no keyword lists masquerading as sentences
-9. **Rank and select projects** by JD relevance: top 3, 2 bullets each
-10. Build a role-specific **Technical Skills** section (6 categories, JD-keyword-matched)
-11. Inject JD keywords naturally into existing achievements (NEVER invent skills or metrics)
-12. Derive the output filename: `stuti-shah-{company-slug}-{role-slug}.tex` (kebab-case lowercase, e.g. `stuti-shah-stripe-swe.tex`)
-13. Generate the full `.tex` file using the Jake's LaTeX template below
-14. Write to `output/resumes/drafts/{filename}`
-15. Compile: `tectonic output/resumes/drafts/{filename}` (PDF lands in same folder automatically)
-16. **Second Pass — ATS Alignment** (see section below — runs after initial compile, before final report)
-17. Report: `.tex` path, PDF path, which bullets were selected and why (1 line each), before/after keyword match rate
+1. Read `cv.md` as the source of truth
+2. Ask the user for the JD if it is not in context (text or URL)
+3. Extract 15-20 keywords from the JD
+4. Detect JD language → CV language (EN default)
+5. Detect company location → paper format:
+   - US/Canada → `letter`
+   - Rest of the world → `a4`
+6. Detect role archetype → adapt framing
+7. Rewrite Professional Summary by injecting JD keywords + exit narrative bridge ("Built and sold a business. Now applying systems thinking to [JD domain].")
+8. Select top 3-4 most relevant projects for the job
+9. Reorder experience bullets by JD relevance
+10. Build competency grid from JD requirements (6-8 keyword phrases)
+11. Inject keywords naturally into existing achievements (NEVER invent)
+12. Generate full HTML from template + personalized content
+13. Read `name` from `config/profile.yml` → normalize to kebab-case lowercase (e.g. "John Doe" → "john-doe") → `{candidate}`
+14. Write HTML to `/tmp/cv-{candidate}-{company}.html`
+15. Execute: `node generate-pdf.mjs /tmp/cv-{candidate}-{company}.html output/cv-{candidate}-{company}-{YYYY-MM-DD}.pdf --format={letter|a4}`
+16. Report: PDF path, number of pages, keyword coverage %
 
-## Jake's LaTeX template structure
+## ATS Rules (clean parsing)
 
-Use `templates/cv-template.tex` as the base. The preamble, custom commands, and header are fixed — only replace the content sections. The structure is:
+- Single-column layout (no sidebars, no parallel columns)
+- Standard headers: "Professional Summary", "Work Experience", "Education", "Skills", "Certifications", "Projects"
+- No text in images/SVGs
+- No critical info in PDF headers/footers (ATS ignores them)
+- UTF-8, selectable text (not rasterized)
+- No nested tables
+- Distributed JD keywords: Summary (top 5), first bullet of each role, Skills section
 
-```
-\documentclass[letterpaper,11pt]{article}
-[fixed preamble — copy from templates/cv-template.tex verbatim]
+## PDF Design
 
-\begin{document}
-\begin{center}
-    \textbf{\Huge \scshape {NAME}} \\ \vspace{1pt}
-    \small {PHONE} $|$ \href{mailto:{EMAIL}}{\underline{{EMAIL}}} $|$
-    \href{{LINKEDIN_URL}}{\underline{LinkedIn}} $|$
-    \href{{GITHUB_URL}}{\underline{GitHub}} $|$
-    \href{{PORTFOLIO_URL}}{\underline{Portfolio}}
-\end{center}
+- **Fonts**: Space Grotesk (headings, 600-700) + DM Sans (body, 400-500)
+- **Fonts self-hosted**: `fonts/`
+- **Header**: name in Space Grotesk 24px bold + gradient line `linear-gradient(to right, hsl(187,74%,32%), hsl(270,70%,45%))` 2px + contact row
+- **Section headers**: Space Grotesk 13px, uppercase, letter-spacing 0.05em, color cyan primary
+- **Body**: DM Sans 11px, line-height 1.5
+- **Company names**: accent purple color `hsl(270,70%,45%)`
+- **Margins**: 0.6in
+- **Background**: pure white
 
-% TAILORED: [one-line note on what was tailored and for which role]
-\section{Summary}
- \small{{SUMMARY_TEXT}}
- \vspace{2pt}
+## Section order (optimized "6-second recruiter scan")
 
-\section{Technical Skills}
-  [role-specific skills in 6 categories]
-
-\section{Experience}
-  [selected experience entries — 4 Volvo bullets + optional 1 secondary]
-
-\section{Projects}
-  [top 3 projects × 2 bullets each]
-
-\section{Education}
-  [education entries — always include both VT degrees, never change]
-
-\end{document}
-```
-
-### LaTeX escaping rules (CRITICAL — compile errors break the PDF)
-
-| Character | Escaped form | Example |
-|-----------|-------------|---------|
-| `$` in text | `\$` | `\$176,980` |
-| `&` in text | `\&` | `S\&P 500` |
-| `%` in text | `\%` | `80\%` |
-| `#` in text | `\#` | |
-| `_` in text | `\_` | |
-| `~` in text | `\textasciitilde{}` | |
-| `^` in text | `\textasciicircum{}` | |
-| `--` (en-dash) | `--` | date ranges: `May 2025 -- Aug 2025` |
-| `200+` | `200+` | fine in text |
-| URLs | inside `\href{}{}` — no escaping needed | |
-
-### One-page rule
-
-The resume MUST fit on one page. If it overflows:
-1. Tighten the Summary to 2–3 sentences
-2. Cut the weakest secondary role bullet
-3. Trim project bullets to the most impact-dense sentence
-4. As a last resort, reduce `\textheight` by 0.1in increments
-
-## Evidence-bank ranking principle
-
-When selecting bullets, rank by this hierarchy:
-1. **Quantified outcomes** — `$176,980 savings`, `4 hrs → 6 min`, `200+ students`
-2. **Scale signals** — `millions of vehicle sensor records`, `production on K8s`
-3. **Direct JD keyword match** — exact tech stack overlaps
-4. **Transferable relevance** — adjacent skills the hiring manager will recognize
-
-Never include a bullet just because it exists in `cv.md`. Every bullet on the page must earn its place against the JD.
-
-## ATS rules (clean parsing)
-
-- Use the Jake's LaTeX preamble exactly — it produces ATS-parsable XeTeX output via Tectonic
-- Standard section headers: Summary, Education, Experience, Projects, Technical Skills
-- No graphics, no columns, no text boxes — all content in the main text flow
-- Tectonic (XeTeX backend) embeds proper unicode mappings natively — no `\pdfgentounicode` needed
+1. Header (large name, gradient, contact, portfolio link)
+2. Professional Summary (3-4 lines, keyword-dense)
+3. Core Competencies (6-8 keyword phrases in flex-grid)
+4. Work Experience (reverse chronological)
+5. Projects (top 3-4 most relevant)
+6. Education & Certifications
+7. Skills (languages + technical)
 
 ## Keyword injection strategy (ethical, truth-based)
 
-Legitimate reformulation examples:
-- JD says "RAG pipelines" and CV says "LLM workflows with retrieval" → rewrite as "RAG pipeline design and LLM orchestration workflows"
-- JD says "MLOps" and CV says "observability, evals, error handling" → rewrite as "MLOps and observability: evals, error handling, cost monitoring"
-- JD says "stakeholder management" and CV says "collaborated with team" → rewrite as "stakeholder management across engineering, operations, and business"
+Examples of legitimate reformulation:
+- JD says "RAG pipelines" and CV says "LLM workflows with retrieval" → change to "RAG pipeline design and LLM orchestration workflows"
+- JD says "MLOps" and CV says "observability, evals, error handling" → change to "MLOps and observability: evals, error handling, cost monitoring"
+- JD says "stakeholder management" and CV says "collaborated with team" → change to "stakeholder management across engineering, operations, and business"
 
-**NEVER add skills the candidate does not have. Only reword real experience using the exact JD vocabulary.**
+**NEVER add skills that the candidate does not have. Only reword real experience using the exact JD vocabulary.**
 
-## Second Pass — ATS Alignment
+## Template HTML
 
-Run this pass after the initial .tex is compiled. It maximizes ATS keyword coverage while preserving natural language quality. Rewrite the .tex in-place, then recompile.
+Use the template in `cv-template.html`. Replace the `{{...}}` placeholders with personalized content:
 
-### Step A — ATS Keyword Extraction
+| Placeholder | Content |
+|-------------|-----------|
+| `{{LANG}}` | `en` or `es` |
+| `{{PAGE_WIDTH}}` | `8.5in` (letter) or `210mm` (A4) |
+| `{{NAME}}` | (from profile.yml) |
+| `{{PHONE}}` | (from profile.yml — include with its separator only when `profile.yml` has a non-empty `phone` value; omit both `<span>` and `<span class="separator">` otherwise) |
+| `{{EMAIL}}` | (from profile.yml) |
+| `{{LINKEDIN_URL}}` | [from profile.yml] |
+| `{{LINKEDIN_DISPLAY}}` | [from profile.yml] |
+| `{{PORTFOLIO_URL}}` | [from profile.yml] (or /es depending on language) |
+| `{{PORTFOLIO_DISPLAY}}` | [from profile.yml] (or /es depending on language) |
+| `{{LOCATION}}` | [from profile.yml] |
+| `{{SECTION_SUMMARY}}` | Professional Summary |
+| `{{SUMMARY_TEXT}}` | Personalized summary with keywords |
+| `{{SECTION_COMPETENCIES}}` | Core Competencies |
+| `{{COMPETENCIES}}` | `<span class="competency-tag">keyword</span>` × 6-8 |
+| `{{SECTION_EXPERIENCE}}` | Work Experience |
+| `{{EXPERIENCE}}` | HTML for each job with reordered bullets |
+| `{{SECTION_PROJECTS}}` | Projects |
+| `{{PROJECTS}}` | HTML for top 3-4 projects |
+| `{{SECTION_EDUCATION}}` | Education |
+| `{{EDUCATION}}` | Education HTML |
+| `{{SECTION_CERTIFICATIONS}}` | Certifications |
+| `{{CERTIFICATIONS}}` | Certifications HTML |
+| `{{SECTION_SKILLS}}` | Skills |
+| `{{SKILLS}}` | Skills HTML |
 
-Parse the JD as an ATS system would. Build two lists:
+## Canva CV Generation (optional)
 
-**Hard keywords (must appear — these directly affect ranking):**
-- Programming languages: exact names (`Python`, `TypeScript`, `SQL`, `Go`, `Java`...)
-- Frameworks/libraries: exact names (`PyTorch`, `scikit-learn`, `React`, `dbt`, `LangChain`...)
-- Platforms/services: exact names (`AWS`, `GCP`, `Kubernetes`, `Databricks`, `Snowflake`...)
-- Role-specific phrases: exact quoted phrases from the JD title and requirements (`"RAG pipeline"`, `"LLM fine-tuning"`, `"data warehouse"`, `"A/B testing"`...)
-- Domain vocabulary: specialized terms that ATS systems filter for
-- Certifications or degree requirements if explicitly stated
+If `config/profile.yml` has `cv.canva_resume_design_id` set, offer the user a choice before generating:
+- **"HTML/PDF (fast, ATS-optimized)"** — existing flow above
+- **"Canva CV (visual, design-preserving)"** — new flow below
 
-**Soft keywords (nice to appear — signal culture fit and seniority):**
-- Ownership verbs: `"end-to-end"`, `"led"`, `"owned"`, `"designed"`, `"deployed"`
-- Scale signals: `"production"`, `"large-scale"`, `"distributed"`, `"high-throughput"`
-- Collaboration: `"cross-functional"`, `"stakeholder"`, `"ambiguous"`
+If the user has no `cv.canva_resume_design_id`, skip this prompt and use the HTML/PDF flow.
 
-Deduplicate and normalize synonyms (e.g., `K8s` = `Kubernetes`, `Postgres` = `PostgreSQL`, `ML` = `machine learning`).
+### Canva workflow
 
-### Step B — Before Score
+#### Step 1 — Duplicate the base design
 
-Scan the current .tex file content for each hard keyword (case-insensitive substring match).
+a. `export-design` the base design (using `cv.canva_resume_design_id`) as PDF → get download URL
+b. `import-design-from-url` using that download URL → creates a new editable design (the duplicate)
+c. Note the new `design_id` for the duplicate
 
-Report:
+#### Step 2 — Read the design structure
+
+a. `get-design-content` on the new design → returns all text elements (richtexts) with their content
+b. Map text elements to CV sections by content matching:
+   - Look for the candidate's name → header section
+   - Look for "Summary" or "Professional Summary" → summary section
+   - Look for company names from cv.md → experience sections
+   - Look for degree/school names → education section
+   - Look for skill keywords → skills section
+c. If mapping fails, show the user what was found and ask for guidance
+
+#### Step 3 — Generate tailored content
+
+Same content generation as the HTML flow (Steps 1-11 above):
+- Rewrite Professional Summary with JD keywords + exit narrative
+- Reorder experience bullets by JD relevance
+- Select top competencies from JD requirements
+- Inject keywords naturally (NEVER invent)
+
+**IMPORTANT — Character budget rule:** Each replacement text MUST be approximately the same length as the original text it replaces (within ±15% character count). If tailored content is longer, condense it. The Canva design has fixed-size text boxes — longer text causes overlapping with adjacent elements. Count the characters in each original element from Step 2 and enforce this budget when generating replacements.
+
+#### Step 4 — Apply edits
+
+a. `start-editing-transaction` on the duplicate design
+b. `perform-editing-operations` with `find_and_replace_text` for each section:
+   - Replace summary text with tailored summary
+   - Replace each experience bullet with reordered/rewritten bullets
+   - Replace competency/skills text with JD-matched terms
+   - Replace project descriptions with top relevant projects
+c. **Reflow layout after text replacement:**
+   After applying all text replacements, the text boxes auto-resize but neighboring elements stay in place. This causes uneven spacing between work experience sections. Fix this:
+   1. Read the updated element positions and dimensions from the `perform-editing-operations` response
+   2. For each work experience section (top to bottom), calculate where the bullets text box ends: `end_y = top + height`
+   3. The next section's header should start at `end_y + consistent_gap` (use the original gap from the template, typically ~30px)
+   4. Use `position_element` to move the next section's date, company name, role title, and bullets elements to maintain even spacing
+   5. Repeat for all work experience sections
+d. **Verify layout before commit:**
+   - `get-design-thumbnail` with the transaction_id and page_index=1
+   - Visually inspect the thumbnail for: text overlapping, uneven spacing, text cut off, text too small
+   - If issues remain, adjust with `position_element`, `resize_element`, or `format_text`
+   - Repeat until layout is clean
+e. Show the user the final preview and ask for approval
+f. `commit-editing-transaction` to save (ONLY after user approval)
+
+#### Step 5 — Export and download PDF
+
+a. `export-design` the duplicate as PDF (format: a4 or letter based on JD location)
+b. **IMMEDIATELY** download the PDF using Bash:
+   ```bash
+   curl -sL -o "output/cv-{candidate}-{company}-canva-{YYYY-MM-DD}.pdf" "{download_url}"
+   ```
+   The export URL is a pre-signed S3 link that expires in ~2 hours. Download it right away.
+c. Verify the download:
+   ```bash
+   file output/cv-{candidate}-{company}-canva-{YYYY-MM-DD}.pdf
+   ```
+   Must show "PDF document". If it shows XML or HTML, the URL expired — re-export and retry.
+d. Report: PDF path, file size, Canva design URL (for manual tweaking)
+
+#### Error handling
+
+- If `import-design-from-url` fails → fall back to HTML/PDF pipeline with message
+- If text elements can't be mapped → warn user, show what was found, ask for manual mapping
+- If `find_and_replace_text` finds no matches → try broader substring matching
+- Always provide the Canva design URL so the user can edit manually if auto-edit fails
+
+## Cover Letter Sub-flow
+
+After generating the CV PDF, offer to generate a cover letter:
+
+```text
+CV PDF generated: output/{path}
+
+Want a cover letter for this role too?
+- Say "yes" or "cover letter" to generate one now
+- Or run `/career-ops cover {slug}` later
 ```
-Before: X / N hard keywords matched (Y%)
-Missing: [list each unmatched hard keyword]
-```
 
-### Step C — Gap Analysis
+If the user says yes, run the full cover letter flow from `modes/cover.md` in slug mode:
+1. Load the existing `## Cover Letter Draft` from the evaluation report as a starting point
+2. Run company research (Step 3 of cover.md)
+3. Present keyword list for confirmation (Step 4)
+4. Surface any gaps (Step 5)
+5. Ask the four prompts: why / problems / approach / tone (Step 6)
+6. Draft in chat, wait for approval (Steps 7-8)
+7. Generate cover letter PDF via `node generate-cover-letter.mjs` (Step 9)
+8. Report both PDF paths
 
-For each missing hard keyword, determine:
-1. **Can Stuti honestly claim this?** Cross-check against `cv.md` and `article-digest.md`. If the underlying skill or experience exists but uses different vocabulary → **rewritable**. If the skill is genuinely absent → **skip, do not force**.
-2. **Which existing bullet is the best candidate for the rewrite?**
-
-Only proceed to Step D for keywords where there is a genuine claim.
-
-### Step D — Natural Rewrite
-
-For each rewritable keyword gap:
-- Find the single best existing bullet to rewrite
-- Incorporate the keyword naturally using the underlying evidence
-- Keep the original accomplishment intact — only change vocabulary to mirror JD phrasing
-- One keyword gap per bullet max — do not stack multiple new terms into one sentence
-
-**Rewrite quality rules:**
-- The rewritten bullet must still make sense if the JD did not exist
-- Preferred: a rewrite that improves clarity AND adds the keyword simultaneously
-- Acceptable: a rewrite that adds the keyword without awkwardness
-- Reject: a rewrite that makes the bullet feel like a keyword list
-
-**Legitimate reformulation examples:**
-- JD says `"RAG pipelines"`, CV says `"LLM workflows with retrieval"` → `"RAG pipeline design and LLM orchestration workflows"`
-- JD says `"MLOps"`, CV says `"observability, evals, error handling"` → `"MLOps and observability: evals, error handling, cost monitoring"`
-- JD says `"LangChain"`, CV shows only AWS Bedrock → **skip** — do not claim LangChain if it is not in cv.md
-
-### Step E — Stuffing Audit
-
-Flag any rewritten bullet that:
-- Crams 3+ new JD terms into a single sentence
-- Uses a keyword in a way that technically misrepresents the accomplishment
-- Would read as word-salad to a human reviewer
-
-Mark flagged bullets with `⚠️ STUFFING RISK` and suggest a cleaner alternative. If no clean alternative exists, revert the bullet to the original.
-
-### Step F — After Score
-
-Rescan the updated .tex for hard keywords. Report:
-```
-After: X / N hard keywords matched (Y%)
-Delta: +Z keywords added (+W%)
-```
-
-### Step G — Recompile and Output
-
-1. Write the updated .tex back to `output/resumes/drafts/{filename}` (overwrite)
-2. Recompile: `tectonic output/resumes/drafts/{filename}`
-3. Verify one-page rule still holds after rewrites
-4. Print a diff summary: each changed bullet (before → after), the keyword gap it addressed, and any ⚠️ flags
+Do not auto-generate the cover letter PDF without going through the interactive steps above.
 
 ## Post-generation
 
-Update tracker if the job is already registered: change PDF column from ❌ to ✅.
+Update tracker if the job is already registered: change PDF from ❌ to ✅.
