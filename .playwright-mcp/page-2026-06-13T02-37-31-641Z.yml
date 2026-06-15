@@ -1,0 +1,39 @@
+- generic [ref=e4]:
+  - link "Skip to main content" [ref=e5] [cursor=pointer]:
+    - /url: ""
+  - banner [ref=e8]:
+    - generic [ref=e10]:
+      - link "careers home" [ref=e13] [cursor=pointer]:
+        - /url: https://www.nvidia.com/en-us/about-nvidia/careers/
+        - img "careers home" [ref=e14]
+      - heading "CAREERS AT NVIDIA" [level=1] [ref=e16]
+      - generic [ref=e18]:
+        - button "Sign In" [ref=e20] [cursor=pointer]:
+          - generic [ref=e25]: Sign In
+        - navigation [ref=e26]:
+          - button "Home" [ref=e27] [cursor=pointer]
+          - button "Search for Jobs" [ref=e28] [cursor=pointer]
+  - generic [ref=e36]: Loading
+  - generic [ref=e46]:
+    - heading "Follow Us" [level=4] [ref=e47]
+    - list [ref=e48]:
+      - listitem [ref=e49] [cursor=pointer]:
+        - link "X" [ref=e50]:
+          - /url: https://twitter.com/nvidia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+      - listitem [ref=e54] [cursor=pointer]:
+        - link "Facebook" [ref=e55]:
+          - /url: https://www.facebook.com/NVIDIA
+      - listitem [ref=e59] [cursor=pointer]:
+        - link "Glassdoor" [ref=e60]:
+          - /url: https://www.glassdoor.com/Overview/Working-at-NVIDIA-EI_IE7633.11,17.htm
+      - listitem [ref=e65] [cursor=pointer]:
+        - link "LinkedIn" [ref=e66]:
+          - /url: https://www.linkedin.com/company/nvidia
+      - listitem [ref=e70] [cursor=pointer]:
+        - link "YouTube" [ref=e71]:
+          - /url: https://www.youtube.com/nvidia
+    - link "Applicant Privacy Policy" [ref=e78] [cursor=pointer]:
+      - /url: https://www.nvidia.com/en-us/about-nvidia/careers/applicant-privacy-policy/
+    - generic [ref=e79]:
+      - img [ref=e83]
+      - generic [ref=e103]: © 2026 Workday, Inc. All rights reserved.

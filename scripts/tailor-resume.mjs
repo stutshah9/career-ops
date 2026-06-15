@@ -19,7 +19,9 @@
  *   node scripts/tailor-resume.mjs --all           # every role in ROLES
  *   node scripts/tailor-resume.mjs --list          # list role slugs
  *
- * Output: output/resumes/stuti-shah-<slug>.{tex,pdf}
+ * Output: output/resumes/fortune-500/stuti-shah-<slug>.{tex,pdf} for Fortune 500
+ *         targets (see FORTUNE_500_PREFIXES below), otherwise
+ *         output/resumes/other/stuti-shah-<slug>.{tex,pdf}
  */
 import { readFile, writeFile, mkdir, rm } from 'fs/promises';
 import { execFileSync } from 'child_process';
@@ -29,6 +31,21 @@ const SOURCE_TEX = ROOT + 'output/stuti-shah-cv.tex';
 const OUTDIR = ROOT + 'output/resumes';
 
 const COMMON_DROP = ['finance', 'badminton'];
+
+// Role slugs prefixed with one of these go to output/resumes/fortune-500/;
+// everything else goes to output/resumes/other/. Keep in sync with the
+// "Big Tech / Fortune 500" block in portals.yml.
+const FORTUNE_500_PREFIXES = [
+  'google', 'nvidia', 'amazon', 'adobe', 'apple', 'meta',
+  'microsoft', 'jpmorgan', 'capitalone', 'walmart', 'ibm', 'oracle',
+];
+
+function resolveOutDir(slug) {
+  const isFortune500 = FORTUNE_500_PREFIXES.some(
+    (p) => slug === p || slug.startsWith(`${p}-`),
+  );
+  return `${OUTDIR}/${isFortune500 ? 'fortune-500' : 'other'}`;
+}
 
 const VOLVO_ID = 'software-engineering-data-science-intern-volvo-group';
 
@@ -61,13 +78,65 @@ const ROLES = {
     focus: 'Comfortable across backend, machine learning, and cloud deployment, and ready to grow into scalable platform work.',
     priority: ['swe', 'backend', 'infra', 'automation', 'ml', 'data', 'systems'],
   },
+  'glean-context-platform': {
+    focus: 'Has shipped backend services and REST APIs in production (Python/Flask/PostgreSQL/Docker/Kubernetes/Argo CD via GitOps) and brings AI-agent and cloud-native experience, a strong base for building platform APIs, SDKs, and context services that power AI agents.',
+    priority: ['backend', 'infra', 'ai', 'ml', 'automation', 'swe', 'systems'],
+  },
+  'glean-agentic-runtime': {
+    focus: 'Has shipped production backend services with Python, Docker, Kubernetes, and Argo CD GitOps, and brings hands-on AI Agents and RAG skills, a strong base for building the distributed-systems runtime that powers AI agents.',
+    priority: ['infra', 'backend', 'ai', 'systems', 'swe', 'ml', 'automation'],
+    dropExp: ['aquaorange'],
+  },
+  'glean-billing': {
+    focus: 'Has shipped reliable backend services and REST APIs with quantified cost-savings impact, plus hands-on pricing-model work that maps directly to consumption-based billing and revenue platform systems.',
+    priority: ['backend', 'pricing', 'swe', 'data', 'automation', 'infra', 'ai'],
+    dropExp: ['aquaorange'],
+  },
+  'glean-llm-evals': {
+    focus: 'Brings rigorous model-evaluation methodology -- multi-baseline calibration, ablations, and coverage metrics on a multimodal ML project -- plus production backend and data-pipeline experience, a strong base for building LLM evaluation and observability infrastructure.',
+    priority: ['eval', 'ml', 'ai', 'backend', 'data', 'systems', 'infra'],
+  },
+  'glean-developer-productivity': {
+    focus: 'Has hands-on CI/CD, Docker, Kubernetes, Argo CD, GitOps, backend services, and AI-agent tooling exposure, a strong early-career base for developer productivity work that improves build, test, and deployment workflows.',
+    priority: ['ci', 'infra', 'systems', 'automation', 'backend', 'swe', 'testing', 'ai'],
+    dropExp: ['aquaorange'],
+  },
+  'glean-fullstack': {
+    focus: 'Has shipped backend services, REST APIs, SQL-backed systems, ML workflows, and React-facing product features, a good fit for full-stack product engineering where backend strength and fast product ownership matter.',
+    priority: ['fullstack', 'backend', 'swe', 'data', 'automation', 'ai', 'product'],
+    dropExp: ['aquaorange'],
+  },
+  'glean-product-backend': {
+    focus: 'Has built Python backend services, REST APIs, relational data models, PostgreSQL workflows, and production-aligned ML/data systems, a strong fit for product backend work that needs stable APIs and scalable server-side implementations.',
+    priority: ['backend', 'swe', 'data', 'systems', 'automation', 'infra', 'product'],
+    dropExp: ['aquaorange'],
+  },
   'ramp-data': {
     focus: 'Has built data pipelines and warehouse-backed flows in SQL, Python, and Spark, which suits the reliable data infrastructure this team depends on.',
     priority: ['data', 'infra', 'backend', 'automation', 'swe', 'bi'],
   },
+  'ramp-core-product': {
+    focus: 'Has shipped backend services, REST APIs, and data workflows with Python, Flask, PostgreSQL, AWS, Docker, Kubernetes, and Argo CD, a strong early-career base for product backend systems that need reliability, data consistency, and automation.',
+    priority: ['backend', 'swe', 'infra', 'automation', 'data', 'ai', 'systems'],
+    dropExp: ['aquaorange'],
+  },
+  'ramp-credit': {
+    focus: 'Combines backend services, data modeling, ML workflows, and quantified automation impact, which maps well to credit systems that turn business rules, risk signals, and AI workflows into reliable software.',
+    priority: ['backend', 'data', 'automation', 'ml', 'ai', 'swe', 'systems'],
+    dropExp: ['aquaorange'],
+  },
+  'ramp-production-engineering': {
+    focus: 'Brings hands-on Kubernetes, Argo CD, Docker, REST API, PostgreSQL, and cloud deployment experience from production-aligned internship work, a strong foundation for infrastructure and reliability engineering.',
+    priority: ['infra', 'systems', 'backend', 'swe', 'automation', 'perf', 'data'],
+    dropExp: ['aquaorange'],
+  },
   'notion-ai': {
     focus: 'Focused on applied AI, with natural-language and multimodal pipelines deployed behind real services and careful evaluation built into the process.',
     priority: ['ai', 'swe', 'backend', 'fullstack', 'ml', 'eval', 'product'],
+  },
+  'notion-ai-capture': {
+    focus: 'Has built transcript and multimodal pipelines that turn unstructured conversational and visual input into structured, evaluated output, a direct fit for a team building AI Meeting Notes and conversation-capture features.',
+    priority: ['ai', 'ml', 'eval', 'backend', 'swe', 'fullstack', 'data'],
   },
   'mongodb-devprod': {
     focus: 'Brings CI/CD and GitOps experience along with solid systems fundamentals from teaching computer systems, a good base for build tooling and developer productivity.',
@@ -158,6 +227,16 @@ const ROLES = {
     focus: 'Brings genuine evaluation discipline, building language and multimodal pipelines and measuring them carefully, a direct fit for an evaluation and observability platform.',
     priority: ['eval', 'ai', 'ml', 'nlp', 'fullstack', 'backend'],
   },
+  'bland-multimodal-llms': {
+    focus: 'Has built multimodal modeling and evaluation pipelines, worked with AI agents and RAG, and shipped backend/data systems that connect models to usable workflows, a stretch but relevant base for conversational AI and multimodal LLM work.',
+    priority: ['ai', 'ml', 'nlp', 'eval', 'backend', 'data', 'automation'],
+    dropExp: ['aquaorange'],
+  },
+  'runpod-fullstack': {
+    focus: 'Has shipped Python backend services, REST APIs, ML workflows, Docker/Kubernetes deployments, and React-facing product work, a strong fit for an early-career full-stack role on AI infrastructure tooling.',
+    priority: ['backend', 'fullstack', 'swe', 'infra', 'ml', 'ai', 'automation'],
+    dropExp: ['aquaorange'],
+  },
   'loop-swe': {
     focus: 'Ships end to end across backend, front end, and the machine learning behind it, with AI-agent experience for deploying production AI systems.',
     priority: ['fullstack', 'swe', 'ai', 'backend', 'automation', 'ml'],
@@ -194,6 +273,11 @@ const ROLES = {
     focus: 'Has built cloud-native backend services and ML pipelines in production using Python, distributed data flows, and Kubernetes with CI/CD via Argo CD, a direct fit for Amazon\'s SDE program and ML specialization track.',
     priority: ['backend', 'infra', 'swe', 'ml', 'data', 'systems', 'automation', 'ai'],
   },
+  'affirm-swe-ml-training-serving': {
+    focus: 'Has built and deployed backend services and machine-learning-adjacent data systems with Python, PostgreSQL, Docker, Kubernetes, and Argo CD, a strong fit for ML training and serving infrastructure that needs reliable distributed systems fundamentals.',
+    priority: ['infra', 'backend', 'ml', 'data', 'swe', 'systems', 'automation', 'eval'],
+    dropExp: ['aquaorange'],
+  },
   'pinterest-swe-i-backend': {
     focus: 'Has shipped production backend services and REST APIs at scale with Python, Flask, and PostgreSQL, and is comfortable owning distributed systems end-to-end from design through deployment.',
     priority: ['backend', 'swe', 'data', 'infra', 'ml', 'automation', 'systems'],
@@ -205,6 +289,101 @@ const ROLES = {
   'sierra-agentbuilder': {
     focus: 'Combines backend API engineering, AI and prompt tooling, and Streamlit-based user interfaces, a natural fit for building the tooling that lets teams configure and deploy AI agents.',
     priority: ['ai', 'backend', 'automation', 'swe', 'data', 'fullstack', 'ml'],
+  },
+  'sierra-platform': {
+    focus: 'Has shipped Python backend services, REST APIs, Kubernetes/GitOps deployments, and AI-agent/RAG work, a useful base for platform primitives that help teams build and deploy reliable AI agents.',
+    priority: ['infra', 'backend', 'ai', 'systems', 'automation', 'swe', 'data'],
+    dropExp: ['aquaorange'],
+  },
+  'sierra-agent': {
+    focus: 'Has hands-on AI Agents, RAG, model evaluation, Python backend services, and workflow automation experience, a relevant base for production-grade agents that solve customer workflows.',
+    priority: ['ai', 'eval', 'backend', 'automation', 'ml', 'product', 'fullstack'],
+    dropExp: ['aquaorange'],
+  },
+  'sierra-intelligence': {
+    focus: 'Has built ML analytics, model-evaluation pipelines, data systems, and backend services on real industrial data, a strong base for agent-quality measurement, experimentation, and feedback-loop systems.',
+    priority: ['eval', 'ml', 'data', 'ai', 'backend', 'bi', 'systems'],
+    dropExp: ['aquaorange'],
+  },
+  'sierra-agent-healthcare': {
+    focus: 'Has built AI-agent/RAG workflows, backend services, and measurable automation tools, a relevant base for compliant healthcare agents that need evaluation, reliability, and customer workflow understanding.',
+    priority: ['ai', 'eval', 'backend', 'automation', 'product', 'data', 'fullstack'],
+    dropExp: ['aquaorange'],
+  },
+  'wayve-runtime-platform': {
+    focus: 'Brings hands-on backend, Kubernetes/GitOps deployment, observability-adjacent systems work, and low-level systems fundamentals, a relevant early-career base for runtime platform tooling that profiles and improves autonomous-vehicle software.',
+    priority: ['systems', 'perf', 'infra', 'backend', 'sensor', 'swe', 'data'],
+    dropExp: ['aquaorange'],
+  },
+  'mistral-research-ml': {
+    focus: 'Has built ML-adjacent backend services, data pipelines, model evaluation workflows, and Kubernetes deployments, a useful foundation for research engineering work that turns large-model experiments into reliable training and evaluation systems.',
+    priority: ['ml', 'ai', 'data', 'infra', 'eval', 'backend', 'systems'],
+    dropExp: ['aquaorange'],
+  },
+  'mistral-backend-ny': {
+    focus: 'Has shipped Python backend services, REST APIs, PostgreSQL-backed workflows, Docker/Kubernetes deployments, and AI-agent/RAG projects, a strong fit for backend systems that power AI products, developer tooling, billing, and observability.',
+    priority: ['backend', 'infra', 'ai', 'swe', 'data', 'systems', 'automation'],
+    dropExp: ['aquaorange'],
+  },
+  'google-ml-swe-travel-ads': {
+    focus: 'Has built ML workflows, model evaluation, data pipelines, and production backend services with Python and Kubernetes, a useful base for ranking, retrieval, GenAI inference, and experimentation work on large-scale ads systems.',
+    priority: ['ml', 'ai', 'eval', 'data', 'backend', 'infra', 'experimentation'],
+    dropExp: ['aquaorange'],
+  },
+  'google-application-engineer-fullstack': {
+    focus: 'Has built full-stack internal tooling, REST APIs, web-scale data pipelines, and financial pricing models, plus validation pipelines around a third-party vendor platform (Zoho CRM), a solid base for an Application Engineer role building internal financial-planning tools that integrate with vendor systems and deploy to the cloud.',
+    priority: ['fullstack', 'data', 'pricing', 'backend', 'infra', 'automation', 'impact', 'testing'],
+  },
+  'google-cloud-data-engineer-ps': {
+    focus: 'Has built ETL/Spark pipelines, REST APIs, and ML-driven analytics with query optimization on Python, PostgreSQL/MySQL, and cloud platforms (AWS, Azure), plus a track record of translating technical work for cross-functional and non-specialist audiences, a relevant base for data engineering and technical delivery work on Google Cloud.',
+    priority: ['data', 'backend', 'ml', 'infra', 'bi', 'automation', 'swe'],
+    dropExp: ['aquaorange'],
+  },
+  'google-parallel-fs-storage': {
+    focus: 'Has shipped production backend services and REST APIs deployed through Kubernetes and Argo CD GitOps pipelines, and brings systems-level performance reasoning from coursework and a 250x inference-speedup project, a relevant base for building and optimizing the distributed file-system layer behind Google Cloud\'s AI/ML storage infrastructure.',
+    priority: ['infra', 'systems', 'perf', 'backend', 'swe', 'impact', 'data'],
+    dropExp: ['aquaorange'],
+  },
+  'google-deepmind-genai-swe': {
+    focus: 'Has built and optimized a multimodal diffusion and transformer generative pipeline achieving up to 250x faster inference, alongside production Python backend services and test-automation experience, a direct fit for prototyping GenAI solutions for generative media, multimodal understanding, and ML pipelines at Google DeepMind.',
+    priority: ['ai', 'ml', 'inference', 'eval', 'systems', 'testing', 'backend'],
+  },
+  'google-pixel-ai-test-infra': {
+    focus: 'Has built test automation using BrowserStack and testRigor for cross-device functional and regression testing, and has optimized and evaluated a machine-learning pipeline achieving up to 250x faster inference, a direct fit for building AI-powered cross-device test infrastructure.',
+    priority: ['testing', 'ml', 'eval', 'inference', 'ai', 'systems', 'backend'],
+  },
+  'google-sustainability-data': {
+    focus: 'Has built a GHG emissions prediction pipeline in Power BI for sustainability and regulatory reporting, alongside production data pipelines and analytics platforms using Spark/PySpark, ETL, and cloud data warehouses, a direct fit for building and optimizing data pipelines and data marts for sustainability datasets.',
+    priority: ['data', 'bi', 'ds', 'infra', 'backend', 'eval', 'impact'],
+  },
+  'google-site-reliability': {
+    focus: 'Has deployed production backend services through GitOps-based Kubernetes and Argo CD pipelines for reliable, reproducible environments, and has automated manual workflows for measurable operational savings, a relevant base for developing and improving code for reliability, scalability, and automation in a Site Reliability Engineering role.',
+    priority: ['infra', 'systems', 'automation', 'perf', 'backend', 'impact', 'eval'],
+  },
+  'nvidia-applied-ml-circuit-ncg': {
+    focus: 'Has hands-on Python ML, model evaluation, AI-agent exposure, and systems fundamentals, a relevant new-grad base for AI-driven design automation even though circuit/VLSI domain depth is the main gap.',
+    priority: ['ml', 'ai', 'systems', 'perf', 'automation', 'eval', 'backend'],
+    dropExp: ['aquaorange'],
+  },
+  'nvidia-systems-ncg': {
+    focus: 'Brings low-level systems fundamentals, performance reasoning, ML workflow experience, and production-aligned Kubernetes/GitOps deployment, a good base for new-college-grad systems software work with an AI/computational methods edge.',
+    priority: ['systems', 'perf', 'ml', 'infra', 'swe', 'automation', 'ai'],
+    dropExp: ['aquaorange'],
+  },
+  'amazon-demand-forecasting-ds': {
+    focus: 'Combines forecasting-model project work, Python/SQL data pipelines, model evaluation, and production analytics experience, a strong thematic fit for large-scale demand forecasting despite the 3+ year requirement.',
+    priority: ['forecasting', 'ml', 'ds', 'data', 'eval', 'experimentation', 'impact'],
+    dropExp: ['aquaorange'],
+  },
+  'adobe-ug-mle': {
+    focus: 'Has built ML workflows, backend APIs, model evaluation, and deployed data/ML systems with Python, Docker, Kubernetes, and SQL, a strong fit for Adobe Firefly university-grad work on GenAI services, inference pipelines, and model productization.',
+    priority: ['ml', 'ai', 'inference', 'backend', 'eval', 'data', 'infra'],
+    dropExp: ['aquaorange'],
+  },
+  'apple-foundationdb': {
+    focus: 'Has production-aligned backend services, PostgreSQL workflows, Kubernetes/GitOps deployment, low-level systems fundamentals, and performance reasoning, a relevant base for distributed database engineering even though C++ database internals are a stretch.',
+    priority: ['systems', 'backend', 'perf', 'data', 'infra', 'swe', 'testing'],
+    dropExp: ['aquaorange'],
   },
   'robinhood-mle': {
     focus: 'Strongest in applied machine learning with production modeling on real data, tabular ML pipelines, and Kubernetes deployment experience, well positioned for a fintech ML engineering role.',
@@ -229,6 +408,76 @@ const ROLES = {
     priority: ['impact', 'backend', 'infra', 'automation', 'systems', 'swe', 'data'],
     dropExp: ['aquaorange'],
   },
+  'coreweave-data-infra': {
+    focus: 'Has built backend services, REST APIs, PostgreSQL-backed workflows, Spark/PySpark ETL pipelines, and Kubernetes/GitOps deployments, a strong early-career base for data infrastructure services on an AI cloud platform.',
+    priority: ['data', 'infra', 'backend', 'swe', 'systems', 'automation', 'ml'],
+    dropExp: ['aquaorange'],
+  },
+  'coreweave-devex': {
+    focus: 'Has hands-on CI/CD, Docker, Kubernetes, Argo CD, GitOps, backend services, and AI-agent tooling exposure, a strong foundation for developer experience work across CI, artifacts, cloud-native services, and agentic developer integrations.',
+    priority: ['ci', 'infra', 'backend', 'automation', 'systems', 'swe', 'ai', 'testing'],
+    dropExp: ['aquaorange'],
+  },
+  'coreweave-inference-aiml': {
+    focus: 'Has built and deployed ML-adjacent backend systems with Python, Kubernetes, GitOps, model evaluation, and inference-optimization project work, a strong fit for an IC1 model-serving role on GPU infrastructure.',
+    priority: ['inference', 'ml', 'backend', 'infra', 'systems', 'perf', 'ai'],
+    dropExp: ['aquaorange'],
+  },
+  'coreweave-observability': {
+    focus: 'Has deployed backend services with Docker, Kubernetes, Argo CD, GitOps, debugging, logging, monitoring, and ML workflow experience, a good base for observability systems on AI infrastructure.',
+    priority: ['infra', 'systems', 'backend', 'data', 'automation', 'ml', 'swe'],
+    dropExp: ['aquaorange'],
+  },
+  'deepgram-active-learning': {
+    focus: 'Has built Python backend services, data pipelines, ML workflows, and Kubernetes/GitOps deployments, a strong base for internal data and ML training systems that improve researcher productivity.',
+    priority: ['data', 'ml', 'backend', 'infra', 'automation', 'systems', 'swe'],
+    dropExp: ['aquaorange'],
+  },
+  'deepgram-ml-systems': {
+    focus: 'Has hands-on ML lifecycle, data engineering, internal tooling, and Kubernetes deployment experience, a strong fit for accelerating model research through scalable training and evaluation systems.',
+    priority: ['ml', 'data', 'infra', 'eval', 'backend', 'systems', 'automation'],
+    dropExp: ['aquaorange'],
+  },
+  'deepgram-voice-agent': {
+    focus: 'Has shipped backend services and ML-adjacent systems with Python, REST APIs, Kubernetes, and AI-agent experience, a useful base for voice-agent services that orchestrate models and production integrations.',
+    priority: ['backend', 'ai', 'ml', 'infra', 'systems', 'automation', 'swe'],
+    dropExp: ['aquaorange'],
+  },
+  'deepgram-mlops': {
+    focus: 'Has deployed machine-learning-adjacent services with Python, Docker, Kubernetes, Argo CD, and evaluation workflows, a strong early-career base for MLOps pipelines, model validation, and production monitoring.',
+    priority: ['infra', 'ml', 'backend', 'eval', 'automation', 'systems', 'data'],
+    dropExp: ['aquaorange'],
+  },
+  'cohere-agentic-workflows': {
+    focus: 'Has built AI-agent and RAG workflows alongside production backend services, model evaluation, and customer-facing product translation, a relevant base for reliable enterprise agentic systems.',
+    priority: ['ai', 'eval', 'backend', 'automation', 'ml', 'data', 'systems'],
+    dropExp: ['aquaorange'],
+  },
+  'cohere-data-foundations': {
+    focus: 'Has built Python and SQL data pipelines, Spark/PySpark workflows, analytics services, and deployed backend systems, a strong early-career base for data foundations work around AI products.',
+    priority: ['data', 'backend', 'infra', 'ml', 'automation', 'swe', 'bi'],
+    dropExp: ['aquaorange'],
+  },
+  'cohere-data-infra': {
+    focus: 'Has built data pipelines and deployed backend services with Python, Spark/PySpark, Docker, Kubernetes, Argo CD, and cloud storage, a relevant base for AI data infrastructure work.',
+    priority: ['data', 'infra', 'backend', 'ml', 'systems', 'automation', 'swe'],
+    dropExp: ['aquaorange'],
+  },
+  'langchain-observability-evals': {
+    focus: 'Has built ML evaluation pipelines, backend services, REST APIs, PostgreSQL-backed workflows, and AI-agent/RAG projects, a strong base for developer-facing AI observability and evals work.',
+    priority: ['eval', 'ai', 'backend', 'data', 'fullstack', 'systems', 'automation'],
+    dropExp: ['aquaorange'],
+  },
+  'langchain-applied-ai': {
+    focus: 'Has hands-on AI Agents, RAG, model evaluation, Python backend services, and workflow automation experience, a relevant base for production-grade applied AI agents and internal automation.',
+    priority: ['ai', 'eval', 'automation', 'backend', 'ml', 'fullstack', 'product'],
+    dropExp: ['aquaorange'],
+  },
+  'glacis-agentic-ai': {
+    focus: 'Has shipped Python backend services, AI-agent and RAG workflows, PostgreSQL systems, cloud deployments, and quantified automation impact, a useful base for agentic AI products in supply-chain workflows.',
+    priority: ['ai', 'backend', 'automation', 'fullstack', 'data', 'product', 'infra'],
+    dropExp: ['aquaorange'],
+  },
   'magnolia-inventory': {
     focus: 'Has used data analysis, automation, and BI tooling including Excel, Power BI, and Streamlit to turn operational data into measurable process improvements, and is comfortable maintaining accurate databases and translating data into actionable operational decisions.',
     priority: ['bi', 'data', 'pricing', 'automation', 'backend', 'systems'],
@@ -242,6 +491,11 @@ const ROLES = {
   'uline-data-analyst': {
     focus: 'Has built SQL-driven data systems and automation tools that replace manual processes with measurable results, including an automation tool that cut a 4-hour manual workflow to under 6 minutes and saved $176,980 annually, and is comfortable scoping a problem and shipping a working solution end to end.',
     priority: ['bi', 'data', 'pricing', 'automation', 'backend', 'systems'],
+    dropExp: ['aquaorange'],
+  },
+  'aurus-llm-ds-intern': {
+    focus: 'Has built a transformer-based pipeline that encodes text with FinBERT and trains a custom PyTorch fusion model with rigorous evaluation, plus production machine learning on millions of real industrial records, a relevant base for training and evaluating models against internal datasets.',
+    priority: ['ai', 'ml', 'eval', 'data', 'nlp', 'backend', 'infra'],
     dropExp: ['aquaorange'],
   },
 };
@@ -618,15 +872,16 @@ async function build(slug) {
     skills: parseSkills(master),
   };
 
-  await mkdir(OUTDIR, { recursive: true });
-  const texPath = `${OUTDIR}/stuti-shah-${slug}.tex`;
-  const pdfPath = `${OUTDIR}/stuti-shah-${slug}.pdf`;
+  const outDir = resolveOutDir(slug);
+  await mkdir(outDir, { recursive: true });
+  const texPath = `${outDir}/stuti-shah-${slug}.tex`;
+  const pdfPath = `${outDir}/stuti-shah-${slug}.pdf`;
 
   let pages = null;
   for (let i = 0; i < CAP_SEQUENCE.length; i += 1) {
     const tex = renderTex(master, parsed, role, CAP_SEQUENCE[i]);
     await writeFile(texPath, tex);
-    execFileSync('tectonic', [texPath, '-o', OUTDIR], { stdio: 'pipe' });
+    execFileSync('tectonic', [texPath, '-o', outDir], { stdio: 'pipe' });
     pages = countPages(pdfPath);
     if (pages === null || pages <= 1) break;
   }

@@ -91,6 +91,19 @@
 #   max: 0
 #   currency: "USD"
 
+# -- Recency filter (optional) --
+# Only keep postings published within the last `max_age_days` days.
+# Applied alongside the other filters, before dedup.
+#
+# Semantics:
+#   - max_age_days: 0 (or block absent) → no filtering, all postings pass
+#   - A job with no usable posting date from the provider passes regardless
+#     (conservative — not all sources expose a date)
+#
+# Example: only surface roles posted in the last week
+# recency_filter:
+#   max_age_days: 7
+
 # -- Title filter --
 # The scanner uses these keywords to decide if a title is relevant.
 # At least 1 positive must match AND 0 negatives must match (case-insensitive).

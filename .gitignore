@@ -35,6 +35,7 @@ modes/_profile.md
 
 # Generated
 .resolved-prompt-*
+.report-reservations/
 node_modules/
 bun.lock
 

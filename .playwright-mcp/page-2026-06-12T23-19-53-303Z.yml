@@ -1,0 +1,399 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - button "Main menu" [ref=e5] [cursor=pointer]:
+          - img [ref=e6]
+        - link "Careers" [ref=e10] [cursor=pointer]:
+          - /url: /about/careers/applications/
+          - generic [ref=e12]: Careers
+      - generic [ref=e13]:
+        - link "Skip navigation links" [ref=e14]:
+          - generic: Skip navigation links
+        - generic [ref=e17]:
+          - navigation "Candidate Portal Left Navigation" [ref=e21]:
+            - menubar [ref=e23]:
+              - generic [ref=e24]:
+                - menuitem "Home navigation link" [ref=e25] [cursor=pointer]:
+                  - menuitem [ref=e27]:
+                    - generic [ref=e28]:
+                      - generic [ref=e29]:
+                        - generic [ref=e34]: home
+                        - generic [ref=e36]: Home
+                      - generic [ref=e38]: Home
+                - menuitem "Jobs navigation item" [ref=e39] [cursor=pointer]:
+                  - menuitem [ref=e41]:
+                    - generic [ref=e42]:
+                      - generic [ref=e43]:
+                        - generic [ref=e48]: work_outline
+                        - generic [ref=e50]: Jobs
+                      - generic [ref=e52]: Jobs
+                - menuitem "Students navigation item" [ref=e53] [cursor=pointer]:
+                  - menuitem [ref=e55]:
+                    - generic [ref=e56]:
+                      - generic [ref=e57]:
+                        - generic [ref=e62]: noogler_hat
+                        - generic [ref=e64]: Students
+                      - generic [ref=e66]: Students
+                - menuitem "How we work navigation item" [ref=e67] [cursor=pointer]:
+                  - menuitem [ref=e69]:
+                    - generic [ref=e70]:
+                      - generic [ref=e71]:
+                        - generic [ref=e76]: google
+                        - generic [ref=e78]: How we work
+                      - generic [ref=e80]: How we work
+                - menuitem "How we hire navigation item" [ref=e81] [cursor=pointer]:
+                  - menuitem [ref=e83]:
+                    - generic [ref=e84]:
+                      - generic [ref=e85]:
+                        - generic [ref=e90]: handyman
+                        - generic [ref=e92]: How we hire
+                      - generic [ref=e94]: How we hire
+                - menuitem "Your career navigation item" [ref=e95] [cursor=pointer]:
+                  - menuitem [ref=e97]:
+                    - generic [ref=e98]:
+                      - generic [ref=e99]:
+                        - generic [ref=e104]: person_outline
+                        - generic [ref=e106]: Your career
+                      - generic [ref=e108]: Your career
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - generic [ref=e116] [cursor=pointer]:
+                - generic [ref=e117]: help_outline
+                - link "Help link" [ref=e118]:
+                  - /url: https://support.google.com/googlecareers
+              - tooltip [ref=e119]: Help link
+            - generic [ref=e120]:
+              - button "Send feedback" [ref=e121] [cursor=pointer]:
+                - generic [ref=e122]: feedback
+              - tooltip [ref=e123]: Send feedback
+      - generic [ref=e125]:
+        - button "Google apps" [ref=e129] [cursor=pointer]:
+          - img [ref=e130]
+        - link "Sign in" [ref=e133] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Fabout%2Fcareers%2Fapplications%2Fjobs%2Fresults%2F118891347712058054-software-engineer-pixel-test-engineeringai-application%3Fq%3Dsoftware%2520engineer%26location%3DUnited%2520States&followup=https%3A%2F%2Fwww.google.com%2Fabout%2Fcareers%2Fapplications%2Fjobs%2Fresults%2F118891347712058054-software-engineer-pixel-test-engineeringai-application%3Fq%3Dsoftware%2520engineer%26location%3DUnited%2520States&ec=GAZA6QE
+  - generic [ref=e141]:
+    - heading "job details" [level=1]
+    - generic [ref=e143]:
+      - generic [ref=e144]:
+        - generic [ref=e146]:
+          - generic [ref=e147] [cursor=pointer]:
+            - generic [ref=e148]: arrow_back
+            - link "Back to jobs search" [ref=e149]:
+              - /url: jobs/results?q=software%20engineer&location=United%20States
+          - generic [ref=e150]: Back to jobs search
+        - generic [ref=e151]:
+          - heading "Jobs search results" [level=2]
+          - generic [ref=e153]:
+            - list [ref=e154]:
+              - listitem [ref=e155]:
+                - link "Staff Software Engineer, Enterprise Product Strategy and Architecture Austin, TX, USA; New York, NY, USA ; +1 more" [ref=e160] [cursor=pointer]:
+                  - /url: jobs/results/81670461045252806-staff-software-engineer-enterprise-product-strategy-and-architecture?q=software%20engineer&location=United%20States
+                  - heading "Staff Software Engineer, Enterprise Product Strategy and Architecture" [level=3] [ref=e161]
+                  - paragraph [ref=e162]:
+                    - generic [ref=e163]:
+                      - text: Austin, TX, USA
+                      - generic [ref=e164]: ; New York, NY, USA
+                      - text: ; +1 more
+              - listitem [ref=e165]:
+                - link "Software Engineer, Parallel File Systems, AI/ML Storage Seattle, WA, USA" [ref=e170] [cursor=pointer]:
+                  - /url: jobs/results/81021783544603334-software-engineer-parallel-file-systems-aiml-storage?q=software%20engineer&location=United%20States
+                  - heading "Software Engineer, Parallel File Systems, AI/ML Storage" [level=3] [ref=e171]
+                  - paragraph [ref=e172]:
+                    - generic [ref=e173]: Seattle, WA, USA
+              - listitem [ref=e174]:
+                - link "Software Engineer III Raleigh, NC, USA; Durham, NC, USA" [ref=e179] [cursor=pointer]:
+                  - /url: jobs/results/135744170068189894-software-engineer-iii?q=software%20engineer&location=United%20States
+                  - heading "Software Engineer III" [level=3] [ref=e180]
+                  - paragraph [ref=e181]:
+                    - generic [ref=e182]:
+                      - text: Raleigh, NC, USA
+                      - generic [ref=e183]: ; Durham, NC, USA
+              - listitem [ref=e184]:
+                - link "Software Engineer Mountain View, CA, USA" [ref=e189] [cursor=pointer]:
+                  - /url: jobs/results/119871476428874438-software-engineer?q=software%20engineer&location=United%20States
+                  - heading "Software Engineer" [level=3] [ref=e190]
+                  - paragraph [ref=e191]:
+                    - generic [ref=e192]: Mountain View, CA, USA
+              - listitem [ref=e193]:
+                - link "Software Engineer Mountain View, CA, USA" [ref=e198] [cursor=pointer]:
+                  - /url: jobs/results/122293700544864966-software-engineer?q=software%20engineer&location=United%20States
+                  - heading "Software Engineer" [level=3] [ref=e199]
+                  - paragraph [ref=e200]:
+                    - generic [ref=e201]: Mountain View, CA, USA
+              - listitem [ref=e202]:
+                - link "Software Engineer Mountain View, CA, USA" [ref=e207] [cursor=pointer]:
+                  - /url: jobs/results/125572719096799942-software-engineer?q=software%20engineer&location=United%20States
+                  - heading "Software Engineer" [level=3] [ref=e208]
+                  - paragraph [ref=e209]:
+                    - generic [ref=e210]: Mountain View, CA, USA
+              - listitem [ref=e211]:
+                - link "Software Engineer Sunnyvale, CA, USA" [ref=e216] [cursor=pointer]:
+                  - /url: jobs/results/89262447101125318-software-engineer?q=software%20engineer&location=United%20States
+                  - heading "Software Engineer" [level=3] [ref=e217]
+                  - paragraph [ref=e218]:
+                    - generic [ref=e219]: Sunnyvale, CA, USA
+              - listitem [ref=e220]:
+                - link "Software Engineer New York, NY, USA" [ref=e225] [cursor=pointer]:
+                  - /url: jobs/results/75837135248073414-software-engineer?q=software%20engineer&location=United%20States
+                  - heading "Software Engineer" [level=3] [ref=e226]
+                  - paragraph [ref=e227]:
+                    - generic [ref=e228]: New York, NY, USA
+              - listitem [ref=e229]:
+                - link "Software Engineer Mountain View, CA, USA" [ref=e234] [cursor=pointer]:
+                  - /url: jobs/results/72972082823996102-software-engineer?q=software%20engineer&location=United%20States
+                  - heading "Software Engineer" [level=3] [ref=e235]
+                  - paragraph [ref=e236]:
+                    - generic [ref=e237]: Mountain View, CA, USA
+              - listitem [ref=e238]:
+                - link "Software Engineer Mountain View, CA, USA" [ref=e243] [cursor=pointer]:
+                  - /url: jobs/results/128084553410454214-software-engineer?q=software%20engineer&location=United%20States
+                  - heading "Software Engineer" [level=3] [ref=e244]
+                  - paragraph [ref=e245]:
+                    - generic [ref=e246]: Mountain View, CA, USA
+              - listitem [ref=e247]:
+                - link "Software Engineer, AI Software Agents Mountain View, CA, USA" [ref=e252] [cursor=pointer]:
+                  - /url: jobs/results/121974803417440966-software-engineer-ai-software-agents?q=software%20engineer&location=United%20States
+                  - heading "Software Engineer, AI Software Agents" [level=3] [ref=e253]
+                  - paragraph [ref=e254]:
+                    - generic [ref=e255]: Mountain View, CA, USA
+              - listitem [ref=e256]:
+                - link "Staff Software Engineer New York, NY, USA" [ref=e261] [cursor=pointer]:
+                  - /url: jobs/results/93660493612229318-staff-software-engineer?q=software%20engineer&location=United%20States
+                  - heading "Staff Software Engineer" [level=3] [ref=e262]
+                  - paragraph [ref=e263]:
+                    - generic [ref=e264]: New York, NY, USA
+              - listitem [ref=e265]:
+                - link "Staff Software Engineer Mountain View, CA, USA" [ref=e270] [cursor=pointer]:
+                  - /url: jobs/results/92429040589120198-staff-software-engineer?q=software%20engineer&location=United%20States
+                  - heading "Staff Software Engineer" [level=3] [ref=e271]
+                  - paragraph [ref=e272]:
+                    - generic [ref=e273]: Mountain View, CA, USA
+              - listitem [ref=e274]:
+                - link "Staff Software Engineer, ML Fleet Systems Sunnyvale, CA, USA; Seattle, WA, USA" [ref=e279] [cursor=pointer]:
+                  - /url: jobs/results/124383614451229382-staff-software-engineer-ml-fleet-systems?q=software%20engineer&location=United%20States
+                  - heading "Staff Software Engineer, ML Fleet Systems" [level=3] [ref=e280]
+                  - paragraph [ref=e281]:
+                    - generic [ref=e282]:
+                      - text: Sunnyvale, CA, USA
+                      - generic [ref=e283]: ; Seattle, WA, USA
+              - listitem [ref=e284]:
+                - link "Software Engineer, Pixel Test Engineering/AI Application Mountain View, CA, USA" [ref=e289] [cursor=pointer]:
+                  - /url: jobs/results/118891347712058054-software-engineer-pixel-test-engineeringai-application?q=software%20engineer&location=United%20States
+                  - heading "Software Engineer, Pixel Test Engineering/AI Application" [level=3] [ref=e290]
+                  - paragraph [ref=e291]:
+                    - generic [ref=e292]: Mountain View, CA, USA
+              - listitem [ref=e293]:
+                - link "Software Engineer, Data, Global Sustainability San Francisco, CA, USA; Boulder, CO, USA ; +4 more" [ref=e298] [cursor=pointer]:
+                  - /url: jobs/results/119452755772220102-software-engineer-data-global-sustainability?q=software%20engineer&location=United%20States
+                  - heading "Software Engineer, Data, Global Sustainability" [level=3] [ref=e299]
+                  - paragraph [ref=e300]:
+                    - generic [ref=e301]:
+                      - text: San Francisco, CA, USA
+                      - generic [ref=e302]: ; Boulder, CO, USA
+                      - text: ; +4 more
+              - listitem [ref=e303]:
+                - link "Staff Software Engineer, Embedded Systems/Firmware, Platforms Infrastructure Engineering Sunnyvale, CA, USA" [ref=e308] [cursor=pointer]:
+                  - /url: jobs/results/111969501007749830-staff-software-engineer-embedded-systemsfirmware-platforms-infrastructure-engineering?q=software%20engineer&location=United%20States
+                  - heading "Staff Software Engineer, Embedded Systems/Firmware, Platforms Infrastructure Engineering" [level=3] [ref=e309]
+                  - paragraph [ref=e310]:
+                    - generic [ref=e311]: Sunnyvale, CA, USA
+              - listitem [ref=e312]:
+                - link "Software Engineer, Site Reliability Mountain View, CA, USA" [ref=e317] [cursor=pointer]:
+                  - /url: jobs/results/90934529409065670-software-engineer-site-reliability?q=software%20engineer&location=United%20States
+                  - heading "Software Engineer, Site Reliability" [level=3] [ref=e318]
+                  - paragraph [ref=e319]:
+                    - generic [ref=e320]: Mountain View, CA, USA
+              - listitem [ref=e321]:
+                - link "Staff Software Engineer, Embedded Systems/Firmware Sunnyvale, CA, USA" [ref=e326] [cursor=pointer]:
+                  - /url: jobs/results/142850990175855302-staff-software-engineer-embedded-systemsfirmware?q=software%20engineer&location=United%20States
+                  - heading "Staff Software Engineer, Embedded Systems/Firmware" [level=3] [ref=e327]
+                  - paragraph [ref=e328]:
+                    - generic [ref=e329]: Sunnyvale, CA, USA
+              - listitem [ref=e330]:
+                - link "Senior Software Engineer New York, NY, USA" [ref=e335] [cursor=pointer]:
+                  - /url: jobs/results/108226823657005766-senior-software-engineer?q=software%20engineer&location=United%20States
+                  - heading "Senior Software Engineer" [level=3] [ref=e336]
+                  - paragraph [ref=e337]:
+                    - generic [ref=e338]: New York, NY, USA
+            - generic [ref=e343]:
+              - status [ref=e344]:
+                - generic [ref=e345]: Showing 1 to 20 of 1066 rows
+                - generic [ref=e346]: 1‑20 of 1066
+              - generic [ref=e347] [cursor=pointer]:
+                - generic [ref=e348]: navigate_next
+                - link "Go to next page" [ref=e349]:
+                  - /url: https://www.google.com/about/careers/applications/jobs/results/118891347712058054-software-engineer-pixel-test-engineeringai-application?q=software%20engineer&location=United%20States&page=2
+      - generic [ref=e350]:
+        - main [ref=e351]:
+          - generic [ref=e358]:
+            - generic [ref=e359]:
+              - heading "Software Engineer, Pixel Test Engineering/AI Application" [level=2] [ref=e360]
+              - button "Share Software Engineer, Pixel Test Engineering/AI Application" [ref=e365] [cursor=pointer]:
+                - generic [ref=e366]: share
+            - generic [ref=e367]:
+              - generic [ref=e368]:
+                - generic [ref=e369]: corporate_fare
+                - generic [ref=e370]: Google
+              - generic [ref=e371]:
+                - generic [ref=e372]: place
+                - generic [ref=e373]: Mountain View, CA, USA
+              - img "Mid, Learn more about experience filters." [ref=e377]:
+                - generic [ref=e381]: bar_chart
+                - generic [ref=e382]: Mid
+            - generic [ref=e385]:
+              - generic [ref=e387]: Apply
+              - link "Apply" [ref=e388] [cursor=pointer]:
+                - /url: ./apply?jobId=CiUAL2FckekE8Q1IhdbODStQjnPPGHzlbyBpLQPgZp-zXG7Vg5adEjsACxwdTAMdwx7FVZWeYP3fOPjIsxCxduO1rgWC7KJVlej8D9nZs3yndvox_mxxc9W-LTcUc_WEhsP4Qg%3D%3D_V2&loc=US&title=Software+Engineer&q=software%20engineer&location=United%20States
+            - generic [ref=e389]:
+              - heading "Minimum qualifications:" [level=3] [ref=e390]
+              - list [ref=e391]:
+                - listitem [ref=e392]: Bachelor’s degree or equivalent practical experience.
+                - listitem [ref=e393]: 2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree.
+                - listitem [ref=e394]: "1 year of experience with one or more of the following: Speech/audio (e.g., technology duplicating and responding to the human voice), reinforcement learning (e.g., sequential decision making), ML infrastructure, or specialization in another ML field."
+                - listitem [ref=e395]: 1 year of experience with ML infrastructure (e.g., model deployment, model evaluation, optimization, data processing, debugging).
+              - heading "Preferred qualifications:" [level=3] [ref=e396]
+              - list [ref=e397]:
+                - listitem [ref=e398]: Master's degree or PhD in Computer Science or related technical fields.
+                - listitem [ref=e399]: 2 years of experience with data structures and algorithms.
+                - listitem [ref=e400]: Experience developing accessible technologies.
+            - generic [ref=e401]:
+              - heading "About the job" [level=3] [ref=e402]
+              - paragraph [ref=e403]: Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.
+              - paragraph [ref=e404]: We are seeking a motivated and experienced software engineer to be a key contributor in building and owning our cutting-edge, cross-device test infrastructure. In this role, you will play a crucial part in transforming our software development lifecycle, empowering our test engineers and developers to achieve faster release cycles and higher quality software. You will leverage your deep technical skills to construct robust, scalable test systems and explore and implement AI-powered automation to drive efficiency and innovation.
+              - paragraph [ref=e405]: The Platforms and Devices team encompasses Google's various computing software platforms across environments (desktop, mobile, applications), as well as our first party devices and services that combine the best of Google AI, software, and hardware. Teams across this area research, design, and develop new technologies to make our user's interaction with computing faster and more seamless, building innovative experiences for our users around the world.
+              - text: Individual pay is determined by factors including job-related skills, experience, and relevant education or training.
+              - text: "US: $147000 - $211000 (USD) + 15% bonus target + bonus + equity + benefits"
+              - text: Learn more about
+              - link "benefits at Google" [ref=e406] [cursor=pointer]:
+                - /url: https://www.google.com/about/careers/applications/benefits/
+              - text: .
+            - generic [ref=e407]:
+              - heading "Responsibilities" [level=3] [ref=e408]
+              - list [ref=e409]:
+                - listitem [ref=e410]: Write product or system development code.
+                - listitem [ref=e411]: Collaborate with peers and stakeholders through design and code reviews to ensure best practices amongst available technologies (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).
+                - listitem [ref=e412]: Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback.
+                - listitem [ref=e413]: Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality.
+                - listitem [ref=e414]: Implement solutions in one or more specialized ML areas, utilize ML infrastructure, and contribute to model optimization and data processing.
+            - generic [ref=e416]:
+              - paragraph [ref=e417]:
+                - text: Information collected and processed as part of your Google Careers profile, and any job applications you choose to submit is subject to Google's
+                - link "Applicant and Candidate Privacy Policy" [ref=e418] [cursor=pointer]:
+                  - /url: ./privacy-policy
+                - text: .
+              - paragraph [ref=e419]:
+                - text: Google is proud to be an equal opportunity and affirmative action employer. We are committed to building a workforce that is representative of the users we serve, creating a culture of belonging, and providing an equal employment opportunity regardless of race, creed, color, religion, gender, sexual orientation, gender identity/expression, national origin, disability, age, genetic information, veteran status, marital status, pregnancy or related condition (including breastfeeding), expecting or parents-to-be, criminal histories consistent with legal requirements, or any other basis protected by law. See also
+                - link "Google's EEO Policy" [ref=e420] [cursor=pointer]:
+                  - /url: https://www.google.com/about/careers/applications/eeo/
+                - text: ","
+                - 'link "Know your rights: workplace discrimination is illegal" [ref=e421] [cursor=pointer]':
+                  - /url: https://careers.google.com/jobs/dist/legal/EEOC_KnowYourRights_10_20.pdf
+                - text: ","
+                - link "Belonging at Google" [ref=e422] [cursor=pointer]:
+                  - /url: https://about.google/belonging/
+                - text: ", and"
+                - link "How we hire" [ref=e423] [cursor=pointer]:
+                  - /url: https://careers.google.com/how-we-hire/
+                - text: .
+              - paragraph [ref=e424]:
+                - text: If you have a need that requires accommodation, please let us know by completing our
+                - link "Accommodations for Applicants form" [ref=e425] [cursor=pointer]:
+                  - /url: https://goo.gl/forms/aBt6Pu71i1kzpLHe2
+                - text: .
+              - paragraph [ref=e426]: Google is a global company and, in order to facilitate efficient collaboration and communication globally, English proficiency is a requirement for all roles unless stated otherwise in the job posting.
+              - paragraph [ref=e427]: "To all recruitment agencies: Google does not accept agency resumes. Please do not forward resumes to our jobs alias, Google employees, or any other organization location. Google is not responsible for any fees related to unsolicited resumes."
+              - paragraph [ref=e428]: Equity is granted exclusively and discretionarily by Alphabet Inc. on the basis of an agreement concluded between you and Alphabet Inc. Alphabet Inc. is your sole contractual partner with respect to equity grants. GSU grants are not guaranteed, are discretionary, are subject to approval by the Alphabet Inc. board of directors or its delegate, the terms of the relevant Alphabet Inc. stock plan, and your grant agreement. They have no impact on statutory payments. Current or past grants do not confer an acquired right.
+        - contentinfo [ref=e430]:
+          - generic [ref=e432]:
+            - generic [ref=e433]:
+              - heading "Follow Life at Google on" [level=2] [ref=e434]
+              - list [ref=e435]:
+                - listitem [ref=e436]:
+                  - link "View our Instagram feed (Opens in a new tab)" [ref=e437] [cursor=pointer]:
+                    - /url: https://www.instagram.com/lifeatgoogle/
+                - listitem [ref=e442]:
+                  - link "View our Twitter feed (Opens in a new tab)" [ref=e443] [cursor=pointer]:
+                    - /url: https://twitter.com/lifeatgoogle
+                - listitem [ref=e446]:
+                  - link "View our YouTube channel (Opens in a new tab)" [ref=e447] [cursor=pointer]:
+                    - /url: https://www.youtube.com/lifeatgoogle
+                - listitem [ref=e450]:
+                  - link "View LinkedIn (Opens in a new tab)" [ref=e451] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/google/jobs/
+                - listitem [ref=e454]:
+                  - link "View our Facebook (Opens in a new tab)" [ref=e455] [cursor=pointer]:
+                    - /url: https://www.facebook.com/lifeatgoogle/
+            - generic [ref=e460]:
+              - generic [ref=e461]:
+                - heading "More about us" [level=2] [ref=e462]
+                - generic [ref=e463]:
+                  - link "About us (opens in a new tab)" [ref=e464] [cursor=pointer]:
+                    - /url: https://about.google/
+                    - text: About us
+                    - generic [ref=e466]: open_in_new
+                  - link "Contact us (opens in a new tab)" [ref=e467] [cursor=pointer]:
+                    - /url: https://about.google/contact-google/
+                    - text: Contact us
+                    - generic [ref=e469]: open_in_new
+                  - link "Press (opens in a new tab)" [ref=e470] [cursor=pointer]:
+                    - /url: https://blog.google/press/
+                    - text: Press
+                    - generic [ref=e472]: open_in_new
+              - generic [ref=e473]:
+                - heading "Related Information" [level=2] [ref=e474]
+                - generic [ref=e475]:
+                  - link "Investor relations (opens in a new tab)" [ref=e476] [cursor=pointer]:
+                    - /url: https://abc.xyz/investor/
+                    - text: Investor relations
+                    - generic [ref=e478]: open_in_new
+                  - link "Blog (opens in a new tab)" [ref=e479] [cursor=pointer]:
+                    - /url: https://blog.google/
+                    - text: Blog
+                    - generic [ref=e481]: open_in_new
+              - generic [ref=e482]:
+                - heading "Equal Opportunity" [level=2] [ref=e483]
+                - paragraph [ref=e484]:
+                  - text: Google is proud to be an equal opportunity and affirmative action employer. We are committed to building a workforce that is representative of the users we serve, creating a culture of belonging, and providing an equal employment opportunity regardless of race, creed, color, religion, gender, sexual orientation, gender identity/expression, national origin, disability, age, genetic information, veteran status, marital status, pregnancy or related condition (including breastfeeding), expecting or parents-to-be, criminal histories consistent with legal requirements, or any other basis protected by law. See also
+                  - link "Google's EEO Policy" [ref=e485] [cursor=pointer]:
+                    - /url: https://www.google.com/about/careers/applications/eeo/
+                  - text: ","
+                  - 'link "Know your rights: workplace discrimination is illegal" [ref=e486] [cursor=pointer]':
+                    - /url: https://careers.google.com/jobs/dist/legal/EEOC_KnowYourRights_10_20.pdf
+                  - text: ","
+                  - link "Belonging at Google" [ref=e487] [cursor=pointer]:
+                    - /url: https://about.google/belonging/
+                  - text: ", and"
+                  - link "How we hire" [ref=e488] [cursor=pointer]:
+                    - /url: https://careers.google.com/how-we-hire/
+                  - text: .
+            - generic [ref=e489]:
+              - link "google.com (Opens in a new tab)" [ref=e491] [cursor=pointer]:
+                - /url: https://www.google.com/
+                - img "Google" [ref=e492]
+              - generic [ref=e493]:
+                - generic [ref=e494]:
+                  - link "Privacy (opens in a new tab)" [ref=e496] [cursor=pointer]:
+                    - /url: https://policies.google.com/privacy
+                    - text: Privacy
+                    - generic [ref=e498]: open_in_new
+                  - link "Applicant & Candidate Privacy (opens in a new tab)" [ref=e500] [cursor=pointer]:
+                    - /url: ./privacy-policy
+                    - text: Applicant & Candidate Privacy
+                    - generic [ref=e502]: open_in_new
+                  - link "Terms (opens in a new tab)" [ref=e504] [cursor=pointer]:
+                    - /url: https://policies.google.com/terms
+                    - text: Terms
+                    - generic [ref=e506]: open_in_new
+                - generic [ref=e507]:
+                  - link "Help (opens in a new tab)" [ref=e508] [cursor=pointer]:
+                    - /url: https://support.google.com/googlecareers/#topic=6095159
+                    - generic [ref=e510]: help
+                    - text: Help
+                    - generic [ref=e512]: open_in_new
+                  - combobox "Select language" [ref=e516] [cursor=pointer]:
+                    - generic: language
+                    - generic:
+                      - generic: English
+                    - generic:
+                      - img

@@ -103,11 +103,11 @@ Clasifica la oferta en uno de los 6 arquetipos. Si es híbrido, indica los 2 má
 
 Convertir "builder" en señal profesional, no en "hobby maker". El framing cambia, la verdad es la misma.
 
-#### Bloque A — Resumen del Rol
+#### Block A — Role Summary
 
 Tabla con: Arquetipo detectado, Domain, Function, Seniority, Remote, Team size, TL;DR.
 
-#### Bloque B — Match con CV
+#### Block B — CV Match
 
 Read `cv.md`. Tabla con cada requisito del JD mapeado a líneas exactas del CV o keys de i18n.ts.
 
@@ -125,36 +125,36 @@ Sección de **gaps** con estrategia de mitigación para cada uno:
 3. ¿Hay un proyecto portfolio que cubra este gap?
 4. Plan de mitigación concreto
 
-#### Bloque C — Nivel y Estrategia
+#### Block C — Level Strategy
 
-1. **Nivel detectado** en el JD vs **candidate's natural level**
-2. **Plan "vender senior sin mentir"**: frases específicas, logros concretos, founder como ventaja
-3. **Plan "si me downlevelan"**: aceptar si comp justa, review a 6 meses, criterios claros
+1. **Level detected** en el JD vs **candidate's natural level**
+2. **Plan "sell senior without lying"**: frases específicas, logros concretos, founder como ventaja
+3. **Plan "if downleveled"**: aceptar si comp justa, review a 6 meses, criterios claros
 
-#### Bloque D — Comp y Demanda
+#### Block D — Compensation
 
 Usar WebSearch para salarios actuales (Glassdoor, Levels.fyi, Blind), reputación comp de la empresa, tendencia demanda. Tabla con datos y fuentes citadas. Si no hay datos, decirlo.
 
 Score de comp (1-5): 5=top quartile, 4=above market, 3=median, 2=slightly below, 1=well below.
 
-#### Bloque E — Plan de Personalización
+#### Block E — Personalization Plan
 
-| # | Sección | Estado actual | Cambio propuesto | Por qué |
+| # | Section | Current State | Proposed Change | Why |
 |---|---------|---------------|------------------|---------|
 
 Top 5 cambios al CV + Top 5 cambios a LinkedIn.
 
-#### Bloque F — Plan de Entrevistas
+#### Block F — Interview Plan
 
 6-10 historias STAR mapeadas a requisitos del JD:
 
-| # | Requisito del JD | Historia STAR | S | T | A | R |
+| # | JD Requirement | STAR Story | S | T | A | R |
 
 **Selección adaptada al arquetipo.** Incluir también:
 - 1 case study recomendado (cuál proyecto presentar y cómo)
 - Preguntas red-flag y cómo responderlas
 
-#### Bloque G — Posting Legitimacy
+#### Block G — Posting Legitimacy
 
 Analyze posting signals to assess whether this is a real, active opening.
 
@@ -170,16 +170,16 @@ Analyze posting signals to assess whether this is a real, active opening.
 
 **Assessment:** Apply the same three tiers (High Confidence / Proceed with Caution / Suspicious), weighting available signals more heavily. If insufficient signals are available to make a determination, default to "Proceed with Caution" with a note about limited data.
 
-#### Score Global
+#### Score Breakdown
 
-| Dimensión | Score |
+| Dimension | Score |
 |-----------|-------|
-| Match con CV | X/5 |
-| Alineación North Star | X/5 |
-| Comp | X/5 |
-| Señales culturales | X/5 |
+| CV Match | X/5 |
+| North Star Alignment | X/5 |
+| Compensation | X/5 |
+| Cultural Signals | X/5 |
 | Red flags | -X (si hay) |
-| **Global** | **X/5** |
+| **Overall** | **X/5** |
 
 #### Machine Summary
 
@@ -221,10 +221,10 @@ Donde `{company-slug}` es el nombre de empresa en lowercase, sin espacios, con g
 **Formato del report:**
 
 ```markdown
-# Evaluación: {Empresa} — {Rol}
+# Evaluation: {Empresa} — {Rol}
 
-**Fecha:** {{DATE}}
-**Arquetipo:** {detectado}
+**Date:** {{DATE}}
+**Archetype:** {detectado}
 **Score:** {X/5}
 **Legitimacy:** {High Confidence | Proceed with Caution | Suspicious}
 **URL:** {URL de la oferta original}
@@ -253,22 +253,22 @@ confidence: "{Low | Medium | High}"
 next_action: "{one concrete next step}"
 ```
 
-## A) Resumen del Rol
+## A) Role Summary
 (contenido completo)
 
-## B) Match con CV
+## B) CV Match
 (contenido completo)
 
-## C) Nivel y Estrategia
+## C) Level Strategy
 (contenido completo)
 
-## D) Comp y Demanda
+## D) Compensation
 (contenido completo)
 
-## E) Plan de Personalización
+## E) Personalization Plan
 (contenido completo)
 
-## F) Plan de Entrevistas
+## F) Interview Plan
 (contenido completo)
 
 ## G) Posting Legitimacy
@@ -276,7 +276,7 @@ next_action: "{one concrete next step}"
 
 ---
 
-## Keywords extraídas
+## Extracted Keywords
 (15-20 keywords del JD para ATS)
 ```
 

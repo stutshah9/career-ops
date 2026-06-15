@@ -237,6 +237,33 @@ export function buildSalaryFilter(salaryFilter) {
   };
 }
 
+// ── Recency filter ──────────────────────────────────────────────────
+// Optional. If `recency_filter` is absent or `max_age_days` is 0/unset,
+// all postings pass (current default behavior).
+// Semantics:
+//   - If a job has no `postedAt` (provider doesn't expose a date), it passes —
+//     conservative behavior, same as the salary filter with missing data.
+//   - Otherwise, reject postings older than `max_age_days`.
+
+export function buildAgeFilter(recencyFilter) {
+  if (!recencyFilter) return () => true;
+
+  const maxAgeDays = Number(recencyFilter.max_age_days ?? 0);
+  if (!Number.isFinite(maxAgeDays) || maxAgeDays < 0) {
+    console.error('Warning: recency_filter.max_age_days must be a non-negative number — recency filter disabled');
+    return () => true;
+  }
+  if (maxAgeDays === 0) return () => true;
+
+  const maxAgeMs = maxAgeDays * 86_400_000;
+
+  return (postedAt) => {
+    // No date info from the provider — pass conservatively
+    if (postedAt == null || !Number.isFinite(postedAt)) return true;
+    return Date.now() - postedAt <= maxAgeMs;
+  };
+}
+
 // ── URL rediscovery (--rediscover-404) ──────────────────────────────
 // When a tracked company's job URL returns 404/410, the role may have just
 // moved to a new URL (Workday/Greenhouse rotate URLs without closing roles).
@@ -642,6 +669,7 @@ async function main() {
   const titleFilter = buildTitleFilter(config.title_filter);
   const locationFilter = buildLocationFilter(config.location_filter);
   const salaryFilter = buildSalaryFilter(config.salary_filter);
+  const ageFilter = buildAgeFilter(config.recency_filter);
 
   // 3. Resolve a provider for each enabled company / board
   const targets = [];
@@ -713,6 +741,7 @@ async function main() {
   let totalFilteredTitle = 0;
   let totalFilteredLocation = 0;
   let totalFilteredSalary = 0;
+  let totalFilteredAge = 0;
   let totalDupes = 0;
   const newOffers = [];
   const errors = [...resolveErrors];
@@ -753,6 +782,10 @@ async function main() {
         }
         if (!salaryFilter(job.salary)) {
           totalFilteredSalary++;
+          continue;
+        }
+        if (!ageFilter(job.postedAt)) {
+          totalFilteredAge++;
           continue;
         }
         if (seenUrls.has(job.url)) {
@@ -852,6 +885,7 @@ async function main() {
   console.log(`Filtered by title:     ${totalFilteredTitle} removed`);
   console.log(`Filtered by location:  ${totalFilteredLocation} removed`);
   console.log(`Filtered by salary:   ${totalFilteredSalary} removed`);
+  console.log(`Filtered by age:       ${totalFilteredAge} removed`);
   console.log(`Duplicates:            ${totalDupes} skipped`);
   if (historyPolicy.recheckAfterDays != null) {
     console.log(`Recheck eligible:      ${seenUrlState.recheckEligible} old scan-history URL(s)`);
