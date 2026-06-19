@@ -1,0 +1,60 @@
+- generic [ref=e4]:
+  - link "Skip to main content" [ref=e5] [cursor=pointer]:
+    - /url: ""
+  - banner [ref=e8]:
+    - generic [ref=e10]:
+      - heading "CAREERS AT NVIDIA" [level=1] [ref=e13]
+      - generic [ref=e15]:
+        - button "Sign In" [ref=e17] [cursor=pointer]:
+          - generic [ref=e22]: Sign In
+        - navigation [ref=e23]:
+          - button "Home" [ref=e24] [cursor=pointer]
+          - button "Search for Jobs" [ref=e25] [cursor=pointer]
+  - generic [ref=e29]:
+    - group "Filters Applied" [ref=e32]:
+      - generic [ref=e33]: Filters Applied
+      - list [ref=e34]:
+        - listitem [ref=e35]:
+          - 'button "Search: \"New+College+Grad\" clear filter" [ref=e36]': "Search: \"New+College+Grad\""
+        - listitem [ref=e40]:
+          - button "Clear All (1)" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]: Clear All (1)
+    - generic [ref=e44]:
+      - alert [ref=e45]: Search for Jobs page is loaded
+      - region "Search Results" [ref=e46]:
+        - paragraph [ref=e47]:
+          - generic [ref=e49]: Loading
+        - generic [ref=e54]: Loading
+      - generic [ref=e66]:
+        - img "NV-rgb-blk-apr2026" [ref=e67]
+        - generic [ref=e71]:
+          - paragraph [ref=e72]: NVIDIA pioneered accelerated computing. Today, our AI infrastructure powers global intelligence, transforming every industry.
+          - paragraph [ref=e73]
+          - paragraph [ref=e74]:
+            - text: Learn more about
+            - link "NVIDIA" [ref=e75] [cursor=pointer]:
+              - /url: https://nam11.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.nvidia.com%2Fobject%2Fabout-nvidia.html%23sthash.qlXKW56Q.dpuf&data=05%7C01%7Chozkan%40nvidia.com%7Cf442a08620ed4ab9afb108db18e6d308%7C43083d15727340c1b7db39efd9ccc17a%7C0%7C0%7C638131151878484303%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=DjpWGYWzl3J2uwSP6woYwjdRi52yvWRVeAijKer9u%2Fk%3D&reserved=0
+            - text: .
+  - generic [ref=e76]:
+    - heading "Follow Us" [level=4] [ref=e77]
+    - list [ref=e78]:
+      - listitem [ref=e79] [cursor=pointer]:
+        - link "X" [ref=e80]:
+          - /url: https://twitter.com/nvidia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+      - listitem [ref=e84] [cursor=pointer]:
+        - link "Facebook" [ref=e85]:
+          - /url: https://www.facebook.com/NVIDIA
+      - listitem [ref=e89] [cursor=pointer]:
+        - link "Glassdoor" [ref=e90]:
+          - /url: https://www.glassdoor.com/Overview/Working-at-NVIDIA-EI_IE7633.11,17.htm
+      - listitem [ref=e95] [cursor=pointer]:
+        - link "LinkedIn" [ref=e96]:
+          - /url: https://www.linkedin.com/company/nvidia
+      - listitem [ref=e100] [cursor=pointer]:
+        - link "YouTube" [ref=e101]:
+          - /url: https://www.youtube.com/nvidia
+    - link "Applicant Privacy Policy" [ref=e108] [cursor=pointer]:
+      - /url: https://www.nvidia.com/en-us/about-nvidia/careers/applicant-privacy-policy/
+    - generic [ref=e109]:
+      - img [ref=e113]
+      - generic [ref=e133]: © 2026 Workday, Inc. All rights reserved.

@@ -1,0 +1,1012 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic:
+      - link "Skip to main content":
+        - /url: "#skipToMainContent"
+    - generic [ref=e6]:
+      - link "Company Logo" [ref=e8] [cursor=pointer]:
+        - /url: https://careers.adobe.com/us/en/
+        - img "adobe-logo" [ref=e9]
+      - navigation "primary" [ref=e16]:
+        - list [ref=e17]:
+          - listitem [ref=e18]:
+            - button "Careers" [ref=e19] [cursor=pointer]:
+              - generic [ref=e20]: Careers
+              - img [ref=e22]
+          - listitem [ref=e24]:
+            - button "Teams" [ref=e25] [cursor=pointer]:
+              - generic [ref=e26]: Teams
+              - img [ref=e28]
+          - listitem [ref=e30]:
+            - link "University" [ref=e32] [cursor=pointer]:
+              - /url: https://careers.adobe.com/us/en/university
+          - listitem [ref=e33]:
+            - link "Adobe For All" [ref=e35] [cursor=pointer]:
+              - /url: https://www.adobe.com/diversity.html
+          - listitem [ref=e36]:
+            - link "View Application Status" [ref=e38] [cursor=pointer]:
+              - /url: https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/login
+      - list [ref=e40]:
+        - listitem [ref=e41]:
+          - button "Login" [ref=e45] [cursor=pointer]:
+            - img [ref=e47]
+            - generic [ref=e49]: Login
+        - listitem [ref=e52]:
+          - link "saved jobs (0)" [ref=e55] [cursor=pointer]:
+            - /url: https://careers.adobe.com/us/en/jobcart
+            - img [ref=e57]
+            - generic [ref=e59]: Saved jobs
+            - generic [ref=e60]: (0)
+  - main [ref=e61]:
+    - generic: "-"
+    - generic [ref=e64]: "-"
+    - generic [ref=e65]:
+      - generic [ref=e68]:
+        - figure [ref=e69]:
+          - img "SearchResultsHero" [ref=e70]
+        - generic [ref=e73]:
+          - heading "Careers at Adobe" [level=1] [ref=e74]
+          - form "Global search" [ref=e80]:
+            - generic [ref=e85]:
+              - generic [ref=e87]:
+                - generic [ref=e88]: Enter job title or location
+                - combobox "Enter job title or location" [ref=e89]: Data Scientist
+                - button "Clear text" [ref=e90] [cursor=pointer]:
+                  - img [ref=e92]
+              - button "Search" [ref=e97] [cursor=pointer]:
+                - generic [ref=e98]: Search
+      - generic [ref=e101]:
+        - region "Refine your search" [ref=e106]:
+          - text: $
+          - heading "Refine your search." [level=2] [ref=e109]:
+            - generic [ref=e111]: Refine your search.
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - heading "Remote" [level=3] [ref=e116]:
+                - button "Remote" [ref=e117] [cursor=pointer]:
+                  - text: Remote
+                  - generic [ref=e118]: (
+              - generic: ":"
+            - generic [ref=e119]:
+              - heading "Country" [level=3] [ref=e122]:
+                - button "Country" [expanded] [ref=e123] [cursor=pointer]:
+                  - text: Country
+                  - generic [ref=e124]: "8"
+              - generic [ref=e126]:
+                - generic [ref=e128]:
+                  - searchbox "Search in Country" [ref=e129]
+                  - text: ":"
+                - group "Country" [ref=e131]:
+                  - generic [ref=e132]: Country
+                  - list [ref=e133]:
+                    - listitem [ref=e134]:
+                      - generic [ref=e135] [cursor=pointer]:
+                        - checkbox "Armenia 1 job" [ref=e136]
+                        - generic [ref=e138]:
+                          - text: Armenia
+                          - generic [ref=e139]:
+                            - text: (1)
+                            - generic [ref=e140]: job
+                    - listitem [ref=e141]:
+                      - generic [ref=e142] [cursor=pointer]:
+                        - checkbox "Australia 3 jobs" [ref=e143]
+                        - generic [ref=e145]:
+                          - text: Australia
+                          - generic [ref=e146]:
+                            - text: (3)
+                            - generic [ref=e147]: jobs
+                    - listitem [ref=e148]:
+                      - generic [ref=e149] [cursor=pointer]:
+                        - checkbox "Brazil 2 jobs" [ref=e150]
+                        - generic [ref=e152]:
+                          - text: Brazil
+                          - generic [ref=e153]:
+                            - text: (2)
+                            - generic [ref=e154]: jobs
+                    - listitem [ref=e155]:
+                      - generic [ref=e156] [cursor=pointer]:
+                        - checkbox "Canada 4 jobs" [ref=e157]
+                        - generic [ref=e159]:
+                          - text: Canada
+                          - generic [ref=e160]:
+                            - text: (4)
+                            - generic [ref=e161]: jobs
+                    - listitem [ref=e162]:
+                      - generic [ref=e163] [cursor=pointer]:
+                        - checkbox "Chile 2 jobs" [ref=e164]
+                        - generic [ref=e166]:
+                          - text: Chile
+                          - generic [ref=e167]:
+                            - text: (2)
+                            - generic [ref=e168]: jobs
+                    - listitem [ref=e169]:
+                      - generic [ref=e170] [cursor=pointer]:
+                        - checkbox "Colombia 1 job" [ref=e171]
+                        - generic [ref=e173]:
+                          - text: Colombia
+                          - generic [ref=e174]:
+                            - text: (1)
+                            - generic [ref=e175]: job
+                    - listitem [ref=e176]:
+                      - generic [ref=e177] [cursor=pointer]:
+                        - checkbox "Denmark 3 jobs" [ref=e178]
+                        - generic [ref=e180]:
+                          - text: Denmark
+                          - generic [ref=e181]:
+                            - text: (3)
+                            - generic [ref=e182]: jobs
+                    - listitem [ref=e183]:
+                      - generic [ref=e184] [cursor=pointer]:
+                        - checkbox "France 3 jobs" [ref=e185]
+                        - generic [ref=e187]:
+                          - text: France
+                          - generic [ref=e188]:
+                            - text: (3)
+                            - generic [ref=e189]: jobs
+                    - listitem [ref=e190]:
+                      - generic [ref=e191] [cursor=pointer]:
+                        - checkbox "Germany 8 jobs" [ref=e192]
+                        - generic [ref=e194]:
+                          - text: Germany
+                          - generic [ref=e195]:
+                            - text: (8)
+                            - generic [ref=e196]: jobs
+                    - listitem [ref=e197]:
+                      - generic [ref=e198] [cursor=pointer]:
+                        - checkbox "India 123 jobs" [ref=e199]
+                        - generic [ref=e201]:
+                          - text: India
+                          - generic [ref=e202]:
+                            - text: (123)
+                            - generic [ref=e203]: jobs
+                    - listitem [ref=e204]:
+                      - generic [ref=e205] [cursor=pointer]:
+                        - checkbox "Ireland 1 job" [ref=e206]
+                        - generic [ref=e208]:
+                          - text: Ireland
+                          - generic [ref=e209]:
+                            - text: (1)
+                            - generic [ref=e210]: job
+                    - listitem [ref=e211]:
+                      - generic [ref=e212] [cursor=pointer]:
+                        - checkbox "Italy 3 jobs" [ref=e213]
+                        - generic [ref=e215]:
+                          - text: Italy
+                          - generic [ref=e216]:
+                            - text: (3)
+                            - generic [ref=e217]: jobs
+                    - listitem [ref=e218]:
+                      - generic [ref=e219] [cursor=pointer]:
+                        - checkbox "Japan 11 jobs" [ref=e220]
+                        - generic [ref=e222]:
+                          - text: Japan
+                          - generic [ref=e223]:
+                            - text: (11)
+                            - generic [ref=e224]: jobs
+                    - listitem [ref=e225]:
+                      - generic [ref=e226] [cursor=pointer]:
+                        - checkbox "Korea, Republic of 4 jobs" [ref=e227]
+                        - generic [ref=e229]:
+                          - text: Korea, Republic of
+                          - generic [ref=e230]:
+                            - text: (4)
+                            - generic [ref=e231]: jobs
+                    - listitem [ref=e232]:
+                      - generic [ref=e233] [cursor=pointer]:
+                        - checkbox "Mexico 1 job" [ref=e234]
+                        - generic [ref=e236]:
+                          - text: Mexico
+                          - generic [ref=e237]:
+                            - text: (1)
+                            - generic [ref=e238]: job
+                    - listitem [ref=e239]:
+                      - generic [ref=e240] [cursor=pointer]:
+                        - checkbox "Netherlands 1 job" [ref=e241]
+                        - generic [ref=e243]:
+                          - text: Netherlands
+                          - generic [ref=e244]:
+                            - text: (1)
+                            - generic [ref=e245]: job
+                    - listitem [ref=e246]:
+                      - generic [ref=e247] [cursor=pointer]:
+                        - checkbox "Romania 32 jobs" [ref=e248]
+                        - generic [ref=e250]:
+                          - text: Romania
+                          - generic [ref=e251]:
+                            - text: (32)
+                            - generic [ref=e252]: jobs
+                    - listitem [ref=e253]:
+                      - generic [ref=e254] [cursor=pointer]:
+                        - checkbox "Saudi Arabia 1 job" [ref=e255]
+                        - generic [ref=e257]:
+                          - text: Saudi Arabia
+                          - generic [ref=e258]:
+                            - text: (1)
+                            - generic [ref=e259]: job
+                    - listitem [ref=e260]:
+                      - generic [ref=e261] [cursor=pointer]:
+                        - checkbox "Singapore 2 jobs" [ref=e262]
+                        - generic [ref=e264]:
+                          - text: Singapore
+                          - generic [ref=e265]:
+                            - text: (2)
+                            - generic [ref=e266]: jobs
+                    - listitem [ref=e267]:
+                      - generic [ref=e268] [cursor=pointer]:
+                        - checkbox "Spain 2 jobs" [ref=e269]
+                        - generic [ref=e271]:
+                          - text: Spain
+                          - generic [ref=e272]:
+                            - text: (2)
+                            - generic [ref=e273]: jobs
+                    - listitem [ref=e274]:
+                      - generic [ref=e275] [cursor=pointer]:
+                        - checkbox "Sweden 2 jobs" [ref=e276]
+                        - generic [ref=e278]:
+                          - text: Sweden
+                          - generic [ref=e279]:
+                            - text: (2)
+                            - generic [ref=e280]: jobs
+                    - listitem [ref=e281]:
+                      - generic [ref=e282] [cursor=pointer]:
+                        - checkbox "Switzerland 4 jobs" [ref=e283]
+                        - generic [ref=e285]:
+                          - text: Switzerland
+                          - generic [ref=e286]:
+                            - text: (4)
+                            - generic [ref=e287]: jobs
+                    - listitem [ref=e288]:
+                      - generic [ref=e289] [cursor=pointer]:
+                        - checkbox "United Kingdom 18 jobs" [ref=e290]
+                        - generic [ref=e292]:
+                          - text: United Kingdom
+                          - generic [ref=e293]:
+                            - text: (18)
+                            - generic [ref=e294]: jobs
+                    - listitem [ref=e295]:
+                      - generic [ref=e296] [cursor=pointer]:
+                        - checkbox "United States of America 393 jobs" [ref=e297]
+                        - generic [ref=e299]:
+                          - text: United States of America
+                          - generic [ref=e300]:
+                            - text: (393)
+                            - generic [ref=e301]: jobs
+            - generic [ref=e302]:
+              - heading "State/Province" [level=3] [ref=e305]:
+                - button "State/Province" [ref=e306] [cursor=pointer]:
+                  - text: State/Province
+                  - generic [ref=e307]: (
+              - generic: ":"
+            - generic [ref=e308]:
+              - heading "City" [level=3] [ref=e311]:
+                - button "City" [ref=e312] [cursor=pointer]:
+                  - text: City
+                  - generic [ref=e313]: (
+              - generic: ":"
+            - generic [ref=e314]:
+              - heading "Experience Level" [level=3] [ref=e317]:
+                - button "Experience Level" [ref=e318] [cursor=pointer]:
+                  - text: Experience Level
+                  - generic [ref=e319]: (
+              - generic: ":"
+            - generic [ref=e320]:
+              - heading "Teams" [level=3] [ref=e323]:
+                - button "Teams" [ref=e324] [cursor=pointer]:
+                  - text: Teams
+                  - generic [ref=e325]: (
+              - generic: ":"
+            - generic [ref=e326]:
+              - heading "Profession" [level=3] [ref=e329]:
+                - button "Profession" [ref=e330] [cursor=pointer]:
+                  - text: Profession
+                  - generic [ref=e331]: (
+              - generic: ":"
+            - generic [ref=e332]:
+              - heading "Employment Type" [level=3] [ref=e335]:
+                - button "Employment Type" [ref=e336] [cursor=pointer]:
+                  - text: Employment Type
+                  - generic [ref=e337]: (
+              - generic: ":"
+            - generic [ref=e338]:
+              - heading "Role Type" [level=3] [ref=e341]:
+                - button "Role Type" [ref=e342] [cursor=pointer]:
+                  - text: Role Type
+                  - generic [ref=e343]: (
+              - generic: ":"
+        - generic [ref=e348]:
+          - region "Search results" [ref=e349]:
+            - heading "Showing Search results for \"Data Scientist\"" [level=2] [ref=e352]:
+              - generic [ref=e353]: Showing Search results for
+              - text: "\"Data Scientist\""
+            - generic [ref=e355]:
+              - generic [ref=e357]:
+                - generic [ref=e360]:
+                  - generic [ref=e361]: Search from below list
+                  - textbox "Refine search by using specific job title or keyword" [ref=e362]:
+                    - /placeholder: Search from below list
+                  - text: "$ :"
+                - generic [ref=e364]:
+                  - generic [ref=e365]: 612 results
+                  - generic [ref=e366]:
+                    - text: "|"
+                    - generic [ref=e367]: Sort by
+                    - generic [ref=e368]:
+                      - combobox "Sort by" [ref=e369]:
+                        - option "Most relevant" [selected]
+                        - option "Most recent"
+                      - generic: 
+                  - text: F
+              - list [ref=e371]:
+                - listitem [ref=e372]:
+                  - generic [ref=e373]:
+                    - generic [ref=e374]:
+                      - heading "Data Scientist Job ID is R169486" [level=3] [ref=e375]:
+                        - link "Data Scientist Job ID is R169486" [ref=e376] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R169486/Data-Scientist
+                          - generic [ref=e377]: Data Scientist
+                      - paragraph [ref=e378]:
+                        - generic [ref=e380]:
+                          - generic [ref=e381]: Location
+                          - generic [ref=e382]: 
+                          - text: San Francisco, California, United States of America
+                        - generic [ref=e384]:
+                          - generic [ref=e385]: Category
+                          - generic [ref=e386]: 
+                          - text: Engineering and Product
+                        - generic [ref=e388]:
+                          - generic [ref=e389]: Job Id
+                          - generic [ref=e390]: 
+                          - text: R169486
+                        - generic [ref=e392]:
+                          - generic [ref=e393]: Posted Date
+                          - generic [ref=e394]: 
+                          - text: 06/11/2026
+                      - text: 
+                      - paragraph [ref=e395]: Embrace the opportunity to become a Data Scientist and drive business growth by transforming large datasets into actionable insights. Leverage your expertise in statistical analysis, machine learning, and data storytelling to optimize outcomes. Collaborate with cross-functional teams and make a real impact on customer success and product innovation.
+                    - list [ref=e397]:
+                      - listitem [ref=e398]:
+                        - link "Apply Now for Data Scientist" [ref=e400] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR169486EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e401]: Data Scientist
+                      - listitem [ref=e402]:
+                        - generic [ref=e405] [cursor=pointer]:
+                          - checkbox "Save Data Scientist R169486 to job cart" [ref=e406]
+                          - generic [ref=e407]:
+                            - generic [ref=e408]: "|"
+                            - generic [ref=e409]: Save Data Scientist R169486
+                - listitem [ref=e410]:
+                  - generic [ref=e411]:
+                    - generic [ref=e412]:
+                      - heading "Senior Data Scientist Job ID is R165355" [level=3] [ref=e413]:
+                        - link "Senior Data Scientist Job ID is R165355" [ref=e414] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R165355/Senior-Data-Scientist
+                          - generic [ref=e415]: Senior Data Scientist
+                      - paragraph [ref=e416]:
+                        - generic [ref=e418]:
+                          - generic [ref=e419]: Location
+                          - generic [ref=e420]: 
+                          - text: San Jose, California, United States of America
+                        - generic [ref=e422]:
+                          - generic [ref=e423]: Category
+                          - generic [ref=e424]: 
+                          - text: Engineering and Product
+                        - generic [ref=e426]:
+                          - generic [ref=e427]: Job Id
+                          - generic [ref=e428]: 
+                          - text: R165355
+                        - generic [ref=e430]:
+                          - generic [ref=e431]: Posted Date
+                          - generic [ref=e432]: 
+                          - text: 03/16/2026
+                      - text: 
+                      - paragraph [ref=e433]: Join our team as a Senior Data Scientist and drive the strategy for Adobe.com B2C. Leverage your expertise in SQL, Python, and data science to optimize customer journeys, uncover growth opportunities, and shape data-driven decisions. Collaborate cross-functionally and elevate our analytics team to deliver impactful insights for a global audience.
+                    - list [ref=e435]:
+                      - listitem [ref=e436]:
+                        - link "Apply Now for Senior Data Scientist" [ref=e438] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR165355EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e439]: Senior Data Scientist
+                      - listitem [ref=e440]:
+                        - generic [ref=e443] [cursor=pointer]:
+                          - checkbox "Save Senior Data Scientist R165355 to job cart" [ref=e444]
+                          - generic [ref=e445]:
+                            - generic [ref=e446]: "|"
+                            - generic [ref=e447]: Save Senior Data Scientist R165355
+                - listitem [ref=e448]:
+                  - generic [ref=e449]:
+                    - generic [ref=e450]:
+                      - heading "Senior Data Scientist, GTM Data Science Job ID is R167834" [level=3] [ref=e451]:
+                        - link "Senior Data Scientist, GTM Data Science Job ID is R167834" [ref=e452] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R167834/Senior-Data-Scientist-GTM-Data-Science
+                          - generic [ref=e453]: Senior Data Scientist, GTM Data Science
+                      - paragraph [ref=e454]:
+                        - generic [ref=e456]:
+                          - generic [ref=e457]: Category
+                          - generic [ref=e458]: 
+                          - text: Engineering and Product
+                        - generic [ref=e460]:
+                          - generic [ref=e461]: Job Id
+                          - generic [ref=e462]: 
+                          - text: R167834
+                        - generic [ref=e464]:
+                          - generic [ref=e465]: Posted Date
+                          - generic [ref=e466]: 
+                          - text: 04/24/2026
+                      - button "Senior Data Scientist, GTM Data Science ADOBUSR167834EXTERNALENUS Job available in 2 locations" [ref=e469] [cursor=pointer]:
+                        - text: Job available in 2 locations
+                        - generic [ref=e470]: 
+                      - text: 
+                      - paragraph [ref=e471]: Join our team as a Senior Data Scientist, Go-To-Market, and drive growth for Adobe’s B2C business. Leverage your expertise in data science, analytics, and customer journey analysis to influence strategy, optimize performance, and deliver actionable insights. Collaborate with cross-functional teams and shape the future of digital experiences at Adobe.
+                    - list [ref=e473]:
+                      - listitem [ref=e474]:
+                        - link "Apply Now for Senior Data Scientist, GTM Data Science" [ref=e476] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR167834EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e477]: Senior Data Scientist, GTM Data Science
+                      - listitem [ref=e478]:
+                        - generic [ref=e481] [cursor=pointer]:
+                          - checkbox "Save Senior Data Scientist, GTM Data Science R167834 to job cart" [ref=e482]
+                          - generic [ref=e483]:
+                            - generic [ref=e484]: "|"
+                            - generic [ref=e485]: Save Senior Data Scientist, GTM Data Science R167834
+                - listitem [ref=e486]:
+                  - generic [ref=e487]:
+                    - generic [ref=e488]:
+                      - heading "Senior Data Scientist, Product Analytics Job ID is R166466" [level=3] [ref=e489]:
+                        - link "Senior Data Scientist, Product Analytics Job ID is R166466" [ref=e490] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R166466/Senior-Data-Scientist-Product-Analytics
+                          - generic [ref=e491]: Senior Data Scientist, Product Analytics
+                      - paragraph [ref=e492]:
+                        - generic [ref=e494]:
+                          - generic [ref=e495]: Category
+                          - generic [ref=e496]: 
+                          - text: Engineering and Product
+                        - generic [ref=e498]:
+                          - generic [ref=e499]: Job Id
+                          - generic [ref=e500]: 
+                          - text: R166466
+                        - generic [ref=e502]:
+                          - generic [ref=e503]: Posted Date
+                          - generic [ref=e504]: 
+                          - text: 04/06/2026
+                      - button "Senior Data Scientist, Product Analytics ADOBUSR166466EXTERNALENUS Job available in 3 locations" [ref=e507] [cursor=pointer]:
+                        - text: Job available in 3 locations
+                        - generic [ref=e508]: 
+                      - text: 
+                      - paragraph [ref=e509]: Join our team as a Senior Data Scientist and drive impactful product analytics at Adobe. Leverage advanced data science, machine learning, and visualization tools to influence product decisions, optimize data pipelines, and deliver actionable insights. Collaborate with cross-functional teams to shape the future of digital imaging experiences. Grow your career with us!
+                    - list [ref=e511]:
+                      - listitem [ref=e512]:
+                        - link "Apply Now for Senior Data Scientist, Product Analytics" [ref=e514] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR166466EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e515]: Senior Data Scientist, Product Analytics
+                      - listitem [ref=e516]:
+                        - generic [ref=e519] [cursor=pointer]:
+                          - checkbox "Save Senior Data Scientist, Product Analytics R166466 to job cart" [ref=e520]
+                          - generic [ref=e521]:
+                            - generic [ref=e522]: "|"
+                            - generic [ref=e523]: Save Senior Data Scientist, Product Analytics R166466
+                - listitem [ref=e524]:
+                  - generic [ref=e525]:
+                    - generic [ref=e526]:
+                      - heading "Principal Scientist, Generation Data Architect (Image & Video & Audio) Job ID is R167580" [level=3] [ref=e527]:
+                        - link "Principal Scientist, Generation Data Architect (Image & Video & Audio) Job ID is R167580" [ref=e528] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R167580/Principal-Scientist-Generation-Data-Architect-Image-Video-Audio
+                          - generic [ref=e529]: Principal Scientist, Generation Data Architect (Image & Video & Audio)
+                      - paragraph [ref=e530]:
+                        - generic [ref=e532]:
+                          - generic [ref=e533]: Category
+                          - generic [ref=e534]: 
+                          - text: Engineering and Product
+                        - generic [ref=e536]:
+                          - generic [ref=e537]: Job Id
+                          - generic [ref=e538]: 
+                          - text: R167580
+                        - generic [ref=e540]:
+                          - generic [ref=e541]: Posted Date
+                          - generic [ref=e542]: 
+                          - text: 04/20/2026
+                      - button "Principal Scientist, Generation Data Architect (Image & Video & Audio) ADOBUSR167580EXTERNALENUS Job available in 2 locations" [ref=e545] [cursor=pointer]:
+                        - text: Job available in 2 locations
+                        - generic [ref=e546]: 
+                      - text: 
+                      - paragraph [ref=e547]: Exciting opportunity for a Principal Scientist to shape the data strategy for Adobe Firefly’s multimodal foundation models. Lead research and engineering to drive innovation in image, video, and audio generation, collaborating with cross-functional teams to deliver high-quality generative models impacting millions of users. Join us to influence the future of creative technology.
+                    - list [ref=e549]:
+                      - listitem [ref=e550]:
+                        - link "Apply Now for Principal Scientist, Generation Data Architect (Image & Video & Audio)" [ref=e552] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR167580EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e553]: Principal Scientist, Generation Data Architect (Image & Video & Audio)
+                      - listitem [ref=e554]:
+                        - generic [ref=e557] [cursor=pointer]:
+                          - checkbox "Save Principal Scientist, Generation Data Architect (Image & Video & Audio) R167580 to job cart" [ref=e558]
+                          - generic [ref=e559]:
+                            - generic [ref=e560]: "|"
+                            - generic [ref=e561]: Save Principal Scientist, Generation Data Architect (Image & Video & Audio) R167580
+                - listitem [ref=e562]:
+                  - generic [ref=e563]:
+                    - generic [ref=e564]:
+                      - heading "Data engineer Job ID is R166484" [level=3] [ref=e565]:
+                        - link "Data engineer Job ID is R166484" [ref=e566] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R166484/Data-engineer
+                          - generic [ref=e567]: Data engineer
+                      - paragraph [ref=e568]:
+                        - generic [ref=e570]:
+                          - generic [ref=e571]: Location
+                          - generic [ref=e572]: 
+                          - text: Bangalore, Karnātaka, India
+                        - generic [ref=e574]:
+                          - generic [ref=e575]: Job Id
+                          - generic [ref=e576]: 
+                          - text: R166484
+                        - generic [ref=e578]:
+                          - generic [ref=e579]: Posted Date
+                          - generic [ref=e580]: 
+                          - text: 03/26/2026
+                      - button "Data engineer ADOBUSR166484EXTERNALENUS Job available in 2 categories" [ref=e583] [cursor=pointer]:
+                        - text: Job associated with 2 categories
+                        - generic [ref=e584]: 
+                      - text: 
+                      - paragraph [ref=e585]: Join our team as a Senior Data Engineer and drive the design and deployment of scalable data systems powering next-generation digital experiences. Collaborate with cross-functional teams, leverage cutting-edge cloud and AI technologies, and shape data strategy at Adobe. Grow your career in a dynamic, innovative environment focused on quality and impact.
+                    - list [ref=e587]:
+                      - listitem [ref=e588]:
+                        - link "Apply Now for Data engineer" [ref=e590] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR166484EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e591]: Data engineer
+                      - listitem [ref=e592]:
+                        - generic [ref=e595] [cursor=pointer]:
+                          - checkbox "Save Data engineer R166484 to job cart" [ref=e596]
+                          - generic [ref=e597]:
+                            - generic [ref=e598]: "|"
+                            - generic [ref=e599]: Save Data engineer R166484
+                - listitem [ref=e600]:
+                  - generic [ref=e601]:
+                    - generic [ref=e602]:
+                      - heading "Data Architect Job ID is R168341" [level=3] [ref=e603]:
+                        - link "Data Architect Job ID is R168341" [ref=e604] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R168341/Data-Architect
+                          - generic [ref=e605]: Data Architect
+                      - paragraph [ref=e606]:
+                        - generic [ref=e608]:
+                          - generic [ref=e609]: Location
+                          - generic [ref=e610]: 
+                          - text: Bangalore, Karnātaka, India
+                        - generic [ref=e612]:
+                          - generic [ref=e613]: Category
+                          - generic [ref=e614]: 
+                          - text: Sales
+                        - generic [ref=e616]:
+                          - generic [ref=e617]: Job Id
+                          - generic [ref=e618]: 
+                          - text: R168341
+                        - generic [ref=e620]:
+                          - generic [ref=e621]: Posted Date
+                          - generic [ref=e622]: 
+                          - text: 05/04/2026
+                      - text: 
+                      - paragraph [ref=e623]: Join our team as a Senior Data Architect and drive innovative data solutions for Adobe Experience Platform clients. Leverage your expertise in AEP, ETL, and data modeling to design scalable datasets, collaborate with enterprise customers, and shape the future of digital experiences. Grow your career with cutting-edge technologies and impactful projects.
+                    - list [ref=e625]:
+                      - listitem [ref=e626]:
+                        - link "Apply Now for Data Architect" [ref=e628] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR168341EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e629]: Data Architect
+                      - listitem [ref=e630]:
+                        - generic [ref=e633] [cursor=pointer]:
+                          - checkbox "Save Data Architect R168341 to job cart" [ref=e634]
+                          - generic [ref=e635]:
+                            - generic [ref=e636]: "|"
+                            - generic [ref=e637]: Save Data Architect R168341
+                - listitem [ref=e638]:
+                  - generic [ref=e639]:
+                    - generic [ref=e640]:
+                      - heading "Data Science Engineer Job ID is R169353" [level=3] [ref=e641]:
+                        - link "Data Science Engineer Job ID is R169353" [ref=e642] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R169353/Data-Science-Engineer
+                          - generic [ref=e643]: Data Science Engineer
+                      - paragraph [ref=e644]:
+                        - generic [ref=e646]:
+                          - generic [ref=e647]: Location
+                          - generic [ref=e648]: 
+                          - text: San Jose, California, United States of America
+                        - generic [ref=e650]:
+                          - generic [ref=e651]: Category
+                          - generic [ref=e652]: 
+                          - text: Engineering and Product
+                        - generic [ref=e654]:
+                          - generic [ref=e655]: Job Id
+                          - generic [ref=e656]: 
+                          - text: R169353
+                        - generic [ref=e658]:
+                          - generic [ref=e659]: Posted Date
+                          - generic [ref=e660]: 
+                          - text: 06/17/2026
+                      - text: 
+                      - paragraph [ref=e661]: Join our team as a Senior Data Science Engineer and drive the development of large-scale, cloud-based data platforms at Adobe. Leverage your expertise in Python, SQL, and distributed data technologies to build innovative solutions for enterprise-scale analytics. Collaborate with top talent and shape the future of digital experiences with cutting-edge technologies.
+                    - list [ref=e663]:
+                      - listitem [ref=e664]:
+                        - link "Apply Now for Data Science Engineer" [ref=e666] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR169353EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e667]: Data Science Engineer
+                      - listitem [ref=e668]:
+                        - generic [ref=e671] [cursor=pointer]:
+                          - checkbox "Save Data Science Engineer R169353 to job cart" [ref=e672]
+                          - generic [ref=e673]:
+                            - generic [ref=e674]: "|"
+                            - generic [ref=e675]: Save Data Science Engineer R169353
+                - listitem [ref=e676]:
+                  - generic [ref=e677]:
+                    - generic [ref=e678]:
+                      - heading "Sr Data Engineer Job ID is R164547" [level=3] [ref=e679]:
+                        - link "Sr Data Engineer Job ID is R164547" [ref=e680] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R164547/Sr-Data-Engineer
+                          - generic [ref=e681]: Sr Data Engineer
+                      - paragraph [ref=e682]:
+                        - generic [ref=e684]:
+                          - generic [ref=e685]: Location
+                          - generic [ref=e686]: 
+                          - text: Lehi, Utah, United States of America
+                        - generic [ref=e688]:
+                          - generic [ref=e689]: Category
+                          - generic [ref=e690]: 
+                          - text: Information Technology
+                        - generic [ref=e692]:
+                          - generic [ref=e693]: Job Id
+                          - generic [ref=e694]: 
+                          - text: R164547
+                        - generic [ref=e696]:
+                          - generic [ref=e697]: Posted Date
+                          - generic [ref=e698]: 
+                          - text: 04/28/2026
+                      - text: 
+                      - paragraph [ref=e699]: Join our team as a Senior Data Engineer and drive digital transformation at Adobe. Leverage your expertise in Power BI, SQL, and data integration to deliver actionable insights and business intelligence solutions. Collaborate with cross-functional teams to shape strategic decisions and empower our customers through innovative analytics and automation.
+                    - list [ref=e701]:
+                      - listitem [ref=e702]:
+                        - link "Apply Now for Sr Data Engineer" [ref=e704] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR164547EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e705]: Sr Data Engineer
+                      - listitem [ref=e706]:
+                        - generic [ref=e709] [cursor=pointer]:
+                          - checkbox "Save Sr Data Engineer R164547 to job cart" [ref=e710]
+                          - generic [ref=e711]:
+                            - generic [ref=e712]: "|"
+                            - generic [ref=e713]: Save Sr Data Engineer R164547
+                - listitem [ref=e714]:
+                  - generic [ref=e715]:
+                    - generic [ref=e716]:
+                      - heading "Sr. Data Engineer Job ID is R167719" [level=3] [ref=e717]:
+                        - link "Sr. Data Engineer Job ID is R167719" [ref=e718] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R167719/Sr-Data-Engineer
+                          - generic [ref=e719]: Sr. Data Engineer
+                      - paragraph [ref=e720]:
+                        - generic [ref=e722]:
+                          - generic [ref=e723]: Job Id
+                          - generic [ref=e724]: 
+                          - text: R167719
+                        - generic [ref=e726]:
+                          - generic [ref=e727]: Posted Date
+                          - generic [ref=e728]: 
+                          - text: 04/15/2026
+                      - button "Sr. Data Engineer ADOBUSR167719EXTERNALENUS Job available in 9 locations" [ref=e731] [cursor=pointer]:
+                        - text: Job available in 9 locations
+                        - generic [ref=e732]: 
+                      - button "Sr. Data Engineer ADOBUSR167719EXTERNALENUS Job available in 2 categories" [ref=e735] [cursor=pointer]:
+                        - text: Job associated with 2 categories
+                        - generic [ref=e736]: 
+                      - text: 
+                      - paragraph [ref=e737]: Join our team as a Senior Data Engineer and drive innovative data integrations using AWS and Python. Collaborate with cross-functional teams to build scalable solutions, optimize data pipelines, and deliver impactful customer experiences. If you thrive in a dynamic, team-oriented environment and are passionate about data engineering, this is your next challenge!
+                    - list [ref=e739]:
+                      - listitem [ref=e740]:
+                        - link "Apply Now for Sr. Data Engineer" [ref=e742] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR167719EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e743]: Sr. Data Engineer
+                      - listitem [ref=e744]:
+                        - generic [ref=e747] [cursor=pointer]:
+                          - checkbox "Save Sr. Data Engineer R167719 to job cart" [ref=e748]
+                          - generic [ref=e749]:
+                            - generic [ref=e750]: "|"
+                            - generic [ref=e751]: Save Sr. Data Engineer R167719
+          - region "pagination" [ref=e752]:
+            - text: Z
+            - button "Page 1": "1"
+            - button "Page 2" [ref=e753] [cursor=pointer]: "2"
+            - button "Page 3" [ref=e754] [cursor=pointer]: "3"
+            - button "Page 4" [ref=e755] [cursor=pointer]: "4"
+            - button "Page 5" [ref=e756] [cursor=pointer]: "5"
+            - button "Page 6" [ref=e757] [cursor=pointer]: "6"
+            - button "Page 7" [ref=e758] [cursor=pointer]: "7"
+            - button "Page 8" [ref=e759] [cursor=pointer]: "8"
+            - button "Page 9" [ref=e760] [cursor=pointer]: "9"
+            - button "Page 10" [ref=e761] [cursor=pointer]: "10"
+            - button "View next page" [ref=e762] [cursor=pointer]:
+              - generic [ref=e763]: 
+      - generic [ref=e768]:
+        - heading "Stay in the loop." [level=2] [ref=e769]
+        - generic [ref=e770]: Join a community of innovators and get early access to opportunities, insider insights, and exclusive updates on life at Adobe.
+        - link "Join our talent community" [ref=e771] [cursor=pointer]:
+          - /url: https://careers.adobe.com/us/en/jointalentcommunity
+          - generic [ref=e772]: Join our talent community
+      - list [ref=e776]:
+        - listitem [ref=e777]
+        - listitem [ref=e779]:
+          - figure [ref=e780]:
+            - img "LetsAdobeTogether" [ref=e781]
+        - listitem [ref=e783]
+  - generic [ref=e785]:
+    - region [ref=e788]:
+      - list [ref=e791]:
+        - listitem [ref=e792]:
+          - generic "Career Site Cookie Settings" [ref=e796] [cursor=pointer]:
+            - generic [ref=e797]: Career Site Cookie Settings
+            - text: 
+        - listitem [ref=e798]:
+          - generic "Personal Information" [ref=e802] [cursor=pointer]:
+            - generic [ref=e803]: Personal Information
+            - text: 
+    - contentinfo [ref=e806]:
+      - generic [ref=e807]:
+        - generic [ref=e808]:
+          - generic [ref=e809]:
+            - list [ref=e811]:
+              - listitem [ref=e812]:
+                - heading "Shop for" [level=5] [ref=e813]
+              - list [ref=e814]:
+                - listitem [ref=e815]:
+                  - link "Creative Cloud" [ref=e816] [cursor=pointer]:
+                    - /url: https://www.adobe.com/creativecloud.html?promoid=ZP46FD38&mv=other
+                - listitem [ref=e817]:
+                  - link "Photoshop" [ref=e818] [cursor=pointer]:
+                    - /url: https://www.adobe.com/products/photoshop.html
+                - listitem
+              - listitem [ref=e819]:
+                - link "Photography" [ref=e820] [cursor=pointer]:
+                  - /url: https://www.adobe.com/creativecloud/photography.html
+              - listitem [ref=e821]:
+                - link "Premiere Pro" [ref=e822] [cursor=pointer]:
+                  - /url: https://www.adobe.com/products/premiere.html
+              - listitem [ref=e823]:
+                - link "Adobe Express" [ref=e824] [cursor=pointer]:
+                  - /url: https://www.adobe.com/express/
+              - listitem [ref=e825]:
+                - link "Adobe Stock" [ref=e826] [cursor=pointer]:
+                  - /url: https://stock.adobe.com/in/
+              - listitem [ref=e827]:
+                - link "Elements Family" [ref=e828] [cursor=pointer]:
+                  - /url: https://www.adobe.com/products/elements-family.html
+              - listitem [ref=e829]:
+                - link "Document Cloud" [ref=e830] [cursor=pointer]:
+                  - /url: https://www.adobe.com/documentcloud.html
+              - listitem [ref=e831]:
+                - link "Acrobat" [ref=e832] [cursor=pointer]:
+                  - /url: https://www.adobe.com/acrobat.html
+              - listitem [ref=e833]:
+                - link "Acrobat Sign" [ref=e834] [cursor=pointer]:
+                  - /url: https://www.adobe.com/sign.html
+              - listitem [ref=e835]:
+                - link "Special offers" [ref=e836] [cursor=pointer]:
+                  - /url: https://www.adobe.com/products/special-offers.html
+              - listitem [ref=e837]:
+                - link "View plans and pricing" [ref=e838] [cursor=pointer]:
+                  - /url: https://www.adobe.com/creativecloud/plans.html
+              - listitem [ref=e839]:
+                - link "View all products" [ref=e840] [cursor=pointer]:
+                  - /url: https://www.adobe.com/products/catalog.html?types=pf_252Fdesktop&types=pf_252Fmobile&types=pf_252Fweb
+            - list [ref=e842]:
+              - listitem [ref=e843]:
+                - heading "For business" [level=5] [ref=e844]
+              - listitem [ref=e845]:
+                - link "Creative Cloud for teams" [ref=e846] [cursor=pointer]:
+                  - /url: https://www.adobe.com/creativecloud/business/teams.html
+              - listitem [ref=e847]:
+                - link "Creative Cloud for enterprise" [ref=e848] [cursor=pointer]:
+                  - /url: https://www.adobe.com/creativecloud/business/enterprise.html
+              - listitem [ref=e849]:
+                - link "Document Cloud for business" [ref=e850] [cursor=pointer]:
+                  - /url: https://www.adobe.com/documentcloud/business.html
+              - listitem [ref=e851]:
+                - list [ref=e853]:
+                  - listitem [ref=e854]:
+                    - heading "For education" [level=5] [ref=e855]
+                  - listitem [ref=e856]:
+                    - link "Discounts for students and teachers" [ref=e857] [cursor=pointer]:
+                      - /url: https://www.adobe.com/creativecloud/buy/students.html
+                  - listitem [ref=e858]:
+                    - link "Schools and universities" [ref=e859] [cursor=pointer]:
+                      - /url: https://www.adobe.com/education.html
+                  - listitem [ref=e860]:
+                    - link "Digital Learning Solutions" [ref=e861] [cursor=pointer]:
+                      - /url: https://www.adobe.com/elearning.html
+              - listitem [ref=e862]:
+                - list [ref=e864]:
+                  - listitem [ref=e865]:
+                    - heading "For mobile" [level=5] [ref=e866]
+                  - listitem [ref=e867]:
+                    - link "Apps for iOS" [ref=e868] [cursor=pointer]:
+                      - /url: https://apps.apple.com/sg/app/adobe-creative-cloud/id852473028
+                  - listitem [ref=e869]:
+                    - link "Apps for Android" [ref=e870] [cursor=pointer]:
+                      - /url: https://play.google.com/store/apps/details?id=com.adobe.cc
+            - list [ref=e872]:
+              - listitem [ref=e873]:
+                - heading "Experience Cloud" [level=5] [ref=e874]
+              - listitem [ref=e875]:
+                - link "What is Experience Cloud?" [ref=e876] [cursor=pointer]:
+                  - /url: https://business.adobe.com/
+              - listitem [ref=e877]:
+                - link "Analytics" [ref=e878] [cursor=pointer]:
+                  - /url: https://business.adobe.com/products/analytics/adobe-analytics.html
+              - listitem [ref=e879]:
+                - link "Experience Manager" [ref=e880] [cursor=pointer]:
+                  - /url: https://business.adobe.com/products/experience-manager/adobe-experience-manager.html
+              - listitem [ref=e881]:
+                - link "Commerce" [ref=e882] [cursor=pointer]:
+                  - /url: https://business.adobe.com/products/magento/magento-commerce.html
+              - listitem [ref=e883]:
+                - link "Marketo Engage" [ref=e884] [cursor=pointer]:
+                  - /url: https://business.adobe.com/products/marketo/adobe-marketo.html
+              - listitem [ref=e885]:
+                - link "Workfront" [ref=e886] [cursor=pointer]:
+                  - /url: https://www.workfront.com/
+            - list [ref=e888]:
+              - listitem [ref=e889]:
+                - heading "Support" [level=5] [ref=e890]
+              - listitem [ref=e891]:
+                - link "Download and install" [ref=e892] [cursor=pointer]:
+                  - /url: https://helpx.adobe.com/download-install.html
+              - listitem [ref=e893]:
+                - link "Help Center" [ref=e894] [cursor=pointer]:
+                  - /url: https://helpx.adobe.com/support.html
+              - listitem [ref=e895]:
+                - link "Adobe Support Community" [ref=e896] [cursor=pointer]:
+                  - /url: https://community.adobe.com/
+              - listitem [ref=e897]:
+                - link "Enterprise Support" [ref=e898] [cursor=pointer]:
+                  - /url: https://helpx.adobe.com/contact/enterprise-support.html
+              - listitem [ref=e899]:
+                - link "Genuine software" [ref=e900] [cursor=pointer]:
+                  - /url: https://www.adobe.com/genuine.html
+              - listitem [ref=e901]:
+                - list [ref=e903]:
+                  - listitem [ref=e904]:
+                    - heading "Resources" [level=5] [ref=e905]
+                  - listitem [ref=e906]:
+                    - link "Adobe Blog" [ref=e907] [cursor=pointer]:
+                      - /url: https://blog.adobe.com/
+                  - listitem [ref=e908]:
+                    - link "Adobe Developer" [ref=e909] [cursor=pointer]:
+                      - /url: https://developer.adobe.com/
+              - listitem [ref=e910]:
+                - list [ref=e912]:
+                  - listitem [ref=e913]:
+                    - heading "Adobe Account" [level=5] [ref=e914]
+                  - listitem [ref=e915]:
+                    - link "Log in to your account" [ref=e916] [cursor=pointer]:
+                      - /url: https://account.adobe.com/
+            - list [ref=e918]:
+              - listitem [ref=e919]:
+                - heading "Adobe" [level=5] [ref=e920]
+              - listitem [ref=e921]:
+                - link "About" [ref=e922] [cursor=pointer]:
+                  - /url: https://www.adobe.com/about-adobe.html
+              - listitem [ref=e923]:
+                - link "Careers" [ref=e924] [cursor=pointer]:
+                  - /url: https://www.adobe.com/careers.html
+              - listitem [ref=e925]:
+                - link "Newsroom" [ref=e926] [cursor=pointer]:
+                  - /url: https://news.adobe.com/home/default.aspx
+              - listitem [ref=e927]:
+                - link "Corporate responsibility" [ref=e928] [cursor=pointer]:
+                  - /url: https://www.adobe.com/corporate-responsibility.html
+              - listitem [ref=e929]:
+                - link "Investor Relations" [ref=e930] [cursor=pointer]:
+                  - /url: https://www.adobe.com/investor-relations.html
+              - listitem [ref=e931]:
+                - link "Supply chain" [ref=e932] [cursor=pointer]:
+                  - /url: https://www.adobe.com/corporate-responsibility/supply-chain.html
+              - listitem [ref=e933]:
+                - link "Trust Center" [ref=e934] [cursor=pointer]:
+                  - /url: https://www.adobe.com/trust.html
+              - listitem [ref=e935]:
+                - link "Events" [ref=e936] [cursor=pointer]:
+                  - /url: https://www.adobe.com/events.html
+              - listitem [ref=e937]:
+                - link "Adobe for All" [ref=e938] [cursor=pointer]:
+                  - /url: https://www.adobe.com/diversity.html
+              - listitem [ref=e939]:
+                - link "Integrity" [ref=e940] [cursor=pointer]:
+                  - /url: https://www.adobe.com/about-adobe/integrity.html
+          - list [ref=e943]:
+            - listitem [ref=e944]:
+              - paragraph [ref=e945]: Featured Downloads
+            - listitem [ref=e946]:
+              - link "acrobat-reader-icon Adobe Acrobat Reader" [ref=e947] [cursor=pointer]:
+                - /url: https://get.adobe.com/uk/reader/
+                - img "acrobat-reader-icon" [ref=e949]
+                - generic [ref=e950]: Adobe Acrobat Reader
+            - listitem [ref=e951]:
+              - link "photoshop-icon Photoshop" [ref=e952] [cursor=pointer]:
+                - /url: https://www.adobe.com/products/photoshop/free-trial-download.html
+                - img "photoshop-icon" [ref=e954]
+                - generic [ref=e955]: Photoshop
+            - listitem [ref=e956]:
+              - link "Illustrato Illustrator" [ref=e957] [cursor=pointer]:
+                - /url: https://www.adobe.com/products/illustrator/free-trial-download.html
+                - img "Illustrato" [ref=e959]
+                - generic [ref=e960]: Illustrator
+          - generic [ref=e961]:
+            - generic:
+              - list [ref=e964]:
+                - listitem [ref=e965]:
+                  - link "facebook" [ref=e966] [cursor=pointer]:
+                    - /url: https://www.facebook.com/adobe
+                    - generic [ref=e967]: 
+                - listitem [ref=e968]:
+                  - link "twitter" [ref=e969] [cursor=pointer]:
+                    - /url: https://twitter.com/Adobe
+                    - generic [ref=e970]: 
+                - listitem [ref=e971]:
+                  - link "linkedin" [ref=e972] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/adobe
+                    - generic [ref=e973]: 
+                - listitem [ref=e974]:
+                  - link "instagram" [ref=e975] [cursor=pointer]:
+                    - /url: https://www.instagram.com/adobe/
+                    - generic [ref=e976]: 
+              - list [ref=e978]:
+                - listitem [ref=e979]:
+                  - paragraph [ref=e980]: Copyright © 2022 Adobe. All rights reserved. /
+                - listitem [ref=e981]:
+                  - link "Privacy /" [ref=e982] [cursor=pointer]:
+                    - /url: https://www.adobe.com/privacy/applicant-privacy.html
+                - listitem [ref=e983]:
+                  - link "Terms of Use /" [ref=e984] [cursor=pointer]:
+                    - /url: https://www.adobe.com/legal/terms.html
+                - listitem [ref=e985]:
+                  - link "Cookie preferences /" [ref=e986] [cursor=pointer]:
+                    - /url: https://careers.adobe.com/us/en/cookiesettings
+                - listitem [ref=e987]:
+                  - link "Do not sell my personal information /" [ref=e988] [cursor=pointer]:
+                    - /url: https://www.adobe.com/privacy/ca-rights.html
+                - listitem [ref=e989]:
+                  - link "AdChoices" [ref=e990] [cursor=pointer]:
+                    - /url: https://www.adobe.com/privacy/opt-out.html#interest-based-ads
+                    - text: AdChoices
+        - text:              / / / / /
+  - generic [ref=e992]:
+    - generic [ref=e994]: How would you rate your experience popup
+    - generic [ref=e995]:
+      - button "Close how would you rate your experience popup" [ref=e996] [cursor=pointer]:
+        - img [ref=e998]
+      - generic [ref=e1001]:
+        - heading "How would you rate your experience?" [level=2] [ref=e1002]
+        - group "How would you rate your experience?" [ref=e1005]:
+          - generic [ref=e1006]: How would you rate your experience?
+          - generic [ref=e1007]:
+            - radio "No rating" [ref=e1008]
+            - generic [ref=e1009] [cursor=pointer]: No rating
+            - radio "1 star" [ref=e1010]
+            - generic [ref=e1011] [cursor=pointer]:
+              - generic [ref=e1012]: 1 star
+              - img [ref=e1014]
+            - radio "2 star" [ref=e1016]
+            - generic [ref=e1017] [cursor=pointer]:
+              - generic [ref=e1018]: 2 star
+              - img [ref=e1020]
+            - radio "3 star" [ref=e1022]
+            - generic [ref=e1023] [cursor=pointer]:
+              - generic [ref=e1024]: 3 star
+              - img [ref=e1026]
+            - radio "4 star" [ref=e1028]
+            - generic [ref=e1029] [cursor=pointer]:
+              - generic [ref=e1030]: 4 star
+              - img [ref=e1032]
+            - radio "5 star" [ref=e1034]
+            - generic [ref=e1035] [cursor=pointer]:
+              - generic [ref=e1036]: 5 star
+              - img [ref=e1038]
+        - button "Send Feedback" [disabled]

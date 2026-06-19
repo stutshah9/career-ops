@@ -1,0 +1,75 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: .
+    - generic [ref=e4]: ..
+    - generic [ref=e5]: .
+  - generic [ref=e7]:
+    - link "Skip to main content." [ref=e8] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=e10]:
+      - main [ref=e13]:
+        - alert "Loading screen" [ref=e17]: 
+      - contentinfo [ref=e18]:
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - heading "If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing accommodation-request_mb@oracle.com or by calling +1 888 404 2494 in the U.S." [level=2] [ref=e23]:
+              - text: If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing
+              - link "accommodation-request_mb@oracle.com" [ref=e24] [cursor=pointer]:
+                - /url: mailto:accommodation-request_mb@oracle.com
+              - text: or by calling +1 888 404 2494 in the U.S.
+            - heading "Oracle’s U.S. affirmative action plan for people with disabilities and military veterans is available by contacting +1 888 404 2494." [level=2] [ref=e25]
+            - paragraph [ref=e26]:
+              - text: Need Help?
+              - link "Contact us" [ref=e28] [cursor=pointer]:
+                - /url: https://hrhelp.custhelp.com/app/hiring
+              - text: and include a detailed description of the issue.
+            - paragraph [ref=e29]:
+              - link "Oracle's Pre-employment Screening Process" [ref=e31] [cursor=pointer]:
+                - /url: https://www.oracle.com/corporate/careers/background-check.html
+              - link "Oracle's Equal Employment Opportunity and Pay Transparency" [ref=e33] [cursor=pointer]:
+                - /url: https://www.oracle.com/legal/eeo-pay-transparency/
+          - generic [ref=e35]:
+            - generic:
+              - list:
+                - listitem
+            - list [ref=e37]:
+              - listitem [ref=e38]:
+                - link "© 2026 Oracle" [ref=e39] [cursor=pointer]:
+                  - /url: https://www.oracle.com/legal/copyright.html
+              - listitem [ref=e40]:
+                - link "Privacy" [ref=e41] [cursor=pointer]:
+                  - /url: https://www.oracle.com/legal/privacy/
+                - text: /
+                - link "Do Not Sell My Info" [ref=e42] [cursor=pointer]:
+                  - /url: https://www.oracle.com/legal/privacy/privacy-choices.html
+              - listitem [ref=e43]:
+                - link "Ad Choices" [ref=e44] [cursor=pointer]:
+                  - /url: https://www.oracle.com/legal/privacy/marketing-cloud-data-cloud-privacy-policy.html#adchoices
+              - listitem [ref=e45]:
+                - link "Careers" [ref=e46] [cursor=pointer]:
+                  - /url: https://www.oracle.com/corporate/careers/
+              - listitem [ref=e47]:
+                - link "Policy" [ref=e48] [cursor=pointer]:
+                  - /url: https://www.oracle.com/corporate/careers/terms-conditions/
+            - list [ref=e50]:
+              - listitem [ref=e51]:
+                - link "Oracle on Facebook":
+                  - /url: https://www.facebook.com/Oracle/
+                  - img [ref=e52] [cursor=pointer]
+              - listitem [ref=e53]:
+                - link "Follow Oracle on Twitter":
+                  - /url: https://twitter.com/oracle
+                  - img [ref=e54] [cursor=pointer]
+              - listitem [ref=e56]:
+                - link "Oracle on LinkedIn":
+                  - /url: https://www.linkedin.com/company/oracle/
+                  - img [ref=e57] [cursor=pointer]
+              - listitem [ref=e58]:
+                - link "Watch Oracle on YouTube":
+                  - /url: http://www.youtube.com/oracle/
+                  - img [ref=e59] [cursor=pointer]
+    - alert
+    - status [ref=e60]
+    - alert [ref=e61]
+  - generic:
+    - button "Oracle Assistant"

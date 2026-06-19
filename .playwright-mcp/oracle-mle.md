@@ -1,0 +1,473 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: .
+    - generic [ref=e4]: ..
+    - generic [ref=e5]: .
+  - generic [ref=e7]:
+    - link "Skip to main content." [ref=e8] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - banner [ref=e60]:
+          - generic [ref=e63]:
+            - link "Go to Home Page" [ref=e65] [cursor=pointer]:
+              - /url: https://careers.oracle.com/en/sites/jobsearch/?keyword=Machine+Learning+Engineer
+            - generic [ref=e66]:
+              - link "Manage profile" [ref=e69] [cursor=pointer]:
+                - /url: https://careers.oracle.com/en/sites/jobsearch/my-profile/sign-in
+                - generic [ref=e70]: 
+              - button "Open menu" [ref=e72] [cursor=pointer]:
+                - generic [ref=e73]:
+                  - emphasis [ref=e74]
+                  - emphasis [ref=e75]
+                  - emphasis [ref=e76]
+        - main [ref=e13]:
+          - generic [ref=e77]:
+            - heading "Search Jobs - Oracle Careers" [level=1] [ref=e78]
+            - generic [ref=e80]:
+              - generic [ref=e82]:
+                - search [ref=e89]:
+                  - generic [ref=e90]:
+                    - generic [ref=e91]:
+                      - generic [ref=e93]: Find
+                      - generic [ref=e94]:
+                        - generic [ref=e95]: Job title, skill, keyword
+                        - combobox "Find jobs and events" [ref=e96]: Machine Learning Engineer
+                    - generic [ref=e98]:
+                      - button "You've selected the Near Location search mode." [ref=e101] [cursor=pointer]:
+                        - generic [ref=e102]: Near Location
+                        - emphasis [ref=e103]: 
+                      - generic [ref=e104]:
+                        - generic [ref=e105]: City, state, country
+                        - combobox "City, state, country" [ref=e106]
+                  - button "Search for Jobs and Events" [ref=e107] [cursor=pointer]:
+                    - emphasis [ref=e108]: 
+                - generic [ref=e116]:
+                  - list [ref=e121]:
+                    - listitem [ref=e122]:
+                      - list [ref=e124]:
+                        - listitem [ref=e125]:
+                          - generic [ref=e126]:
+                            - button "Jobs 341" [ref=e127]:
+                              - text: Jobs
+                              - generic [ref=e128]: "341"
+                            - alert [ref=e129]: Job search results 341
+                        - listitem [ref=e130]:
+                          - generic [ref=e131]:
+                            - button "Events 0" [ref=e132] [cursor=pointer]:
+                              - text: Events
+                              - generic [ref=e133]: "0"
+                            - alert [ref=e134]
+                    - listitem [ref=e135]
+                    - listitem [ref=e137]:
+                      - button "Locations filter - 0 selected" [ref=e143] [cursor=pointer]:
+                        - generic [ref=e144]: Locations
+                        - emphasis [ref=e145]: 
+                    - listitem [ref=e146]:
+                      - button "Categories filter - 0 selected" [ref=e152] [cursor=pointer]:
+                        - generic [ref=e153]: Categories
+                        - emphasis [ref=e154]: 
+                    - listitem [ref=e155]:
+                      - button "Posting Dates filter - 0 selected" [ref=e161] [cursor=pointer]:
+                        - generic [ref=e162]: Posting Dates
+                        - emphasis [ref=e163]: 
+                    - listitem [ref=e164]:
+                      - button "Role filter - 0 selected" [ref=e170] [cursor=pointer]:
+                        - generic [ref=e171]: Role
+                        - emphasis [ref=e172]: 
+                    - listitem [ref=e173]:
+                      - button "Job Type filter - 0 selected" [ref=e179] [cursor=pointer]:
+                        - generic [ref=e180]: Job Type
+                        - emphasis [ref=e181]: 
+                    - listitem [ref=e182]:
+                      - button "Experience Level filter - 0 selected" [ref=e188] [cursor=pointer]:
+                        - generic [ref=e189]: Experience Level
+                        - emphasis [ref=e190]: 
+                    - listitem:
+                      - generic: 
+                    - listitem [ref=e191]:
+                      - button "Years filter - 0 selected" [ref=e197] [cursor=pointer]:
+                        - generic [ref=e198]: Years
+                        - emphasis [ref=e199]: 
+                    - listitem [ref=e200]:
+                      - button "Applicants filter - 0 selected" [ref=e206] [cursor=pointer]:
+                        - generic [ref=e207]: Applicants
+                        - emphasis [ref=e208]: 
+                    - listitem:
+                      - generic: 
+                    - listitem:
+                      - generic: 
+                  - generic:
+                    - generic:               
+              - generic [ref=e210]:
+                - generic [ref=e217]:
+                  - button "Sort By Relevance" [ref=e223] [cursor=pointer]:
+                    - generic "Sort By Relevance" [ref=e224]: Relevance
+                    - emphasis [ref=e225]: 
+                    - text: 
+                  - list [ref=e226]:
+                    - listitem [ref=e227]:
+                      - generic [ref=e228]:
+                        - link "Principal Machine Learning Engineer United States  Trending" [ref=e229] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/335261/?keyword=Machine+Learning+Engineer
+                        - generic [ref=e231]:
+                          - generic [ref=e234]:
+                            - generic [ref=e236]: Principal Machine Learning Engineer
+                            - generic [ref=e237]:
+                              - list [ref=e239]:
+                                - listitem [ref=e240]:
+                                  - generic [ref=e241]:
+                                    - generic [ref=e243]: United States
+                                    - text: 
+                              - generic [ref=e247]:
+                                - emphasis [ref=e248]: 
+                                - generic [ref=e249]: Trending
+                          - paragraph [ref=e254]: In OCI AI Infrastructure org we are addressing exciting challenges at the intersection of artificial intelligence and cutting-edge cloud infrastructure. In this role, you will drive building state-of-the-art training infrastructure for massive GPU clusters, as well as designing agentic systems deployed on OCI infrastructure at enterprise-scale. You will be innovating on leading principles of agentic software development and driving the frontier on infrastructure that maximizes the potential of bleeding-edge GPU clusters.
+                        - button "Add Job to My Job Selections" [ref=e257] [cursor=pointer]: 
+                    - listitem [ref=e258]:
+                      - generic [ref=e259]:
+                        - link "Applied Scientist 3 BENGALURU, KARNATAKA, India" [ref=e260] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/336546/?keyword=Machine+Learning+Engineer
+                        - generic [ref=e262]:
+                          - generic [ref=e265]:
+                            - generic [ref=e267]: Applied Scientist 3
+                            - list [ref=e270]:
+                              - listitem [ref=e271]:
+                                - generic [ref=e272]:
+                                  - generic [ref=e274]: BENGALURU, KARNATAKA, India
+                                  - text: 
+                          - paragraph [ref=e279]: "Oracle Cloud Infrastructure (OCI) is building applied AI and GenAI systems that operate at enterprise scale. This role sits in the AI organization and focuses on data-centric GenAI: synthetic data generation, data quality, multimodal data curation, evaluation, and scalable pipelines for training and benchmarking frontier models. We are looking for a Senior Applied Scientist who can turn ambiguous data and GenAI model-quality problems into rigorous experiments, reusable systems, and production-ready workflows. The ideal candidate is strong in applied machine learning and GenAI, but is equally interested in the data layer that determines model performance: what data to generate, what to filter, how to measure quality, how to close the loop from model failures back to data, and how to do this reliably at cloud scale."
+                        - button "Add Job to My Job Selections" [ref=e282] [cursor=pointer]: 
+                    - listitem [ref=e283]:
+                      - generic [ref=e284]:
+                        - link "[REMOTE] Principal Applied Scientist United States" [ref=e285] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/336281/?keyword=Machine+Learning+Engineer
+                        - generic [ref=e287]:
+                          - generic [ref=e290]:
+                            - generic [ref=e292]: "[REMOTE] Principal Applied Scientist"
+                            - list [ref=e295]:
+                              - listitem [ref=e296]:
+                                - generic [ref=e297]:
+                                  - generic [ref=e299]: United States
+                                  - text: 
+                          - paragraph [ref=e304]: Invent, implement and deploy state-of-the-art machine learning and/or specific domain industry algorithms and systems.
+                        - button "Add Job to My Job Selections" [ref=e307] [cursor=pointer]: 
+                    - listitem [ref=e308]:
+                      - generic [ref=e309]:
+                        - link "Architect, Applied Scientist (Reasoning Platform, AI Lead) United States" [ref=e310] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/301382/?keyword=Machine+Learning+Engineer
+                        - generic [ref=e312]:
+                          - generic [ref=e315]:
+                            - generic [ref=e317]: Architect, Applied Scientist (Reasoning Platform, AI Lead)
+                            - list [ref=e320]:
+                              - listitem [ref=e321]:
+                                - generic [ref=e322]:
+                                  - generic [ref=e324]: United States
+                                  - text: 
+                          - paragraph [ref=e329]: Invent, implement and deploy state-of-the-art machine learning and/or specific domain industry algorithms and systems. Build prototypes and explore conceptually new solutions. Work collaboratively with science, engineering, and product teams to identify customer needs in order to create and implement solutions, promote innovation and drive model implementations. Applies data science capabilities and research findings to create and implement solutions to scale. Responsible for developing new intelligence around core products and services through applied research on behalf of our customers.
+                        - button "Add Job to My Job Selections" [ref=e332] [cursor=pointer]: 
+                    - listitem [ref=e333]:
+                      - generic [ref=e334]:
+                        - heading "Oracle Talent Network" [level=2] [ref=e335]
+                        - paragraph [ref=e336]: Get career insights and job opportunities
+                        - link "Join our network" [ref=e338] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/join-talent-community?keyword=Machine+Learning+Engineer
+                          - generic [ref=e339]: Join our network
+                    - listitem [ref=e340]:
+                      - generic [ref=e341]:
+                        - link "[Remote] Principal Software Developer- Agent Toolkits & Cloud Infrastructure, Healthcare AI United States" [ref=e342] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/336280/?keyword=Machine+Learning+Engineer
+                        - generic [ref=e344]:
+                          - generic [ref=e347]:
+                            - generic [ref=e349]: "[Remote] Principal Software Developer- Agent Toolkits & Cloud Infrastructure, Healthcare AI"
+                            - list [ref=e352]:
+                              - listitem [ref=e353]:
+                                - generic [ref=e354]:
+                                  - generic [ref=e356]: United States
+                                  - text: 
+                          - paragraph [ref=e361]: 1. Develop and maintain robust software toolkits in Python and Java to support applied scientists in building, testing, and deploying machine learning models and agents. 2. Design, implement, and optimize cloud-based services for running applied science models, with an emphasis on scalability, reliability, and security in Oracle Cloud Infrastructure (OCI). 3. Collaborate closely with scientists and engineers to deliver user-friendly APIs, libraries, and documentation enabling effective model experimentation and deployment.
+                        - button "Add Job to My Job Selections" [ref=e364] [cursor=pointer]: 
+                    - listitem [ref=e365]:
+                      - generic [ref=e366]:
+                        - link "Sr Director Data Automation, Supply Chain Santa Clara, CA, United States  Trending" [ref=e367] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/333312/?keyword=Machine+Learning+Engineer
+                        - generic [ref=e369]:
+                          - generic [ref=e372]:
+                            - generic [ref=e374]: Sr Director Data Automation, Supply Chain
+                            - generic [ref=e375]:
+                              - list [ref=e377]:
+                                - listitem [ref=e378]:
+                                  - generic [ref=e379]:
+                                    - generic [ref=e381]: Santa Clara, CA, United States
+                                    - text: 
+                              - generic [ref=e385]:
+                                - emphasis [ref=e386]: 
+                                - generic [ref=e387]: Trending
+                          - paragraph [ref=e392]: Oracle Cloud Infrastructure (OCI) is seeking a visionary Senior Director of Data and Automation to lead the digital transformation of OCI’s global supply chain operations. This leader will drive the development of advanced data platforms, AI-enabled automation, predictive analytics, and intelligent decision-support systems that enable OCI’s supply chain organization to scale efficiently in support of rapid cloud infrastructure growth. This role will lead a multidisciplinary organization of data scientists, data engineers, AI/ML experts, and analytics professionals focused on building next-generation automation capabilities across forecasting, supply planning, inventory management, manufacturing operations, logistics, and deployment execution. The ideal candidate combines deep expertise in supply chain operations with strong technical leadership in AI, machine learning, data engineering, and enterprise-scale automation platforms.
+                        - button "Add Job to My Job Selections" [ref=e395] [cursor=pointer]: 
+                    - listitem [ref=e396]:
+                      - generic [ref=e397]:
+                        - link "[Remote] Principal Applied Scientist United States  Trending" [ref=e398] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/334692/?keyword=Machine+Learning+Engineer
+                        - generic [ref=e400]:
+                          - generic [ref=e403]:
+                            - generic [ref=e405]: "[Remote] Principal Applied Scientist"
+                            - generic [ref=e406]:
+                              - list [ref=e408]:
+                                - listitem [ref=e409]:
+                                  - generic [ref=e410]:
+                                    - generic [ref=e412]: United States
+                                    - text: 
+                              - generic [ref=e416]:
+                                - emphasis [ref=e417]: 
+                                - generic [ref=e418]: Trending
+                          - paragraph [ref=e423]: As our Principal Applied Scientist, you will play a key role in shaping the future of AI at Oracle, with an emphasis on Large Language Models (LLMs) and Generative AI. Your contributions will be pivotal in delivering our new Generative AI-powered solutions for healthcare and enterprise customers.
+                        - button "Add Job to My Job Selections" [ref=e426] [cursor=pointer]: 
+                    - listitem [ref=e427]:
+                      - generic [ref=e428]:
+                        - link "Senior Engineer – Data Platforms & Artificial Intelligence Ciudad Autónoma de Buenos Aires, Argentina" [ref=e429] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/334643/?keyword=Machine+Learning+Engineer
+                        - generic [ref=e431]:
+                          - generic [ref=e434]:
+                            - generic [ref=e436]: Senior Engineer – Data Platforms & Artificial Intelligence
+                            - list [ref=e439]:
+                              - listitem [ref=e440]:
+                                - generic [ref=e441]:
+                                  - generic [ref=e443]: Ciudad Autónoma de Buenos Aires, Argentina
+                                  - text: 
+                          - paragraph [ref=e448]: "* Experiencia en plataformas de datos: Databricks, Snowflake, BigQuery, Spark. * Experiencia en arquitecturas y servicios Cloud (OCI, AWS, Azure o GCP). * Conocimiento en procesamiento y explotación de datos a gran escala. * Experiencia aplicando IA, Machine Learning y LLMs sobre plataformas de datos. * Manejo de pipelines ETL/ELT y soluciones analíticas modernas. * Experiencia en RAG, vector databases y fine-tuning de modelos."
+                        - button "Add Job to My Job Selections" [ref=e451] [cursor=pointer]: 
+                    - listitem [ref=e452]:
+                      - generic [ref=e453]:
+                        - link "Senior Principal Applied Scientist (OCI- GenAI Vision/Biometrics) United States" [ref=e454] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/333597/?keyword=Machine+Learning+Engineer
+                        - generic [ref=e456]:
+                          - generic [ref=e459]:
+                            - generic [ref=e461]: Senior Principal Applied Scientist (OCI- GenAI Vision/Biometrics)
+                            - list [ref=e464]:
+                              - listitem [ref=e465]:
+                                - generic [ref=e466]:
+                                  - generic [ref=e468]: United States
+                                  - text: 
+                          - paragraph [ref=e473]: Senior Principal Applied Scientist to work on advancing computer vision research
+                        - button "Add Job to My Job Selections" [ref=e476] [cursor=pointer]: 
+                    - listitem [ref=e477]:
+                      - generic [ref=e478]:
+                        - link "Principal Product Manager- Healthcare AI United States  Hot Job  Trending" [ref=e479] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/331846/?keyword=Machine+Learning+Engineer
+                        - generic [ref=e481]:
+                          - generic [ref=e484]:
+                            - generic [ref=e486]: Principal Product Manager- Healthcare AI
+                            - generic [ref=e487]:
+                              - list [ref=e489]:
+                                - listitem [ref=e490]:
+                                  - generic [ref=e491]:
+                                    - generic [ref=e493]: United States
+                                    - text: 
+                              - generic [ref=e496]:
+                                - generic [ref=e497]:
+                                  - emphasis [ref=e498]: 
+                                  - generic [ref=e499]: Hot Job
+                                - generic [ref=e500]:
+                                  - emphasis [ref=e501]: 
+                                  - generic [ref=e502]: Trending
+                          - paragraph [ref=e507]: Seeking a Principal Product Manager experienced with LLM's and Generative AI to lead discovery, definition, development and release of Clinical AI Agents that accelerate workflows for clinical staff.
+                        - button "Add Job to My Job Selections" [ref=e510] [cursor=pointer]: 
+                    - listitem [ref=e511]:
+                      - generic [ref=e512]:
+                        - link "Senior Product Manager, Healthcare AI & Revenue Cycle Solutions United States  Hot Job" [ref=e513] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/335702/?keyword=Machine+Learning+Engineer
+                        - generic [ref=e515]:
+                          - generic [ref=e518]:
+                            - generic [ref=e520]: Senior Product Manager, Healthcare AI & Revenue Cycle Solutions
+                            - generic [ref=e521]:
+                              - list [ref=e523]:
+                                - listitem [ref=e524]:
+                                  - generic [ref=e525]:
+                                    - generic [ref=e527]: United States
+                                    - text: 
+                              - generic [ref=e531]:
+                                - emphasis [ref=e532]: 
+                                - generic [ref=e533]: Hot Job
+                          - paragraph [ref=e538]: We are seeking a highly motivated Senior Product Manager to lead product strategy, roadmap, and execution for AI-enabled healthcare workflow solutions spanning revenue cycle management, interoperability, healthcare data exchange, and clinical AI applications. In this role, you will drive the development of innovative products that leverage AI, healthcare interoperability standards, and transaction services to improve both administrative and clinical workflows. You will work closely with engineering, data science, UX, architecture, compliance, operations, and commercial teams to define product vision, deliver scalable solutions, and create measurable value for healthcare providers, payers, and patients. IC3 Career Level
+                        - button "Add Job to My Job Selections" [ref=e541] [cursor=pointer]: 
+                    - listitem [ref=e542]:
+                      - generic [ref=e543]:
+                        - link "Software Developer 3 STOCKHOLM, Sweden" [ref=e544] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/335306/?keyword=Machine+Learning+Engineer
+                        - generic [ref=e546]:
+                          - generic [ref=e549]:
+                            - generic [ref=e551]: Software Developer 3
+                            - list [ref=e554]:
+                              - listitem [ref=e555]:
+                                - generic [ref=e556]:
+                                  - generic [ref=e558]: STOCKHOLM, Sweden
+                                  - text: 
+                          - paragraph [ref=e563]: Senior Software Engineer - Oracle Java Platform Group
+                        - button "Add Job to My Job Selections" [ref=e566] [cursor=pointer]: 
+                    - listitem [ref=e567]:
+                      - generic [ref=e568]:
+                        - link "Principal Software Developer- C/C++ , Java, Distributed System (Redwood City, CA) Redwood City, CA, United States and 1 more  Trending" [ref=e569] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/332205/?keyword=Machine+Learning+Engineer
+                        - generic [ref=e571]:
+                          - generic [ref=e574]:
+                            - generic [ref=e576]: Principal Software Developer- C/C++ , Java, Distributed System (Redwood City, CA)
+                            - generic [ref=e577]:
+                              - list [ref=e579]:
+                                - listitem [ref=e580]:
+                                  - generic [ref=e581]:
+                                    - generic [ref=e583]:
+                                      - text: Redwood City, CA, United States
+                                      - generic "and 1 more" [ref=e585]:
+                                        - tooltip "Locations,Redwood City, CA, United States,United States" [ref=e587]:
+                                          - generic "Redwood City, CA, United States,United States" [ref=e588]:
+                                            - generic [ref=e589]: and 1 more
+                                    - text: 
+                              - generic [ref=e593]:
+                                - emphasis [ref=e594]: 
+                                - generic [ref=e595]: Trending
+                          - paragraph [ref=e600]: "Looking for software developer ready for a new challenge in area of database system and cloud service development with these skills: C/C++, Linux OS, Parallel Programming, Distributed System"
+                        - button "Add Job to My Job Selections" [ref=e603] [cursor=pointer]: 
+                    - listitem [ref=e604]:
+                      - generic [ref=e605]:
+                        - link "Senior Power Systems Studies Engineer United States  Hot Job" [ref=e606] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/325963/?keyword=Machine+Learning+Engineer
+                        - generic [ref=e608]:
+                          - generic [ref=e611]:
+                            - generic [ref=e613]: Senior Power Systems Studies Engineer
+                            - generic [ref=e614]:
+                              - list [ref=e616]:
+                                - listitem [ref=e617]:
+                                  - generic [ref=e618]:
+                                    - generic [ref=e620]: United States
+                                    - text: 
+                              - generic [ref=e624]:
+                                - emphasis [ref=e625]: 
+                                - generic [ref=e626]: Hot Job
+                          - paragraph [ref=e631]: We are seeking a Senior Power Systems Studies Engineer to lead advanced power system studies for large-scale data center projects, generation facilities, and complex electrical infrastructure. This role is responsible for executing high-quality EMT, steady-state, dynamic, and power quality studies, as well as developing validated simulation models
+                        - button "Add Job to My Job Selections" [ref=e634] [cursor=pointer]: 
+                  - button "Show More Results" [ref=e636] [cursor=pointer]:
+                    - generic [ref=e637]: Show More Results
+                - generic [ref=e648]:
+                  - generic [ref=e649]:
+                    - text: 
+                    - generic [ref=e650]: See recommended jobs based on your CV/resume (your file will not be stored)
+                  - generic [ref=e651]:
+                    - button "See recommended jobs based on your CV/resume (your file will not be stored)" [ref=e652] [cursor=pointer]
+                    - button [ref=e653] [cursor=pointer]: Select a file or drop one here
+              - generic [ref=e655]:
+                - paragraph [ref=e662]: Create the future with us
+                - generic [ref=e665]:
+                  - generic [ref=e667]:
+                    - iframe [ref=e671]:
+                      - generic [active] [ref=f82e1]:
+                        - generic "YouTube Video Player" [ref=f82e3]
+                        - generic [ref=f82e5]:
+                          - generic:
+                            - generic:
+                              - button "Play video" [ref=f82e10] [cursor=pointer]
+                              - button "Hide player controls" [ref=f82e12] [cursor=pointer]
+                              - generic [ref=f82e14]:
+                                - generic [ref=f82e19]:
+                                  - generic [ref=f82e20]:
+                                    - link "Oracle Careers l Create the Future With Us" [ref=f82e21] [cursor=pointer]:
+                                      - /url: https://www.youtube.com/watch?v=BV0GMCITXg4
+                                    - link "Oracle Careers" [ref=f82e22] [cursor=pointer]:
+                                      - /url: /channel/UCPe0ulfPgXtndUKPs5WNyEA
+                                      - generic [ref=f82e23]: Oracle Careers
+                                  - generic [ref=f82e24]:
+                                    - button [ref=f82e25] [cursor=pointer]
+                                    - generic [ref=f82e27]:
+                                      - generic: Oracle Careers
+                                      - generic: 4.87k subscribers
+                                - generic [ref=f82e28]:
+                                  - button "Share" [ref=f82e31] [cursor=pointer]:
+                                    - generic [ref=f82e35]:
+                                      - img
+                                  - link "Watch on YouTube" [ref=f82e42] [cursor=pointer]:
+                                    - /url: https://www.youtube.com/watch?v=BV0GMCITXg4
+                                    - generic [ref=f82e45]:
+                                      - text: Watch on
+                                      - img [ref=f82e47]:
+                                        - generic [ref=f82e49]:
+                                          - img
+                    - paragraph [ref=e673]:
+                      - text: All over the world, people's lives are better because of Oracle. Want to make a difference?
+                      - link "Join our company of change makers." [ref=e674] [cursor=pointer]:
+                        - /url: https://www.oracle.com/careers/
+                  - generic [ref=e676]:
+                    - heading "Oracle Talent Network" [level=2] [ref=e678]
+                    - paragraph [ref=e680]:
+                      - generic [ref=e681]: Join the Oracle Talent Network to receive career insights and opportunities.
+                    - link "Join now" [ref=e683] [cursor=pointer]:
+                      - /url: https://careers.oracle.com/en/sites/jobsearch/join-talent-community?keyword=Machine+Learning+Engineer
+                      - generic [ref=e684]: Join now
+      - contentinfo [ref=e15]:
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - heading "If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing accommodation-request_mb@oracle.com or by calling +1 888 404 2494 in the U.S." [level=2] [ref=e20]:
+              - text: If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing
+              - link "accommodation-request_mb@oracle.com" [ref=e21] [cursor=pointer]:
+                - /url: mailto:accommodation-request_mb@oracle.com
+              - text: or by calling +1 888 404 2494 in the U.S.
+            - heading "Oracle’s U.S. affirmative action plan for people with disabilities and military veterans is available by contacting +1 888 404 2494." [level=2] [ref=e22]
+            - paragraph [ref=e23]:
+              - text: Need Help?
+              - link "Contact us" [ref=e25] [cursor=pointer]:
+                - /url: https://hrhelp.custhelp.com/app/hiring
+              - text: and include a detailed description of the issue.
+            - paragraph [ref=e26]:
+              - link "Oracle's Pre-employment Screening Process" [ref=e28] [cursor=pointer]:
+                - /url: https://www.oracle.com/corporate/careers/background-check.html
+              - link "Oracle's Equal Employment Opportunity and Pay Transparency" [ref=e30] [cursor=pointer]:
+                - /url: https://www.oracle.com/legal/eeo-pay-transparency/
+          - generic [ref=e32]:
+            - generic:
+              - list:
+                - listitem
+            - list [ref=e34]:
+              - listitem [ref=e35]:
+                - link "© 2026 Oracle" [ref=e36] [cursor=pointer]:
+                  - /url: https://www.oracle.com/legal/copyright.html
+              - listitem [ref=e37]:
+                - link "Privacy" [ref=e38] [cursor=pointer]:
+                  - /url: https://www.oracle.com/legal/privacy/
+                - text: /
+                - link "Do Not Sell My Info" [ref=e39] [cursor=pointer]:
+                  - /url: https://www.oracle.com/legal/privacy/privacy-choices.html
+              - listitem [ref=e40]:
+                - link "Ad Choices" [ref=e41] [cursor=pointer]:
+                  - /url: https://www.oracle.com/legal/privacy/marketing-cloud-data-cloud-privacy-policy.html#adchoices
+              - listitem [ref=e42]:
+                - link "Careers" [ref=e43] [cursor=pointer]:
+                  - /url: https://www.oracle.com/corporate/careers/
+              - listitem [ref=e44]:
+                - link "Policy" [ref=e45] [cursor=pointer]:
+                  - /url: https://www.oracle.com/corporate/careers/terms-conditions/
+            - list [ref=e47]:
+              - listitem [ref=e48]:
+                - link "Oracle on Facebook":
+                  - /url: https://www.facebook.com/Oracle/
+                  - img [ref=e49] [cursor=pointer]
+              - listitem [ref=e50]:
+                - link "Follow Oracle on Twitter":
+                  - /url: https://twitter.com/oracle
+                  - img [ref=e51] [cursor=pointer]
+              - listitem [ref=e53]:
+                - link "Oracle on LinkedIn":
+                  - /url: https://www.linkedin.com/company/oracle/
+                  - img [ref=e54] [cursor=pointer]
+              - listitem [ref=e55]:
+                - link "Watch Oracle on YouTube":
+                  - /url: http://www.youtube.com/oracle/
+                  - img [ref=e56] [cursor=pointer]
+    - alert
+    - status [ref=e57]
+    - alert [ref=e58]
+  - button "Oracle Assistant" [ref=e685] [cursor=pointer]
+  - status [ref=e687]
+  - status [ref=e688]
+  - status [ref=e689]
+  - status [ref=e690]
+  - status [ref=e691]
+  - status [ref=e692]

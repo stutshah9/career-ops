@@ -1,0 +1,68 @@
+[     916ms] [LOG] Page authentication status: false @ https://www.amazon.jobs/en/search?base_query=software+engineer&loc_query=United+States:73
+[     917ms] [LOG] Internal user status: false @ https://www.amazon.jobs/en/search?base_query=software+engineer&loc_query=United+States:74
+[    1002ms] [LOG] {
+	"eventData": {},
+	"job": {},
+	"page": {
+		"search": {
+			"keywordQuery": "software engineer | United States",
+			"noOfResults": "zero"
+		}
+	},
+	"pageInfo": {}
+} @ https://d1o95ve0lr2m33.cloudfront.net/launch-ENb97d7f9d2d4b4720ac9782a711994995.min.js:8
+[    1125ms] [ERROR] Loading the script 'https://bat.bing.com/bat.js' violates the following Content Security Policy directive: "script-src-elem 'self' 'unsafe-inline' apply.talentbrew.io assets.adobedtm.com bs.serving-sys.com d1fc8wv8zag5ca.cloudfront.net d1o95ve0lr2m33.cloudfront.net d1t40axu4ik42k.cloudfront.net googleadservices.com images-na.ssl-images-amazon.com secure-ds.serving-sys.com snap.licdn.com static.amazon.jobs static-gamma.amazon.jobs www.googletagmanager.com www.youtube.com midway-auth.amazon.com connect.facebook.net googleads.g.doubleclick.net ava.hirise.amazon.dev". The action has been blocked. @ https://www.googletagmanager.com/gtm.js?id=GTM-WJSMBWKS:218
+[    1180ms] [LOG] {
+	"eventData": {},
+	"job": {},
+	"page": {
+		"search": {
+			"keywordQuery": "software engineer | United States",
+			"noOfResults": "zero"
+		}
+	},
+	"pageInfo": {}
+} @ https://d1o95ve0lr2m33.cloudfront.net/launch-ENb97d7f9d2d4b4720ac9782a711994995.min.js:7
+[    1181ms] [LOG] {
+	"eventData": {},
+	"job": {},
+	"page": {
+		"search": {
+			"keywordQuery": "software engineer | United States",
+			"noOfResults": "zero"
+		}
+	},
+	"pageInfo": {}
+} @ https://d1o95ve0lr2m33.cloudfront.net/launch-ENb97d7f9d2d4b4720ac9782a711994995.min.js:8
+[    1181ms] [LOG] zerofired @ https://d1o95ve0lr2m33.cloudfront.net/launch-ENb97d7f9d2d4b4720ac9782a711994995.min.js:8
+[    1571ms] [LOG] ChatWidget Web Component bundle loaded successfully. Use <chat-widget></chat-widget> in your HTML. @ https://ava.hirise.amazon.dev/assets/webcomponent/chat-widget.iife.js:37
+[    1571ms] [LOG] ChatWidget loaded @ https://www.amazon.jobs/en/search?base_query=software+engineer&loc_query=United+States:78
+[    1624ms] [LOG] {
+	"eventData": {},
+	"job": {},
+	"page": {
+		"search": {
+			"keywordQuery": "software engineer | United States",
+			"noOfResults": "1947"
+		}
+	},
+	"pageInfo": {}
+} @ https://d1o95ve0lr2m33.cloudfront.net/launch-ENb97d7f9d2d4b4720ac9782a711994995.min.js:8
+[    1648ms] [LOG] {
+	"eventData": {},
+	"job": {},
+	"page": {
+		"search": {
+			"keywordQuery": "software engineer | United States",
+			"noOfResults": "1947"
+		}
+	},
+	"pageInfo": {}
+} @ https://d1o95ve0lr2m33.cloudfront.net/launch-ENb97d7f9d2d4b4720ac9782a711994995.min.js:8
+[    1649ms] [LOG] 1947fired @ https://d1o95ve0lr2m33.cloudfront.net/launch-ENb97d7f9d2d4b4720ac9782a711994995.min.js:8
+[    1762ms] [LOG] [RUM] Initialization complete @ https://ava.hirise.amazon.dev/assets/webcomponent/chat-widget.iife.js:37
+[    1831ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ https://www.amazon.jobs/auth/token:0
+[    5725ms] [WARNING] The resource https://static.amazon.jobs/assets/bootstrap-alpha5-1af4aa065b2c6a512b7e6cec4359c03f7c6870ad089cf5e06a9bcd67facf059c.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.jobs/en/search?base_query=software+engineer&loc_query=United+States:0
+[    9788ms] [WARNING] The resource https://static.amazon.jobs/assets/bootstrap-alpha5-1af4aa065b2c6a512b7e6cec4359c03f7c6870ad089cf5e06a9bcd67facf059c.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.jobs/en/search?base_query=software+engineer&loc_query=United+States:0
+[   14023ms] [WARNING] The resource https://static.amazon.jobs/assets/bootstrap-alpha5-1af4aa065b2c6a512b7e6cec4359c03f7c6870ad089cf5e06a9bcd67facf059c.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.jobs/en/search?base_query=software+engineer&loc_query=United+States:0
+[   24456ms] [WARNING] The resource https://static.amazon.jobs/assets/bootstrap-alpha5-1af4aa065b2c6a512b7e6cec4359c03f7c6870ad089cf5e06a9bcd67facf059c.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.jobs/en/search?base_query=software+engineer&loc_query=United+States:0

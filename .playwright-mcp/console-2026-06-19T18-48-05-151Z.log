@@ -1,0 +1,67 @@
+[     569ms] [LOG] Page authentication status: false @ https://www.amazon.jobs/en/search?base_query=graduate%20software%20engineer&loc_query=United%20States:73
+[     569ms] [LOG] Internal user status: false @ https://www.amazon.jobs/en/search?base_query=graduate%20software%20engineer&loc_query=United%20States:74
+[     590ms] [LOG] {
+	"eventData": {},
+	"job": {},
+	"page": {
+		"search": {
+			"keywordQuery": "graduate software engineer | United States",
+			"noOfResults": "zero"
+		}
+	},
+	"pageInfo": {}
+} @ https://d1o95ve0lr2m33.cloudfront.net/launch-ENb97d7f9d2d4b4720ac9782a711994995.min.js:8
+[     634ms] [ERROR] Loading the script 'https://bat.bing.com/bat.js' violates the following Content Security Policy directive: "script-src-elem 'self' 'unsafe-inline' apply.talentbrew.io assets.adobedtm.com bs.serving-sys.com d1fc8wv8zag5ca.cloudfront.net d1o95ve0lr2m33.cloudfront.net d1t40axu4ik42k.cloudfront.net googleadservices.com images-na.ssl-images-amazon.com secure-ds.serving-sys.com snap.licdn.com static.amazon.jobs static-gamma.amazon.jobs www.googletagmanager.com www.youtube.com midway-auth.amazon.com connect.facebook.net googleads.g.doubleclick.net ava.hirise.amazon.dev". The action has been blocked. @ https://www.googletagmanager.com/gtm.js?id=GTM-WJSMBWKS:218
+[     643ms] [LOG] {
+	"eventData": {},
+	"job": {},
+	"page": {
+		"search": {
+			"keywordQuery": "graduate software engineer | United States",
+			"noOfResults": "zero"
+		}
+	},
+	"pageInfo": {}
+} @ https://d1o95ve0lr2m33.cloudfront.net/launch-ENb97d7f9d2d4b4720ac9782a711994995.min.js:7
+[     643ms] [LOG] {
+	"eventData": {},
+	"job": {},
+	"page": {
+		"search": {
+			"keywordQuery": "graduate software engineer | United States",
+			"noOfResults": "zero"
+		}
+	},
+	"pageInfo": {}
+} @ https://d1o95ve0lr2m33.cloudfront.net/launch-ENb97d7f9d2d4b4720ac9782a711994995.min.js:8
+[     643ms] [LOG] zerofired @ https://d1o95ve0lr2m33.cloudfront.net/launch-ENb97d7f9d2d4b4720ac9782a711994995.min.js:8
+[     731ms] [LOG] ChatWidget Web Component bundle loaded successfully. Use <chat-widget></chat-widget> in your HTML. @ https://ava.hirise.amazon.dev/assets/webcomponent/chat-widget.iife.js:37
+[     731ms] [LOG] ChatWidget loaded @ https://www.amazon.jobs/en/search?base_query=graduate%20software%20engineer&loc_query=United%20States:78
+[     830ms] [LOG] [RUM] Initialization complete @ https://ava.hirise.amazon.dev/assets/webcomponent/chat-widget.iife.js:37
+[     854ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ https://www.amazon.jobs/auth/token:0
+[     877ms] [LOG] {
+	"eventData": {},
+	"job": {},
+	"page": {
+		"search": {
+			"keywordQuery": "graduate software engineer | United States",
+			"noOfResults": "1"
+		}
+	},
+	"pageInfo": {}
+} @ https://d1o95ve0lr2m33.cloudfront.net/launch-ENb97d7f9d2d4b4720ac9782a711994995.min.js:8
+[     882ms] [LOG] {
+	"eventData": {},
+	"job": {},
+	"page": {
+		"search": {
+			"keywordQuery": "graduate software engineer | United States",
+			"noOfResults": "1"
+		}
+	},
+	"pageInfo": {}
+} @ https://d1o95ve0lr2m33.cloudfront.net/launch-ENb97d7f9d2d4b4720ac9782a711994995.min.js:8
+[     882ms] [LOG] 1fired @ https://d1o95ve0lr2m33.cloudfront.net/launch-ENb97d7f9d2d4b4720ac9782a711994995.min.js:8
+[    4263ms] [WARNING] The resource https://static.amazon.jobs/assets/bootstrap-alpha5-1af4aa065b2c6a512b7e6cec4359c03f7c6870ad089cf5e06a9bcd67facf059c.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.jobs/en/search?base_query=graduate%20software%20engineer&loc_query=United%20States:0
+[    8697ms] [WARNING] The resource https://static.amazon.jobs/assets/bootstrap-alpha5-1af4aa065b2c6a512b7e6cec4359c03f7c6870ad089cf5e06a9bcd67facf059c.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.jobs/en/search?base_query=graduate%20software%20engineer&loc_query=United%20States:0
+[   13591ms] [WARNING] The resource https://static.amazon.jobs/assets/bootstrap-alpha5-1af4aa065b2c6a512b7e6cec4359c03f7c6870ad089cf5e06a9bcd67facf059c.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.amazon.jobs/en/search?base_query=graduate%20software%20engineer&loc_query=United%20States:0

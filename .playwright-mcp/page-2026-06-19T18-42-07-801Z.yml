@@ -1,0 +1,799 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - button "Main menu" [ref=e5] [cursor=pointer]:
+          - img [ref=e6]
+        - link "Careers" [ref=e10] [cursor=pointer]:
+          - /url: /about/careers/applications/
+          - generic [ref=e12]: Careers
+      - generic [ref=e13]:
+        - link "Skip navigation links" [ref=e14]:
+          - generic: Skip navigation links
+        - generic [ref=e17]:
+          - navigation "Candidate Portal Left Navigation" [ref=e21]:
+            - menubar [ref=e23]:
+              - generic [ref=e24]:
+                - menuitem "Home navigation link" [ref=e25] [cursor=pointer]:
+                  - menuitem [ref=e27]:
+                    - generic [ref=e28]:
+                      - generic [ref=e29]:
+                        - generic [ref=e34]: home
+                        - generic [ref=e36]: Home
+                      - generic [ref=e38]: Home
+                - menuitem "Jobs navigation item" [ref=e39] [cursor=pointer]:
+                  - menuitem [ref=e41]:
+                    - generic [ref=e42]:
+                      - generic [ref=e43]:
+                        - generic [ref=e48]: work_outline
+                        - generic [ref=e50]: Jobs
+                      - generic [ref=e52]: Jobs
+                - menuitem "Students navigation item" [ref=e53] [cursor=pointer]:
+                  - menuitem [ref=e55]:
+                    - generic [ref=e56]:
+                      - generic [ref=e57]:
+                        - generic [ref=e62]: noogler_hat
+                        - generic [ref=e64]: Students
+                      - generic [ref=e66]: Students
+                - menuitem "How we work navigation item" [ref=e67] [cursor=pointer]:
+                  - menuitem [ref=e69]:
+                    - generic [ref=e70]:
+                      - generic [ref=e71]:
+                        - generic [ref=e76]: google
+                        - generic [ref=e78]: How we work
+                      - generic [ref=e80]: How we work
+                - menuitem "How we hire navigation item" [ref=e81] [cursor=pointer]:
+                  - menuitem [ref=e83]:
+                    - generic [ref=e84]:
+                      - generic [ref=e85]:
+                        - generic [ref=e90]: handyman
+                        - generic [ref=e92]: How we hire
+                      - generic [ref=e94]: How we hire
+                - menuitem "Your career navigation item" [ref=e95] [cursor=pointer]:
+                  - menuitem [ref=e97]:
+                    - generic [ref=e98]:
+                      - generic [ref=e99]:
+                        - generic [ref=e104]: person_outline
+                        - generic [ref=e106]: Your career
+                      - generic [ref=e108]: Your career
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - generic [ref=e116] [cursor=pointer]:
+                - generic [ref=e117]: help_outline
+                - link "Help link" [ref=e118]:
+                  - /url: https://support.google.com/googlecareers
+              - tooltip [ref=e119]: Help link
+            - generic [ref=e120]:
+              - button "Send feedback" [ref=e121] [cursor=pointer]:
+                - generic [ref=e122]: feedback
+              - tooltip [ref=e123]: Send feedback
+      - generic [ref=e125]:
+        - button "Google apps" [ref=e129] [cursor=pointer]:
+          - img [ref=e130]
+        - link "Sign in" [ref=e133] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Fabout%2Fcareers%2Fapplications%2Fjobs%2Fresults%2F%3Fq%3Dmachine%2520learning%2520engineer%26location%3DUnited%2520States&followup=https%3A%2F%2Fwww.google.com%2Fabout%2Fcareers%2Fapplications%2Fjobs%2Fresults%2F%3Fq%3Dmachine%2520learning%2520engineer%26location%3DUnited%2520States&ec=GAZA6QE
+  - generic [ref=e141]:
+    - heading "Search Jobs" [level=1]
+    - generic [ref=e143]:
+      - generic [ref=e145]:
+        - heading "Search sidebar" [level=2]
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - generic [ref=e148]: 716 jobs matched
+            - button "Clear filters" [ref=e150]:
+              - generic [ref=e153]: Clear filters
+          - generic:
+            - grid "tags chipset"
+          - generic [ref=e158]:
+            - generic:
+              - generic:
+                - generic: What do you want to do?
+            - combobox "What do you want to do?" [ref=e159]: machine learning engineer
+          - generic "Job filters" [ref=e160]:
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - heading "Locations" [level=3] [ref=e164]
+                - button "Locations filter options" [expanded] [ref=e166] [cursor=pointer]:
+                  - generic [ref=e167]: expand_less
+              - region "Locations filter options" [ref=e168]:
+                - generic [ref=e169]:
+                  - generic [ref=e171]:
+                    - grid [ref=e172]:
+                      - row "United States Remove chip United States" [ref=e173]:
+                        - gridcell "United States" [ref=e174]:
+                          - generic [ref=e175]: United States
+                        - gridcell "Remove chip United States" [ref=e176]:
+                          - generic [ref=e177]:
+                            - button "Remove chip United States" [ref=e178] [cursor=pointer]:
+                              - img [ref=e181]
+                            - tooltip [ref=e183]: Remove
+                    - generic [ref=e186]:
+                      - generic:
+                        - generic:
+                          - generic: Which location(s) do you prefer?
+                      - generic: search
+                      - combobox "Which location(s) do you prefer working out of?" [ref=e187]
+                    - generic [ref=e189]: 1 / 4Locations
+                  - generic [ref=e190]:
+                    - generic [ref=e191]:
+                      - generic [ref=e192] [cursor=pointer]:
+                        - checkbox "Remote eligible" [ref=e193]
+                        - generic:
+                          - img
+                      - generic [ref=e194]: Remote eligible
+                    - img "Learn more about remote eligibility" [ref=e196] [cursor=pointer]:
+                      - generic [ref=e197]: info_outline
+            - generic [ref=e199]:
+              - heading "Experience" [level=3] [ref=e201]
+              - button "Experience filter options" [ref=e203] [cursor=pointer]:
+                - generic [ref=e204]: expand_more
+            - generic [ref=e206]:
+              - heading "Skills & qualifications" [level=3] [ref=e208]
+              - button "Skills & qualifications filter options" [ref=e210] [cursor=pointer]:
+                - generic [ref=e211]: expand_more
+            - generic [ref=e213]:
+              - heading "Degree" [level=3] [ref=e215]
+              - button "Degree filter options" [ref=e217] [cursor=pointer]:
+                - generic [ref=e218]: expand_more
+            - generic [ref=e220]:
+              - heading "Job types" [level=3] [ref=e222]
+              - button "Job types filter options" [ref=e224] [cursor=pointer]:
+                - generic [ref=e225]: expand_more
+            - generic [ref=e227]:
+              - heading "Organizations" [level=3] [ref=e229]
+              - button "Organizations filter options" [ref=e231] [cursor=pointer]:
+                - generic [ref=e232]: expand_more
+            - generic [ref=e234]:
+              - heading "Sort by" [level=3] [ref=e236]
+              - button "Sort jobs by date or relevance" [ref=e238] [cursor=pointer]:
+                - generic [ref=e239]: expand_more
+      - generic [ref=e240]:
+        - main [ref=e241]:
+          - generic [ref=e242]:
+            - heading "Jobs search results" [level=2]
+            - generic [ref=e244]:
+              - list [ref=e246]:
+                - listitem [ref=e247]:
+                  - generic [ref=e249]:
+                    - generic [ref=e251]:
+                      - heading "Senior Software Engineer, AI/ML, Creative Intelligence" [level=3] [ref=e254]
+                      - generic [ref=e256]:
+                        - generic [ref=e257]:
+                          - generic [ref=e258]: corporate_fare
+                          - generic [ref=e259]: Google
+                        - generic [ref=e260]:
+                          - generic [ref=e261]: place
+                          - generic [ref=e262]: Mountain View, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e266]:
+                          - generic [ref=e270]: bar_chart
+                          - generic [ref=e271]: Mid
+                      - generic [ref=e272]:
+                        - heading "Minimum qualifications" [level=4] [ref=e273]
+                        - list [ref=e274]:
+                          - listitem [ref=e275]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e276]: 5 years of experience with software development using one or more general-purpose programming languages (e.g., Python, Java, C++, Go).
+                          - listitem [ref=e277]: 3 years of experience testing and launching software products, and 3 years of experience with software design and architecture.
+                      - generic [ref=e279]:
+                        - generic [ref=e281]: Learn more
+                        - link "Learn more about Senior Software Engineer, AI/ML, Creative Intelligence" [ref=e282] [cursor=pointer]:
+                          - /url: jobs/results/136775056809173702-senior-software-engineer-aiml-creative-intelligence?q=machine%20learning%20engineer&location=United%20States
+                    - button "Share Senior Software Engineer, AI/ML, Creative Intelligence" [ref=e287] [cursor=pointer]:
+                      - generic [ref=e288]: share
+                - listitem [ref=e289]:
+                  - generic [ref=e291]:
+                    - generic [ref=e293]:
+                      - heading "Software Engineer, PhD, Early Career, AI/Machine Learning, 2026 Start" [level=3] [ref=e296]
+                      - generic [ref=e298]:
+                        - generic [ref=e299]:
+                          - generic [ref=e300]: corporate_fare
+                          - generic [ref=e301]: Google
+                        - generic [ref=e302]:
+                          - generic [ref=e303]: place
+                          - generic [ref=e304]: Sunnyvale, CA, USA
+                          - generic [ref=e305]: ; Atlanta, GA, USA
+                          - generic [ref=e306]: ; +8 more
+                        - img "Mid, Learn more about experience filters." [ref=e310]:
+                          - generic [ref=e314]: bar_chart
+                          - generic [ref=e315]: Mid
+                      - generic [ref=e316]:
+                        - heading "Minimum qualifications" [level=4] [ref=e317]
+                        - list [ref=e318]:
+                          - listitem [ref=e319]: PhD degree in Computer Science, ML/AI, or a related field, or equivalent practical experience.
+                          - listitem [ref=e320]: "Experience coding in one of the following programming languages including but not limited to: Python, C, C++, Java, JavaScript or Golang."
+                          - listitem [ref=e321]:
+                            - generic [ref=e323]: Experience in Machine Learning or Artificial Intelligence.
+                      - generic [ref=e325]:
+                        - generic [ref=e327]: Learn more
+                        - link "Learn more about Software Engineer, PhD, Early Career, AI/Machine Learning, 2026 Start" [ref=e328] [cursor=pointer]:
+                          - /url: jobs/results/122258040807137990-software-engineer-phd-early-career-aimachine-learning-2026-start?q=machine%20learning%20engineer&location=United%20States
+                    - button "Share Software Engineer, PhD, Early Career, AI/Machine Learning, 2026 Start" [ref=e333] [cursor=pointer]:
+                      - generic [ref=e334]: share
+                - listitem [ref=e335]:
+                  - generic [ref=e337]:
+                    - generic [ref=e339]:
+                      - heading "Staff Software Engineer, TPU Machine Learning Supercomputer" [level=3] [ref=e342]
+                      - generic [ref=e344]:
+                        - generic [ref=e345]:
+                          - generic [ref=e346]: corporate_fare
+                          - generic [ref=e347]: Google
+                        - generic [ref=e348]:
+                          - generic [ref=e349]: place
+                          - generic [ref=e350]: Sunnyvale, CA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e354]:
+                          - generic [ref=e358]: bar_chart
+                          - generic [ref=e359]: Advanced
+                      - generic [ref=e360]:
+                        - heading "Minimum qualifications" [level=4] [ref=e361]
+                        - list [ref=e362]:
+                          - listitem [ref=e363]: Bachelor's degree or equivalent practical experience.
+                          - listitem [ref=e364]: 8 years of experience with software development in C++ or Go.
+                          - listitem [ref=e365]: 5 years of experience with large-scale infrastructure, distributed systems, or networks, as well as testing and launching software products.
+                          - listitem [ref=e366]: 3 years of experience with software design and architecture.
+                          - listitem [ref=e367]: Experience with operating systems, data structures, and algorithms.
+                          - listitem [ref=e368]: Experience developing, integrating, and testing system and user-space software (including tools, dashboards, and monitoring) for hardware accelerators or TPU systems.
+                      - generic [ref=e370]:
+                        - generic [ref=e372]: Learn more
+                        - link "Learn more about Staff Software Engineer, TPU Machine Learning Supercomputer" [ref=e373] [cursor=pointer]:
+                          - /url: jobs/results/72354084174078662-staff-software-engineer-tpu-machine-learning-supercomputer?q=machine%20learning%20engineer&location=United%20States
+                    - button "Share Staff Software Engineer, TPU Machine Learning Supercomputer" [ref=e378] [cursor=pointer]:
+                      - generic [ref=e379]: share
+                - listitem [ref=e380]:
+                  - generic [ref=e382]:
+                    - generic [ref=e384]:
+                      - heading "Staff Software Engineer, Machine Learning, Google Chat" [level=3] [ref=e387]
+                      - generic [ref=e389]:
+                        - generic [ref=e390]:
+                          - generic [ref=e391]: corporate_fare
+                          - generic [ref=e392]: Google
+                        - generic [ref=e393]:
+                          - generic [ref=e394]: place
+                          - generic [ref=e395]: Sunnyvale, CA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e399]:
+                          - generic [ref=e403]: bar_chart
+                          - generic [ref=e404]: Advanced
+                      - generic [ref=e405]:
+                        - heading "Minimum qualifications" [level=4] [ref=e406]
+                        - list [ref=e407]:
+                          - listitem [ref=e408]: Bachelor’s degree in Computer Science, Artificial Intelligence, or equivalent practical experience.
+                          - listitem [ref=e409]: 8 years of software engineering experience.
+                          - listitem [ref=e410]: 5 years of experience leading technical strategy and architecting large-scale ML infrastructure and distributed systems.
+                          - listitem [ref=e411]: Experience managing the full ML development life-cycle, from hypothesis and data collection to fine-tuning, evaluation, and post-production monitoring.
+                          - listitem [ref=e412]: Experience building, optimizing, and deploying Generative AI systems in production (e.g., Large Language Model (LLMs), RAG, Agentic workflows) with a focus on latency and cost.
+                          - listitem [ref=e413]: Experience designing scalable database solutions using Cloud Spanner or similar globally distributed databases.
+                      - generic [ref=e415]:
+                        - generic [ref=e417]: Learn more
+                        - link "Learn more about Staff Software Engineer, Machine Learning, Google Chat" [ref=e418] [cursor=pointer]:
+                          - /url: jobs/results/115305015559496390-staff-software-engineer-machine-learning-google-chat?q=machine%20learning%20engineer&location=United%20States
+                    - button "Share Staff Software Engineer, Machine Learning, Google Chat" [ref=e423] [cursor=pointer]:
+                      - generic [ref=e424]: share
+                - listitem [ref=e425]:
+                  - generic [ref=e427]:
+                    - generic [ref=e429]:
+                      - heading "Staff Software Engineer, Machine Learning Compiler, Google Research" [level=3] [ref=e432]
+                      - generic [ref=e434]:
+                        - generic [ref=e435]:
+                          - generic [ref=e436]: corporate_fare
+                          - generic [ref=e437]: Google
+                        - generic [ref=e438]:
+                          - generic [ref=e439]: place
+                          - generic [ref=e440]: Austin, TX, USA
+                          - generic [ref=e441]: ; Mountain View, CA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e445]:
+                          - generic [ref=e449]: bar_chart
+                          - generic [ref=e450]: Advanced
+                      - generic [ref=e451]:
+                        - heading "Minimum qualifications" [level=4] [ref=e452]
+                        - list [ref=e453]:
+                          - listitem [ref=e454]: Bachelor's degree in Computer Science or equivalent practical experience.
+                          - listitem [ref=e455]: 8 years of experience with software development in one or more programming languages (e.g., Python, C, C++, Java, JavaScript).
+                          - listitem [ref=e456]: 5 years of experience with compiler development or construction.
+                          - listitem [ref=e457]: Experience with low level virtual machines (LLVM) development, modifying LLVM as a contributor.
+                      - generic [ref=e459]:
+                        - generic [ref=e461]: Learn more
+                        - link "Learn more about Staff Software Engineer, Machine Learning Compiler, Google Research" [ref=e462] [cursor=pointer]:
+                          - /url: jobs/results/136992135193731782-staff-software-engineer-machine-learning-compiler-google-research?q=machine%20learning%20engineer&location=United%20States
+                    - button "Share Staff Software Engineer, Machine Learning Compiler, Google Research" [ref=e467] [cursor=pointer]:
+                      - generic [ref=e468]: share
+                - listitem [ref=e469]:
+                  - generic [ref=e471]:
+                    - generic [ref=e473]:
+                      - heading "Staff Software Engineer, Machine Learning Compilers, Edge TPU" [level=3] [ref=e476]
+                      - generic [ref=e478]:
+                        - generic [ref=e479]:
+                          - generic [ref=e480]: corporate_fare
+                          - generic [ref=e481]: Google
+                        - generic [ref=e482]:
+                          - generic [ref=e483]: place
+                          - generic [ref=e484]: Mountain View, CA, USA
+                          - generic [ref=e485]: ; Kirkland, WA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e489]:
+                          - generic [ref=e493]: bar_chart
+                          - generic [ref=e494]: Advanced
+                      - generic [ref=e495]:
+                        - heading "Minimum qualifications" [level=4] [ref=e496]
+                        - list [ref=e497]:
+                          - listitem [ref=e498]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e499]: 8 years of experience in software development.
+                          - listitem [ref=e500]: 5 years of experience testing, and launching software products, and 3 years of experience with software design and architecture.
+                          - listitem [ref=e501]: 5 years of experience with Machine Learning compilers (optimization, parallelization, etc.).
+                          - listitem [ref=e502]: 5 years of experience with relevant ML design and ML infrastructure (e.g., model deployment, model evaluation, etc.).
+                      - generic [ref=e504]:
+                        - generic [ref=e506]: Learn more
+                        - link "Learn more about Staff Software Engineer, Machine Learning Compilers, Edge TPU" [ref=e507] [cursor=pointer]:
+                          - /url: jobs/results/128510606549361350-staff-software-engineer-machine-learning-compilers-edge-tpu?q=machine%20learning%20engineer&location=United%20States
+                    - button "Share Staff Software Engineer, Machine Learning Compilers, Edge TPU" [ref=e512] [cursor=pointer]:
+                      - generic [ref=e513]: share
+                - listitem [ref=e514]:
+                  - generic [ref=e516]:
+                    - generic [ref=e518]:
+                      - heading "Staff Software Engineer, Machine Learning, YouTube Shopping Recommendations" [level=3] [ref=e521]
+                      - generic [ref=e523]:
+                        - generic [ref=e524]:
+                          - generic [ref=e525]: corporate_fare
+                          - generic [ref=e526]: YouTube
+                        - generic [ref=e527]:
+                          - generic [ref=e528]: place
+                          - generic [ref=e529]: Mountain View, CA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e533]:
+                          - generic [ref=e537]: bar_chart
+                          - generic [ref=e538]: Advanced
+                      - generic [ref=e539]:
+                        - heading "Minimum qualifications" [level=4] [ref=e540]
+                        - list [ref=e541]:
+                          - listitem [ref=e542]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e543]: 8 years of experience in software development.
+                          - listitem [ref=e544]: 5 years of experience testing, and launching software products, and 3 years of experience with software design and architecture.
+                          - listitem [ref=e545]: 5 years of experience building and deploying recommendation systems models in production, and building architecture in modeling domains.
+                          - listitem [ref=e546]: 5 years of experience with machine learning (ML) design and infrastructure (e.g., model deployment, model evaluation, data processing, debugging, fine tuning).
+                          - listitem [ref=e547]: Experience with C++ or Python.
+                      - generic [ref=e549]:
+                        - generic [ref=e551]: Learn more
+                        - link "Learn more about Staff Software Engineer, Machine Learning, YouTube Shopping Recommendations" [ref=e552] [cursor=pointer]:
+                          - /url: jobs/results/120936782937105094-staff-software-engineer-machine-learning-youtube-shopping-recommendations?q=machine%20learning%20engineer&location=United%20States
+                    - button "Share Staff Software Engineer, Machine Learning, YouTube Shopping Recommendations" [ref=e557] [cursor=pointer]:
+                      - generic [ref=e558]: share
+                - listitem [ref=e559]:
+                  - generic [ref=e561]:
+                    - generic [ref=e563]:
+                      - heading "Senior Software Engineer, Map Ads, Machine Learning" [level=3] [ref=e566]
+                      - generic [ref=e568]:
+                        - generic [ref=e569]:
+                          - generic [ref=e570]: corporate_fare
+                          - generic [ref=e571]: Google
+                        - generic [ref=e572]:
+                          - generic [ref=e573]: place
+                          - generic [ref=e574]: Mountain View, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e578]:
+                          - generic [ref=e582]: bar_chart
+                          - generic [ref=e583]: Mid
+                      - generic [ref=e584]:
+                        - heading "Minimum qualifications" [level=4] [ref=e585]
+                        - list [ref=e586]:
+                          - listitem [ref=e587]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e588]: 5 years of experience programming in C++ and SQL.
+                          - listitem [ref=e589]: "3 years of experience with one or more of the following: reinforcement learning (e.g., sequential decision making), recommendations/ranking, LLMs, ML infrastructure, or specialization in another ML field."
+                          - listitem [ref=e590]: 3 years of experience with ML infrastructure (e.g., model deployment, model evaluation, optimization, data processing, debugging).
+                          - listitem [ref=e591]: 3 years of experience testing, maintaining, or launching software products, and 1 year of experience with software design and architecture.
+                      - generic [ref=e593]:
+                        - generic [ref=e595]: Learn more
+                        - link "Learn more about Senior Software Engineer, Map Ads, Machine Learning" [ref=e596] [cursor=pointer]:
+                          - /url: jobs/results/88210884488241862-senior-software-engineer-map-ads-machine-learning?q=machine%20learning%20engineer&location=United%20States
+                    - button "Share Senior Software Engineer, Map Ads, Machine Learning" [ref=e601] [cursor=pointer]:
+                      - generic [ref=e602]: share
+                - listitem [ref=e603]:
+                  - generic [ref=e605]:
+                    - generic [ref=e607]:
+                      - heading "Photonic Engineer, Machine Learning" [level=3] [ref=e610]
+                      - generic [ref=e612]:
+                        - generic [ref=e613]:
+                          - generic [ref=e614]: corporate_fare
+                          - generic [ref=e615]: Google
+                        - generic [ref=e616]:
+                          - generic [ref=e617]: place
+                          - generic [ref=e618]: Sunnyvale, CA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e622]:
+                          - generic [ref=e626]: bar_chart
+                          - generic [ref=e627]: Advanced
+                      - generic [ref=e628]:
+                        - heading "Minimum qualifications" [level=4] [ref=e629]
+                        - list [ref=e630]:
+                          - listitem [ref=e631]: Bachelor's degree in Electrical Engineering, Computer Engineering, Physics, a related field, or equivalent practical experience.
+                          - listitem [ref=e632]: 6 years of experience working in a high-speed datacom technical environment.
+                          - listitem [ref=e633]: 5 years of experience in digital coherent optical transmissions.
+                      - generic [ref=e635]:
+                        - generic [ref=e637]: Learn more
+                        - link "Learn more about Photonic Engineer, Machine Learning" [ref=e638] [cursor=pointer]:
+                          - /url: jobs/results/93379480344502982-photonic-engineer-machine-learning?q=machine%20learning%20engineer&location=United%20States
+                    - button "Share Photonic Engineer, Machine Learning" [ref=e643] [cursor=pointer]:
+                      - generic [ref=e644]: share
+                - listitem [ref=e645]:
+                  - generic [ref=e647]:
+                    - generic [ref=e649]:
+                      - heading "Staff Software Engineer, Generative AI, Core Machine Learning" [level=3] [ref=e652]
+                      - generic [ref=e654]:
+                        - generic [ref=e655]:
+                          - generic [ref=e656]: corporate_fare
+                          - generic [ref=e657]: Google
+                        - generic [ref=e658]:
+                          - generic [ref=e659]: place
+                          - generic [ref=e660]: Mountain View, CA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e664]:
+                          - generic [ref=e668]: bar_chart
+                          - generic [ref=e669]: Advanced
+                      - generic [ref=e670]:
+                        - heading "Minimum qualifications" [level=4] [ref=e671]
+                        - list [ref=e672]:
+                          - listitem [ref=e673]: Bachelor's degree or equivalent practical experience.
+                          - listitem [ref=e674]: 8 years of experience in software development.
+                          - listitem [ref=e675]: 5 years of experience leading ML design and optimizing ML infrastructure (e.g., model deployment, model evaluation, data processing, debugging, fine tuning).
+                          - listitem [ref=e676]: "5 years of experience with one or more of the following: Speech/audio (e.g., technology duplicating and responding to the human voice), reinforcement learning (e.g., sequential)."
+                          - listitem [ref=e677]: 5 years of experience testing, and launching software products.
+                          - listitem [ref=e678]: 1 year of experience in building Generative AI or agentic applications.
+                      - generic [ref=e680]:
+                        - generic [ref=e682]: Learn more
+                        - link "Learn more about Staff Software Engineer, Generative AI, Core Machine Learning" [ref=e683] [cursor=pointer]:
+                          - /url: jobs/results/103225342730085062-staff-software-engineer-generative-ai-core-machine-learning?q=machine%20learning%20engineer&location=United%20States
+                    - button "Share Staff Software Engineer, Generative AI, Core Machine Learning" [ref=e688] [cursor=pointer]:
+                      - generic [ref=e689]: share
+                - listitem [ref=e690]:
+                  - generic [ref=e692]:
+                    - generic [ref=e694]:
+                      - heading "Senior Product Engineer, Machine Learning Accelerators" [level=3] [ref=e697]
+                      - generic [ref=e699]:
+                        - generic [ref=e700]:
+                          - generic [ref=e701]: corporate_fare
+                          - generic [ref=e702]: Google
+                        - generic [ref=e703]:
+                          - generic [ref=e704]: place
+                          - generic [ref=e705]: Sunnyvale, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e709]:
+                          - generic [ref=e713]: bar_chart
+                          - generic [ref=e714]: Mid
+                      - generic [ref=e715]:
+                        - heading "Minimum qualifications" [level=4] [ref=e716]
+                        - list [ref=e717]:
+                          - listitem [ref=e718]: Bachelor's degree in Engineering or equivalent practical experience.
+                          - listitem [ref=e719]: 8 years of experience in manufacturing.
+                          - listitem [ref=e720]: Experience in Printed Circuit Board Assembly (PCBA) and related system assembly.
+                          - listitem [ref=e721]: Experience in design for manufacturability and serviceability.
+                      - generic [ref=e723]:
+                        - generic [ref=e725]: Learn more
+                        - link "Learn more about Senior Product Engineer, Machine Learning Accelerators" [ref=e726] [cursor=pointer]:
+                          - /url: jobs/results/99254737907393222-senior-product-engineer-machine-learning-accelerators?q=machine%20learning%20engineer&location=United%20States
+                    - button "Share Senior Product Engineer, Machine Learning Accelerators" [ref=e731] [cursor=pointer]:
+                      - generic [ref=e732]: share
+                - listitem [ref=e733]:
+                  - generic [ref=e735]:
+                    - generic [ref=e737]:
+                      - heading "RTL Design Engineer, Machine Learning Accelerators" [level=3] [ref=e740]
+                      - generic [ref=e742]:
+                        - generic [ref=e743]:
+                          - generic [ref=e744]: corporate_fare
+                          - generic [ref=e745]: Google
+                        - generic [ref=e746]:
+                          - generic [ref=e747]: place
+                          - generic [ref=e748]: Sunnyvale, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e752]:
+                          - generic [ref=e756]: bar_chart
+                          - generic [ref=e757]: Mid
+                      - generic [ref=e758]:
+                        - heading "Minimum qualifications" [level=4] [ref=e759]
+                        - list [ref=e760]:
+                          - listitem [ref=e761]: Bachelor's degree in electrical engineering, computer engineering, computer science, or a related field, or equivalent practical experience.
+                          - listitem [ref=e762]: 4 years of experience with custom silicon design (e.g., SoCs, ASICs, etc.).
+                          - listitem [ref=e763]: Experience with RTL design using Verilog or SystemVerilog.
+                      - generic [ref=e765]:
+                        - generic [ref=e767]: Learn more
+                        - link "Learn more about RTL Design Engineer, Machine Learning Accelerators" [ref=e768] [cursor=pointer]:
+                          - /url: jobs/results/138997960082891462-rtl-design-engineer-machine-learning-accelerators?q=machine%20learning%20engineer&location=United%20States
+                    - button "Share RTL Design Engineer, Machine Learning Accelerators" [ref=e773] [cursor=pointer]:
+                      - generic [ref=e774]: share
+                - listitem [ref=e775]:
+                  - generic [ref=e777]:
+                    - generic [ref=e779]:
+                      - heading "Senior Software Engineer, Machine Learning, Google Cloud Compute" [level=3] [ref=e782]
+                      - generic [ref=e784]:
+                        - generic [ref=e785]:
+                          - generic [ref=e786]: corporate_fare
+                          - generic [ref=e787]: Google
+                        - generic [ref=e788]:
+                          - generic [ref=e789]: place
+                          - generic [ref=e790]: Sunnyvale, CA, USA
+                          - generic [ref=e791]: ; Kirkland, WA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e795]:
+                          - generic [ref=e799]: bar_chart
+                          - generic [ref=e800]: Mid
+                      - generic [ref=e801]:
+                        - heading "Minimum qualifications" [level=4] [ref=e802]
+                        - list [ref=e803]:
+                          - listitem [ref=e804]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e805]: 5 years of experience with software development in one or more programming languages, and with data structures/algorithms.
+                          - listitem [ref=e806]: 3 years of experience testing, maintaining or launching software products, and 1 year of experience with software design and architecture.
+                          - listitem [ref=e807]: 3 years of experience with ML/AI algorithms and tools, deep learning or natural language processing.
+                      - generic [ref=e809]:
+                        - generic [ref=e811]: Learn more
+                        - link "Learn more about Senior Software Engineer, Machine Learning, Google Cloud Compute" [ref=e812] [cursor=pointer]:
+                          - /url: jobs/results/111911603237987014-senior-software-engineer-machine-learning-google-cloud-compute?q=machine%20learning%20engineer&location=United%20States
+                    - button "Share Senior Software Engineer, Machine Learning, Google Cloud Compute" [ref=e817] [cursor=pointer]:
+                      - generic [ref=e818]: share
+                - listitem [ref=e819]:
+                  - generic [ref=e821]:
+                    - generic [ref=e823]:
+                      - heading "Staff Software Engineer, AI/ML, YouTube Ads" [level=3] [ref=e826]
+                      - generic [ref=e828]:
+                        - generic [ref=e829]:
+                          - generic [ref=e830]: corporate_fare
+                          - generic [ref=e831]: YouTube
+                        - generic [ref=e832]:
+                          - generic [ref=e833]: place
+                          - generic [ref=e834]: Mountain View, CA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e838]:
+                          - generic [ref=e842]: bar_chart
+                          - generic [ref=e843]: Advanced
+                      - generic [ref=e844]:
+                        - heading "Minimum qualifications" [level=4] [ref=e845]
+                        - list [ref=e846]:
+                          - listitem [ref=e847]: Bachelor's degree or equivalent practical experience.
+                          - listitem [ref=e848]: 8 years of experience in software development.
+                          - listitem [ref=e849]: 5 years of experience testing and launching software products, and 3 years of experience with software design and architecture.
+                      - generic [ref=e851]:
+                        - generic [ref=e853]: Learn more
+                        - link "Learn more about Staff Software Engineer, AI/ML, YouTube Ads" [ref=e854] [cursor=pointer]:
+                          - /url: jobs/results/102363946236682950-staff-software-engineer-aiml-youtube-ads?q=machine%20learning%20engineer&location=United%20States
+                    - button "Share Staff Software Engineer, AI/ML, YouTube Ads" [ref=e859] [cursor=pointer]:
+                      - generic [ref=e860]: share
+                - listitem [ref=e861]:
+                  - generic [ref=e863]:
+                    - generic [ref=e865]:
+                      - heading "Senior Manufacturing Test Development Engineer, Machine Learning" [level=3] [ref=e868]
+                      - generic [ref=e870]:
+                        - generic [ref=e871]:
+                          - generic [ref=e872]: corporate_fare
+                          - generic [ref=e873]: Google
+                        - generic [ref=e874]:
+                          - generic [ref=e875]: place
+                          - generic [ref=e876]: Sunnyvale, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e880]:
+                          - generic [ref=e884]: bar_chart
+                          - generic [ref=e885]: Mid
+                      - generic [ref=e886]:
+                        - heading "Minimum qualifications" [level=4] [ref=e887]
+                        - list [ref=e888]:
+                          - listitem [ref=e889]: Bachelor's degree in a technical field, or equivalent practical experience.
+                          - listitem [ref=e890]: 8 years of experience in manufacturing.
+                      - generic [ref=e892]:
+                        - generic [ref=e894]: Learn more
+                        - link "Learn more about Senior Manufacturing Test Development Engineer, Machine Learning" [ref=e895] [cursor=pointer]:
+                          - /url: jobs/results/93676007034102470-senior-manufacturing-test-development-engineer-machine-learning?q=machine%20learning%20engineer&location=United%20States
+                    - button "Share Senior Manufacturing Test Development Engineer, Machine Learning" [ref=e900] [cursor=pointer]:
+                      - generic [ref=e901]: share
+                - listitem [ref=e902]:
+                  - generic [ref=e904]:
+                    - generic [ref=e906]:
+                      - heading "Staff Software Engineer, YouTube Ads Machine Learning" [level=3] [ref=e909]
+                      - generic [ref=e911]:
+                        - generic [ref=e912]:
+                          - generic [ref=e913]: corporate_fare
+                          - generic [ref=e914]: YouTube
+                        - generic [ref=e915]:
+                          - generic [ref=e916]: place
+                          - generic [ref=e917]: Mountain View, CA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e921]:
+                          - generic [ref=e925]: bar_chart
+                          - generic [ref=e926]: Advanced
+                      - generic [ref=e927]:
+                        - heading "Minimum qualifications" [level=4] [ref=e928]
+                        - list [ref=e929]:
+                          - listitem [ref=e930]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e931]: 8 years of experience in software development.
+                          - listitem [ref=e932]: 5 years of experience testing, and launching software products, and 3 years of experience with software design and architecture.
+                          - listitem [ref=e933]: 5 years of experience with ML design and ML infrastructure (e.g., model deployment, model evaluation, data processing, debugging, fine tuning).
+                          - listitem [ref=e934]: 5 years of experience building and deploying recommendation system models (e.g. ranking, retrieval, embedding).
+                      - generic [ref=e936]:
+                        - generic [ref=e938]: Learn more
+                        - link "Learn more about Staff Software Engineer, YouTube Ads Machine Learning" [ref=e939] [cursor=pointer]:
+                          - /url: jobs/results/116607232564437702-staff-software-engineer-youtube-ads-machine-learning?q=machine%20learning%20engineer&location=United%20States
+                    - button "Share Staff Software Engineer, YouTube Ads Machine Learning" [ref=e944] [cursor=pointer]:
+                      - generic [ref=e945]: share
+                - listitem [ref=e946]:
+                  - generic [ref=e948]:
+                    - generic [ref=e950]:
+                      - heading "Research Engineer" [level=3] [ref=e953]
+                      - generic [ref=e955]:
+                        - generic [ref=e956]:
+                          - generic [ref=e957]: corporate_fare
+                          - generic [ref=e958]: Google
+                        - generic [ref=e959]:
+                          - generic [ref=e960]: place
+                          - generic [ref=e961]: Mountain View, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e965]:
+                          - generic [ref=e969]: bar_chart
+                          - generic [ref=e970]: Mid
+                      - generic [ref=e971]:
+                        - heading "Minimum qualifications" [level=4] [ref=e972]
+                        - list [ref=e973]:
+                          - listitem [ref=e974]: Master’s degree in Computer Science, Engineering, Computer Information Systems, Mathematics, Physics, or a related field and and 2 years of experience in the job offered or in a Research Engineer-related occupation
+                          - listitem [ref=e975]: "Position requires 2 years of experience in the following: Algorithm design for machine learning applications; Statistical analysis for machine learning; Python or C++; TensorFlow or JAX; Software engineering for large-scale ML projects"
+                      - generic [ref=e977]:
+                        - generic [ref=e979]: Learn more
+                        - link "Learn more about Research Engineer" [ref=e980] [cursor=pointer]:
+                          - /url: jobs/results/130791825915945670-research-engineer?q=machine%20learning%20engineer&location=United%20States
+                    - button "Share Research Engineer" [ref=e985] [cursor=pointer]:
+                      - generic [ref=e986]: share
+                - listitem [ref=e987]:
+                  - generic [ref=e989]:
+                    - generic [ref=e991]:
+                      - heading "Technical Program Manager III, Machine Learning, Core" [level=3] [ref=e994]
+                      - generic [ref=e996]:
+                        - generic [ref=e997]:
+                          - generic [ref=e998]: corporate_fare
+                          - generic [ref=e999]: Google
+                        - generic [ref=e1000]:
+                          - generic [ref=e1001]: place
+                          - generic [ref=e1002]: Sunnyvale, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e1006]:
+                          - generic [ref=e1010]: bar_chart
+                          - generic [ref=e1011]: Mid
+                      - generic [ref=e1012]:
+                        - heading "Minimum qualifications" [level=4] [ref=e1013]
+                        - list [ref=e1014]:
+                          - listitem [ref=e1015]: Bachelor's degree in a relevant field, or equivalent practical experience.
+                          - listitem [ref=e1016]: 5 years of experience in program management.
+                          - listitem [ref=e1017]: Experience in Machine Learning or Artificial Intelligence.
+                      - generic [ref=e1019]:
+                        - generic [ref=e1021]: Learn more
+                        - link "Learn more about Technical Program Manager III, Machine Learning, Core" [ref=e1022] [cursor=pointer]:
+                          - /url: jobs/results/109993476849836742-technical-program-manager-iii-machine-learning-core?q=machine%20learning%20engineer&location=United%20States
+                    - button "Share Technical Program Manager III, Machine Learning, Core" [ref=e1027] [cursor=pointer]:
+                      - generic [ref=e1028]: share
+                - listitem [ref=e1029]:
+                  - generic [ref=e1031]:
+                    - generic [ref=e1033]:
+                      - heading "Research Engineer, Benchmarking, Robotics, DeepMind" [level=3] [ref=e1036]
+                      - generic [ref=e1038]:
+                        - generic [ref=e1039]:
+                          - generic [ref=e1040]: corporate_fare
+                          - generic [ref=e1041]: DeepMind
+                        - generic [ref=e1042]:
+                          - generic [ref=e1043]: place
+                          - generic [ref=e1044]: Mountain View, CA, USA
+                      - generic [ref=e1045]:
+                        - heading "Minimum qualifications" [level=4] [ref=e1046]
+                        - list [ref=e1047]:
+                          - listitem [ref=e1048]: Bachelor’s degree in Computer Science, Robotics, or equivalent practical experience.
+                          - listitem [ref=e1049]: 2 years of experience with machine learning tools and algorithms, specifically deploying LLMs/VLMs and deep learning models.
+                          - listitem [ref=e1050]: Experience in a technical role (software engineering, AI/ML engineering, or solutions architecture).
+                          - listitem [ref=e1051]: Experience with Python, and with modern AI-assisted development tools to accelerate prototyping.
+                      - generic [ref=e1053]:
+                        - generic [ref=e1055]: Learn more
+                        - link "Learn more about Research Engineer, Benchmarking, Robotics, DeepMind" [ref=e1056] [cursor=pointer]:
+                          - /url: jobs/results/127629836632892102-research-engineer-benchmarking-robotics-deepmind?q=machine%20learning%20engineer&location=United%20States
+                    - button "Share Research Engineer, Benchmarking, Robotics, DeepMind" [ref=e1061] [cursor=pointer]:
+                      - generic [ref=e1062]: share
+                - listitem [ref=e1063]:
+                  - generic [ref=e1065]:
+                    - generic [ref=e1067]:
+                      - heading "Software Engineer, Foundational ML Research" [level=3] [ref=e1070]
+                      - generic [ref=e1072]:
+                        - generic [ref=e1073]:
+                          - generic [ref=e1074]: corporate_fare
+                          - generic [ref=e1075]: Google
+                        - generic [ref=e1076]:
+                          - generic [ref=e1077]: place
+                          - generic [ref=e1078]: New York, NY, USA
+                        - img "Mid, Learn more about experience filters." [ref=e1082]:
+                          - generic [ref=e1086]: bar_chart
+                          - generic [ref=e1087]: Mid
+                      - generic [ref=e1088]:
+                        - heading "Minimum qualifications" [level=4] [ref=e1089]
+                        - list [ref=e1090]:
+                          - listitem [ref=e1091]: Bachelor's degree in Computer Science, Artificial Intelligence, Machine Learning, or a related technical field, or equivalent practical experience.
+                          - listitem [ref=e1092]: 5 years of experience programming in Python.
+                          - listitem [ref=e1093]: Experience with training machine learning models.
+                      - generic [ref=e1095]:
+                        - generic [ref=e1097]: Learn more
+                        - link "Learn more about Software Engineer, Foundational ML Research" [ref=e1098] [cursor=pointer]:
+                          - /url: jobs/results/95219437891658438-software-engineer-foundational-ml-research?q=machine%20learning%20engineer&location=United%20States
+                    - button "Share Software Engineer, Foundational ML Research" [ref=e1103] [cursor=pointer]:
+                      - generic [ref=e1104]: share
+              - generic [ref=e1109]:
+                - status [ref=e1110]:
+                  - generic [ref=e1111]: Showing 1 to 20 of 716 rows
+                  - generic [ref=e1112]: 1‑20 of 716
+                - generic [ref=e1113] [cursor=pointer]:
+                  - generic [ref=e1114]: navigate_next
+                  - link "Go to next page" [ref=e1115]:
+                    - /url: https://www.google.com/about/careers/applications/jobs/results/?q=machine%20learning%20engineer&location=United%20States&page=2
+        - contentinfo [ref=e1117]:
+          - generic [ref=e1119]:
+            - generic [ref=e1120]:
+              - heading "Follow Life at Google on" [level=2] [ref=e1121]
+              - list [ref=e1122]:
+                - listitem [ref=e1123]:
+                  - link "View our Instagram feed (Opens in a new tab)" [ref=e1124] [cursor=pointer]:
+                    - /url: https://www.instagram.com/lifeatgoogle/
+                - listitem [ref=e1129]:
+                  - link "View our Twitter feed (Opens in a new tab)" [ref=e1130] [cursor=pointer]:
+                    - /url: https://twitter.com/lifeatgoogle
+                - listitem [ref=e1133]:
+                  - link "View our YouTube channel (Opens in a new tab)" [ref=e1134] [cursor=pointer]:
+                    - /url: https://www.youtube.com/lifeatgoogle
+                - listitem [ref=e1137]:
+                  - link "View LinkedIn (Opens in a new tab)" [ref=e1138] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/google/jobs/
+                - listitem [ref=e1141]:
+                  - link "View our Facebook (Opens in a new tab)" [ref=e1142] [cursor=pointer]:
+                    - /url: https://www.facebook.com/lifeatgoogle/
+            - generic [ref=e1147]:
+              - generic [ref=e1148]:
+                - heading "More about us" [level=2] [ref=e1149]
+                - generic [ref=e1150]:
+                  - link "About us (opens in a new tab)" [ref=e1151] [cursor=pointer]:
+                    - /url: https://about.google/
+                    - text: About us
+                    - generic [ref=e1153]: open_in_new
+                  - link "Contact us (opens in a new tab)" [ref=e1154] [cursor=pointer]:
+                    - /url: https://about.google/contact-google/
+                    - text: Contact us
+                    - generic [ref=e1156]: open_in_new
+                  - link "Press (opens in a new tab)" [ref=e1157] [cursor=pointer]:
+                    - /url: https://blog.google/press/
+                    - text: Press
+                    - generic [ref=e1159]: open_in_new
+              - generic [ref=e1160]:
+                - heading "Related Information" [level=2] [ref=e1161]
+                - generic [ref=e1162]:
+                  - link "Investor relations (opens in a new tab)" [ref=e1163] [cursor=pointer]:
+                    - /url: https://abc.xyz/investor/
+                    - text: Investor relations
+                    - generic [ref=e1165]: open_in_new
+                  - link "Blog (opens in a new tab)" [ref=e1166] [cursor=pointer]:
+                    - /url: https://blog.google/
+                    - text: Blog
+                    - generic [ref=e1168]: open_in_new
+              - generic [ref=e1169]:
+                - heading "Equal Opportunity" [level=2] [ref=e1170]
+                - paragraph [ref=e1171]:
+                  - text: Google is proud to be an equal opportunity and affirmative action employer. We are committed to building a workforce that is representative of the users we serve, creating a culture of belonging, and providing an equal employment opportunity regardless of race, creed, color, religion, gender, sexual orientation, gender identity/expression, national origin, disability, age, genetic information, veteran status, marital status, pregnancy or related condition (including breastfeeding), expecting or parents-to-be, criminal histories consistent with legal requirements, or any other basis protected by law. See also
+                  - link "Google's EEO Policy" [ref=e1172] [cursor=pointer]:
+                    - /url: https://www.google.com/about/careers/applications/eeo/
+                  - text: ","
+                  - 'link "Know your rights: workplace discrimination is illegal" [ref=e1173] [cursor=pointer]':
+                    - /url: https://careers.google.com/jobs/dist/legal/EEOC_KnowYourRights_10_20.pdf
+                  - text: ","
+                  - link "Belonging at Google" [ref=e1174] [cursor=pointer]:
+                    - /url: https://about.google/belonging/
+                  - text: ", and"
+                  - link "How we hire" [ref=e1175] [cursor=pointer]:
+                    - /url: https://careers.google.com/how-we-hire/
+                  - text: .
+            - generic [ref=e1176]:
+              - link "google.com (Opens in a new tab)" [ref=e1178] [cursor=pointer]:
+                - /url: https://www.google.com/
+                - img "Google" [ref=e1179]
+              - generic [ref=e1180]:
+                - generic [ref=e1181]:
+                  - link "Privacy (opens in a new tab)" [ref=e1183] [cursor=pointer]:
+                    - /url: https://policies.google.com/privacy
+                    - text: Privacy
+                    - generic [ref=e1185]: open_in_new
+                  - link "Applicant & Candidate Privacy (opens in a new tab)" [ref=e1187] [cursor=pointer]:
+                    - /url: ./privacy-policy
+                    - text: Applicant & Candidate Privacy
+                    - generic [ref=e1189]: open_in_new
+                  - link "Terms (opens in a new tab)" [ref=e1191] [cursor=pointer]:
+                    - /url: https://policies.google.com/terms
+                    - text: Terms
+                    - generic [ref=e1193]: open_in_new
+                - generic [ref=e1194]:
+                  - link "Help (opens in a new tab)" [ref=e1195] [cursor=pointer]:
+                    - /url: https://support.google.com/googlecareers/#topic=6095159
+                    - generic [ref=e1197]: help
+                    - text: Help
+                    - generic [ref=e1199]: open_in_new
+                  - combobox "Select language" [ref=e1203] [cursor=pointer]:
+                    - generic: language
+                    - generic:
+                      - generic: English
+                    - generic:
+                      - img

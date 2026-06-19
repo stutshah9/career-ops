@@ -1,0 +1,1081 @@
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-1781894873"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - navigation [ref=e8]:
+        - generic [ref=e9]:
+          - button "menu" [ref=e10] [cursor=pointer]
+          - link "Amazon Jobs home page" [ref=e12] [cursor=pointer]:
+            - /url: /en
+            - generic [ref=e14]: Amazon Jobs home page
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - combobox "Search for jobs by title or keyword" [ref=e21]: data scientist
+            - generic [ref=e23]:
+              - text: h
+              - combobox "search job by location" [ref=e25]: United States
+          - button "Search jobs" [ref=e26] [cursor=pointer]
+        - menu [ref=e30] [cursor=pointer]: My career
+      - generic: h
+      - generic [ref=e33]:
+        - status [active] [ref=e34]:
+          - generic [ref=e36]:
+            - generic [ref=e38]:
+              - generic [ref=e40]: 
+              - paragraph [ref=e41]:
+                - text: Set job alerts for your search and never miss an opportunity!
+                - link "Login or create an account" [ref=e42] [cursor=pointer]:
+                  - /url: https://passport.amazon.jobs/accountInfo
+            - button "close" [ref=e44] [cursor=pointer]: ×
+        - generic [ref=e47]:
+          - heading "Search results" [level=1] [ref=e48]
+          - generic [ref=e49]:
+            - generic [ref=e51]:
+              - heading "Filter by" [level=2] [ref=e53]
+              - generic [ref=e54]:
+                - link "Skip to job results" [ref=e55] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e56]:
+                  - button "INDUSTRY EXPERIENCE (4 shown) filters" [expanded] [ref=e57] [cursor=pointer]:
+                    - generic [ref=e58]:
+                      - text: INDUSTRY EXPERIENCE
+                      - generic [ref=e59]: (4 shown)
+                  - group "INDUSTRY EXPERIENCE (4 shown) filters" [ref=e62]:
+                    - generic [ref=e63]: INDUSTRY EXPERIENCE (4 shown) filters
+                    - status [ref=e64]
+                    - generic [ref=e65]:
+                      - button "Less than 1 year" [ref=e66] [cursor=pointer]:
+                        - paragraph [ref=e67]: Less than 1 year
+                      - button "1-3 years" [ref=e68] [cursor=pointer]:
+                        - paragraph [ref=e69]: 1-3 years
+                      - button "4-6 years" [ref=e70] [cursor=pointer]:
+                        - paragraph [ref=e71]: 4-6 years
+                      - button "7+ years" [ref=e72] [cursor=pointer]:
+                        - paragraph [ref=e73]: 7+ years
+              - generic [ref=e74]:
+                - link "Skip to job results" [ref=e75] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e76]:
+                  - button "JOB TYPE (1 shown) filters" [expanded] [ref=e77] [cursor=pointer]:
+                    - generic [ref=e78]:
+                      - text: JOB TYPE
+                      - generic [ref=e79]: (1 shown)
+                  - group "JOB TYPE (1 shown) filters" [ref=e82]:
+                    - generic [ref=e83]: JOB TYPE (1 shown) filters
+                    - status [ref=e84]
+                    - checkbox "Full Time 133 jobs" [ref=e86] [cursor=pointer]:
+                      - paragraph [ref=e87]:
+                        - text: Full Time
+                        - generic [ref=e88]:
+                          - generic [ref=e89]: (133)
+                          - generic [ref=e90]: 133 jobs
+              - generic [ref=e92]:
+                - link "Skip to job results" [ref=e93] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e94]:
+                  - button "JOB CATEGORY (11 shown) filters" [expanded] [ref=e95] [cursor=pointer]:
+                    - generic [ref=e96]:
+                      - text: JOB CATEGORY
+                      - generic [ref=e97]: (11 shown)
+                  - group "JOB CATEGORY (11 shown) filters" [ref=e100]:
+                    - generic [ref=e101]: JOB CATEGORY (11 shown) filters
+                    - status [ref=e102]
+                    - generic [ref=e103]:
+                      - checkbox "Data Science 72 jobs" [ref=e104] [cursor=pointer]:
+                        - paragraph [ref=e105]:
+                          - text: Data Science
+                          - generic [ref=e106]:
+                            - generic [ref=e107]: (72)
+                            - generic [ref=e108]: 72 jobs
+                      - checkbox "Human Resources 12 jobs" [ref=e110] [cursor=pointer]:
+                        - paragraph [ref=e111]:
+                          - text: Human Resources
+                          - generic [ref=e112]:
+                            - generic [ref=e113]: (12)
+                            - generic [ref=e114]: 12 jobs
+                      - checkbox "Applied Science 10 jobs" [ref=e116] [cursor=pointer]:
+                        - paragraph [ref=e117]:
+                          - text: Applied Science
+                          - generic [ref=e118]:
+                            - generic [ref=e119]: (10)
+                            - generic [ref=e120]: 10 jobs
+                      - checkbox "Software Development 6 jobs" [ref=e122] [cursor=pointer]:
+                        - paragraph [ref=e123]:
+                          - text: Software Development
+                          - generic [ref=e124]:
+                            - generic [ref=e125]: (6)
+                            - generic [ref=e126]: 6 jobs
+                      - checkbox "Business Intelligence 5 jobs" [ref=e128] [cursor=pointer]:
+                        - paragraph [ref=e129]:
+                          - text: Business Intelligence
+                          - generic [ref=e130]:
+                            - generic [ref=e131]: (5)
+                            - generic [ref=e132]: 5 jobs
+                    - button "Show more filters for JOB CATEGORY" [ref=e134] [cursor=pointer]: more
+              - generic [ref=e136]:
+                - link "Skip to job results" [ref=e137] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e138]:
+                  - button "Country/Region (11 shown) filters" [expanded] [ref=e139] [cursor=pointer]:
+                    - generic [ref=e140]:
+                      - text: Country/Region
+                      - generic [ref=e141]: (11 shown)
+                  - generic [ref=e144]:
+                    - generic [ref=e145]:
+                      - generic [ref=e146]: 
+                      - textbox "Refine list of Country/Region (11 shown) filter options" [ref=e147]:
+                        - /placeholder: Country/Region
+                    - status [ref=e148]
+                    - group "Country/Region (11 shown) filters" [ref=e150]:
+                      - generic [ref=e151]: Country/Region (11 shown) filters
+                      - generic [ref=e152]:
+                        - checkbox "United States 70 jobs" [ref=e153] [cursor=pointer]:
+                          - paragraph [ref=e154]:
+                            - text: United States
+                            - generic [ref=e155]:
+                              - generic [ref=e156]: (70)
+                              - generic [ref=e157]: 70 jobs
+                        - checkbox "India 38 jobs" [ref=e159] [cursor=pointer]:
+                          - paragraph [ref=e160]:
+                            - text: India
+                            - generic [ref=e161]:
+                              - generic [ref=e162]: (38)
+                              - generic [ref=e163]: 38 jobs
+                        - checkbox "Canada 5 jobs" [ref=e165] [cursor=pointer]:
+                          - paragraph [ref=e166]:
+                            - text: Canada
+                            - generic [ref=e167]:
+                              - generic [ref=e168]: (5)
+                              - generic [ref=e169]: 5 jobs
+                        - checkbox "United Kingdom 5 jobs" [ref=e171] [cursor=pointer]:
+                          - paragraph [ref=e172]:
+                            - text: United Kingdom
+                            - generic [ref=e173]:
+                              - generic [ref=e174]: (5)
+                              - generic [ref=e175]: 5 jobs
+                        - checkbox "Luxembourg 5 jobs" [ref=e177] [cursor=pointer]:
+                          - paragraph [ref=e178]:
+                            - text: Luxembourg
+                            - generic [ref=e179]:
+                              - generic [ref=e180]: (5)
+                              - generic [ref=e181]: 5 jobs
+                        - checkbox "Israel 3 jobs" [ref=e183] [cursor=pointer]:
+                          - paragraph [ref=e184]:
+                            - text: Israel
+                            - generic [ref=e185]:
+                              - generic [ref=e186]: (3)
+                              - generic [ref=e187]: 3 jobs
+                        - checkbox "Australia 2 jobs" [ref=e189] [cursor=pointer]:
+                          - paragraph [ref=e190]:
+                            - text: Australia
+                            - generic [ref=e191]:
+                              - generic [ref=e192]: (2)
+                              - generic [ref=e193]: 2 jobs
+                        - checkbox "Japan 2 jobs" [ref=e195] [cursor=pointer]:
+                          - paragraph [ref=e196]:
+                            - text: Japan
+                            - generic [ref=e197]:
+                              - generic [ref=e198]: (2)
+                              - generic [ref=e199]: 2 jobs
+                        - checkbox "Brazil 1 job" [ref=e201] [cursor=pointer]:
+                          - paragraph [ref=e202]:
+                            - text: Brazil
+                            - generic [ref=e203]:
+                              - generic [ref=e204]: (1)
+                              - generic [ref=e205]: 1 job
+                        - checkbox "Italy 1 job" [ref=e207] [cursor=pointer]:
+                          - paragraph [ref=e208]:
+                            - text: Italy
+                            - generic [ref=e209]:
+                              - generic [ref=e210]: (1)
+                              - generic [ref=e211]: 1 job
+                        - checkbox "Taiwan 1 job" [ref=e213] [cursor=pointer]:
+                          - paragraph [ref=e214]:
+                            - text: Taiwan
+                            - generic [ref=e215]:
+                              - generic [ref=e216]: (1)
+                              - generic [ref=e217]: 1 job
+              - generic [ref=e219]:
+                - link "Skip to job results" [ref=e220] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e221]:
+                  - button "State/Province (26 shown) filters" [expanded] [ref=e222] [cursor=pointer]:
+                    - generic [ref=e223]:
+                      - text: State/Province
+                      - generic [ref=e224]: (26 shown)
+                  - generic [ref=e227]:
+                    - generic [ref=e228]:
+                      - generic [ref=e229]: 
+                      - textbox "Refine list of State/Province (26 shown) filter options" [ref=e230]:
+                        - /placeholder: State/Province
+                    - status [ref=e231]
+                    - group "State/Province (26 shown) filters" [ref=e233]:
+                      - generic [ref=e234]: State/Province (26 shown) filters
+                      - generic [ref=e235]:
+                        - checkbox "Washington 45 jobs" [ref=e236] [cursor=pointer]:
+                          - paragraph [ref=e237]:
+                            - text: Washington
+                            - generic [ref=e238]:
+                              - generic [ref=e239]: (45)
+                              - generic [ref=e240]: 45 jobs
+                        - checkbox "Karnataka 22 jobs" [ref=e242] [cursor=pointer]:
+                          - paragraph [ref=e243]:
+                            - text: Karnataka
+                            - generic [ref=e244]:
+                              - generic [ref=e245]: (22)
+                              - generic [ref=e246]: 22 jobs
+                        - checkbox "New York 18 jobs" [ref=e248] [cursor=pointer]:
+                          - paragraph [ref=e249]:
+                            - text: New York
+                            - generic [ref=e250]:
+                              - generic [ref=e251]: (18)
+                              - generic [ref=e252]: 18 jobs
+                        - checkbox "Telangana 15 jobs" [ref=e254] [cursor=pointer]:
+                          - paragraph [ref=e255]:
+                            - text: Telangana
+                            - generic [ref=e256]:
+                              - generic [ref=e257]: (15)
+                              - generic [ref=e258]: 15 jobs
+                        - checkbox "California 12 jobs" [ref=e260] [cursor=pointer]:
+                          - paragraph [ref=e261]:
+                            - text: California
+                            - generic [ref=e262]:
+                              - generic [ref=e263]: (12)
+                              - generic [ref=e264]: 12 jobs
+                        - checkbox "Texas 9 jobs" [ref=e266] [cursor=pointer]:
+                          - paragraph [ref=e267]:
+                            - text: Texas
+                            - generic [ref=e268]:
+                              - generic [ref=e269]: (9)
+                              - generic [ref=e270]: 9 jobs
+                        - checkbox "Virginia 7 jobs" [ref=e272] [cursor=pointer]:
+                          - paragraph [ref=e273]:
+                            - text: Virginia
+                            - generic [ref=e274]:
+                              - generic [ref=e275]: (7)
+                              - generic [ref=e276]: 7 jobs
+                        - checkbox "British Columbia 5 jobs" [ref=e278] [cursor=pointer]:
+                          - paragraph [ref=e279]:
+                            - text: British Columbia
+                            - generic [ref=e280]:
+                              - generic [ref=e281]: (5)
+                              - generic [ref=e282]: 5 jobs
+                        - checkbox "Tamil Nadu 3 jobs" [ref=e284] [cursor=pointer]:
+                          - paragraph [ref=e285]:
+                            - text: Tamil Nadu
+                            - generic [ref=e286]:
+                              - generic [ref=e287]: (3)
+                              - generic [ref=e288]: 3 jobs
+                        - checkbox "Tel Aviv 3 jobs" [ref=e290] [cursor=pointer]:
+                          - paragraph [ref=e291]:
+                            - text: Tel Aviv
+                            - generic [ref=e292]:
+                              - generic [ref=e293]: (3)
+                              - generic [ref=e294]: 3 jobs
+                        - checkbox "Tennessee 3 jobs" [ref=e296] [cursor=pointer]:
+                          - paragraph [ref=e297]:
+                            - text: Tennessee
+                            - generic [ref=e298]:
+                              - generic [ref=e299]: (3)
+                              - generic [ref=e300]: 3 jobs
+                        - checkbox "Ontario 2 jobs" [ref=e302] [cursor=pointer]:
+                          - paragraph [ref=e303]:
+                            - text: Ontario
+                            - generic [ref=e304]:
+                              - generic [ref=e305]: (2)
+                              - generic [ref=e306]: 2 jobs
+                        - checkbox "Quebec 2 jobs" [ref=e308] [cursor=pointer]:
+                          - paragraph [ref=e309]:
+                            - text: Quebec
+                            - generic [ref=e310]:
+                              - generic [ref=e311]: (2)
+                              - generic [ref=e312]: 2 jobs
+                        - checkbox "Tokyo 2 jobs" [ref=e314] [cursor=pointer]:
+                          - paragraph [ref=e315]:
+                            - text: Tokyo
+                            - generic [ref=e316]:
+                              - generic [ref=e317]: (2)
+                              - generic [ref=e318]: 2 jobs
+                        - checkbox "Wisconsin 2 jobs" [ref=e320] [cursor=pointer]:
+                          - paragraph [ref=e321]:
+                            - text: Wisconsin
+                            - generic [ref=e322]:
+                              - generic [ref=e323]: (2)
+                              - generic [ref=e324]: 2 jobs
+                        - checkbox "Colorado 1 job" [ref=e326] [cursor=pointer]:
+                          - paragraph [ref=e327]:
+                            - text: Colorado
+                            - generic [ref=e328]:
+                              - generic [ref=e329]: (1)
+                              - generic [ref=e330]: 1 job
+                        - checkbox "Haryana 1 job" [ref=e332] [cursor=pointer]:
+                          - paragraph [ref=e333]:
+                            - text: Haryana
+                            - generic [ref=e334]:
+                              - generic [ref=e335]: (1)
+                              - generic [ref=e336]: 1 job
+                        - checkbox "Lombardy 1 job" [ref=e338] [cursor=pointer]:
+                          - paragraph [ref=e339]:
+                            - text: Lombardy
+                            - generic [ref=e340]:
+                              - generic [ref=e341]: (1)
+                              - generic [ref=e342]: 1 job
+                        - checkbox "Maharashtra 1 job" [ref=e344] [cursor=pointer]:
+                          - paragraph [ref=e345]:
+                            - text: Maharashtra
+                            - generic [ref=e346]:
+                              - generic [ref=e347]: (1)
+                              - generic [ref=e348]: 1 job
+                        - checkbox "Maryland 1 job" [ref=e350] [cursor=pointer]:
+                          - paragraph [ref=e351]:
+                            - text: Maryland
+                            - generic [ref=e352]:
+                              - generic [ref=e353]: (1)
+                              - generic [ref=e354]: 1 job
+                        - checkbox "Massachusetts 1 job" [ref=e356] [cursor=pointer]:
+                          - paragraph [ref=e357]:
+                            - text: Massachusetts
+                            - generic [ref=e358]:
+                              - generic [ref=e359]: (1)
+                              - generic [ref=e360]: 1 job
+                        - checkbox "New Jersey 1 job" [ref=e362] [cursor=pointer]:
+                          - paragraph [ref=e363]:
+                            - text: New Jersey
+                            - generic [ref=e364]:
+                              - generic [ref=e365]: (1)
+                              - generic [ref=e366]: 1 job
+                        - checkbox "New South Wales 1 job" [ref=e368] [cursor=pointer]:
+                          - paragraph [ref=e369]:
+                            - text: New South Wales
+                            - generic [ref=e370]:
+                              - generic [ref=e371]: (1)
+                              - generic [ref=e372]: 1 job
+                        - checkbox "Pennsylvania 1 job" [ref=e374] [cursor=pointer]:
+                          - paragraph [ref=e375]:
+                            - text: Pennsylvania
+                            - generic [ref=e376]:
+                              - generic [ref=e377]: (1)
+                              - generic [ref=e378]: 1 job
+                        - checkbox "Sao Paulo 1 job" [ref=e380] [cursor=pointer]:
+                          - paragraph [ref=e381]:
+                            - text: Sao Paulo
+                            - generic [ref=e382]:
+                              - generic [ref=e383]: (1)
+                              - generic [ref=e384]: 1 job
+                        - checkbox "Western Australia 1 job" [ref=e386] [cursor=pointer]:
+                          - paragraph [ref=e387]:
+                            - text: Western Australia
+                            - generic [ref=e388]:
+                              - generic [ref=e389]: (1)
+                              - generic [ref=e390]: 1 job
+              - generic [ref=e392]:
+                - link "Skip to job results" [ref=e393] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e394]:
+                  - button "City (40 shown) filters" [expanded] [ref=e395] [cursor=pointer]:
+                    - generic [ref=e396]:
+                      - text: City
+                      - generic [ref=e397]: (40 shown)
+                  - generic [ref=e400]:
+                    - generic [ref=e401]:
+                      - generic [ref=e402]: 
+                      - textbox "Refine list of City (40 shown) filter options" [ref=e403]:
+                        - /placeholder: City
+                    - status [ref=e404]
+                    - group "City (40 shown) filters" [ref=e406]:
+                      - generic [ref=e407]: City (40 shown) filters
+                      - generic [ref=e408]:
+                        - checkbox "Seattle 24 jobs" [ref=e409] [cursor=pointer]:
+                          - paragraph [ref=e410]:
+                            - text: Seattle
+                            - generic [ref=e411]:
+                              - generic [ref=e412]: (24)
+                              - generic [ref=e413]: 24 jobs
+                        - checkbox "Bengaluru 22 jobs" [ref=e415] [cursor=pointer]:
+                          - paragraph [ref=e416]:
+                            - text: Bengaluru
+                            - generic [ref=e417]:
+                              - generic [ref=e418]: (22)
+                              - generic [ref=e419]: 22 jobs
+                        - checkbox "Bellevue 20 jobs" [ref=e421] [cursor=pointer]:
+                          - paragraph [ref=e422]:
+                            - text: Bellevue
+                            - generic [ref=e423]:
+                              - generic [ref=e424]: (20)
+                              - generic [ref=e425]: 20 jobs
+                        - checkbox "New York 18 jobs" [ref=e427] [cursor=pointer]:
+                          - paragraph [ref=e428]:
+                            - text: New York
+                            - generic [ref=e429]:
+                              - generic [ref=e430]: (18)
+                              - generic [ref=e431]: 18 jobs
+                        - checkbox "Hyderabad 15 jobs" [ref=e433] [cursor=pointer]:
+                          - paragraph [ref=e434]:
+                            - text: Hyderabad
+                            - generic [ref=e435]:
+                              - generic [ref=e436]: (15)
+                              - generic [ref=e437]: 15 jobs
+                        - checkbox "Arlington 7 jobs" [ref=e439] [cursor=pointer]:
+                          - paragraph [ref=e440]:
+                            - text: Arlington
+                            - generic [ref=e441]:
+                              - generic [ref=e442]: (7)
+                              - generic [ref=e443]: 7 jobs
+                        - checkbox "London 5 jobs" [ref=e445] [cursor=pointer]:
+                          - paragraph [ref=e446]:
+                            - text: London
+                            - generic [ref=e447]:
+                              - generic [ref=e448]: (5)
+                              - generic [ref=e449]: 5 jobs
+                        - checkbox "Luxembourg 5 jobs" [ref=e451] [cursor=pointer]:
+                          - paragraph [ref=e452]:
+                            - text: Luxembourg
+                            - generic [ref=e453]:
+                              - generic [ref=e454]: (5)
+                              - generic [ref=e455]: 5 jobs
+                        - checkbox "Vancouver 5 jobs" [ref=e457] [cursor=pointer]:
+                          - paragraph [ref=e458]:
+                            - text: Vancouver
+                            - generic [ref=e459]:
+                              - generic [ref=e460]: (5)
+                              - generic [ref=e461]: 5 jobs
+                        - checkbox "Dallas 4 jobs" [ref=e463] [cursor=pointer]:
+                          - paragraph [ref=e464]:
+                            - text: Dallas
+                            - generic [ref=e465]:
+                              - generic [ref=e466]: (4)
+                              - generic [ref=e467]: 4 jobs
+                        - checkbox "Austin 3 jobs" [ref=e469] [cursor=pointer]:
+                          - paragraph [ref=e470]:
+                            - text: Austin
+                            - generic [ref=e471]:
+                              - generic [ref=e472]: (3)
+                              - generic [ref=e473]: 3 jobs
+                        - checkbox "Chennai 3 jobs" [ref=e475] [cursor=pointer]:
+                          - paragraph [ref=e476]:
+                            - text: Chennai
+                            - generic [ref=e477]:
+                              - generic [ref=e478]: (3)
+                              - generic [ref=e479]: 3 jobs
+                        - checkbox "Nashville 3 jobs" [ref=e481] [cursor=pointer]:
+                          - paragraph [ref=e482]:
+                            - text: Nashville
+                            - generic [ref=e483]:
+                              - generic [ref=e484]: (3)
+                              - generic [ref=e485]: 3 jobs
+                        - checkbox "San Francisco 3 jobs" [ref=e487] [cursor=pointer]:
+                          - paragraph [ref=e488]:
+                            - text: San Francisco
+                            - generic [ref=e489]:
+                              - generic [ref=e490]: (3)
+                              - generic [ref=e491]: 3 jobs
+                        - checkbox "Tel Aviv-Yafo 3 jobs" [ref=e493] [cursor=pointer]:
+                          - paragraph [ref=e494]:
+                            - text: Tel Aviv-Yafo
+                            - generic [ref=e495]:
+                              - generic [ref=e496]: (3)
+                              - generic [ref=e497]: 3 jobs
+                        - checkbox "Houston 2 jobs" [ref=e499] [cursor=pointer]:
+                          - paragraph [ref=e500]:
+                            - text: Houston
+                            - generic [ref=e501]:
+                              - generic [ref=e502]: (2)
+                              - generic [ref=e503]: 2 jobs
+                        - checkbox "Madison 2 jobs" [ref=e505] [cursor=pointer]:
+                          - paragraph [ref=e506]:
+                            - text: Madison
+                            - generic [ref=e507]:
+                              - generic [ref=e508]: (2)
+                              - generic [ref=e509]: 2 jobs
+                        - checkbox "Montreal 2 jobs" [ref=e511] [cursor=pointer]:
+                          - paragraph [ref=e512]:
+                            - text: Montreal
+                            - generic [ref=e513]:
+                              - generic [ref=e514]: (2)
+                              - generic [ref=e515]: 2 jobs
+                        - checkbox "Mountain View 2 jobs" [ref=e517] [cursor=pointer]:
+                          - paragraph [ref=e518]:
+                            - text: Mountain View
+                            - generic [ref=e519]:
+                              - generic [ref=e520]: (2)
+                              - generic [ref=e521]: 2 jobs
+                        - checkbox "Ottawa 2 jobs" [ref=e523] [cursor=pointer]:
+                          - paragraph [ref=e524]:
+                            - text: Ottawa
+                            - generic [ref=e525]:
+                              - generic [ref=e526]: (2)
+                              - generic [ref=e527]: 2 jobs
+                        - checkbox "Palo Alto 2 jobs" [ref=e529] [cursor=pointer]:
+                          - paragraph [ref=e530]:
+                            - text: Palo Alto
+                            - generic [ref=e531]:
+                              - generic [ref=e532]: (2)
+                              - generic [ref=e533]: 2 jobs
+                        - checkbox "San Diego 2 jobs" [ref=e535] [cursor=pointer]:
+                          - paragraph [ref=e536]:
+                            - text: San Diego
+                            - generic [ref=e537]:
+                              - generic [ref=e538]: (2)
+                              - generic [ref=e539]: 2 jobs
+                        - checkbox "Santa Clara 2 jobs" [ref=e541] [cursor=pointer]:
+                          - paragraph [ref=e542]:
+                            - text: Santa Clara
+                            - generic [ref=e543]:
+                              - generic [ref=e544]: (2)
+                              - generic [ref=e545]: 2 jobs
+                        - checkbox "Sunnyvale 2 jobs" [ref=e547] [cursor=pointer]:
+                          - paragraph [ref=e548]:
+                            - text: Sunnyvale
+                            - generic [ref=e549]:
+                              - generic [ref=e550]: (2)
+                              - generic [ref=e551]: 2 jobs
+                        - checkbox "Annapolis Junction 1 job" [ref=e553] [cursor=pointer]:
+                          - paragraph [ref=e554]:
+                            - text: Annapolis Junction
+                            - generic [ref=e555]:
+                              - generic [ref=e556]: (1)
+                              - generic [ref=e557]: 1 job
+                        - checkbox "Boston 1 job" [ref=e559] [cursor=pointer]:
+                          - paragraph [ref=e560]:
+                            - text: Boston
+                            - generic [ref=e561]:
+                              - generic [ref=e562]: (1)
+                              - generic [ref=e563]: 1 job
+                        - checkbox "Culver City 1 job" [ref=e565] [cursor=pointer]:
+                          - paragraph [ref=e566]:
+                            - text: Culver City
+                            - generic [ref=e567]:
+                              - generic [ref=e568]: (1)
+                              - generic [ref=e569]: 1 job
+                        - checkbox "Denver 1 job" [ref=e571] [cursor=pointer]:
+                          - paragraph [ref=e572]:
+                            - text: Denver
+                            - generic [ref=e573]:
+                              - generic [ref=e574]: (1)
+                              - generic [ref=e575]: 1 job
+                        - checkbox "East Palo Alto 1 job" [ref=e577] [cursor=pointer]:
+                          - paragraph [ref=e578]:
+                            - text: East Palo Alto
+                            - generic [ref=e579]:
+                              - generic [ref=e580]: (1)
+                              - generic [ref=e581]: 1 job
+                        - checkbox "Gurugram 1 job" [ref=e583] [cursor=pointer]:
+                          - paragraph [ref=e584]:
+                            - text: Gurugram
+                            - generic [ref=e585]:
+                              - generic [ref=e586]: (1)
+                              - generic [ref=e587]: 1 job
+                        - checkbox "Herndon 1 job" [ref=e589] [cursor=pointer]:
+                          - paragraph [ref=e590]:
+                            - text: Herndon
+                            - generic [ref=e591]:
+                              - generic [ref=e592]: (1)
+                              - generic [ref=e593]: 1 job
+                        - checkbox "Milan 1 job" [ref=e595] [cursor=pointer]:
+                          - paragraph [ref=e596]:
+                            - text: Milan
+                            - generic [ref=e597]:
+                              - generic [ref=e598]: (1)
+                              - generic [ref=e599]: 1 job
+                        - checkbox "Mumbai 1 job" [ref=e601] [cursor=pointer]:
+                          - paragraph [ref=e602]:
+                            - text: Mumbai
+                            - generic [ref=e603]:
+                              - generic [ref=e604]: (1)
+                              - generic [ref=e605]: 1 job
+                        - checkbox "Newark 1 job" [ref=e607] [cursor=pointer]:
+                          - paragraph [ref=e608]:
+                            - text: Newark
+                            - generic [ref=e609]:
+                              - generic [ref=e610]: (1)
+                              - generic [ref=e611]: 1 job
+                        - checkbox "Perth 1 job" [ref=e613] [cursor=pointer]:
+                          - paragraph [ref=e614]:
+                            - text: Perth
+                            - generic [ref=e615]:
+                              - generic [ref=e616]: (1)
+                              - generic [ref=e617]: 1 job
+                        - checkbox "Pittsburgh 1 job" [ref=e619] [cursor=pointer]:
+                          - paragraph [ref=e620]:
+                            - text: Pittsburgh
+                            - generic [ref=e621]:
+                              - generic [ref=e622]: (1)
+                              - generic [ref=e623]: 1 job
+                        - checkbox "Redmond 1 job" [ref=e625] [cursor=pointer]:
+                          - paragraph [ref=e626]:
+                            - text: Redmond
+                            - generic [ref=e627]:
+                              - generic [ref=e628]: (1)
+                              - generic [ref=e629]: 1 job
+                        - checkbox "Sao Paulo 1 job" [ref=e631] [cursor=pointer]:
+                          - paragraph [ref=e632]:
+                            - text: Sao Paulo
+                            - generic [ref=e633]:
+                              - generic [ref=e634]: (1)
+                              - generic [ref=e635]: 1 job
+                        - checkbox "Sydney 1 job" [ref=e637] [cursor=pointer]:
+                          - paragraph [ref=e638]:
+                            - text: Sydney
+                            - generic [ref=e639]:
+                              - generic [ref=e640]: (1)
+                              - generic [ref=e641]: 1 job
+                        - checkbox "Taipei City 1 job" [ref=e643] [cursor=pointer]:
+                          - paragraph [ref=e644]:
+                            - text: Taipei City
+                            - generic [ref=e645]:
+                              - generic [ref=e646]: (1)
+                              - generic [ref=e647]: 1 job
+              - generic [ref=e649]:
+                - link "Skip to job results" [ref=e650] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e651]:
+                  - generic [ref=e652] [cursor=pointer]:
+                    - generic [ref=e653]:
+                      - text: TEAM
+                      - generic [ref=e654]: (10 shown)
+                      - button "More information about teams" [ref=e656]: 
+                    - button "TEAM (10 shown) filters" [expanded] [ref=e657]
+                  - group "TEAM (10 shown) filters" [ref=e659]:
+                    - generic [ref=e660]: TEAM (10 shown) filters
+                    - status [ref=e661]
+                    - generic [ref=e662]:
+                      - checkbox "Amazon Web Services 13 jobs" [ref=e663] [cursor=pointer]:
+                        - paragraph [ref=e664]:
+                          - text: Amazon Web Services
+                          - generic [ref=e665]:
+                            - generic [ref=e666]: (13)
+                            - generic [ref=e667]: 13 jobs
+                      - checkbox "Alexa and Amazon Devices 12 jobs" [ref=e669] [cursor=pointer]:
+                        - paragraph [ref=e670]:
+                          - text: Alexa and Amazon Devices
+                          - generic [ref=e671]:
+                            - generic [ref=e672]: (12)
+                            - generic [ref=e673]: 12 jobs
+                      - checkbox "Amazon Entertainment 9 jobs" [ref=e675] [cursor=pointer]:
+                        - paragraph [ref=e676]:
+                          - text: Amazon Entertainment
+                          - generic [ref=e677]:
+                            - generic [ref=e678]: (9)
+                            - generic [ref=e679]: 9 jobs
+                      - checkbox "Transportation, Shipping & Logistics 6 jobs" [ref=e681] [cursor=pointer]:
+                        - paragraph [ref=e682]:
+                          - text: Transportation, Shipping & Logistics
+                          - generic [ref=e683]:
+                            - generic [ref=e684]: (6)
+                            - generic [ref=e685]: 6 jobs
+                      - checkbox "Amazon Security 5 jobs" [ref=e687] [cursor=pointer]:
+                        - paragraph [ref=e688]:
+                          - text: Amazon Security
+                          - generic [ref=e689]:
+                            - generic [ref=e690]: (5)
+                            - generic [ref=e691]: 5 jobs
+                    - button "Show more filters for TEAM" [ref=e693] [cursor=pointer]: more
+              - generic [ref=e695]:
+                - link "Skip to job results" [ref=e696] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e697]:
+                  - button "ROLE TYPE (1 shown) filters" [expanded] [ref=e698] [cursor=pointer]:
+                    - generic [ref=e699]:
+                      - text: ROLE TYPE
+                      - generic [ref=e700]: (1 shown)
+                  - group "ROLE TYPE (1 shown) filters" [ref=e703]:
+                    - generic [ref=e704]: ROLE TYPE (1 shown) filters
+                    - status [ref=e705]
+                    - checkbox "Individual Contributor 133 jobs" [ref=e707] [cursor=pointer]:
+                      - paragraph [ref=e708]:
+                        - text: Individual Contributor
+                        - generic [ref=e709]:
+                          - generic [ref=e710]: (133)
+                          - generic [ref=e711]: 133 jobs
+              - generic [ref=e713]:
+                - link "Skip to job results" [ref=e714] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e715]:
+                  - button "CATEGORY (2 shown) filters" [expanded] [ref=e716] [cursor=pointer]:
+                    - generic [ref=e717]:
+                      - text: CATEGORY
+                      - generic [ref=e718]: (2 shown)
+                  - group "CATEGORY (2 shown) filters" [ref=e721]:
+                    - generic [ref=e722]: CATEGORY (2 shown) filters
+                    - status [ref=e723]
+                    - generic [ref=e724]:
+                      - button "Corporate 133 jobs" [ref=e725] [cursor=pointer]:
+                        - paragraph [ref=e726]:
+                          - text: Corporate
+                          - generic [ref=e727]:
+                            - generic [ref=e728]: (133)
+                            - generic [ref=e729]: 133 jobs
+                      - button "Student Programs 2 jobs" [ref=e730] [cursor=pointer]:
+                        - paragraph [ref=e731]:
+                          - text: Student Programs
+                          - generic [ref=e732]:
+                            - generic [ref=e733]: (2)
+                            - generic [ref=e734]: 2 jobs
+            - generic [ref=e735]:
+              - generic [ref=e736]:
+                - heading "Results listed" [level=2] [ref=e737]
+                - generic [ref=e738]:
+                  - generic:
+                    - paragraph [ref=e739]: "Sort by:"
+                    - listbox "Sort by:" [ref=e740]:
+                      - button [ref=e741] [cursor=pointer]: "Sort by: Most relevant"
+              - generic [ref=e743]:
+                - generic [ref=e745]:
+                  - generic [ref=e746]:
+                    - generic [ref=e747]:
+                      - heading "Data Scientist , Sidewalk" [level=3] [ref=e748]:
+                        - link "Data Scientist , Sidewalk" [ref=e749] [cursor=pointer]:
+                          - /url: /en/jobs/10408648/data-scientist-sidewalk
+                      - list [ref=e752]:
+                        - listitem [ref=e753]: Bengaluru, KA, IND
+                        - listitem [ref=e754]: "|"
+                        - listitem [ref=e755]: "Job ID: 10408648"
+                    - generic [ref=e756]:
+                      - generic [ref=e757]: Posted May 1, 2026
+                      - paragraph [ref=e758]: (Updated about 2 months ago)
+                  - generic [ref=e760]:
+                    - generic [ref=e761]:
+                      - text: "Basic qualifications:"
+                      - list [ref=e762]:
+                        - listitem [ref=e763]: 2+ years of data scientist experience
+                        - listitem [ref=e764]: 3+ years of data querying languages (e.g. SQL), scripting languages (e.g. Python) or statistical/mathematical software (e.g. R, SAS, Matlab, etc.) experience
+                        - listitem [ref=e765]: 3+ years of machine learning/statistical modeling data analysis tools and techniques, and parameters that affect their performance experience
+                        - listitem [ref=e766]: 1+ years of guiding and coaching a group of researchers experience
+                        - listitem [ref=e767]: 1+ years of working with or evaluating AI systems experience
+                        - listitem [ref=e768]: Experience applying theoretical models in an applied environment
+                    - link "Read more about the job Data Scientist , Sidewalk, job Id 10408648" [ref=e769] [cursor=pointer]:
+                      - /url: /en/jobs/10408648/data-scientist-sidewalk
+                      - text: ...Read more
+                - generic [ref=e771]:
+                  - generic [ref=e772]:
+                    - generic [ref=e773]:
+                      - heading "Data Scientist II - AMZ27351.1" [level=3] [ref=e774]:
+                        - link "Data Scientist II - AMZ27351.1" [ref=e775] [cursor=pointer]:
+                          - /url: /en/jobs/10443975/data-scientist-ii-amz27351-1
+                      - list [ref=e778]:
+                        - listitem [ref=e779]: San Francisco, CA, USA
+                        - listitem [ref=e780]: "|"
+                        - listitem [ref=e781]: "Job ID: 10443975"
+                    - generic [ref=e782]:
+                      - generic [ref=e783]: Posted June 9, 2026
+                      - paragraph [ref=e784]: (Updated 9 days ago)
+                  - generic [ref=e786]:
+                    - generic [ref=e787]: "Master’s degree or foreign equivalent degree in Statistics, Applied Mathematics, Economics, Engineering, Computer Science, or a related field and one year of experience in the job offered or a related occupation. Employer will accept a Bachelor’s degree or foreign equivalent degree in Statistics, Applied Mathematics, Economics, Engineering, Computer Science, or a related field and five years of progressive post-baccalaureate experience in the job offered or a related occupation as equivalent to the Master’s degree and one year of experience. Must have one year of experience in the following skill(s): (1) building statistical models and machine learning models using large datasets from multiple resources; (2) writing SQL scripts for analysis and data migration; and (3) applying specialized modelling software including R, Python, or MATLAB. The pay range for this position in San Francisco, CA is $175425 - $212800 (yr); however, base pay offered may vary depending on job-related knowledge, skills, and experience A sign-on bonus and restricted stock units may be provided as part of the compensation package, in addition to a full range of medical, financial, and/or other benefits, dependent on the position offered. This information is provided by California Equal Pay Act. Base pay information is based on market location. Applicants should apply via Amazon's internal or external careers site."
+                    - link "Read more about the job Data Scientist II - AMZ27351.1, job Id 10443975" [ref=e788] [cursor=pointer]:
+                      - /url: /en/jobs/10443975/data-scientist-ii-amz27351-1
+                      - text: ...Read more
+                - generic [ref=e790]:
+                  - generic [ref=e791]:
+                    - generic [ref=e792]:
+                      - heading "Data Scientist, Alexa Connections" [level=3] [ref=e793]:
+                        - link "Data Scientist, Alexa Connections" [ref=e794] [cursor=pointer]:
+                          - /url: /en/jobs/10379689/data-scientist-alexa-connections
+                      - list [ref=e797]:
+                        - listitem [ref=e798]: Chennai, TN, IND
+                        - listitem [ref=e799]: "|"
+                        - listitem [ref=e800]: "Job ID: 10379689"
+                    - generic [ref=e801]:
+                      - generic [ref=e802]: Posted March 30, 2026
+                      - paragraph [ref=e803]: (Updated 9 days ago)
+                  - generic [ref=e805]:
+                    - generic [ref=e806]:
+                      - text: "Basic qualifications:"
+                      - list [ref=e807]:
+                        - listitem [ref=e808]: 2+ years of data scientist experience
+                        - listitem [ref=e809]: 3+ years of data querying languages (e.g. SQL), scripting languages (e.g. Python) or statistical/mathematical software (e.g. R, SAS, Matlab, etc.) experience
+                        - listitem [ref=e810]: 3+ years of machine learning/statistical modeling data analysis tools and techniques, and parameters that affect their performance experience
+                        - listitem [ref=e811]: 1+ years of creating or contributing to mathematical textbooks, research papers, or educational content experience
+                    - link "Read more about the job Data Scientist, Alexa Connections, job Id 10379689" [ref=e812] [cursor=pointer]:
+                      - /url: /en/jobs/10379689/data-scientist-alexa-connections
+                      - text: ...Read more
+                - generic [ref=e814]:
+                  - generic [ref=e815]:
+                    - generic [ref=e816]:
+                      - heading "Data Scientist, AWS Security" [level=3] [ref=e817]:
+                        - link "Data Scientist, AWS Security" [ref=e818] [cursor=pointer]:
+                          - /url: /en/jobs/10435024/data-scientist-aws-security
+                      - list [ref=e821]:
+                        - listitem [ref=e822]: Annapolis Junction, MD, USA
+                        - listitem [ref=e823]: "|"
+                        - listitem [ref=e824]: "Job ID: 10435024"
+                    - generic [ref=e825]:
+                      - generic [ref=e826]: Posted May 29, 2026
+                      - paragraph [ref=e827]: (Updated 21 days ago)
+                  - generic [ref=e829]:
+                    - generic [ref=e830]:
+                      - text: "Basic qualifications:"
+                      - list [ref=e831]:
+                        - listitem [ref=e832]: 3+ years of data querying languages (e.g. SQL), scripting languages (e.g. Python) or statistical/mathematical software (e.g. R, SAS, Matlab, etc.) experience
+                        - listitem [ref=e833]: 3+ years of machine learning/statistical modeling data analysis tools and techniques, and parameters that affect their performance experience
+                        - listitem [ref=e834]: Master's degree in Science, Technology, Engineering, or Mathematics (STEM), or experience working in Science, Technology, Engineering, or Mathematics (STEM)
+                    - link "Read more about the job Data Scientist, AWS Security, job Id 10435024" [ref=e835] [cursor=pointer]:
+                      - /url: /en/jobs/10435024/data-scientist-aws-security
+                      - text: ...Read more
+                - generic [ref=e837]:
+                  - generic [ref=e838]:
+                    - generic [ref=e839]:
+                      - heading "Data Scientist, Demand Forecasting" [level=3] [ref=e840]:
+                        - link "Data Scientist, Demand Forecasting" [ref=e841] [cursor=pointer]:
+                          - /url: /en/jobs/3206851/data-scientist-demand-forecasting
+                      - list [ref=e844]:
+                        - listitem [ref=e845]: Bellevue, WA, USA
+                        - listitem [ref=e846]: "|"
+                        - listitem [ref=e847]: "Job ID: 3206851"
+                    - generic [ref=e848]:
+                      - generic [ref=e849]: Posted March 17, 2026
+                      - paragraph [ref=e850]: (Updated about 1 month ago)
+                  - generic [ref=e852]:
+                    - generic [ref=e853]:
+                      - text: "Basic qualifications:"
+                      - list [ref=e854]:
+                        - listitem [ref=e855]: 3+ years of machine learning, statistical modeling, data mining, and analytics techniques experience
+                        - listitem [ref=e856]: 3+ years of data querying languages (e.g. SQL), scripting languages (e.g. Python) or statistical/mathematical software (e.g. R, SAS, Matlab, etc.) experience
+                        - listitem [ref=e857]: 3+ years of data scientist experience
+                        - listitem [ref=e858]: Bachelor's degree
+                    - link "Read more about the job Data Scientist, Demand Forecasting, job Id 3206851" [ref=e859] [cursor=pointer]:
+                      - /url: /en/jobs/3206851/data-scientist-demand-forecasting
+                      - text: ...Read more
+                - generic [ref=e861]:
+                  - generic [ref=e862]:
+                    - generic [ref=e863]:
+                      - heading "Data Scientist, AWS Security" [level=3] [ref=e864]:
+                        - link "Data Scientist, AWS Security" [ref=e865] [cursor=pointer]:
+                          - /url: /en/jobs/10411974/data-scientist-aws-security
+                      - list [ref=e868]:
+                        - listitem [ref=e869]: Arlington, VA, USA
+                        - listitem [ref=e870]: "|"
+                        - listitem [ref=e871]: "Job ID: 10411974"
+                    - generic [ref=e872]:
+                      - generic [ref=e873]: Posted May 5, 2026
+                      - paragraph [ref=e874]: (Updated 4 days ago)
+                  - generic [ref=e876]:
+                    - generic [ref=e877]:
+                      - text: "Basic qualifications:"
+                      - list [ref=e878]:
+                        - listitem [ref=e879]: 3+ years of data querying languages (e.g. SQL), scripting languages (e.g. Python) or statistical/mathematical software (e.g. R, SAS, Matlab, etc.) experience
+                        - listitem [ref=e880]: 3+ years of machine learning/statistical modeling data analysis tools and techniques, and parameters that affect their performance experience
+                        - listitem [ref=e881]: Master's degree in Science, Technology, Engineering, or Mathematics (STEM), or experience working in Science, Technology, Engineering, or Mathematics (STEM)
+                    - link "Read more about the job Data Scientist, AWS Security, job Id 10411974" [ref=e882] [cursor=pointer]:
+                      - /url: /en/jobs/10411974/data-scientist-aws-security
+                      - text: ...Read more
+                - generic [ref=e884]:
+                  - generic [ref=e885]:
+                    - generic [ref=e886]:
+                      - heading "Data Scientist, Digital Acceleration" [level=3] [ref=e887]:
+                        - link "Data Scientist, Digital Acceleration" [ref=e888] [cursor=pointer]:
+                          - /url: /en/jobs/3205211/data-scientist-digital-acceleration
+                      - list [ref=e891]:
+                        - listitem [ref=e892]: Chennai, TN, IND
+                        - listitem [ref=e893]: "|"
+                        - listitem [ref=e894]: "Job ID: 3205211"
+                    - generic [ref=e895]:
+                      - generic [ref=e896]: Posted March 16, 2026
+                      - paragraph [ref=e897]: (Updated 24 days ago)
+                  - generic [ref=e899]:
+                    - generic [ref=e900]:
+                      - text: "Basic qualifications:"
+                      - list [ref=e901]:
+                        - listitem [ref=e902]: 2+ years of data scientist experience
+                        - listitem [ref=e903]: 3+ years of data querying languages (e.g. SQL), scripting languages (e.g. Python) or statistical/mathematical software (e.g. R, SAS, Matlab, etc.) experience
+                        - listitem [ref=e904]: 3+ years of machine learning/statistical modeling data analysis tools and techniques, and parameters that affect their performance experience
+                        - listitem [ref=e905]: Experience applying theoretical models in an applied environment
+                        - listitem [ref=e906]: Understanding of relevant statistical measures such as confidence intervals, significance of error measurements, development and evaluation data sets, etc.
+                    - link "Read more about the job Data Scientist, Digital Acceleration, job Id 3205211" [ref=e907] [cursor=pointer]:
+                      - /url: /en/jobs/3205211/data-scientist-digital-acceleration
+                      - text: ...Read more
+                - generic [ref=e909]:
+                  - generic [ref=e910]:
+                    - generic [ref=e911]:
+                      - heading "Data Scientist II - AMZ24268.1" [level=3] [ref=e912]:
+                        - link "Data Scientist II - AMZ24268.1" [ref=e913] [cursor=pointer]:
+                          - /url: /en/jobs/10408859/data-scientist-ii-amz24268-1
+                      - list [ref=e916]:
+                        - listitem [ref=e917]: New York, NY, USA
+                        - listitem [ref=e918]: "|"
+                        - listitem [ref=e919]: "Job ID: 10408859"
+                    - generic [ref=e920]:
+                      - generic [ref=e921]: Posted May 1, 2026
+                      - paragraph [ref=e922]: (Updated 29 days ago)
+                  - generic [ref=e924]:
+                    - generic [ref=e925]: "Master’s degree or foreign equivalent degree in Statistics, Applied Mathematics, Economics, Engineering, Computer Science, or a related field and one year of experience in the job offered or a related occupation. Employer will accept a Bachelor’s degree or foreign equivalent degree in Statistics, Applied Mathematics, Economics, Engineering, Computer Science, or a related field and five years of progressive post-baccalaureate experience in the job offered or a related occupation as equivalent to the Master’s degree and one year of experience. Must have one year of experience in the following skill(s): (1) building statistical models and machine learning models using large datasets from multiple resources; (2) writing SQL scripts for analysis and data migration; and (3) applying specialized modelling software including R, Python, or MATLAB. The base pay range for this position in New York City is USD $169541 - $207500 (yr). Pay is based on market location and may vary depending on job-related knowledge, skills, and experience. A sign-on payment and restricted stock units may be provided as part of the compensation package, in addition to a full range of medical, financial, or other benefits, dependent on the position offered. Applicants should apply via Amazon's internal or external careers site."
+                    - link "Read more about the job Data Scientist II - AMZ24268.1, job Id 10408859" [ref=e926] [cursor=pointer]:
+                      - /url: /en/jobs/10408859/data-scientist-ii-amz24268-1
+                      - text: ...Read more
+                - generic [ref=e928]:
+                  - generic [ref=e929]:
+                    - generic [ref=e930]:
+                      - heading "Data Scientist III - AMZ9802655" [level=3] [ref=e931]:
+                        - link "Data Scientist III - AMZ9802655" [ref=e932] [cursor=pointer]:
+                          - /url: /en/jobs/10383512/data-scientist-iii-amz9802655
+                      - list [ref=e935]:
+                        - listitem [ref=e936]: Mountain View, CA, USA
+                        - listitem [ref=e937]: "|"
+                        - listitem [ref=e938]: "Job ID: 10383512"
+                    - generic [ref=e939]:
+                      - generic [ref=e940]: Posted April 3, 2026
+                      - paragraph [ref=e941]: (Updated 2 months ago)
+                  - generic [ref=e943]:
+                    - generic [ref=e944]: "Position Requirements: Master's degree or foreign equivalent degree in Statistics, Applied Mathematics, Economics, Engineering, Computer Science or a related field and two years of experience in the job offered or a related occupation. Employer will accept a Bachelor's degree or foreign equivalent degree in Statistics, Applied Mathematics, Economics, Engineering, Computer Science, or a related field and five years of progressive post-baccalaureate experience in the job offered or a related occupation as equivalent to the Master's degree and two years of experience. Must have one year of experience in the following skills: (1) building statistical models and machine learning models using large datasets from multiple resources; (2) building complex data analyses by leveraging scripting languages including Python, Java, or related scripting language; and (3) communicating with users, technical teams, and management to collect requirements, evaluate alternatives, and develop processes and tools to support the organization.#0000"
+                    - link "Read more about the job Data Scientist III - AMZ9802655, job Id 10383512" [ref=e945] [cursor=pointer]:
+                      - /url: /en/jobs/10383512/data-scientist-iii-amz9802655
+                      - text: ...Read more
+                - generic [ref=e947]:
+                  - generic [ref=e948]:
+                    - generic [ref=e949]:
+                      - heading "Data Scientist, Traffic Quality" [level=3] [ref=e950]:
+                        - link "Data Scientist, Traffic Quality" [ref=e951] [cursor=pointer]:
+                          - /url: /en/jobs/10453787/data-scientist-traffic-quality
+                      - list [ref=e954]:
+                        - listitem [ref=e955]: Bengaluru, KA, IND
+                        - listitem [ref=e956]: "|"
+                        - listitem [ref=e957]: "Job ID: 10453787"
+                    - generic [ref=e958]:
+                      - generic [ref=e959]: Posted June 19, 2026
+                      - paragraph [ref=e960]: (Updated about 4 hours ago)
+                  - generic [ref=e962]:
+                    - generic [ref=e963]:
+                      - text: "Basic qualifications:"
+                      - list [ref=e964]:
+                        - listitem [ref=e965]: 2+ years of data scientist experience
+                        - listitem [ref=e966]: 3+ years of data querying languages (e.g. SQL), scripting languages (e.g. Python) or statistical/mathematical software (e.g. R, SAS, Matlab, etc.) experience
+                        - listitem [ref=e967]: 3+ years of machine learning/statistical modeling data analysis tools and techniques, and parameters that affect their performance experience
+                        - listitem [ref=e968]: 1+ years of guiding and coaching a group of researchers experience
+                        - listitem [ref=e969]: 1+ years of working with or evaluating AI systems experience
+                        - listitem [ref=e970]: 1+ years of creating or contributing to mathematical textbooks, research papers, or educational content experience
+                        - listitem [ref=e971]: Master's degree in Science, Technology, Engineering, or Mathematics (STEM), or experience working in Science, Technology, Engineering, or Mathematics (STEM)
+                        - listitem [ref=e972]: Experience applying theoretical models in an applied environment
+                    - link "Read more about the job Data Scientist, Traffic Quality, job Id 10453787" [ref=e973] [cursor=pointer]:
+                      - /url: /en/jobs/10453787/data-scientist-traffic-quality
+                      - text: ...Read more
+              - generic [ref=e977]:
+                - button "Previous page" [disabled] [ref=e978]
+                - button "Page 1" [disabled]: "1"
+                - button "Page 2" [ref=e979] [cursor=pointer]: "2"
+                - button "Page 3" [ref=e980] [cursor=pointer]: "3"
+                - button "Page ..." [disabled]: ...
+                - button "Page 14" [ref=e981] [cursor=pointer]: "14"
+                - button "Next page" [ref=e982] [cursor=pointer]
+      - generic:    
+    - generic [ref=e983]:
+      - generic [ref=e986]:
+        - generic [ref=e987]: JOIN US ON
+        - list [ref=e988]:
+          - listitem [ref=e989]:
+            - link "Join us on facebook" [ref=e990] [cursor=pointer]:
+              - /url: https://www.facebook.com/InsideAmazon/?Amazon.jobs=footer
+              - text: b
+          - listitem [ref=e991]:
+            - link "Join us on linkedin" [ref=e992] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/amazon?Amazon.jobs=footer
+              - text: d
+          - listitem [ref=e993]:
+            - link "Join us on instagram" [ref=e994] [cursor=pointer]:
+              - /url: https://www.instagram.com/insideamazon/?Amazon.jobs=footer
+              - text: c
+          - listitem [ref=e995]:
+            - link "Join us on twitter" [ref=e996] [cursor=pointer]:
+              - /url: https://twitter.com/amazonnews?Amazon.jobs=footer
+              - text: j
+        - generic [ref=e997]:
+          - generic [ref=e998]: DOWNLOAD OUR APP
+          - list [ref=e999]:
+            - listitem [ref=e1000]:
+              - link "Download Amazon A to Z from App Store" [ref=e1001] [cursor=pointer]:
+                - /url: https://apple.co/4mW6qxK
+                - img [ref=e1002]
+            - listitem [ref=e1003]:
+              - link "Download Amazon A to Z from Google Play" [ref=e1004] [cursor=pointer]:
+                - /url: https://bit.ly/46JGIYu
+                - img [ref=e1005]
+      - generic [ref=e1009]:
+        - generic [ref=e1010]:
+          - text: Find Careers
+          - list [ref=e1011]:
+            - listitem [ref=e1012]:
+              - link "Job Categories" [ref=e1013] [cursor=pointer]:
+                - /url: /content/en/job-categories
+            - listitem [ref=e1014]:
+              - link "Teams" [ref=e1015] [cursor=pointer]:
+                - /url: /content/en/teams
+            - listitem [ref=e1016]:
+              - link "Locations" [ref=e1017] [cursor=pointer]:
+                - /url: /content/en/locations
+            - listitem [ref=e1018]:
+              - link "Military careers" [ref=e1019] [cursor=pointer]:
+                - /url: /content/en/career-programs/military
+            - listitem [ref=e1020]:
+              - link "Hourly" [ref=e1021] [cursor=pointer]:
+                - /url: /content/en/hourly
+        - generic [ref=e1022]:
+          - text: Working At Amazon
+          - list [ref=e1023]:
+            - listitem [ref=e1024]:
+              - link "Culture" [ref=e1025] [cursor=pointer]:
+                - /url: /content/en/our-workplace
+            - listitem [ref=e1026]:
+              - link "Benefits" [ref=e1027] [cursor=pointer]:
+                - /url: /content/en/benefits
+            - listitem [ref=e1028]:
+              - link "Amazon Newsletter" [ref=e1029] [cursor=pointer]:
+                - /url: https://email.aboutamazon.com/l/637851/2020-10-29/pd87g?utm_campaign=newslettersubscribers&utm_content=amazonnewssignup&utm_medium=amazonjobs&utm_source=footer
+            - listitem [ref=e1030]:
+              - link "Inclusive experiences" [ref=e1031] [cursor=pointer]:
+                - /url: /content/en/our-workplace/inclusive-experiences
+            - listitem [ref=e1032]:
+              - link "Leadership Principles" [ref=e1033] [cursor=pointer]:
+                - /url: /content/en/our-workplace/leadership-principles
+        - generic [ref=e1034]:
+          - text: Help
+          - list [ref=e1035]:
+            - listitem [ref=e1036]:
+              - link "FAQ" [ref=e1037] [cursor=pointer]:
+                - /url: /content/en/faq
+            - listitem [ref=e1038]:
+              - link "How We Hire" [ref=e1039] [cursor=pointer]:
+                - /url: /content/en/how-we-hire#onlineapp
+            - listitem [ref=e1040]:
+              - link "Application status" [ref=e1041] [cursor=pointer]:
+                - /url: https://www.amazon.jobs/applicant/check_application_status
+            - listitem [ref=e1042]:
+              - link "Accommodations" [ref=e1043] [cursor=pointer]:
+                - /url: /content/en/how-we-hire/accommodations
+            - listitem [ref=e1044]:
+              - link "Legal disclosures and notices" [ref=e1045] [cursor=pointer]:
+                - /url: /content/en/legal-disclosures-and-notices
+        - combobox "English" [ref=e1051] [cursor=pointer]: English
+      - generic [ref=e1053]:
+        - generic [ref=e1055]:
+          - generic [ref=e1056]: Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.
+          - generic [ref=e1057]:
+            - link "Privacy and Data" [ref=e1058] [cursor=pointer]:
+              - /url: /en/privacy_page
+            - link "Impressum" [ref=e1059] [cursor=pointer]:
+              - /url: /en/impressum
+          - generic [ref=e1060]: © 1996-2026, Amazon.com, Inc. or its affiliates
+        - generic [ref=e1061]:
+          - generic [ref=e1062]:
+            - heading "Notice of Right to Opt-Out Sharing" [level=3] [ref=e1064]
+            - paragraph [ref=e1065]:
+              - text: Amazon Jobs uses cookies and similar tools such as pixels (collectively, “cookies”) for advertising purposes. The cookies collect and share information about you with third-parties to serve you with relevant advertisements and job recommendations based on your interactions with Amazon Jobs and third-party sites. California residents may exercise their right to opt-out of the sharing of information for advertising purposes by clicking toggling the buttons below. You can also manage your cookie preferences through the
+              - link "Cookie Preference Center" [ref=e1066] [cursor=pointer]:
+                - /url: /cookies
+              - text: .
+            - paragraph [ref=e1067]:
+              - text: For more information about how we use cookies and information of how we collect cookies, please visit our
+              - link "Candidate Cookie Notice" [ref=e1068] [cursor=pointer]:
+                - /url: /privacy_page?region_id=region_us&notice_id=us-cookies-notice-english
+              - text: and
+              - link "Candidate Privacy Notice" [ref=e1069] [cursor=pointer]:
+                - /url: /privacy_page?region_id=region_us&notice_id=us-privacy-english
+              - text: and the
+              - link "California supplement notice" [ref=e1070] [cursor=pointer]:
+                - /url: /privacy_page?region_id=region_california&notice_id=california-privacy-english
+              - text: .
+          - list [ref=e1072]:
+            - listitem [ref=e1073]:
+              - button "Accept" [ref=e1074] [cursor=pointer]: Accept all
+            - listitem [ref=e1075]:
+              - button "Reject" [ref=e1076] [cursor=pointer]: Reject all
+            - listitem [ref=e1077]:
+              - button "Customize" [ref=e1078] [cursor=pointer]: Customize cookies

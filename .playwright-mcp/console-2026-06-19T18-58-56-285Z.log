@@ -1,0 +1,38 @@
+[    1254ms] [WARNING] BASE_URL_ATTR "data-base-url" not found @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    1260ms] [INFO] No translation for key: apply-flow.communication-channel.sms-button-label (en) @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    1260ms] [INFO] No translation for key: apply-flow.communication-channel.whatsapp-button-label (en) @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    1278ms] [WARNING] Unknown global setting - ORA_IRC_CE_GJS_ENABLED @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    1278ms] [WARNING] Unknown global setting - ORA_IRC_USER_TRACKING_ENABLE @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    1278ms] [WARNING] Unknown global setting - ORA_IRC_NUMBER_OF_JOBS_TO_BE_LOADED_ON_MAP @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    1278ms] [WARNING] Unknown global setting - ORA_IRC_FALLBACK_TO_SPRING @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    1278ms] [WARNING] Unknown global setting - IRC_CE_USE_MODERN_TEMPLATE @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    1278ms] [WARNING] Unknown global setting - ORA_IRC_EXWKR_CWKEXT_CITIZENSHIP_UPDATE_RECRUITER @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    1278ms] [WARNING] Unknown global setting - IRC_CE_AGENT_STARTER_MESSAGE @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    1306ms] [INFO] No translation for key: admin.ai-assistant-editor.header-background-color-label (en) @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    1312ms] [INFO] No translation for key: Skip to main content. (en) @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    1358ms] [ERROR] ORA global namespace already in use, Infinity not loaded/setup @ https://c.oracleinfinity.io/acs/account/fp3kyrmvtg/js/prod/odc.js:68
+[    1964ms] [ERROR] TypeError: Failed to fetch
+    at s (https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:2:2634618)
+    at https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:2:2634785
+    at Object.request (https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:2:2635096)
+    at Object._standard (https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:2:2636356)
+    at Object._queue (https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:2:2636747)
+    at Object.create (https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:2:2636295)
+    at d (https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:2:2630485)
+    at c (https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:2:2630331)
+    at Object.get (https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:2:2631669)
+    at Ni.searchFacets (https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:2:2873731) @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    1980ms] [WARNING] BASE_URL_ATTR "data-base-url" not found @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    1984ms] [INFO] No translation for key: apply-flow.communication-channel.sms-button-label (en) @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    1984ms] [INFO] No translation for key: apply-flow.communication-channel.whatsapp-button-label (en) @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    2005ms] [WARNING] Unknown global setting - ORA_IRC_CE_GJS_ENABLED @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    2005ms] [WARNING] Unknown global setting - ORA_IRC_USER_TRACKING_ENABLE @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    2005ms] [WARNING] Unknown global setting - ORA_IRC_NUMBER_OF_JOBS_TO_BE_LOADED_ON_MAP @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    2005ms] [WARNING] Unknown global setting - ORA_IRC_FALLBACK_TO_SPRING @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    2005ms] [WARNING] Unknown global setting - IRC_CE_USE_MODERN_TEMPLATE @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    2005ms] [WARNING] Unknown global setting - ORA_IRC_EXWKR_CWKEXT_CITIZENSHIP_UPDATE_RECRUITER @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    2005ms] [WARNING] Unknown global setting - IRC_CE_AGENT_STARTER_MESSAGE @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    2035ms] [INFO] No translation for key: admin.ai-assistant-editor.header-background-color-label (en) @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    2042ms] [INFO] No translation for key: Skip to main content. (en) @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1
+[    2089ms] [ERROR] ORA global namespace already in use, Infinity not loaded/setup @ https://c.oracleinfinity.io/acs/account/fp3kyrmvtg/js/prod/odc.js:68
+[   12008ms] [ERROR] undefined @ https://static.oracle.com/cdn/fa/oj-hcm-ce/2601.19.260780122/js/main-minimal.js:1

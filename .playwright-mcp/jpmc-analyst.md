@@ -1,0 +1,149 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: .
+    - generic [ref=e4]: ..
+    - generic [ref=e5]: .
+  - generic [ref=e7]:
+    - link "Skip to main content." [ref=e8] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - banner [ref=e13]:
+          - generic [ref=e17]:
+            - link "Manage profile" [ref=e20] [cursor=pointer]:
+              - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/my-profile/sign-in
+              - generic [ref=e21]: 
+            - button "Open menu" [ref=e23] [cursor=pointer]:
+              - generic [ref=e24]:
+                - emphasis [ref=e25]
+                - emphasis [ref=e26]
+                - emphasis [ref=e27]
+        - main [ref=e29]:
+          - generic [ref=e30]:
+            - heading "Search Jobs - JPMC Candidate Experience page Careers" [level=1] [ref=e31]
+            - generic [ref=e35]:
+              - generic [ref=e39]:
+                - link [ref=e41] [cursor=pointer]:
+                  - /url: https://careers.jpmorgan.com/us/en/home
+                  - img [ref=e42]
+                - search [ref=e44]:
+                  - generic [ref=e45]:
+                    - generic [ref=e46]:
+                      - generic [ref=e48]: Find Jobs
+                      - generic [ref=e49]:
+                        - generic [ref=e50]: Job title, skill, keyword
+                        - combobox "Find Jobs" [ref=e51]: analyst program
+                    - generic [ref=e53]:
+                      - button "You've selected the Near Location search mode." [ref=e56] [cursor=pointer]:
+                        - generic [ref=e57]: Near Location
+                        - emphasis [ref=e58]: 
+                      - generic [ref=e59]:
+                        - generic [ref=e60]: City, state, country
+                        - combobox "City, state, country" [ref=e61]
+                  - button "Search for Jobs" [ref=e62] [cursor=pointer]:
+                    - emphasis [ref=e63]: 
+              - generic [ref=e71]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - list
+              - alert "Loading screen" [ref=e81]: 
+      - contentinfo [ref=e82]:
+        - generic [ref=e83]:
+          - table [ref=e85]:
+            - rowgroup [ref=e86]:
+              - row ". Privacy & Terms Privacy & Security Terms of Use Cookie Policy . Equal Opportunities Recruitment Scams Warning . Useful Links chase.com jpmorganchase.com jpmorgan.com . Careers at Chase Careers in the Philippines" [ref=e87]:
+                - cell ". Privacy & Terms Privacy & Security Terms of Use Cookie Policy" [ref=e88]:
+                  - generic [ref=e89]:
+                    - heading "." [level=1] [ref=e90]:
+                      - link "." [ref=e91] [cursor=pointer]:
+                        - /url: https://www.jpmorganchase.com/corporate/Home/privacy.htm
+                    - list [ref=e92]:
+                      - listitem [ref=e93]:
+                        - generic [ref=e94]: Privacy & Terms
+                      - listitem [ref=e95]:
+                        - link "Privacy & Security" [ref=e96] [cursor=pointer]:
+                          - /url: https://www.jpmorganchase.com/corporate/Home/privacy.htm
+                      - listitem [ref=e97]:
+                        - link "Terms of Use" [ref=e98] [cursor=pointer]:
+                          - /url: https://www.jpmorganchase.com/corporate/Home/terms.htm
+                      - listitem [ref=e99]:
+                        - link "Cookie Policy" [ref=e100] [cursor=pointer]:
+                          - /url: https://www.jpmorganchase.com/corporate/Home/cookie-policy.htm
+                - cell ". Equal Opportunities Recruitment Scams Warning" [ref=e101]:
+                  - generic [ref=e102]:
+                    - heading "." [level=1] [ref=e103]:
+                      - link "." [ref=e104] [cursor=pointer]:
+                        - /url: https://careers.jpmorgan.com/us/en/recruitment-scams-warning
+                    - list [ref=e105]:
+                      - listitem [ref=e106]
+                      - listitem [ref=e107]:
+                        - link "Equal Opportunities" [ref=e108] [cursor=pointer]:
+                          - /url: https://careers.jpmorgan.com/us/en/equal-opportunities
+                      - listitem [ref=e109]:
+                        - link "Recruitment Scams Warning" [ref=e110] [cursor=pointer]:
+                          - /url: https://careers.jpmorgan.com/us/en/recruitment-scams-warning
+                - cell ". Useful Links chase.com jpmorganchase.com jpmorgan.com" [ref=e111]:
+                  - generic [ref=e112]:
+                    - heading "." [level=1] [ref=e113]:
+                      - link "." [ref=e114] [cursor=pointer]:
+                        - /url: https://www.chase.com
+                    - list [ref=e115]:
+                      - listitem [ref=e116]:
+                        - generic [ref=e117]: Useful Links
+                      - listitem [ref=e118]:
+                        - link "chase.com" [ref=e119] [cursor=pointer]:
+                          - /url: https://www.chase.com
+                      - listitem [ref=e120]:
+                        - link "jpmorganchase.com" [ref=e121] [cursor=pointer]:
+                          - /url: https://www.jpmorganchase.com
+                      - listitem [ref=e122]:
+                        - link "jpmorgan.com" [ref=e123] [cursor=pointer]:
+                          - /url: https://www.jpmorgan.com/country/US/en/jpmorgan
+                - cell ". Careers at Chase Careers in the Philippines" [ref=e124]:
+                  - generic [ref=e125]:
+                    - heading "." [level=1] [ref=e126]:
+                      - link "." [ref=e127] [cursor=pointer]:
+                        - /url: https://www.careersatchase.com/content/index
+                    - list [ref=e128]:
+                      - listitem [ref=e129]
+                      - listitem [ref=e130]:
+                        - link "Careers at Chase" [ref=e131] [cursor=pointer]:
+                          - /url: https://www.careersatchase.com/content/index
+                      - listitem [ref=e132]:
+                        - link "Careers in the Philippines" [ref=e133] [cursor=pointer]:
+                          - /url: https://careers.jpmorgan.com/global/en/about-us/locations/manila
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e137]: © 2024 JPMorgan Chase & Co. All rights reserved.
+              - generic [ref=e138]: JPMorgan Chase & Co. is an equal opportunity employer and affirmative action employer Disability/Veteran.
+            - paragraph [ref=e141]:
+              - link "GLOBAL" [ref=e142] [cursor=pointer]:
+                - /url: https://careers.jpmorgan.com
+              - text: /
+              - link "日本語" [ref=e143] [cursor=pointer]:
+                - /url: https://careers.jpmorgan.com/jp/ja/home
+              - text: /
+              - link "中文" [ref=e144] [cursor=pointer]:
+                - /url: https://careers.jpmorgan.com/cn/en/home
+    - dialog "Cookie Consent Message" [ref=e146]:
+      - article [ref=e152]:
+        - generic [ref=e156]:
+          - generic [ref=e160]:
+            - paragraph [active] [ref=e162]:
+              - document [ref=e163]: "IMPORTANT NOTICE: PLEASE READ CAREFULLY BEFORE USING THIS WEBSITE"
+            - link "Privacy Notice" [ref=e166] [cursor=pointer]:
+              - /url: https://www.jpmorgan.com/privacy
+          - generic [ref=e173]:
+            - generic [ref=e174]:
+              - button "Accept" [ref=e175] [cursor=pointer]:
+                - generic [ref=e176]: Accept
+              - button "Decline" [ref=e177] [cursor=pointer]:
+                - generic [ref=e178]: Decline
+            - button "Manage Preferences" [ref=e181] [cursor=pointer]
+    - alert
+    - status [ref=e182]
+    - alert [ref=e183]
+  - button "Digital Assistant" [ref=e184] [cursor=pointer]
+  - status [ref=e186]
+  - status [ref=e187]

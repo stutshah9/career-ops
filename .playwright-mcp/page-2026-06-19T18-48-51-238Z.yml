@@ -1,0 +1,256 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e7]:
+    - generic [ref=e9]:
+      - text:  
+      - link "Microsoft" [ref=e10] [cursor=pointer]:
+        - /url: https://www.microsoft.com
+        - img [ref=e11]
+        - generic [ref=e12]: Microsoft
+      - text:  
+      - link "Careers" [ref=e14] [cursor=pointer]:
+        - /url: https://careers.microsoft.com/v2/global/en/home.html
+        - generic [ref=e15]: Careers
+      - navigation "Contextual menu" [ref=e16]:
+        - list [ref=e17]:
+          - listitem [ref=e18]:
+            - link "Locations" [ref=e19] [cursor=pointer]:
+              - /url: https://careers.microsoft.com/v2/global/en/locations.html
+          - listitem [ref=e20]:
+            - link "Professions" [ref=e21] [cursor=pointer]:
+              - /url: https://careers.microsoft.com/v2/global/en/professions.html
+          - listitem [ref=e22]:
+            - button "Programs " [ref=e24] [cursor=pointer]
+          - listitem [ref=e25]:
+            - button "Life at Microsoft " [ref=e27] [cursor=pointer]
+          - listitem [ref=e28]:
+            - link "Hiring tips" [ref=e29] [cursor=pointer]:
+              - /url: https://careers.microsoft.com/v2/global/en/hiring-tips.html
+          - text: 
+          - listitem [ref=e30]:
+            - link "Join talent network" [ref=e31] [cursor=pointer]:
+              - /url: https://apply.careers.microsoft.com/careers/join
+      - generic [ref=e32]:
+        - button "Search jobs" [ref=e34] [cursor=pointer]: 
+        - generic:  
+        - generic [ref=e37] [cursor=pointer]: Sign in
+  - generic [ref=e39]:
+    - main [ref=e40]:
+      - heading "Jobs" [level=1] [ref=e41]
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e46]:
+              - generic [ref=e48]:
+                - status [ref=e49]
+                - combobox "Search by job title, ID, or keyword" [ref=e53]
+              - generic [ref=e57]:
+                - status [ref=e58]
+                - combobox "City, state, or country/region" [ref=e62]
+              - generic [ref=e66]:
+                - button "Search jobs" [ref=e67] [cursor=pointer]:
+                  - generic [ref=e68]: Search jobs
+                - button "Job Cart 0 job(s) added" [disabled] [ref=e70]:
+                  - generic [ref=e74]:
+                    - text: Job cart
+                    - generic [ref=e75]: "0"
+            - generic [ref=e76]:
+              - generic [ref=e77]:
+                - button "Work site" [ref=e79] [cursor=pointer]:
+                  - generic [ref=e82]: Work site
+                - button "Experience level" [ref=e87] [cursor=pointer]:
+                  - generic [ref=e90]: Experience level
+                - button "Profession" [ref=e95] [cursor=pointer]:
+                  - generic [ref=e98]: Profession
+                - button "Discipline" [ref=e103] [cursor=pointer]:
+                  - generic [ref=e106]: Discipline
+              - button "All filters" [ref=e110] [cursor=pointer]:
+                - generic [ref=e115]: All filters
+              - button "Clear all selected filters" [ref=e116] [cursor=pointer]:
+                - generic [ref=e119]: Clear All
+          - generic [ref=e121]:
+            - generic [ref=e122]:
+              - heading "Get personalized job recommendations" [level=1] [ref=e123]
+              - generic [ref=e124]: Use AI to see how you match and get help on your career journey
+            - button "Upload your resume to get personalized job recommendations" [ref=e126] [cursor=pointer]:
+              - generic [ref=e128]: Upload your resume
+        - generic [ref=e129]:
+          - generic [ref=e130]:
+            - generic [ref=e132]: 1443 jobs
+            - 'button "Sort by: Latest" [ref=e135] [cursor=pointer]':
+              - generic [ref=e139]: "Sort: Latest"
+            - generic [ref=e140]:
+              - generic [ref=e141] [cursor=pointer]:
+                - generic:
+                  - switch "Turn on job alerts for this search" [disabled]
+                  - generic:
+                    - generic: Turn on job alerts for this search
+              - link "Manage" [ref=e142] [cursor=pointer]:
+                - /url: /careers/settings
+            - generic [ref=e143]:
+              - generic [ref=e144]:
+                - 'button "View job: Senior Communications Manager, Cloud & AI" [ref=e145] [cursor=pointer]':
+                  - generic [ref=e146]:
+                    - generic [ref=e148]: Senior Communications Manager, Cloud & AI
+                    - generic [ref=e153]: United States, Washington, Redmond
+                    - generic [ref=e154]: Posted 26 minutes ago
+                - button "Save Senior Communications Manager, Cloud & AI" [ref=e155] [cursor=pointer]
+              - generic [ref=e158]:
+                - 'button "View job: Critical Environment Program Manager" [ref=e159] [cursor=pointer]':
+                  - generic [ref=e160]:
+                    - generic [ref=e162]: Critical Environment Program Manager
+                    - generic [ref=e167]: United States, Georgia, Atlanta
+                    - generic [ref=e168]: Posted 35 minutes ago
+                - button "Save Critical Environment Program Manager" [ref=e169] [cursor=pointer]
+              - generic [ref=e172]:
+                - 'button "View job: Software Engineer" [ref=e173] [cursor=pointer]':
+                  - generic [ref=e174]:
+                    - generic [ref=e176]: Software Engineer
+                    - generic [ref=e181]: Canada, British Columbia, Vancouver
+                    - generic [ref=e182]: Posted 37 minutes ago
+                - button "Save Software Engineer" [ref=e183] [cursor=pointer]
+              - generic [ref=e186]:
+                - 'button "View job: Senior Software Engineers" [ref=e187] [cursor=pointer]':
+                  - generic [ref=e188]:
+                    - generic [ref=e190]: Senior Software Engineers
+                    - generic [ref=e195]: United States, Washington, Redmond
+                    - generic [ref=e196]: Posted 37 minutes ago
+                - button "Save Senior Software Engineers" [ref=e197] [cursor=pointer]
+              - generic [ref=e200]:
+                - 'button "View job: Principal Software Engineers" [ref=e201] [cursor=pointer]':
+                  - generic [ref=e202]:
+                    - generic [ref=e204]: Principal Software Engineers
+                    - generic [ref=e209]: United States, Washington, Redmond
+                    - generic [ref=e210]: Posted 38 minutes ago
+                - button "Save Principal Software Engineers" [ref=e211] [cursor=pointer]
+              - generic [ref=e214]:
+                - 'button "View job: Senior Software Engineer" [ref=e215] [cursor=pointer]':
+                  - generic [ref=e216]:
+                    - generic [ref=e218]: Senior Software Engineer
+                    - generic [ref=e223]: Canada, British Columbia, Vancouver
+                    - generic [ref=e224]: Posted 38 minutes ago
+                - button "Save Senior Software Engineer" [ref=e225] [cursor=pointer]
+              - generic [ref=e228]:
+                - 'button "View job: Senior Security Analyst" [ref=e229] [cursor=pointer]':
+                  - generic [ref=e230]:
+                    - generic [ref=e232]: Senior Security Analyst
+                    - generic [ref=e237]: United States, Multiple Locations, Multiple Locations
+                    - generic [ref=e238]: Posted an hour ago
+                - button "Save Senior Security Analyst" [ref=e239] [cursor=pointer]
+              - generic [ref=e242]:
+                - 'button "View job: Training Program Manager, Global Skilling" [ref=e243] [cursor=pointer]':
+                  - generic [ref=e244]:
+                    - generic [ref=e246]: Training Program Manager, Global Skilling
+                    - generic [ref=e251]: United States, Multiple Locations, Multiple Locations
+                    - generic [ref=e252]: Posted an hour ago
+                - button "Save Training Program Manager, Global Skilling" [ref=e253] [cursor=pointer]
+              - generic [ref=e256]:
+                - 'button "View job: Senior Software Engineer" [ref=e257] [cursor=pointer]':
+                  - generic [ref=e258]:
+                    - generic [ref=e260]: Senior Software Engineer
+                    - generic [ref=e265]: Canada, British Columbia, Vancouver
+                    - generic [ref=e266]: Posted 2 hours ago
+                - button "Save Senior Software Engineer" [ref=e267] [cursor=pointer]
+              - generic [ref=e270]:
+                - 'button "View job: Principal Silicon Design Verification Engineer" [ref=e271] [cursor=pointer]':
+                  - generic [ref=e272]:
+                    - generic [ref=e274]: Principal Silicon Design Verification Engineer
+                    - generic [ref=e279]: United States, California, Mountain View + 4 more
+                    - generic [ref=e280]: Posted 2 hours ago
+                - button "Save Principal Silicon Design Verification Engineer" [ref=e281] [cursor=pointer]
+            - navigation "Jobs pagination" [ref=e284]:
+              - button "Previous jobs" [disabled] [ref=e285]
+              - generic [ref=e288]:
+                - generic [ref=e289]: "1"
+                - generic [ref=e290]: of
+                - generic [ref=e291]: "145"
+              - button "Next jobs" [ref=e292] [cursor=pointer]
+          - generic [ref=e296]:
+            - generic [ref=e297]:
+              - generic [ref=e298]:
+                - heading "Senior Communications Manager, Cloud & AI" [level=2] [ref=e299]
+                - generic [ref=e303]: United States, Washington, Redmond
+                - link "Apply now" [ref=e305] [cursor=pointer]:
+                  - /url: /careers/apply?pid=1970393556889253
+                  - generic [ref=e306]: Apply now
+              - generic [ref=e307]:
+                - button "Favourite this job" [ref=e308] [cursor=pointer]
+                - button "Share position, Senior Communications Manager, Cloud & AI" [ref=e312] [cursor=pointer]
+            - generic [ref=e316]:
+              - generic [ref=e317]: Find out how well you match with this job
+              - button "Upload your resume" [ref=e318] [cursor=pointer]:
+                - generic [ref=e320]: Upload your resume
+            - generic [ref=e323]:
+              - tablist [ref=e326]:
+                - tab "Job description" [selected] [ref=e327] [cursor=pointer]:
+                  - generic [ref=e328]: Job description
+                - tab "Company and benefits" [ref=e330] [cursor=pointer]:
+                  - generic [ref=e331]: Company and benefits
+              - heading "Insights from previous hires" [level=4] [ref=e340]
+    - contentinfo [ref=e346]:
+      - generic [ref=e349]:
+        - paragraph [ref=e351]:
+          - link "Powered by Eightfold AI Logo" [ref=e352] [cursor=pointer]:
+            - /url: https://eightfold.ai
+            - text: Powered by
+            - img "Eightfold AI Logo" [ref=e353]
+        - paragraph [ref=e356]:
+          - text: This site uses AI technology provided by Eightfold, the provider of the system. Microsoft, as the deployer, applies human oversight and judgment when using this technology. For details on Eightfold's AI functionality, please see
+          - link "Eightfold's transparency documentation" [ref=e357] [cursor=pointer]:
+            - /url: https://eightfold.ai/responsible-ai/
+          - text: . Learn more about Microsoft's data practices in the
+          - link "Microsoft Data Privacy Notice" [ref=e358] [cursor=pointer]:
+            - /url: http://go.microsoft.com/fwlink/?LinkId=518021
+          - text: and
+          - link "Career Site Transparency FAQs" [ref=e359] [cursor=pointer]:
+            - /url: https://careers.microsoft.com/v2/global/en/transparency.html
+          - text: .
+        - contentinfo [ref=e360]:
+          - contentinfo [ref=e361]:
+            - generic [ref=e362]:
+              - generic [ref=e363]:
+                - generic [ref=e364]:
+                  - generic [ref=e365]: 
+                  - generic [ref=e366]:
+                    - link "English" [disabled]
+                    - text: "|"
+                  - link "FR - Canada" [ref=e368] [cursor=pointer]
+                - generic [ref=e370]:
+                  - link "Support" [ref=e372] [cursor=pointer]:
+                    - /url: https://apply.careers.microsoft.com/careers/forms/create?templateId=yx2LlRBJ7wq&fullPageResponse=1&hl=en-US
+                  - link "Accessibility" [ref=e374] [cursor=pointer]:
+                    - /url: https://careers.microsoft.com/v2/global/en/accessibility.html
+                  - link "Microsoft Data Privacy Notice" [ref=e376] [cursor=pointer]:
+                    - /url: http://go.microsoft.com/fwlink/?LinkId=518021
+                  - link "Transparency FAQ" [ref=e378] [cursor=pointer]:
+                    - /url: https://careers.microsoft.com/v2/global/en/transparency.html
+                  - link "Legal policies" [ref=e380] [cursor=pointer]:
+                    - /url: https://careers.microsoft.com/v2/global/en/legal-policies.html
+                  - link "Contractor roles" [ref=e382] [cursor=pointer]:
+                    - /url: https://careers.microsoft.com/v2/global/en/contractor-roles.html
+              - generic [ref=e383]:
+                - link "Facebook" [ref=e385] [cursor=pointer]:
+                  - /url: https://www.facebook.com/MicrosoftLife
+                  - img [ref=e387]
+                - link "Linkedin" [ref=e390] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/microsoft
+                  - img [ref=e392]
+                - link "Instagram" [ref=e397] [cursor=pointer]:
+                  - /url: https://www.instagram.com/microsoftlife
+                  - img [ref=e399]
+                - link "x" [ref=e407] [cursor=pointer]:
+                  - /url: https://x.com/microsoft
+                  - img [ref=e409]
+            - generic [ref=e414]:
+              - generic [ref=e415]:
+                - img [ref=e416]
+                - link "Your Privacy Choices" [ref=e421] [cursor=pointer]:
+                  - /url: https://aka.ms/yourcaliforniaprivacychoices
+              - link "Consumer Health Privacy" [ref=e422] [cursor=pointer]:
+                - /url: https://go.microsoft.com/fwlink/?linkid=2259814
+              - link "Privacy" [ref=e423] [cursor=pointer]:
+                - /url: https://go.microsoft.com/fwlink/?LinkId=521839
+              - link "Trademarks" [ref=e424] [cursor=pointer]:
+                - /url: https://go.microsoft.com/fwlink/?linkid=2196228
+              - link "Terms of use" [ref=e425] [cursor=pointer]:
+                - /url: https://go.microsoft.com/fwlink/?LinkID=206977
+              - generic [ref=e426]: © Microsoft 2026

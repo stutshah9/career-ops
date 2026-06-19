@@ -1,0 +1,42 @@
+- generic [ref=e8]:
+  - link [ref=e9] [cursor=pointer]:
+    - /url: "#mdc-main-content"
+    - generic [ref=e12]: Skip to main content
+  - navigation [ref=e14]:
+    - generic [ref=e18]:
+      - generic [ref=e20]:
+        - button [ref=e22] [cursor=pointer]:
+          - img [ref=e24]
+        - link [ref=e26] [cursor=pointer]:
+          - /url: /
+          - img [ref=e27]
+      - button [ref=e31] [cursor=pointer]:
+        - img [ref=e34]
+  - generic [ref=e41]:
+    - generic [ref=e44]:
+      - img [ref=e46]
+      - heading [level=2] [ref=e49]: Get personalized job recommendations from AI
+      - generic [ref=e50]: The Meta AI recruiting assistant can recommend jobs based on your resume, location, and role preferences.
+      - button [ref=e52] [cursor=pointer]:
+        - generic [ref=e55]: Upload resume for job recommendations
+    - generic [ref=e56]:
+      - generic [ref=e59]:
+        - button [ref=e60] [cursor=pointer]:
+          - generic [ref=e62]:
+            - img [ref=e64]
+            - generic [ref=e67]: Hide filters
+        - progressbar [ref=e69]
+      - separator [ref=e72]
+      - generic [ref=e77]:
+        - generic [ref=e81]:
+          - generic [ref=e82]: Search by technology, team, location, or ref. code
+          - generic [ref=e83]:
+            - img [ref=e85]
+            - combobox [ref=e87]: software engineer
+        - generic [ref=e88]:
+          - progressbar [ref=e89]
+          - progressbar [ref=e90]
+          - progressbar [ref=e91]
+          - progressbar [ref=e92]
+          - progressbar [ref=e93]
+          - progressbar [ref=e94]

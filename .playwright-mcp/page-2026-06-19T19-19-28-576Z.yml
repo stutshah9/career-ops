@@ -1,0 +1,295 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic:
+      - link "Skip to main content":
+        - /url: "#skipToMainContent"
+    - generic [ref=e6]:
+      - link "Company Logo" [ref=e8] [cursor=pointer]:
+        - /url: https://careers.adobe.com/us/en/
+        - img "adobe-logo" [ref=e9]
+      - navigation "primary" [ref=e16]:
+        - list [ref=e17]:
+          - listitem [ref=e18]:
+            - button "Careers" [ref=e19] [cursor=pointer]:
+              - generic [ref=e20]: Careers
+              - img [ref=e22]
+          - listitem [ref=e24]:
+            - button "Teams" [ref=e25] [cursor=pointer]:
+              - generic [ref=e26]: Teams
+              - img [ref=e28]
+          - listitem [ref=e30]:
+            - link "University" [ref=e32] [cursor=pointer]:
+              - /url: https://careers.adobe.com/us/en/university
+          - listitem [ref=e33]:
+            - link "Adobe For All" [ref=e35] [cursor=pointer]:
+              - /url: https://www.adobe.com/diversity.html
+          - listitem [ref=e36]:
+            - link "View Application Status" [ref=e38] [cursor=pointer]:
+              - /url: https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/login
+      - list [ref=e40]:
+        - listitem [ref=e41]:
+          - button "Login" [ref=e45] [cursor=pointer]:
+            - img [ref=e47]
+            - generic [ref=e49]: Login
+        - listitem [ref=e52]:
+          - link "saved jobs (0)" [ref=e55] [cursor=pointer]:
+            - /url: https://careers.adobe.com/us/en/jobcart
+            - img [ref=e57]
+            - generic [ref=e59]: Saved jobs
+            - generic [ref=e60]: (0)
+  - main [ref=e61]:
+    - generic: "-"
+    - generic [ref=e64]: "-"
+    - generic [ref=e65]:
+      - figure [ref=e72]:
+        - img "JobsHero" [ref=e74]
+      - generic [ref=e84]:
+        - heading "Stay in the loop." [level=2] [ref=e85]
+        - generic [ref=e86]: Join a community of innovators and get early access to opportunities, insider insights, and exclusive updates on life at Adobe.
+        - link "Join our talent community" [ref=e87] [cursor=pointer]:
+          - /url: https://careers.adobe.com/us/en/jointalentcommunity
+          - generic [ref=e88]: Join our talent community
+      - list [ref=e92]:
+        - listitem [ref=e93]
+        - listitem [ref=e95]:
+          - figure [ref=e96]:
+            - img "LetsAdobeTogether" [ref=e97]
+        - listitem [ref=e99]
+  - generic [ref=e101]:
+    - region [ref=e104]:
+      - generic [ref=e107]:
+        - generic "Career Site Cookie Settings" [ref=e112] [cursor=pointer]:
+          - generic [ref=e113]: Career Site Cookie Settings
+          - text: 
+        - generic "Personal Information" [ref=e118] [cursor=pointer]:
+          - generic [ref=e119]: Personal Information
+          - text: 
+    - contentinfo [ref=e122]:
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - list [ref=e127]:
+              - listitem [ref=e128]:
+                - heading "Shop for" [level=5] [ref=e129]
+              - list [ref=e130]:
+                - listitem [ref=e131]:
+                  - link "Creative Cloud" [ref=e132] [cursor=pointer]:
+                    - /url: https://www.adobe.com/creativecloud.html?promoid=ZP46FD38&mv=other
+                - listitem [ref=e133]:
+                  - link "Photoshop" [ref=e134] [cursor=pointer]:
+                    - /url: https://www.adobe.com/products/photoshop.html
+                - listitem
+              - listitem [ref=e135]:
+                - link "Photography" [ref=e136] [cursor=pointer]:
+                  - /url: https://www.adobe.com/creativecloud/photography.html
+              - listitem [ref=e137]:
+                - link "Premiere Pro" [ref=e138] [cursor=pointer]:
+                  - /url: https://www.adobe.com/products/premiere.html
+              - listitem [ref=e139]:
+                - link "Adobe Express" [ref=e140] [cursor=pointer]:
+                  - /url: https://www.adobe.com/express/
+              - listitem [ref=e141]:
+                - link "Adobe Stock" [ref=e142] [cursor=pointer]:
+                  - /url: https://stock.adobe.com/in/
+              - listitem [ref=e143]:
+                - link "Elements Family" [ref=e144] [cursor=pointer]:
+                  - /url: https://www.adobe.com/products/elements-family.html
+              - listitem [ref=e145]:
+                - link "Document Cloud" [ref=e146] [cursor=pointer]:
+                  - /url: https://www.adobe.com/documentcloud.html
+              - listitem [ref=e147]:
+                - link "Acrobat" [ref=e148] [cursor=pointer]:
+                  - /url: https://www.adobe.com/acrobat.html
+              - listitem [ref=e149]:
+                - link "Acrobat Sign" [ref=e150] [cursor=pointer]:
+                  - /url: https://www.adobe.com/sign.html
+              - listitem [ref=e151]:
+                - link "Special offers" [ref=e152] [cursor=pointer]:
+                  - /url: https://www.adobe.com/products/special-offers.html
+              - listitem [ref=e153]:
+                - link "View plans and pricing" [ref=e154] [cursor=pointer]:
+                  - /url: https://www.adobe.com/creativecloud/plans.html
+              - listitem [ref=e155]:
+                - link "View all products" [ref=e156] [cursor=pointer]:
+                  - /url: https://www.adobe.com/products/catalog.html?types=pf_252Fdesktop&types=pf_252Fmobile&types=pf_252Fweb
+            - list [ref=e158]:
+              - listitem [ref=e159]:
+                - heading "For business" [level=5] [ref=e160]
+              - listitem [ref=e161]:
+                - link "Creative Cloud for teams" [ref=e162] [cursor=pointer]:
+                  - /url: https://www.adobe.com/creativecloud/business/teams.html
+              - listitem [ref=e163]:
+                - link "Creative Cloud for enterprise" [ref=e164] [cursor=pointer]:
+                  - /url: https://www.adobe.com/creativecloud/business/enterprise.html
+              - listitem [ref=e165]:
+                - link "Document Cloud for business" [ref=e166] [cursor=pointer]:
+                  - /url: https://www.adobe.com/documentcloud/business.html
+              - listitem [ref=e167]:
+                - list [ref=e169]:
+                  - listitem [ref=e170]:
+                    - heading "For education" [level=5] [ref=e171]
+                  - listitem [ref=e172]:
+                    - link "Discounts for students and teachers" [ref=e173] [cursor=pointer]:
+                      - /url: https://www.adobe.com/creativecloud/buy/students.html
+                  - listitem [ref=e174]:
+                    - link "Schools and universities" [ref=e175] [cursor=pointer]:
+                      - /url: https://www.adobe.com/education.html
+                  - listitem [ref=e176]:
+                    - link "Digital Learning Solutions" [ref=e177] [cursor=pointer]:
+                      - /url: https://www.adobe.com/elearning.html
+              - listitem [ref=e178]:
+                - list [ref=e180]:
+                  - listitem [ref=e181]:
+                    - heading "For mobile" [level=5] [ref=e182]
+                  - listitem [ref=e183]:
+                    - link "Apps for iOS" [ref=e184] [cursor=pointer]:
+                      - /url: https://apps.apple.com/sg/app/adobe-creative-cloud/id852473028
+                  - listitem [ref=e185]:
+                    - link "Apps for Android" [ref=e186] [cursor=pointer]:
+                      - /url: https://play.google.com/store/apps/details?id=com.adobe.cc
+            - list [ref=e188]:
+              - listitem [ref=e189]:
+                - heading "Experience Cloud" [level=5] [ref=e190]
+              - listitem [ref=e191]:
+                - link "What is Experience Cloud?" [ref=e192] [cursor=pointer]:
+                  - /url: https://business.adobe.com/
+              - listitem [ref=e193]:
+                - link "Analytics" [ref=e194] [cursor=pointer]:
+                  - /url: https://business.adobe.com/products/analytics/adobe-analytics.html
+              - listitem [ref=e195]:
+                - link "Experience Manager" [ref=e196] [cursor=pointer]:
+                  - /url: https://business.adobe.com/products/experience-manager/adobe-experience-manager.html
+              - listitem [ref=e197]:
+                - link "Commerce" [ref=e198] [cursor=pointer]:
+                  - /url: https://business.adobe.com/products/magento/magento-commerce.html
+              - listitem [ref=e199]:
+                - link "Marketo Engage" [ref=e200] [cursor=pointer]:
+                  - /url: https://business.adobe.com/products/marketo/adobe-marketo.html
+              - listitem [ref=e201]:
+                - link "Workfront" [ref=e202] [cursor=pointer]:
+                  - /url: https://www.workfront.com/
+            - list [ref=e204]:
+              - listitem [ref=e205]:
+                - heading "Support" [level=5] [ref=e206]
+              - listitem [ref=e207]:
+                - link "Download and install" [ref=e208] [cursor=pointer]:
+                  - /url: https://helpx.adobe.com/download-install.html
+              - listitem [ref=e209]:
+                - link "Help Center" [ref=e210] [cursor=pointer]:
+                  - /url: https://helpx.adobe.com/support.html
+              - listitem [ref=e211]:
+                - link "Adobe Support Community" [ref=e212] [cursor=pointer]:
+                  - /url: https://community.adobe.com/
+              - listitem [ref=e213]:
+                - link "Enterprise Support" [ref=e214] [cursor=pointer]:
+                  - /url: https://helpx.adobe.com/contact/enterprise-support.html
+              - listitem [ref=e215]:
+                - link "Genuine software" [ref=e216] [cursor=pointer]:
+                  - /url: https://www.adobe.com/genuine.html
+              - listitem [ref=e217]:
+                - list [ref=e219]:
+                  - listitem [ref=e220]:
+                    - heading "Resources" [level=5] [ref=e221]
+                  - listitem [ref=e222]:
+                    - link "Adobe Blog" [ref=e223] [cursor=pointer]:
+                      - /url: https://blog.adobe.com/
+                  - listitem [ref=e224]:
+                    - link "Adobe Developer" [ref=e225] [cursor=pointer]:
+                      - /url: https://developer.adobe.com/
+              - listitem [ref=e226]:
+                - list [ref=e228]:
+                  - listitem [ref=e229]:
+                    - heading "Adobe Account" [level=5] [ref=e230]
+                  - listitem [ref=e231]:
+                    - link "Log in to your account" [ref=e232] [cursor=pointer]:
+                      - /url: https://account.adobe.com/
+            - list [ref=e234]:
+              - listitem [ref=e235]:
+                - heading "Adobe" [level=5] [ref=e236]
+              - listitem [ref=e237]:
+                - link "About" [ref=e238] [cursor=pointer]:
+                  - /url: https://www.adobe.com/about-adobe.html
+              - listitem [ref=e239]:
+                - link "Careers" [ref=e240] [cursor=pointer]:
+                  - /url: https://www.adobe.com/careers.html
+              - listitem [ref=e241]:
+                - link "Newsroom" [ref=e242] [cursor=pointer]:
+                  - /url: https://news.adobe.com/home/default.aspx
+              - listitem [ref=e243]:
+                - link "Corporate responsibility" [ref=e244] [cursor=pointer]:
+                  - /url: https://www.adobe.com/corporate-responsibility.html
+              - listitem [ref=e245]:
+                - link "Investor Relations" [ref=e246] [cursor=pointer]:
+                  - /url: https://www.adobe.com/investor-relations.html
+              - listitem [ref=e247]:
+                - link "Supply chain" [ref=e248] [cursor=pointer]:
+                  - /url: https://www.adobe.com/corporate-responsibility/supply-chain.html
+              - listitem [ref=e249]:
+                - link "Trust Center" [ref=e250] [cursor=pointer]:
+                  - /url: https://www.adobe.com/trust.html
+              - listitem [ref=e251]:
+                - link "Events" [ref=e252] [cursor=pointer]:
+                  - /url: https://www.adobe.com/events.html
+              - listitem [ref=e253]:
+                - link "Adobe for All" [ref=e254] [cursor=pointer]:
+                  - /url: https://www.adobe.com/diversity.html
+              - listitem [ref=e255]:
+                - link "Integrity" [ref=e256] [cursor=pointer]:
+                  - /url: https://www.adobe.com/about-adobe/integrity.html
+          - list [ref=e259]:
+            - listitem [ref=e260]:
+              - paragraph [ref=e261]: Featured Downloads
+            - listitem [ref=e262]:
+              - link "acrobat-reader-icon Adobe Acrobat Reader" [ref=e263] [cursor=pointer]:
+                - /url: https://get.adobe.com/uk/reader/
+                - img "acrobat-reader-icon" [ref=e265]
+                - generic [ref=e266]: Adobe Acrobat Reader
+            - listitem [ref=e267]:
+              - link "photoshop-icon Photoshop" [ref=e268] [cursor=pointer]:
+                - /url: https://www.adobe.com/products/photoshop/free-trial-download.html
+                - img "photoshop-icon" [ref=e270]
+                - generic [ref=e271]: Photoshop
+            - listitem [ref=e272]:
+              - link "Illustrato Illustrator" [ref=e273] [cursor=pointer]:
+                - /url: https://www.adobe.com/products/illustrator/free-trial-download.html
+                - img "Illustrato" [ref=e275]
+                - generic [ref=e276]: Illustrator
+          - generic [ref=e277]:
+            - generic:
+              - list [ref=e280]:
+                - listitem [ref=e281]:
+                  - link "facebook" [ref=e282] [cursor=pointer]:
+                    - /url: https://www.facebook.com/adobe
+                    - generic [ref=e283]: 
+                - listitem [ref=e284]:
+                  - link "twitter" [ref=e285] [cursor=pointer]:
+                    - /url: https://twitter.com/Adobe
+                    - generic [ref=e286]: 
+                - listitem [ref=e287]:
+                  - link "linkedin" [ref=e288] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/adobe
+                    - generic [ref=e289]: 
+                - listitem [ref=e290]:
+                  - link "instagram" [ref=e291] [cursor=pointer]:
+                    - /url: https://www.instagram.com/adobe/
+                    - generic [ref=e292]: 
+              - list [ref=e294]:
+                - listitem [ref=e295]:
+                  - paragraph [ref=e296]: Copyright © 2022 Adobe. All rights reserved. /
+                - listitem [ref=e297]:
+                  - link "Privacy /" [ref=e298] [cursor=pointer]:
+                    - /url: https://www.adobe.com/privacy/applicant-privacy.html
+                - listitem [ref=e299]:
+                  - link "Terms of Use /" [ref=e300] [cursor=pointer]:
+                    - /url: https://www.adobe.com/legal/terms.html
+                - listitem [ref=e301]:
+                  - link "Cookie preferences /" [ref=e302] [cursor=pointer]:
+                    - /url: https://careers.adobe.com/us/en/cookiesettings
+                - listitem [ref=e303]:
+                  - link "Do not sell my personal information /" [ref=e304] [cursor=pointer]:
+                    - /url: https://www.adobe.com/privacy/ca-rights.html
+                - listitem [ref=e305]:
+                  - link "AdChoices" [ref=e306] [cursor=pointer]:
+                    - /url: https://www.adobe.com/privacy/opt-out.html#interest-based-ads
+                    - text: AdChoices
+        - text:              / / / / /

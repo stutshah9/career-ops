@@ -1,0 +1,478 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: .
+    - generic [ref=e4]: ..
+    - generic [ref=e5]: .
+  - generic [ref=e7]:
+    - link "Skip to main content." [ref=e8] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - banner [ref=e60]:
+          - generic [ref=e63]:
+            - link "Go to Home Page" [ref=e65] [cursor=pointer]:
+              - /url: https://careers.oracle.com/en/sites/jobsearch/?keyword=Software+Engineer
+            - generic [ref=e66]:
+              - link "Manage profile" [ref=e69] [cursor=pointer]:
+                - /url: https://careers.oracle.com/en/sites/jobsearch/my-profile/sign-in
+                - generic [ref=e70]: 
+              - button "Open menu" [ref=e72] [cursor=pointer]:
+                - generic [ref=e73]:
+                  - emphasis [ref=e74]
+                  - emphasis [ref=e75]
+                  - emphasis [ref=e76]
+        - main [ref=e13]:
+          - generic [ref=e77]:
+            - heading "Search Jobs - Oracle Careers" [level=1] [ref=e78]
+            - generic [ref=e80]:
+              - generic [ref=e82]:
+                - search [ref=e89]:
+                  - generic [ref=e90]:
+                    - generic [ref=e91]:
+                      - generic [ref=e93]: Find
+                      - generic [ref=e94]:
+                        - generic [ref=e95]: Job title, skill, keyword
+                        - combobox "Find jobs and events" [ref=e96]: Software Engineer
+                    - generic [ref=e98]:
+                      - button "You've selected the Near Location search mode." [ref=e101] [cursor=pointer]:
+                        - generic [ref=e102]: Near Location
+                        - emphasis [ref=e103]: 
+                      - generic [ref=e104]:
+                        - generic [ref=e105]: City, state, country
+                        - combobox "City, state, country" [ref=e106]
+                  - button "Search for Jobs and Events" [ref=e107] [cursor=pointer]:
+                    - emphasis [ref=e108]: 
+                - generic [ref=e116]:
+                  - list [ref=e121]:
+                    - listitem [ref=e122]:
+                      - list [ref=e124]:
+                        - listitem [ref=e125]:
+                          - generic [ref=e126]:
+                            - button "Jobs 519" [ref=e127]:
+                              - text: Jobs
+                              - generic [ref=e128]: "519"
+                            - alert [ref=e129]: Job search results 519
+                        - listitem [ref=e130]:
+                          - generic [ref=e131]:
+                            - button "Events 2" [ref=e132] [cursor=pointer]:
+                              - text: Events
+                              - generic [ref=e133]: "2"
+                            - alert [ref=e134]
+                    - listitem [ref=e135]
+                    - listitem [ref=e137]:
+                      - button "Locations filter - 0 selected" [ref=e143] [cursor=pointer]:
+                        - generic [ref=e144]: Locations
+                        - emphasis [ref=e145]: 
+                    - listitem [ref=e146]:
+                      - button "Categories filter - 0 selected" [ref=e152] [cursor=pointer]:
+                        - generic [ref=e153]: Categories
+                        - emphasis [ref=e154]: 
+                    - listitem [ref=e155]:
+                      - button "Posting Dates filter - 0 selected" [ref=e161] [cursor=pointer]:
+                        - generic [ref=e162]: Posting Dates
+                        - emphasis [ref=e163]: 
+                    - listitem [ref=e164]:
+                      - button "Role filter - 0 selected" [ref=e170] [cursor=pointer]:
+                        - generic [ref=e171]: Role
+                        - emphasis [ref=e172]: 
+                    - listitem [ref=e173]:
+                      - button "Job Type filter - 0 selected" [ref=e179] [cursor=pointer]:
+                        - generic [ref=e180]: Job Type
+                        - emphasis [ref=e181]: 
+                    - listitem [ref=e182]:
+                      - button "Experience Level filter - 0 selected" [ref=e188] [cursor=pointer]:
+                        - generic [ref=e189]: Experience Level
+                        - emphasis [ref=e190]: 
+                    - listitem:
+                      - generic: 
+                    - listitem [ref=e191]:
+                      - button "Years filter - 0 selected" [ref=e197] [cursor=pointer]:
+                        - generic [ref=e198]: Years
+                        - emphasis [ref=e199]: 
+                    - listitem [ref=e200]:
+                      - button "Applicants filter - 0 selected" [ref=e206] [cursor=pointer]:
+                        - generic [ref=e207]: Applicants
+                        - emphasis [ref=e208]: 
+                    - listitem:
+                      - generic: 
+                    - listitem:
+                      - generic: 
+                  - generic:
+                    - generic:               
+              - generic [ref=e210]:
+                - generic [ref=e217]:
+                  - button "Sort By Relevance" [ref=e223] [cursor=pointer]:
+                    - generic "Sort By Relevance" [ref=e224]: Relevance
+                    - emphasis [ref=e225]: 
+                    - text: 
+                  - list [ref=e226]:
+                    - listitem [ref=e227]:
+                      - generic [ref=e228]:
+                        - link "Software Development Manager CASABLANCA, Morocco and 1 more  Be the First to Apply" [ref=e229] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/337671/?keyword=Software+Engineer
+                        - generic [ref=e231]:
+                          - generic [ref=e234]:
+                            - generic [ref=e236]: Software Development Manager
+                            - generic [ref=e237]:
+                              - list [ref=e239]:
+                                - listitem [ref=e240]:
+                                  - generic [ref=e241]:
+                                    - generic [ref=e243]:
+                                      - text: CASABLANCA, Morocco
+                                      - generic "and 1 more" [ref=e245]:
+                                        - tooltip "Locations,CASABLANCA, Morocco,Morocco" [ref=e247]:
+                                          - generic "CASABLANCA, Morocco,Morocco" [ref=e248]:
+                                            - generic [ref=e249]: and 1 more
+                                    - text: 
+                              - generic [ref=e253]:
+                                - emphasis [ref=e254]: 
+                                - generic [ref=e255]: Be the First to Apply
+                          - paragraph [ref=e260]: The role also includes helping the team use modern AI-assisted engineering practices effectively and responsibly. The manager will help evolve standards for using agentic coding and AI across the software development lifecycle while preserving the rigor required for enterprise database software.
+                        - button "Add Job to My Job Selections" [ref=e263] [cursor=pointer]: 
+                    - listitem [ref=e264]:
+                      - generic [ref=e265]:
+                        - link "Software Developer 3 HYDERABAD, TELANGANA, India and 1 more  Trending" [ref=e266] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/335128/?keyword=Software+Engineer
+                        - generic [ref=e268]:
+                          - generic [ref=e271]:
+                            - generic [ref=e273]: Software Developer 3
+                            - generic [ref=e274]:
+                              - list [ref=e276]:
+                                - listitem [ref=e277]:
+                                  - generic [ref=e278]:
+                                    - generic [ref=e280]:
+                                      - text: HYDERABAD, TELANGANA, India
+                                      - generic "and 1 more" [ref=e282]:
+                                        - tooltip "Locations,HYDERABAD, TELANGANA, India,BENGALURU, KARNATAKA, India" [ref=e284]:
+                                          - generic "HYDERABAD, TELANGANA, India,BENGALURU, KARNATAKA, India" [ref=e285]:
+                                            - generic [ref=e286]: and 1 more
+                                    - text: 
+                              - generic [ref=e290]:
+                                - emphasis [ref=e291]: 
+                                - generic [ref=e292]: Trending
+                          - paragraph [ref=e297]: Senior Software Developer
+                        - button "Add Job to My Job Selections" [ref=e300] [cursor=pointer]: 
+                    - listitem [ref=e301]:
+                      - generic [ref=e302]:
+                        - link "Applications Developer 3 Austin, TX, United States" [ref=e303] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/337609/?keyword=Software+Engineer
+                        - generic [ref=e305]:
+                          - generic [ref=e308]:
+                            - generic [ref=e310]: Applications Developer 3
+                            - list [ref=e313]:
+                              - listitem [ref=e314]:
+                                - generic [ref=e315]:
+                                  - generic [ref=e317]: Austin, TX, United States
+                                  - text: 
+                          - paragraph [ref=e322]: See job description for details.
+                        - button "Add Job to My Job Selections" [ref=e325] [cursor=pointer]: 
+                    - listitem [ref=e326]:
+                      - generic [ref=e327]:
+                        - link "Principal Technical Product Owner Ireland" [ref=e328] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/336296/?keyword=Software+Engineer
+                        - generic [ref=e330]:
+                          - generic [ref=e333]:
+                            - generic [ref=e335]: Principal Technical Product Owner
+                            - list [ref=e338]:
+                              - listitem [ref=e339]:
+                                - generic [ref=e340]:
+                                  - generic [ref=e342]: Ireland
+                                  - text: 
+                          - paragraph [ref=e347]: Are you interested in shaping the future of Sovereign Clouds? Only Oracle Cloud Infrastructure (OCI) can deliver tomorrow’s Sovereign Cloud, today. As cloud adoption continues to grow, so has the conversation around sovereignty. Oracle Sovereign Cloud deployments empower organizations – both public and private sector – to retain more control over the data of their citizens, customers, and critical workloads. As the digital world continues to evolve and become more globally connected, Oracle’s technology also continues to evolve. Our customers run their businesses on our cloud, and our mission is to provide them with best-in-class infrastructure, support, and industry specific tools and applications to enable their success. Oracle Cloud Infrastructure has grown significantly in capability and customers and continues to aggressively add new features, new functionality and new customers to the cloud built to meet our customers’ sovereignty needs.
+                        - button "Add Job to My Job Selections" [ref=e350] [cursor=pointer]: 
+                    - listitem [ref=e351]:
+                      - generic [ref=e352]:
+                        - heading "Oracle Talent Network" [level=2] [ref=e353]
+                        - paragraph [ref=e354]: Get career insights and job opportunities
+                        - link "Join our network" [ref=e356] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/join-talent-community?keyword=Software+Engineer
+                          - generic [ref=e357]: Join our network
+                    - listitem [ref=e358]:
+                      - generic [ref=e359]:
+                        - link "Software Developer 5 United States" [ref=e360] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/337623/?keyword=Software+Engineer
+                        - generic [ref=e362]:
+                          - generic [ref=e365]:
+                            - generic [ref=e367]: Software Developer 5
+                            - list [ref=e370]:
+                              - listitem [ref=e371]:
+                                - generic [ref=e372]:
+                                  - generic [ref=e374]: United States
+                                  - text: 
+                          - paragraph [ref=e379]: Oracle Real Application Clusters (RAC) is a foundational technology within the Oracle Database portfolio, delivering high availability, scalability, workload balancing, and continuous service for mission-critical enterprise applications. The RAC Development team designs and builds the distributed systems, cluster infrastructure, and performance-critical technologies that power some of the world's largest database deployments across on-premises, Exadata, and Oracle Cloud Infrastructure environments.
+                        - button "Add Job to My Job Selections" [ref=e382] [cursor=pointer]: 
+                    - listitem [ref=e383]:
+                      - generic [ref=e384]:
+                        - link "Software Developer 3 India  Trending" [ref=e385] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/337190/?keyword=Software+Engineer
+                        - generic [ref=e387]:
+                          - generic [ref=e390]:
+                            - generic [ref=e392]: Software Developer 3
+                            - generic [ref=e393]:
+                              - list [ref=e395]:
+                                - listitem [ref=e396]:
+                                  - generic [ref=e397]:
+                                    - generic [ref=e399]: India
+                                    - text: 
+                              - generic [ref=e403]:
+                                - emphasis [ref=e404]: 
+                                - generic [ref=e405]: Trending
+                          - paragraph [ref=e410]: Design, develop, troubleshoot and debug software programs for databases, applications, tools, networks etc.
+                        - button "Add Job to My Job Selections" [ref=e413] [cursor=pointer]: 
+                    - listitem [ref=e414]:
+                      - generic [ref=e415]:
+                        - link "Software Developer 2 India  Trending" [ref=e416] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/337432/?keyword=Software+Engineer
+                        - generic [ref=e418]:
+                          - generic [ref=e421]:
+                            - generic [ref=e423]: Software Developer 2
+                            - generic [ref=e424]:
+                              - list [ref=e426]:
+                                - listitem [ref=e427]:
+                                  - generic [ref=e428]:
+                                    - generic [ref=e430]: India
+                                    - text: 
+                              - generic [ref=e434]:
+                                - emphasis [ref=e435]: 
+                                - generic [ref=e436]: Trending
+                          - paragraph [ref=e441]: Design, develop, troubleshoot and debug software programs for databases, applications, tools, networks etc.
+                        - button "Add Job to My Job Selections" [ref=e444] [cursor=pointer]: 
+                    - listitem [ref=e445]:
+                      - generic [ref=e446]:
+                        - link "Principal Software Developer, Backend Focus (Remote) United States  Hot Job  Trending" [ref=e447] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/337129/?keyword=Software+Engineer
+                        - generic [ref=e449]:
+                          - generic [ref=e452]:
+                            - generic [ref=e454]: Principal Software Developer, Backend Focus (Remote)
+                            - generic [ref=e455]:
+                              - list [ref=e457]:
+                                - listitem [ref=e458]:
+                                  - generic [ref=e459]:
+                                    - generic [ref=e461]: United States
+                                    - text: 
+                              - generic [ref=e464]:
+                                - generic [ref=e465]:
+                                  - emphasis [ref=e466]: 
+                                  - generic [ref=e467]: Hot Job
+                                - generic [ref=e468]:
+                                  - emphasis [ref=e469]: 
+                                  - generic [ref=e470]: Trending
+                          - paragraph [ref=e475]: We operate with an AI-first engineering culture—engineers are expected to use AI-assisted approaches to accelerate delivery and improve quality across system design, coding, testing, documentation, and operations. IC4 Career level
+                        - button "Add Job to My Job Selections" [ref=e478] [cursor=pointer]: 
+                    - listitem [ref=e479]:
+                      - generic [ref=e480]:
+                        - link "Software Development Manager BENGALURU, KARNATAKA, India" [ref=e481] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/337288/?keyword=Software+Engineer
+                        - generic [ref=e483]:
+                          - generic [ref=e486]:
+                            - generic [ref=e488]: Software Development Manager
+                            - list [ref=e491]:
+                              - listitem [ref=e492]:
+                                - generic [ref=e493]:
+                                  - generic [ref=e495]: BENGALURU, KARNATAKA, India
+                                  - text: 
+                          - paragraph [ref=e500]: We are seeking an engineering manager for OCI Compute with a strong background in distributed systems and cloud infrastructure. You have successfully built and operated highly scalable services, led high-performing engineering teams, and delivered complex systems from architecture through production operations.
+                        - button "Add Job to My Job Selections" [ref=e503] [cursor=pointer]: 
+                    - listitem [ref=e504]:
+                      - generic [ref=e505]:
+                        - link "Application Software Engineer 2 India  Trending" [ref=e506] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/337338/?keyword=Software+Engineer
+                        - generic [ref=e508]:
+                          - generic [ref=e511]:
+                            - generic [ref=e513]: Application Software Engineer 2
+                            - generic [ref=e514]:
+                              - list [ref=e516]:
+                                - listitem [ref=e517]:
+                                  - generic [ref=e518]:
+                                    - generic [ref=e520]: India
+                                    - text: 
+                              - generic [ref=e524]:
+                                - emphasis [ref=e525]: 
+                                - generic [ref=e526]: Trending
+                          - paragraph [ref=e531]: Oracle Health is focused on delivering software solutions to help the world’s largest pharmaceutical companies positively impact people’s lives by supporting the cost-effective development of treatments for today’s most challenging health related issues. We are seeking an experienced and talented Full Stack Engineer to join our dynamic team and make a meaningful impact in the healthcare industry. With your expertise, we aim to revolutionize life science and patient care through innovative technology solutions. As a key member of our engineering team, you will play a pivotal role in the entire software development lifecycle, from conception to deployment and maintenance.
+                        - button "Add Job to My Job Selections" [ref=e534] [cursor=pointer]: 
+                    - listitem [ref=e535]:
+                      - generic [ref=e536]:
+                        - link "Application Software Engineer 2 BENGALURU, KARNATAKA, India" [ref=e537] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/337446/?keyword=Software+Engineer
+                        - generic [ref=e539]:
+                          - generic [ref=e542]:
+                            - generic [ref=e544]: Application Software Engineer 2
+                            - list [ref=e547]:
+                              - listitem [ref=e548]:
+                                - generic [ref=e549]:
+                                  - generic [ref=e551]: BENGALURU, KARNATAKA, India
+                                  - text: 
+                          - paragraph [ref=e556]: Adheres to all phases of the application software development lifecycle.
+                        - button "Add Job to My Job Selections" [ref=e559] [cursor=pointer]: 
+                    - listitem [ref=e560]:
+                      - generic [ref=e561]:
+                        - link "Software Developer 3 Santa Clara, CA, United States  Trending" [ref=e562] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/337585/?keyword=Software+Engineer
+                        - generic [ref=e564]:
+                          - generic [ref=e567]:
+                            - generic [ref=e569]: Software Developer 3
+                            - generic [ref=e570]:
+                              - list [ref=e572]:
+                                - listitem [ref=e573]:
+                                  - generic [ref=e574]:
+                                    - generic [ref=e576]: Santa Clara, CA, United States
+                                    - text: 
+                              - generic [ref=e580]:
+                                - emphasis [ref=e581]: 
+                                - generic [ref=e582]: Trending
+                          - paragraph [ref=e587]: See job description for details.
+                        - button "Add Job to My Job Selections" [ref=e590] [cursor=pointer]: 
+                    - listitem [ref=e591]:
+                      - generic [ref=e592]:
+                        - link "Software Developer 3 Santa Clara, CA, United States" [ref=e593] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/337610/?keyword=Software+Engineer
+                        - generic [ref=e595]:
+                          - generic [ref=e598]:
+                            - generic [ref=e600]: Software Developer 3
+                            - list [ref=e603]:
+                              - listitem [ref=e604]:
+                                - generic [ref=e605]:
+                                  - generic [ref=e607]: Santa Clara, CA, United States
+                                  - text: 
+                          - paragraph [ref=e612]: See job description for details.
+                        - button "Add Job to My Job Selections" [ref=e615] [cursor=pointer]: 
+                    - listitem [ref=e616]:
+                      - generic [ref=e617]:
+                        - link "Software Developer 4 Austin, TX, United States" [ref=e618] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/337266/?keyword=Software+Engineer
+                        - generic [ref=e620]:
+                          - generic [ref=e623]:
+                            - generic [ref=e625]: Software Developer 4
+                            - list [ref=e628]:
+                              - listitem [ref=e629]:
+                                - generic [ref=e630]:
+                                  - generic [ref=e632]: Austin, TX, United States
+                                  - text: 
+                          - paragraph [ref=e637]: See job description for details.
+                        - button "Add Job to My Job Selections" [ref=e640] [cursor=pointer]: 
+                  - button "Show More Results" [ref=e642] [cursor=pointer]:
+                    - generic [ref=e643]: Show More Results
+                - generic [ref=e654]:
+                  - generic [ref=e655]:
+                    - text: 
+                    - generic [ref=e656]: See recommended jobs based on your CV/resume (your file will not be stored)
+                  - generic [ref=e657]:
+                    - button "See recommended jobs based on your CV/resume (your file will not be stored)" [ref=e658] [cursor=pointer]
+                    - button [ref=e659] [cursor=pointer]: Select a file or drop one here
+              - generic [ref=e661]:
+                - paragraph [ref=e668]: Create the future with us
+                - generic [ref=e671]:
+                  - generic [ref=e673]:
+                    - iframe [ref=e677]:
+                      - generic [active] [ref=f77e1]:
+                        - generic "YouTube Video Player" [ref=f77e3]
+                        - generic [ref=f77e5]:
+                          - generic:
+                            - generic:
+                              - button "Play video" [ref=f77e10] [cursor=pointer]
+                              - button "Hide player controls" [ref=f77e12] [cursor=pointer]
+                              - generic [ref=f77e14]:
+                                - generic [ref=f77e19]:
+                                  - generic [ref=f77e20]:
+                                    - link "Oracle Careers l Create the Future With Us" [ref=f77e21] [cursor=pointer]:
+                                      - /url: https://www.youtube.com/watch?v=BV0GMCITXg4
+                                    - link "Oracle Careers" [ref=f77e22] [cursor=pointer]:
+                                      - /url: /channel/UCPe0ulfPgXtndUKPs5WNyEA
+                                      - generic [ref=f77e23]: Oracle Careers
+                                  - generic [ref=f77e24]:
+                                    - button [ref=f77e25] [cursor=pointer]
+                                    - generic [ref=f77e27]:
+                                      - generic: Oracle Careers
+                                      - generic: 4.87k subscribers
+                                - generic [ref=f77e28]:
+                                  - button "Share" [ref=f77e31] [cursor=pointer]:
+                                    - generic [ref=f77e35]:
+                                      - img
+                                  - link "Watch on YouTube" [ref=f77e42] [cursor=pointer]:
+                                    - /url: https://www.youtube.com/watch?v=BV0GMCITXg4
+                                    - generic [ref=f77e45]:
+                                      - text: Watch on
+                                      - img [ref=f77e47]:
+                                        - generic [ref=f77e49]:
+                                          - img
+                    - paragraph [ref=e679]:
+                      - text: All over the world, people's lives are better because of Oracle. Want to make a difference?
+                      - link "Join our company of change makers." [ref=e680] [cursor=pointer]:
+                        - /url: https://www.oracle.com/careers/
+                  - generic [ref=e682]:
+                    - heading "Oracle Talent Network" [level=2] [ref=e684]
+                    - paragraph [ref=e686]:
+                      - generic [ref=e687]: Join the Oracle Talent Network to receive career insights and opportunities.
+                    - link "Join now" [ref=e689] [cursor=pointer]:
+                      - /url: https://careers.oracle.com/en/sites/jobsearch/join-talent-community?keyword=Software+Engineer
+                      - generic [ref=e690]: Join now
+      - contentinfo [ref=e15]:
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - heading "If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing accommodation-request_mb@oracle.com or by calling +1 888 404 2494 in the U.S." [level=2] [ref=e20]:
+              - text: If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing
+              - link "accommodation-request_mb@oracle.com" [ref=e21] [cursor=pointer]:
+                - /url: mailto:accommodation-request_mb@oracle.com
+              - text: or by calling +1 888 404 2494 in the U.S.
+            - heading "Oracle’s U.S. affirmative action plan for people with disabilities and military veterans is available by contacting +1 888 404 2494." [level=2] [ref=e22]
+            - paragraph [ref=e23]:
+              - text: Need Help?
+              - link "Contact us" [ref=e25] [cursor=pointer]:
+                - /url: https://hrhelp.custhelp.com/app/hiring
+              - text: and include a detailed description of the issue.
+            - paragraph [ref=e26]:
+              - link "Oracle's Pre-employment Screening Process" [ref=e28] [cursor=pointer]:
+                - /url: https://www.oracle.com/corporate/careers/background-check.html
+              - link "Oracle's Equal Employment Opportunity and Pay Transparency" [ref=e30] [cursor=pointer]:
+                - /url: https://www.oracle.com/legal/eeo-pay-transparency/
+          - generic [ref=e32]:
+            - generic:
+              - list:
+                - listitem
+            - list [ref=e34]:
+              - listitem [ref=e35]:
+                - link "© 2026 Oracle" [ref=e36] [cursor=pointer]:
+                  - /url: https://www.oracle.com/legal/copyright.html
+              - listitem [ref=e37]:
+                - link "Privacy" [ref=e38] [cursor=pointer]:
+                  - /url: https://www.oracle.com/legal/privacy/
+                - text: /
+                - link "Do Not Sell My Info" [ref=e39] [cursor=pointer]:
+                  - /url: https://www.oracle.com/legal/privacy/privacy-choices.html
+              - listitem [ref=e40]:
+                - link "Ad Choices" [ref=e41] [cursor=pointer]:
+                  - /url: https://www.oracle.com/legal/privacy/marketing-cloud-data-cloud-privacy-policy.html#adchoices
+              - listitem [ref=e42]:
+                - link "Careers" [ref=e43] [cursor=pointer]:
+                  - /url: https://www.oracle.com/corporate/careers/
+              - listitem [ref=e44]:
+                - link "Policy" [ref=e45] [cursor=pointer]:
+                  - /url: https://www.oracle.com/corporate/careers/terms-conditions/
+            - list [ref=e47]:
+              - listitem [ref=e48]:
+                - link "Oracle on Facebook":
+                  - /url: https://www.facebook.com/Oracle/
+                  - img [ref=e49] [cursor=pointer]
+              - listitem [ref=e50]:
+                - link "Follow Oracle on Twitter":
+                  - /url: https://twitter.com/oracle
+                  - img [ref=e51] [cursor=pointer]
+              - listitem [ref=e53]:
+                - link "Oracle on LinkedIn":
+                  - /url: https://www.linkedin.com/company/oracle/
+                  - img [ref=e54] [cursor=pointer]
+              - listitem [ref=e55]:
+                - link "Watch Oracle on YouTube":
+                  - /url: http://www.youtube.com/oracle/
+                  - img [ref=e56] [cursor=pointer]
+    - alert
+    - status [ref=e57]
+    - alert [ref=e58]
+  - button "Oracle Assistant" [ref=e691] [cursor=pointer]
+  - status [ref=e693]
+  - status [ref=e694]
+  - status [ref=e695]
+  - status [ref=e696]
+  - status [ref=e697]
+  - status [ref=e698]

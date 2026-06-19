@@ -1,0 +1,251 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: .
+    - generic [ref=e4]: ..
+    - generic [ref=e5]: .
+  - generic [ref=e7]:
+    - link "Skip to main content." [ref=e8] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - banner [ref=e60]:
+          - generic [ref=e63]:
+            - link "Go to Home Page" [ref=e65] [cursor=pointer]:
+              - /url: https://careers.oracle.com/en/sites/jobsearch/?keyword=University+Graduate
+            - generic [ref=e66]:
+              - link "Manage profile" [ref=e69] [cursor=pointer]:
+                - /url: https://careers.oracle.com/en/sites/jobsearch/my-profile/sign-in
+                - generic [ref=e70]: 
+              - button "Open menu" [ref=e72] [cursor=pointer]:
+                - generic [ref=e73]:
+                  - emphasis [ref=e74]
+                  - emphasis [ref=e75]
+                  - emphasis [ref=e76]
+        - main [ref=e13]:
+          - generic [ref=e77]:
+            - heading "Search Jobs - Oracle Careers" [level=1] [ref=e78]
+            - generic [ref=e80]:
+              - generic [ref=e82]:
+                - search [ref=e89]:
+                  - generic [ref=e90]:
+                    - generic [ref=e91]:
+                      - generic [ref=e93]: Find
+                      - generic [ref=e94]:
+                        - generic [ref=e95]: Job title, skill, keyword
+                        - combobox "Find jobs and events" [ref=e96]: University Graduate
+                    - generic [ref=e98]:
+                      - button "You've selected the Near Location search mode." [ref=e101] [cursor=pointer]:
+                        - generic [ref=e102]: Near Location
+                        - emphasis [ref=e103]: 
+                      - generic [ref=e104]:
+                        - generic [ref=e105]: City, state, country
+                        - combobox "City, state, country" [ref=e106]
+                  - button "Search for Jobs and Events" [ref=e107] [cursor=pointer]:
+                    - emphasis [ref=e108]: 
+                - generic [ref=e116]:
+                  - list [ref=e121]:
+                    - listitem [ref=e122]:
+                      - list [ref=e124]:
+                        - listitem [ref=e125]:
+                          - generic [ref=e126]:
+                            - button "Jobs 1" [ref=e127]:
+                              - text: Jobs
+                              - generic [ref=e128]: "1"
+                            - alert [ref=e129]: Job search results 1
+                        - listitem [ref=e130]:
+                          - generic [ref=e131]:
+                            - button "Events 0" [ref=e132] [cursor=pointer]:
+                              - text: Events
+                              - generic [ref=e133]: "0"
+                            - alert [ref=e134]
+                    - listitem [ref=e135]
+                    - listitem [ref=e137]:
+                      - button "Locations filter - 0 selected" [ref=e143] [cursor=pointer]:
+                        - generic [ref=e144]: Locations
+                        - emphasis [ref=e145]: 
+                    - listitem [ref=e146]:
+                      - button "Categories filter - 0 selected" [ref=e152] [cursor=pointer]:
+                        - generic [ref=e153]: Categories
+                        - emphasis [ref=e154]: 
+                    - listitem [ref=e155]:
+                      - button "Posting Dates filter - 0 selected" [ref=e161] [cursor=pointer]:
+                        - generic [ref=e162]: Posting Dates
+                        - emphasis [ref=e163]: 
+                    - listitem [ref=e164]:
+                      - button "Role filter - 0 selected" [ref=e170] [cursor=pointer]:
+                        - generic [ref=e171]: Role
+                        - emphasis [ref=e172]: 
+                    - listitem [ref=e173]:
+                      - button "Job Type filter - 0 selected" [ref=e179] [cursor=pointer]:
+                        - generic [ref=e180]: Job Type
+                        - emphasis [ref=e181]: 
+                    - listitem [ref=e182]:
+                      - button "Experience Level filter - 0 selected" [ref=e188] [cursor=pointer]:
+                        - generic [ref=e189]: Experience Level
+                        - emphasis [ref=e190]: 
+                    - listitem:
+                      - generic: 
+                    - listitem [ref=e191]:
+                      - button "Years filter - 0 selected" [ref=e197] [cursor=pointer]:
+                        - generic [ref=e198]: Years
+                        - emphasis [ref=e199]: 
+                    - listitem:
+                      - generic: 
+                  - generic:
+                    - generic:         
+              - generic [ref=e201]:
+                - generic [ref=e208]:
+                  - button "Sort By Relevance" [ref=e214] [cursor=pointer]:
+                    - generic "Sort By Relevance" [ref=e215]: Relevance
+                    - emphasis [ref=e216]: 
+                    - text: 
+                  - list [ref=e217]:
+                    - listitem [ref=e218]:
+                      - generic [ref=e219]:
+                        - link "Data Center Facilities Operations Technician II - Mechanical (IC2/OP3) MI, United States and 1 more  Hot Job" [ref=e220] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/333900/?keyword=University+Graduate
+                        - generic [ref=e222]:
+                          - generic [ref=e225]:
+                            - generic [ref=e227]: Data Center Facilities Operations Technician II - Mechanical (IC2/OP3)
+                            - generic [ref=e228]:
+                              - list [ref=e230]:
+                                - listitem [ref=e231]:
+                                  - generic [ref=e232]:
+                                    - generic [ref=e234]:
+                                      - text: MI, United States
+                                      - generic "and 1 more" [ref=e236]:
+                                        - tooltip "Locations,MI, United States,United States" [ref=e238]:
+                                          - generic "MI, United States,United States" [ref=e239]:
+                                            - generic [ref=e240]: and 1 more
+                                    - text: 
+                              - generic [ref=e244]:
+                                - emphasis [ref=e245]: 
+                                - generic [ref=e246]: Hot Job
+                          - paragraph [ref=e251]: This position requires U.S. citizenship and is located onsite in Saline, Michigan. Relocation assistance may be available in accordance with Oracle's relocation policies. As a Facilities Operations Technician II – Mechanical, you will support the reliability, efficiency, and lifecycle performance of mission-critical mechanical and HVAC systems within hyperscale data centers. This role is ideal for technicians transitioning from HVAC, industrial, commercial facilities, or building operations environments into data center operations. You will build foundational knowledge while contributing to system reliability, supporting troubleshooting efforts, and learning how standards and upgrades protect uptime.
+                        - button "Add Job to My Job Selections" [ref=e254] [cursor=pointer]: 
+                    - listitem [ref=e255]:
+                      - generic [ref=e256]:
+                        - heading "Oracle Talent Network" [level=2] [ref=e257]
+                        - paragraph [ref=e258]: Get career insights and job opportunities
+                        - link "Join our network" [ref=e260] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/join-talent-community?keyword=University+Graduate
+                          - generic [ref=e261]: Join our network
+                - generic [ref=e272]:
+                  - generic [ref=e273]:
+                    - text: 
+                    - generic [ref=e274]: See recommended jobs based on your CV/resume (your file will not be stored)
+                  - generic [ref=e275]:
+                    - button "See recommended jobs based on your CV/resume (your file will not be stored)" [ref=e276] [cursor=pointer]
+                    - button [ref=e277] [cursor=pointer]: Select a file or drop one here
+              - generic [ref=e279]:
+                - paragraph [ref=e286]: Create the future with us
+                - generic [ref=e289]:
+                  - generic [ref=e291]:
+                    - iframe [ref=e295]:
+                      - generic [active] [ref=f92e1]:
+                        - generic "YouTube Video Player" [ref=f92e3]
+                        - generic [ref=f92e5]:
+                          - generic:
+                            - generic:
+                              - button "Play video" [ref=f92e10] [cursor=pointer]
+                              - button "Hide player controls" [ref=f92e12] [cursor=pointer]
+                              - generic [ref=f92e14]:
+                                - generic [ref=f92e19]:
+                                  - generic [ref=f92e20]:
+                                    - link "Oracle Careers l Create the Future With Us" [ref=f92e21] [cursor=pointer]:
+                                      - /url: https://www.youtube.com/watch?v=BV0GMCITXg4
+                                    - link "Oracle Careers" [ref=f92e22] [cursor=pointer]:
+                                      - /url: /channel/UCPe0ulfPgXtndUKPs5WNyEA
+                                      - generic [ref=f92e23]: Oracle Careers
+                                  - generic [ref=f92e24]:
+                                    - button [ref=f92e25] [cursor=pointer]
+                                    - generic [ref=f92e27]:
+                                      - generic: Oracle Careers
+                                      - generic: 4.87k subscribers
+                                - generic [ref=f92e28]:
+                                  - button "Share" [ref=f92e31] [cursor=pointer]:
+                                    - generic [ref=f92e35]:
+                                      - img
+                                  - link "Watch on YouTube" [ref=f92e42] [cursor=pointer]:
+                                    - /url: https://www.youtube.com/watch?v=BV0GMCITXg4
+                                    - generic [ref=f92e45]:
+                                      - text: Watch on
+                                      - img [ref=f92e47]:
+                                        - generic [ref=f92e49]:
+                                          - img
+                    - paragraph [ref=e297]:
+                      - text: All over the world, people's lives are better because of Oracle. Want to make a difference?
+                      - link "Join our company of change makers." [ref=e298] [cursor=pointer]:
+                        - /url: https://www.oracle.com/careers/
+                  - generic [ref=e300]:
+                    - heading "Oracle Talent Network" [level=2] [ref=e302]
+                    - paragraph [ref=e304]:
+                      - generic [ref=e305]: Join the Oracle Talent Network to receive career insights and opportunities.
+                    - link "Join now" [ref=e307] [cursor=pointer]:
+                      - /url: https://careers.oracle.com/en/sites/jobsearch/join-talent-community?keyword=University+Graduate
+                      - generic [ref=e308]: Join now
+      - contentinfo [ref=e15]:
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - heading "If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing accommodation-request_mb@oracle.com or by calling +1 888 404 2494 in the U.S." [level=2] [ref=e20]:
+              - text: If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing
+              - link "accommodation-request_mb@oracle.com" [ref=e21] [cursor=pointer]:
+                - /url: mailto:accommodation-request_mb@oracle.com
+              - text: or by calling +1 888 404 2494 in the U.S.
+            - heading "Oracle’s U.S. affirmative action plan for people with disabilities and military veterans is available by contacting +1 888 404 2494." [level=2] [ref=e22]
+            - paragraph [ref=e23]:
+              - text: Need Help?
+              - link "Contact us" [ref=e25] [cursor=pointer]:
+                - /url: https://hrhelp.custhelp.com/app/hiring
+              - text: and include a detailed description of the issue.
+            - paragraph [ref=e26]:
+              - link "Oracle's Pre-employment Screening Process" [ref=e28] [cursor=pointer]:
+                - /url: https://www.oracle.com/corporate/careers/background-check.html
+              - link "Oracle's Equal Employment Opportunity and Pay Transparency" [ref=e30] [cursor=pointer]:
+                - /url: https://www.oracle.com/legal/eeo-pay-transparency/
+          - generic [ref=e32]:
+            - generic:
+              - list:
+                - listitem
+            - list [ref=e34]:
+              - listitem [ref=e35]:
+                - link "© 2026 Oracle" [ref=e36] [cursor=pointer]:
+                  - /url: https://www.oracle.com/legal/copyright.html
+              - listitem [ref=e37]:
+                - link "Privacy" [ref=e38] [cursor=pointer]:
+                  - /url: https://www.oracle.com/legal/privacy/
+                - text: /
+                - link "Do Not Sell My Info" [ref=e39] [cursor=pointer]:
+                  - /url: https://www.oracle.com/legal/privacy/privacy-choices.html
+              - listitem [ref=e40]:
+                - link "Ad Choices" [ref=e41] [cursor=pointer]:
+                  - /url: https://www.oracle.com/legal/privacy/marketing-cloud-data-cloud-privacy-policy.html#adchoices
+              - listitem [ref=e42]:
+                - link "Careers" [ref=e43] [cursor=pointer]:
+                  - /url: https://www.oracle.com/corporate/careers/
+              - listitem [ref=e44]:
+                - link "Policy" [ref=e45] [cursor=pointer]:
+                  - /url: https://www.oracle.com/corporate/careers/terms-conditions/
+            - list [ref=e47]:
+              - listitem [ref=e48]:
+                - link "Oracle on Facebook":
+                  - /url: https://www.facebook.com/Oracle/
+                  - img [ref=e49] [cursor=pointer]
+              - listitem [ref=e50]:
+                - link "Follow Oracle on Twitter":
+                  - /url: https://twitter.com/oracle
+                  - img [ref=e51] [cursor=pointer]
+              - listitem [ref=e53]:
+                - link "Oracle on LinkedIn":
+                  - /url: https://www.linkedin.com/company/oracle/
+                  - img [ref=e54] [cursor=pointer]
+              - listitem [ref=e55]:
+                - link "Watch Oracle on YouTube":
+                  - /url: http://www.youtube.com/oracle/
+                  - img [ref=e56] [cursor=pointer]
+    - alert
+    - status [ref=e57]
+    - alert [ref=e58]
+  - button "Oracle Assistant" [ref=e309] [cursor=pointer]
+  - status [ref=e311]
+  - status [ref=e312]

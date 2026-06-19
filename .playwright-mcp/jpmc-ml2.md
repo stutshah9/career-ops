@@ -1,0 +1,854 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: .
+    - generic [ref=e4]: ..
+    - generic [ref=e5]: .
+  - generic [ref=e7]:
+    - link "Skip to main content." [ref=e8] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - banner [ref=e13]:
+          - generic [ref=e17]:
+            - link "Manage profile" [ref=e20] [cursor=pointer]:
+              - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/my-profile/sign-in
+              - generic [ref=e21]: 
+            - button "Open menu" [ref=e23] [cursor=pointer]:
+              - generic [ref=e24]:
+                - emphasis [ref=e25]
+                - emphasis [ref=e26]
+                - emphasis [ref=e27]
+        - main [ref=e29]:
+          - generic [ref=e30]:
+            - heading "Search Jobs - JPMC Candidate Experience page Careers" [level=1] [ref=e31]
+            - generic [ref=e35]:
+              - generic [ref=e39]:
+                - link [ref=e41] [cursor=pointer]:
+                  - /url: https://careers.jpmorgan.com/us/en/home
+                  - img [ref=e42]
+                - search [ref=e44]:
+                  - generic [ref=e45]:
+                    - generic [ref=e46]:
+                      - generic [ref=e48]: Find Jobs
+                      - generic [ref=e49]:
+                        - generic [ref=e50]: Job title, skill, keyword
+                        - combobox "Find Jobs" [ref=e51]: machine learning
+                    - generic [ref=e53]:
+                      - button "You've selected the Near Location search mode." [ref=e56] [cursor=pointer]:
+                        - generic [ref=e57]: Near Location
+                        - emphasis [ref=e58]: 
+                      - generic [ref=e59]:
+                        - generic [ref=e60]: City, state, country
+                        - combobox "City, state, country" [ref=e61]
+                  - button "Search for Jobs" [ref=e62] [cursor=pointer]:
+                    - emphasis [ref=e63]: 
+              - generic [ref=e70]:
+                - generic [ref=e74]:
+                  - generic [ref=e75]: Job search results 609
+                  - list [ref=e76]:
+                    - listitem [ref=e77]:
+                      - generic [ref=e78]: 609 Open Jobs
+                    - listitem [ref=e79]
+                    - listitem [ref=e81]:
+                      - button "Categories filter - 0 selected" [ref=e87] [cursor=pointer]:
+                        - generic [ref=e88]: Categories
+                        - emphasis [ref=e89]: 
+                    - listitem [ref=e90]:
+                      - button "Posting Dates filter - 0 selected" [ref=e96] [cursor=pointer]:
+                        - generic [ref=e97]: Posting Dates
+                        - emphasis [ref=e98]: 
+                - generic:
+                  - generic:   
+              - generic [ref=e105]:
+                - button "Sort By Relevance" [ref=e111] [cursor=pointer]:
+                  - generic "Sort By Relevance" [ref=e112]: Relevance
+                  - emphasis [ref=e113]: 
+                  - text: 
+                - list [ref=e114]:
+                  - listitem [ref=e115]:
+                    - generic [ref=e116]:
+                      - link "Product Manager - Machine Learning Intelligence Operations Locations Columbus, OH, United States and 2 more Job Function Product Job Family Product Management" [ref=e117] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210742311/?keyword=machine+learning
+                      - generic [ref=e119]:
+                        - generic [ref=e122]:
+                          - generic [ref=e124]: Product Manager - Machine Learning Intelligence Operations
+                          - list [ref=e127]:
+                            - listitem [ref=e128]:
+                              - img "Locations" [ref=e129]: 
+                              - text: 
+                              - generic [ref=e132]:
+                                - text: Columbus, OH, United States
+                                - generic "and 2 more" [ref=e134]:
+                                  - tooltip "Locations,Columbus, OH, United States,Plano, TX, United States,Wilmington, DE, United States" [ref=e136]:
+                                    - generic "Columbus, OH, United States,Plano, TX, United States,Wilmington, DE, United States" [ref=e137]:
+                                      - generic [ref=e138]: and 2 more
+                            - listitem [ref=e139]:
+                              - img "Job Function" [ref=e140]: 
+                              - text: 
+                              - generic [ref=e141]: Product
+                            - listitem [ref=e142]:
+                              - img "Job Family" [ref=e143]: 
+                              - text: 
+                              - generic [ref=e144]: Product Management
+                        - paragraph [ref=e149]: Join the Machine Learning & Intelligence Operations team as the Product Manager!
+                      - generic [ref=e150]:
+                        - button "Copy Link" [ref=e155] [cursor=pointer]:
+                          - emphasis [ref=e156]: 
+                        - button "Add Job to My Job Selections" [ref=e158] [cursor=pointer]: 
+                  - listitem [ref=e159]:
+                    - generic [ref=e160]:
+                      - link "Business Operations Manager - Machine Learning and AI Locations Chicago, IL, United States and 2 more Job Function Operations Job Family Operations Support" [ref=e161] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210735302/?keyword=machine+learning
+                      - generic [ref=e163]:
+                        - generic [ref=e166]:
+                          - generic [ref=e168]: Business Operations Manager - Machine Learning and AI
+                          - list [ref=e171]:
+                            - listitem [ref=e172]:
+                              - img "Locations" [ref=e173]: 
+                              - text: 
+                              - generic [ref=e176]:
+                                - text: Chicago, IL, United States
+                                - generic "and 2 more" [ref=e178]:
+                                  - tooltip "Locations,Chicago, IL, United States,New York, NY, United States,Wilmington, DE, United States" [ref=e180]:
+                                    - generic "Chicago, IL, United States,New York, NY, United States,Wilmington, DE, United States" [ref=e181]:
+                                      - generic [ref=e182]: and 2 more
+                            - listitem [ref=e183]:
+                              - img "Job Function" [ref=e184]: 
+                              - text: 
+                              - generic [ref=e185]: Operations
+                            - listitem [ref=e186]:
+                              - img "Job Family" [ref=e187]: 
+                              - text: 
+                              - generic [ref=e188]: Operations Support
+                        - paragraph [ref=e193]: Lead AI/ML strategy, business management, and transformation in Operations, driving growth, structure, and innovation at scale
+                      - generic [ref=e194]:
+                        - button "Copy Link" [ref=e199] [cursor=pointer]:
+                          - emphasis [ref=e200]: 
+                        - button "Add Job to My Job Selections" [ref=e202] [cursor=pointer]: 
+                  - listitem [ref=e203]:
+                    - generic [ref=e204]:
+                      - link "Machine Learning Scientist - Vice President Locations Palo Alto, CA, United States Job Function Data & Analytics Job Family Predictive Science" [ref=e205] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210706549/?keyword=machine+learning
+                      - generic [ref=e207]:
+                        - generic [ref=e210]:
+                          - generic [ref=e212]: Machine Learning Scientist - Vice President
+                          - list [ref=e215]:
+                            - listitem [ref=e216]:
+                              - img "Locations" [ref=e217]: 
+                              - text: 
+                              - generic [ref=e220]: Palo Alto, CA, United States
+                            - listitem [ref=e221]:
+                              - img "Job Function" [ref=e222]: 
+                              - text: 
+                              - generic [ref=e223]: Data & Analytics
+                            - listitem [ref=e224]:
+                              - img "Job Family" [ref=e225]: 
+                              - text: 
+                              - generic [ref=e226]: Predictive Science
+                        - paragraph [ref=e231]: Machine Learning Scientist with a focus on NLP with solid expertise in Deep Learning with hands-on implementation experience.
+                      - generic [ref=e232]:
+                        - button "Copy Link" [ref=e237] [cursor=pointer]:
+                          - emphasis [ref=e238]: 
+                        - button "Add Job to My Job Selections" [ref=e240] [cursor=pointer]: 
+                  - listitem [ref=e241]:
+                    - generic [ref=e242]:
+                      - link "Machine Learning Scientist - Natural Language Processing (NLP) - Vice President - Machine Learning Center of Excellence Locations Palo Alto, CA, United States and 2 more Job Function Data & Analytics Job Family Predictive Science" [ref=e243] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210730505/?keyword=machine+learning
+                      - generic [ref=e245]:
+                        - generic [ref=e248]:
+                          - generic [ref=e250]: Machine Learning Scientist - Natural Language Processing (NLP) - Vice President - Machine Learning Center of Excellence
+                          - list [ref=e253]:
+                            - listitem [ref=e254]:
+                              - img "Locations" [ref=e255]: 
+                              - text: 
+                              - generic [ref=e258]:
+                                - text: Palo Alto, CA, United States
+                                - generic "and 2 more" [ref=e260]:
+                                  - tooltip "Locations,Palo Alto, CA, United States,New York, NY, United States,Seattle, WA, United States" [ref=e262]:
+                                    - generic "Palo Alto, CA, United States,New York, NY, United States,Seattle, WA, United States" [ref=e263]:
+                                      - generic [ref=e264]: and 2 more
+                            - listitem [ref=e265]:
+                              - img "Job Function" [ref=e266]: 
+                              - text: 
+                              - generic [ref=e267]: Data & Analytics
+                            - listitem [ref=e268]:
+                              - img "Job Family" [ref=e269]: 
+                              - text: 
+                              - generic [ref=e270]: Predictive Science
+                        - paragraph [ref=e275]: MLCOE is a world-class machine learning team with state-of-the-art methods to solve financial problems using our unique datasets.
+                      - generic [ref=e276]:
+                        - button "Copy Link" [ref=e281] [cursor=pointer]:
+                          - emphasis [ref=e282]: 
+                        - button "Add Job to My Job Selections" [ref=e284] [cursor=pointer]: 
+                  - listitem [ref=e285]:
+                    - generic [ref=e286]:
+                      - link "Machine Learning Scientist - Natural Language Processing (NLP) - Vice President - Machine Learning Center of Excellence Locations Seattle, WA, United States and 2 more Job Function Data & Analytics Job Family Predictive Science" [ref=e287] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210681337/?keyword=machine+learning
+                      - generic [ref=e289]:
+                        - generic [ref=e292]:
+                          - generic [ref=e294]: Machine Learning Scientist - Natural Language Processing (NLP) - Vice President - Machine Learning Center of Excellence
+                          - list [ref=e297]:
+                            - listitem [ref=e298]:
+                              - img "Locations" [ref=e299]: 
+                              - text: 
+                              - generic [ref=e302]:
+                                - text: Seattle, WA, United States
+                                - generic "and 2 more" [ref=e304]:
+                                  - tooltip "Locations,Seattle, WA, United States,Palo Alto, CA, United States,New York, NY, United States" [ref=e306]:
+                                    - generic "Seattle, WA, United States,Palo Alto, CA, United States,New York, NY, United States" [ref=e307]:
+                                      - generic [ref=e308]: and 2 more
+                            - listitem [ref=e309]:
+                              - img "Job Function" [ref=e310]: 
+                              - text: 
+                              - generic [ref=e311]: Data & Analytics
+                            - listitem [ref=e312]:
+                              - img "Job Family" [ref=e313]: 
+                              - text: 
+                              - generic [ref=e314]: Predictive Science
+                        - paragraph [ref=e319]: MLCOE is a world-class machine learning team with state-of-the-art methods to solve financial problems using our unique datasets.
+                      - generic [ref=e320]:
+                        - button "Copy Link" [ref=e325] [cursor=pointer]:
+                          - emphasis [ref=e326]: 
+                        - button "Add Job to My Job Selections" [ref=e328] [cursor=pointer]: 
+                  - listitem [ref=e329]:
+                    - generic [ref=e330]:
+                      - heading "Talent Network" [level=2] [ref=e331]
+                      - paragraph [ref=e332]: Didn't find the perfect job? Create a profile so we can help
+                      - link "Join the Network" [ref=e334] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/join-talent-community?keyword=machine+learning
+                        - generic [ref=e335]: Join the Network
+                  - listitem [ref=e336]:
+                    - generic [ref=e337]:
+                      - link "Machine Learning Scientist - Natural Language Processing (NLP) - Senior Associate - Machine Learning Center of Excellence Locations New York, NY, United States and 2 more Job Function Data & Analytics Job Family Predictive Science" [ref=e338] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210714509/?keyword=machine+learning
+                      - generic [ref=e340]:
+                        - generic [ref=e343]:
+                          - generic [ref=e345]: Machine Learning Scientist - Natural Language Processing (NLP) - Senior Associate - Machine Learning Center of Excellence
+                          - list [ref=e348]:
+                            - listitem [ref=e349]:
+                              - img "Locations" [ref=e350]: 
+                              - text: 
+                              - generic [ref=e353]:
+                                - text: New York, NY, United States
+                                - generic "and 2 more" [ref=e355]:
+                                  - tooltip "Locations,New York, NY, United States,Seattle, WA, United States,Palo Alto, CA, United States" [ref=e357]:
+                                    - generic "New York, NY, United States,Seattle, WA, United States,Palo Alto, CA, United States" [ref=e358]:
+                                      - generic [ref=e359]: and 2 more
+                            - listitem [ref=e360]:
+                              - img "Job Function" [ref=e361]: 
+                              - text: 
+                              - generic [ref=e362]: Data & Analytics
+                            - listitem [ref=e363]:
+                              - img "Job Family" [ref=e364]: 
+                              - text: 
+                              - generic [ref=e365]: Predictive Science
+                        - paragraph [ref=e370]: MLCOE is a world-class machine learning team with state-of-the-art methods to solve financial problems using our unique datasets.
+                      - generic [ref=e371]:
+                        - button "Copy Link" [ref=e376] [cursor=pointer]:
+                          - emphasis [ref=e377]: 
+                        - button "Add Job to My Job Selections" [ref=e379] [cursor=pointer]: 
+                  - listitem [ref=e380]:
+                    - generic [ref=e381]:
+                      - link "Applied Machine Learning Scientist - Vice President Locations Palo Alto, CA, United States Job Function Data & Analytics Job Family Predictive Science" [ref=e382] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210752462/?keyword=machine+learning
+                      - generic [ref=e384]:
+                        - generic [ref=e387]:
+                          - generic [ref=e389]: Applied Machine Learning Scientist - Vice President
+                          - list [ref=e392]:
+                            - listitem [ref=e393]:
+                              - img "Locations" [ref=e394]: 
+                              - text: 
+                              - generic [ref=e397]: Palo Alto, CA, United States
+                            - listitem [ref=e398]:
+                              - img "Job Function" [ref=e399]: 
+                              - text: 
+                              - generic [ref=e400]: Data & Analytics
+                            - listitem [ref=e401]:
+                              - img "Job Family" [ref=e402]: 
+                              - text: 
+                              - generic [ref=e403]: Predictive Science
+                        - paragraph [ref=e408]: Applied Machine Learning Scientist with a focus on NLP with solid expertise in Deep Learning with hands-on implementation experience.
+                      - generic [ref=e409]:
+                        - button "Copy Link" [ref=e414] [cursor=pointer]:
+                          - emphasis [ref=e415]: 
+                        - button "Add Job to My Job Selections" [ref=e417] [cursor=pointer]: 
+                  - listitem [ref=e418]:
+                    - generic [ref=e419]:
+                      - link "Applied Artificial Intelligence & Machine Learning - Project Management Associate Locations Mumbai, Maharashtra, India Job Function Project & Process Mgmt Job Family Program & Project Management" [ref=e420] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210728604/?keyword=machine+learning
+                      - generic [ref=e422]:
+                        - generic [ref=e425]:
+                          - generic [ref=e427]: Applied Artificial Intelligence & Machine Learning - Project Management Associate
+                          - list [ref=e430]:
+                            - listitem [ref=e431]:
+                              - img "Locations" [ref=e432]: 
+                              - text: 
+                              - generic [ref=e435]: Mumbai, Maharashtra, India
+                            - listitem [ref=e436]:
+                              - img "Job Function" [ref=e437]: 
+                              - text: 
+                              - generic [ref=e438]: Project & Process Mgmt
+                            - listitem [ref=e439]:
+                              - img "Job Family" [ref=e440]: 
+                              - text: 
+                              - generic [ref=e441]: Program & Project Management
+                        - paragraph [ref=e446]: We are seeking a high-performing Associate Project/Program Manager to join our Applied AI-ML for Payments group in Mumbai (NKP office). The successful candidate will support a broad range of PMO activities, drive process improvements, and lead multiple strategic initiatives focused on the application of AI and Machine Learning in Payments. This role offers significant exposure to key Operations Transformation programs and requires close partnership with stakeholders in Business, Finance, Operations, and Technology.
+                      - generic [ref=e447]:
+                        - button "Copy Link" [ref=e452] [cursor=pointer]:
+                          - emphasis [ref=e453]: 
+                        - button "Add Job to My Job Selections" [ref=e455] [cursor=pointer]: 
+                  - listitem [ref=e456]:
+                    - generic [ref=e457]:
+                      - link "Lead Machine Learning Engineer-MLOps Locations New York, NY, United States and 1 more Job Function Data & Analytics Job Family Predictive Science" [ref=e458] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210700972/?keyword=machine+learning
+                      - generic [ref=e460]:
+                        - generic [ref=e463]:
+                          - generic [ref=e465]: Lead Machine Learning Engineer-MLOps
+                          - list [ref=e468]:
+                            - listitem [ref=e469]:
+                              - img "Locations" [ref=e470]: 
+                              - text: 
+                              - generic [ref=e473]:
+                                - text: New York, NY, United States
+                                - generic "and 1 more" [ref=e475]:
+                                  - tooltip "Locations,New York, NY, United States,Palo Alto, CA, United States" [ref=e477]:
+                                    - generic "New York, NY, United States,Palo Alto, CA, United States" [ref=e478]:
+                                      - generic [ref=e479]: and 1 more
+                            - listitem [ref=e480]:
+                              - img "Job Function" [ref=e481]: 
+                              - text: 
+                              - generic [ref=e482]: Data & Analytics
+                            - listitem [ref=e483]:
+                              - img "Job Family" [ref=e484]: 
+                              - text: 
+                              - generic [ref=e485]: Predictive Science
+                        - paragraph [ref=e490]: Come join us in reshaping the future!
+                      - generic [ref=e491]:
+                        - button "Copy Link" [ref=e496] [cursor=pointer]:
+                          - emphasis [ref=e497]: 
+                        - button "Add Job to My Job Selections" [ref=e499] [cursor=pointer]: 
+                  - listitem [ref=e500]:
+                    - generic [ref=e501]:
+                      - link "Asset Management - AI Quant Analyst - Artificial Intelligence & Machine Learning Focus Locations Shanghai, China and 1 more Job Function Technology Job Family Technology Support" [ref=e502] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210752693/?keyword=machine+learning
+                      - generic [ref=e504]:
+                        - generic [ref=e507]:
+                          - generic [ref=e509]: Asset Management - AI Quant Analyst - Artificial Intelligence & Machine Learning Focus
+                          - list [ref=e512]:
+                            - listitem [ref=e513]:
+                              - img "Locations" [ref=e514]: 
+                              - text: 
+                              - generic [ref=e517]:
+                                - text: Shanghai, China
+                                - generic "and 1 more" [ref=e519]:
+                                  - tooltip "Locations,Shanghai, China,Beijing, China" [ref=e521]:
+                                    - generic "Shanghai, China,Beijing, China" [ref=e522]:
+                                      - generic [ref=e523]: and 1 more
+                            - listitem [ref=e524]:
+                              - img "Job Function" [ref=e525]: 
+                              - text: 
+                              - generic [ref=e526]: Technology
+                            - listitem [ref=e527]:
+                              - img "Job Family" [ref=e528]: 
+                              - text: 
+                              - generic [ref=e529]: Technology Support
+                        - paragraph [ref=e534]: As an AI Quant Analyst at China Asset Management with a focus on Artificial Intelligence (AI), machine learning (ML), and large language models (LLMs), you will drive the integration of advanced AI techniques into investment research and strategy development.
+                      - generic [ref=e535]:
+                        - button "Copy Link" [ref=e540] [cursor=pointer]:
+                          - emphasis [ref=e541]: 
+                        - button "Add Job to My Job Selections" [ref=e543] [cursor=pointer]: 
+                  - listitem [ref=e544]:
+                    - generic [ref=e545]:
+                      - link "Machine Learning Engineer - Senior Associate Locations Chicago, IL, United States Job Function Data & Analytics Job Family Predictive Science" [ref=e546] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210731762/?keyword=machine+learning
+                      - generic [ref=e548]:
+                        - generic [ref=e551]:
+                          - generic [ref=e553]: Machine Learning Engineer - Senior Associate
+                          - list [ref=e556]:
+                            - listitem [ref=e557]:
+                              - img "Locations" [ref=e558]: 
+                              - text: 
+                              - generic [ref=e561]: Chicago, IL, United States
+                            - listitem [ref=e562]:
+                              - img "Job Function" [ref=e563]: 
+                              - text: 
+                              - generic [ref=e564]: Data & Analytics
+                            - listitem [ref=e565]:
+                              - img "Job Family" [ref=e566]: 
+                              - text: 
+                              - generic [ref=e567]: Predictive Science
+                        - paragraph [ref=e572]: Join a dynamic and diverse team that engineers large-scale, complex, and resilient technology solutions that drive our global business.
+                      - generic [ref=e573]:
+                        - button "Copy Link" [ref=e578] [cursor=pointer]:
+                          - emphasis [ref=e579]: 
+                        - button "Add Job to My Job Selections" [ref=e581] [cursor=pointer]: 
+                  - listitem [ref=e582]:
+                    - generic [ref=e583]:
+                      - link "Applied AI ML - Senior Associate - Machine Learning Engineer Locations LONDON, LONDON, United Kingdom Job Function Data & Analytics Job Family Predictive Science" [ref=e584] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210740668/?keyword=machine+learning
+                      - generic [ref=e586]:
+                        - generic [ref=e589]:
+                          - generic [ref=e591]: Applied AI ML - Senior Associate - Machine Learning Engineer
+                          - list [ref=e594]:
+                            - listitem [ref=e595]:
+                              - img "Locations" [ref=e596]: 
+                              - text: 
+                              - generic [ref=e599]: LONDON, LONDON, United Kingdom
+                            - listitem [ref=e600]:
+                              - img "Job Function" [ref=e601]: 
+                              - text: 
+                              - generic [ref=e602]: Data & Analytics
+                            - listitem [ref=e603]:
+                              - img "Job Family" [ref=e604]: 
+                              - text: 
+                              - generic [ref=e605]: Predictive Science
+                        - paragraph [ref=e610]: We are looking for an outstanding Machine Learning Engineer to help us deliver maximum value on this opportunity.
+                      - generic [ref=e611]:
+                        - button "Copy Link" [ref=e616] [cursor=pointer]:
+                          - emphasis [ref=e617]: 
+                        - button "Add Job to My Job Selections" [ref=e619] [cursor=pointer]: 
+                  - listitem [ref=e620]:
+                    - generic [ref=e621]:
+                      - link "Applied AI Machine Learning Vice President Locations LONDON, United Kingdom Job Function Data & Analytics Job Family Predictive Science" [ref=e622] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210725695/?keyword=machine+learning
+                      - generic [ref=e624]:
+                        - generic [ref=e627]:
+                          - generic [ref=e629]: Applied AI Machine Learning Vice President
+                          - list [ref=e632]:
+                            - listitem [ref=e633]:
+                              - img "Locations" [ref=e634]: 
+                              - text: 
+                              - generic [ref=e637]: LONDON, United Kingdom
+                            - listitem [ref=e638]:
+                              - img "Job Function" [ref=e639]: 
+                              - text: 
+                              - generic [ref=e640]: Data & Analytics
+                            - listitem [ref=e641]:
+                              - img "Job Family" [ref=e642]: 
+                              - text: 
+                              - generic [ref=e643]: Predictive Science
+                        - paragraph [ref=e648]: Seeking stats/ML/data analysis expertise to support strategic goals and data landscapes in large, complex organisations.
+                      - generic [ref=e649]:
+                        - button "Copy Link" [ref=e654] [cursor=pointer]:
+                          - emphasis [ref=e655]: 
+                        - button "Add Job to My Job Selections" [ref=e657] [cursor=pointer]: 
+                  - listitem [ref=e658]:
+                    - generic [ref=e659]:
+                      - link "Applied AI ML Director Machine Learning Center of Excellence Locations New York, NY, United States Job Function Data & Analytics Job Family Predictive Science" [ref=e660] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210610080/?keyword=machine+learning
+                      - generic [ref=e662]:
+                        - generic [ref=e665]:
+                          - generic [ref=e667]: Applied AI ML Director Machine Learning Center of Excellence
+                          - list [ref=e670]:
+                            - listitem [ref=e671]:
+                              - img "Locations" [ref=e672]: 
+                              - text: 
+                              - generic [ref=e675]: New York, NY, United States
+                            - listitem [ref=e676]:
+                              - img "Job Function" [ref=e677]: 
+                              - text: 
+                              - generic [ref=e678]: Data & Analytics
+                            - listitem [ref=e679]:
+                              - img "Job Family" [ref=e680]: 
+                              - text: 
+                              - generic [ref=e681]: Predictive Science
+                        - paragraph [ref=e686]: MLCOE is a world-class machine learning team with state-of-the-art methods to solve financial problems using our unique datasets
+                      - generic [ref=e687]:
+                        - button "Copy Link" [ref=e692] [cursor=pointer]:
+                          - emphasis [ref=e693]: 
+                        - button "Add Job to My Job Selections" [ref=e695] [cursor=pointer]: 
+                  - listitem [ref=e696]:
+                    - generic [ref=e697]:
+                      - link "Applied AI ML Senior Associate - Machine Learning Center of Excellence - Time Series Reinforcement Learning Locations LONDON, LONDON, United Kingdom Job Function Data & Analytics Job Family Predictive Science" [ref=e698] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210611257/?keyword=machine+learning
+                      - generic [ref=e700]:
+                        - generic [ref=e703]:
+                          - generic [ref=e705]: Applied AI ML Senior Associate - Machine Learning Center of Excellence - Time Series Reinforcement Learning
+                          - list [ref=e708]:
+                            - listitem [ref=e709]:
+                              - img "Locations" [ref=e710]: 
+                              - text: 
+                              - generic [ref=e713]: LONDON, LONDON, United Kingdom
+                            - listitem [ref=e714]:
+                              - img "Job Function" [ref=e715]: 
+                              - text: 
+                              - generic [ref=e716]: Data & Analytics
+                            - listitem [ref=e717]:
+                              - img "Job Family" [ref=e718]: 
+                              - text: 
+                              - generic [ref=e719]: Predictive Science
+                        - paragraph [ref=e724]: Apply advanced machine learning methods to complex tasks and collaborate with teams to deploy solutions into production.
+                      - generic [ref=e725]:
+                        - button "Copy Link" [ref=e730] [cursor=pointer]:
+                          - emphasis [ref=e731]: 
+                        - button "Add Job to My Job Selections" [ref=e733] [cursor=pointer]: 
+                  - listitem [ref=e734]:
+                    - generic [ref=e735]:
+                      - link "Applied Artificial Intelligence/ Machine Learning Lead - Vice President Locations Jersey City, NJ, United States and 2 more Job Function Data & Analytics Job Family Predictive Science" [ref=e736] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210743418/?keyword=machine+learning
+                      - generic [ref=e738]:
+                        - generic [ref=e741]:
+                          - generic [ref=e743]: Applied Artificial Intelligence/ Machine Learning Lead - Vice President
+                          - list [ref=e746]:
+                            - listitem [ref=e747]:
+                              - img "Locations" [ref=e748]: 
+                              - text: 
+                              - generic [ref=e751]:
+                                - text: Jersey City, NJ, United States
+                                - generic "and 2 more" [ref=e753]:
+                                  - tooltip "Locations,Jersey City, NJ, United States,Plano, TX, United States,Wilmington, DE, United States" [ref=e755]:
+                                    - generic "Jersey City, NJ, United States,Plano, TX, United States,Wilmington, DE, United States" [ref=e756]:
+                                      - generic [ref=e757]: and 2 more
+                            - listitem [ref=e758]:
+                              - img "Job Function" [ref=e759]: 
+                              - text: 
+                              - generic [ref=e760]: Data & Analytics
+                            - listitem [ref=e761]:
+                              - img "Job Family" [ref=e762]: 
+                              - text: 
+                              - generic [ref=e763]: Predictive Science
+                        - paragraph [ref=e768]: Lead Applied Artificial Intelligence Machine Learning within Asset Wealth Management Core Technology team.
+                      - generic [ref=e769]:
+                        - button "Copy Link" [ref=e774] [cursor=pointer]:
+                          - emphasis [ref=e775]: 
+                        - button "Add Job to My Job Selections" [ref=e777] [cursor=pointer]: 
+                  - listitem [ref=e778]:
+                    - generic [ref=e779]:
+                      - link "Senior Product Portfolio - Machine Learning and AI Locations Wilmington, DE, United States and 2 more Job Function Product Job Family Product Portfolio & Delivery" [ref=e780] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210728576/?keyword=machine+learning
+                      - generic [ref=e782]:
+                        - generic [ref=e785]:
+                          - generic [ref=e787]: Senior Product Portfolio - Machine Learning and AI
+                          - list [ref=e790]:
+                            - listitem [ref=e791]:
+                              - img "Locations" [ref=e792]: 
+                              - text: 
+                              - generic [ref=e795]:
+                                - text: Wilmington, DE, United States
+                                - generic "and 2 more" [ref=e797]:
+                                  - tooltip "Locations,Wilmington, DE, United States,Plano, TX, United States,Columbus, OH, United States" [ref=e799]:
+                                    - generic "Wilmington, DE, United States,Plano, TX, United States,Columbus, OH, United States" [ref=e800]:
+                                      - generic [ref=e801]: and 2 more
+                            - listitem [ref=e802]:
+                              - img "Job Function" [ref=e803]: 
+                              - text: 
+                              - generic [ref=e804]: Product
+                            - listitem [ref=e805]:
+                              - img "Job Family" [ref=e806]: 
+                              - text: 
+                              - generic [ref=e807]: Product Portfolio & Delivery
+                        - paragraph [ref=e812]: Synchronize product efforts, gather key inputs, analyze operations data, develop change initiatives, and assist in resource planning
+                      - generic [ref=e813]:
+                        - button "Copy Link" [ref=e818] [cursor=pointer]:
+                          - emphasis [ref=e819]: 
+                        - button "Add Job to My Job Selections" [ref=e821] [cursor=pointer]: 
+                  - listitem [ref=e822]:
+                    - generic [ref=e823]:
+                      - link "Applied Artificial Intelligence & Machine Learning - Vice President Locations Mumbai, Maharashtra, India Job Function Data & Analytics Job Family Predictive Science" [ref=e824] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210717266/?keyword=machine+learning
+                      - generic [ref=e826]:
+                        - generic [ref=e829]:
+                          - generic [ref=e831]: Applied Artificial Intelligence & Machine Learning - Vice President
+                          - list [ref=e834]:
+                            - listitem [ref=e835]:
+                              - img "Locations" [ref=e836]: 
+                              - text: 
+                              - generic [ref=e839]: Mumbai, Maharashtra, India
+                            - listitem [ref=e840]:
+                              - img "Job Function" [ref=e841]: 
+                              - text: 
+                              - generic [ref=e842]: Data & Analytics
+                            - listitem [ref=e843]:
+                              - img "Job Family" [ref=e844]: 
+                              - text: 
+                              - generic [ref=e845]: Predictive Science
+                        - paragraph [ref=e850]: As a member of this team, you will have the unique opportunity to be a critical player in our firm-wide efforts to shape the future of banking.
+                      - generic [ref=e851]:
+                        - button "Copy Link" [ref=e856] [cursor=pointer]:
+                          - emphasis [ref=e857]: 
+                        - button "Add Job to My Job Selections" [ref=e859] [cursor=pointer]: 
+                  - listitem [ref=e860]:
+                    - generic [ref=e861]:
+                      - link "Applied Artificial Intelligence & Machine Learning Engineer - Associate Locations Mumbai, Maharashtra, India Job Function Data & Analytics Job Family Predictive Science" [ref=e862] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210712520/?keyword=machine+learning
+                      - generic [ref=e864]:
+                        - generic [ref=e867]:
+                          - generic [ref=e869]: Applied Artificial Intelligence & Machine Learning Engineer - Associate
+                          - list [ref=e872]:
+                            - listitem [ref=e873]:
+                              - img "Locations" [ref=e874]: 
+                              - text: 
+                              - generic [ref=e877]: Mumbai, Maharashtra, India
+                            - listitem [ref=e878]:
+                              - img "Job Function" [ref=e879]: 
+                              - text: 
+                              - generic [ref=e880]: Data & Analytics
+                            - listitem [ref=e881]:
+                              - img "Job Family" [ref=e882]: 
+                              - text: 
+                              - generic [ref=e883]: Predictive Science
+                        - paragraph [ref=e888]: Join us if you are passionate about leveraging AI/ML to drive change & eager to make a significant impact in banking industry.
+                      - generic [ref=e889]:
+                        - button "Copy Link" [ref=e894] [cursor=pointer]:
+                          - emphasis [ref=e895]: 
+                        - button "Add Job to My Job Selections" [ref=e897] [cursor=pointer]: 
+                  - listitem [ref=e898]:
+                    - generic [ref=e899]:
+                      - link "Applied AIML & Gen AI Executive Director - Machine Learning Center of Excellence Locations New York, NY, United States Job Function Data & Analytics Job Family Predictive Science" [ref=e900] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210714571/?keyword=machine+learning
+                      - generic [ref=e902]:
+                        - generic [ref=e905]:
+                          - generic [ref=e907]: Applied AIML & Gen AI Executive Director - Machine Learning Center of Excellence
+                          - list [ref=e910]:
+                            - listitem [ref=e911]:
+                              - img "Locations" [ref=e912]: 
+                              - text: 
+                              - generic [ref=e915]: New York, NY, United States
+                            - listitem [ref=e916]:
+                              - img "Job Function" [ref=e917]: 
+                              - text: 
+                              - generic [ref=e918]: Data & Analytics
+                            - listitem [ref=e919]:
+                              - img "Job Family" [ref=e920]: 
+                              - text: 
+                              - generic [ref=e921]: Predictive Science
+                        - paragraph [ref=e926]: MLCOE is a world-class machine learning team with state-of-the-art methods to solve financial problems using our unique datasets
+                      - generic [ref=e927]:
+                        - button "Copy Link" [ref=e932] [cursor=pointer]:
+                          - emphasis [ref=e933]: 
+                        - button "Add Job to My Job Selections" [ref=e935] [cursor=pointer]: 
+                  - listitem [ref=e936]:
+                    - generic [ref=e937]:
+                      - link "NLP / LLM Scientist - Applied AI ML Lead - Machine Learning Centre of Excellence Locations LONDON, LONDON, United Kingdom Job Function Data & Analytics Job Family Predictive Science" [ref=e938] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210667160/?keyword=machine+learning
+                      - generic [ref=e940]:
+                        - generic [ref=e943]:
+                          - generic [ref=e945]: NLP / LLM Scientist - Applied AI ML Lead - Machine Learning Centre of Excellence
+                          - list [ref=e948]:
+                            - listitem [ref=e949]:
+                              - img "Locations" [ref=e950]: 
+                              - text: 
+                              - generic [ref=e953]: LONDON, LONDON, United Kingdom
+                            - listitem [ref=e954]:
+                              - img "Job Function" [ref=e955]: 
+                              - text: 
+                              - generic [ref=e956]: Data & Analytics
+                            - listitem [ref=e957]:
+                              - img "Job Family" [ref=e958]: 
+                              - text: 
+                              - generic [ref=e959]: Predictive Science
+                        - paragraph [ref=e964]: Drive innovation in machine learning and NLP by developing impactful solutions with a collaborative, expert team.
+                      - generic [ref=e965]:
+                        - button "Copy Link" [ref=e970] [cursor=pointer]:
+                          - emphasis [ref=e971]: 
+                        - button "Add Job to My Job Selections" [ref=e973] [cursor=pointer]: 
+                  - listitem [ref=e974]:
+                    - generic [ref=e975]:
+                      - link "Applied Artificial Intelligence & Machine Learning- Markets Operations - Vice President Locations Bengaluru, Karnataka, India Job Function Data & Analytics Job Family Predictive Science" [ref=e976] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210734464/?keyword=machine+learning
+                      - generic [ref=e978]:
+                        - generic [ref=e981]:
+                          - generic [ref=e983]: Applied Artificial Intelligence & Machine Learning- Markets Operations - Vice President
+                          - list [ref=e986]:
+                            - listitem [ref=e987]:
+                              - img "Locations" [ref=e988]: 
+                              - text: 
+                              - generic [ref=e991]: Bengaluru, Karnataka, India
+                            - listitem [ref=e992]:
+                              - img "Job Function" [ref=e993]: 
+                              - text: 
+                              - generic [ref=e994]: Data & Analytics
+                            - listitem [ref=e995]:
+                              - img "Job Family" [ref=e996]: 
+                              - text: 
+                              - generic [ref=e997]: Predictive Science
+                        - paragraph [ref=e1002]: Join us to shape the future of banking through cutting-edge AI and machine learning. At JPMorgan Chase, you’ll have the opportunity to lead a talented team, solve complex business challenges, and make a real impact on our operations. We value your expertise, encourage your growth, and support your journey as you deliver transformative solutions. Join us to collaborate with industry leaders and advance your career in a dynamic, inclusive environment.
+                      - generic [ref=e1003]:
+                        - button "Copy Link" [ref=e1008] [cursor=pointer]:
+                          - emphasis [ref=e1009]: 
+                        - button "Add Job to My Job Selections" [ref=e1011] [cursor=pointer]: 
+                  - listitem [ref=e1012]:
+                    - generic [ref=e1013]:
+                      - link "Machine Learning Engineer – Document Digitization (LLMs)-Vice President Locations Jersey City, NJ, United States and 1 more Job Function Data & Analytics Job Family Predictive Science" [ref=e1014] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210730519/?keyword=machine+learning
+                      - generic [ref=e1016]:
+                        - generic [ref=e1019]:
+                          - generic [ref=e1021]: Machine Learning Engineer – Document Digitization (LLMs)-Vice President
+                          - list [ref=e1024]:
+                            - listitem [ref=e1025]:
+                              - img "Locations" [ref=e1026]: 
+                              - text: 
+                              - generic [ref=e1029]:
+                                - text: Jersey City, NJ, United States
+                                - generic "and 1 more" [ref=e1031]:
+                                  - tooltip "Locations,Jersey City, NJ, United States,Wilmington, DE, United States" [ref=e1033]:
+                                    - generic "Jersey City, NJ, United States,Wilmington, DE, United States" [ref=e1034]:
+                                      - generic [ref=e1035]: and 1 more
+                            - listitem [ref=e1036]:
+                              - img "Job Function" [ref=e1037]: 
+                              - text: 
+                              - generic [ref=e1038]: Data & Analytics
+                            - listitem [ref=e1039]:
+                              - img "Job Family" [ref=e1040]: 
+                              - text: 
+                              - generic [ref=e1041]: Predictive Science
+                        - paragraph [ref=e1046]: Lead AI/ML engineer to build secure GenAI/LLM document digitization pipelines on AWS, with end-to-end MLOps leadership.
+                      - generic [ref=e1047]:
+                        - button "Copy Link" [ref=e1052] [cursor=pointer]:
+                          - emphasis [ref=e1053]: 
+                        - button "Add Job to My Job Selections" [ref=e1055] [cursor=pointer]: 
+                  - listitem [ref=e1056]:
+                    - generic [ref=e1057]:
+                      - link "Machine Learning Engineer – Document Digitization (LLMs)-Senior Associate Locations Jersey City, NJ, United States and 1 more Job Function Data & Analytics Job Family Predictive Science" [ref=e1058] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210730528/?keyword=machine+learning
+                      - generic [ref=e1060]:
+                        - generic [ref=e1063]:
+                          - generic [ref=e1065]: Machine Learning Engineer – Document Digitization (LLMs)-Senior Associate
+                          - list [ref=e1068]:
+                            - listitem [ref=e1069]:
+                              - img "Locations" [ref=e1070]: 
+                              - text: 
+                              - generic [ref=e1073]:
+                                - text: Jersey City, NJ, United States
+                                - generic "and 1 more" [ref=e1075]:
+                                  - tooltip "Locations,Jersey City, NJ, United States,Wilmington, DE, United States" [ref=e1077]:
+                                    - generic "Jersey City, NJ, United States,Wilmington, DE, United States" [ref=e1078]:
+                                      - generic [ref=e1079]: and 1 more
+                            - listitem [ref=e1080]:
+                              - img "Job Function" [ref=e1081]: 
+                              - text: 
+                              - generic [ref=e1082]: Data & Analytics
+                            - listitem [ref=e1083]:
+                              - img "Job Family" [ref=e1084]: 
+                              - text: 
+                              - generic [ref=e1085]: Predictive Science
+                        - paragraph [ref=e1090]: AI/ML engineer to build secure GenAI/LLM document digitization pipelines on AWS, with end-to-end MLOps leadership.
+                      - generic [ref=e1091]:
+                        - button "Copy Link" [ref=e1096] [cursor=pointer]:
+                          - emphasis [ref=e1097]: 
+                        - button "Add Job to My Job Selections" [ref=e1099] [cursor=pointer]: 
+                  - listitem [ref=e1100]:
+                    - generic [ref=e1101]:
+                      - link "Senior Lead Software Engineer - Data / Machine Learning Operations Locations Plano, TX, United States Job Function Technology Job Family Software Engineering" [ref=e1102] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210691782/?keyword=machine+learning
+                      - generic [ref=e1104]:
+                        - generic [ref=e1107]:
+                          - generic [ref=e1109]: Senior Lead Software Engineer - Data / Machine Learning Operations
+                          - list [ref=e1112]:
+                            - listitem [ref=e1113]:
+                              - img "Locations" [ref=e1114]: 
+                              - text: 
+                              - generic [ref=e1117]: Plano, TX, United States
+                            - listitem [ref=e1118]:
+                              - img "Job Function" [ref=e1119]: 
+                              - text: 
+                              - generic [ref=e1120]: Technology
+                            - listitem [ref=e1121]:
+                              - img "Job Family" [ref=e1122]: 
+                              - text: 
+                              - generic [ref=e1123]: Software Engineering
+                        - paragraph [ref=e1128]: Drive significant business impact and tackle a diverse array of challenges that span multiple technologies and applications
+                      - generic [ref=e1129]:
+                        - button "Copy Link" [ref=e1134] [cursor=pointer]:
+                          - emphasis [ref=e1135]: 
+                        - button "Add Job to My Job Selections" [ref=e1137] [cursor=pointer]: 
+      - contentinfo [ref=e1138]:
+        - generic [ref=e1139]:
+          - table [ref=e1141]:
+            - rowgroup [ref=e1142]:
+              - row ". Privacy & Terms Privacy & Security Terms of Use Cookie Policy . Equal Opportunities Recruitment Scams Warning . Useful Links chase.com jpmorganchase.com jpmorgan.com . Careers at Chase Careers in the Philippines" [ref=e1143]:
+                - cell ". Privacy & Terms Privacy & Security Terms of Use Cookie Policy" [ref=e1144]:
+                  - generic [ref=e1145]:
+                    - heading "." [level=1] [ref=e1146]:
+                      - link "." [ref=e1147] [cursor=pointer]:
+                        - /url: https://www.jpmorganchase.com/corporate/Home/privacy.htm
+                    - list [ref=e1148]:
+                      - listitem [ref=e1149]:
+                        - generic [ref=e1150]: Privacy & Terms
+                      - listitem [ref=e1151]:
+                        - link "Privacy & Security" [ref=e1152] [cursor=pointer]:
+                          - /url: https://www.jpmorganchase.com/corporate/Home/privacy.htm
+                      - listitem [ref=e1153]:
+                        - link "Terms of Use" [ref=e1154] [cursor=pointer]:
+                          - /url: https://www.jpmorganchase.com/corporate/Home/terms.htm
+                      - listitem [ref=e1155]:
+                        - link "Cookie Policy" [ref=e1156] [cursor=pointer]:
+                          - /url: https://www.jpmorganchase.com/corporate/Home/cookie-policy.htm
+                - cell ". Equal Opportunities Recruitment Scams Warning" [ref=e1157]:
+                  - generic [ref=e1158]:
+                    - heading "." [level=1] [ref=e1159]:
+                      - link "." [ref=e1160] [cursor=pointer]:
+                        - /url: https://careers.jpmorgan.com/us/en/recruitment-scams-warning
+                    - list [ref=e1161]:
+                      - listitem [ref=e1162]
+                      - listitem [ref=e1163]:
+                        - link "Equal Opportunities" [ref=e1164] [cursor=pointer]:
+                          - /url: https://careers.jpmorgan.com/us/en/equal-opportunities
+                      - listitem [ref=e1165]:
+                        - link "Recruitment Scams Warning" [ref=e1166] [cursor=pointer]:
+                          - /url: https://careers.jpmorgan.com/us/en/recruitment-scams-warning
+                - cell ". Useful Links chase.com jpmorganchase.com jpmorgan.com" [ref=e1167]:
+                  - generic [ref=e1168]:
+                    - heading "." [level=1] [ref=e1169]:
+                      - link "." [ref=e1170] [cursor=pointer]:
+                        - /url: https://www.chase.com
+                    - list [ref=e1171]:
+                      - listitem [ref=e1172]:
+                        - generic [ref=e1173]: Useful Links
+                      - listitem [ref=e1174]:
+                        - link "chase.com" [ref=e1175] [cursor=pointer]:
+                          - /url: https://www.chase.com
+                      - listitem [ref=e1176]:
+                        - link "jpmorganchase.com" [ref=e1177] [cursor=pointer]:
+                          - /url: https://www.jpmorganchase.com
+                      - listitem [ref=e1178]:
+                        - link "jpmorgan.com" [ref=e1179] [cursor=pointer]:
+                          - /url: https://www.jpmorgan.com/country/US/en/jpmorgan
+                - cell ". Careers at Chase Careers in the Philippines" [ref=e1180]:
+                  - generic [ref=e1181]:
+                    - heading "." [level=1] [ref=e1182]:
+                      - link "." [ref=e1183] [cursor=pointer]:
+                        - /url: https://www.careersatchase.com/content/index
+                    - list [ref=e1184]:
+                      - listitem [ref=e1185]
+                      - listitem [ref=e1186]:
+                        - link "Careers at Chase" [ref=e1187] [cursor=pointer]:
+                          - /url: https://www.careersatchase.com/content/index
+                      - listitem [ref=e1188]:
+                        - link "Careers in the Philippines" [ref=e1189] [cursor=pointer]:
+                          - /url: https://careers.jpmorgan.com/global/en/about-us/locations/manila
+          - generic [ref=e1191]:
+            - generic [ref=e1192]:
+              - generic [ref=e1193]: © 2024 JPMorgan Chase & Co. All rights reserved.
+              - generic [ref=e1194]: JPMorgan Chase & Co. is an equal opportunity employer and affirmative action employer Disability/Veteran.
+            - paragraph [ref=e1197]:
+              - link "GLOBAL" [ref=e1198] [cursor=pointer]:
+                - /url: https://careers.jpmorgan.com
+              - text: /
+              - link "日本語" [ref=e1199] [cursor=pointer]:
+                - /url: https://careers.jpmorgan.com/jp/ja/home
+              - text: /
+              - link "中文" [ref=e1200] [cursor=pointer]:
+                - /url: https://careers.jpmorgan.com/cn/en/home
+    - dialog "Cookie Consent Message" [ref=e1202]:
+      - article [ref=e1208]:
+        - generic [ref=e1212]:
+          - generic [ref=e1216]:
+            - paragraph [active] [ref=e1218]:
+              - document [ref=e1219]: "IMPORTANT NOTICE: PLEASE READ CAREFULLY BEFORE USING THIS WEBSITE"
+            - link "Privacy Notice" [ref=e1222] [cursor=pointer]:
+              - /url: https://www.jpmorgan.com/privacy
+          - generic [ref=e1229]:
+            - generic [ref=e1230]:
+              - button "Accept" [ref=e1231] [cursor=pointer]:
+                - generic [ref=e1232]: Accept
+              - button "Decline" [ref=e1233] [cursor=pointer]:
+                - generic [ref=e1234]: Decline
+            - button "Manage Preferences" [ref=e1237] [cursor=pointer]
+    - alert
+    - status [ref=e1238]
+    - alert [ref=e1239]
+  - button "Digital Assistant" [ref=e1240] [cursor=pointer]
+  - status [ref=e1242]
+  - status [ref=e1243]
+  - status [ref=e1244]

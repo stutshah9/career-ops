@@ -1,0 +1,829 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: .
+    - generic [ref=e4]: ..
+    - generic [ref=e5]: .
+  - generic [ref=e7]:
+    - link "Skip to main content." [ref=e8] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - banner [ref=e13]:
+          - generic [ref=e17]:
+            - link "Manage profile" [ref=e20] [cursor=pointer]:
+              - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/my-profile/sign-in
+              - generic [ref=e21]: 
+            - button "Open menu" [ref=e23] [cursor=pointer]:
+              - generic [ref=e24]:
+                - emphasis [ref=e25]
+                - emphasis [ref=e26]
+                - emphasis [ref=e27]
+        - main [ref=e29]:
+          - generic [ref=e30]:
+            - heading "Search Jobs - JPMC Candidate Experience page Careers" [level=1] [ref=e31]
+            - generic [ref=e35]:
+              - generic [ref=e39]:
+                - link [ref=e41] [cursor=pointer]:
+                  - /url: https://careers.jpmorgan.com/us/en/home
+                  - img [ref=e42]
+                - search [ref=e44]:
+                  - generic [ref=e45]:
+                    - generic [ref=e46]:
+                      - generic [ref=e48]: Find Jobs
+                      - generic [ref=e49]:
+                        - generic [ref=e50]: Job title, skill, keyword
+                        - combobox "Find Jobs" [ref=e51]: Data Scientist
+                    - generic [ref=e53]:
+                      - button "You've selected the Near Location search mode." [ref=e56] [cursor=pointer]:
+                        - generic [ref=e57]: Near Location
+                        - emphasis [ref=e58]: 
+                      - generic [ref=e59]:
+                        - generic [ref=e60]: City, state, country
+                        - combobox "City, state, country" [ref=e61]
+                  - button "Search for Jobs" [ref=e62] [cursor=pointer]:
+                    - emphasis [ref=e63]: 
+              - generic [ref=e70]:
+                - generic [ref=e74]:
+                  - generic [ref=e75]: Job search results 129
+                  - list [ref=e76]:
+                    - listitem [ref=e77]:
+                      - generic [ref=e78]: 129 Open Jobs
+                    - listitem [ref=e79]
+                    - listitem [ref=e81]:
+                      - button "Categories filter - 0 selected" [ref=e87] [cursor=pointer]:
+                        - generic [ref=e88]: Categories
+                        - emphasis [ref=e89]: 
+                    - listitem [ref=e90]:
+                      - button "Posting Dates filter - 0 selected" [ref=e96] [cursor=pointer]:
+                        - generic [ref=e97]: Posting Dates
+                        - emphasis [ref=e98]: 
+                - generic:
+                  - generic:   
+              - generic [ref=e105]:
+                - button "Sort By Relevance" [ref=e111] [cursor=pointer]:
+                  - generic "Sort By Relevance" [ref=e112]: Relevance
+                  - emphasis [ref=e113]: 
+                  - text: 
+                - list [ref=e114]:
+                  - listitem [ref=e115]:
+                    - generic [ref=e116]:
+                      - link "Data Scientist - Modelling Locations Metro Manila, National Capital Region, Philippines Job Function Data & Analytics Job Family Predictive Science" [ref=e117] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210761174/?keyword=Data+Scientist
+                      - generic [ref=e119]:
+                        - generic [ref=e122]:
+                          - generic [ref=e124]: Data Scientist - Modelling
+                          - list [ref=e127]:
+                            - listitem [ref=e128]:
+                              - img "Locations" [ref=e129]: 
+                              - text: 
+                              - generic [ref=e132]: Metro Manila, National Capital Region, Philippines
+                            - listitem [ref=e133]:
+                              - img "Job Function" [ref=e134]: 
+                              - text: 
+                              - generic [ref=e135]: Data & Analytics
+                            - listitem [ref=e136]:
+                              - img "Job Family" [ref=e137]: 
+                              - text: 
+                              - generic [ref=e138]: Predictive Science
+                        - paragraph [ref=e143]: Bring your expertise to a team that turns complex data into practical, high-impact solution
+                      - generic [ref=e144]:
+                        - button "Copy Link" [ref=e149] [cursor=pointer]:
+                          - emphasis [ref=e150]: 
+                        - button "Add Job to My Job Selections" [ref=e152] [cursor=pointer]: 
+                  - listitem [ref=e153]:
+                    - generic [ref=e154]:
+                      - link "Data Scientist Associate Locations Bengaluru, Karnataka, India Job Function Data & Analytics Job Family Predictive Science" [ref=e155] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210757291/?keyword=Data+Scientist
+                      - generic [ref=e157]:
+                        - generic [ref=e160]:
+                          - generic [ref=e162]: Data Scientist Associate
+                          - list [ref=e165]:
+                            - listitem [ref=e166]:
+                              - img "Locations" [ref=e167]: 
+                              - text: 
+                              - generic [ref=e170]: Bengaluru, Karnataka, India
+                            - listitem [ref=e171]:
+                              - img "Job Function" [ref=e172]: 
+                              - text: 
+                              - generic [ref=e173]: Data & Analytics
+                            - listitem [ref=e174]:
+                              - img "Job Family" [ref=e175]: 
+                              - text: 
+                              - generic [ref=e176]: Predictive Science
+                        - paragraph [ref=e181]: Join JPMorgan Chase’s Cards Data & Analytics team to drive client-focused innovation using data science and business insight.
+                      - generic [ref=e182]:
+                        - button "Copy Link" [ref=e187] [cursor=pointer]:
+                          - emphasis [ref=e188]: 
+                        - button "Add Job to My Job Selections" [ref=e190] [cursor=pointer]: 
+                  - listitem [ref=e191]:
+                    - generic [ref=e192]:
+                      - link "WFP Senior Data Scientist Locations Plano, TX, United States and 2 more Job Function Data & Analytics Job Family Predictive Science" [ref=e193] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210743516/?keyword=Data+Scientist
+                      - generic [ref=e195]:
+                        - generic [ref=e198]:
+                          - generic [ref=e200]: WFP Senior Data Scientist
+                          - list [ref=e203]:
+                            - listitem [ref=e204]:
+                              - img "Locations" [ref=e205]: 
+                              - text: 
+                              - generic [ref=e208]:
+                                - text: Plano, TX, United States
+                                - generic "and 2 more" [ref=e210]:
+                                  - tooltip "Locations,Plano, TX, United States,Columbus, OH, United States,Wilmington, DE, United States" [ref=e212]:
+                                    - generic "Plano, TX, United States,Columbus, OH, United States,Wilmington, DE, United States" [ref=e213]:
+                                      - generic [ref=e214]: and 2 more
+                            - listitem [ref=e215]:
+                              - img "Job Function" [ref=e216]: 
+                              - text: 
+                              - generic [ref=e217]: Data & Analytics
+                            - listitem [ref=e218]:
+                              - img "Job Family" [ref=e219]: 
+                              - text: 
+                              - generic [ref=e220]: Predictive Science
+                        - paragraph [ref=e225]: Workforce Planning Data Scientist develops predictive models and quantitative solutions focused on strategic workforce planning.
+                      - generic [ref=e226]:
+                        - button "Copy Link" [ref=e231] [cursor=pointer]:
+                          - emphasis [ref=e232]: 
+                        - button "Add Job to My Job Selections" [ref=e234] [cursor=pointer]: 
+                  - listitem [ref=e235]:
+                    - generic [ref=e236]:
+                      - link "Data Scientist Director Locations Bengaluru, Karnataka, India Job Function Data & Analytics Job Family Predictive Science" [ref=e237] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210751348/?keyword=Data+Scientist
+                      - generic [ref=e239]:
+                        - generic [ref=e242]:
+                          - generic [ref=e244]: Data Scientist Director
+                          - list [ref=e247]:
+                            - listitem [ref=e248]:
+                              - img "Locations" [ref=e249]: 
+                              - text: 
+                              - generic [ref=e252]: Bengaluru, Karnataka, India
+                            - listitem [ref=e253]:
+                              - img "Job Function" [ref=e254]: 
+                              - text: 
+                              - generic [ref=e255]: Data & Analytics
+                            - listitem [ref=e256]:
+                              - img "Job Family" [ref=e257]: 
+                              - text: 
+                              - generic [ref=e258]: Predictive Science
+                        - paragraph [ref=e263]: Build and scale a Data and AI Center of Excellence delivering trusted AI/ML products and measurable business outcomes
+                      - generic [ref=e264]:
+                        - button "Copy Link" [ref=e269] [cursor=pointer]:
+                          - emphasis [ref=e270]: 
+                        - button "Add Job to My Job Selections" [ref=e272] [cursor=pointer]: 
+                  - listitem [ref=e273]:
+                    - generic [ref=e274]:
+                      - link "Data Scientist Lead Locations LONDON, United Kingdom Job Function Data & Analytics Job Family Predictive Science" [ref=e275] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210719663/?keyword=Data+Scientist
+                      - generic [ref=e277]:
+                        - generic [ref=e280]:
+                          - generic [ref=e282]: Data Scientist Lead
+                          - list [ref=e285]:
+                            - listitem [ref=e286]:
+                              - img "Locations" [ref=e287]: 
+                              - text: 
+                              - generic [ref=e290]: LONDON, United Kingdom
+                            - listitem [ref=e291]:
+                              - img "Job Function" [ref=e292]: 
+                              - text: 
+                              - generic [ref=e293]: Data & Analytics
+                            - listitem [ref=e294]:
+                              - img "Job Family" [ref=e295]: 
+                              - text: 
+                              - generic [ref=e296]: Predictive Science
+                        - paragraph [ref=e301]: We know that people want great value combined with an excellent experience from a bank they can trust, so we launched our digital bank
+                      - generic [ref=e302]:
+                        - button "Copy Link" [ref=e307] [cursor=pointer]:
+                          - emphasis [ref=e308]: 
+                        - button "Add Job to My Job Selections" [ref=e310] [cursor=pointer]: 
+                  - listitem [ref=e311]:
+                    - generic [ref=e312]:
+                      - heading "Talent Network" [level=2] [ref=e313]
+                      - paragraph [ref=e314]: Didn't find the perfect job? Create a profile so we can help
+                      - link "Join the Network" [ref=e316] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/join-talent-community?keyword=Data+Scientist
+                        - generic [ref=e317]: Join the Network
+                  - listitem [ref=e318]:
+                    - generic [ref=e319]:
+                      - link "Data Scientist - Product Locations Metro Manila, National Capital Region, Philippines Job Function Data & Analytics Job Family Predictive Science" [ref=e320] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210754788/?keyword=Data+Scientist
+                      - generic [ref=e322]:
+                        - generic [ref=e325]:
+                          - generic [ref=e327]: Data Scientist - Product
+                          - list [ref=e330]:
+                            - listitem [ref=e331]:
+                              - img "Locations" [ref=e332]: 
+                              - text: 
+                              - generic [ref=e335]: Metro Manila, National Capital Region, Philippines
+                            - listitem [ref=e336]:
+                              - img "Job Function" [ref=e337]: 
+                              - text: 
+                              - generic [ref=e338]: Data & Analytics
+                            - listitem [ref=e339]:
+                              - img "Job Family" [ref=e340]: 
+                              - text: 
+                              - generic [ref=e341]: Predictive Science
+                        - paragraph [ref=e346]: Deliver results by analyzing data, ensuring quality and providing insights that boost efficiency and elevate customer experience.
+                      - generic [ref=e347]:
+                        - button "Copy Link" [ref=e352] [cursor=pointer]:
+                          - emphasis [ref=e353]: 
+                        - button "Add Job to My Job Selections" [ref=e355] [cursor=pointer]: 
+                  - listitem [ref=e356]:
+                    - generic [ref=e357]:
+                      - link "Data Scientist Lead - Payments Locations New York, NY, United States Job Function Data & Analytics Job Family Predictive Science" [ref=e358] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210756307/?keyword=Data+Scientist
+                      - generic [ref=e360]:
+                        - generic [ref=e363]:
+                          - generic [ref=e365]: Data Scientist Lead - Payments
+                          - list [ref=e368]:
+                            - listitem [ref=e369]:
+                              - img "Locations" [ref=e370]: 
+                              - text: 
+                              - generic [ref=e373]: New York, NY, United States
+                            - listitem [ref=e374]:
+                              - img "Job Function" [ref=e375]: 
+                              - text: 
+                              - generic [ref=e376]: Data & Analytics
+                            - listitem [ref=e377]:
+                              - img "Job Family" [ref=e378]: 
+                              - text: 
+                              - generic [ref=e379]: Predictive Science
+                        - paragraph [ref=e384]: Data Science Lead role in JPM Payments Data & Analytics' Merchant Services Cost Insights team at JPMorganChase
+                      - generic [ref=e385]:
+                        - button "Copy Link" [ref=e390] [cursor=pointer]:
+                          - emphasis [ref=e391]: 
+                        - button "Add Job to My Job Selections" [ref=e393] [cursor=pointer]: 
+                  - listitem [ref=e394]:
+                    - generic [ref=e395]:
+                      - link "Data Scientist [Multiple Positions Available] Locations Plano, TX, United States Job Function Data & Analytics Job Family Predictive Science" [ref=e396] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210759051/?keyword=Data+Scientist
+                      - generic [ref=e398]:
+                        - generic [ref=e401]:
+                          - generic [ref=e403]: Data Scientist [Multiple Positions Available]
+                          - list [ref=e406]:
+                            - listitem [ref=e407]:
+                              - img "Locations" [ref=e408]: 
+                              - text: 
+                              - generic [ref=e411]: Plano, TX, United States
+                            - listitem [ref=e412]:
+                              - img "Job Function" [ref=e413]: 
+                              - text: 
+                              - generic [ref=e414]: Data & Analytics
+                            - listitem [ref=e415]:
+                              - img "Job Family" [ref=e416]: 
+                              - text: 
+                              - generic [ref=e417]: Predictive Science
+                        - paragraph [ref=e422]: Develop and interpret queries, including subqueries, CTEs, and hierarchical data queries, while identifying clauses that affect business logic and reporting accuracy.
+                      - generic [ref=e423]:
+                        - button "Copy Link" [ref=e428] [cursor=pointer]:
+                          - emphasis [ref=e429]: 
+                        - button "Add Job to My Job Selections" [ref=e431] [cursor=pointer]: 
+                  - listitem [ref=e432]:
+                    - generic [ref=e433]:
+                      - link "Data Scientist Lead Locations Wilmington, DE, United States and 3 more Job Function Data & Analytics Job Family Predictive Science" [ref=e434] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210743172/?keyword=Data+Scientist
+                      - generic [ref=e436]:
+                        - generic [ref=e439]:
+                          - generic [ref=e441]: Data Scientist Lead
+                          - list [ref=e444]:
+                            - listitem [ref=e445]:
+                              - img "Locations" [ref=e446]: 
+                              - text: 
+                              - generic [ref=e449]:
+                                - text: Wilmington, DE, United States
+                                - generic "and 3 more" [ref=e451]:
+                                  - tooltip "Locations,Wilmington, DE, United States,New York, NY, United States,Plano, TX, United States,Columbus, OH, United States" [ref=e453]:
+                                    - generic "Wilmington, DE, United States,New York, NY, United States,Plano, TX, United States,Columbus, OH, United States" [ref=e454]:
+                                      - generic [ref=e455]: and 3 more
+                            - listitem [ref=e456]:
+                              - img "Job Function" [ref=e457]: 
+                              - text: 
+                              - generic [ref=e458]: Data & Analytics
+                            - listitem [ref=e459]:
+                              - img "Job Family" [ref=e460]: 
+                              - text: 
+                              - generic [ref=e461]: Predictive Science
+                        - paragraph [ref=e466]: This is a unique opportunity to have meaningful impact on a large scale at a leading financial services firm. You'll need to be a strategic, analytical thinker with enough networking skills to become a trusted advisor and thought leader in the marketing space. Along with leveraging your proficiency with modern data science and analytics tools (including the AI suites that can boost your productivity), you'll clearly and concisely articulate data needs, analytical findings, and process improvements in a way that senior leadership finds persuasive.
+                      - generic [ref=e467]:
+                        - button "Copy Link" [ref=e472] [cursor=pointer]:
+                          - emphasis [ref=e473]: 
+                        - button "Add Job to My Job Selections" [ref=e475] [cursor=pointer]: 
+                  - listitem [ref=e476]:
+                    - generic [ref=e477]:
+                      - link "Data Scientist-Senior Associate Locations Plano, TX, United States Job Function Data & Analytics Job Family Predictive Science" [ref=e478] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210747744/?keyword=Data+Scientist
+                      - generic [ref=e480]:
+                        - generic [ref=e483]:
+                          - generic [ref=e485]: Data Scientist-Senior Associate
+                          - list [ref=e488]:
+                            - listitem [ref=e489]:
+                              - img "Locations" [ref=e490]: 
+                              - text: 
+                              - generic [ref=e493]: Plano, TX, United States
+                            - listitem [ref=e494]:
+                              - img "Job Function" [ref=e495]: 
+                              - text: 
+                              - generic [ref=e496]: Data & Analytics
+                            - listitem [ref=e497]:
+                              - img "Job Family" [ref=e498]: 
+                              - text: 
+                              - generic [ref=e499]: Predictive Science
+                        - paragraph [ref=e504]: Build data models and generative AI solutions that improve payment performance through analytics and data products.
+                      - generic [ref=e505]:
+                        - button "Copy Link" [ref=e510] [cursor=pointer]:
+                          - emphasis [ref=e511]: 
+                        - button "Add Job to My Job Selections" [ref=e513] [cursor=pointer]: 
+                  - listitem [ref=e514]:
+                    - generic [ref=e515]:
+                      - link "Data Scientist - Vice President Locations Mc Lean, VA, United States and 1 more Job Function Data & Analytics Job Family Predictive Science" [ref=e516] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210736951/?keyword=Data+Scientist
+                      - generic [ref=e518]:
+                        - generic [ref=e521]:
+                          - generic [ref=e523]: Data Scientist - Vice President
+                          - list [ref=e526]:
+                            - listitem [ref=e527]:
+                              - img "Locations" [ref=e528]: 
+                              - text: 
+                              - generic [ref=e531]:
+                                - text: Mc Lean, VA, United States
+                                - generic "and 1 more" [ref=e533]:
+                                  - tooltip "Locations,Mc Lean, VA, United States,Wilmington, DE, United States" [ref=e535]:
+                                    - generic "Mc Lean, VA, United States,Wilmington, DE, United States" [ref=e536]:
+                                      - generic [ref=e537]: and 1 more
+                            - listitem [ref=e538]:
+                              - img "Job Function" [ref=e539]: 
+                              - text: 
+                              - generic [ref=e540]: Data & Analytics
+                            - listitem [ref=e541]:
+                              - img "Job Family" [ref=e542]: 
+                              - text: 
+                              - generic [ref=e543]: Predictive Science
+                        - paragraph [ref=e548]: Work with cybersecurity engineers and data engineers to acquire data that addresses each use case
+                      - generic [ref=e549]:
+                        - button "Copy Link" [ref=e554] [cursor=pointer]:
+                          - emphasis [ref=e555]: 
+                        - button "Add Job to My Job Selections" [ref=e557] [cursor=pointer]: 
+                  - listitem [ref=e558]:
+                    - generic [ref=e559]:
+                      - link "Data Scientist [Multiple Positions Available] Locations Plano, TX, United States Job Function Data & Analytics Job Family Predictive Science" [ref=e560] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210755968/?keyword=Data+Scientist
+                      - generic [ref=e562]:
+                        - generic [ref=e565]:
+                          - generic [ref=e567]: Data Scientist [Multiple Positions Available]
+                          - list [ref=e570]:
+                            - listitem [ref=e571]:
+                              - img "Locations" [ref=e572]: 
+                              - text: 
+                              - generic [ref=e575]: Plano, TX, United States
+                            - listitem [ref=e576]:
+                              - img "Job Function" [ref=e577]: 
+                              - text: 
+                              - generic [ref=e578]: Data & Analytics
+                            - listitem [ref=e579]:
+                              - img "Job Family" [ref=e580]: 
+                              - text: 
+                              - generic [ref=e581]: Predictive Science
+                        - paragraph [ref=e586]: Build and manage reports, dashboards, and analytical tools using business intelligence platforms to analyze payment data, spearheading migration from on-premises and legacy platforms to modern, cloud-based architectures.
+                      - generic [ref=e587]:
+                        - button "Copy Link" [ref=e592] [cursor=pointer]:
+                          - emphasis [ref=e593]: 
+                        - button "Add Job to My Job Selections" [ref=e595] [cursor=pointer]: 
+                  - listitem [ref=e596]:
+                    - generic [ref=e597]:
+                      - link "Data Scientist [Multiple Positions Available] Locations Plano, TX, United States Job Function Technology Job Family Software Engineering" [ref=e598] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210754899/?keyword=Data+Scientist
+                      - generic [ref=e600]:
+                        - generic [ref=e603]:
+                          - generic [ref=e605]: Data Scientist [Multiple Positions Available]
+                          - list [ref=e608]:
+                            - listitem [ref=e609]:
+                              - img "Locations" [ref=e610]: 
+                              - text: 
+                              - generic [ref=e613]: Plano, TX, United States
+                            - listitem [ref=e614]:
+                              - img "Job Function" [ref=e615]: 
+                              - text: 
+                              - generic [ref=e616]: Technology
+                            - listitem [ref=e617]:
+                              - img "Job Family" [ref=e618]: 
+                              - text: 
+                              - generic [ref=e619]: Software Engineering
+                        - paragraph [ref=e624]: Design and develop machine learning solutions for security platforms.
+                      - generic [ref=e625]:
+                        - button "Copy Link" [ref=e630] [cursor=pointer]:
+                          - emphasis [ref=e631]: 
+                        - button "Add Job to My Job Selections" [ref=e633] [cursor=pointer]: 
+                  - listitem [ref=e634]:
+                    - generic [ref=e635]:
+                      - link "Data Scientist [Multiple Positions Available] Locations Jersey City, NJ, United States Job Function Data & Analytics Job Family Predictive Science" [ref=e636] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210751924/?keyword=Data+Scientist
+                      - generic [ref=e638]:
+                        - generic [ref=e641]:
+                          - generic [ref=e643]: Data Scientist [Multiple Positions Available]
+                          - list [ref=e646]:
+                            - listitem [ref=e647]:
+                              - img "Locations" [ref=e648]: 
+                              - text: 
+                              - generic [ref=e651]: Jersey City, NJ, United States
+                            - listitem [ref=e652]:
+                              - img "Job Function" [ref=e653]: 
+                              - text: 
+                              - generic [ref=e654]: Data & Analytics
+                            - listitem [ref=e655]:
+                              - img "Job Family" [ref=e656]: 
+                              - text: 
+                              - generic [ref=e657]: Predictive Science
+                        - paragraph [ref=e662]: Coordinate initiatives which require the development and deployment of advanced analytical solutions, including model development for the most complex business needs.
+                      - generic [ref=e663]:
+                        - button "Copy Link" [ref=e668] [cursor=pointer]:
+                          - emphasis [ref=e669]: 
+                        - button "Add Job to My Job Selections" [ref=e671] [cursor=pointer]: 
+                  - listitem [ref=e672]:
+                    - generic [ref=e673]:
+                      - link "Data Scientist [Multiple Positions Available] Locations Jersey City, NJ, United States Job Function Data & Analytics Job Family Predictive Science" [ref=e674] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210756313/?keyword=Data+Scientist
+                      - generic [ref=e676]:
+                        - generic [ref=e679]:
+                          - generic [ref=e681]: Data Scientist [Multiple Positions Available]
+                          - list [ref=e684]:
+                            - listitem [ref=e685]:
+                              - img "Locations" [ref=e686]: 
+                              - text: 
+                              - generic [ref=e689]: Jersey City, NJ, United States
+                            - listitem [ref=e690]:
+                              - img "Job Function" [ref=e691]: 
+                              - text: 
+                              - generic [ref=e692]: Data & Analytics
+                            - listitem [ref=e693]:
+                              - img "Job Family" [ref=e694]: 
+                              - text: 
+                              - generic [ref=e695]: Predictive Science
+                        - paragraph [ref=e700]: Build and train production grade machine learning models on large-scale datasets to solve business use cases.
+                      - generic [ref=e701]:
+                        - button "Copy Link" [ref=e706] [cursor=pointer]:
+                          - emphasis [ref=e707]: 
+                        - button "Add Job to My Job Selections" [ref=e709] [cursor=pointer]: 
+                  - listitem [ref=e710]:
+                    - generic [ref=e711]:
+                      - link "Data Scientist [Multiple Positions Available] Locations Tempe, AZ, United States Job Function Data & Analytics Job Family Predictive Science" [ref=e712] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210753893/?keyword=Data+Scientist
+                      - generic [ref=e714]:
+                        - generic [ref=e717]:
+                          - generic [ref=e719]: Data Scientist [Multiple Positions Available]
+                          - list [ref=e722]:
+                            - listitem [ref=e723]:
+                              - img "Locations" [ref=e724]: 
+                              - text: 
+                              - generic [ref=e727]: Tempe, AZ, United States
+                            - listitem [ref=e728]:
+                              - img "Job Function" [ref=e729]: 
+                              - text: 
+                              - generic [ref=e730]: Data & Analytics
+                            - listitem [ref=e731]:
+                              - img "Job Family" [ref=e732]: 
+                              - text: 
+                              - generic [ref=e733]: Predictive Science
+                        - paragraph [ref=e738]: Partner with Product Groups and Lines of Business to assess business drivers and underlying data. Collaborate with business owners to formulate quantifiable goals.
+                      - generic [ref=e739]:
+                        - button "Copy Link" [ref=e744] [cursor=pointer]:
+                          - emphasis [ref=e745]: 
+                        - button "Add Job to My Job Selections" [ref=e747] [cursor=pointer]: 
+                  - listitem [ref=e748]:
+                    - generic [ref=e749]:
+                      - link "Lead Data Scientist - Finance Technology Locations Jersey City, NJ, United States and 1 more Job Function Data & Analytics Job Family Predictive Science" [ref=e750] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210635777/?keyword=Data+Scientist
+                      - generic [ref=e752]:
+                        - generic [ref=e755]:
+                          - generic [ref=e757]: Lead Data Scientist - Finance Technology
+                          - list [ref=e760]:
+                            - listitem [ref=e761]:
+                              - img "Locations" [ref=e762]: 
+                              - text: 
+                              - generic [ref=e765]:
+                                - text: Jersey City, NJ, United States
+                                - generic "and 1 more" [ref=e767]:
+                                  - tooltip "Locations,Jersey City, NJ, United States,Wilmington, DE, United States" [ref=e769]:
+                                    - generic "Jersey City, NJ, United States,Wilmington, DE, United States" [ref=e770]:
+                                      - generic [ref=e771]: and 1 more
+                            - listitem [ref=e772]:
+                              - img "Job Function" [ref=e773]: 
+                              - text: 
+                              - generic [ref=e774]: Data & Analytics
+                            - listitem [ref=e775]:
+                              - img "Job Family" [ref=e776]: 
+                              - text: 
+                              - generic [ref=e777]: Predictive Science
+                        - paragraph [ref=e782]: Join our Finance Technology team to drive AI/ML innovations in finance processes and organizations.
+                      - generic [ref=e783]:
+                        - button "Copy Link" [ref=e788] [cursor=pointer]:
+                          - emphasis [ref=e789]: 
+                        - button "Add Job to My Job Selections" [ref=e791] [cursor=pointer]: 
+                  - listitem [ref=e792]:
+                    - generic [ref=e793]:
+                      - link "CEI Data Scientist Sr Associate Locations New York, NY, United States and 1 more Job Function Data & Analytics Job Family Predictive Science" [ref=e794] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210747015/?keyword=Data+Scientist
+                      - generic [ref=e796]:
+                        - generic [ref=e799]:
+                          - generic [ref=e801]: CEI Data Scientist Sr Associate
+                          - list [ref=e804]:
+                            - listitem [ref=e805]:
+                              - img "Locations" [ref=e806]: 
+                              - text: 
+                              - generic [ref=e809]:
+                                - text: New York, NY, United States
+                                - generic "and 1 more" [ref=e811]:
+                                  - tooltip "Locations,New York, NY, United States,Washington, DC, United States" [ref=e813]:
+                                    - generic "New York, NY, United States,Washington, DC, United States" [ref=e814]:
+                                      - generic [ref=e815]: and 1 more
+                            - listitem [ref=e816]:
+                              - img "Job Function" [ref=e817]: 
+                              - text: 
+                              - generic [ref=e818]: Data & Analytics
+                            - listitem [ref=e819]:
+                              - img "Job Family" [ref=e820]: 
+                              - text: 
+                              - generic [ref=e821]: Predictive Science
+                        - paragraph [ref=e826]: Use advanced data science, analytics, and AI tools to help build the next generation of economic monitoring, reporting, and research at the JPMC Center for Economic Intelligence.
+                      - generic [ref=e827]:
+                        - button "Copy Link" [ref=e832] [cursor=pointer]:
+                          - emphasis [ref=e833]: 
+                        - button "Add Job to My Job Selections" [ref=e835] [cursor=pointer]: 
+                  - listitem [ref=e836]:
+                    - generic [ref=e837]:
+                      - link "Data Scientist [Multiple Positions Available] Locations Plano, TX, United States Job Function Data & Analytics Job Family Predictive Science" [ref=e838] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210753505/?keyword=Data+Scientist
+                      - generic [ref=e840]:
+                        - generic [ref=e843]:
+                          - generic [ref=e845]: Data Scientist [Multiple Positions Available]
+                          - list [ref=e848]:
+                            - listitem [ref=e849]:
+                              - img "Locations" [ref=e850]: 
+                              - text: 
+                              - generic [ref=e853]: Plano, TX, United States
+                            - listitem [ref=e854]:
+                              - img "Job Function" [ref=e855]: 
+                              - text: 
+                              - generic [ref=e856]: Data & Analytics
+                            - listitem [ref=e857]:
+                              - img "Job Family" [ref=e858]: 
+                              - text: 
+                              - generic [ref=e859]: Predictive Science
+                        - paragraph [ref=e864]: Drive the design, build, and implementation of end-to-end data products that systemically publish actionable insights to commercial bankers and their clients.
+                      - generic [ref=e865]:
+                        - button "Copy Link" [ref=e870] [cursor=pointer]:
+                          - emphasis [ref=e871]: 
+                        - button "Add Job to My Job Selections" [ref=e873] [cursor=pointer]: 
+                  - listitem [ref=e874]:
+                    - generic [ref=e875]:
+                      - link "Data Scientist Lead - Vice President Locations Plano, TX, United States Job Function Data & Analytics Job Family Predictive Science" [ref=e876] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210730057/?keyword=Data+Scientist
+                      - generic [ref=e878]:
+                        - generic [ref=e881]:
+                          - generic [ref=e883]: Data Scientist Lead - Vice President
+                          - list [ref=e886]:
+                            - listitem [ref=e887]:
+                              - img "Locations" [ref=e888]: 
+                              - text: 
+                              - generic [ref=e891]: Plano, TX, United States
+                            - listitem [ref=e892]:
+                              - img "Job Function" [ref=e893]: 
+                              - text: 
+                              - generic [ref=e894]: Data & Analytics
+                            - listitem [ref=e895]:
+                              - img "Job Family" [ref=e896]: 
+                              - text: 
+                              - generic [ref=e897]: Predictive Science
+                        - paragraph [ref=e902]: Join a team building secure, scalable, and reliable machine learning solutions that support critical business outcomes.
+                      - generic [ref=e903]:
+                        - button "Copy Link" [ref=e908] [cursor=pointer]:
+                          - emphasis [ref=e909]: 
+                        - button "Add Job to My Job Selections" [ref=e911] [cursor=pointer]: 
+                  - listitem [ref=e912]:
+                    - generic [ref=e913]:
+                      - link "WFP Lead Data Scientist - Vice President Locations Plano, TX, United States and 2 more Job Function Data & Analytics Job Family Predictive Science" [ref=e914] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210689616/?keyword=Data+Scientist
+                      - generic [ref=e916]:
+                        - generic [ref=e919]:
+                          - generic [ref=e921]: WFP Lead Data Scientist - Vice President
+                          - list [ref=e924]:
+                            - listitem [ref=e925]:
+                              - img "Locations" [ref=e926]: 
+                              - text: 
+                              - generic [ref=e929]:
+                                - text: Plano, TX, United States
+                                - generic "and 2 more" [ref=e931]:
+                                  - tooltip "Locations,Plano, TX, United States,Wilmington, DE, United States,Columbus, OH, United States" [ref=e933]:
+                                    - generic "Plano, TX, United States,Wilmington, DE, United States,Columbus, OH, United States" [ref=e934]:
+                                      - generic [ref=e935]: and 2 more
+                            - listitem [ref=e936]:
+                              - img "Job Function" [ref=e937]: 
+                              - text: 
+                              - generic [ref=e938]: Data & Analytics
+                            - listitem [ref=e939]:
+                              - img "Job Family" [ref=e940]: 
+                              - text: 
+                              - generic [ref=e941]: Predictive Science
+                        - paragraph [ref=e946]: The Workforce Planning (WFP) Data Science organization is tasked with delivering quantitatively driven solutions.
+                      - generic [ref=e947]:
+                        - button "Copy Link" [ref=e952] [cursor=pointer]:
+                          - emphasis [ref=e953]: 
+                        - button "Add Job to My Job Selections" [ref=e955] [cursor=pointer]: 
+                  - listitem [ref=e956]:
+                    - generic [ref=e957]:
+                      - link "Finance Decision Optimization - Data Scientist Lead Locations Columbus, OH, United States Job Function Data & Analytics Job Family Predictive Science" [ref=e958] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210741697/?keyword=Data+Scientist
+                      - generic [ref=e960]:
+                        - generic [ref=e963]:
+                          - generic [ref=e965]: Finance Decision Optimization - Data Scientist Lead
+                          - list [ref=e968]:
+                            - listitem [ref=e969]:
+                              - img "Locations" [ref=e970]: 
+                              - text: 
+                              - generic [ref=e973]: Columbus, OH, United States
+                            - listitem [ref=e974]:
+                              - img "Job Function" [ref=e975]: 
+                              - text: 
+                              - generic [ref=e976]: Data & Analytics
+                            - listitem [ref=e977]:
+                              - img "Job Family" [ref=e978]: 
+                              - text: 
+                              - generic [ref=e979]: Predictive Science
+                        - paragraph [ref=e984]: Work end-to-end—from partnering with stakeholders to define data/model requirements, to building data pipelines, developing predictive and optimization routines, and packaging Python-based ML/AI solutions into executable modules for prototype QA testing and production deployment.
+                      - generic [ref=e985]:
+                        - button "Copy Link" [ref=e990] [cursor=pointer]:
+                          - emphasis [ref=e991]: 
+                        - button "Add Job to My Job Selections" [ref=e993] [cursor=pointer]: 
+                  - listitem [ref=e994]:
+                    - generic [ref=e995]:
+                      - link "Risk Management & Compliance - Data Scientist Lead, Executive Director Locations Jersey City, NJ, United States Job Function Data & Analytics Job Family Predictive Science" [ref=e996] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210678829/?keyword=Data+Scientist
+                      - generic [ref=e998]:
+                        - generic [ref=e1001]:
+                          - generic [ref=e1003]: Risk Management & Compliance - Data Scientist Lead, Executive Director
+                          - list [ref=e1006]:
+                            - listitem [ref=e1007]:
+                              - img "Locations" [ref=e1008]: 
+                              - text: 
+                              - generic [ref=e1011]: Jersey City, NJ, United States
+                            - listitem [ref=e1012]:
+                              - img "Job Function" [ref=e1013]: 
+                              - text: 
+                              - generic [ref=e1014]: Data & Analytics
+                            - listitem [ref=e1015]:
+                              - img "Job Family" [ref=e1016]: 
+                              - text: 
+                              - generic [ref=e1017]: Predictive Science
+                        - paragraph [ref=e1022]: Lead AI Innovation in Risk Management & Compliance - shape strategy and drive GenAI solutions!
+                      - generic [ref=e1023]:
+                        - button "Copy Link" [ref=e1028] [cursor=pointer]:
+                          - emphasis [ref=e1029]: 
+                        - button "Add Job to My Job Selections" [ref=e1031] [cursor=pointer]: 
+                  - listitem [ref=e1032]:
+                    - generic [ref=e1033]:
+                      - link "Business Banking - Data Scientist [Multiple Positions Available] Locations Plano, TX, United States Job Function Data & Analytics Job Family Predictive Science" [ref=e1034] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210752162/?keyword=Data+Scientist
+                      - generic [ref=e1036]:
+                        - generic [ref=e1039]:
+                          - generic [ref=e1041]: Business Banking - Data Scientist [Multiple Positions Available]
+                          - list [ref=e1044]:
+                            - listitem [ref=e1045]:
+                              - img "Locations" [ref=e1046]: 
+                              - text: 
+                              - generic [ref=e1049]: Plano, TX, United States
+                            - listitem [ref=e1050]:
+                              - img "Job Function" [ref=e1051]: 
+                              - text: 
+                              - generic [ref=e1052]: Data & Analytics
+                            - listitem [ref=e1053]:
+                              - img "Job Family" [ref=e1054]: 
+                              - text: 
+                              - generic [ref=e1055]: Predictive Science
+                        - paragraph [ref=e1060]: Analyze and interpret data sets to support strategic initiatives and financial planning.
+                      - generic [ref=e1061]:
+                        - button "Copy Link" [ref=e1066] [cursor=pointer]:
+                          - emphasis [ref=e1067]: 
+                        - button "Add Job to My Job Selections" [ref=e1069] [cursor=pointer]: 
+                  - listitem [ref=e1070]:
+                    - generic [ref=e1071]:
+                      - link "Data Scientist Senior Associate - Applied AI ML Locations Bengaluru, Karnataka, India Job Function Data & Analytics Job Family Predictive Science" [ref=e1072] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210734536/?keyword=Data+Scientist
+                      - generic [ref=e1074]:
+                        - generic [ref=e1077]:
+                          - generic [ref=e1079]: Data Scientist Senior Associate - Applied AI ML
+                          - list [ref=e1082]:
+                            - listitem [ref=e1083]:
+                              - img "Locations" [ref=e1084]: 
+                              - text: 
+                              - generic [ref=e1087]: Bengaluru, Karnataka, India
+                            - listitem [ref=e1088]:
+                              - img "Job Function" [ref=e1089]: 
+                              - text: 
+                              - generic [ref=e1090]: Data & Analytics
+                            - listitem [ref=e1091]:
+                              - img "Job Family" [ref=e1092]: 
+                              - text: 
+                              - generic [ref=e1093]: Predictive Science
+                        - paragraph [ref=e1098]: Promote innovation by designing and deploying advanced intelligence solutions that solve complex real world business challenges.
+                      - generic [ref=e1099]:
+                        - button "Copy Link" [ref=e1104] [cursor=pointer]:
+                          - emphasis [ref=e1105]: 
+                        - button "Add Job to My Job Selections" [ref=e1107] [cursor=pointer]: 
+      - contentinfo [ref=e1108]:
+        - generic [ref=e1109]:
+          - table [ref=e1111]:
+            - rowgroup [ref=e1112]:
+              - row ". Privacy & Terms Privacy & Security Terms of Use Cookie Policy . Equal Opportunities Recruitment Scams Warning . Useful Links chase.com jpmorganchase.com jpmorgan.com . Careers at Chase Careers in the Philippines" [ref=e1113]:
+                - cell ". Privacy & Terms Privacy & Security Terms of Use Cookie Policy" [ref=e1114]:
+                  - generic [ref=e1115]:
+                    - heading "." [level=1] [ref=e1116]:
+                      - link "." [ref=e1117] [cursor=pointer]:
+                        - /url: https://www.jpmorganchase.com/corporate/Home/privacy.htm
+                    - list [ref=e1118]:
+                      - listitem [ref=e1119]:
+                        - generic [ref=e1120]: Privacy & Terms
+                      - listitem [ref=e1121]:
+                        - link "Privacy & Security" [ref=e1122] [cursor=pointer]:
+                          - /url: https://www.jpmorganchase.com/corporate/Home/privacy.htm
+                      - listitem [ref=e1123]:
+                        - link "Terms of Use" [ref=e1124] [cursor=pointer]:
+                          - /url: https://www.jpmorganchase.com/corporate/Home/terms.htm
+                      - listitem [ref=e1125]:
+                        - link "Cookie Policy" [ref=e1126] [cursor=pointer]:
+                          - /url: https://www.jpmorganchase.com/corporate/Home/cookie-policy.htm
+                - cell ". Equal Opportunities Recruitment Scams Warning" [ref=e1127]:
+                  - generic [ref=e1128]:
+                    - heading "." [level=1] [ref=e1129]:
+                      - link "." [ref=e1130] [cursor=pointer]:
+                        - /url: https://careers.jpmorgan.com/us/en/recruitment-scams-warning
+                    - list [ref=e1131]:
+                      - listitem [ref=e1132]
+                      - listitem [ref=e1133]:
+                        - link "Equal Opportunities" [ref=e1134] [cursor=pointer]:
+                          - /url: https://careers.jpmorgan.com/us/en/equal-opportunities
+                      - listitem [ref=e1135]:
+                        - link "Recruitment Scams Warning" [ref=e1136] [cursor=pointer]:
+                          - /url: https://careers.jpmorgan.com/us/en/recruitment-scams-warning
+                - cell ". Useful Links chase.com jpmorganchase.com jpmorgan.com" [ref=e1137]:
+                  - generic [ref=e1138]:
+                    - heading "." [level=1] [ref=e1139]:
+                      - link "." [ref=e1140] [cursor=pointer]:
+                        - /url: https://www.chase.com
+                    - list [ref=e1141]:
+                      - listitem [ref=e1142]:
+                        - generic [ref=e1143]: Useful Links
+                      - listitem [ref=e1144]:
+                        - link "chase.com" [ref=e1145] [cursor=pointer]:
+                          - /url: https://www.chase.com
+                      - listitem [ref=e1146]:
+                        - link "jpmorganchase.com" [ref=e1147] [cursor=pointer]:
+                          - /url: https://www.jpmorganchase.com
+                      - listitem [ref=e1148]:
+                        - link "jpmorgan.com" [ref=e1149] [cursor=pointer]:
+                          - /url: https://www.jpmorgan.com/country/US/en/jpmorgan
+                - cell ". Careers at Chase Careers in the Philippines" [ref=e1150]:
+                  - generic [ref=e1151]:
+                    - heading "." [level=1] [ref=e1152]:
+                      - link "." [ref=e1153] [cursor=pointer]:
+                        - /url: https://www.careersatchase.com/content/index
+                    - list [ref=e1154]:
+                      - listitem [ref=e1155]
+                      - listitem [ref=e1156]:
+                        - link "Careers at Chase" [ref=e1157] [cursor=pointer]:
+                          - /url: https://www.careersatchase.com/content/index
+                      - listitem [ref=e1158]:
+                        - link "Careers in the Philippines" [ref=e1159] [cursor=pointer]:
+                          - /url: https://careers.jpmorgan.com/global/en/about-us/locations/manila
+          - generic [ref=e1161]:
+            - generic [ref=e1162]:
+              - generic [ref=e1163]: © 2024 JPMorgan Chase & Co. All rights reserved.
+              - generic [ref=e1164]: JPMorgan Chase & Co. is an equal opportunity employer and affirmative action employer Disability/Veteran.
+            - paragraph [ref=e1167]:
+              - link "GLOBAL" [ref=e1168] [cursor=pointer]:
+                - /url: https://careers.jpmorgan.com
+              - text: /
+              - link "日本語" [ref=e1169] [cursor=pointer]:
+                - /url: https://careers.jpmorgan.com/jp/ja/home
+              - text: /
+              - link "中文" [ref=e1170] [cursor=pointer]:
+                - /url: https://careers.jpmorgan.com/cn/en/home
+    - dialog "Cookie Consent Message" [ref=e1172]:
+      - article [ref=e1178]:
+        - generic [ref=e1182]:
+          - generic [ref=e1186]:
+            - paragraph [ref=e1188]:
+              - document [ref=e1189]: "IMPORTANT NOTICE: PLEASE READ CAREFULLY BEFORE USING THIS WEBSITE"
+            - link "Privacy Notice" [ref=e1192] [cursor=pointer]:
+              - /url: https://www.jpmorgan.com/privacy
+          - generic [ref=e1199]:
+            - generic [ref=e1200]:
+              - button "Accept" [ref=e1201] [cursor=pointer]:
+                - generic [ref=e1202]: Accept
+              - button "Decline" [ref=e1203] [cursor=pointer]:
+                - generic [ref=e1204]: Decline
+            - button "Manage Preferences" [ref=e1207] [cursor=pointer]
+    - alert
+    - status [ref=e1208]
+    - alert [ref=e1209]
+  - button "Digital Assistant" [ref=e1210] [cursor=pointer]
+  - status [ref=e1212]
+  - status [ref=e1213]
+  - status [ref=e1214]

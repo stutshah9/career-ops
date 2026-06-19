@@ -1,0 +1,9 @@
+[     154ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://dc.services.visualstudio.com/v2/track:0
+[     745ms] [LOG] ipGeolocation Blacksburg, Virginia, US @ https://apply.careers.microsoft.com/gen/js/pcsxPwa.bb1b0b9a68447254df90.js:8
+[     745ms] [LOG] ipGeolocationLatLong 37.2532,-80.4347 @ https://apply.careers.microsoft.com/gen/js/pcsxPwa.bb1b0b9a68447254df90.js:8
+[    1282ms] [LOG] i18next: languageChanged en_us @ https://cdn.careers.microsoft.com/aem/main.b1fb98162c4cd0025016.js:64
+[    1282ms] [LOG] i18next: initialized {debug: true, initImmediate: true, ns: Array(1), defaultNS: Array(1), fallbackLng: Array(1)} @ https://cdn.careers.microsoft.com/aem/main.b1fb98162c4cd0025016.js:64
+[    1296ms] [LOG] i18next: languageChanged en_us @ https://cdn.careers.microsoft.com/aem/main.b1fb98162c4cd0025016.js:64
+[    1320ms] [LOG] i18next: languageChanged en_us @ https://cdn.careers.microsoft.com/aem/main.b1fb98162c4cd0025016.js:64
+[    1359ms] [WARNING] WARNING: OfficeBrowserFeedback is no longer supporting the host application setting the styles for the surveys. 
+			Please use the default styling. @ https://cdn.careers.microsoft.com/static/scripts/officebrowserfeedback_floodgate.min.js:1

@@ -1,0 +1,385 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "Skip to main content" [ref=e4] [cursor=pointer]:
+      - /url: "#main-content"
+    - main [ref=e5]:
+      - generic [ref=e8]:
+        - generic [ref=e15]:
+          - generic [ref=e17]:
+            - generic [ref=e18]:
+              - text: 
+              - link "Walmart Careers Logo" [ref=e19] [cursor=pointer]:
+                - /url: /us/en/home
+                - img "Walmart Careers Logo" [ref=e20]
+            - generic [ref=e23]:
+              - button "Career areas" [ref=e24] [cursor=pointer]: Career areas Career areas
+              - button "Brands" [ref=e25] [cursor=pointer]: Brands Brands
+              - button "Resources" [ref=e26] [cursor=pointer]: Resources Resources
+              - button "About Us" [ref=e27] [cursor=pointer]: About Us About Us
+              - link "Military" [ref=e28] [cursor=pointer]:
+                - /url: /content/careers/us/en/home/careers-areas/Military
+          - generic [ref=e29]:
+            - search [ref=e35]:
+              - textbox "Search by team, department, keyword" [ref=e37]
+              - button "Search icon" [ref=e38] [cursor=pointer]:
+                - img [ref=e39]
+            - button "User Account Icon" [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - button "Go back" [ref=e51] [cursor=pointer]:
+              - img [ref=e52]
+              - generic [ref=e54]: Go back
+            - generic [ref=e55]:
+              - button "Chat" [ref=e57] [cursor=pointer]:
+                - generic [ref=e58]:
+                  - img [ref=e59]
+                  - generic [ref=e66]: Chat
+                - img [ref=e67]
+              - generic [ref=e69]:
+                - generic [ref=e72]:
+                  - generic:
+                    - button "Keyboard shortcuts"
+                  - region "Map" [ref=e314]
+                  - generic [ref=e315]:
+                    - generic [ref=e335]:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - button "KETCHIKAN" [ref=e377] [cursor=pointer]:
+                              - generic [ref=e378]:
+                                - img [ref=e379]
+                                - generic [ref=e384]: "6"
+                            - button "4666" [ref=e385] [cursor=pointer]:
+                              - generic [ref=e389]: "4666"
+                            - button "716" [ref=e390] [cursor=pointer]:
+                              - generic [ref=e394]: "716"
+                            - button "12" [ref=e395] [cursor=pointer]:
+                              - generic [ref=e399]: "12"
+                            - button "26" [ref=e400] [cursor=pointer]:
+                              - generic [ref=e404]: "26"
+                            - button "8" [ref=e405] [cursor=pointer]:
+                              - generic [ref=e409]: "8"
+                    - iframe [ref=e337]:
+                      
+                    - link "Open this area in Google Maps (opens a new window)" [ref=e339] [cursor=pointer]:
+                      - /url: https://maps.google.com/maps?ll=42.117204,-112.519664&z=1&t=m&hl=en-GB&gl=US&mapclient=apiv3
+                      - img "Google" [ref=e341]
+                    - generic [ref=e342]:
+                      - button "Keyboard shortcuts" [ref=e348] [cursor=pointer]
+                      - generic [ref=e353]: Map data ©2026
+                      - link "Terms (opens in new tab)" [ref=e358] [cursor=pointer]:
+                        - /url: https://www.google.com/intl/en-GB_US/help/terms_maps.html
+                        - text: Terms
+                - button "Location focus" [ref=e84] [cursor=pointer]:
+                  - img "Expand Map Icon" [ref=e86]
+                - generic [ref=e87]:
+                  - button "Zoom in" [ref=e88] [cursor=pointer]:
+                    - generic [ref=e89]: 
+                  - separator [ref=e90]
+                  - button "Zoom out" [ref=e91] [cursor=pointer]:
+                    - generic [ref=e92]: 
+          - generic [ref=e93]:
+            - navigation [ref=e96]:
+              - list [ref=e97]:
+                - listitem [ref=e98]:
+                  - link "Open roles 39,841" [ref=e410] [cursor=pointer]:
+                    - /url: ""
+                    - generic [ref=e100]: Open roles
+                    - generic [ref=e412]: 39,841
+                - listitem [ref=e101]:
+                  - link "Future roles 282,173" [ref=e413] [cursor=pointer]:
+                    - /url: ""
+                    - generic [ref=e103]: Future roles
+                    - generic [ref=e415]: 282,173
+                - listitem [ref=e104]:
+                  - link "Content 36" [ref=e416] [cursor=pointer]:
+                    - /url: ""
+                    - generic [ref=e106]: Content
+                    - generic [ref=e418]: "36"
+            - generic [ref=e107]:
+              - generic [ref=e419]:
+                - heading "39,841 open roles" [level=1] [ref=e420]
+                - button "Add your location" [ref=e422] [cursor=pointer]:
+                  - generic [ref=e423]:
+                    - img [ref=e424]
+                    - generic [ref=e427]: Add your location
+              - generic [ref=e111]:
+                - button "Filters" [ref=e114] [cursor=pointer]:
+                  - img [ref=e115]
+                  - generic [ref=e117]: Filters
+                - button "Sort byRelevance" [ref=e119] [cursor=pointer]:
+                  - generic "Sort byRelevance" [ref=e120]:
+                    - generic [ref=e121]:
+                      - generic [ref=e122]: "Sort by:"
+                      - paragraph [ref=e123]: Relevance
+                    - img [ref=e124]
+              - generic [ref=e428]:
+                - generic [ref=e429]:
+                  - 'link "Walmart logo eCom Warehouse Worker eComm Whse Logistics #9046 Marcy, NY 13403-3030 Weekend Overnight • $21.35 - $24.85/hr Select eCom Warehouse Worker" [ref=e431] [cursor=pointer]':
+                    - generic [ref=e432]:
+                      - img "Walmart logo" [ref=e433]
+                      - generic [ref=e435]:
+                        - generic [ref=e436]: eCom Warehouse Worker
+                        - generic [ref=e437]: "eComm Whse Logistics #9046"
+                      - generic [ref=e438]:
+                        - generic [ref=e439]:
+                          - generic [ref=e440]: Marcy, NY
+                          - generic [ref=e441]: 13403-3030
+                        - generic [ref=e442]: Weekend Overnight • $21.35 - $24.85/hr
+                    - button "Select eCom Warehouse Worker" [ref=e444]:
+                      - generic [ref=e445]: Select
+                      - generic [ref=e447]: 
+                  - 'link "Walmart logo Freight Handler eComm Whse Logistics #9054 Porterville, CA 93257-5969 Weekend Overnight • $21.80 - $25.30/hr Select Freight Handler" [ref=e449] [cursor=pointer]':
+                    - generic [ref=e450]:
+                      - img "Walmart logo" [ref=e451]
+                      - generic [ref=e453]:
+                        - generic [ref=e454]: Freight Handler
+                        - generic [ref=e455]: "eComm Whse Logistics #9054"
+                      - generic [ref=e456]:
+                        - generic [ref=e457]:
+                          - generic [ref=e458]: Porterville, CA
+                          - generic [ref=e459]: 93257-5969
+                        - generic [ref=e460]: Weekend Overnight • $21.80 - $25.30/hr
+                    - button "Select Freight Handler" [ref=e462]:
+                      - generic [ref=e463]: Select
+                      - generic [ref=e465]: 
+                  - 'link "Walmart logo Freight Handler eComm Whse Logistics #9399 Plainview, TX 79072-3308 Weekend Evening • $18.50 - $22.00/hr Select Freight Handler" [ref=e467] [cursor=pointer]':
+                    - generic [ref=e468]:
+                      - img "Walmart logo" [ref=e469]
+                      - generic [ref=e471]:
+                        - generic [ref=e472]: Freight Handler
+                        - generic [ref=e473]: "eComm Whse Logistics #9399"
+                      - generic [ref=e474]:
+                        - generic [ref=e475]:
+                          - generic [ref=e476]: Plainview, TX
+                          - generic [ref=e477]: 79072-3308
+                        - generic [ref=e478]: Weekend Evening • $18.50 - $22.00/hr
+                    - button "Select Freight Handler" [ref=e480]:
+                      - generic [ref=e481]: Select
+                      - generic [ref=e483]: 
+                  - 'link "Walmart logo eCom Warehouse Worker eComm Whse Logistics #9396 Sanger, TX 76266-3248 Weekday Overnight • $20.20 - $23.70/hr Select eCom Warehouse Worker" [ref=e485] [cursor=pointer]':
+                    - generic [ref=e486]:
+                      - img "Walmart logo" [ref=e487]
+                      - generic [ref=e489]:
+                        - generic [ref=e490]: eCom Warehouse Worker
+                        - generic [ref=e491]: "eComm Whse Logistics #9396"
+                      - generic [ref=e492]:
+                        - generic [ref=e493]:
+                          - generic [ref=e494]: Sanger, TX
+                          - generic [ref=e495]: 76266-3248
+                        - generic [ref=e496]: Weekday Overnight • $20.20 - $23.70/hr
+                    - button "Select eCom Warehouse Worker" [ref=e498]:
+                      - generic [ref=e499]: Select
+                      - generic [ref=e501]: 
+                  - 'link "Walmart logo eCom Warehouse Worker eComm Whse Logistics #9438 Grantsville, UT 84029-9711 Weekday Overnight • $21.50 - $25.00/hr Select eCom Warehouse Worker" [ref=e503] [cursor=pointer]':
+                    - generic [ref=e504]:
+                      - img "Walmart logo" [ref=e505]
+                      - generic [ref=e507]:
+                        - generic [ref=e508]: eCom Warehouse Worker
+                        - generic [ref=e509]: "eComm Whse Logistics #9438"
+                      - generic [ref=e510]:
+                        - generic [ref=e511]:
+                          - generic [ref=e512]: Grantsville, UT
+                          - generic [ref=e513]: 84029-9711
+                        - generic [ref=e514]: Weekday Overnight • $21.50 - $25.00/hr
+                    - button "Select eCom Warehouse Worker" [ref=e516]:
+                      - generic [ref=e517]: Select
+                      - generic [ref=e519]: 
+                  - 'link "Walmart logo Fashion Team Associate WM Supercenter #4153 Old Bridge, NJ 08857-3798 Multiple shifts • $16.50 - $29.50/hr Select Fashion Team Associate" [ref=e521] [cursor=pointer]':
+                    - generic [ref=e522]:
+                      - img "Walmart logo" [ref=e523]
+                      - generic [ref=e525]:
+                        - generic [ref=e526]: Fashion Team Associate
+                        - generic [ref=e527]: "WM Supercenter #4153"
+                      - generic [ref=e528]:
+                        - generic [ref=e529]:
+                          - generic [ref=e530]: Old Bridge, NJ
+                          - generic [ref=e531]: 08857-3798
+                        - generic [ref=e532]: Multiple shifts • $16.50 - $29.50/hr
+                    - button "Select Fashion Team Associate" [ref=e534]:
+                      - generic [ref=e535]: Select
+                      - generic [ref=e537]: 
+                  - 'link "Walmart logo Online Order Filling Team Associate Neighborhood Market #4141 Largo, FL 33771-3820 Multiple shifts • $14.00 - $27.00/hr Select Online Order Filling Team Associate" [ref=e539] [cursor=pointer]':
+                    - generic [ref=e540]:
+                      - img "Walmart logo" [ref=e541]
+                      - generic [ref=e543]:
+                        - generic [ref=e544]: Online Order Filling Team Associate
+                        - generic [ref=e545]: "Neighborhood Market #4141"
+                      - generic [ref=e546]:
+                        - generic [ref=e547]:
+                          - generic [ref=e548]: Largo, FL
+                          - generic [ref=e549]: 33771-3820
+                        - generic [ref=e550]: Multiple shifts • $14.00 - $27.00/hr
+                    - button "Select Online Order Filling Team Associate" [ref=e552]:
+                      - generic [ref=e553]: Select
+                      - generic [ref=e555]: 
+                  - 'link "Walmart logo Deli/Bakery Team Associate WM Supercenter #4257 Austin, MN 55912-1853 Multiple shifts • $17.00 - $30.00/hr Select Deli/Bakery Team Associate" [ref=e557] [cursor=pointer]':
+                    - generic [ref=e558]:
+                      - img "Walmart logo" [ref=e559]
+                      - generic [ref=e561]:
+                        - generic [ref=e562]: Deli/Bakery Team Associate
+                        - generic [ref=e563]: "WM Supercenter #4257"
+                      - generic [ref=e564]:
+                        - generic [ref=e565]:
+                          - generic [ref=e566]: Austin, MN
+                          - generic [ref=e567]: 55912-1853
+                        - generic [ref=e568]: Multiple shifts • $17.00 - $30.00/hr
+                    - button "Select Deli/Bakery Team Associate" [ref=e570]:
+                      - generic [ref=e571]: Select
+                      - generic [ref=e573]: 
+                  - 'link "Walmart logo Checkout Team Associate WM Supercenter #4501 West Brownsville, PA 15417-8303 Multiple shifts • $14.00 - $27.00/hr Select Checkout Team Associate" [ref=e575] [cursor=pointer]':
+                    - generic [ref=e576]:
+                      - img "Walmart logo" [ref=e577]
+                      - generic [ref=e579]:
+                        - generic [ref=e580]: Checkout Team Associate
+                        - generic [ref=e581]: "WM Supercenter #4501"
+                      - generic [ref=e582]:
+                        - generic [ref=e583]:
+                          - generic [ref=e584]: West Brownsville, PA
+                          - generic [ref=e585]: 15417-8303
+                        - generic [ref=e586]: Multiple shifts • $14.00 - $27.00/hr
+                    - button "Select Checkout Team Associate" [ref=e588]:
+                      - generic [ref=e589]: Select
+                      - generic [ref=e591]: 
+                  - 'link "Walmart logo Certified Pharmacy Technician Neighborhood Market #4530 Savannah, GA 31419-1140 Multiple shifts • $21.50 - $34.50/hr Select Certified Pharmacy Technician" [ref=e593] [cursor=pointer]':
+                    - generic [ref=e594]:
+                      - img "Walmart logo" [ref=e595]
+                      - generic [ref=e597]:
+                        - generic [ref=e598]: Certified Pharmacy Technician
+                        - generic [ref=e599]: "Neighborhood Market #4530"
+                      - generic [ref=e600]:
+                        - generic [ref=e601]:
+                          - generic [ref=e602]: Savannah, GA
+                          - generic [ref=e603]: 31419-1140
+                        - generic [ref=e604]: Multiple shifts • $21.50 - $34.50/hr
+                    - button "Select Certified Pharmacy Technician" [ref=e606]:
+                      - generic [ref=e607]: Select
+                      - generic [ref=e609]: 
+                - generic [ref=e612]:
+                  - button "Show me page number 1" [ref=e613] [cursor=pointer]: "1"
+                  - button "Show me page number 2" [ref=e614] [cursor=pointer]: "2"
+                  - button "Show me page number 3" [ref=e615] [cursor=pointer]: "3"
+                  - button "Show me page number 4" [ref=e616] [cursor=pointer]: "4"
+                  - generic [ref=e617]: ...
+                  - button "Show me page number 3985" [ref=e618] [cursor=pointer]: "3985"
+                  - button "Next page" [ref=e619] [cursor=pointer]:
+                    - img [ref=e620]
+        - generic [ref=e190]:
+          - generic [ref=e192]:
+            - generic [ref=e193]:
+              - heading "Careers" [level=2] [ref=e194]
+              - list [ref=e195]:
+                - listitem [ref=e196]:
+                  - link "Stores and Clubs" [ref=e198] [cursor=pointer]:
+                    - /url: /content/careers/us/en/home/careers-areas/stores-and-clubs
+                - listitem [ref=e200]:
+                  - link "Supply Chain and Transportation" [ref=e202] [cursor=pointer]:
+                    - /url: /content/careers/us/en/home/careers-areas/supply-chain-and-transportation
+                - listitem [ref=e204]:
+                  - link "Healthcare" [ref=e206] [cursor=pointer]:
+                    - /url: /content/careers/us/en/home/careers-areas/healthcare
+                - listitem [ref=e208]:
+                  - link "Technology" [ref=e210] [cursor=pointer]:
+                    - /url: /content/careers/us/en/home/careers-areas/technology
+                - listitem [ref=e212]:
+                  - link "Corporate" [ref=e214] [cursor=pointer]:
+                    - /url: /content/careers/us/en/home/careers-areas/corporate
+            - generic [ref=e216]:
+              - heading "Brands" [level=2] [ref=e217]
+              - list [ref=e218]:
+                - listitem [ref=e219]:
+                  - link "Walmart" [ref=e221] [cursor=pointer]:
+                    - /url: /content/careers/us/en/home
+                - listitem [ref=e223]:
+                  - link "Sam's Club" [ref=e225] [cursor=pointer]:
+                    - /url: /content/careers/us/en/sams-home
+                - listitem [ref=e227]:
+                  - link "VIZIO" [ref=e229] [cursor=pointer]:
+                    - /url: /content/careers/us/en/home/vizio
+            - generic [ref=e231]:
+              - heading "Resources" [level=2] [ref=e232]
+              - list [ref=e233]:
+                - listitem [ref=e234]:
+                  - link "How we hire" [ref=e236] [cursor=pointer]:
+                    - /url: /content/careers/us/en/home/resources/hiring-process
+                - listitem [ref=e238]:
+                  - link "Office Locations" [ref=e240] [cursor=pointer]:
+                    - /url: /content/careers/us/en/home/resources/location
+            - generic [ref=e242]:
+              - heading "About" [level=2] [ref=e243]
+              - list [ref=e244]:
+                - listitem [ref=e245]:
+                  - generic [ref=e246]:
+                    - link "Benefits" [ref=e247] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/about/working-at-walmart
+                    - link "Benefits" [ref=e249] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/about/working-at-walmart
+                      - img [ref=e250]
+                - listitem [ref=e253]:
+                  - generic [ref=e254]:
+                    - link "Belonging" [ref=e255] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/purpose/belonging
+                    - link "Belonging" [ref=e257] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/purpose/belonging
+                      - img [ref=e258]
+                - listitem [ref=e261]:
+                  - generic [ref=e262]:
+                    - link "Sustainability" [ref=e263] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/purpose/sustainability
+                    - link "Sustainability" [ref=e265] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/purpose/sustainability
+                      - img [ref=e266]
+                - listitem [ref=e269]:
+                  - generic [ref=e270]:
+                    - link "News" [ref=e271] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/content/corporate/en_us/news.html
+                    - link "News" [ref=e273] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/content/corporate/en_us/news.html
+                      - img [ref=e274]
+                - listitem [ref=e277]:
+                  - generic [ref=e278]:
+                    - link "History" [ref=e279] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/about/walmart-museum
+                    - link "History" [ref=e281] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/about/walmart-museum
+                      - img [ref=e282]
+          - generic [ref=e285]:
+            - link "social" [ref=e286] [cursor=pointer]:
+              - /url: https://www.facebook.com/WalmartWorld
+              - img [ref=e287]
+            - link "social" [ref=e288] [cursor=pointer]:
+              - /url: https://www.glassdoor.com/Overview/Working-at-Walmart-EI_IE715.11,18.htm
+              - img [ref=e289]
+            - link "social" [ref=e290] [cursor=pointer]:
+              - /url: https://www.instagram.com/walmartworld/
+              - img [ref=e291]
+            - link "social" [ref=e292] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/walmart/
+              - img [ref=e293]
+            - link "social" [ref=e294] [cursor=pointer]:
+              - /url: https://twitter.com/WalmartWorld
+              - img [ref=e295]
+            - link "social" [ref=e296] [cursor=pointer]:
+              - /url: https://www.youtube.com/playlist?list=PL14ED977FFA38F193
+              - img [ref=e297]
+          - generic [ref=e298]:
+            - generic [ref=e299]:
+              - generic [ref=e300]:
+                - text: Walmart, Inc. is an Equal Opportunity Employer. We believe we are best equipped to help our associates, customers, and the communities we serve live better when we really know them. That means understanding, respecting, and valuing unique styles, experiences, identities, abilities, ideas and opinions- while welcoming all people. Walmart Inc. participates in E-verify. Learn more about
+                - link "applicant rights under Federal Employment Laws." [ref=e301] [cursor=pointer]:
+                  - /url: https://cms.careers.walmart.com/content/dam/careers/federal-employment-laws/applicant-rights-under-federal-employment-laws.pdf
+                  - generic [ref=e302]: applicant rights under Federal Employment Laws.
+              - generic [ref=e304]: Eligibility for benefits depends on your job classification, and benefits are subject to specific plan or program terms. For more information about your benefits options, please see the Associate Benefits Book at One.Walmart.com/BenefitsBook. For programs not covered in the Associate Benefits Book, you’ll find more information on One.Walmart.com, or you can call People Services at 800-421-1362 or chat at One.Walmart.com/BenefitsChat.
+            - generic [ref=e306]:
+              - generic [ref=e307]: ©2026 Walmart Inc.
+              - generic [ref=e308]:
+                - link "Walmart.com" [ref=e309] [cursor=pointer]:
+                  - /url: https://www.walmart.com/
+                - link "Terms & Conditions" [ref=e310] [cursor=pointer]:
+                  - /url: /content/careers/us/en/home/resources/terms-and-conditions
+                - link "Privacy Policy" [ref=e311] [cursor=pointer]:
+                  - /url: https://corporate.walmart.com/privacy-security
+                - link "Notice At Collection" [ref=e312] [cursor=pointer]:
+                  - /url: https://corporate.walmart.com/privacy-security/california-privacy-rights#what-are-the-categories-of-personal-information-collected
+  - alert [ref=e313]: Results

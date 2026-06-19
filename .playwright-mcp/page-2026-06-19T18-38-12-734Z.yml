@@ -1,0 +1,791 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - button "Main menu" [ref=e5] [cursor=pointer]:
+          - img [ref=e6]
+        - link "Careers" [ref=e10] [cursor=pointer]:
+          - /url: /about/careers/applications/
+          - generic [ref=e12]: Careers
+      - generic [ref=e13]:
+        - link "Skip navigation links" [ref=e14]:
+          - generic: Skip navigation links
+        - generic [ref=e17]:
+          - navigation "Candidate Portal Left Navigation" [ref=e21]:
+            - menubar [ref=e23]:
+              - generic [ref=e24]:
+                - menuitem "Home navigation link" [ref=e25] [cursor=pointer]:
+                  - menuitem [ref=e27]:
+                    - generic [ref=e28]:
+                      - generic [ref=e29]:
+                        - generic [ref=e34]: home
+                        - generic [ref=e36]: Home
+                      - generic [ref=e38]: Home
+                - menuitem "Jobs navigation item" [ref=e39] [cursor=pointer]:
+                  - menuitem [ref=e41]:
+                    - generic [ref=e42]:
+                      - generic [ref=e43]:
+                        - generic [ref=e48]: work_outline
+                        - generic [ref=e50]: Jobs
+                      - generic [ref=e52]: Jobs
+                - menuitem "Students navigation item" [ref=e53] [cursor=pointer]:
+                  - menuitem [ref=e55]:
+                    - generic [ref=e56]:
+                      - generic [ref=e57]:
+                        - generic [ref=e62]: noogler_hat
+                        - generic [ref=e64]: Students
+                      - generic [ref=e66]: Students
+                - menuitem "How we work navigation item" [ref=e67] [cursor=pointer]:
+                  - menuitem [ref=e69]:
+                    - generic [ref=e70]:
+                      - generic [ref=e71]:
+                        - generic [ref=e76]: google
+                        - generic [ref=e78]: How we work
+                      - generic [ref=e80]: How we work
+                - menuitem "How we hire navigation item" [ref=e81] [cursor=pointer]:
+                  - menuitem [ref=e83]:
+                    - generic [ref=e84]:
+                      - generic [ref=e85]:
+                        - generic [ref=e90]: handyman
+                        - generic [ref=e92]: How we hire
+                      - generic [ref=e94]: How we hire
+                - menuitem "Your career navigation item" [ref=e95] [cursor=pointer]:
+                  - menuitem [ref=e97]:
+                    - generic [ref=e98]:
+                      - generic [ref=e99]:
+                        - generic [ref=e104]: person_outline
+                        - generic [ref=e106]: Your career
+                      - generic [ref=e108]: Your career
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - generic [ref=e116] [cursor=pointer]:
+                - generic [ref=e117]: help_outline
+                - link "Help link" [ref=e118]:
+                  - /url: https://support.google.com/googlecareers
+              - tooltip [ref=e119]: Help link
+            - generic [ref=e120]:
+              - button "Send feedback" [ref=e121] [cursor=pointer]:
+                - generic [ref=e122]: feedback
+              - tooltip [ref=e123]: Send feedback
+      - generic [ref=e125]:
+        - button "Google apps" [ref=e129] [cursor=pointer]:
+          - img [ref=e130]
+        - link "Sign in" [ref=e133] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Fabout%2Fcareers%2Fapplications%2Fjobs%2Fresults%2F%3Fq%3Dsoftware%2520engineer%26location%3DUnited%2520States&followup=https%3A%2F%2Fwww.google.com%2Fabout%2Fcareers%2Fapplications%2Fjobs%2Fresults%2F%3Fq%3Dsoftware%2520engineer%26location%3DUnited%2520States&ec=GAZA6QE
+  - generic [ref=e141]:
+    - heading "Search Jobs" [level=1]
+    - generic [ref=e143]:
+      - generic [ref=e145]:
+        - heading "Search sidebar" [level=2]
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - generic [ref=e148]: 1,077 jobs matched
+            - button "Clear filters" [ref=e150]:
+              - generic [ref=e153]: Clear filters
+          - generic:
+            - grid "tags chipset"
+          - generic [ref=e158]:
+            - generic:
+              - generic:
+                - generic: What do you want to do?
+            - combobox "What do you want to do?" [ref=e159]: software engineer
+          - generic "Job filters" [ref=e160]:
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - heading "Locations" [level=3] [ref=e164]
+                - button "Locations filter options" [expanded] [ref=e166] [cursor=pointer]:
+                  - generic [ref=e167]: expand_less
+              - region "Locations filter options" [ref=e168]:
+                - generic [ref=e169]:
+                  - generic [ref=e171]:
+                    - grid [ref=e172]:
+                      - row "United States Remove chip United States" [ref=e173]:
+                        - gridcell "United States" [ref=e174]:
+                          - generic [ref=e175]: United States
+                        - gridcell "Remove chip United States" [ref=e176]:
+                          - generic [ref=e177]:
+                            - button "Remove chip United States" [ref=e178] [cursor=pointer]:
+                              - img [ref=e181]
+                            - tooltip [ref=e183]: Remove
+                    - generic [ref=e186]:
+                      - generic:
+                        - generic:
+                          - generic: Which location(s) do you prefer?
+                      - generic: search
+                      - combobox "Which location(s) do you prefer working out of?" [ref=e187]
+                    - generic [ref=e189]: 1 / 4Locations
+                  - generic [ref=e190]:
+                    - generic [ref=e191]:
+                      - generic [ref=e192] [cursor=pointer]:
+                        - checkbox "Remote eligible" [ref=e193]
+                        - generic:
+                          - img
+                      - generic [ref=e194]: Remote eligible
+                    - img "Learn more about remote eligibility" [ref=e196] [cursor=pointer]:
+                      - generic [ref=e197]: info_outline
+            - generic [ref=e199]:
+              - heading "Experience" [level=3] [ref=e201]
+              - button "Experience filter options" [ref=e203] [cursor=pointer]:
+                - generic [ref=e204]: expand_more
+            - generic [ref=e206]:
+              - heading "Skills & qualifications" [level=3] [ref=e208]
+              - button "Skills & qualifications filter options" [ref=e210] [cursor=pointer]:
+                - generic [ref=e211]: expand_more
+            - generic [ref=e213]:
+              - heading "Degree" [level=3] [ref=e215]
+              - button "Degree filter options" [ref=e217] [cursor=pointer]:
+                - generic [ref=e218]: expand_more
+            - generic [ref=e220]:
+              - heading "Job types" [level=3] [ref=e222]
+              - button "Job types filter options" [ref=e224] [cursor=pointer]:
+                - generic [ref=e225]: expand_more
+            - generic [ref=e227]:
+              - heading "Organizations" [level=3] [ref=e229]
+              - button "Organizations filter options" [ref=e231] [cursor=pointer]:
+                - generic [ref=e232]: expand_more
+            - generic [ref=e234]:
+              - heading "Sort by" [level=3] [ref=e236]
+              - button "Sort jobs by date or relevance" [ref=e238] [cursor=pointer]:
+                - generic [ref=e239]: expand_more
+      - generic [ref=e240]:
+        - main [ref=e241]:
+          - generic [ref=e242]:
+            - heading "Jobs search results" [level=2]
+            - generic [ref=e244]:
+              - list [ref=e246]:
+                - listitem [ref=e247]:
+                  - generic [ref=e249]:
+                    - generic [ref=e251]:
+                      - heading "Senior Software Engineer, Eye Tracking Core" [level=3] [ref=e254]
+                      - generic [ref=e256]:
+                        - generic [ref=e257]:
+                          - generic [ref=e258]: corporate_fare
+                          - generic [ref=e259]: Google
+                        - generic [ref=e260]:
+                          - generic [ref=e261]: place
+                          - generic [ref=e262]: San Jose, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e266]:
+                          - generic [ref=e270]: bar_chart
+                          - generic [ref=e271]: Mid
+                      - generic [ref=e272]:
+                        - heading "Minimum qualifications" [level=4] [ref=e273]
+                        - list [ref=e274]:
+                          - listitem [ref=e275]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e276]: 5 years of experience with software development in one or more programming languages.
+                          - listitem [ref=e277]: 3 years of experience testing, maintaining, or launching software products, and 1 year of experience with software design and architecture.
+                          - listitem [ref=e278]: Experience with computer vision, imaging, or augmented reality platforms.
+                      - generic [ref=e280]:
+                        - generic [ref=e282]: Learn more
+                        - link "Learn more about Senior Software Engineer, Eye Tracking Core" [ref=e283] [cursor=pointer]:
+                          - /url: jobs/results/133121001712952006-senior-software-engineer-eye-tracking-core?q=software%20engineer&location=United%20States
+                    - button "Share Senior Software Engineer, Eye Tracking Core" [ref=e288] [cursor=pointer]:
+                      - generic [ref=e289]: share
+                - listitem [ref=e290]:
+                  - generic [ref=e292]:
+                    - generic [ref=e294]:
+                      - heading "Senior Software Engineer, AI/ML, Creative Intelligence" [level=3] [ref=e297]
+                      - generic [ref=e299]:
+                        - generic [ref=e300]:
+                          - generic [ref=e301]: corporate_fare
+                          - generic [ref=e302]: Google
+                        - generic [ref=e303]:
+                          - generic [ref=e304]: place
+                          - generic [ref=e305]: Mountain View, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e309]:
+                          - generic [ref=e313]: bar_chart
+                          - generic [ref=e314]: Mid
+                      - generic [ref=e315]:
+                        - heading "Minimum qualifications" [level=4] [ref=e316]
+                        - list [ref=e317]:
+                          - listitem [ref=e318]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e319]: 5 years of experience with software development using one or more general-purpose programming languages (e.g., Python, Java, C++, Go).
+                          - listitem [ref=e320]: 3 years of experience testing and launching software products, and 3 years of experience with software design and architecture.
+                      - generic [ref=e322]:
+                        - generic [ref=e324]: Learn more
+                        - link "Learn more about Senior Software Engineer, AI/ML, Creative Intelligence" [ref=e325] [cursor=pointer]:
+                          - /url: jobs/results/136775056809173702-senior-software-engineer-aiml-creative-intelligence?q=software%20engineer&location=United%20States
+                    - button "Share Senior Software Engineer, AI/ML, Creative Intelligence" [ref=e330] [cursor=pointer]:
+                      - generic [ref=e331]: share
+                - listitem [ref=e332]:
+                  - generic [ref=e334]:
+                    - generic [ref=e336]:
+                      - heading "Software Engineer III, Generative AI, Agentic Ecosystem Platform" [level=3] [ref=e339]
+                      - generic [ref=e341]:
+                        - generic [ref=e342]:
+                          - generic [ref=e343]: corporate_fare
+                          - generic [ref=e344]: Google
+                        - generic [ref=e345]:
+                          - generic [ref=e346]: place
+                          - generic [ref=e347]: Mountain View, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e351]:
+                          - generic [ref=e355]: bar_chart
+                          - generic [ref=e356]: Mid
+                      - generic [ref=e357]:
+                        - heading "Minimum qualifications" [level=4] [ref=e358]
+                        - list [ref=e359]:
+                          - listitem [ref=e360]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e361]: 2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree.
+                          - listitem [ref=e362]: 2 years of experience with GenAI techniques (e.g., LLMs, Multi-Modal, Large Vision Models) or with GenAI-related concepts (e.g., language modeling Generative AI Agent, AI Algorithms).
+                          - listitem [ref=e363]: 2 years of experience designing, scaling, and maintaining large-scale infrastructure or system architectures.
+                          - listitem [ref=e364]: 2 years of experience in software quality assurance, testing methodologies, and automation tools.
+                          - listitem [ref=e365]: 1 year of experience with ML infrastructure (e.g., model deployment, model evaluation, optimization, data processing, debugging).
+                      - generic [ref=e367]:
+                        - generic [ref=e369]: Learn more
+                        - link "Learn more about Software Engineer III, Generative AI, Agentic Ecosystem Platform" [ref=e370] [cursor=pointer]:
+                          - /url: jobs/results/111416367302746822-software-engineer-iii-generative-ai-agentic-ecosystem-platform?q=software%20engineer&location=United%20States
+                    - button "Share Software Engineer III, Generative AI, Agentic Ecosystem Platform" [ref=e375] [cursor=pointer]:
+                      - generic [ref=e376]: share
+                - listitem [ref=e377]:
+                  - generic [ref=e379]:
+                    - generic [ref=e381]:
+                      - heading "Software Engineer III, Infrastructure, Google Cloud Business Platforms" [level=3] [ref=e384]
+                      - generic [ref=e386]:
+                        - generic [ref=e387]:
+                          - generic [ref=e388]: corporate_fare
+                          - generic [ref=e389]: Google
+                        - generic [ref=e390]:
+                          - generic [ref=e391]: place
+                          - generic [ref=e392]: Irvine, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e396]:
+                          - generic [ref=e400]: bar_chart
+                          - generic [ref=e401]: Mid
+                      - generic [ref=e402]:
+                        - heading "Minimum qualifications" [level=4] [ref=e403]
+                        - list [ref=e404]:
+                          - listitem [ref=e405]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e406]: 2 years of experience programming in C++, Python or Go.
+                          - listitem [ref=e407]: 2 years of experience with developing large-scale infrastructure, distributed systems or networks, or experience with compute technologies, storage or hardware architecture.
+                      - generic [ref=e409]:
+                        - generic [ref=e411]: Learn more
+                        - link "Learn more about Software Engineer III, Infrastructure, Google Cloud Business Platforms" [ref=e412] [cursor=pointer]:
+                          - /url: jobs/results/125291585569989318-software-engineer-iii-infrastructure-google-cloud-business-platforms?q=software%20engineer&location=United%20States
+                    - button "Share Software Engineer III, Infrastructure, Google Cloud Business Platforms" [ref=e417] [cursor=pointer]:
+                      - generic [ref=e418]: share
+                - listitem [ref=e419]:
+                  - generic [ref=e421]:
+                    - generic [ref=e423]:
+                      - heading "Software Engineer" [level=3] [ref=e426]
+                      - generic [ref=e428]:
+                        - generic [ref=e429]:
+                          - generic [ref=e430]: corporate_fare
+                          - generic [ref=e431]: Google
+                        - generic [ref=e432]:
+                          - generic [ref=e433]: place
+                          - generic [ref=e434]: Mountain View, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e438]:
+                          - generic [ref=e442]: bar_chart
+                          - generic [ref=e443]: Mid
+                      - generic [ref=e444]:
+                        - heading "Minimum qualifications" [level=4] [ref=e445]
+                        - list [ref=e446]:
+                          - listitem [ref=e447]: Bachelor’s degree in Computer Science, Engineering, Computer Information Systems, Mathematics, Physics or a related field and 2 years of experience in the job offered or in a Software Engineer-related occupation.
+                          - listitem [ref=e448]: "Position requires 2 years of experience in the following: Developing machine learning models using Tensorflow, PyTorch, or JAX. Applying machine learning, statistics, or diffusion model theory in applied research. Software development using Java, C, C++, Python, or Go. Designing and applying data structures or algorithms. Data analysis and synthesis to generate solutions or evaluate outcomes for machine learning applications"
+                      - generic [ref=e450]:
+                        - generic [ref=e452]: Learn more
+                        - link "Learn more about Software Engineer" [ref=e453] [cursor=pointer]:
+                          - /url: jobs/results/119871476428874438-software-engineer?q=software%20engineer&location=United%20States
+                    - button "Share Software Engineer" [ref=e458] [cursor=pointer]:
+                      - generic [ref=e459]: share
+                - listitem [ref=e460]:
+                  - generic [ref=e462]:
+                    - generic [ref=e464]:
+                      - heading "Software Engineer" [level=3] [ref=e467]
+                      - generic [ref=e469]:
+                        - generic [ref=e470]:
+                          - generic [ref=e471]: corporate_fare
+                          - generic [ref=e472]: Google
+                        - generic [ref=e473]:
+                          - generic [ref=e474]: place
+                          - generic [ref=e475]: Mountain View, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e479]:
+                          - generic [ref=e483]: bar_chart
+                          - generic [ref=e484]: Mid
+                      - generic [ref=e485]:
+                        - heading "Minimum qualifications" [level=4] [ref=e486]
+                        - list [ref=e487]:
+                          - listitem [ref=e488]: Bachelor’s degree in Computer Science, Engineering, Computer Information Systems, Mathematics, Physics or a related field and 2 years of experience in the job offered or in a Software Engineer-related occupation.
+                          - listitem [ref=e489]: "Position requires 2 years of experience in the following: Software development using Java, C, C++, Python, Go or Kotlin; Designing and applying data structures or algorithms; Systems thinking or analyzing technical problems from a broad; systems-level perspective; Software testing across the development lifecycle including validity, verification, performance, and reliability; Root cause analysis for debugging software and ML systems"
+                      - generic [ref=e491]:
+                        - generic [ref=e493]: Learn more
+                        - link "Learn more about Software Engineer" [ref=e494] [cursor=pointer]:
+                          - /url: jobs/results/122293700544864966-software-engineer?q=software%20engineer&location=United%20States
+                    - button "Share Software Engineer" [ref=e499] [cursor=pointer]:
+                      - generic [ref=e500]: share
+                - listitem [ref=e501]:
+                  - generic [ref=e503]:
+                    - generic [ref=e505]:
+                      - heading "Software Engineer" [level=3] [ref=e508]
+                      - generic [ref=e510]:
+                        - generic [ref=e511]:
+                          - generic [ref=e512]: corporate_fare
+                          - generic [ref=e513]: Google
+                        - generic [ref=e514]:
+                          - generic [ref=e515]: place
+                          - generic [ref=e516]: Mountain View, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e520]:
+                          - generic [ref=e524]: bar_chart
+                          - generic [ref=e525]: Mid
+                      - generic [ref=e526]:
+                        - heading "Minimum qualifications" [level=4] [ref=e527]
+                        - list [ref=e528]:
+                          - listitem [ref=e529]: Bachelor’s degree in Computer Science, Engineering, Computer Information Systems, Mathematics, Physics or a related field and 2 years of experience in the job offered or in a Software Engineer-related occupation.
+                          - listitem [ref=e530]: "Position requires 2 years of experience in the following: Software development using Java, C, C++, Python, or Go; Designing and applying data structures or algorithms; Systems thinking or analyzing technical problems from a broad, systems-level perspective; Managing the full lifecycle of applied research or machine learning projects from proof-of-concept to implementation; and Data analysis and synthesis to generate solutions or evaluate outcomes for machine learning applications."
+                      - generic [ref=e532]:
+                        - generic [ref=e534]: Learn more
+                        - link "Learn more about Software Engineer" [ref=e535] [cursor=pointer]:
+                          - /url: jobs/results/125572719096799942-software-engineer?q=software%20engineer&location=United%20States
+                    - button "Share Software Engineer" [ref=e540] [cursor=pointer]:
+                      - generic [ref=e541]: share
+                - listitem [ref=e542]:
+                  - generic [ref=e544]:
+                    - generic [ref=e546]:
+                      - heading "Software Engineer" [level=3] [ref=e549]
+                      - generic [ref=e551]:
+                        - generic [ref=e552]:
+                          - generic [ref=e553]: corporate_fare
+                          - generic [ref=e554]: Google
+                        - generic [ref=e555]:
+                          - generic [ref=e556]: place
+                          - generic [ref=e557]: Sunnyvale, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e561]:
+                          - generic [ref=e565]: bar_chart
+                          - generic [ref=e566]: Mid
+                      - generic [ref=e567]:
+                        - heading "Minimum qualifications" [level=4] [ref=e568]
+                        - list [ref=e569]:
+                          - listitem [ref=e570]: Bachelor’s degree in Computer Science, Engineering, Computer Information Systems, Mathematics, Physics or a related field and 2 years of experience in the job offered or in a Software Engineer-related occupation.
+                          - listitem [ref=e571]: "Position requires 2 years of experience in the following: Training generative AI models for media generation; Developing machine learning models using Tensorflow, PyTorch, or JAX; ML infrastructure management including model deployment, evaluation, optimization, and data processing; Software development using Java, C, C++, Python, or Go; and Designing and applying data structures or algorithms;"
+                      - generic [ref=e573]:
+                        - generic [ref=e575]: Learn more
+                        - link "Learn more about Software Engineer" [ref=e576] [cursor=pointer]:
+                          - /url: jobs/results/89262447101125318-software-engineer?q=software%20engineer&location=United%20States
+                    - button "Share Software Engineer" [ref=e581] [cursor=pointer]:
+                      - generic [ref=e582]: share
+                - listitem [ref=e583]:
+                  - generic [ref=e585]:
+                    - generic [ref=e587]:
+                      - heading "Software Engineer" [level=3] [ref=e590]
+                      - generic [ref=e592]:
+                        - generic [ref=e593]:
+                          - generic [ref=e594]: corporate_fare
+                          - generic [ref=e595]: Google
+                        - generic [ref=e596]:
+                          - generic [ref=e597]: place
+                          - generic [ref=e598]: New York, NY, USA
+                        - img "Mid, Learn more about experience filters." [ref=e602]:
+                          - generic [ref=e606]: bar_chart
+                          - generic [ref=e607]: Mid
+                      - generic [ref=e608]:
+                        - heading "Minimum qualifications" [level=4] [ref=e609]
+                        - list [ref=e610]:
+                          - listitem [ref=e611]: Bachelor’s degree in Computer Science, Engineering, Computer Information Systems, Mathematics, Physics or a related field and 2 years of experience in the job offered or in a Software Engineer-related occupation.
+                          - listitem [ref=e612]: "Position requires 2 years of experience in the following: Applying machine learning, statistics, or diffusion model theory in applied research; Software development using Java, C, C++, Python, or Go; Designing and applying data structures or algorithms; ML infrastructure management including model evaluation and data processing; Data analysis and synthesis to generate solutions or evaluate outcomes for machine learning applications"
+                      - generic [ref=e614]:
+                        - generic [ref=e616]: Learn more
+                        - link "Learn more about Software Engineer" [ref=e617] [cursor=pointer]:
+                          - /url: jobs/results/75837135248073414-software-engineer?q=software%20engineer&location=United%20States
+                    - button "Share Software Engineer" [ref=e622] [cursor=pointer]:
+                      - generic [ref=e623]: share
+                - listitem [ref=e624]:
+                  - generic [ref=e626]:
+                    - generic [ref=e628]:
+                      - heading "Software Engineer" [level=3] [ref=e631]
+                      - generic [ref=e633]:
+                        - generic [ref=e634]:
+                          - generic [ref=e635]: corporate_fare
+                          - generic [ref=e636]: Google
+                        - generic [ref=e637]:
+                          - generic [ref=e638]: place
+                          - generic [ref=e639]: Mountain View, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e643]:
+                          - generic [ref=e647]: bar_chart
+                          - generic [ref=e648]: Mid
+                      - generic [ref=e649]:
+                        - heading "Minimum qualifications" [level=4] [ref=e650]
+                        - list [ref=e651]:
+                          - listitem [ref=e652]:
+                            - paragraph [ref=e653]: Bachelor’s degree in Computer Science, Engineering, Computer Information Systems, Mathematics, Physics or a related field and 2 years of experience in the job offered or in a Software Engineer-related occupation.
+                          - listitem [ref=e654]: "Position requires 2 years of experience in the following: Software development using Java, C, C++, Python, Go, Kotlin or Typescript; Designing and applying data structures or algorithms; Systems thinking or analyzing technical problems from a broad, systems-level perspective; Web frontend development on a modern framework such as React or Angular; and Software testing, including unit and integration tests."
+                      - generic [ref=e656]:
+                        - generic [ref=e658]: Learn more
+                        - link "Learn more about Software Engineer" [ref=e659] [cursor=pointer]:
+                          - /url: jobs/results/72972082823996102-software-engineer?q=software%20engineer&location=United%20States
+                    - button "Share Software Engineer" [ref=e664] [cursor=pointer]:
+                      - generic [ref=e665]: share
+                - listitem [ref=e666]:
+                  - generic [ref=e668]:
+                    - generic [ref=e670]:
+                      - heading "Software Engineer" [level=3] [ref=e673]
+                      - generic [ref=e675]:
+                        - generic [ref=e676]:
+                          - generic [ref=e677]: corporate_fare
+                          - generic [ref=e678]: Google
+                        - generic [ref=e679]:
+                          - generic [ref=e680]: place
+                          - generic [ref=e681]: Mountain View, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e685]:
+                          - generic [ref=e689]: bar_chart
+                          - generic [ref=e690]: Mid
+                      - generic [ref=e691]:
+                        - heading "Minimum qualifications" [level=4] [ref=e692]
+                        - list [ref=e693]:
+                          - listitem [ref=e694]: Bachelor’s degree in Computer Science, Engineering, Computer Information Systems, Mathematics, Physics or a related field and 2 years of experience in the job offered or in a Software Engineer-related occupation.
+                          - listitem [ref=e695]: "Position requires 2 years of experience in the following: Software development using Java, Kotlin, C, C++, Python, or Go; Designing and applying data structures or algorithms; Android application development; Testing, launching, and maintaining mobile application features; and Server-side development to power mobile application features."
+                      - generic [ref=e697]:
+                        - generic [ref=e699]: Learn more
+                        - link "Learn more about Software Engineer" [ref=e700] [cursor=pointer]:
+                          - /url: jobs/results/128084553410454214-software-engineer?q=software%20engineer&location=United%20States
+                    - button "Share Software Engineer" [ref=e705] [cursor=pointer]:
+                      - generic [ref=e706]: share
+                - listitem [ref=e707]:
+                  - generic [ref=e709]:
+                    - generic [ref=e711]:
+                      - heading "Software Engineer, AI Software Agents" [level=3] [ref=e714]
+                      - generic [ref=e716]:
+                        - generic [ref=e717]:
+                          - generic [ref=e718]: corporate_fare
+                          - generic [ref=e719]: Google
+                        - generic [ref=e720]:
+                          - generic [ref=e721]: place
+                          - generic [ref=e722]: Mountain View, CA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e726]:
+                          - generic [ref=e730]: bar_chart
+                          - generic [ref=e731]: Advanced
+                      - generic [ref=e732]:
+                        - heading "Minimum qualifications" [level=4] [ref=e733]
+                        - list [ref=e734]:
+                          - listitem [ref=e735]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e736]: 8 years of experience in software development.
+                          - listitem [ref=e737]: 5 years of experience testing, and launching software products, and 3 years of experience with software design and architecture.
+                          - listitem [ref=e738]: "5 years of experience with one or more of the following: Speech/audio (e.g., technology duplicating and responding to the human voice), reinforcement learning (e.g., sequential decision making), ML infrastructure, or specialization in another ML field."
+                          - listitem [ref=e739]: 5 years of experience with ML design and ML infrastructure (e.g., model deployment, model evaluation, data processing, debugging, fine tuning).
+                          - listitem [ref=e740]: Experience with generative AI agent.
+                      - generic [ref=e742]:
+                        - generic [ref=e744]: Learn more
+                        - link "Learn more about Software Engineer, AI Software Agents" [ref=e745] [cursor=pointer]:
+                          - /url: jobs/results/121974803417440966-software-engineer-ai-software-agents?q=software%20engineer&location=United%20States
+                    - button "Share Software Engineer, AI Software Agents" [ref=e750] [cursor=pointer]:
+                      - generic [ref=e751]: share
+                - listitem [ref=e752]:
+                  - generic [ref=e754]:
+                    - generic [ref=e756]:
+                      - heading "Staff Software Engineer" [level=3] [ref=e759]
+                      - generic [ref=e761]:
+                        - generic [ref=e762]:
+                          - generic [ref=e763]: corporate_fare
+                          - generic [ref=e764]: Google
+                        - generic [ref=e765]:
+                          - generic [ref=e766]: place
+                          - generic [ref=e767]: New York, NY, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e771]:
+                          - generic [ref=e775]: bar_chart
+                          - generic [ref=e776]: Advanced
+                      - generic [ref=e777]:
+                        - heading "Minimum qualifications" [level=4] [ref=e778]
+                        - list [ref=e779]:
+                          - listitem [ref=e780]: Bachelor’s degree in Computer Science, Engineering, Computer Information Systems, Mathematics, Physics or a related field and 4 years of experience in the job offered or in a Software Engineer-related occupation.
+                          - listitem [ref=e781]: Alternatively, will accept a Master’s degree in Computer Science, Engineering, Computer Information Systems, Mathematics, Physics or a related field, and 2 years of experience in the job offered or in a Software Engineer-related occupation.
+                          - listitem [ref=e782]: "Position requires 2 years of experience in the following: Development of machine learning models for speech and audio domains or application of reinforcement learning for sequential decision making; Data pipeline development for managing and processing large-scale user data; Software design and architecture for complex systems; Python or C++ for machine learning applications; Leading ML design for organization-scale projects"
+                      - generic [ref=e784]:
+                        - generic [ref=e786]: Learn more
+                        - link "Learn more about Staff Software Engineer" [ref=e787] [cursor=pointer]:
+                          - /url: jobs/results/93660493612229318-staff-software-engineer?q=software%20engineer&location=United%20States
+                    - button "Share Staff Software Engineer" [ref=e792] [cursor=pointer]:
+                      - generic [ref=e793]: share
+                - listitem [ref=e794]:
+                  - generic [ref=e796]:
+                    - generic [ref=e798]:
+                      - heading "Software Engineer, Pixel Test Engineering/AI Application" [level=3] [ref=e801]
+                      - generic [ref=e803]:
+                        - generic [ref=e804]:
+                          - generic [ref=e805]: corporate_fare
+                          - generic [ref=e806]: Google
+                        - generic [ref=e807]:
+                          - generic [ref=e808]: place
+                          - generic [ref=e809]: Mountain View, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e813]:
+                          - generic [ref=e817]: bar_chart
+                          - generic [ref=e818]: Mid
+                      - generic [ref=e819]:
+                        - heading "Minimum qualifications" [level=4] [ref=e820]
+                        - list [ref=e821]:
+                          - listitem [ref=e822]: Bachelor’s degree or equivalent practical experience.
+                          - listitem [ref=e823]: 2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree.
+                          - listitem [ref=e824]: "1 year of experience with one or more of the following: Speech/audio (e.g., technology duplicating and responding to the human voice), reinforcement learning (e.g., sequential decision making), ML infrastructure, or specialization in another ML field."
+                          - listitem [ref=e825]: 1 year of experience with ML infrastructure (e.g., model deployment, model evaluation, optimization, data processing, debugging).
+                      - generic [ref=e827]:
+                        - generic [ref=e829]: Learn more
+                        - link "Learn more about Software Engineer, Pixel Test Engineering/AI Application" [ref=e830] [cursor=pointer]:
+                          - /url: jobs/results/118891347712058054-software-engineer-pixel-test-engineeringai-application?q=software%20engineer&location=United%20States
+                    - button "Share Software Engineer, Pixel Test Engineering/AI Application" [ref=e835] [cursor=pointer]:
+                      - generic [ref=e836]: share
+                - listitem [ref=e837]:
+                  - generic [ref=e839]:
+                    - generic [ref=e841]:
+                      - heading "Staff Software Engineer" [level=3] [ref=e844]
+                      - generic [ref=e846]:
+                        - generic [ref=e847]:
+                          - generic [ref=e848]: corporate_fare
+                          - generic [ref=e849]: Google
+                        - generic [ref=e850]:
+                          - generic [ref=e851]: place
+                          - generic [ref=e852]: Mountain View, CA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e856]:
+                          - generic [ref=e860]: bar_chart
+                          - generic [ref=e861]: Advanced
+                      - generic [ref=e862]:
+                        - heading "Minimum qualifications" [level=4] [ref=e863]
+                        - list [ref=e864]:
+                          - listitem [ref=e865]: Bachelor’s degree in Computer Science, Engineering, Computer Information Systems, Mathematics, Physics or a related field and 8 years of progressive post-baccalaureate, experience in the job offered or in a Software Engineer-related occupation.
+                          - listitem [ref=e866]: Alternatively, will accept a Master’s degree in Computer Science, Engineering, Computer Information Systems, Mathematics, Physics or a related field, and 6 years of experience in the job offered or in a Software Engineer-related occupation.
+                          - listitem [ref=e867]: "Position requires 6 years of experience in the following: Software product lifecycle management from testing to launch; Python or C++ for machine learning applications; Algorithm and data structure design to improve system scale and efficiency; Software design and architecture for complex systems; Data pipeline development for managing and processing large-scale user data"
+                      - generic [ref=e869]:
+                        - generic [ref=e871]: Learn more
+                        - link "Learn more about Staff Software Engineer" [ref=e872] [cursor=pointer]:
+                          - /url: jobs/results/92429040589120198-staff-software-engineer?q=software%20engineer&location=United%20States
+                    - button "Share Staff Software Engineer" [ref=e877] [cursor=pointer]:
+                      - generic [ref=e878]: share
+                - listitem [ref=e879]:
+                  - generic [ref=e881]:
+                    - generic [ref=e883]:
+                      - heading "Software Engineer, Data, Global Sustainability" [level=3] [ref=e886]
+                      - generic [ref=e888]:
+                        - generic [ref=e889]:
+                          - generic [ref=e890]: corporate_fare
+                          - generic [ref=e891]: Google
+                        - generic [ref=e892]:
+                          - generic [ref=e893]: place
+                          - generic [ref=e894]: San Francisco, CA, USA
+                          - generic [ref=e895]: ; Boulder, CO, USA
+                          - generic [ref=e896]: ; +4 more
+                        - img "Mid, Learn more about experience filters." [ref=e900]:
+                          - generic [ref=e904]: bar_chart
+                          - generic [ref=e905]: Mid
+                      - generic [ref=e906]:
+                        - heading "Minimum qualifications" [level=4] [ref=e907]
+                        - list [ref=e908]:
+                          - listitem [ref=e909]: Bachelor’s degree in Computer Science, Mathematics, a quantitative discipline, or equivalent practical experience.
+                          - listitem [ref=e910]: 2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree, with experience in coding (e.g., Python, R, SQL) and querying databases.
+                          - listitem [ref=e911]: 2 years of experience using analytics to solve product or business problems, including managing ETL/ELT processes and statistical analysis.
+                          - listitem [ref=e912]: Experience in designing data pipelines and executing conceptual and physical data modeling.
+                          - listitem [ref=e913]: Experience in data warehouse design, data integration, data marts, and managing cross-functional stakeholder collaboration.
+                      - generic [ref=e915]:
+                        - generic [ref=e917]: Learn more
+                        - link "Learn more about Software Engineer, Data, Global Sustainability" [ref=e918] [cursor=pointer]:
+                          - /url: jobs/results/119452755772220102-software-engineer-data-global-sustainability?q=software%20engineer&location=United%20States
+                    - button "Share Software Engineer, Data, Global Sustainability" [ref=e923] [cursor=pointer]:
+                      - generic [ref=e924]: share
+                - listitem [ref=e925]:
+                  - generic [ref=e927]:
+                    - generic [ref=e929]:
+                      - heading "Staff Software Engineer, Embedded Systems/Firmware" [level=3] [ref=e932]
+                      - generic [ref=e934]:
+                        - generic [ref=e935]:
+                          - generic [ref=e936]: corporate_fare
+                          - generic [ref=e937]: Google
+                        - generic [ref=e938]:
+                          - generic [ref=e939]: place
+                          - generic [ref=e940]: Sunnyvale, CA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e944]:
+                          - generic [ref=e948]: bar_chart
+                          - generic [ref=e949]: Advanced
+                      - generic [ref=e950]:
+                        - heading "Minimum qualifications" [level=4] [ref=e951]
+                        - list [ref=e952]:
+                          - listitem [ref=e953]: Bachelor's degree or equivalent practical experience.
+                          - listitem [ref=e954]: 8 years of experience in software development.
+                          - listitem [ref=e955]: 5 years of experience testing, and launching software products.
+                          - listitem [ref=e956]: 5 years of experience working with embedded operating systems.
+                          - listitem [ref=e957]: 3 years of experience with software design and architecture.
+                          - listitem [ref=e958]: Experience with C/C++.
+                      - generic [ref=e960]:
+                        - generic [ref=e962]: Learn more
+                        - link "Learn more about Staff Software Engineer, Embedded Systems/Firmware" [ref=e963] [cursor=pointer]:
+                          - /url: jobs/results/142850990175855302-staff-software-engineer-embedded-systemsfirmware?q=software%20engineer&location=United%20States
+                    - button "Share Staff Software Engineer, Embedded Systems/Firmware" [ref=e968] [cursor=pointer]:
+                      - generic [ref=e969]: share
+                - listitem [ref=e970]:
+                  - generic [ref=e972]:
+                    - generic [ref=e974]:
+                      - heading "Staff Software Engineer, ML Fleet Systems" [level=3] [ref=e977]
+                      - generic [ref=e979]:
+                        - generic [ref=e980]:
+                          - generic [ref=e981]: corporate_fare
+                          - generic [ref=e982]: Google
+                        - generic [ref=e983]:
+                          - generic [ref=e984]: place
+                          - generic [ref=e985]: Sunnyvale, CA, USA
+                          - generic [ref=e986]: ; Seattle, WA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e990]:
+                          - generic [ref=e994]: bar_chart
+                          - generic [ref=e995]: Advanced
+                      - generic [ref=e996]:
+                        - heading "Minimum qualifications" [level=4] [ref=e997]
+                        - list [ref=e998]:
+                          - listitem [ref=e999]: Bachelor's degree in Computer Science, a related technical field, or equivalent practical experience.
+                          - listitem [ref=e1000]: 8 years of experience in software development.
+                          - listitem [ref=e1001]: 5 years of experience programming in Java, Python, Go or C++.
+                          - listitem [ref=e1002]: 5 years of experience testing, and launching software products.
+                          - listitem [ref=e1003]: 3 years of experience with software design and architecture.
+                      - generic [ref=e1005]:
+                        - generic [ref=e1007]: Learn more
+                        - link "Learn more about Staff Software Engineer, ML Fleet Systems" [ref=e1008] [cursor=pointer]:
+                          - /url: jobs/results/124383614451229382-staff-software-engineer-ml-fleet-systems?q=software%20engineer&location=United%20States
+                    - button "Share Staff Software Engineer, ML Fleet Systems" [ref=e1013] [cursor=pointer]:
+                      - generic [ref=e1014]: share
+                - listitem [ref=e1015]:
+                  - generic [ref=e1017]:
+                    - generic [ref=e1019]:
+                      - heading "Staff Software Engineer, Embedded Systems/Firmware, Platforms Infrastructure Engineering" [level=3] [ref=e1022]
+                      - generic [ref=e1024]:
+                        - generic [ref=e1025]:
+                          - generic [ref=e1026]: corporate_fare
+                          - generic [ref=e1027]: Google
+                        - generic [ref=e1028]:
+                          - generic [ref=e1029]: place
+                          - generic [ref=e1030]: Sunnyvale, CA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e1034]:
+                          - generic [ref=e1038]: bar_chart
+                          - generic [ref=e1039]: Advanced
+                      - generic [ref=e1040]:
+                        - heading "Minimum qualifications" [level=4] [ref=e1041]
+                        - list [ref=e1042]:
+                          - listitem [ref=e1043]: Bachelor's degree or equivalent practical experience.
+                          - listitem [ref=e1044]: 8 years of experience in software development.
+                          - listitem [ref=e1045]: 5 years of experience working with embedded operating systems.
+                          - listitem [ref=e1046]: 5 years of experience testing, and launching software products.
+                          - listitem [ref=e1047]: 3 years of experience with software design and architecture.
+                      - generic [ref=e1049]:
+                        - generic [ref=e1051]: Learn more
+                        - link "Learn more about Staff Software Engineer, Embedded Systems/Firmware, Platforms Infrastructure Engineering" [ref=e1052] [cursor=pointer]:
+                          - /url: jobs/results/111969501007749830-staff-software-engineer-embedded-systemsfirmware-platforms-infrastructure-engineering?q=software%20engineer&location=United%20States
+                    - button "Share Staff Software Engineer, Embedded Systems/Firmware, Platforms Infrastructure Engineering" [ref=e1057] [cursor=pointer]:
+                      - generic [ref=e1058]: share
+                - listitem [ref=e1059]:
+                  - generic [ref=e1061]:
+                    - generic [ref=e1063]:
+                      - heading "Software Engineer, Crypta, Cloud Infrastructure" [level=3] [ref=e1066]
+                      - generic [ref=e1068]:
+                        - generic [ref=e1069]:
+                          - generic [ref=e1070]: corporate_fare
+                          - generic [ref=e1071]: Google
+                        - generic [ref=e1072]:
+                          - generic [ref=e1073]: place
+                          - generic [ref=e1074]: Kirkland, WA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e1078]:
+                          - generic [ref=e1082]: bar_chart
+                          - generic [ref=e1083]: Mid
+                      - generic [ref=e1084]:
+                        - heading "Minimum qualifications" [level=4] [ref=e1085]
+                        - list [ref=e1086]:
+                          - listitem [ref=e1087]: Bachelor's degree in Computer Science or related technical field, or equivalent practical experience.
+                          - listitem [ref=e1088]: 2 years of experience with software development in one or more programming languages (e.g., Python, C++, Rust, Go).
+                          - listitem [ref=e1089]: Experience in application security, cryptography, device security and systems security.
+                          - listitem [ref=e1090]: Experience in firmware development, diagnostics and hardware bring up.
+                      - generic [ref=e1092]:
+                        - generic [ref=e1094]: Learn more
+                        - link "Learn more about Software Engineer, Crypta, Cloud Infrastructure" [ref=e1095] [cursor=pointer]:
+                          - /url: jobs/results/83511644805571270-software-engineer-crypta-cloud-infrastructure?q=software%20engineer&location=United%20States
+                    - button "Share Software Engineer, Crypta, Cloud Infrastructure" [ref=e1100] [cursor=pointer]:
+                      - generic [ref=e1101]: share
+              - generic [ref=e1106]:
+                - status [ref=e1107]:
+                  - generic [ref=e1108]: Showing 1 to 20 of 1077 rows
+                  - generic [ref=e1109]: 1‑20 of 1077
+                - generic [ref=e1110] [cursor=pointer]:
+                  - generic [ref=e1111]: navigate_next
+                  - link "Go to next page" [ref=e1112]:
+                    - /url: https://www.google.com/about/careers/applications/jobs/results/?q=software%20engineer&location=United%20States&page=2
+        - contentinfo [ref=e1114]:
+          - generic [ref=e1116]:
+            - generic [ref=e1117]:
+              - heading "Follow Life at Google on" [level=2] [ref=e1118]
+              - list [ref=e1119]:
+                - listitem [ref=e1120]:
+                  - link "View our Instagram feed (Opens in a new tab)" [ref=e1121] [cursor=pointer]:
+                    - /url: https://www.instagram.com/lifeatgoogle/
+                - listitem [ref=e1126]:
+                  - link "View our Twitter feed (Opens in a new tab)" [ref=e1127] [cursor=pointer]:
+                    - /url: https://twitter.com/lifeatgoogle
+                - listitem [ref=e1130]:
+                  - link "View our YouTube channel (Opens in a new tab)" [ref=e1131] [cursor=pointer]:
+                    - /url: https://www.youtube.com/lifeatgoogle
+                - listitem [ref=e1134]:
+                  - link "View LinkedIn (Opens in a new tab)" [ref=e1135] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/google/jobs/
+                - listitem [ref=e1138]:
+                  - link "View our Facebook (Opens in a new tab)" [ref=e1139] [cursor=pointer]:
+                    - /url: https://www.facebook.com/lifeatgoogle/
+            - generic [ref=e1144]:
+              - generic [ref=e1145]:
+                - heading "More about us" [level=2] [ref=e1146]
+                - generic [ref=e1147]:
+                  - link "About us (opens in a new tab)" [ref=e1148] [cursor=pointer]:
+                    - /url: https://about.google/
+                    - text: About us
+                    - generic [ref=e1150]: open_in_new
+                  - link "Contact us (opens in a new tab)" [ref=e1151] [cursor=pointer]:
+                    - /url: https://about.google/contact-google/
+                    - text: Contact us
+                    - generic [ref=e1153]: open_in_new
+                  - link "Press (opens in a new tab)" [ref=e1154] [cursor=pointer]:
+                    - /url: https://blog.google/press/
+                    - text: Press
+                    - generic [ref=e1156]: open_in_new
+              - generic [ref=e1157]:
+                - heading "Related Information" [level=2] [ref=e1158]
+                - generic [ref=e1159]:
+                  - link "Investor relations (opens in a new tab)" [ref=e1160] [cursor=pointer]:
+                    - /url: https://abc.xyz/investor/
+                    - text: Investor relations
+                    - generic [ref=e1162]: open_in_new
+                  - link "Blog (opens in a new tab)" [ref=e1163] [cursor=pointer]:
+                    - /url: https://blog.google/
+                    - text: Blog
+                    - generic [ref=e1165]: open_in_new
+              - generic [ref=e1166]:
+                - heading "Equal Opportunity" [level=2] [ref=e1167]
+                - paragraph [ref=e1168]:
+                  - text: Google is proud to be an equal opportunity and affirmative action employer. We are committed to building a workforce that is representative of the users we serve, creating a culture of belonging, and providing an equal employment opportunity regardless of race, creed, color, religion, gender, sexual orientation, gender identity/expression, national origin, disability, age, genetic information, veteran status, marital status, pregnancy or related condition (including breastfeeding), expecting or parents-to-be, criminal histories consistent with legal requirements, or any other basis protected by law. See also
+                  - link "Google's EEO Policy" [ref=e1169] [cursor=pointer]:
+                    - /url: https://www.google.com/about/careers/applications/eeo/
+                  - text: ","
+                  - 'link "Know your rights: workplace discrimination is illegal" [ref=e1170] [cursor=pointer]':
+                    - /url: https://careers.google.com/jobs/dist/legal/EEOC_KnowYourRights_10_20.pdf
+                  - text: ","
+                  - link "Belonging at Google" [ref=e1171] [cursor=pointer]:
+                    - /url: https://about.google/belonging/
+                  - text: ", and"
+                  - link "How we hire" [ref=e1172] [cursor=pointer]:
+                    - /url: https://careers.google.com/how-we-hire/
+                  - text: .
+            - generic [ref=e1173]:
+              - link "google.com (Opens in a new tab)" [ref=e1175] [cursor=pointer]:
+                - /url: https://www.google.com/
+                - img "Google" [ref=e1176]
+              - generic [ref=e1177]:
+                - generic [ref=e1178]:
+                  - link "Privacy (opens in a new tab)" [ref=e1180] [cursor=pointer]:
+                    - /url: https://policies.google.com/privacy
+                    - text: Privacy
+                    - generic [ref=e1182]: open_in_new
+                  - link "Applicant & Candidate Privacy (opens in a new tab)" [ref=e1184] [cursor=pointer]:
+                    - /url: ./privacy-policy
+                    - text: Applicant & Candidate Privacy
+                    - generic [ref=e1186]: open_in_new
+                  - link "Terms (opens in a new tab)" [ref=e1188] [cursor=pointer]:
+                    - /url: https://policies.google.com/terms
+                    - text: Terms
+                    - generic [ref=e1190]: open_in_new
+                - generic [ref=e1191]:
+                  - link "Help (opens in a new tab)" [ref=e1192] [cursor=pointer]:
+                    - /url: https://support.google.com/googlecareers/#topic=6095159
+                    - generic [ref=e1194]: help
+                    - text: Help
+                    - generic [ref=e1196]: open_in_new
+                  - combobox "Select language" [ref=e1200] [cursor=pointer]:
+                    - generic: language
+                    - generic:
+                      - generic: English
+                    - generic:
+                      - img

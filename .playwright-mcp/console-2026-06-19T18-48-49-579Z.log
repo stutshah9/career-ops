@@ -1,0 +1,8 @@
+[     883ms] [LOG] ipGeolocation Blacksburg, Virginia, US @ https://apply.careers.microsoft.com/gen/js/pcsxPwa.bb1b0b9a68447254df90.js:8
+[     883ms] [LOG] ipGeolocationLatLong 37.2532,-80.4347 @ https://apply.careers.microsoft.com/gen/js/pcsxPwa.bb1b0b9a68447254df90.js:8
+[    1317ms] [LOG] i18next: languageChanged en_us @ https://cdn.careers.microsoft.com/aem/main.b1fb98162c4cd0025016.js:64
+[    1317ms] [LOG] i18next: initialized {debug: true, initImmediate: true, ns: Array(1), defaultNS: Array(1), fallbackLng: Array(1)} @ https://cdn.careers.microsoft.com/aem/main.b1fb98162c4cd0025016.js:64
+[    1329ms] [LOG] i18next: languageChanged en_us @ https://cdn.careers.microsoft.com/aem/main.b1fb98162c4cd0025016.js:64
+[    1364ms] [LOG] i18next: languageChanged en_us @ https://cdn.careers.microsoft.com/aem/main.b1fb98162c4cd0025016.js:64
+[    1550ms] [WARNING] WARNING: OfficeBrowserFeedback is no longer supporting the host application setting the styles for the surveys. 
+			Please use the default styling. @ https://cdn.careers.microsoft.com/static/scripts/officebrowserfeedback_floodgate.min.js:1

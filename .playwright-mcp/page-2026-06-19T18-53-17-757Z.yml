@@ -1,0 +1,902 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic:
+      - link "Skip to main content":
+        - /url: "#skipToMainContent"
+    - generic [ref=e6]:
+      - link "Company Logo" [ref=e8] [cursor=pointer]:
+        - /url: https://careers.adobe.com/us/en/
+        - img "adobe-logo" [ref=e9]
+      - navigation "primary" [ref=e16]:
+        - list [ref=e17]:
+          - listitem [ref=e18]:
+            - button "Careers" [ref=e19] [cursor=pointer]:
+              - generic [ref=e20]: Careers
+              - img [ref=e22]
+          - listitem [ref=e24]:
+            - button "Teams" [ref=e25] [cursor=pointer]:
+              - generic [ref=e26]: Teams
+              - img [ref=e28]
+          - listitem [ref=e30]:
+            - link "University" [ref=e32] [cursor=pointer]:
+              - /url: https://careers.adobe.com/us/en/university
+          - listitem [ref=e33]:
+            - link "Adobe For All" [ref=e35] [cursor=pointer]:
+              - /url: https://www.adobe.com/diversity.html
+          - listitem [ref=e36]:
+            - link "View Application Status" [ref=e38] [cursor=pointer]:
+              - /url: https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/login
+      - list [ref=e40]:
+        - listitem [ref=e41]:
+          - button "Login" [ref=e45] [cursor=pointer]:
+            - img [ref=e47]
+            - generic [ref=e49]: Login
+        - listitem [ref=e52]:
+          - link "saved jobs (0)" [ref=e55] [cursor=pointer]:
+            - /url: https://careers.adobe.com/us/en/jobcart
+            - img [ref=e57]
+            - generic [ref=e59]: Saved jobs
+            - generic [ref=e60]: (0)
+  - main [ref=e61]:
+    - generic: "-"
+    - generic [ref=e64]: "-"
+    - generic [ref=e65]:
+      - generic [ref=e68]:
+        - figure [ref=e69]:
+          - img "SearchResultsHero" [ref=e70]
+        - generic [ref=e73]:
+          - heading "Careers at Adobe" [level=1] [ref=e74]
+          - form "Global search" [ref=e80]:
+            - generic [ref=e85]:
+              - generic [ref=e87]:
+                - generic [ref=e88]: Enter job title or location
+                - combobox "Enter job title or location" [ref=e89]: Machine Learning Engineer
+                - button "Clear text" [ref=e90] [cursor=pointer]:
+                  - img [ref=e92]
+              - button "Search" [ref=e97] [cursor=pointer]:
+                - generic [ref=e98]: Search
+      - generic [ref=e101]:
+        - region "Refine your search" [ref=e106]:
+          - text: $
+          - heading "Refine your search." [level=2] [ref=e109]:
+            - generic [ref=e111]: Refine your search.
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - heading "Remote" [level=3] [ref=e116]:
+                - button "Remote" [ref=e117] [cursor=pointer]:
+                  - text: Remote
+                  - generic [ref=e118]: (
+              - generic: ":"
+            - generic [ref=e119]:
+              - heading "Country" [level=3] [ref=e122]:
+                - button "Country" [expanded] [ref=e123] [cursor=pointer]:
+                  - text: Country
+                  - generic [ref=e124]: "8"
+              - generic [ref=e126]:
+                - generic [ref=e128]:
+                  - searchbox "Search in Country" [ref=e129]
+                  - text: ":"
+                - group "Country" [ref=e131]:
+                  - generic [ref=e132]: Country
+                  - list [ref=e133]:
+                    - listitem [ref=e134]:
+                      - generic [ref=e135] [cursor=pointer]:
+                        - checkbox "Armenia 2 jobs" [ref=e136]
+                        - generic [ref=e138]:
+                          - text: Armenia
+                          - generic [ref=e139]:
+                            - text: (2)
+                            - generic [ref=e140]: jobs
+                    - listitem [ref=e141]:
+                      - generic [ref=e142] [cursor=pointer]:
+                        - checkbox "Canada 5 jobs" [ref=e143]
+                        - generic [ref=e145]:
+                          - text: Canada
+                          - generic [ref=e146]:
+                            - text: (5)
+                            - generic [ref=e147]: jobs
+                    - listitem [ref=e148]:
+                      - generic [ref=e149] [cursor=pointer]:
+                        - checkbox "Denmark 1 job" [ref=e150]
+                        - generic [ref=e152]:
+                          - text: Denmark
+                          - generic [ref=e153]:
+                            - text: (1)
+                            - generic [ref=e154]: job
+                    - listitem [ref=e155]:
+                      - generic [ref=e156] [cursor=pointer]:
+                        - checkbox "France 3 jobs" [ref=e157]
+                        - generic [ref=e159]:
+                          - text: France
+                          - generic [ref=e160]:
+                            - text: (3)
+                            - generic [ref=e161]: jobs
+                    - listitem [ref=e162]:
+                      - generic [ref=e163] [cursor=pointer]:
+                        - checkbox "Georgia 1 job" [ref=e164]
+                        - generic [ref=e166]:
+                          - text: Georgia
+                          - generic [ref=e167]:
+                            - text: (1)
+                            - generic [ref=e168]: job
+                    - listitem [ref=e169]:
+                      - generic [ref=e170] [cursor=pointer]:
+                        - checkbox "Germany 13 jobs" [ref=e171]
+                        - generic [ref=e173]:
+                          - text: Germany
+                          - generic [ref=e174]:
+                            - text: (13)
+                            - generic [ref=e175]: jobs
+                    - listitem [ref=e176]:
+                      - generic [ref=e177] [cursor=pointer]:
+                        - checkbox "India 84 jobs" [ref=e178]
+                        - generic [ref=e180]:
+                          - text: India
+                          - generic [ref=e181]:
+                            - text: (84)
+                            - generic [ref=e182]: jobs
+                    - listitem [ref=e183]:
+                      - generic [ref=e184] [cursor=pointer]:
+                        - checkbox "Japan 4 jobs" [ref=e185]
+                        - generic [ref=e187]:
+                          - text: Japan
+                          - generic [ref=e188]:
+                            - text: (4)
+                            - generic [ref=e189]: jobs
+                    - listitem [ref=e190]:
+                      - generic [ref=e191] [cursor=pointer]:
+                        - checkbox "Romania 35 jobs" [ref=e192]
+                        - generic [ref=e194]:
+                          - text: Romania
+                          - generic [ref=e195]:
+                            - text: (35)
+                            - generic [ref=e196]: jobs
+                    - listitem [ref=e197]:
+                      - generic [ref=e198] [cursor=pointer]:
+                        - checkbox "Singapore 2 jobs" [ref=e199]
+                        - generic [ref=e201]:
+                          - text: Singapore
+                          - generic [ref=e202]:
+                            - text: (2)
+                            - generic [ref=e203]: jobs
+                    - listitem [ref=e204]:
+                      - generic [ref=e205] [cursor=pointer]:
+                        - checkbox "Spain 1 job" [ref=e206]
+                        - generic [ref=e208]:
+                          - text: Spain
+                          - generic [ref=e209]:
+                            - text: (1)
+                            - generic [ref=e210]: job
+                    - listitem [ref=e211]:
+                      - generic [ref=e212] [cursor=pointer]:
+                        - checkbox "Switzerland 1 job" [ref=e213]
+                        - generic [ref=e215]:
+                          - text: Switzerland
+                          - generic [ref=e216]:
+                            - text: (1)
+                            - generic [ref=e217]: job
+                    - listitem [ref=e218]:
+                      - generic [ref=e219] [cursor=pointer]:
+                        - checkbox "United Kingdom 12 jobs" [ref=e220]
+                        - generic [ref=e222]:
+                          - text: United Kingdom
+                          - generic [ref=e223]:
+                            - text: (12)
+                            - generic [ref=e224]: jobs
+                    - listitem [ref=e225]:
+                      - generic [ref=e226] [cursor=pointer]:
+                        - checkbox "United States of America 313 jobs" [ref=e227]
+                        - generic [ref=e229]:
+                          - text: United States of America
+                          - generic [ref=e230]:
+                            - text: (313)
+                            - generic [ref=e231]: jobs
+            - generic [ref=e232]:
+              - heading "State/Province" [level=3] [ref=e235]:
+                - button "State/Province" [ref=e236] [cursor=pointer]:
+                  - text: State/Province
+                  - generic [ref=e237]: (
+              - generic: ":"
+            - generic [ref=e238]:
+              - heading "City" [level=3] [ref=e241]:
+                - button "City" [ref=e242] [cursor=pointer]:
+                  - text: City
+                  - generic [ref=e243]: (
+              - generic: ":"
+            - generic [ref=e244]:
+              - heading "Experience Level" [level=3] [ref=e247]:
+                - button "Experience Level" [ref=e248] [cursor=pointer]:
+                  - text: Experience Level
+                  - generic [ref=e249]: (
+              - generic: ":"
+            - generic [ref=e250]:
+              - heading "Teams" [level=3] [ref=e253]:
+                - button "Teams" [ref=e254] [cursor=pointer]:
+                  - text: Teams
+                  - generic [ref=e255]: (
+              - generic: ":"
+            - generic [ref=e256]:
+              - heading "Profession" [level=3] [ref=e259]:
+                - button "Profession" [ref=e260] [cursor=pointer]:
+                  - text: Profession
+                  - generic [ref=e261]: (
+              - generic: ":"
+            - generic [ref=e262]:
+              - heading "Employment Type" [level=3] [ref=e265]:
+                - button "Employment Type" [ref=e266] [cursor=pointer]:
+                  - text: Employment Type
+                  - generic [ref=e267]: (
+              - generic: ":"
+            - generic [ref=e268]:
+              - heading "Role Type" [level=3] [ref=e271]:
+                - button "Role Type" [ref=e272] [cursor=pointer]:
+                  - text: Role Type
+                  - generic [ref=e273]: (
+              - generic: ":"
+        - generic [ref=e278]:
+          - region "Search results" [ref=e279]:
+            - heading "Showing Search results for \"Machine Learning Engineer\"" [level=2] [ref=e282]:
+              - generic [ref=e283]: Showing Search results for
+              - text: "\"Machine Learning Engineer\""
+            - generic [ref=e285]:
+              - generic [ref=e287]:
+                - generic [ref=e290]:
+                  - generic [ref=e291]: Search from below list
+                  - textbox "Refine search by using specific job title or keyword" [ref=e292]:
+                    - /placeholder: Search from below list
+                  - text: "$ :"
+                - generic [ref=e294]:
+                  - generic [ref=e295]: 469 results
+                  - generic [ref=e296]:
+                    - text: "|"
+                    - generic [ref=e297]: Sort by
+                    - generic [ref=e298]:
+                      - combobox "Sort by" [ref=e299]:
+                        - option "Most relevant" [selected]
+                        - option "Most recent"
+                      - generic: 
+                  - text: F
+              - list [ref=e301]:
+                - listitem [ref=e302]:
+                  - generic [ref=e303]:
+                    - generic [ref=e304]:
+                      - heading "Machine Learning Engineer Job ID is R165365" [level=3] [ref=e305]:
+                        - link "Machine Learning Engineer Job ID is R165365" [ref=e306] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R165365/Machine-Learning-Engineer
+                          - generic [ref=e307]: Machine Learning Engineer
+                      - paragraph [ref=e308]:
+                        - generic [ref=e310]:
+                          - generic [ref=e311]: Location
+                          - generic [ref=e312]: 
+                          - text: San Jose, California, United States of America
+                        - generic [ref=e314]:
+                          - generic [ref=e315]: Category
+                          - generic [ref=e316]: 
+                          - text: Engineering and Product
+                        - generic [ref=e318]:
+                          - generic [ref=e319]: Job Id
+                          - generic [ref=e320]: 
+                          - text: R165365
+                        - generic [ref=e322]:
+                          - generic [ref=e323]: Posted Date
+                          - generic [ref=e324]: 
+                          - text: 03/26/2026
+                      - text: 
+                      - paragraph [ref=e325]: Join our team as a Senior Machine Learning Engineer and help shape the future of AI-powered creative workflows. Drive innovation by designing and implementing advanced AI agents, LLMs, and multimodal integrations. Collaborate with top talent to build scalable, next-generation solutions powering flagship products like Photoshop and Lightroom.
+                    - list [ref=e327]:
+                      - listitem [ref=e328]:
+                        - link "Apply Now for Machine Learning Engineer" [ref=e330] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR165365EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e331]: Machine Learning Engineer
+                      - listitem [ref=e332]:
+                        - generic [ref=e335] [cursor=pointer]:
+                          - checkbox "Save Machine Learning Engineer R165365 to job cart" [ref=e336]
+                          - generic [ref=e337]:
+                            - generic [ref=e338]: "|"
+                            - generic [ref=e339]: Save Machine Learning Engineer R165365
+                - listitem [ref=e340]:
+                  - generic [ref=e341]:
+                    - generic [ref=e342]:
+                      - heading "Machine Learning Engineer Job ID is R163760" [level=3] [ref=e343]:
+                        - link "Machine Learning Engineer Job ID is R163760" [ref=e344] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R163760/Machine-Learning-Engineer
+                          - generic [ref=e345]: Machine Learning Engineer
+                      - paragraph [ref=e346]:
+                        - generic [ref=e348]:
+                          - generic [ref=e349]: Location
+                          - generic [ref=e350]: 
+                          - text: San Jose, California, United States of America
+                        - generic [ref=e352]:
+                          - generic [ref=e353]: Category
+                          - generic [ref=e354]: 
+                          - text: Engineering and Product
+                        - generic [ref=e356]:
+                          - generic [ref=e357]: Job Id
+                          - generic [ref=e358]: 
+                          - text: R163760
+                        - generic [ref=e360]:
+                          - generic [ref=e361]: Posted Date
+                          - generic [ref=e362]: 
+                          - text: 03/16/2026
+                      - text: 
+                      - paragraph [ref=e363]: Embrace the opportunity to become a Machine Learning Engineer and help shape the future of customer experience at Adobe. Collaborate with top researchers to design, develop, and deploy innovative AI models and solutions. Work with cutting-edge technologies in a dynamic, data-driven environment and make a real impact on personalized and adaptive decision-making.
+                    - list [ref=e365]:
+                      - listitem [ref=e366]:
+                        - link "Apply Now for Machine Learning Engineer" [ref=e368] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR163760EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e369]: Machine Learning Engineer
+                      - listitem [ref=e370]:
+                        - generic [ref=e373] [cursor=pointer]:
+                          - checkbox "Save Machine Learning Engineer R163760 to job cart" [ref=e374]
+                          - generic [ref=e375]:
+                            - generic [ref=e376]: "|"
+                            - generic [ref=e377]: Save Machine Learning Engineer R163760
+                - listitem [ref=e378]:
+                  - generic [ref=e379]:
+                    - generic [ref=e380]:
+                      - heading "Machine Learning Engineer Job ID is R167407" [level=3] [ref=e381]:
+                        - link "Machine Learning Engineer Job ID is R167407" [ref=e382] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R167407/Machine-Learning-Engineer
+                          - generic [ref=e383]: Machine Learning Engineer
+                      - paragraph [ref=e384]:
+                        - generic [ref=e386]:
+                          - generic [ref=e387]: Location
+                          - generic [ref=e388]: 
+                          - text: San Jose, California, United States of America
+                        - generic [ref=e390]:
+                          - generic [ref=e391]: Category
+                          - generic [ref=e392]: 
+                          - text: Engineering and Product
+                        - generic [ref=e394]:
+                          - generic [ref=e395]: Job Id
+                          - generic [ref=e396]: 
+                          - text: R167407
+                        - generic [ref=e398]:
+                          - generic [ref=e399]: Posted Date
+                          - generic [ref=e400]: 
+                          - text: 06/04/2026
+                      - text: 
+                      - paragraph [ref=e401]: Exciting opportunity for a Machine Learning Engineer to join Adobe Cloud and help build scalable search, recommendation, and Gen AI systems powering world-class creative tools. Collaborate with top talent, leverage cutting-edge technologies, and make a real impact on Adobe’s innovative ecosystem. Grow your career in a dynamic, fast-paced environment at the forefront of AI innovation.
+                    - list [ref=e403]:
+                      - listitem [ref=e404]:
+                        - link "Apply Now for Machine Learning Engineer" [ref=e406] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR167407EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e407]: Machine Learning Engineer
+                      - listitem [ref=e408]:
+                        - generic [ref=e411] [cursor=pointer]:
+                          - checkbox "Save Machine Learning Engineer R167407 to job cart" [ref=e412]
+                          - generic [ref=e413]:
+                            - generic [ref=e414]: "|"
+                            - generic [ref=e415]: Save Machine Learning Engineer R167407
+                - listitem [ref=e416]:
+                  - generic [ref=e417]:
+                    - generic [ref=e418]:
+                      - heading "Machine Learning Engineer Job ID is R169199" [level=3] [ref=e419]:
+                        - link "Machine Learning Engineer Job ID is R169199" [ref=e420] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R169199/Machine-Learning-Engineer
+                          - generic [ref=e421]: Machine Learning Engineer
+                      - paragraph [ref=e422]:
+                        - generic [ref=e424]:
+                          - generic [ref=e425]: Location
+                          - generic [ref=e426]: 
+                          - text: San Jose, California, United States of America
+                        - generic [ref=e428]:
+                          - generic [ref=e429]: Category
+                          - generic [ref=e430]: 
+                          - text: Engineering and Product
+                        - generic [ref=e432]:
+                          - generic [ref=e433]: Job Id
+                          - generic [ref=e434]: 
+                          - text: R169199
+                        - generic [ref=e436]:
+                          - generic [ref=e437]: Posted Date
+                          - generic [ref=e438]: 
+                          - text: 06/05/2026
+                      - text: 
+                      - paragraph [ref=e439]: Exciting opportunity for a Machine Learning Engineer to build AI-powered systems at Adobe Journey Optimizer. Apply your expertise in Python, LLMs, and production ML operations to drive reliability and customer experience at scale. Collaborate with cross-functional teams and shape the future of AI-driven platforms. Join us to make a real impact!
+                    - list [ref=e441]:
+                      - listitem [ref=e442]:
+                        - link "Apply Now for Machine Learning Engineer" [ref=e444] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR169199EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e445]: Machine Learning Engineer
+                      - listitem [ref=e446]:
+                        - generic [ref=e449] [cursor=pointer]:
+                          - checkbox "Save Machine Learning Engineer R169199 to job cart" [ref=e450]
+                          - generic [ref=e451]:
+                            - generic [ref=e452]: "|"
+                            - generic [ref=e453]: Save Machine Learning Engineer R169199
+                - listitem [ref=e454]:
+                  - generic [ref=e455]:
+                    - generic [ref=e456]:
+                      - heading "Machine Learning Engineer Job ID is R169351" [level=3] [ref=e457]:
+                        - link "Machine Learning Engineer Job ID is R169351" [ref=e458] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R169351/Machine-Learning-Engineer
+                          - generic [ref=e459]: Machine Learning Engineer
+                      - paragraph [ref=e460]:
+                        - generic [ref=e462]:
+                          - generic [ref=e463]: Location
+                          - generic [ref=e464]: 
+                          - text: San Jose, California, United States of America
+                        - generic [ref=e466]:
+                          - generic [ref=e467]: Category
+                          - generic [ref=e468]: 
+                          - text: Engineering and Product
+                        - generic [ref=e470]:
+                          - generic [ref=e471]: Job Id
+                          - generic [ref=e472]: 
+                          - text: R169351
+                        - generic [ref=e474]:
+                          - generic [ref=e475]: Posted Date
+                          - generic [ref=e476]: 
+                          - text: 06/08/2026
+                      - text: 
+                      - paragraph [ref=e477]: Embrace the opportunity to become a Machine Learning Engineer and drive innovation by building predictive models and scalable AI solutions. Collaborate with cross-functional teams to solve complex business challenges using advanced analytics, deep learning, and large-scale data. Shape the future of customer experience at Adobe with cutting-edge technology and impactful projects.
+                    - list [ref=e479]:
+                      - listitem [ref=e480]:
+                        - link "Apply Now for Machine Learning Engineer" [ref=e482] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR169351EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e483]: Machine Learning Engineer
+                      - listitem [ref=e484]:
+                        - generic [ref=e487] [cursor=pointer]:
+                          - checkbox "Save Machine Learning Engineer R169351 to job cart" [ref=e488]
+                          - generic [ref=e489]:
+                            - generic [ref=e490]: "|"
+                            - generic [ref=e491]: Save Machine Learning Engineer R169351
+                - listitem [ref=e492]:
+                  - generic [ref=e493]:
+                    - generic [ref=e494]:
+                      - heading "Machine Learning Engineer Job ID is R169475" [level=3] [ref=e495]:
+                        - link "Machine Learning Engineer Job ID is R169475" [ref=e496] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R169475/Machine-Learning-Engineer
+                          - generic [ref=e497]: Machine Learning Engineer
+                      - paragraph [ref=e498]:
+                        - generic [ref=e500]:
+                          - generic [ref=e501]: Location
+                          - generic [ref=e502]: 
+                          - text: Bucharest, Bucureşti, Romania
+                        - generic [ref=e504]:
+                          - generic [ref=e505]: Category
+                          - generic [ref=e506]: 
+                          - text: Engineering and Product
+                        - generic [ref=e508]:
+                          - generic [ref=e509]: Job Id
+                          - generic [ref=e510]: 
+                          - text: R169475
+                        - generic [ref=e512]:
+                          - generic [ref=e513]: Posted Date
+                          - generic [ref=e514]: 
+                          - text: 06/15/2026
+                      - text: 
+                      - paragraph [ref=e515]: Join our team as a Senior Machine Learning Engineer and help build next-generation ML platforms. Collaborate with global teams, design scalable distributed systems, and drive innovation in a multicultural environment. Shape engineering standards, mentor peers, and work with cutting-edge technologies to power large-scale ML workloads.
+                    - list [ref=e517]:
+                      - listitem [ref=e518]:
+                        - link "Apply Now for Machine Learning Engineer" [ref=e520] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR169475EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e521]: Machine Learning Engineer
+                      - listitem [ref=e522]:
+                        - generic [ref=e525] [cursor=pointer]:
+                          - checkbox "Save Machine Learning Engineer R169475 to job cart" [ref=e526]
+                          - generic [ref=e527]:
+                            - generic [ref=e528]: "|"
+                            - generic [ref=e529]: Save Machine Learning Engineer R169475
+                - listitem [ref=e530]:
+                  - generic [ref=e531]:
+                    - generic [ref=e532]:
+                      - heading "Machine Learning Engineer Job ID is R167868" [level=3] [ref=e533]:
+                        - link "Machine Learning Engineer Job ID is R167868" [ref=e534] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R167868/Machine-Learning-Engineer
+                          - generic [ref=e535]: Machine Learning Engineer
+                      - paragraph [ref=e536]:
+                        - generic [ref=e538]:
+                          - generic [ref=e539]: Category
+                          - generic [ref=e540]: 
+                          - text: Engineering and Product
+                        - generic [ref=e542]:
+                          - generic [ref=e543]: Job Id
+                          - generic [ref=e544]: 
+                          - text: R167868
+                        - generic [ref=e546]:
+                          - generic [ref=e547]: Posted Date
+                          - generic [ref=e548]: 
+                          - text: 06/17/2026
+                      - button "Machine Learning Engineer ADOBUSR167868EXTERNALENUS Job available in 2 locations" [ref=e551] [cursor=pointer]:
+                        - text: Job available in 2 locations
+                        - generic [ref=e552]: 
+                      - text: 
+                      - paragraph [ref=e553]: Join our team as a Senior Machine Learning Engineer and drive the development of cutting-edge ML and GenAI solutions. Collaborate with top engineers, design scalable systems, and deploy impactful AI features. Shape the future of intelligent automation and make a real-world impact in a dynamic, innovative environment. Grow your career with us!
+                    - list [ref=e555]:
+                      - listitem [ref=e556]:
+                        - link "Apply Now for Machine Learning Engineer" [ref=e558] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR167868EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e559]: Machine Learning Engineer
+                      - listitem [ref=e560]:
+                        - generic [ref=e563] [cursor=pointer]:
+                          - checkbox "Save Machine Learning Engineer R167868 to job cart" [ref=e564]
+                          - generic [ref=e565]:
+                            - generic [ref=e566]: "|"
+                            - generic [ref=e567]: Save Machine Learning Engineer R167868
+                - listitem [ref=e568]:
+                  - generic [ref=e569]:
+                    - generic [ref=e570]:
+                      - heading "Senior Machine Learning Engineer Job ID is R167486" [level=3] [ref=e571]:
+                        - link "Senior Machine Learning Engineer Job ID is R167486" [ref=e572] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R167486/Senior-Machine-Learning-Engineer
+                          - generic [ref=e573]: Senior Machine Learning Engineer
+                      - paragraph [ref=e574]:
+                        - generic [ref=e576]:
+                          - generic [ref=e577]: Location
+                          - generic [ref=e578]: 
+                          - text: San Jose, California, United States of America
+                        - generic [ref=e580]:
+                          - generic [ref=e581]: Category
+                          - generic [ref=e582]: 
+                          - text: Engineering and Product
+                        - generic [ref=e584]:
+                          - generic [ref=e585]: Job Id
+                          - generic [ref=e586]: 
+                          - text: R167486
+                        - generic [ref=e588]:
+                          - generic [ref=e589]: Posted Date
+                          - generic [ref=e590]: 
+                          - text: 04/07/2026
+                      - text: 
+                      - paragraph [ref=e591]: Join our team as a Senior Machine Learning Engineer and shape the future of AI-powered customer journey orchestration. Drive innovation in B2B marketing by architecting scalable ML pipelines, optimizing generative AI, and collaborating across teams to deliver impactful, personalized experiences. Make a measurable impact on enterprise engagement and business growth.
+                    - list [ref=e593]:
+                      - listitem [ref=e594]:
+                        - link "Apply Now for Senior Machine Learning Engineer" [ref=e596] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR167486EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e597]: Senior Machine Learning Engineer
+                      - listitem [ref=e598]:
+                        - generic [ref=e601] [cursor=pointer]:
+                          - checkbox "Save Senior Machine Learning Engineer R167486 to job cart" [ref=e602]
+                          - generic [ref=e603]:
+                            - generic [ref=e604]: "|"
+                            - generic [ref=e605]: Save Senior Machine Learning Engineer R167486
+                - listitem [ref=e606]:
+                  - generic [ref=e607]:
+                    - generic [ref=e608]:
+                      - heading "Senior Machine Learning Engineer Job ID is R166334" [level=3] [ref=e609]:
+                        - link "Senior Machine Learning Engineer Job ID is R166334" [ref=e610] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R166334/Senior-Machine-Learning-Engineer
+                          - generic [ref=e611]: Senior Machine Learning Engineer
+                      - paragraph [ref=e612]:
+                        - generic [ref=e614]:
+                          - generic [ref=e615]: Category
+                          - generic [ref=e616]: 
+                          - text: Engineering and Product
+                        - generic [ref=e618]:
+                          - generic [ref=e619]: Job Id
+                          - generic [ref=e620]: 
+                          - text: R166334
+                        - generic [ref=e622]:
+                          - generic [ref=e623]: Posted Date
+                          - generic [ref=e624]: 
+                          - text: 04/16/2026
+                      - button "Senior Machine Learning Engineer ADOBUSR166334EXTERNALENUS Job available in 3 locations" [ref=e627] [cursor=pointer]:
+                        - text: Job available in 3 locations
+                        - generic [ref=e628]: 
+                      - text: 
+                      - paragraph [ref=e629]: Join our team as a Senior Machine Learning Engineer and lead the development of cutting-edge ML models powering creative content at Adobe. Collaborate with top talent, drive innovation, and shape the future of content intelligence. If you’re passionate about AI and machine learning, this is your opportunity to make a global impact.
+                    - list [ref=e631]:
+                      - listitem [ref=e632]:
+                        - link "Apply Now for Senior Machine Learning Engineer" [ref=e634] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR166334EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e635]: Senior Machine Learning Engineer
+                      - listitem [ref=e636]:
+                        - generic [ref=e639] [cursor=pointer]:
+                          - checkbox "Save Senior Machine Learning Engineer R166334 to job cart" [ref=e640]
+                          - generic [ref=e641]:
+                            - generic [ref=e642]: "|"
+                            - generic [ref=e643]: Save Senior Machine Learning Engineer R166334
+                - listitem [ref=e644]:
+                  - generic [ref=e645]:
+                    - generic [ref=e646]:
+                      - heading "Senior Machine Learning Engineer Job ID is R167945" [level=3] [ref=e647]:
+                        - link "Senior Machine Learning Engineer Job ID is R167945" [ref=e648] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R167945/Senior-Machine-Learning-Engineer
+                          - generic [ref=e649]: Senior Machine Learning Engineer
+                      - paragraph [ref=e650]:
+                        - generic [ref=e652]:
+                          - generic [ref=e653]: Category
+                          - generic [ref=e654]: 
+                          - text: Engineering and Product
+                        - generic [ref=e656]:
+                          - generic [ref=e657]: Job Id
+                          - generic [ref=e658]: 
+                          - text: R167945
+                        - generic [ref=e660]:
+                          - generic [ref=e661]: Posted Date
+                          - generic [ref=e662]: 
+                          - text: 04/21/2026
+                      - button "Senior Machine Learning Engineer ADOBUSR167945EXTERNALENUS Job available in 2 locations" [ref=e665] [cursor=pointer]:
+                        - text: Job available in 2 locations
+                        - generic [ref=e666]: 
+                      - text: 
+                      - paragraph [ref=e667]: Exciting opportunity for a Senior Machine Learning Engineer to architect and optimize generative AI models at Adobe Firefly. Lead technical strategy, collaborate with top researchers, and drive innovation in large-scale AI pipelines. Join a global team shaping the future of creative tools and digital experiences. Grow your impact with cutting-edge technology and leadership.
+                    - list [ref=e669]:
+                      - listitem [ref=e670]:
+                        - link "Apply Now for Senior Machine Learning Engineer" [ref=e672] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR167945EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e673]: Senior Machine Learning Engineer
+                      - listitem [ref=e674]:
+                        - generic [ref=e677] [cursor=pointer]:
+                          - checkbox "Save Senior Machine Learning Engineer R167945 to job cart" [ref=e678]
+                          - generic [ref=e679]:
+                            - generic [ref=e680]: "|"
+                            - generic [ref=e681]: Save Senior Machine Learning Engineer R167945
+          - region "pagination" [ref=e682]:
+            - text: Z
+            - button "Page 1": "1"
+            - button "Page 2" [ref=e683] [cursor=pointer]: "2"
+            - button "Page 3" [ref=e684] [cursor=pointer]: "3"
+            - button "Page 4" [ref=e685] [cursor=pointer]: "4"
+            - button "Page 5" [ref=e686] [cursor=pointer]: "5"
+            - button "Page 6" [ref=e687] [cursor=pointer]: "6"
+            - button "Page 7" [ref=e688] [cursor=pointer]: "7"
+            - button "Page 8" [ref=e689] [cursor=pointer]: "8"
+            - button "Page 9" [ref=e690] [cursor=pointer]: "9"
+            - button "Page 10" [ref=e691] [cursor=pointer]: "10"
+            - button "View next page" [ref=e692] [cursor=pointer]:
+              - generic [ref=e693]: 
+      - generic [ref=e698]:
+        - heading "Stay in the loop." [level=2] [ref=e699]
+        - generic [ref=e700]: Join a community of innovators and get early access to opportunities, insider insights, and exclusive updates on life at Adobe.
+        - link "Join our talent community" [ref=e701] [cursor=pointer]:
+          - /url: https://careers.adobe.com/us/en/jointalentcommunity
+          - generic [ref=e702]: Join our talent community
+      - list [ref=e706]:
+        - listitem [ref=e707]
+        - listitem [ref=e709]:
+          - figure [ref=e710]:
+            - img "LetsAdobeTogether" [ref=e711]
+        - listitem [ref=e713]
+  - generic [ref=e715]:
+    - region [ref=e718]:
+      - list [ref=e721]:
+        - listitem [ref=e722]:
+          - generic "Career Site Cookie Settings" [ref=e726] [cursor=pointer]:
+            - generic [ref=e727]: Career Site Cookie Settings
+            - text: 
+        - listitem [ref=e728]:
+          - generic "Personal Information" [ref=e732] [cursor=pointer]:
+            - generic [ref=e733]: Personal Information
+            - text: 
+    - contentinfo [ref=e736]:
+      - generic [ref=e737]:
+        - generic [ref=e738]:
+          - generic [ref=e739]:
+            - list [ref=e741]:
+              - listitem [ref=e742]:
+                - heading "Shop for" [level=5] [ref=e743]
+              - list [ref=e744]:
+                - listitem [ref=e745]:
+                  - link "Creative Cloud" [ref=e746] [cursor=pointer]:
+                    - /url: https://www.adobe.com/creativecloud.html?promoid=ZP46FD38&mv=other
+                - listitem [ref=e747]:
+                  - link "Photoshop" [ref=e748] [cursor=pointer]:
+                    - /url: https://www.adobe.com/products/photoshop.html
+                - listitem
+              - listitem [ref=e749]:
+                - link "Photography" [ref=e750] [cursor=pointer]:
+                  - /url: https://www.adobe.com/creativecloud/photography.html
+              - listitem [ref=e751]:
+                - link "Premiere Pro" [ref=e752] [cursor=pointer]:
+                  - /url: https://www.adobe.com/products/premiere.html
+              - listitem [ref=e753]:
+                - link "Adobe Express" [ref=e754] [cursor=pointer]:
+                  - /url: https://www.adobe.com/express/
+              - listitem [ref=e755]:
+                - link "Adobe Stock" [ref=e756] [cursor=pointer]:
+                  - /url: https://stock.adobe.com/in/
+              - listitem [ref=e757]:
+                - link "Elements Family" [ref=e758] [cursor=pointer]:
+                  - /url: https://www.adobe.com/products/elements-family.html
+              - listitem [ref=e759]:
+                - link "Document Cloud" [ref=e760] [cursor=pointer]:
+                  - /url: https://www.adobe.com/documentcloud.html
+              - listitem [ref=e761]:
+                - link "Acrobat" [ref=e762] [cursor=pointer]:
+                  - /url: https://www.adobe.com/acrobat.html
+              - listitem [ref=e763]:
+                - link "Acrobat Sign" [ref=e764] [cursor=pointer]:
+                  - /url: https://www.adobe.com/sign.html
+              - listitem [ref=e765]:
+                - link "Special offers" [ref=e766] [cursor=pointer]:
+                  - /url: https://www.adobe.com/products/special-offers.html
+              - listitem [ref=e767]:
+                - link "View plans and pricing" [ref=e768] [cursor=pointer]:
+                  - /url: https://www.adobe.com/creativecloud/plans.html
+              - listitem [ref=e769]:
+                - link "View all products" [ref=e770] [cursor=pointer]:
+                  - /url: https://www.adobe.com/products/catalog.html?types=pf_252Fdesktop&types=pf_252Fmobile&types=pf_252Fweb
+            - list [ref=e772]:
+              - listitem [ref=e773]:
+                - heading "For business" [level=5] [ref=e774]
+              - listitem [ref=e775]:
+                - link "Creative Cloud for teams" [ref=e776] [cursor=pointer]:
+                  - /url: https://www.adobe.com/creativecloud/business/teams.html
+              - listitem [ref=e777]:
+                - link "Creative Cloud for enterprise" [ref=e778] [cursor=pointer]:
+                  - /url: https://www.adobe.com/creativecloud/business/enterprise.html
+              - listitem [ref=e779]:
+                - link "Document Cloud for business" [ref=e780] [cursor=pointer]:
+                  - /url: https://www.adobe.com/documentcloud/business.html
+              - listitem [ref=e781]:
+                - list [ref=e783]:
+                  - listitem [ref=e784]:
+                    - heading "For education" [level=5] [ref=e785]
+                  - listitem [ref=e786]:
+                    - link "Discounts for students and teachers" [ref=e787] [cursor=pointer]:
+                      - /url: https://www.adobe.com/creativecloud/buy/students.html
+                  - listitem [ref=e788]:
+                    - link "Schools and universities" [ref=e789] [cursor=pointer]:
+                      - /url: https://www.adobe.com/education.html
+                  - listitem [ref=e790]:
+                    - link "Digital Learning Solutions" [ref=e791] [cursor=pointer]:
+                      - /url: https://www.adobe.com/elearning.html
+              - listitem [ref=e792]:
+                - list [ref=e794]:
+                  - listitem [ref=e795]:
+                    - heading "For mobile" [level=5] [ref=e796]
+                  - listitem [ref=e797]:
+                    - link "Apps for iOS" [ref=e798] [cursor=pointer]:
+                      - /url: https://apps.apple.com/sg/app/adobe-creative-cloud/id852473028
+                  - listitem [ref=e799]:
+                    - link "Apps for Android" [ref=e800] [cursor=pointer]:
+                      - /url: https://play.google.com/store/apps/details?id=com.adobe.cc
+            - list [ref=e802]:
+              - listitem [ref=e803]:
+                - heading "Experience Cloud" [level=5] [ref=e804]
+              - listitem [ref=e805]:
+                - link "What is Experience Cloud?" [ref=e806] [cursor=pointer]:
+                  - /url: https://business.adobe.com/
+              - listitem [ref=e807]:
+                - link "Analytics" [ref=e808] [cursor=pointer]:
+                  - /url: https://business.adobe.com/products/analytics/adobe-analytics.html
+              - listitem [ref=e809]:
+                - link "Experience Manager" [ref=e810] [cursor=pointer]:
+                  - /url: https://business.adobe.com/products/experience-manager/adobe-experience-manager.html
+              - listitem [ref=e811]:
+                - link "Commerce" [ref=e812] [cursor=pointer]:
+                  - /url: https://business.adobe.com/products/magento/magento-commerce.html
+              - listitem [ref=e813]:
+                - link "Marketo Engage" [ref=e814] [cursor=pointer]:
+                  - /url: https://business.adobe.com/products/marketo/adobe-marketo.html
+              - listitem [ref=e815]:
+                - link "Workfront" [ref=e816] [cursor=pointer]:
+                  - /url: https://www.workfront.com/
+            - list [ref=e818]:
+              - listitem [ref=e819]:
+                - heading "Support" [level=5] [ref=e820]
+              - listitem [ref=e821]:
+                - link "Download and install" [ref=e822] [cursor=pointer]:
+                  - /url: https://helpx.adobe.com/download-install.html
+              - listitem [ref=e823]:
+                - link "Help Center" [ref=e824] [cursor=pointer]:
+                  - /url: https://helpx.adobe.com/support.html
+              - listitem [ref=e825]:
+                - link "Adobe Support Community" [ref=e826] [cursor=pointer]:
+                  - /url: https://community.adobe.com/
+              - listitem [ref=e827]:
+                - link "Enterprise Support" [ref=e828] [cursor=pointer]:
+                  - /url: https://helpx.adobe.com/contact/enterprise-support.html
+              - listitem [ref=e829]:
+                - link "Genuine software" [ref=e830] [cursor=pointer]:
+                  - /url: https://www.adobe.com/genuine.html
+              - listitem [ref=e831]:
+                - list [ref=e833]:
+                  - listitem [ref=e834]:
+                    - heading "Resources" [level=5] [ref=e835]
+                  - listitem [ref=e836]:
+                    - link "Adobe Blog" [ref=e837] [cursor=pointer]:
+                      - /url: https://blog.adobe.com/
+                  - listitem [ref=e838]:
+                    - link "Adobe Developer" [ref=e839] [cursor=pointer]:
+                      - /url: https://developer.adobe.com/
+              - listitem [ref=e840]:
+                - list [ref=e842]:
+                  - listitem [ref=e843]:
+                    - heading "Adobe Account" [level=5] [ref=e844]
+                  - listitem [ref=e845]:
+                    - link "Log in to your account" [ref=e846] [cursor=pointer]:
+                      - /url: https://account.adobe.com/
+            - list [ref=e848]:
+              - listitem [ref=e849]:
+                - heading "Adobe" [level=5] [ref=e850]
+              - listitem [ref=e851]:
+                - link "About" [ref=e852] [cursor=pointer]:
+                  - /url: https://www.adobe.com/about-adobe.html
+              - listitem [ref=e853]:
+                - link "Careers" [ref=e854] [cursor=pointer]:
+                  - /url: https://www.adobe.com/careers.html
+              - listitem [ref=e855]:
+                - link "Newsroom" [ref=e856] [cursor=pointer]:
+                  - /url: https://news.adobe.com/home/default.aspx
+              - listitem [ref=e857]:
+                - link "Corporate responsibility" [ref=e858] [cursor=pointer]:
+                  - /url: https://www.adobe.com/corporate-responsibility.html
+              - listitem [ref=e859]:
+                - link "Investor Relations" [ref=e860] [cursor=pointer]:
+                  - /url: https://www.adobe.com/investor-relations.html
+              - listitem [ref=e861]:
+                - link "Supply chain" [ref=e862] [cursor=pointer]:
+                  - /url: https://www.adobe.com/corporate-responsibility/supply-chain.html
+              - listitem [ref=e863]:
+                - link "Trust Center" [ref=e864] [cursor=pointer]:
+                  - /url: https://www.adobe.com/trust.html
+              - listitem [ref=e865]:
+                - link "Events" [ref=e866] [cursor=pointer]:
+                  - /url: https://www.adobe.com/events.html
+              - listitem [ref=e867]:
+                - link "Adobe for All" [ref=e868] [cursor=pointer]:
+                  - /url: https://www.adobe.com/diversity.html
+              - listitem [ref=e869]:
+                - link "Integrity" [ref=e870] [cursor=pointer]:
+                  - /url: https://www.adobe.com/about-adobe/integrity.html
+          - list [ref=e873]:
+            - listitem [ref=e874]:
+              - paragraph [ref=e875]: Featured Downloads
+            - listitem [ref=e876]:
+              - link "acrobat-reader-icon Adobe Acrobat Reader" [ref=e877] [cursor=pointer]:
+                - /url: https://get.adobe.com/uk/reader/
+                - img "acrobat-reader-icon" [ref=e879]
+                - generic [ref=e880]: Adobe Acrobat Reader
+            - listitem [ref=e881]:
+              - link "photoshop-icon Photoshop" [ref=e882] [cursor=pointer]:
+                - /url: https://www.adobe.com/products/photoshop/free-trial-download.html
+                - img "photoshop-icon" [ref=e884]
+                - generic [ref=e885]: Photoshop
+            - listitem [ref=e886]:
+              - link "Illustrato Illustrator" [ref=e887] [cursor=pointer]:
+                - /url: https://www.adobe.com/products/illustrator/free-trial-download.html
+                - img "Illustrato" [ref=e889]
+                - generic [ref=e890]: Illustrator
+          - generic [ref=e891]:
+            - generic:
+              - list [ref=e894]:
+                - listitem [ref=e895]:
+                  - link "facebook" [ref=e896] [cursor=pointer]:
+                    - /url: https://www.facebook.com/adobe
+                    - generic [ref=e897]: 
+                - listitem [ref=e898]:
+                  - link "twitter" [ref=e899] [cursor=pointer]:
+                    - /url: https://twitter.com/Adobe
+                    - generic [ref=e900]: 
+                - listitem [ref=e901]:
+                  - link "linkedin" [ref=e902] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/adobe
+                    - generic [ref=e903]: 
+                - listitem [ref=e904]:
+                  - link "instagram" [ref=e905] [cursor=pointer]:
+                    - /url: https://www.instagram.com/adobe/
+                    - generic [ref=e906]: 
+              - list [ref=e908]:
+                - listitem [ref=e909]:
+                  - paragraph [ref=e910]: Copyright © 2022 Adobe. All rights reserved. /
+                - listitem [ref=e911]:
+                  - link "Privacy /" [ref=e912] [cursor=pointer]:
+                    - /url: https://www.adobe.com/privacy/applicant-privacy.html
+                - listitem [ref=e913]:
+                  - link "Terms of Use /" [ref=e914] [cursor=pointer]:
+                    - /url: https://www.adobe.com/legal/terms.html
+                - listitem [ref=e915]:
+                  - link "Cookie preferences /" [ref=e916] [cursor=pointer]:
+                    - /url: https://careers.adobe.com/us/en/cookiesettings
+                - listitem [ref=e917]:
+                  - link "Do not sell my personal information /" [ref=e918] [cursor=pointer]:
+                    - /url: https://www.adobe.com/privacy/ca-rights.html
+                - listitem [ref=e919]:
+                  - link "AdChoices" [ref=e920] [cursor=pointer]:
+                    - /url: https://www.adobe.com/privacy/opt-out.html#interest-based-ads
+                    - text: AdChoices
+        - text:              / / / / /

@@ -1,0 +1,1774 @@
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-1781894743"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - navigation [ref=e8]:
+        - generic [ref=e9]:
+          - button "menu" [ref=e10] [cursor=pointer]
+          - link "Amazon Jobs home page" [ref=e12] [cursor=pointer]:
+            - /url: /en
+            - generic [ref=e14]: Amazon Jobs home page
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - combobox "Search for jobs by title or keyword" [ref=e21]: software engineer
+            - generic [ref=e23]:
+              - text: h
+              - combobox "search job by location" [ref=e25]: United States
+          - button "Search jobs" [ref=e26] [cursor=pointer]
+        - menu [ref=e30] [cursor=pointer]: My career
+      - generic: h
+      - generic [ref=e33]:
+        - status [active] [ref=e34]:
+          - generic [ref=e36]:
+            - generic [ref=e38]:
+              - generic [ref=e40]: 
+              - paragraph [ref=e41]:
+                - text: Set job alerts for your search and never miss an opportunity!
+                - link "Login or create an account" [ref=e42] [cursor=pointer]:
+                  - /url: https://passport.amazon.jobs/accountInfo
+            - button "close" [ref=e44] [cursor=pointer]: ×
+        - generic [ref=e47]:
+          - heading "Search results" [level=1] [ref=e48]
+          - generic [ref=e49]:
+            - generic [ref=e51]:
+              - heading "Filter by" [level=2] [ref=e53]
+              - generic [ref=e54]:
+                - link "Skip to job results" [ref=e55] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e56]:
+                  - button "INDUSTRY EXPERIENCE (4 shown) filters" [expanded] [ref=e57] [cursor=pointer]:
+                    - generic [ref=e58]:
+                      - text: INDUSTRY EXPERIENCE
+                      - generic [ref=e59]: (4 shown)
+                  - group "INDUSTRY EXPERIENCE (4 shown) filters" [ref=e62]:
+                    - generic [ref=e63]: INDUSTRY EXPERIENCE (4 shown) filters
+                    - status [ref=e64]
+                    - generic [ref=e65]:
+                      - button "Less than 1 year" [ref=e66] [cursor=pointer]:
+                        - paragraph [ref=e67]: Less than 1 year
+                      - button "1-3 years" [ref=e68] [cursor=pointer]:
+                        - paragraph [ref=e69]: 1-3 years
+                      - button "4-6 years" [ref=e70] [cursor=pointer]:
+                        - paragraph [ref=e71]: 4-6 years
+                      - button "7+ years" [ref=e72] [cursor=pointer]:
+                        - paragraph [ref=e73]: 7+ years
+              - generic [ref=e74]:
+                - link "Skip to job results" [ref=e75] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e76]:
+                  - button "JOB TYPE (2 shown) filters" [expanded] [ref=e77] [cursor=pointer]:
+                    - generic [ref=e78]:
+                      - text: JOB TYPE
+                      - generic [ref=e79]: (2 shown)
+                  - group "JOB TYPE (2 shown) filters" [ref=e82]:
+                    - generic [ref=e83]: JOB TYPE (2 shown) filters
+                    - status [ref=e84]
+                    - generic [ref=e85]:
+                      - checkbox "Full Time 500+ jobs" [ref=e86] [cursor=pointer]:
+                        - paragraph [ref=e87]:
+                          - text: Full Time
+                          - generic [ref=e88]:
+                            - generic [ref=e89]: (500+)
+                            - generic [ref=e90]: 500+ jobs
+                      - checkbox "Part Time 5 jobs" [ref=e92] [cursor=pointer]:
+                        - paragraph [ref=e93]:
+                          - text: Part Time
+                          - generic [ref=e94]:
+                            - generic [ref=e95]: (5)
+                            - generic [ref=e96]: 5 jobs
+              - generic [ref=e98]:
+                - link "Skip to job results" [ref=e99] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e100]:
+                  - button "JOB CATEGORY (15 shown) filters" [expanded] [ref=e101] [cursor=pointer]:
+                    - generic [ref=e102]:
+                      - text: JOB CATEGORY
+                      - generic [ref=e103]: (15 shown)
+                  - group "JOB CATEGORY (15 shown) filters" [ref=e106]:
+                    - generic [ref=e107]: JOB CATEGORY (15 shown) filters
+                    - status [ref=e108]
+                    - generic [ref=e109]:
+                      - checkbox "Software Development 500+ jobs" [ref=e110] [cursor=pointer]:
+                        - paragraph [ref=e111]:
+                          - text: Software Development
+                          - generic [ref=e112]:
+                            - generic [ref=e113]: (500+)
+                            - generic [ref=e114]: 500+ jobs
+                      - checkbox "Systems, Quality, & Security Engineering 20 jobs" [ref=e116] [cursor=pointer]:
+                        - paragraph [ref=e117]:
+                          - text: Systems, Quality, & Security Engineering
+                          - generic [ref=e118]:
+                            - generic [ref=e119]: (20)
+                            - generic [ref=e120]: 20 jobs
+                      - checkbox "Operations, IT, & Support Engineering 9 jobs" [ref=e122] [cursor=pointer]:
+                        - paragraph [ref=e123]:
+                          - text: Operations, IT, & Support Engineering
+                          - generic [ref=e124]:
+                            - generic [ref=e125]: (9)
+                            - generic [ref=e126]: 9 jobs
+                      - checkbox "Solutions Architect 6 jobs" [ref=e128] [cursor=pointer]:
+                        - paragraph [ref=e129]:
+                          - text: Solutions Architect
+                          - generic [ref=e130]:
+                            - generic [ref=e131]: (6)
+                            - generic [ref=e132]: 6 jobs
+                      - checkbox "Hardware Development 5 jobs" [ref=e134] [cursor=pointer]:
+                        - paragraph [ref=e135]:
+                          - text: Hardware Development
+                          - generic [ref=e136]:
+                            - generic [ref=e137]: (5)
+                            - generic [ref=e138]: 5 jobs
+                    - button "Show more filters for JOB CATEGORY" [ref=e140] [cursor=pointer]: more
+              - generic [ref=e142]:
+                - link "Skip to job results" [ref=e143] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e144]:
+                  - button "Country/Region (25 shown) filters" [expanded] [ref=e145] [cursor=pointer]:
+                    - generic [ref=e146]:
+                      - text: Country/Region
+                      - generic [ref=e147]: (25 shown)
+                  - generic [ref=e150]:
+                    - generic [ref=e151]:
+                      - generic [ref=e152]: 
+                      - textbox "Refine list of Country/Region (25 shown) filter options" [ref=e153]:
+                        - /placeholder: Country/Region
+                    - status [ref=e154]
+                    - group "Country/Region (25 shown) filters" [ref=e156]:
+                      - generic [ref=e157]: Country/Region (25 shown) filters
+                      - generic [ref=e158]:
+                        - checkbox "United States 500+ jobs" [ref=e159] [cursor=pointer]:
+                          - paragraph [ref=e160]:
+                            - text: United States
+                            - generic [ref=e161]:
+                              - generic [ref=e162]: (500+)
+                              - generic [ref=e163]: 500+ jobs
+                        - checkbox "India 406 jobs" [ref=e165] [cursor=pointer]:
+                          - paragraph [ref=e166]:
+                            - text: India
+                            - generic [ref=e167]:
+                              - generic [ref=e168]: (406)
+                              - generic [ref=e169]: 406 jobs
+                        - checkbox "Canada 89 jobs" [ref=e171] [cursor=pointer]:
+                          - paragraph [ref=e172]:
+                            - text: Canada
+                            - generic [ref=e173]:
+                              - generic [ref=e174]: (89)
+                              - generic [ref=e175]: 89 jobs
+                        - checkbox "Israel 56 jobs" [ref=e177] [cursor=pointer]:
+                          - paragraph [ref=e178]:
+                            - text: Israel
+                            - generic [ref=e179]:
+                              - generic [ref=e180]: (56)
+                              - generic [ref=e181]: 56 jobs
+                        - checkbox "Ireland 40 jobs" [ref=e183] [cursor=pointer]:
+                          - paragraph [ref=e184]:
+                            - text: Ireland
+                            - generic [ref=e185]:
+                              - generic [ref=e186]: (40)
+                              - generic [ref=e187]: 40 jobs
+                        - checkbox "Mexico 31 jobs" [ref=e189] [cursor=pointer]:
+                          - paragraph [ref=e190]:
+                            - text: Mexico
+                            - generic [ref=e191]:
+                              - generic [ref=e192]: (31)
+                              - generic [ref=e193]: 31 jobs
+                        - checkbox "Brazil 29 jobs" [ref=e195] [cursor=pointer]:
+                          - paragraph [ref=e196]:
+                            - text: Brazil
+                            - generic [ref=e197]:
+                              - generic [ref=e198]: (29)
+                              - generic [ref=e199]: 29 jobs
+                        - checkbox "United Kingdom 29 jobs" [ref=e201] [cursor=pointer]:
+                          - paragraph [ref=e202]:
+                            - text: United Kingdom
+                            - generic [ref=e203]:
+                              - generic [ref=e204]: (29)
+                              - generic [ref=e205]: 29 jobs
+                        - checkbox "China 25 jobs" [ref=e207] [cursor=pointer]:
+                          - paragraph [ref=e208]:
+                            - text: China
+                            - generic [ref=e209]:
+                              - generic [ref=e210]: (25)
+                              - generic [ref=e211]: 25 jobs
+                        - checkbox "Australia 17 jobs" [ref=e213] [cursor=pointer]:
+                          - paragraph [ref=e214]:
+                            - text: Australia
+                            - generic [ref=e215]:
+                              - generic [ref=e216]: (17)
+                              - generic [ref=e217]: 17 jobs
+                        - checkbox "Spain 14 jobs" [ref=e219] [cursor=pointer]:
+                          - paragraph [ref=e220]:
+                            - text: Spain
+                            - generic [ref=e221]:
+                              - generic [ref=e222]: (14)
+                              - generic [ref=e223]: 14 jobs
+                        - checkbox "Taiwan 12 jobs" [ref=e225] [cursor=pointer]:
+                          - paragraph [ref=e226]:
+                            - text: Taiwan
+                            - generic [ref=e227]:
+                              - generic [ref=e228]: (12)
+                              - generic [ref=e229]: 12 jobs
+                        - checkbox "Germany 8 jobs" [ref=e231] [cursor=pointer]:
+                          - paragraph [ref=e232]:
+                            - text: Germany
+                            - generic [ref=e233]:
+                              - generic [ref=e234]: (8)
+                              - generic [ref=e235]: 8 jobs
+                        - checkbox "Poland 7 jobs" [ref=e237] [cursor=pointer]:
+                          - paragraph [ref=e238]:
+                            - text: Poland
+                            - generic [ref=e239]:
+                              - generic [ref=e240]: (7)
+                              - generic [ref=e241]: 7 jobs
+                        - checkbox "Romania 6 jobs" [ref=e243] [cursor=pointer]:
+                          - paragraph [ref=e244]:
+                            - text: Romania
+                            - generic [ref=e245]:
+                              - generic [ref=e246]: (6)
+                              - generic [ref=e247]: 6 jobs
+                        - checkbox "Japan 5 jobs" [ref=e249] [cursor=pointer]:
+                          - paragraph [ref=e250]:
+                            - text: Japan
+                            - generic [ref=e251]:
+                              - generic [ref=e252]: (5)
+                              - generic [ref=e253]: 5 jobs
+                        - checkbox "South Africa 5 jobs" [ref=e255] [cursor=pointer]:
+                          - paragraph [ref=e256]:
+                            - text: South Africa
+                            - generic [ref=e257]:
+                              - generic [ref=e258]: (5)
+                              - generic [ref=e259]: 5 jobs
+                        - checkbox "Singapore 3 jobs" [ref=e261] [cursor=pointer]:
+                          - paragraph [ref=e262]:
+                            - text: Singapore
+                            - generic [ref=e263]:
+                              - generic [ref=e264]: (3)
+                              - generic [ref=e265]: 3 jobs
+                        - checkbox "France 2 jobs" [ref=e267] [cursor=pointer]:
+                          - paragraph [ref=e268]:
+                            - text: France
+                            - generic [ref=e269]:
+                              - generic [ref=e270]: (2)
+                              - generic [ref=e271]: 2 jobs
+                        - checkbox "Luxembourg 2 jobs" [ref=e273] [cursor=pointer]:
+                          - paragraph [ref=e274]:
+                            - text: Luxembourg
+                            - generic [ref=e275]:
+                              - generic [ref=e276]: (2)
+                              - generic [ref=e277]: 2 jobs
+                        - checkbox "Switzerland 1 job" [ref=e279] [cursor=pointer]:
+                          - paragraph [ref=e280]:
+                            - text: Switzerland
+                            - generic [ref=e281]:
+                              - generic [ref=e282]: (1)
+                              - generic [ref=e283]: 1 job
+                        - checkbox "Costa Rica 1 job" [ref=e285] [cursor=pointer]:
+                          - paragraph [ref=e286]:
+                            - text: Costa Rica
+                            - generic [ref=e287]:
+                              - generic [ref=e288]: (1)
+                              - generic [ref=e289]: 1 job
+                        - checkbox "Italy 1 job" [ref=e291] [cursor=pointer]:
+                          - paragraph [ref=e292]:
+                            - text: Italy
+                            - generic [ref=e293]:
+                              - generic [ref=e294]: (1)
+                              - generic [ref=e295]: 1 job
+                        - checkbox "Jordan 1 job" [ref=e297] [cursor=pointer]:
+                          - paragraph [ref=e298]:
+                            - text: Jordan
+                            - generic [ref=e299]:
+                              - generic [ref=e300]: (1)
+                              - generic [ref=e301]: 1 job
+                        - checkbox "New Zealand 1 job" [ref=e303] [cursor=pointer]:
+                          - paragraph [ref=e304]:
+                            - text: New Zealand
+                            - generic [ref=e305]:
+                              - generic [ref=e306]: (1)
+                              - generic [ref=e307]: 1 job
+              - generic [ref=e309]:
+                - link "Skip to job results" [ref=e310] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e311]:
+                  - button "State/Province (55 shown) filters" [expanded] [ref=e312] [cursor=pointer]:
+                    - generic [ref=e313]:
+                      - text: State/Province
+                      - generic [ref=e314]: (55 shown)
+                  - generic [ref=e317]:
+                    - generic [ref=e318]:
+                      - generic [ref=e319]: 
+                      - textbox "Refine list of State/Province (55 shown) filter options" [ref=e320]:
+                        - /placeholder: State/Province
+                    - status [ref=e321]
+                    - group "State/Province (55 shown) filters" [ref=e323]:
+                      - generic [ref=e324]: State/Province (55 shown) filters
+                      - generic [ref=e325]:
+                        - checkbox "Washington 500+ jobs" [ref=e326] [cursor=pointer]:
+                          - paragraph [ref=e327]:
+                            - text: Washington
+                            - generic [ref=e328]:
+                              - generic [ref=e329]: (500+)
+                              - generic [ref=e330]: 500+ jobs
+                        - checkbox "California 307 jobs" [ref=e332] [cursor=pointer]:
+                          - paragraph [ref=e333]:
+                            - text: California
+                            - generic [ref=e334]:
+                              - generic [ref=e335]: (307)
+                              - generic [ref=e336]: 307 jobs
+                        - checkbox "Karnataka 252 jobs" [ref=e338] [cursor=pointer]:
+                          - paragraph [ref=e339]:
+                            - text: Karnataka
+                            - generic [ref=e340]:
+                              - generic [ref=e341]: (252)
+                              - generic [ref=e342]: 252 jobs
+                        - checkbox "New York 109 jobs" [ref=e344] [cursor=pointer]:
+                          - paragraph [ref=e345]:
+                            - text: New York
+                            - generic [ref=e346]:
+                              - generic [ref=e347]: (109)
+                              - generic [ref=e348]: 109 jobs
+                        - checkbox "Telangana 102 jobs" [ref=e350] [cursor=pointer]:
+                          - paragraph [ref=e351]:
+                            - text: Telangana
+                            - generic [ref=e352]:
+                              - generic [ref=e353]: (102)
+                              - generic [ref=e354]: 102 jobs
+                        - checkbox "Virginia 87 jobs" [ref=e356] [cursor=pointer]:
+                          - paragraph [ref=e357]:
+                            - text: Virginia
+                            - generic [ref=e358]:
+                              - generic [ref=e359]: (87)
+                              - generic [ref=e360]: 87 jobs
+                        - checkbox "Texas 85 jobs" [ref=e362] [cursor=pointer]:
+                          - paragraph [ref=e363]:
+                            - text: Texas
+                            - generic [ref=e364]:
+                              - generic [ref=e365]: (85)
+                              - generic [ref=e366]: 85 jobs
+                        - checkbox "Massachusetts 63 jobs" [ref=e368] [cursor=pointer]:
+                          - paragraph [ref=e369]:
+                            - text: Massachusetts
+                            - generic [ref=e370]:
+                              - generic [ref=e371]: (63)
+                              - generic [ref=e372]: 63 jobs
+                        - checkbox "British Columbia 59 jobs" [ref=e374] [cursor=pointer]:
+                          - paragraph [ref=e375]:
+                            - text: British Columbia
+                            - generic [ref=e376]:
+                              - generic [ref=e377]: (59)
+                              - generic [ref=e378]: 59 jobs
+                        - checkbox "Tamil Nadu 40 jobs" [ref=e380] [cursor=pointer]:
+                          - paragraph [ref=e381]:
+                            - text: Tamil Nadu
+                            - generic [ref=e382]:
+                              - generic [ref=e383]: (40)
+                              - generic [ref=e384]: 40 jobs
+                        - checkbox "Tel Aviv 36 jobs" [ref=e386] [cursor=pointer]:
+                          - paragraph [ref=e387]:
+                            - text: Tel Aviv
+                            - generic [ref=e388]:
+                              - generic [ref=e389]: (36)
+                              - generic [ref=e390]: 36 jobs
+                        - checkbox "Ontario 30 jobs" [ref=e392] [cursor=pointer]:
+                          - paragraph [ref=e393]:
+                            - text: Ontario
+                            - generic [ref=e394]:
+                              - generic [ref=e395]: (30)
+                              - generic [ref=e396]: 30 jobs
+                        - checkbox "Haifa 29 jobs" [ref=e398] [cursor=pointer]:
+                          - paragraph [ref=e399]:
+                            - text: Haifa
+                            - generic [ref=e400]:
+                              - generic [ref=e401]: (29)
+                              - generic [ref=e402]: 29 jobs
+                        - checkbox "Mexico City 27 jobs" [ref=e404] [cursor=pointer]:
+                          - paragraph [ref=e405]:
+                            - text: Mexico City
+                            - generic [ref=e406]:
+                              - generic [ref=e407]: (27)
+                              - generic [ref=e408]: 27 jobs
+                        - checkbox "Maharashtra 26 jobs" [ref=e410] [cursor=pointer]:
+                          - paragraph [ref=e411]:
+                            - text: Maharashtra
+                            - generic [ref=e412]:
+                              - generic [ref=e413]: (26)
+                              - generic [ref=e414]: 26 jobs
+                        - checkbox "Sao Paulo 22 jobs" [ref=e416] [cursor=pointer]:
+                          - paragraph [ref=e417]:
+                            - text: Sao Paulo
+                            - generic [ref=e418]:
+                              - generic [ref=e419]: (22)
+                              - generic [ref=e420]: 22 jobs
+                        - checkbox "Wisconsin 17 jobs" [ref=e422] [cursor=pointer]:
+                          - paragraph [ref=e423]:
+                            - text: Wisconsin
+                            - generic [ref=e424]:
+                              - generic [ref=e425]: (17)
+                              - generic [ref=e426]: 17 jobs
+                        - checkbox "Colorado 15 jobs" [ref=e428] [cursor=pointer]:
+                          - paragraph [ref=e429]:
+                            - text: Colorado
+                            - generic [ref=e430]:
+                              - generic [ref=e431]: (15)
+                              - generic [ref=e432]: 15 jobs
+                        - checkbox "New South Wales 15 jobs" [ref=e434] [cursor=pointer]:
+                          - paragraph [ref=e435]:
+                            - text: New South Wales
+                            - generic [ref=e436]:
+                              - generic [ref=e437]: (15)
+                              - generic [ref=e438]: 15 jobs
+                        - checkbox "Community of Madrid 14 jobs" [ref=e440] [cursor=pointer]:
+                          - paragraph [ref=e441]:
+                            - text: Community of Madrid
+                            - generic [ref=e442]:
+                              - generic [ref=e443]: (14)
+                              - generic [ref=e444]: 14 jobs
+                        - checkbox "New Jersey 14 jobs" [ref=e446] [cursor=pointer]:
+                          - paragraph [ref=e447]:
+                            - text: New Jersey
+                            - generic [ref=e448]:
+                              - generic [ref=e449]: (14)
+                              - generic [ref=e450]: 14 jobs
+                        - checkbox "Haryana 13 jobs" [ref=e452] [cursor=pointer]:
+                          - paragraph [ref=e453]:
+                            - text: Haryana
+                            - generic [ref=e454]:
+                              - generic [ref=e455]: (13)
+                              - generic [ref=e456]: 13 jobs
+                        - checkbox "Minas Gerais 10 jobs" [ref=e458] [cursor=pointer]:
+                          - paragraph [ref=e459]:
+                            - text: Minas Gerais
+                            - generic [ref=e460]:
+                              - generic [ref=e461]: (10)
+                              - generic [ref=e462]: 10 jobs
+                        - checkbox "Tennessee 7 jobs" [ref=e464] [cursor=pointer]:
+                          - paragraph [ref=e465]:
+                            - text: Tennessee
+                            - generic [ref=e466]:
+                              - generic [ref=e467]: (7)
+                              - generic [ref=e468]: 7 jobs
+                        - checkbox "Berlin 6 jobs" [ref=e470] [cursor=pointer]:
+                          - paragraph [ref=e471]:
+                            - text: Berlin
+                            - generic [ref=e472]:
+                              - generic [ref=e473]: (6)
+                              - generic [ref=e474]: 6 jobs
+                        - checkbox "Pomeranian Voivodeship 6 jobs" [ref=e476] [cursor=pointer]:
+                          - paragraph [ref=e477]:
+                            - text: Pomeranian Voivodeship
+                            - generic [ref=e478]:
+                              - generic [ref=e479]: (6)
+                              - generic [ref=e480]: 6 jobs
+                        - checkbox "North Carolina 5 jobs" [ref=e482] [cursor=pointer]:
+                          - paragraph [ref=e483]:
+                            - text: North Carolina
+                            - generic [ref=e484]:
+                              - generic [ref=e485]: (5)
+                              - generic [ref=e486]: 5 jobs
+                        - checkbox "Western Cape 5 jobs" [ref=e488] [cursor=pointer]:
+                          - paragraph [ref=e489]:
+                            - text: Western Cape
+                            - generic [ref=e490]:
+                              - generic [ref=e491]: (5)
+                              - generic [ref=e492]: 5 jobs
+                        - checkbox "Jalisco 4 jobs" [ref=e494] [cursor=pointer]:
+                          - paragraph [ref=e495]:
+                            - text: Jalisco
+                            - generic [ref=e496]:
+                              - generic [ref=e497]: (4)
+                              - generic [ref=e498]: 4 jobs
+                        - checkbox "Oregon 4 jobs" [ref=e500] [cursor=pointer]:
+                          - paragraph [ref=e501]:
+                            - text: Oregon
+                            - generic [ref=e502]:
+                              - generic [ref=e503]: (4)
+                              - generic [ref=e504]: 4 jobs
+                        - checkbox "Tokyo 4 jobs" [ref=e506] [cursor=pointer]:
+                          - paragraph [ref=e507]:
+                            - text: Tokyo
+                            - generic [ref=e508]:
+                              - generic [ref=e509]: (4)
+                              - generic [ref=e510]: 4 jobs
+                        - checkbox "Uttar Pradesh 4 jobs" [ref=e512] [cursor=pointer]:
+                          - paragraph [ref=e513]:
+                            - text: Uttar Pradesh
+                            - generic [ref=e514]:
+                              - generic [ref=e515]: (4)
+                              - generic [ref=e516]: 4 jobs
+                        - checkbox "Maryland 3 jobs" [ref=e518] [cursor=pointer]:
+                          - paragraph [ref=e519]:
+                            - text: Maryland
+                            - generic [ref=e520]:
+                              - generic [ref=e521]: (3)
+                              - generic [ref=e522]: 3 jobs
+                        - checkbox "Michigan 3 jobs" [ref=e524] [cursor=pointer]:
+                          - paragraph [ref=e525]:
+                            - text: Michigan
+                            - generic [ref=e526]:
+                              - generic [ref=e527]: (3)
+                              - generic [ref=e528]: 3 jobs
+                        - checkbox "Minnesota 3 jobs" [ref=e530] [cursor=pointer]:
+                          - paragraph [ref=e531]:
+                            - text: Minnesota
+                            - generic [ref=e532]:
+                              - generic [ref=e533]: (3)
+                              - generic [ref=e534]: 3 jobs
+                        - checkbox "Bavaria 2 jobs" [ref=e536] [cursor=pointer]:
+                          - paragraph [ref=e537]:
+                            - text: Bavaria
+                            - generic [ref=e538]:
+                              - generic [ref=e539]: (2)
+                              - generic [ref=e540]: 2 jobs
+                        - checkbox "Delhi 2 jobs" [ref=e542] [cursor=pointer]:
+                          - paragraph [ref=e543]:
+                            - text: Delhi
+                            - generic [ref=e544]:
+                              - generic [ref=e545]: (2)
+                              - generic [ref=e546]: 2 jobs
+                        - checkbox "Ile-de-France 2 jobs" [ref=e548] [cursor=pointer]:
+                          - paragraph [ref=e549]:
+                            - text: Ile-de-France
+                            - generic [ref=e550]:
+                              - generic [ref=e551]: (2)
+                              - generic [ref=e552]: 2 jobs
+                        - checkbox "Pennsylvania 2 jobs" [ref=e554] [cursor=pointer]:
+                          - paragraph [ref=e555]:
+                            - text: Pennsylvania
+                            - generic [ref=e556]:
+                              - generic [ref=e557]: (2)
+                              - generic [ref=e558]: 2 jobs
+                        - checkbox "Western Australia 2 jobs" [ref=e560] [cursor=pointer]:
+                          - paragraph [ref=e561]:
+                            - text: Western Australia
+                            - generic [ref=e562]:
+                              - generic [ref=e563]: (2)
+                              - generic [ref=e564]: 2 jobs
+                        - checkbox "Arizona 1 job" [ref=e566] [cursor=pointer]:
+                          - paragraph [ref=e567]:
+                            - text: Arizona
+                            - generic [ref=e568]:
+                              - generic [ref=e569]: (1)
+                              - generic [ref=e570]: 1 job
+                        - checkbox "Auckland 1 job" [ref=e572] [cursor=pointer]:
+                          - paragraph [ref=e573]:
+                            - text: Auckland
+                            - generic [ref=e574]:
+                              - generic [ref=e575]: (1)
+                              - generic [ref=e576]: 1 job
+                        - checkbox "Berkshire 1 job" [ref=e578] [cursor=pointer]:
+                          - paragraph [ref=e579]:
+                            - text: Berkshire
+                            - generic [ref=e580]:
+                              - generic [ref=e581]: (1)
+                              - generic [ref=e582]: 1 job
+                        - checkbox "Catalonia 1 job" [ref=e584] [cursor=pointer]:
+                          - paragraph [ref=e585]:
+                            - text: Catalonia
+                            - generic [ref=e586]:
+                              - generic [ref=e587]: (1)
+                              - generic [ref=e588]: 1 job
+                        - checkbox "Gujarat 1 job" [ref=e590] [cursor=pointer]:
+                          - paragraph [ref=e591]:
+                            - text: Gujarat
+                            - generic [ref=e592]:
+                              - generic [ref=e593]: (1)
+                              - generic [ref=e594]: 1 job
+                        - checkbox "Indiana 1 job" [ref=e596] [cursor=pointer]:
+                          - paragraph [ref=e597]:
+                            - text: Indiana
+                            - generic [ref=e598]:
+                              - generic [ref=e599]: (1)
+                              - generic [ref=e600]: 1 job
+                        - checkbox "Latium 1 job" [ref=e602] [cursor=pointer]:
+                          - paragraph [ref=e603]:
+                            - text: Latium
+                            - generic [ref=e604]:
+                              - generic [ref=e605]: (1)
+                              - generic [ref=e606]: 1 job
+                        - checkbox "Lesser Poland Voivodeship 1 job" [ref=e608] [cursor=pointer]:
+                          - paragraph [ref=e609]:
+                            - text: Lesser Poland Voivodeship
+                            - generic [ref=e610]:
+                              - generic [ref=e611]: (1)
+                              - generic [ref=e612]: 1 job
+                        - checkbox "Nevada 1 job" [ref=e614] [cursor=pointer]:
+                          - paragraph [ref=e615]:
+                            - text: Nevada
+                            - generic [ref=e616]:
+                              - generic [ref=e617]: (1)
+                              - generic [ref=e618]: 1 job
+                        - checkbox "Ohio 1 job" [ref=e620] [cursor=pointer]:
+                          - paragraph [ref=e621]:
+                            - text: Ohio
+                            - generic [ref=e622]:
+                              - generic [ref=e623]: (1)
+                              - generic [ref=e624]: 1 job
+                        - checkbox "Queensland 1 job" [ref=e626] [cursor=pointer]:
+                          - paragraph [ref=e627]:
+                            - text: Queensland
+                            - generic [ref=e628]:
+                              - generic [ref=e629]: (1)
+                              - generic [ref=e630]: 1 job
+                        - checkbox "San Jose 1 job" [ref=e632] [cursor=pointer]:
+                          - paragraph [ref=e633]:
+                            - text: San Jose
+                            - generic [ref=e634]:
+                              - generic [ref=e635]: (1)
+                              - generic [ref=e636]: 1 job
+                        - checkbox "Victoria 1 job" [ref=e638] [cursor=pointer]:
+                          - paragraph [ref=e639]:
+                            - text: Victoria
+                            - generic [ref=e640]:
+                              - generic [ref=e641]: (1)
+                              - generic [ref=e642]: 1 job
+                        - checkbox "Woj. Mazowieckie 1 job" [ref=e644] [cursor=pointer]:
+                          - paragraph [ref=e645]:
+                            - text: Woj. Mazowieckie
+                            - generic [ref=e646]:
+                              - generic [ref=e647]: (1)
+                              - generic [ref=e648]: 1 job
+                        - checkbox "Zurich 1 job" [ref=e650] [cursor=pointer]:
+                          - paragraph [ref=e651]:
+                            - text: Zurich
+                            - generic [ref=e652]:
+                              - generic [ref=e653]: (1)
+                              - generic [ref=e654]: 1 job
+              - generic [ref=e656]:
+                - link "Skip to job results" [ref=e657] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e658]:
+                  - button "City (103 shown) filters" [expanded] [ref=e659] [cursor=pointer]:
+                    - generic [ref=e660]:
+                      - text: City
+                      - generic [ref=e661]: (103 shown)
+                  - generic [ref=e664]:
+                    - generic [ref=e665]:
+                      - generic [ref=e666]: 
+                      - textbox "Refine list of City (103 shown) filter options" [ref=e667]:
+                        - /placeholder: City
+                    - status [ref=e668]
+                    - group "City (103 shown) filters" [ref=e670]:
+                      - generic [ref=e671]: City (103 shown) filters
+                      - generic [ref=e672]:
+                        - checkbox "Seattle 499 jobs" [ref=e673] [cursor=pointer]:
+                          - paragraph [ref=e674]:
+                            - text: Seattle
+                            - generic [ref=e675]:
+                              - generic [ref=e676]: (499)
+                              - generic [ref=e677]: 499 jobs
+                        - checkbox "Bengaluru 252 jobs" [ref=e679] [cursor=pointer]:
+                          - paragraph [ref=e680]:
+                            - text: Bengaluru
+                            - generic [ref=e681]:
+                              - generic [ref=e682]: (252)
+                              - generic [ref=e683]: 252 jobs
+                        - checkbox "Redmond 122 jobs" [ref=e685] [cursor=pointer]:
+                          - paragraph [ref=e686]:
+                            - text: Redmond
+                            - generic [ref=e687]:
+                              - generic [ref=e688]: (122)
+                              - generic [ref=e689]: 122 jobs
+                        - checkbox "New York 109 jobs" [ref=e691] [cursor=pointer]:
+                          - paragraph [ref=e692]:
+                            - text: New York
+                            - generic [ref=e693]:
+                              - generic [ref=e694]: (109)
+                              - generic [ref=e695]: 109 jobs
+                        - checkbox "Hyderabad 102 jobs" [ref=e697] [cursor=pointer]:
+                          - paragraph [ref=e698]:
+                            - text: Hyderabad
+                            - generic [ref=e699]:
+                              - generic [ref=e700]: (102)
+                              - generic [ref=e701]: 102 jobs
+                        - checkbox "Bellevue 82 jobs" [ref=e703] [cursor=pointer]:
+                          - paragraph [ref=e704]:
+                            - text: Bellevue
+                            - generic [ref=e705]:
+                              - generic [ref=e706]: (82)
+                              - generic [ref=e707]: 82 jobs
+                        - checkbox "Austin 76 jobs" [ref=e709] [cursor=pointer]:
+                          - paragraph [ref=e710]:
+                            - text: Austin
+                            - generic [ref=e711]:
+                              - generic [ref=e712]: (76)
+                              - generic [ref=e713]: 76 jobs
+                        - checkbox "Arlington 72 jobs" [ref=e715] [cursor=pointer]:
+                          - paragraph [ref=e716]:
+                            - text: Arlington
+                            - generic [ref=e717]:
+                              - generic [ref=e718]: (72)
+                              - generic [ref=e719]: 72 jobs
+                        - checkbox "Cupertino 69 jobs" [ref=e721] [cursor=pointer]:
+                          - paragraph [ref=e722]:
+                            - text: Cupertino
+                            - generic [ref=e723]:
+                              - generic [ref=e724]: (69)
+                              - generic [ref=e725]: 69 jobs
+                        - checkbox "Sunnyvale 62 jobs" [ref=e727] [cursor=pointer]:
+                          - paragraph [ref=e728]:
+                            - text: Sunnyvale
+                            - generic [ref=e729]:
+                              - generic [ref=e730]: (62)
+                              - generic [ref=e731]: 62 jobs
+                        - checkbox "Vancouver 59 jobs" [ref=e733] [cursor=pointer]:
+                          - paragraph [ref=e734]:
+                            - text: Vancouver
+                            - generic [ref=e735]:
+                              - generic [ref=e736]: (59)
+                              - generic [ref=e737]: 59 jobs
+                        - checkbox "Santa Clara 49 jobs" [ref=e739] [cursor=pointer]:
+                          - paragraph [ref=e740]:
+                            - text: Santa Clara
+                            - generic [ref=e741]:
+                              - generic [ref=e742]: (49)
+                              - generic [ref=e743]: 49 jobs
+                        - checkbox "East Palo Alto 46 jobs" [ref=e745] [cursor=pointer]:
+                          - paragraph [ref=e746]:
+                            - text: East Palo Alto
+                            - generic [ref=e747]:
+                              - generic [ref=e748]: (46)
+                              - generic [ref=e749]: 46 jobs
+                        - checkbox "Chennai 40 jobs" [ref=e751] [cursor=pointer]:
+                          - paragraph [ref=e752]:
+                            - text: Chennai
+                            - generic [ref=e753]:
+                              - generic [ref=e754]: (40)
+                              - generic [ref=e755]: 40 jobs
+                        - checkbox "Dublin 40 jobs" [ref=e757] [cursor=pointer]:
+                          - paragraph [ref=e758]:
+                            - text: Dublin
+                            - generic [ref=e759]:
+                              - generic [ref=e760]: (40)
+                              - generic [ref=e761]: 40 jobs
+                        - checkbox "North Reading 37 jobs" [ref=e763] [cursor=pointer]:
+                          - paragraph [ref=e764]:
+                            - text: North Reading
+                            - generic [ref=e765]:
+                              - generic [ref=e766]: (37)
+                              - generic [ref=e767]: 37 jobs
+                        - checkbox "Tel Aviv-Yafo 36 jobs" [ref=e769] [cursor=pointer]:
+                          - paragraph [ref=e770]:
+                            - text: Tel Aviv-Yafo
+                            - generic [ref=e771]:
+                              - generic [ref=e772]: (36)
+                              - generic [ref=e773]: 36 jobs
+                        - checkbox "Toronto 30 jobs" [ref=e775] [cursor=pointer]:
+                          - paragraph [ref=e776]:
+                            - text: Toronto
+                            - generic [ref=e777]:
+                              - generic [ref=e778]: (30)
+                              - generic [ref=e779]: 30 jobs
+                        - checkbox "Haifa 29 jobs" [ref=e781] [cursor=pointer]:
+                          - paragraph [ref=e782]:
+                            - text: Haifa
+                            - generic [ref=e783]:
+                              - generic [ref=e784]: (29)
+                              - generic [ref=e785]: 29 jobs
+                        - checkbox "Mexico City 27 jobs" [ref=e787] [cursor=pointer]:
+                          - paragraph [ref=e788]:
+                            - text: Mexico City
+                            - generic [ref=e789]:
+                              - generic [ref=e790]: (27)
+                              - generic [ref=e791]: 27 jobs
+                        - checkbox "Boston 24 jobs" [ref=e793] [cursor=pointer]:
+                          - paragraph [ref=e794]:
+                            - text: Boston
+                            - generic [ref=e795]:
+                              - generic [ref=e796]: (24)
+                              - generic [ref=e797]: 24 jobs
+                        - checkbox "Pune 24 jobs" [ref=e799] [cursor=pointer]:
+                          - paragraph [ref=e800]:
+                            - text: Pune
+                            - generic [ref=e801]:
+                              - generic [ref=e802]: (24)
+                              - generic [ref=e803]: 24 jobs
+                        - checkbox "San Francisco 24 jobs" [ref=e805] [cursor=pointer]:
+                          - paragraph [ref=e806]:
+                            - text: San Francisco
+                            - generic [ref=e807]:
+                              - generic [ref=e808]: (24)
+                              - generic [ref=e809]: 24 jobs
+                        - checkbox "Herndon 22 jobs" [ref=e811] [cursor=pointer]:
+                          - paragraph [ref=e812]:
+                            - text: Herndon
+                            - generic [ref=e813]:
+                              - generic [ref=e814]: (22)
+                              - generic [ref=e815]: 22 jobs
+                        - checkbox "Sao Paulo 22 jobs" [ref=e817] [cursor=pointer]:
+                          - paragraph [ref=e818]:
+                            - text: Sao Paulo
+                            - generic [ref=e819]:
+                              - generic [ref=e820]: (22)
+                              - generic [ref=e821]: 22 jobs
+                        - checkbox "London 15 jobs" [ref=e823] [cursor=pointer]:
+                          - paragraph [ref=e824]:
+                            - text: London
+                            - generic [ref=e825]:
+                              - generic [ref=e826]: (15)
+                              - generic [ref=e827]: 15 jobs
+                        - checkbox "Northridge 15 jobs" [ref=e829] [cursor=pointer]:
+                          - paragraph [ref=e830]:
+                            - text: Northridge
+                            - generic [ref=e831]:
+                              - generic [ref=e832]: (15)
+                              - generic [ref=e833]: 15 jobs
+                        - checkbox "San Diego 15 jobs" [ref=e835] [cursor=pointer]:
+                          - paragraph [ref=e836]:
+                            - text: San Diego
+                            - generic [ref=e837]:
+                              - generic [ref=e838]: (15)
+                              - generic [ref=e839]: 15 jobs
+                        - checkbox "Sydney 15 jobs" [ref=e841] [cursor=pointer]:
+                          - paragraph [ref=e842]:
+                            - text: Sydney
+                            - generic [ref=e843]:
+                              - generic [ref=e844]: (15)
+                              - generic [ref=e845]: 15 jobs
+                        - checkbox "Westboro 15 jobs" [ref=e847] [cursor=pointer]:
+                          - paragraph [ref=e848]:
+                            - text: Westboro
+                            - generic [ref=e849]:
+                              - generic [ref=e850]: (15)
+                              - generic [ref=e851]: 15 jobs
+                        - checkbox "Madrid 14 jobs" [ref=e853] [cursor=pointer]:
+                          - paragraph [ref=e854]:
+                            - text: Madrid
+                            - generic [ref=e855]:
+                              - generic [ref=e856]: (14)
+                              - generic [ref=e857]: 14 jobs
+                        - checkbox "Gurugram 13 jobs" [ref=e859] [cursor=pointer]:
+                          - paragraph [ref=e860]:
+                            - text: Gurugram
+                            - generic [ref=e861]:
+                              - generic [ref=e862]: (13)
+                              - generic [ref=e863]: 13 jobs
+                        - checkbox "Cambridge 12 jobs" [ref=e865] [cursor=pointer]:
+                          - paragraph [ref=e866]:
+                            - text: Cambridge
+                            - generic [ref=e867]:
+                              - generic [ref=e868]: (12)
+                              - generic [ref=e869]: 12 jobs
+                        - checkbox "Denver 12 jobs" [ref=e871] [cursor=pointer]:
+                          - paragraph [ref=e872]:
+                            - text: Denver
+                            - generic [ref=e873]:
+                              - generic [ref=e874]: (12)
+                              - generic [ref=e875]: 12 jobs
+                        - checkbox "Taipei City 12 jobs" [ref=e877] [cursor=pointer]:
+                          - paragraph [ref=e878]:
+                            - text: Taipei City
+                            - generic [ref=e879]:
+                              - generic [ref=e880]: (12)
+                              - generic [ref=e881]: 12 jobs
+                        - checkbox "Beijing 11 jobs" [ref=e883] [cursor=pointer]:
+                          - paragraph [ref=e884]:
+                            - text: Beijing
+                            - generic [ref=e885]:
+                              - generic [ref=e886]: (11)
+                              - generic [ref=e887]: 11 jobs
+                        - checkbox "Brooklyn 11 jobs" [ref=e889] [cursor=pointer]:
+                          - paragraph [ref=e890]:
+                            - text: Brooklyn
+                            - generic [ref=e891]:
+                              - generic [ref=e892]: (11)
+                              - generic [ref=e893]: 11 jobs
+                        - checkbox "Carle Place 11 jobs" [ref=e895] [cursor=pointer]:
+                          - paragraph [ref=e896]:
+                            - text: Carle Place
+                            - generic [ref=e897]:
+                              - generic [ref=e898]: (11)
+                              - generic [ref=e899]: 11 jobs
+                        - checkbox "Belo Horizonte 10 jobs" [ref=e901] [cursor=pointer]:
+                          - paragraph [ref=e902]:
+                            - text: Belo Horizonte
+                            - generic [ref=e903]:
+                              - generic [ref=e904]: (10)
+                              - generic [ref=e905]: 10 jobs
+                        - checkbox "Astoria 9 jobs" [ref=e907] [cursor=pointer]:
+                          - paragraph [ref=e908]:
+                            - text: Astoria
+                            - generic [ref=e909]:
+                              - generic [ref=e910]: (9)
+                              - generic [ref=e911]: 9 jobs
+                        - checkbox "Mountain View 9 jobs" [ref=e913] [cursor=pointer]:
+                          - paragraph [ref=e914]:
+                            - text: Mountain View
+                            - generic [ref=e915]:
+                              - generic [ref=e916]: (9)
+                              - generic [ref=e917]: 9 jobs
+                        - checkbox "Newark 9 jobs" [ref=e919] [cursor=pointer]:
+                          - paragraph [ref=e920]:
+                            - text: Newark
+                            - generic [ref=e921]:
+                              - generic [ref=e922]: (9)
+                              - generic [ref=e923]: 9 jobs
+                        - checkbox "Palo Alto 9 jobs" [ref=e925] [cursor=pointer]:
+                          - paragraph [ref=e926]:
+                            - text: Palo Alto
+                            - generic [ref=e927]:
+                              - generic [ref=e928]: (9)
+                              - generic [ref=e929]: 9 jobs
+                        - checkbox "Shanghai 9 jobs" [ref=e931] [cursor=pointer]:
+                          - paragraph [ref=e932]:
+                            - text: Shanghai
+                            - generic [ref=e933]:
+                              - generic [ref=e934]: (9)
+                              - generic [ref=e935]: 9 jobs
+                        - checkbox "Dallas 8 jobs" [ref=e937] [cursor=pointer]:
+                          - paragraph [ref=e938]:
+                            - text: Dallas
+                            - generic [ref=e939]:
+                              - generic [ref=e940]: (8)
+                              - generic [ref=e941]: 8 jobs
+                        - checkbox "Hawthorne 8 jobs" [ref=e943] [cursor=pointer]:
+                          - paragraph [ref=e944]:
+                            - text: Hawthorne
+                            - generic [ref=e945]:
+                              - generic [ref=e946]: (8)
+                              - generic [ref=e947]: 8 jobs
+                        - checkbox "Nashville 7 jobs" [ref=e949] [cursor=pointer]:
+                          - paragraph [ref=e950]:
+                            - text: Nashville
+                            - generic [ref=e951]:
+                              - generic [ref=e952]: (7)
+                              - generic [ref=e953]: 7 jobs
+                        - checkbox "Shenzhen 7 jobs" [ref=e955] [cursor=pointer]:
+                          - paragraph [ref=e956]:
+                            - text: Shenzhen
+                            - generic [ref=e957]:
+                              - generic [ref=e958]: (7)
+                              - generic [ref=e959]: 7 jobs
+                        - checkbox "Berlin 6 jobs" [ref=e961] [cursor=pointer]:
+                          - paragraph [ref=e962]:
+                            - text: Berlin
+                            - generic [ref=e963]:
+                              - generic [ref=e964]: (6)
+                              - generic [ref=e965]: 6 jobs
+                        - checkbox "El Segundo 6 jobs" [ref=e967] [cursor=pointer]:
+                          - paragraph [ref=e968]:
+                            - text: El Segundo
+                            - generic [ref=e969]:
+                              - generic [ref=e970]: (6)
+                              - generic [ref=e971]: 6 jobs
+                        - checkbox "Gdansk 6 jobs" [ref=e973] [cursor=pointer]:
+                          - paragraph [ref=e974]:
+                            - text: Gdansk
+                            - generic [ref=e975]:
+                              - generic [ref=e976]: (6)
+                              - generic [ref=e977]: 6 jobs
+                        - checkbox "Pasadena 6 jobs" [ref=e979] [cursor=pointer]:
+                          - paragraph [ref=e980]:
+                            - text: Pasadena
+                            - generic [ref=e981]:
+                              - generic [ref=e982]: (6)
+                              - generic [ref=e983]: 6 jobs
+                        - checkbox "Cape Town 5 jobs" [ref=e985] [cursor=pointer]:
+                          - paragraph [ref=e986]:
+                            - text: Cape Town
+                            - generic [ref=e987]:
+                              - generic [ref=e988]: (5)
+                              - generic [ref=e989]: 5 jobs
+                        - checkbox "Culver City 5 jobs" [ref=e991] [cursor=pointer]:
+                          - paragraph [ref=e992]:
+                            - text: Culver City
+                            - generic [ref=e993]:
+                              - generic [ref=e994]: (5)
+                              - generic [ref=e995]: 5 jobs
+                        - checkbox "Iasi 5 jobs" [ref=e997] [cursor=pointer]:
+                          - paragraph [ref=e998]:
+                            - text: Iasi
+                            - generic [ref=e999]:
+                              - generic [ref=e1000]: (5)
+                              - generic [ref=e1001]: 5 jobs
+                        - checkbox "Jersey City 5 jobs" [ref=e1003] [cursor=pointer]:
+                          - paragraph [ref=e1004]:
+                            - text: Jersey City
+                            - generic [ref=e1005]:
+                              - generic [ref=e1006]: (5)
+                              - generic [ref=e1007]: 5 jobs
+                        - checkbox "Raleigh 5 jobs" [ref=e1009] [cursor=pointer]:
+                          - paragraph [ref=e1010]:
+                            - text: Raleigh
+                            - generic [ref=e1011]:
+                              - generic [ref=e1012]: (5)
+                              - generic [ref=e1013]: 5 jobs
+                        - checkbox "Edinburgh 4 jobs" [ref=e1015] [cursor=pointer]:
+                          - paragraph [ref=e1016]:
+                            - text: Edinburgh
+                            - generic [ref=e1017]:
+                              - generic [ref=e1018]: (4)
+                              - generic [ref=e1019]: 4 jobs
+                        - checkbox "Irvine 4 jobs" [ref=e1021] [cursor=pointer]:
+                          - paragraph [ref=e1022]:
+                            - text: Irvine
+                            - generic [ref=e1023]:
+                              - generic [ref=e1024]: (4)
+                              - generic [ref=e1025]: 4 jobs
+                        - checkbox "Los Gatos 4 jobs" [ref=e1027] [cursor=pointer]:
+                          - paragraph [ref=e1028]:
+                            - text: Los Gatos
+                            - generic [ref=e1029]:
+                              - generic [ref=e1030]: (4)
+                              - generic [ref=e1031]: 4 jobs
+                        - checkbox "Portland 4 jobs" [ref=e1033] [cursor=pointer]:
+                          - paragraph [ref=e1034]:
+                            - text: Portland
+                            - generic [ref=e1035]:
+                              - generic [ref=e1036]: (4)
+                              - generic [ref=e1037]: 4 jobs
+                        - checkbox "Zapopan 4 jobs" [ref=e1039] [cursor=pointer]:
+                          - paragraph [ref=e1040]:
+                            - text: Zapopan
+                            - generic [ref=e1041]:
+                              - generic [ref=e1042]: (4)
+                              - generic [ref=e1043]: 4 jobs
+                        - checkbox "Boulder 3 jobs" [ref=e1045] [cursor=pointer]:
+                          - paragraph [ref=e1046]:
+                            - text: Boulder
+                            - generic [ref=e1047]:
+                              - generic [ref=e1048]: (3)
+                              - generic [ref=e1049]: 3 jobs
+                        - checkbox "Detroit 3 jobs" [ref=e1051] [cursor=pointer]:
+                          - paragraph [ref=e1052]:
+                            - text: Detroit
+                            - generic [ref=e1053]:
+                              - generic [ref=e1054]: (3)
+                              - generic [ref=e1055]: 3 jobs
+                        - checkbox "Houston 3 jobs" [ref=e1057] [cursor=pointer]:
+                          - paragraph [ref=e1058]:
+                            - text: Houston
+                            - generic [ref=e1059]:
+                              - generic [ref=e1060]: (3)
+                              - generic [ref=e1061]: 3 jobs
+                        - checkbox "Minneapolis 3 jobs" [ref=e1063] [cursor=pointer]:
+                          - paragraph [ref=e1064]:
+                            - text: Minneapolis
+                            - generic [ref=e1065]:
+                              - generic [ref=e1066]: (3)
+                              - generic [ref=e1067]: 3 jobs
+                        - checkbox "Santa Monica 3 jobs" [ref=e1069] [cursor=pointer]:
+                          - paragraph [ref=e1070]:
+                            - text: Santa Monica
+                            - generic [ref=e1071]:
+                              - generic [ref=e1072]: (3)
+                              - generic [ref=e1073]: 3 jobs
+                        - checkbox "Courbevoie 2 jobs" [ref=e1075] [cursor=pointer]:
+                          - paragraph [ref=e1076]:
+                            - text: Courbevoie
+                            - generic [ref=e1077]:
+                              - generic [ref=e1078]: (2)
+                              - generic [ref=e1079]: 2 jobs
+                        - checkbox "Delhi 2 jobs" [ref=e1081] [cursor=pointer]:
+                          - paragraph [ref=e1082]:
+                            - text: Delhi
+                            - generic [ref=e1083]:
+                              - generic [ref=e1084]: (2)
+                              - generic [ref=e1085]: 2 jobs
+                        - checkbox "Jessup 2 jobs" [ref=e1087] [cursor=pointer]:
+                          - paragraph [ref=e1088]:
+                            - text: Jessup
+                            - generic [ref=e1089]:
+                              - generic [ref=e1090]: (2)
+                              - generic [ref=e1091]: 2 jobs
+                        - checkbox "Luxembourg 2 jobs" [ref=e1093] [cursor=pointer]:
+                          - paragraph [ref=e1094]:
+                            - text: Luxembourg
+                            - generic [ref=e1095]:
+                              - generic [ref=e1096]: (2)
+                              - generic [ref=e1097]: 2 jobs
+                        - checkbox "Madison 2 jobs" [ref=e1099] [cursor=pointer]:
+                          - paragraph [ref=e1100]:
+                            - text: Madison
+                            - generic [ref=e1101]:
+                              - generic [ref=e1102]: (2)
+                              - generic [ref=e1103]: 2 jobs
+                        - checkbox "Munich 2 jobs" [ref=e1105] [cursor=pointer]:
+                          - paragraph [ref=e1106]:
+                            - text: Munich
+                            - generic [ref=e1107]:
+                              - generic [ref=e1108]: (2)
+                              - generic [ref=e1109]: 2 jobs
+                        - checkbox "Noida 2 jobs" [ref=e1111] [cursor=pointer]:
+                          - paragraph [ref=e1112]:
+                            - text: Noida
+                            - generic [ref=e1113]:
+                              - generic [ref=e1114]: (2)
+                              - generic [ref=e1115]: 2 jobs
+                        - checkbox "Perth 2 jobs" [ref=e1117] [cursor=pointer]:
+                          - paragraph [ref=e1118]:
+                            - text: Perth
+                            - generic [ref=e1119]:
+                              - generic [ref=e1120]: (2)
+                              - generic [ref=e1121]: 2 jobs
+                        - checkbox "Ahmedabad 1 job" [ref=e1123] [cursor=pointer]:
+                          - paragraph [ref=e1124]:
+                            - text: Ahmedabad
+                            - generic [ref=e1125]:
+                              - generic [ref=e1126]: (1)
+                              - generic [ref=e1127]: 1 job
+                        - checkbox "Amman 1 job" [ref=e1129] [cursor=pointer]:
+                          - paragraph [ref=e1130]:
+                            - text: Amman
+                            - generic [ref=e1131]:
+                              - generic [ref=e1132]: (1)
+                              - generic [ref=e1133]: 1 job
+                        - checkbox "Annapolis Junction 1 job" [ref=e1135] [cursor=pointer]:
+                          - paragraph [ref=e1136]:
+                            - text: Annapolis Junction
+                            - generic [ref=e1137]:
+                              - generic [ref=e1138]: (1)
+                              - generic [ref=e1139]: 1 job
+                        - checkbox "Auckland 1 job" [ref=e1141] [cursor=pointer]:
+                          - paragraph [ref=e1142]:
+                            - text: Auckland
+                            - generic [ref=e1143]:
+                              - generic [ref=e1144]: (1)
+                              - generic [ref=e1145]: 1 job
+                        - checkbox "Barcelona 1 job" [ref=e1147] [cursor=pointer]:
+                          - paragraph [ref=e1148]:
+                            - text: Barcelona
+                            - generic [ref=e1149]:
+                              - generic [ref=e1150]: (1)
+                              - generic [ref=e1151]: 1 job
+                        - checkbox "Bee Cave 1 job" [ref=e1153] [cursor=pointer]:
+                          - paragraph [ref=e1154]:
+                            - text: Bee Cave
+                            - generic [ref=e1155]:
+                              - generic [ref=e1156]: (1)
+                              - generic [ref=e1157]: 1 job
+                        - checkbox "Brisbane 1 job" [ref=e1159] [cursor=pointer]:
+                          - paragraph [ref=e1160]:
+                            - text: Brisbane
+                            - generic [ref=e1161]:
+                              - generic [ref=e1162]: (1)
+                              - generic [ref=e1163]: 1 job
+                        - checkbox "Bucharest 1 job" [ref=e1165] [cursor=pointer]:
+                          - paragraph [ref=e1166]:
+                            - text: Bucharest
+                            - generic [ref=e1167]:
+                              - generic [ref=e1168]: (1)
+                              - generic [ref=e1169]: 1 job
+                        - checkbox "Carrollton 1 job" [ref=e1171] [cursor=pointer]:
+                          - paragraph [ref=e1172]:
+                            - text: Carrollton
+                            - generic [ref=e1173]:
+                              - generic [ref=e1174]: (1)
+                              - generic [ref=e1175]: 1 job
+                        - checkbox "Columbus 1 job" [ref=e1177] [cursor=pointer]:
+                          - paragraph [ref=e1178]:
+                            - text: Columbus
+                            - generic [ref=e1179]:
+                              - generic [ref=e1180]: (1)
+                              - generic [ref=e1181]: 1 job
+                        - checkbox "Cracow 1 job" [ref=e1183] [cursor=pointer]:
+                          - paragraph [ref=e1184]:
+                            - text: Cracow
+                            - generic [ref=e1185]:
+                              - generic [ref=e1186]: (1)
+                              - generic [ref=e1187]: 1 job
+                        - checkbox "Greencastle 1 job" [ref=e1189] [cursor=pointer]:
+                          - paragraph [ref=e1190]:
+                            - text: Greencastle
+                            - generic [ref=e1191]:
+                              - generic [ref=e1192]: (1)
+                              - generic [ref=e1193]: 1 job
+                        - checkbox "Hsinchu City 1 job" [ref=e1195] [cursor=pointer]:
+                          - paragraph [ref=e1196]:
+                            - text: Hsinchu City
+                            - generic [ref=e1197]:
+                              - generic [ref=e1198]: (1)
+                              - generic [ref=e1199]: 1 job
+                        - checkbox "Las Vegas 1 job" [ref=e1201] [cursor=pointer]:
+                          - paragraph [ref=e1202]:
+                            - text: Las Vegas
+                            - generic [ref=e1203]:
+                              - generic [ref=e1204]: (1)
+                              - generic [ref=e1205]: 1 job
+                        - checkbox "Melbourne 1 job" [ref=e1207] [cursor=pointer]:
+                          - paragraph [ref=e1208]:
+                            - text: Melbourne
+                            - generic [ref=e1209]:
+                              - generic [ref=e1210]: (1)
+                              - generic [ref=e1211]: 1 job
+                        - checkbox "Mumbai 1 job" [ref=e1213] [cursor=pointer]:
+                          - paragraph [ref=e1214]:
+                            - text: Mumbai
+                            - generic [ref=e1215]:
+                              - generic [ref=e1216]: (1)
+                              - generic [ref=e1217]: 1 job
+                        - checkbox "Pittsburgh 1 job" [ref=e1219] [cursor=pointer]:
+                          - paragraph [ref=e1220]:
+                            - text: Pittsburgh
+                            - generic [ref=e1221]:
+                              - generic [ref=e1222]: (1)
+                              - generic [ref=e1223]: 1 job
+                        - checkbox "Plymouth 1 job" [ref=e1225] [cursor=pointer]:
+                          - paragraph [ref=e1226]:
+                            - text: Plymouth
+                            - generic [ref=e1227]:
+                              - generic [ref=e1228]: (1)
+                              - generic [ref=e1229]: 1 job
+                        - checkbox "Rome 1 job" [ref=e1231] [cursor=pointer]:
+                          - paragraph [ref=e1232]:
+                            - text: Rome
+                            - generic [ref=e1233]:
+                              - generic [ref=e1234]: (1)
+                              - generic [ref=e1235]: 1 job
+                        - checkbox "San Jose 1 job" [ref=e1237] [cursor=pointer]:
+                          - paragraph [ref=e1238]:
+                            - text: San Jose
+                            - generic [ref=e1239]:
+                              - generic [ref=e1240]: (1)
+                              - generic [ref=e1241]: 1 job
+                        - checkbox "San Luis Obispo 1 job" [ref=e1243] [cursor=pointer]:
+                          - paragraph [ref=e1244]:
+                            - text: San Luis Obispo
+                            - generic [ref=e1245]:
+                              - generic [ref=e1246]: (1)
+                              - generic [ref=e1247]: 1 job
+                        - checkbox "Swansea 1 job" [ref=e1249] [cursor=pointer]:
+                          - paragraph [ref=e1250]:
+                            - text: Swansea
+                            - generic [ref=e1251]:
+                              - generic [ref=e1252]: (1)
+                              - generic [ref=e1253]: 1 job
+                        - checkbox "Tempe 1 job" [ref=e1255] [cursor=pointer]:
+                          - paragraph [ref=e1256]:
+                            - text: Tempe
+                            - generic [ref=e1257]:
+                              - generic [ref=e1258]: (1)
+                              - generic [ref=e1259]: 1 job
+                        - checkbox "Thames Valley 1 job" [ref=e1261] [cursor=pointer]:
+                          - paragraph [ref=e1262]:
+                            - text: Thames Valley
+                            - generic [ref=e1263]:
+                              - generic [ref=e1264]: (1)
+                              - generic [ref=e1265]: 1 job
+                        - checkbox "Warsaw 1 job" [ref=e1267] [cursor=pointer]:
+                          - paragraph [ref=e1268]:
+                            - text: Warsaw
+                            - generic [ref=e1269]:
+                              - generic [ref=e1270]: (1)
+                              - generic [ref=e1271]: 1 job
+                        - checkbox "Westborough 1 job" [ref=e1273] [cursor=pointer]:
+                          - paragraph [ref=e1274]:
+                            - text: Westborough
+                            - generic [ref=e1275]:
+                              - generic [ref=e1276]: (1)
+                              - generic [ref=e1277]: 1 job
+                        - checkbox "Whiteland 1 job" [ref=e1279] [cursor=pointer]:
+                          - paragraph [ref=e1280]:
+                            - text: Whiteland
+                            - generic [ref=e1281]:
+                              - generic [ref=e1282]: (1)
+                              - generic [ref=e1283]: 1 job
+                        - checkbox "Zurich 1 job" [ref=e1285] [cursor=pointer]:
+                          - paragraph [ref=e1286]:
+                            - text: Zurich
+                            - generic [ref=e1287]:
+                              - generic [ref=e1288]: (1)
+                              - generic [ref=e1289]: 1 job
+              - generic [ref=e1291]:
+                - link "Skip to job results" [ref=e1292] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e1293]:
+                  - generic [ref=e1294] [cursor=pointer]:
+                    - generic [ref=e1295]:
+                      - text: TEAM
+                      - generic [ref=e1296]: (16 shown)
+                      - button "More information about teams" [ref=e1298]: 
+                    - button "TEAM (16 shown) filters" [expanded] [ref=e1299]
+                  - group "TEAM (16 shown) filters" [ref=e1301]:
+                    - generic [ref=e1302]: TEAM (16 shown) filters
+                    - status [ref=e1303]
+                    - generic [ref=e1304]:
+                      - checkbox "Amazon Web Services 500+ jobs" [ref=e1305] [cursor=pointer]:
+                        - paragraph [ref=e1306]:
+                          - text: Amazon Web Services
+                          - generic [ref=e1307]:
+                            - generic [ref=e1308]: (500+)
+                            - generic [ref=e1309]: 500+ jobs
+                      - checkbox "Alexa and Amazon Devices 344 jobs" [ref=e1311] [cursor=pointer]:
+                        - paragraph [ref=e1312]:
+                          - text: Alexa and Amazon Devices
+                          - generic [ref=e1313]:
+                            - generic [ref=e1314]: (344)
+                            - generic [ref=e1315]: 344 jobs
+                      - checkbox "Amazon Ads 99 jobs" [ref=e1317] [cursor=pointer]:
+                        - paragraph [ref=e1318]:
+                          - text: Amazon Ads
+                          - generic [ref=e1319]:
+                            - generic [ref=e1320]: (99)
+                            - generic [ref=e1321]: 99 jobs
+                      - checkbox "North America Stores 69 jobs" [ref=e1323] [cursor=pointer]:
+                        - paragraph [ref=e1324]:
+                          - text: North America Stores
+                          - generic [ref=e1325]:
+                            - generic [ref=e1326]: (69)
+                            - generic [ref=e1327]: 69 jobs
+                      - checkbox "Amazon Entertainment 65 jobs" [ref=e1329] [cursor=pointer]:
+                        - paragraph [ref=e1330]:
+                          - text: Amazon Entertainment
+                          - generic [ref=e1331]:
+                            - generic [ref=e1332]: (65)
+                            - generic [ref=e1333]: 65 jobs
+                    - button "Show more filters for TEAM" [ref=e1335] [cursor=pointer]: more
+              - generic [ref=e1337]:
+                - link "Skip to job results" [ref=e1338] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e1339]:
+                  - button "ROLE TYPE (2 shown) filters" [expanded] [ref=e1340] [cursor=pointer]:
+                    - generic [ref=e1341]:
+                      - text: ROLE TYPE
+                      - generic [ref=e1342]: (2 shown)
+                  - group "ROLE TYPE (2 shown) filters" [ref=e1345]:
+                    - generic [ref=e1346]: ROLE TYPE (2 shown) filters
+                    - status [ref=e1347]
+                    - generic [ref=e1348]:
+                      - checkbox "Individual Contributor 500+ jobs" [ref=e1349] [cursor=pointer]:
+                        - paragraph [ref=e1350]:
+                          - text: Individual Contributor
+                          - generic [ref=e1351]:
+                            - generic [ref=e1352]: (500+)
+                            - generic [ref=e1353]: 500+ jobs
+                      - checkbox "People Manager 33 jobs" [ref=e1355] [cursor=pointer]:
+                        - paragraph [ref=e1356]:
+                          - text: People Manager
+                          - generic [ref=e1357]:
+                            - generic [ref=e1358]: (33)
+                            - generic [ref=e1359]: 33 jobs
+              - generic [ref=e1361]:
+                - link "Skip to job results" [ref=e1362] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e1363]:
+                  - button "CATEGORY (3 shown) filters" [expanded] [ref=e1364] [cursor=pointer]:
+                    - generic [ref=e1365]:
+                      - text: CATEGORY
+                      - generic [ref=e1366]: (3 shown)
+                  - group "CATEGORY (3 shown) filters" [ref=e1369]:
+                    - generic [ref=e1370]: CATEGORY (3 shown) filters
+                    - status [ref=e1371]
+                    - generic [ref=e1372]:
+                      - button "Corporate 500+ jobs" [ref=e1373] [cursor=pointer]:
+                        - paragraph [ref=e1374]:
+                          - text: Corporate
+                          - generic [ref=e1375]:
+                            - generic [ref=e1376]: (500+)
+                            - generic [ref=e1377]: 500+ jobs
+                      - button "Student Programs 49 jobs" [ref=e1378] [cursor=pointer]:
+                        - paragraph [ref=e1379]:
+                          - text: Student Programs
+                          - generic [ref=e1380]:
+                            - generic [ref=e1381]: (49)
+                            - generic [ref=e1382]: 49 jobs
+                      - button "Fulfillment Center 2 jobs" [ref=e1383] [cursor=pointer]:
+                        - paragraph [ref=e1384]:
+                          - text: Fulfillment Center
+                          - generic [ref=e1385]:
+                            - generic [ref=e1386]: (2)
+                            - generic [ref=e1387]: 2 jobs
+            - generic [ref=e1388]:
+              - generic [ref=e1389]:
+                - heading "Results listed" [level=2] [ref=e1390]
+                - generic [ref=e1391]:
+                  - generic:
+                    - paragraph [ref=e1392]: "Sort by:"
+                    - listbox "Sort by:" [ref=e1393]:
+                      - button [ref=e1394] [cursor=pointer]: "Sort by: Most relevant"
+              - generic [ref=e1396]:
+                - generic [ref=e1398]:
+                  - generic [ref=e1399]:
+                    - generic [ref=e1400]:
+                      - heading "Software Engineer" [level=3] [ref=e1401]:
+                        - link "Software Engineer" [ref=e1402] [cursor=pointer]:
+                          - /url: /en/jobs/3093439/software-engineer
+                      - list [ref=e1405]:
+                        - listitem [ref=e1406]: Seattle, WA, USA
+                        - listitem [ref=e1407]: "|"
+                        - listitem [ref=e1408]: "Job ID: 3093439"
+                    - generic [ref=e1409]:
+                      - generic [ref=e1410]: Posted September 25, 2025
+                      - paragraph [ref=e1411]: (Updated 17 days ago)
+                  - generic [ref=e1413]:
+                    - generic [ref=e1414]:
+                      - text: "Basic qualifications:"
+                      - list [ref=e1415]:
+                        - listitem [ref=e1416]: 1+ years of professional software development experience
+                        - listitem [ref=e1417]: A track record of building consumer-facing products that users love
+                        - listitem [ref=e1418]: Mastery of modern programming languages and frameworks
+                        - listitem [ref=e1419]: Sharp problem-solving skills with a focus on algorithms, data structures, and schema design
+                        - listitem [ref=e1420]: Bachelor's degree in Computer Science or equivalent real-world experience
+                    - link "Read more about the job Software Engineer, job Id 3093439" [ref=e1421] [cursor=pointer]:
+                      - /url: /en/jobs/3093439/software-engineer
+                      - text: ...Read more
+                - generic [ref=e1423]:
+                  - generic [ref=e1424]:
+                    - generic [ref=e1425]:
+                      - heading "Software Engineer" [level=3] [ref=e1426]:
+                        - link "Software Engineer" [ref=e1427] [cursor=pointer]:
+                          - /url: /en/jobs/10386857/software-engineer
+                      - list [ref=e1430]:
+                        - listitem [ref=e1431]: Sydney, NSW, AUS
+                        - listitem [ref=e1432]: "|"
+                        - listitem [ref=e1433]: "Job ID: 10386857"
+                    - generic [ref=e1434]:
+                      - generic [ref=e1435]: Posted April 9, 2026
+                      - paragraph [ref=e1436]: (Updated about 2 months ago)
+                  - generic [ref=e1438]:
+                    - generic [ref=e1439]:
+                      - text: "Basic qualifications:"
+                      - list [ref=e1440]:
+                        - listitem [ref=e1441]: Bachelor's degree in Computer Science or other technical degree or related experience
+                        - listitem [ref=e1442]: 3+ years of software development experience
+                        - listitem [ref=e1443]: Experience with at least one general-purpose programming language such as Java, Python, C++, C#, Go, Rust, or TypeScript
+                        - listitem [ref=e1444]: Experience working with algorithms, data structures, complexity analysis, and object-oriented software design in Linux/Unix environments
+                    - link "Read more about the job Software Engineer, job Id 10386857" [ref=e1445] [cursor=pointer]:
+                      - /url: /en/jobs/10386857/software-engineer
+                      - text: ...Read more
+                - generic [ref=e1447]:
+                  - generic [ref=e1448]:
+                    - generic [ref=e1449]:
+                      - heading "Principal Software Engineer" [level=3] [ref=e1450]:
+                        - link "Principal Software Engineer" [ref=e1451] [cursor=pointer]:
+                          - /url: /en/jobs/3133471/principal-software-engineer
+                      - list [ref=e1454]:
+                        - listitem [ref=e1455]: Berlin, BE, DEU
+                        - listitem [ref=e1456]: "|"
+                        - listitem [ref=e1457]: "Job ID: 3133471"
+                    - generic [ref=e1458]:
+                      - generic [ref=e1459]: Posted November 27, 2025
+                      - paragraph [ref=e1460]: (Updated about 2 months ago)
+                  - generic [ref=e1462]:
+                    - generic [ref=e1463]:
+                      - text: "Basic qualifications:"
+                      - list [ref=e1464]:
+                        - listitem [ref=e1465]: Bachelor’s degree in computer science or related technical field
+                        - listitem [ref=e1466]: 10+ years of relevant experience in relational database internals and systems programming in C/C++ is required
+                        - listitem [ref=e1467]: Experience leading the delivery of large-scale systems focused on managing the infrastructure layer of the technology stack
+                        - listitem [ref=e1468]: "Technical expertise in at least one major technical area: large scale Unix systems engineering, building complex distributed systems, building monitoring or management tools for large-scale environments"
+                        - listitem [ref=e1469]: Project management experience
+                        - listitem [ref=e1470]: Experience leading development life cycle process and best practices
+                        - listitem [ref=e1471]: Experience with Agile Management (SCRUM, RUP, XP), OO Modeling, working on internet, UNIX, Middleware, and database related projects
+                        - listitem [ref=e1472]: Experience mentoring/training the engineering community on complex technical issues
+                    - link "Read more about the job Principal Software Engineer, job Id 3133471" [ref=e1473] [cursor=pointer]:
+                      - /url: /en/jobs/3133471/principal-software-engineer
+                      - text: ...Read more
+                - generic [ref=e1475]:
+                  - generic [ref=e1476]:
+                    - generic [ref=e1477]:
+                      - heading "Software Engineer I" [level=3] [ref=e1478]:
+                        - link "Software Engineer I" [ref=e1479] [cursor=pointer]:
+                          - /url: /en/jobs/3141336/software-engineer-i
+                      - list [ref=e1482]:
+                        - listitem [ref=e1483]: San Francisco, CA, USA
+                        - listitem [ref=e1484]:
+                          - button "+1 other locations" [ref=e1486] [cursor=pointer]:
+                            - generic [ref=e1487]:
+                              - text: +1 other locations
+                              - generic [ref=e1488]: 
+                        - listitem [ref=e1489]: "|"
+                        - listitem [ref=e1490]: "Job ID: 3141336"
+                    - generic [ref=e1491]:
+                      - generic [ref=e1492]: Posted December 11, 2025
+                      - paragraph [ref=e1493]: (Updated 23 days ago)
+                  - generic [ref=e1495]:
+                    - generic [ref=e1496]:
+                      - text: "Basic qualifications:"
+                      - list [ref=e1497]:
+                        - listitem [ref=e1498]: 1+ years of non-internship professional software development experience
+                        - listitem [ref=e1499]: 0-2 years of professional software development experience
+                        - listitem [ref=e1500]: Excellent verbal and written communication skills; Ability to effectively collaborate with teammates is critical to success.
+                        - listitem [ref=e1501]: A track record of building consumer-facing products that users love
+                        - listitem [ref=e1502]: Demonstrable experience of modern programming languages and frameworks
+                        - listitem [ref=e1503]: Sharp problem-solving skills with a focus on algorithms, data structures, and schema design
+                        - listitem [ref=e1504]: Bachelor's degree in Computer Science or equivalent real-world experience
+                    - link "Read more about the job Software Engineer I, job Id 3141336" [ref=e1505] [cursor=pointer]:
+                      - /url: /en/jobs/3141336/software-engineer-i
+                      - text: ...Read more
+                - generic [ref=e1507]:
+                  - generic [ref=e1508]:
+                    - generic [ref=e1509]:
+                      - heading "Software Engineer, ECS" [level=3] [ref=e1510]:
+                        - link "Software Engineer, ECS" [ref=e1511] [cursor=pointer]:
+                          - /url: /en/jobs/10439110/software-engineer-ecs
+                      - list [ref=e1514]:
+                        - listitem [ref=e1515]: Seattle, WA, USA
+                        - listitem [ref=e1516]: "|"
+                        - listitem [ref=e1517]: "Job ID: 10439110"
+                    - generic [ref=e1518]:
+                      - generic [ref=e1519]: Posted June 3, 2026
+                      - paragraph [ref=e1520]: (Updated 10 days ago)
+                  - generic [ref=e1522]:
+                    - generic [ref=e1523]:
+                      - text: "Basic qualifications:"
+                      - list [ref=e1524]:
+                        - listitem [ref=e1525]: 3+ years of non-internship professional software development experience
+                        - listitem [ref=e1526]: 2+ years of non-internship design or architecture (design patterns, reliability and scaling) of new and existing systems experience
+                        - listitem [ref=e1527]: Experience programming with at least one software programming language
+                    - link "Read more about the job Software Engineer, ECS, job Id 10439110" [ref=e1528] [cursor=pointer]:
+                      - /url: /en/jobs/10439110/software-engineer-ecs
+                      - text: ...Read more
+                - generic [ref=e1530]:
+                  - generic [ref=e1531]:
+                    - generic [ref=e1532]:
+                      - heading "Software Engineer II" [level=3] [ref=e1533]:
+                        - link "Software Engineer II" [ref=e1534] [cursor=pointer]:
+                          - /url: /en/jobs/10448272/software-engineer-ii
+                      - list [ref=e1537]:
+                        - listitem [ref=e1538]: San Francisco, CA, USA
+                        - listitem [ref=e1539]: "|"
+                        - listitem [ref=e1540]: "Job ID: 10448272"
+                    - generic [ref=e1541]:
+                      - generic [ref=e1542]: Posted June 12, 2026
+                      - paragraph [ref=e1543]: (Updated about 18 hours ago)
+                  - generic [ref=e1545]:
+                    - generic [ref=e1546]:
+                      - text: "Basic qualifications:"
+                      - list [ref=e1547]:
+                        - listitem [ref=e1548]: "1+ years of designing and developing large-scale, multi-tiered, multi-threaded, embedded or distributed software applications, tools, systems, and services using: C#, C++, Java, or Perl experience"
+                        - listitem [ref=e1549]: Experience programming with at least one software programming language
+                        - listitem [ref=e1550]: Minimum of Bachelor’s degree in Computer Science or prior relevant engineering experiences
+                        - listitem [ref=e1551]: 4+ years of software engineering experience, with a track record of independently delivering features end-to-end
+                        - listitem [ref=e1552]: Strong understanding of data structures, algorithms, data modeling and schema design
+                        - listitem [ref=e1553]: Experience building and maintaining highly available, observable systems in production
+                        - listitem [ref=e1554]: Proven ability to translate business and product requirements into scalable technical solutions, ideally in monetization or high-traffic consumer products
+                        - listitem [ref=e1555]: "Proficient experience level in one or more of the following language: Go, Typescript, Ruby, Java, C++"
+                    - link "Read more about the job Software Engineer II, job Id 10448272" [ref=e1556] [cursor=pointer]:
+                      - /url: /en/jobs/10448272/software-engineer-ii
+                      - text: ...Read more
+                - generic [ref=e1558]:
+                  - generic [ref=e1559]:
+                    - generic [ref=e1560]:
+                      - heading "Software Engineer, Enterprise" [level=3] [ref=e1561]:
+                        - link "Software Engineer, Enterprise" [ref=e1562] [cursor=pointer]:
+                          - /url: /en/jobs/10450430/software-engineer-enterprise
+                      - list [ref=e1565]:
+                        - listitem [ref=e1566]: San Francisco, CA, USA
+                        - listitem [ref=e1567]: "|"
+                        - listitem [ref=e1568]: "Job ID: 10450430"
+                    - generic [ref=e1569]:
+                      - generic [ref=e1570]: Posted June 16, 2026
+                      - paragraph [ref=e1571]: (Updated 3 days ago)
+                  - generic [ref=e1573]:
+                    - generic [ref=e1574]:
+                      - text: "Basic qualifications:"
+                      - list [ref=e1575]:
+                        - listitem [ref=e1576]: 4+ years of non-internship professional software development experience
+                        - listitem [ref=e1577]: 5+ years of software development experience shipping production systems
+                        - listitem [ref=e1578]: 2+ years of hands-on experience building AI/ML-powered systems deployed to production
+                        - listitem [ref=e1579]: Experimentation with agentic architectures is necessary. And production launch is a
+                        - listitem [ref=e1580]: Proficiency in multiple programming languages (e.g., Python, TypeScript/JavaScript, Java)
+                        - listitem [ref=e1581]: Experience designing and building applications using AWS-native services — not just deploying vendor software on cloud infrastructure
+                        - listitem [ref=e1582]: Demonstrated ability to lead projects involving multiple engineers, owning architecture decisions and integration of parallel work
+                        - listitem [ref=e1583]: Experience designing and building data pipelines, data models, or data lake systems
+                        - listitem [ref=e1584]: Track record of shipping incrementally — prototyping, validating, iterating, and delivering frequently
+                        - listitem [ref=e1585]: Strong written communication skills; ability to produce technical design documents that create alignment with peers and technical leadership
+                        - listitem [ref=e1586]: Demonstrated ability to solve complex problems with multiple risks and roadblocks, delivering solutions that are as simple as possible
+                    - link "Read more about the job Software Engineer, Enterprise, job Id 10450430" [ref=e1587] [cursor=pointer]:
+                      - /url: /en/jobs/10450430/software-engineer-enterprise
+                      - text: ...Read more
+                - generic [ref=e1589]:
+                  - generic [ref=e1590]:
+                    - generic [ref=e1591]:
+                      - heading "Software Engineer, Ring" [level=3] [ref=e1592]:
+                        - link "Software Engineer, Ring" [ref=e1593] [cursor=pointer]:
+                          - /url: /en/jobs/10423551/software-engineer-ring
+                      - list [ref=e1596]:
+                        - listitem [ref=e1597]: Cambridge, GBR
+                        - listitem [ref=e1598]: "|"
+                        - listitem [ref=e1599]: "Job ID: 10423551"
+                    - generic [ref=e1600]:
+                      - generic [ref=e1601]: Posted May 19, 2026
+                      - paragraph [ref=e1602]: (Updated about 1 month ago)
+                  - generic [ref=e1604]:
+                    - generic [ref=e1605]:
+                      - text: "Basic qualifications:"
+                      - list [ref=e1606]:
+                        - listitem [ref=e1607]: Experience contributing to the architecture and design (architecture, design patterns, reliability and scaling) of new and current systems
+                        - listitem [ref=e1608]: Experience in professional, non-internship software development
+                        - listitem [ref=e1609]: Experience programming with at least one modern language such as Java, C++, or C# including object-oriented design
+                        - listitem [ref=e1610]: Experience in embedded development in C/C++
+                    - link "Read more about the job Software Engineer, Ring, job Id 10423551" [ref=e1611] [cursor=pointer]:
+                      - /url: /en/jobs/10423551/software-engineer-ring
+                      - text: ...Read more
+                - generic [ref=e1613]:
+                  - generic [ref=e1614]:
+                    - generic [ref=e1615]:
+                      - heading "Software Engineer, Safety" [level=3] [ref=e1616]:
+                        - link "Software Engineer, Safety" [ref=e1617] [cursor=pointer]:
+                          - /url: /en/jobs/10390629/software-engineer-safety
+                      - list [ref=e1620]:
+                        - listitem [ref=e1621]: San Francisco, CA, USA
+                        - listitem [ref=e1622]: "|"
+                        - listitem [ref=e1623]: "Job ID: 10390629"
+                    - generic [ref=e1624]:
+                      - generic [ref=e1625]: Posted April 14, 2026
+                      - paragraph [ref=e1626]: (Updated 2 months ago)
+                  - generic [ref=e1628]:
+                    - generic [ref=e1629]:
+                      - text: "Basic qualifications:"
+                      - list [ref=e1630]:
+                        - listitem [ref=e1631]: 1+ years of non-internship professional software development experience
+                        - listitem [ref=e1632]: 1+ years of professional software development experience, or equivalent in internship, school or solo projects.
+                        - listitem [ref=e1633]: Working knowledge of modern programming languages and frameworks.
+                        - listitem [ref=e1634]: Sharp problem-solving skills, excellent understanding of CS concepts (algorithms, data structures, distributed computing).
+                        - listitem [ref=e1635]: Bachelor's degree in Computer Science or equivalent real-world experience.
+                    - link "Read more about the job Software Engineer, Safety, job Id 10390629" [ref=e1636] [cursor=pointer]:
+                      - /url: /en/jobs/10390629/software-engineer-safety
+                      - text: ...Read more
+                - generic [ref=e1638]:
+                  - generic [ref=e1639]:
+                    - generic [ref=e1640]:
+                      - heading "Senior Software Engineer, TopHat" [level=3] [ref=e1641]:
+                        - link "Senior Software Engineer, TopHat" [ref=e1642] [cursor=pointer]:
+                          - /url: /en/jobs/10436979/senior-software-engineer-tophat
+                      - list [ref=e1645]:
+                        - listitem [ref=e1646]: Bellevue, WA, USA
+                        - listitem [ref=e1647]: "|"
+                        - listitem [ref=e1648]: "Job ID: 10436979"
+                    - generic [ref=e1649]:
+                      - generic [ref=e1650]: Posted June 2, 2026
+                      - paragraph [ref=e1651]: (Updated 17 days ago)
+                  - generic [ref=e1653]:
+                    - generic [ref=e1654]:
+                      - text: "Basic qualifications:"
+                      - list [ref=e1655]:
+                        - listitem [ref=e1656]: 5+ years of non-internship professional software development experience
+                        - listitem [ref=e1657]: 5+ years of programming with at least one software programming language experience
+                        - listitem [ref=e1658]: 5+ years of leading design or architecture (design patterns, reliability and scaling) of new and existing systems experience
+                        - listitem [ref=e1659]: Experience as a mentor, tech lead or leading an engineering team
+                    - link "Read more about the job Senior Software Engineer, TopHat, job Id 10436979" [ref=e1660] [cursor=pointer]:
+                      - /url: /en/jobs/10436979/senior-software-engineer-tophat
+                      - text: ...Read more
+              - generic [ref=e1664]:
+                - button "Previous page" [disabled] [ref=e1665]
+                - button "Page 1" [disabled]: "1"
+                - button "Page 2" [ref=e1666] [cursor=pointer]: "2"
+                - button "Page 3" [ref=e1667] [cursor=pointer]: "3"
+                - button "Page ..." [disabled]: ...
+                - button "Page 195" [ref=e1668] [cursor=pointer]: "195"
+                - button "Next page" [ref=e1669] [cursor=pointer]
+      - generic:    
+    - generic [ref=e1670]:
+      - generic [ref=e1673]:
+        - generic [ref=e1674]: JOIN US ON
+        - list [ref=e1675]:
+          - listitem [ref=e1676]:
+            - link "Join us on facebook" [ref=e1677] [cursor=pointer]:
+              - /url: https://www.facebook.com/InsideAmazon/?Amazon.jobs=footer
+              - text: b
+          - listitem [ref=e1678]:
+            - link "Join us on linkedin" [ref=e1679] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/amazon?Amazon.jobs=footer
+              - text: d
+          - listitem [ref=e1680]:
+            - link "Join us on instagram" [ref=e1681] [cursor=pointer]:
+              - /url: https://www.instagram.com/insideamazon/?Amazon.jobs=footer
+              - text: c
+          - listitem [ref=e1682]:
+            - link "Join us on twitter" [ref=e1683] [cursor=pointer]:
+              - /url: https://twitter.com/amazonnews?Amazon.jobs=footer
+              - text: j
+        - generic [ref=e1684]:
+          - generic [ref=e1685]: DOWNLOAD OUR APP
+          - list [ref=e1686]:
+            - listitem [ref=e1687]:
+              - link "Download Amazon A to Z from App Store" [ref=e1688] [cursor=pointer]:
+                - /url: https://apple.co/4mW6qxK
+                - img [ref=e1689]
+            - listitem [ref=e1690]:
+              - link "Download Amazon A to Z from Google Play" [ref=e1691] [cursor=pointer]:
+                - /url: https://bit.ly/46JGIYu
+                - img [ref=e1692]
+      - generic [ref=e1696]:
+        - generic [ref=e1697]:
+          - text: Find Careers
+          - list [ref=e1698]:
+            - listitem [ref=e1699]:
+              - link "Job Categories" [ref=e1700] [cursor=pointer]:
+                - /url: /content/en/job-categories
+            - listitem [ref=e1701]:
+              - link "Teams" [ref=e1702] [cursor=pointer]:
+                - /url: /content/en/teams
+            - listitem [ref=e1703]:
+              - link "Locations" [ref=e1704] [cursor=pointer]:
+                - /url: /content/en/locations
+            - listitem [ref=e1705]:
+              - link "Military careers" [ref=e1706] [cursor=pointer]:
+                - /url: /content/en/career-programs/military
+            - listitem [ref=e1707]:
+              - link "Hourly" [ref=e1708] [cursor=pointer]:
+                - /url: /content/en/hourly
+        - generic [ref=e1709]:
+          - text: Working At Amazon
+          - list [ref=e1710]:
+            - listitem [ref=e1711]:
+              - link "Culture" [ref=e1712] [cursor=pointer]:
+                - /url: /content/en/our-workplace
+            - listitem [ref=e1713]:
+              - link "Benefits" [ref=e1714] [cursor=pointer]:
+                - /url: /content/en/benefits
+            - listitem [ref=e1715]:
+              - link "Amazon Newsletter" [ref=e1716] [cursor=pointer]:
+                - /url: https://email.aboutamazon.com/l/637851/2020-10-29/pd87g?utm_campaign=newslettersubscribers&utm_content=amazonnewssignup&utm_medium=amazonjobs&utm_source=footer
+            - listitem [ref=e1717]:
+              - link "Inclusive experiences" [ref=e1718] [cursor=pointer]:
+                - /url: /content/en/our-workplace/inclusive-experiences
+            - listitem [ref=e1719]:
+              - link "Leadership Principles" [ref=e1720] [cursor=pointer]:
+                - /url: /content/en/our-workplace/leadership-principles
+        - generic [ref=e1721]:
+          - text: Help
+          - list [ref=e1722]:
+            - listitem [ref=e1723]:
+              - link "FAQ" [ref=e1724] [cursor=pointer]:
+                - /url: /content/en/faq
+            - listitem [ref=e1725]:
+              - link "How We Hire" [ref=e1726] [cursor=pointer]:
+                - /url: /content/en/how-we-hire#onlineapp
+            - listitem [ref=e1727]:
+              - link "Application status" [ref=e1728] [cursor=pointer]:
+                - /url: https://www.amazon.jobs/applicant/check_application_status
+            - listitem [ref=e1729]:
+              - link "Accommodations" [ref=e1730] [cursor=pointer]:
+                - /url: /content/en/how-we-hire/accommodations
+            - listitem [ref=e1731]:
+              - link "Legal disclosures and notices" [ref=e1732] [cursor=pointer]:
+                - /url: /content/en/legal-disclosures-and-notices
+        - combobox "English" [ref=e1738] [cursor=pointer]: English
+      - generic [ref=e1740]:
+        - generic [ref=e1742]:
+          - generic [ref=e1743]: Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.
+          - generic [ref=e1744]:
+            - link "Privacy and Data" [ref=e1745] [cursor=pointer]:
+              - /url: /en/privacy_page
+            - link "Impressum" [ref=e1746] [cursor=pointer]:
+              - /url: /en/impressum
+          - generic [ref=e1747]: © 1996-2026, Amazon.com, Inc. or its affiliates
+        - generic [ref=e1748]:
+          - generic [ref=e1749]:
+            - heading "Notice of Right to Opt-Out Sharing" [level=3] [ref=e1751]
+            - paragraph [ref=e1752]:
+              - text: Amazon Jobs uses cookies and similar tools such as pixels (collectively, “cookies”) for advertising purposes. The cookies collect and share information about you with third-parties to serve you with relevant advertisements and job recommendations based on your interactions with Amazon Jobs and third-party sites. California residents may exercise their right to opt-out of the sharing of information for advertising purposes by clicking toggling the buttons below. You can also manage your cookie preferences through the
+              - link "Cookie Preference Center" [ref=e1753] [cursor=pointer]:
+                - /url: /cookies
+              - text: .
+            - paragraph [ref=e1754]:
+              - text: For more information about how we use cookies and information of how we collect cookies, please visit our
+              - link "Candidate Cookie Notice" [ref=e1755] [cursor=pointer]:
+                - /url: /privacy_page?region_id=region_us&notice_id=us-cookies-notice-english
+              - text: and
+              - link "Candidate Privacy Notice" [ref=e1756] [cursor=pointer]:
+                - /url: /privacy_page?region_id=region_us&notice_id=us-privacy-english
+              - text: and the
+              - link "California supplement notice" [ref=e1757] [cursor=pointer]:
+                - /url: /privacy_page?region_id=region_california&notice_id=california-privacy-english
+              - text: .
+          - list [ref=e1759]:
+            - listitem [ref=e1760]:
+              - button "Accept" [ref=e1761] [cursor=pointer]: Accept all
+            - listitem [ref=e1762]:
+              - button "Reject" [ref=e1763] [cursor=pointer]: Reject all
+            - listitem [ref=e1764]:
+              - button "Customize" [ref=e1765] [cursor=pointer]: Customize cookies

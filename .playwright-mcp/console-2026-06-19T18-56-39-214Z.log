@@ -1,0 +1,20 @@
+[     229ms] [LOG] [MKTZ] Consent is disabled @ https://cdn.omniconvert.com/js/tbc42c7.js:0
+[     246ms] [LOG] JQMIGRATE: Migrate is installed with logging active, version 3.3.1 @ https://tbcdn.talentbrew.com/bundles/jquery-client.js:18
+[     283ms] [WARNING] JQMIGRATE: jQuery.fn.click() event shorthand is deprecated @ https://tbcdn.talentbrew.com/bundles/jquery-client.js:18
+[     283ms] [WARNING] JQMIGRATE: jQuery.fn.hover() is deprecated @ https://tbcdn.talentbrew.com/bundles/jquery-client.js:18
+[     283ms] [WARNING] JQMIGRATE: jQuery.fn.focus() event shorthand is deprecated @ https://tbcdn.talentbrew.com/bundles/jquery-client.js:18
+[     284ms] [WARNING] JQMIGRATE: jQuery.fn.blur() event shorthand is deprecated @ https://tbcdn.talentbrew.com/bundles/jquery-client.js:18
+[     285ms] [LOG] %c Disclosure v1.4 in use.  background: #6e00ee; color: #fff @ https://tbcdn.talentbrew.com/company/234/js/57198-GST.min.js:8
+[     286ms] [LOG]  @ https://tbcdn.talentbrew.com/company/234/js/57198-GST.min.js:16
+[     286ms] [LOG] %cTabList%cv1.9 background: #2d2d2d; color: #fff; padding: 6px 10px; border-radius: 16px 0 0 16px; font-weight: 600; background: #6e00ee; color: #fff; padding: 6px 10px; border-radius: 0 16px 16px 0; font-weight: 600; @ https://tbcdn.talentbrew.com/company/234/js/57198-GST.min.js:22
+[     297ms] [LOG] %cMagicBullet%cv2.2 background: #2d2d2d; color: #fff; padding: 6px 10px; border-radius: 16px 0 0 16px; font-weight: 600; background: #6e00ee; color: #fff; padding: 6px 10px; border-radius: 0 16px 16px 0; font-weight: 600; @ https://services.tmpwebeng.com/magicbullet/init.js:26
+[     308ms] [LOG] Referer domain  =>  @ https://tbcdn.talentbrew.com/company/234/js/57198-GST.min.js:22
+[     536ms] [LOG] %cMagicBullet: A11y%cv2.0 background: #2d2d2d; color: #fff; padding: 6px 10px; border-radius: 16px 0 0 16px; font-weight: 600; background: #6e00ee; color: #fff; padding: 6px 10px; border-radius: 0 16px 16px 0; font-weight: 600; @ https://services.tmpwebeng.com/magicbullet/a11y/init.js:43
+[     537ms] [LOG] %cMagicBullet: A11y%cStatic Scripts ✔ background: #2d2d2d; color: #fff; padding: 6px 10px; border-radius: 16px 0 0 16px; font-weight: 600; background: #228B22; color: #fff; padding: 6px 10px; border-radius: 0 16px 16px 0; font-weight: 600; @ https://services.tmpwebeng.com/magicbullet/a11y/init.js:165
+[     539ms] [LOG] %cMagicBullet: A11y%cDynamic Scripts ✔ background: #2d2d2d; color: #fff; padding: 6px 10px; border-radius: 16px 0 0 16px; font-weight: 600; background: #228B22; color: #fff; padding: 6px 10px; border-radius: 0 16px 16px 0; font-weight: 600; @ https://services.tmpwebeng.com/magicbullet/a11y/init.js:143
+[     629ms] [ERROR] Invalid 'X-Frame-Options' header encountered when loading 'https://sidebar.bugherd.com/': '' is not a recognized directive. The header will be ignored. @ https://sidebar.bugherd.com/sidebar/embed_html?apikey=rxvqjl6jw6yvykxfsjotgw:0
+[     760ms] [ERROR] undefined @ https://www.bugherd.com/sidebarv2.js?apikey=rxvqjl6jw6yvykxfsjotgw:0
+[     760ms] [ERROR] [AUTH] Unauthenticated Error: Cannot initialize BugHerd
+    at https://www.bugherd.com/sidebarv2.js?apikey=rxvqjl6jw6yvykxfsjotgw:1:10675
+    at async https://www.bugherd.com/sidebarv2.js?apikey=rxvqjl6jw6yvykxfsjotgw:1:18821 @ https://www.bugherd.com/sidebarv2.js?apikey=rxvqjl6jw6yvykxfsjotgw:0
+[    1542ms] [LOG] %cMagicBullet: A11y%cDynamic Scripts ✔ background: #2d2d2d; color: #fff; padding: 6px 10px; border-radius: 16px 0 0 16px; font-weight: 600; background: #228B22; color: #fff; padding: 6px 10px; border-radius: 0 16px 16px 0; font-weight: 600; @ https://services.tmpwebeng.com/magicbullet/a11y/init.js:143

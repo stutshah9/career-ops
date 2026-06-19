@@ -1,0 +1,814 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: .
+    - generic [ref=e4]: ..
+    - generic [ref=e5]: .
+  - generic [ref=e7]:
+    - link "Skip to main content." [ref=e8] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - banner [ref=e13]:
+          - generic [ref=e17]:
+            - link "Manage profile" [ref=e20] [cursor=pointer]:
+              - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/my-profile/sign-in
+              - generic [ref=e21]: 
+            - button "Open menu" [ref=e23] [cursor=pointer]:
+              - generic [ref=e24]:
+                - emphasis [ref=e25]
+                - emphasis [ref=e26]
+                - emphasis [ref=e27]
+        - main [ref=e29]:
+          - generic [ref=e30]:
+            - heading "Search Jobs - JPMC Candidate Experience page Careers" [level=1] [ref=e31]
+            - generic [ref=e35]:
+              - generic [ref=e39]:
+                - link [ref=e41] [cursor=pointer]:
+                  - /url: https://careers.jpmorgan.com/us/en/home
+                  - img [ref=e42]
+                - search [ref=e44]:
+                  - generic [ref=e45]:
+                    - generic [ref=e46]:
+                      - generic [ref=e48]: Find Jobs
+                      - generic [ref=e49]:
+                        - generic [ref=e50]: Job title, skill, keyword
+                        - combobox "Find Jobs" [ref=e51]: Software Engineer
+                    - generic [ref=e53]:
+                      - button "You've selected the Near Location search mode." [ref=e56] [cursor=pointer]:
+                        - generic [ref=e57]: Near Location
+                        - emphasis [ref=e58]: 
+                      - generic [ref=e59]:
+                        - generic [ref=e60]: City, state, country
+                        - combobox "City, state, country" [ref=e61]
+                  - button "Search for Jobs" [ref=e62] [cursor=pointer]:
+                    - emphasis [ref=e63]: 
+              - generic [ref=e70]:
+                - generic [ref=e74]:
+                  - generic [ref=e75]: Job search results 1211
+                  - list [ref=e76]:
+                    - listitem [ref=e77]:
+                      - generic [ref=e78]: 1211 Open Jobs
+                    - listitem [ref=e79]
+                    - listitem [ref=e81]:
+                      - button "Categories filter - 0 selected" [ref=e87] [cursor=pointer]:
+                        - generic [ref=e88]: Categories
+                        - emphasis [ref=e89]: 
+                    - listitem [ref=e90]:
+                      - button "Posting Dates filter - 0 selected" [ref=e96] [cursor=pointer]:
+                        - generic [ref=e97]: Posting Dates
+                        - emphasis [ref=e98]: 
+                - generic:
+                  - generic:   
+              - generic [ref=e105]:
+                - button "Sort By Relevance" [ref=e111] [cursor=pointer]:
+                  - generic "Sort By Relevance" [ref=e112]: Relevance
+                  - emphasis [ref=e113]: 
+                  - text: 
+                - list [ref=e114]:
+                  - listitem [ref=e115]:
+                    - generic [ref=e116]:
+                      - link "FircoSoft Application Developer - Software Engineer III Locations Tampa, FL, United States Job Function Technology Job Family Software Engineering" [ref=e117] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210709373/?keyword=Software+Engineer
+                      - generic [ref=e119]:
+                        - generic [ref=e122]:
+                          - generic [ref=e124]: FircoSoft Application Developer - Software Engineer III
+                          - list [ref=e127]:
+                            - listitem [ref=e128]:
+                              - img "Locations" [ref=e129]: 
+                              - text: 
+                              - generic [ref=e132]: Tampa, FL, United States
+                            - listitem [ref=e133]:
+                              - img "Job Function" [ref=e134]: 
+                              - text: 
+                              - generic [ref=e135]: Technology
+                            - listitem [ref=e136]:
+                              - img "Job Family" [ref=e137]: 
+                              - text: 
+                              - generic [ref=e138]: Software Engineering
+                        - paragraph [ref=e143]: Design and deliver market-leading technology products in a secure and scalable way as a seasoned member of an agile team
+                      - generic [ref=e144]:
+                        - button "Copy Link" [ref=e149] [cursor=pointer]:
+                          - emphasis [ref=e150]: 
+                        - button "Add Job to My Job Selections" [ref=e152] [cursor=pointer]: 
+                  - listitem [ref=e153]:
+                    - generic [ref=e154]:
+                      - link "Lead Software Engineer - Java/Full Stack Engineering Locations Chicago, IL, United States Job Function Technology Job Family Software Engineering" [ref=e155] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210724892/?keyword=Software+Engineer
+                      - generic [ref=e157]:
+                        - generic [ref=e160]:
+                          - generic [ref=e162]: Lead Software Engineer - Java/Full Stack Engineering
+                          - list [ref=e165]:
+                            - listitem [ref=e166]:
+                              - img "Locations" [ref=e167]: 
+                              - text: 
+                              - generic [ref=e170]: Chicago, IL, United States
+                            - listitem [ref=e171]:
+                              - img "Job Function" [ref=e172]: 
+                              - text: 
+                              - generic [ref=e173]: Technology
+                            - listitem [ref=e174]:
+                              - img "Job Family" [ref=e175]: 
+                              - text: 
+                              - generic [ref=e176]: Software Engineering
+                        - paragraph [ref=e181]: Carry out critical tech solutions across multiple technical areas as an integral part of an agile team
+                      - generic [ref=e182]:
+                        - button "Copy Link" [ref=e187] [cursor=pointer]:
+                          - emphasis [ref=e188]: 
+                        - button "Add Job to My Job Selections" [ref=e190] [cursor=pointer]: 
+                  - listitem [ref=e191]:
+                    - generic [ref=e192]:
+                      - link "Lead Software Engineer - Frontend Engineering - React Native Locations LONDON, LONDON, United Kingdom Job Function Technology Job Family Software Engineering" [ref=e193] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210755745/?keyword=Software+Engineer
+                      - generic [ref=e195]:
+                        - generic [ref=e198]:
+                          - generic [ref=e200]: Lead Software Engineer - Frontend Engineering - React Native
+                          - list [ref=e203]:
+                            - listitem [ref=e204]:
+                              - img "Locations" [ref=e205]: 
+                              - text: 
+                              - generic [ref=e208]: LONDON, LONDON, United Kingdom
+                            - listitem [ref=e209]:
+                              - img "Job Function" [ref=e210]: 
+                              - text: 
+                              - generic [ref=e211]: Technology
+                            - listitem [ref=e212]:
+                              - img "Job Family" [ref=e213]: 
+                              - text: 
+                              - generic [ref=e214]: Software Engineering
+                        - paragraph [ref=e219]: Carry out critical tech solutions across multiple technical areas as an integral part of an agile team
+                      - generic [ref=e220]:
+                        - button "Copy Link" [ref=e225] [cursor=pointer]:
+                          - emphasis [ref=e226]: 
+                        - button "Add Job to My Job Selections" [ref=e228] [cursor=pointer]: 
+                  - listitem [ref=e229]:
+                    - generic [ref=e230]:
+                      - link "Lead Software Engineer - Backend Engineer - Chase UK Locations LONDON, LONDON, United Kingdom Job Function Technology Job Family Software Engineering" [ref=e231] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210671176/?keyword=Software+Engineer
+                      - generic [ref=e233]:
+                        - generic [ref=e236]:
+                          - generic [ref=e238]: Lead Software Engineer - Backend Engineer - Chase UK
+                          - list [ref=e241]:
+                            - listitem [ref=e242]:
+                              - img "Locations" [ref=e243]: 
+                              - text: 
+                              - generic [ref=e246]: LONDON, LONDON, United Kingdom
+                            - listitem [ref=e247]:
+                              - img "Job Function" [ref=e248]: 
+                              - text: 
+                              - generic [ref=e249]: Technology
+                            - listitem [ref=e250]:
+                              - img "Job Family" [ref=e251]: 
+                              - text: 
+                              - generic [ref=e252]: Software Engineering
+                        - paragraph [ref=e257]: We launched Chase UK to transform digital banking
+                      - generic [ref=e258]:
+                        - button "Copy Link" [ref=e263] [cursor=pointer]:
+                          - emphasis [ref=e264]: 
+                        - button "Add Job to My Job Selections" [ref=e266] [cursor=pointer]: 
+                  - listitem [ref=e267]:
+                    - generic [ref=e268]:
+                      - link "Software Engineer III - Backend Engineer - Chase UK Locations LONDON, LONDON, United Kingdom Job Function Technology Job Family Software Engineering" [ref=e269] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210619687/?keyword=Software+Engineer
+                      - generic [ref=e271]:
+                        - generic [ref=e274]:
+                          - generic [ref=e276]: Software Engineer III - Backend Engineer - Chase UK
+                          - list [ref=e279]:
+                            - listitem [ref=e280]:
+                              - img "Locations" [ref=e281]: 
+                              - text: 
+                              - generic [ref=e284]: LONDON, LONDON, United Kingdom
+                            - listitem [ref=e285]:
+                              - img "Job Function" [ref=e286]: 
+                              - text: 
+                              - generic [ref=e287]: Technology
+                            - listitem [ref=e288]:
+                              - img "Job Family" [ref=e289]: 
+                              - text: 
+                              - generic [ref=e290]: Software Engineering
+                        - paragraph [ref=e295]: Our Back-End Engineering team is at the heart of this venture, focused on getting a great banking experience into the hands of our customers.
+                      - generic [ref=e296]:
+                        - button "Copy Link" [ref=e301] [cursor=pointer]:
+                          - emphasis [ref=e302]: 
+                        - button "Add Job to My Job Selections" [ref=e304] [cursor=pointer]: 
+                  - listitem [ref=e305]:
+                    - generic [ref=e306]:
+                      - heading "Talent Network" [level=2] [ref=e307]
+                      - paragraph [ref=e308]: Didn't find the perfect job? Create a profile so we can help
+                      - link "Join the Network" [ref=e310] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/join-talent-community?keyword=Software+Engineer
+                        - generic [ref=e311]: Join the Network
+                  - listitem [ref=e312]:
+                    - generic [ref=e313]:
+                      - link "Lead Software Engineer - Backend Engineering - Java/Kotlin Locations New York, NY, United States Job Function Technology Job Family Software Engineering" [ref=e314] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210667912/?keyword=Software+Engineer
+                      - generic [ref=e316]:
+                        - generic [ref=e319]:
+                          - generic [ref=e321]: Lead Software Engineer - Backend Engineering - Java/Kotlin
+                          - list [ref=e324]:
+                            - listitem [ref=e325]:
+                              - img "Locations" [ref=e326]: 
+                              - text: 
+                              - generic [ref=e329]: New York, NY, United States
+                            - listitem [ref=e330]:
+                              - img "Job Function" [ref=e331]: 
+                              - text: 
+                              - generic [ref=e332]: Technology
+                            - listitem [ref=e333]:
+                              - img "Job Family" [ref=e334]: 
+                              - text: 
+                              - generic [ref=e335]: Software Engineering
+                        - paragraph [ref=e340]: Carry out critical tech solutions across multiple technical areas as an integral part of an agile team
+                      - generic [ref=e341]:
+                        - button "Copy Link" [ref=e346] [cursor=pointer]:
+                          - emphasis [ref=e347]: 
+                        - button "Add Job to My Job Selections" [ref=e349] [cursor=pointer]: 
+                  - listitem [ref=e350]:
+                    - generic [ref=e351]:
+                      - link "Lead Software Engineer - Backend Engineering - Java/Kotlin Locations LONDON, LONDON, United Kingdom Job Function Technology Job Family Software Engineering" [ref=e352] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210587260/?keyword=Software+Engineer
+                      - generic [ref=e354]:
+                        - generic [ref=e357]:
+                          - generic [ref=e359]: Lead Software Engineer - Backend Engineering - Java/Kotlin
+                          - list [ref=e362]:
+                            - listitem [ref=e363]:
+                              - img "Locations" [ref=e364]: 
+                              - text: 
+                              - generic [ref=e367]: LONDON, LONDON, United Kingdom
+                            - listitem [ref=e368]:
+                              - img "Job Function" [ref=e369]: 
+                              - text: 
+                              - generic [ref=e370]: Technology
+                            - listitem [ref=e371]:
+                              - img "Job Family" [ref=e372]: 
+                              - text: 
+                              - generic [ref=e373]: Software Engineering
+                        - paragraph [ref=e378]: Out of the successful launch of Chase in 2021, we’re a new team, with a new mission
+                      - generic [ref=e379]:
+                        - button "Copy Link" [ref=e384] [cursor=pointer]:
+                          - emphasis [ref=e385]: 
+                        - button "Add Job to My Job Selections" [ref=e387] [cursor=pointer]: 
+                  - listitem [ref=e388]:
+                    - generic [ref=e389]:
+                      - link "Software Engineer III - Backend Engineering - Java/Kotlin Locations LONDON, LONDON, United Kingdom Job Function Technology Job Family Software Engineering" [ref=e390] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210588623/?keyword=Software+Engineer
+                      - generic [ref=e392]:
+                        - generic [ref=e395]:
+                          - generic [ref=e397]: Software Engineer III - Backend Engineering - Java/Kotlin
+                          - list [ref=e400]:
+                            - listitem [ref=e401]:
+                              - img "Locations" [ref=e402]: 
+                              - text: 
+                              - generic [ref=e405]: LONDON, LONDON, United Kingdom
+                            - listitem [ref=e406]:
+                              - img "Job Function" [ref=e407]: 
+                              - text: 
+                              - generic [ref=e408]: Technology
+                            - listitem [ref=e409]:
+                              - img "Job Family" [ref=e410]: 
+                              - text: 
+                              - generic [ref=e411]: Software Engineering
+                        - paragraph [ref=e416]: Out of the successful launch of Chase in 2021, we’re a new team, with a new mission.
+                      - generic [ref=e417]:
+                        - button "Copy Link" [ref=e422] [cursor=pointer]:
+                          - emphasis [ref=e423]: 
+                        - button "Add Job to My Job Selections" [ref=e425] [cursor=pointer]: 
+                  - listitem [ref=e426]:
+                    - generic [ref=e427]:
+                      - link "Senior Lead Software Engineer- Backend Engineer - Chase UK Locations LONDON, LONDON, United Kingdom Job Function Technology Job Family Software Engineering" [ref=e428] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210591504/?keyword=Software+Engineer
+                      - generic [ref=e430]:
+                        - generic [ref=e433]:
+                          - generic [ref=e435]: Senior Lead Software Engineer- Backend Engineer - Chase UK
+                          - list [ref=e438]:
+                            - listitem [ref=e439]:
+                              - img "Locations" [ref=e440]: 
+                              - text: 
+                              - generic [ref=e443]: LONDON, LONDON, United Kingdom
+                            - listitem [ref=e444]:
+                              - img "Job Function" [ref=e445]: 
+                              - text: 
+                              - generic [ref=e446]: Technology
+                            - listitem [ref=e447]:
+                              - img "Job Family" [ref=e448]: 
+                              - text: 
+                              - generic [ref=e449]: Software Engineering
+                        - paragraph [ref=e454]: Our Back-End Engineering team is at the heart of this venture, focused on getting a great banking experience into the hands of our customers.
+                      - generic [ref=e455]:
+                        - button "Copy Link" [ref=e460] [cursor=pointer]:
+                          - emphasis [ref=e461]: 
+                        - button "Add Job to My Job Selections" [ref=e463] [cursor=pointer]: 
+                  - listitem [ref=e464]:
+                    - generic [ref=e465]:
+                      - link "Sr Lead Software Engineer- Backend Engineering - Java/Kotlin Locations New York, NY, United States Job Function Technology Job Family Software Engineering" [ref=e466] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210720403/?keyword=Software+Engineer
+                      - generic [ref=e468]:
+                        - generic [ref=e471]:
+                          - generic [ref=e473]: Sr Lead Software Engineer- Backend Engineering - Java/Kotlin
+                          - list [ref=e476]:
+                            - listitem [ref=e477]:
+                              - img "Locations" [ref=e478]: 
+                              - text: 
+                              - generic [ref=e481]: New York, NY, United States
+                            - listitem [ref=e482]:
+                              - img "Job Function" [ref=e483]: 
+                              - text: 
+                              - generic [ref=e484]: Technology
+                            - listitem [ref=e485]:
+                              - img "Job Family" [ref=e486]: 
+                              - text: 
+                              - generic [ref=e487]: Software Engineering
+                        - paragraph [ref=e492]: Carry out critical tech solutions across multiple technical areas as an integral part of an agile team
+                      - generic [ref=e493]:
+                        - button "Copy Link" [ref=e498] [cursor=pointer]:
+                          - emphasis [ref=e499]: 
+                        - button "Add Job to My Job Selections" [ref=e501] [cursor=pointer]: 
+                  - listitem [ref=e502]:
+                    - generic [ref=e503]:
+                      - link "Senior Lead Software Engineer - Backend Engineering - Java/Kotlin Locations LONDON, LONDON, United Kingdom Job Function Technology Job Family Software Engineering" [ref=e504] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210705851/?keyword=Software+Engineer
+                      - generic [ref=e506]:
+                        - generic [ref=e509]:
+                          - generic [ref=e511]: Senior Lead Software Engineer - Backend Engineering - Java/Kotlin
+                          - list [ref=e514]:
+                            - listitem [ref=e515]:
+                              - img "Locations" [ref=e516]: 
+                              - text: 
+                              - generic [ref=e519]: LONDON, LONDON, United Kingdom
+                            - listitem [ref=e520]:
+                              - img "Job Function" [ref=e521]: 
+                              - text: 
+                              - generic [ref=e522]: Technology
+                            - listitem [ref=e523]:
+                              - img "Job Family" [ref=e524]: 
+                              - text: 
+                              - generic [ref=e525]: Software Engineering
+                        - paragraph [ref=e530]: Out of the successful launch of Chase in 2021, we’re a new team, with a new mission
+                      - generic [ref=e531]:
+                        - button "Copy Link" [ref=e536] [cursor=pointer]:
+                          - emphasis [ref=e537]: 
+                        - button "Add Job to My Job Selections" [ref=e539] [cursor=pointer]: 
+                  - listitem [ref=e540]:
+                    - generic [ref=e541]:
+                      - link "Lead Software Engineer - Blockchain Developer Locations Jersey City, NJ, United States and 1 more Job Function Technology Job Family Software Engineering" [ref=e542] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210704073/?keyword=Software+Engineer
+                      - generic [ref=e544]:
+                        - generic [ref=e547]:
+                          - generic [ref=e549]: Lead Software Engineer - Blockchain Developer
+                          - list [ref=e552]:
+                            - listitem [ref=e553]:
+                              - img "Locations" [ref=e554]: 
+                              - text: 
+                              - generic [ref=e557]:
+                                - text: Jersey City, NJ, United States
+                                - generic "and 1 more" [ref=e559]:
+                                  - tooltip "Locations,Jersey City, NJ, United States,Palo Alto, CA, United States" [ref=e561]:
+                                    - generic "Jersey City, NJ, United States,Palo Alto, CA, United States" [ref=e562]:
+                                      - generic [ref=e563]: and 1 more
+                            - listitem [ref=e564]:
+                              - img "Job Function" [ref=e565]: 
+                              - text: 
+                              - generic [ref=e566]: Technology
+                            - listitem [ref=e567]:
+                              - img "Job Family" [ref=e568]: 
+                              - text: 
+                              - generic [ref=e569]: Software Engineering
+                        - paragraph [ref=e574]: Blockchain Lead Software Engineer
+                      - generic [ref=e575]:
+                        - button "Copy Link" [ref=e580] [cursor=pointer]:
+                          - emphasis [ref=e581]: 
+                        - button "Add Job to My Job Selections" [ref=e583] [cursor=pointer]: 
+                  - listitem [ref=e584]:
+                    - generic [ref=e585]:
+                      - link "Software Engineer III, Mobile Development Locations Bengaluru, Karnataka, India Job Function Technology Job Family Software Engineering" [ref=e586] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210738785/?keyword=Software+Engineer
+                      - generic [ref=e588]:
+                        - generic [ref=e591]:
+                          - generic [ref=e593]: Software Engineer III, Mobile Development
+                          - list [ref=e596]:
+                            - listitem [ref=e597]:
+                              - img "Locations" [ref=e598]: 
+                              - text: 
+                              - generic [ref=e601]: Bengaluru, Karnataka, India
+                            - listitem [ref=e602]:
+                              - img "Job Function" [ref=e603]: 
+                              - text: 
+                              - generic [ref=e604]: Technology
+                            - listitem [ref=e605]:
+                              - img "Job Family" [ref=e606]: 
+                              - text: 
+                              - generic [ref=e607]: Software Engineering
+                        - paragraph [ref=e612]: Design and deliver market-leading technology products in a secure and scalable way as a seasoned member of an agile team
+                      - generic [ref=e613]:
+                        - button "Copy Link" [ref=e618] [cursor=pointer]:
+                          - emphasis [ref=e619]: 
+                        - button "Add Job to My Job Selections" [ref=e621] [cursor=pointer]: 
+                  - listitem [ref=e622]:
+                    - generic [ref=e623]:
+                      - link "Senior Lead Software Engineer - C++ Developer Locations LONDON, LONDON, United Kingdom Job Function Technology Job Family Software Engineering" [ref=e624] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210747073/?keyword=Software+Engineer
+                      - generic [ref=e626]:
+                        - generic [ref=e629]:
+                          - generic [ref=e631]: Senior Lead Software Engineer - C++ Developer
+                          - list [ref=e634]:
+                            - listitem [ref=e635]:
+                              - img "Locations" [ref=e636]: 
+                              - text: 
+                              - generic [ref=e639]: LONDON, LONDON, United Kingdom
+                            - listitem [ref=e640]:
+                              - img "Job Function" [ref=e641]: 
+                              - text: 
+                              - generic [ref=e642]: Technology
+                            - listitem [ref=e643]:
+                              - img "Job Family" [ref=e644]: 
+                              - text: 
+                              - generic [ref=e645]: Software Engineering
+                        - paragraph [ref=e650]: Promote high performance trading gateways, delivering reliable, scalable execution technology for global futures and options markets.
+                      - generic [ref=e651]:
+                        - button "Copy Link" [ref=e656] [cursor=pointer]:
+                          - emphasis [ref=e657]: 
+                        - button "Add Job to My Job Selections" [ref=e659] [cursor=pointer]: 
+                  - listitem [ref=e660]:
+                    - generic [ref=e661]:
+                      - link "Lead Software Engineer - AI Developer Locations Plano, TX, United States Job Function Technology Job Family Software Engineering" [ref=e662] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210746819/?keyword=Software+Engineer
+                      - generic [ref=e664]:
+                        - generic [ref=e667]:
+                          - generic [ref=e669]: Lead Software Engineer - AI Developer
+                          - list [ref=e672]:
+                            - listitem [ref=e673]:
+                              - img "Locations" [ref=e674]: 
+                              - text: 
+                              - generic [ref=e677]: Plano, TX, United States
+                            - listitem [ref=e678]:
+                              - img "Job Function" [ref=e679]: 
+                              - text: 
+                              - generic [ref=e680]: Technology
+                            - listitem [ref=e681]:
+                              - img "Job Family" [ref=e682]: 
+                              - text: 
+                              - generic [ref=e683]: Software Engineering
+                        - paragraph [ref=e688]: Drive significant business impact and tackle a diverse array of challenges that span multiple technologies and applications
+                      - generic [ref=e689]:
+                        - button "Copy Link" [ref=e694] [cursor=pointer]:
+                          - emphasis [ref=e695]: 
+                        - button "Add Job to My Job Selections" [ref=e697] [cursor=pointer]: 
+                  - listitem [ref=e698]:
+                    - generic [ref=e699]:
+                      - link "Lead Software Engineer - AI Developer Locations Plano, TX, United States Job Function Technology Job Family Software Engineering" [ref=e700] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210746844/?keyword=Software+Engineer
+                      - generic [ref=e702]:
+                        - generic [ref=e705]:
+                          - generic [ref=e707]: Lead Software Engineer - AI Developer
+                          - list [ref=e710]:
+                            - listitem [ref=e711]:
+                              - img "Locations" [ref=e712]: 
+                              - text: 
+                              - generic [ref=e715]: Plano, TX, United States
+                            - listitem [ref=e716]:
+                              - img "Job Function" [ref=e717]: 
+                              - text: 
+                              - generic [ref=e718]: Technology
+                            - listitem [ref=e719]:
+                              - img "Job Family" [ref=e720]: 
+                              - text: 
+                              - generic [ref=e721]: Software Engineering
+                        - paragraph [ref=e726]: Drive significant business impact and tackle a diverse array of challenges that span multiple technologies and applications
+                      - generic [ref=e727]:
+                        - button "Copy Link" [ref=e732] [cursor=pointer]:
+                          - emphasis [ref=e733]: 
+                        - button "Add Job to My Job Selections" [ref=e735] [cursor=pointer]: 
+                  - listitem [ref=e736]:
+                    - generic [ref=e737]:
+                      - link "Software Engineering - Sr Python Developer Locations Ciudad Autónoma de Buenos Aires, Argentina and 1 more Job Function Technology Job Family Software Engineering" [ref=e738] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210574786/?keyword=Software+Engineer
+                      - generic [ref=e740]:
+                        - generic [ref=e743]:
+                          - generic [ref=e745]: Software Engineering - Sr Python Developer
+                          - list [ref=e748]:
+                            - listitem [ref=e749]:
+                              - img "Locations" [ref=e750]: 
+                              - text: 
+                              - generic [ref=e753]:
+                                - text: Ciudad Autónoma de Buenos Aires, Argentina
+                                - generic "and 1 more" [ref=e755]:
+                                  - tooltip "Locations,Ciudad Autónoma de Buenos Aires, Argentina,Buenos Aires, Argentina" [ref=e757]:
+                                    - generic "Ciudad Autónoma de Buenos Aires, Argentina,Buenos Aires, Argentina" [ref=e758]:
+                                      - generic [ref=e759]: and 1 more
+                            - listitem [ref=e760]:
+                              - img "Job Function" [ref=e761]: 
+                              - text: 
+                              - generic [ref=e762]: Technology
+                            - listitem [ref=e763]:
+                              - img "Job Family" [ref=e764]: 
+                              - text: 
+                              - generic [ref=e765]: Software Engineering
+                        - paragraph [ref=e770]: Serve as an emerging member of an agile team to enhance, build and deliver technology products with our dynamic, innovative team
+                      - generic [ref=e771]:
+                        - button "Copy Link" [ref=e776] [cursor=pointer]:
+                          - emphasis [ref=e777]: 
+                        - button "Add Job to My Job Selections" [ref=e779] [cursor=pointer]: 
+                  - listitem [ref=e780]:
+                    - generic [ref=e781]:
+                      - link "Lead Software Engineer - Full Stack Developer Locations New York, NY, United States Job Function Technology Job Family Software Engineering" [ref=e782] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210741580/?keyword=Software+Engineer
+                      - generic [ref=e784]:
+                        - generic [ref=e787]:
+                          - generic [ref=e789]: Lead Software Engineer - Full Stack Developer
+                          - list [ref=e792]:
+                            - listitem [ref=e793]:
+                              - img "Locations" [ref=e794]: 
+                              - text: 
+                              - generic [ref=e797]: New York, NY, United States
+                            - listitem [ref=e798]:
+                              - img "Job Function" [ref=e799]: 
+                              - text: 
+                              - generic [ref=e800]: Technology
+                            - listitem [ref=e801]:
+                              - img "Job Family" [ref=e802]: 
+                              - text: 
+                              - generic [ref=e803]: Software Engineering
+                        - paragraph [ref=e808]: Carry out critical tech solutions across multiple technical areas as an integral part of an agile team
+                      - generic [ref=e809]:
+                        - button "Copy Link" [ref=e814] [cursor=pointer]:
+                          - emphasis [ref=e815]: 
+                        - button "Add Job to My Job Selections" [ref=e817] [cursor=pointer]: 
+                  - listitem [ref=e818]:
+                    - generic [ref=e819]:
+                      - link "Software Engineer III - Smalltalk Developer Locations Ciudad Autónoma de Buenos Aires, Argentina Job Function Technology Job Family Software Engineering" [ref=e820] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210707749/?keyword=Software+Engineer
+                      - generic [ref=e822]:
+                        - generic [ref=e825]:
+                          - generic [ref=e827]: Software Engineer III - Smalltalk Developer
+                          - list [ref=e830]:
+                            - listitem [ref=e831]:
+                              - img "Locations" [ref=e832]: 
+                              - text: 
+                              - generic [ref=e835]: Ciudad Autónoma de Buenos Aires, Argentina
+                            - listitem [ref=e836]:
+                              - img "Job Function" [ref=e837]: 
+                              - text: 
+                              - generic [ref=e838]: Technology
+                            - listitem [ref=e839]:
+                              - img "Job Family" [ref=e840]: 
+                              - text: 
+                              - generic [ref=e841]: Software Engineering
+                        - paragraph [ref=e846]: Smalltalk developer. Strong Object oriented design and development. Agile team
+                      - generic [ref=e847]:
+                        - button "Copy Link" [ref=e852] [cursor=pointer]:
+                          - emphasis [ref=e853]: 
+                        - button "Add Job to My Job Selections" [ref=e855] [cursor=pointer]: 
+                  - listitem [ref=e856]:
+                    - generic [ref=e857]:
+                      - link "Software Engineer III - Smalltalk Developer Locations Ciudad Autónoma de Buenos Aires, Argentina and 1 more Job Function Technology Job Family Software Engineering" [ref=e858] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210753527/?keyword=Software+Engineer
+                      - generic [ref=e860]:
+                        - generic [ref=e863]:
+                          - generic [ref=e865]: Software Engineer III - Smalltalk Developer
+                          - list [ref=e868]:
+                            - listitem [ref=e869]:
+                              - img "Locations" [ref=e870]: 
+                              - text: 
+                              - generic [ref=e873]:
+                                - text: Ciudad Autónoma de Buenos Aires, Argentina
+                                - generic "and 1 more" [ref=e875]:
+                                  - tooltip "Locations,Ciudad Autónoma de Buenos Aires, Argentina,Buenos Aires, Argentina" [ref=e877]:
+                                    - generic "Ciudad Autónoma de Buenos Aires, Argentina,Buenos Aires, Argentina" [ref=e878]:
+                                      - generic [ref=e879]: and 1 more
+                            - listitem [ref=e880]:
+                              - img "Job Function" [ref=e881]: 
+                              - text: 
+                              - generic [ref=e882]: Technology
+                            - listitem [ref=e883]:
+                              - img "Job Family" [ref=e884]: 
+                              - text: 
+                              - generic [ref=e885]: Software Engineering
+                        - paragraph [ref=e890]: Smalltalk developer. Strong Object oriented design and development. Agile team
+                      - generic [ref=e891]:
+                        - button "Copy Link" [ref=e896] [cursor=pointer]:
+                          - emphasis [ref=e897]: 
+                        - button "Add Job to My Job Selections" [ref=e899] [cursor=pointer]: 
+                  - listitem [ref=e900]:
+                    - generic [ref=e901]:
+                      - link "Lead Software Engineer - Equity Derivatives - Front Office Quant Developer Locations LONDON, LONDON, United Kingdom Job Function Technology Job Family Software Engineering" [ref=e902] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210749236/?keyword=Software+Engineer
+                      - generic [ref=e904]:
+                        - generic [ref=e907]:
+                          - generic [ref=e909]: Lead Software Engineer - Equity Derivatives - Front Office Quant Developer
+                          - list [ref=e912]:
+                            - listitem [ref=e913]:
+                              - img "Locations" [ref=e914]: 
+                              - text: 
+                              - generic [ref=e917]: LONDON, LONDON, United Kingdom
+                            - listitem [ref=e918]:
+                              - img "Job Function" [ref=e919]: 
+                              - text: 
+                              - generic [ref=e920]: Technology
+                            - listitem [ref=e921]:
+                              - img "Job Family" [ref=e922]: 
+                              - text: 
+                              - generic [ref=e923]: Software Engineering
+                        - paragraph [ref=e928]: Lead software engineering to design and deliver secure, stable, scalable solutions that promote key business goals
+                      - generic [ref=e929]:
+                        - button "Copy Link" [ref=e934] [cursor=pointer]:
+                          - emphasis [ref=e935]: 
+                        - button "Add Job to My Job Selections" [ref=e937] [cursor=pointer]: 
+                  - listitem [ref=e938]:
+                    - generic [ref=e939]:
+                      - link "Lead Software Engineer - Sr. AWS/Java Developer Locations Westerville, OH, United States Job Function Technology Job Family Software Engineering" [ref=e940] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210738267/?keyword=Software+Engineer
+                      - generic [ref=e942]:
+                        - generic [ref=e945]:
+                          - generic [ref=e947]: Lead Software Engineer - Sr. AWS/Java Developer
+                          - list [ref=e950]:
+                            - listitem [ref=e951]:
+                              - img "Locations" [ref=e952]: 
+                              - text: 
+                              - generic [ref=e955]: Westerville, OH, United States
+                            - listitem [ref=e956]:
+                              - img "Job Function" [ref=e957]: 
+                              - text: 
+                              - generic [ref=e958]: Technology
+                            - listitem [ref=e959]:
+                              - img "Job Family" [ref=e960]: 
+                              - text: 
+                              - generic [ref=e961]: Software Engineering
+                        - paragraph [ref=e966]: Lead cloud engineering for ATM software, building secure resilient services and elevating standards across delivery and operations.
+                      - generic [ref=e967]:
+                        - button "Copy Link" [ref=e972] [cursor=pointer]:
+                          - emphasis [ref=e973]: 
+                        - button "Add Job to My Job Selections" [ref=e975] [cursor=pointer]: 
+                  - listitem [ref=e976]:
+                    - generic [ref=e977]:
+                      - link "Sr Lead Software Engineer - UI Developer - React Locations LONDON, LONDON, United Kingdom Job Function Technology Job Family Software Engineering" [ref=e978] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210703029/?keyword=Software+Engineer
+                      - generic [ref=e980]:
+                        - generic [ref=e983]:
+                          - generic [ref=e985]: Sr Lead Software Engineer - UI Developer - React
+                          - list [ref=e988]:
+                            - listitem [ref=e989]:
+                              - img "Locations" [ref=e990]: 
+                              - text: 
+                              - generic [ref=e993]: LONDON, LONDON, United Kingdom
+                            - listitem [ref=e994]:
+                              - img "Job Function" [ref=e995]: 
+                              - text: 
+                              - generic [ref=e996]: Technology
+                            - listitem [ref=e997]:
+                              - img "Job Family" [ref=e998]: 
+                              - text: 
+                              - generic [ref=e999]: Software Engineering
+                        - paragraph [ref=e1004]: Drive significant business impact and tackle a diverse array of challenges that span multiple technologies and applications
+                      - generic [ref=e1005]:
+                        - button "Copy Link" [ref=e1010] [cursor=pointer]:
+                          - emphasis [ref=e1011]: 
+                        - button "Add Job to My Job Selections" [ref=e1013] [cursor=pointer]: 
+                  - listitem [ref=e1014]:
+                    - generic [ref=e1015]:
+                      - link "Senior Lead Software Engineer - Python Backend Developer Locations Bengaluru, Karnataka, India Job Function Technology Job Family Software Engineering" [ref=e1016] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210733928/?keyword=Software+Engineer
+                      - generic [ref=e1018]:
+                        - generic [ref=e1021]:
+                          - generic [ref=e1023]: Senior Lead Software Engineer - Python Backend Developer
+                          - list [ref=e1026]:
+                            - listitem [ref=e1027]:
+                              - img "Locations" [ref=e1028]: 
+                              - text: 
+                              - generic [ref=e1031]: Bengaluru, Karnataka, India
+                            - listitem [ref=e1032]:
+                              - img "Job Function" [ref=e1033]: 
+                              - text: 
+                              - generic [ref=e1034]: Technology
+                            - listitem [ref=e1035]:
+                              - img "Job Family" [ref=e1036]: 
+                              - text: 
+                              - generic [ref=e1037]: Software Engineering
+                        - paragraph [ref=e1042]: Drive significant business impact and tackle a diverse array of challenges that span multiple technologies and applications
+                      - generic [ref=e1043]:
+                        - button "Copy Link" [ref=e1048] [cursor=pointer]:
+                          - emphasis [ref=e1049]: 
+                        - button "Add Job to My Job Selections" [ref=e1051] [cursor=pointer]: 
+                  - listitem [ref=e1052]:
+                    - generic [ref=e1053]:
+                      - link "Software Engineer III - React UI Developer Locations Singapore, Singapore Job Function Technology Job Family Software Engineering" [ref=e1054] [cursor=pointer]:
+                        - /url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210742356/?keyword=Software+Engineer
+                      - generic [ref=e1056]:
+                        - generic [ref=e1059]:
+                          - generic [ref=e1061]: Software Engineer III - React UI Developer
+                          - list [ref=e1064]:
+                            - listitem [ref=e1065]:
+                              - img "Locations" [ref=e1066]: 
+                              - text: 
+                              - generic [ref=e1069]: Singapore, Singapore
+                            - listitem [ref=e1070]:
+                              - img "Job Function" [ref=e1071]: 
+                              - text: 
+                              - generic [ref=e1072]: Technology
+                            - listitem [ref=e1073]:
+                              - img "Job Family" [ref=e1074]: 
+                              - text: 
+                              - generic [ref=e1075]: Software Engineering
+                        - paragraph [ref=e1080]: Design and deliver market-leading technology data analytics products in a secure and scalable way as a seasoned member of an agile team
+                      - generic [ref=e1081]:
+                        - button "Copy Link" [ref=e1086] [cursor=pointer]:
+                          - emphasis [ref=e1087]: 
+                        - button "Add Job to My Job Selections" [ref=e1089] [cursor=pointer]: 
+      - contentinfo [ref=e1090]:
+        - generic [ref=e1091]:
+          - table [ref=e1093]:
+            - rowgroup [ref=e1094]:
+              - row ". Privacy & Terms Privacy & Security Terms of Use Cookie Policy . Equal Opportunities Recruitment Scams Warning . Useful Links chase.com jpmorganchase.com jpmorgan.com . Careers at Chase Careers in the Philippines" [ref=e1095]:
+                - cell ". Privacy & Terms Privacy & Security Terms of Use Cookie Policy" [ref=e1096]:
+                  - generic [ref=e1097]:
+                    - heading "." [level=1] [ref=e1098]:
+                      - link "." [ref=e1099] [cursor=pointer]:
+                        - /url: https://www.jpmorganchase.com/corporate/Home/privacy.htm
+                    - list [ref=e1100]:
+                      - listitem [ref=e1101]:
+                        - generic [ref=e1102]: Privacy & Terms
+                      - listitem [ref=e1103]:
+                        - link "Privacy & Security" [ref=e1104] [cursor=pointer]:
+                          - /url: https://www.jpmorganchase.com/corporate/Home/privacy.htm
+                      - listitem [ref=e1105]:
+                        - link "Terms of Use" [ref=e1106] [cursor=pointer]:
+                          - /url: https://www.jpmorganchase.com/corporate/Home/terms.htm
+                      - listitem [ref=e1107]:
+                        - link "Cookie Policy" [ref=e1108] [cursor=pointer]:
+                          - /url: https://www.jpmorganchase.com/corporate/Home/cookie-policy.htm
+                - cell ". Equal Opportunities Recruitment Scams Warning" [ref=e1109]:
+                  - generic [ref=e1110]:
+                    - heading "." [level=1] [ref=e1111]:
+                      - link "." [ref=e1112] [cursor=pointer]:
+                        - /url: https://careers.jpmorgan.com/us/en/recruitment-scams-warning
+                    - list [ref=e1113]:
+                      - listitem [ref=e1114]
+                      - listitem [ref=e1115]:
+                        - link "Equal Opportunities" [ref=e1116] [cursor=pointer]:
+                          - /url: https://careers.jpmorgan.com/us/en/equal-opportunities
+                      - listitem [ref=e1117]:
+                        - link "Recruitment Scams Warning" [ref=e1118] [cursor=pointer]:
+                          - /url: https://careers.jpmorgan.com/us/en/recruitment-scams-warning
+                - cell ". Useful Links chase.com jpmorganchase.com jpmorgan.com" [ref=e1119]:
+                  - generic [ref=e1120]:
+                    - heading "." [level=1] [ref=e1121]:
+                      - link "." [ref=e1122] [cursor=pointer]:
+                        - /url: https://www.chase.com
+                    - list [ref=e1123]:
+                      - listitem [ref=e1124]:
+                        - generic [ref=e1125]: Useful Links
+                      - listitem [ref=e1126]:
+                        - link "chase.com" [ref=e1127] [cursor=pointer]:
+                          - /url: https://www.chase.com
+                      - listitem [ref=e1128]:
+                        - link "jpmorganchase.com" [ref=e1129] [cursor=pointer]:
+                          - /url: https://www.jpmorganchase.com
+                      - listitem [ref=e1130]:
+                        - link "jpmorgan.com" [ref=e1131] [cursor=pointer]:
+                          - /url: https://www.jpmorgan.com/country/US/en/jpmorgan
+                - cell ". Careers at Chase Careers in the Philippines" [ref=e1132]:
+                  - generic [ref=e1133]:
+                    - heading "." [level=1] [ref=e1134]:
+                      - link "." [ref=e1135] [cursor=pointer]:
+                        - /url: https://www.careersatchase.com/content/index
+                    - list [ref=e1136]:
+                      - listitem [ref=e1137]
+                      - listitem [ref=e1138]:
+                        - link "Careers at Chase" [ref=e1139] [cursor=pointer]:
+                          - /url: https://www.careersatchase.com/content/index
+                      - listitem [ref=e1140]:
+                        - link "Careers in the Philippines" [ref=e1141] [cursor=pointer]:
+                          - /url: https://careers.jpmorgan.com/global/en/about-us/locations/manila
+          - generic [ref=e1143]:
+            - generic [ref=e1144]:
+              - generic [ref=e1145]: © 2024 JPMorgan Chase & Co. All rights reserved.
+              - generic [ref=e1146]: JPMorgan Chase & Co. is an equal opportunity employer and affirmative action employer Disability/Veteran.
+            - paragraph [ref=e1149]:
+              - link "GLOBAL" [ref=e1150] [cursor=pointer]:
+                - /url: https://careers.jpmorgan.com
+              - text: /
+              - link "日本語" [ref=e1151] [cursor=pointer]:
+                - /url: https://careers.jpmorgan.com/jp/ja/home
+              - text: /
+              - link "中文" [ref=e1152] [cursor=pointer]:
+                - /url: https://careers.jpmorgan.com/cn/en/home
+    - dialog "Cookie Consent Message" [ref=e1154]:
+      - article [ref=e1160]:
+        - generic [ref=e1164]:
+          - generic [ref=e1168]:
+            - paragraph [active] [ref=e1170]:
+              - document [ref=e1171]: "IMPORTANT NOTICE: PLEASE READ CAREFULLY BEFORE USING THIS WEBSITE"
+            - link "Privacy Notice" [ref=e1174] [cursor=pointer]:
+              - /url: https://www.jpmorgan.com/privacy
+          - generic [ref=e1181]:
+            - generic [ref=e1182]:
+              - button "Accept" [ref=e1183] [cursor=pointer]:
+                - generic [ref=e1184]: Accept
+              - button "Decline" [ref=e1185] [cursor=pointer]:
+                - generic [ref=e1186]: Decline
+            - button "Manage Preferences" [ref=e1189] [cursor=pointer]
+    - alert
+    - status [ref=e1190]
+    - alert [ref=e1191]
+  - button "Digital Assistant" [ref=e1192] [cursor=pointer]
+  - status [ref=e1194]
+  - status [ref=e1195]
+  - status [ref=e1196]

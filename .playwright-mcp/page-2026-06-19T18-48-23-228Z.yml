@@ -1,0 +1,141 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e7]:
+    - generic [ref=e9]:
+      - text:  
+      - link "Microsoft" [ref=e10] [cursor=pointer]:
+        - /url: https://www.microsoft.com
+        - img [ref=e11]
+        - generic [ref=e12]: Microsoft
+      - text:  
+      - link "Careers" [ref=e14] [cursor=pointer]:
+        - /url: https://careers.microsoft.com/v2/global/en/home.html
+        - generic [ref=e15]: Careers
+      - navigation "Contextual menu" [ref=e16]:
+        - list [ref=e17]:
+          - listitem [ref=e18]:
+            - link "Locations" [ref=e19] [cursor=pointer]:
+              - /url: https://careers.microsoft.com/v2/global/en/locations.html
+          - listitem [ref=e20]:
+            - link "Professions" [ref=e21] [cursor=pointer]:
+              - /url: https://careers.microsoft.com/v2/global/en/professions.html
+          - listitem [ref=e22]:
+            - button "Programs " [ref=e24] [cursor=pointer]
+          - listitem [ref=e25]:
+            - button "Life at Microsoft " [ref=e27] [cursor=pointer]
+          - listitem [ref=e28]:
+            - link "Hiring tips" [ref=e29] [cursor=pointer]:
+              - /url: https://careers.microsoft.com/v2/global/en/hiring-tips.html
+          - text: 
+          - listitem [ref=e30]:
+            - link "Join talent network" [ref=e31] [cursor=pointer]:
+              - /url: https://apply.careers.microsoft.com/careers/join
+      - generic [ref=e32]:
+        - button "Search jobs" [ref=e34] [cursor=pointer]: 
+        - generic:  
+        - generic [ref=e37] [cursor=pointer]: Sign in
+  - generic [ref=e39]:
+    - main [ref=e40]:
+      - heading "Jobs" [level=1] [ref=e41]
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e46]:
+              - generic [ref=e48]:
+                - status [ref=e49]
+                - combobox "Search by job title, ID, or keyword" [ref=e53]
+              - generic [ref=e57]:
+                - status [ref=e58]
+                - combobox "City, state, or country/region" [ref=e62]
+              - generic [ref=e66]:
+                - button "Search jobs" [ref=e67] [cursor=pointer]:
+                  - generic [ref=e68]: Search jobs
+                - button "Job Cart 0 job(s) added" [disabled] [ref=e70]:
+                  - generic [ref=e74]:
+                    - text: Job cart
+                    - generic [ref=e75]: "0"
+            - generic [ref=e76]:
+              - button "All filters" [ref=e77] [cursor=pointer]:
+                - generic [ref=e82]: All filters
+              - button "Clear all selected filters" [ref=e83] [cursor=pointer]:
+                - generic [ref=e86]: Clear All
+          - generic [ref=e88]:
+            - generic [ref=e89]:
+              - heading "Get personalized job recommendations" [level=1] [ref=e90]
+              - generic [ref=e91]: Use AI to see how you match and get help on your career journey
+            - button "Upload your resume to get personalized job recommendations" [ref=e93] [cursor=pointer]:
+              - generic [ref=e95]: Upload your resume
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - generic [ref=e99]: Loading jobs...
+            - button "Sort" [ref=e102] [cursor=pointer]:
+              - generic [ref=e106]: Sort
+            - link "Manage" [ref=e109] [cursor=pointer]:
+              - /url: /careers/settings
+            - generic [ref=e110]:
+              - status "Loading job card" [ref=e111] [cursor=pointer]
+              - status "Loading job card" [ref=e115] [cursor=pointer]
+              - status "Loading job card" [ref=e119] [cursor=pointer]
+              - status "Loading job card" [ref=e123] [cursor=pointer]
+              - status "Loading job card" [ref=e127] [cursor=pointer]
+              - status "Loading job card" [ref=e131] [cursor=pointer]
+              - status "Loading job card" [ref=e135] [cursor=pointer]
+              - status "Loading job card" [ref=e139] [cursor=pointer]
+              - status "Loading job card" [ref=e143] [cursor=pointer]
+              - status "Loading job card" [ref=e147] [cursor=pointer]
+            - navigation "Jobs pagination"
+          - tablist [ref=e177]:
+            - tab "Job description" [selected] [ref=e178] [cursor=pointer]:
+              - generic [ref=e179]: Job description
+            - tab "Company and benefits" [ref=e181] [cursor=pointer]:
+              - generic [ref=e182]: Company and benefits
+    - contentinfo [ref=e183]:
+      - generic [ref=e186]:
+        - paragraph [ref=e188]:
+          - link "Powered by Eightfold AI Logo" [ref=e189] [cursor=pointer]:
+            - /url: https://eightfold.ai
+            - text: Powered by
+            - img "Eightfold AI Logo" [ref=e190]
+        - paragraph [ref=e193]:
+          - text: This site uses AI technology provided by Eightfold, the provider of the system. Microsoft, as the deployer, applies human oversight and judgment when using this technology. For details on Eightfold's AI functionality, please see
+          - link "Eightfold's transparency documentation" [ref=e194] [cursor=pointer]:
+            - /url: https://eightfold.ai/responsible-ai/
+          - text: . Learn more about Microsoft's data practices in the
+          - link "Microsoft Data Privacy Notice" [ref=e195] [cursor=pointer]:
+            - /url: http://go.microsoft.com/fwlink/?LinkId=518021
+          - text: and
+          - link "Career Site Transparency FAQs" [ref=e196] [cursor=pointer]:
+            - /url: https://careers.microsoft.com/v2/global/en/transparency.html
+          - text: .
+        - contentinfo [ref=e197]:
+          - generic [ref=e198]:
+            - link "Content Language Selector. Currently set to English (United States)" [ref=e199] [cursor=pointer]:
+              - /url: https://www.microsoft.com/en-us/locale.aspx
+              - text:  English (United States)
+            - link "Your Privacy Choices Opt-Out Icon Your Privacy Choices" [ref=e200] [cursor=pointer]:
+              - /url: https://aka.ms/yourcaliforniaprivacychoices
+              - img "Your Privacy Choices Opt-Out Icon" [ref=e201]
+              - generic [ref=e206]: Your Privacy Choices
+            - link "Consumer Health Privacy" [ref=e207] [cursor=pointer]:
+              - /url: https://go.microsoft.com/fwlink/?linkid=2259814
+              - generic [ref=e208]: Consumer Health Privacy
+            - navigation "Microsoft corporate links":
+              - list [ref=e209]:
+                - listitem [ref=e210]:
+                  - link "Sitemap" [ref=e211] [cursor=pointer]:
+                    - /url: https://www.microsoft.com/en-us/sitemap1.aspx
+                - listitem [ref=e212]:
+                  - link "Contact Microsoft" [ref=e213] [cursor=pointer]:
+                    - /url: " Contact Microsoft"
+                - listitem [ref=e214]:
+                  - link "Privacy" [ref=e215] [cursor=pointer]:
+                    - /url: https://go.microsoft.com/fwlink/?LinkId=521839
+                - listitem [ref=e216]:
+                  - link "Terms of use" [ref=e217] [cursor=pointer]:
+                    - /url: https://go.microsoft.com/fwlink/?LinkID=206977
+                - listitem [ref=e218]:
+                  - link "Trademarks" [ref=e219] [cursor=pointer]:
+                    - /url: https://go.microsoft.com/fwlink/?linkid=2196228
+                - listitem [ref=e220]:
+                  - link "Safety & eco" [ref=e221] [cursor=pointer]:
+                    - /url: https://go.microsoft.com/fwlink/?linkid=2196227
+                - listitem [ref=e222]: © Microsoft 2026

@@ -1,0 +1,472 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]: .
+    - generic [ref=e4]: ..
+    - generic [ref=e5]: .
+  - generic [ref=e7]:
+    - link "Skip to main content." [ref=e8] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - banner [ref=e60]:
+          - generic [ref=e63]:
+            - link "Go to Home Page" [ref=e65] [cursor=pointer]:
+              - /url: https://careers.oracle.com/en/sites/jobsearch/?keyword=Data+Scientist
+            - generic [ref=e66]:
+              - link "Manage profile" [ref=e69] [cursor=pointer]:
+                - /url: https://careers.oracle.com/en/sites/jobsearch/my-profile/sign-in
+                - generic [ref=e70]: 
+              - button "Open menu" [ref=e72] [cursor=pointer]:
+                - generic [ref=e73]:
+                  - emphasis [ref=e74]
+                  - emphasis [ref=e75]
+                  - emphasis [ref=e76]
+        - main [ref=e13]:
+          - generic [ref=e77]:
+            - heading "Search Jobs - Oracle Careers" [level=1] [ref=e78]
+            - generic [ref=e80]:
+              - generic [ref=e82]:
+                - search [ref=e89]:
+                  - generic [ref=e90]:
+                    - generic [ref=e91]:
+                      - generic [ref=e93]: Find
+                      - generic [ref=e94]:
+                        - generic [ref=e95]: Job title, skill, keyword
+                        - combobox "Find jobs and events" [ref=e96]: Data Scientist
+                    - generic [ref=e98]:
+                      - button "You've selected the Near Location search mode." [ref=e101] [cursor=pointer]:
+                        - generic [ref=e102]: Near Location
+                        - emphasis [ref=e103]: 
+                      - generic [ref=e104]:
+                        - generic [ref=e105]: City, state, country
+                        - combobox "City, state, country" [ref=e106]
+                  - button "Search for Jobs and Events" [ref=e107] [cursor=pointer]:
+                    - emphasis [ref=e108]: 
+                - generic [ref=e116]:
+                  - list [ref=e121]:
+                    - listitem [ref=e122]:
+                      - list [ref=e124]:
+                        - listitem [ref=e125]:
+                          - generic [ref=e126]:
+                            - button "Jobs 20" [ref=e127]:
+                              - text: Jobs
+                              - generic [ref=e128]: "20"
+                            - alert [ref=e129]: Job search results 20
+                        - listitem [ref=e130]:
+                          - generic [ref=e131]:
+                            - button "Events 0" [ref=e132] [cursor=pointer]:
+                              - text: Events
+                              - generic [ref=e133]: "0"
+                            - alert [ref=e134]
+                    - listitem [ref=e135]
+                    - listitem [ref=e137]:
+                      - button "Locations filter - 0 selected" [ref=e143] [cursor=pointer]:
+                        - generic [ref=e144]: Locations
+                        - emphasis [ref=e145]: 
+                    - listitem [ref=e146]:
+                      - button "Categories filter - 0 selected" [ref=e152] [cursor=pointer]:
+                        - generic [ref=e153]: Categories
+                        - emphasis [ref=e154]: 
+                    - listitem [ref=e155]:
+                      - button "Posting Dates filter - 0 selected" [ref=e161] [cursor=pointer]:
+                        - generic [ref=e162]: Posting Dates
+                        - emphasis [ref=e163]: 
+                    - listitem [ref=e164]:
+                      - button "Role filter - 0 selected" [ref=e170] [cursor=pointer]:
+                        - generic [ref=e171]: Role
+                        - emphasis [ref=e172]: 
+                    - listitem [ref=e173]:
+                      - button "Job Type filter - 0 selected" [ref=e179] [cursor=pointer]:
+                        - generic [ref=e180]: Job Type
+                        - emphasis [ref=e181]: 
+                    - listitem [ref=e182]:
+                      - button "Experience Level filter - 0 selected" [ref=e188] [cursor=pointer]:
+                        - generic [ref=e189]: Experience Level
+                        - emphasis [ref=e190]: 
+                    - listitem:
+                      - generic: 
+                    - listitem [ref=e191]:
+                      - button "Years filter - 0 selected" [ref=e197] [cursor=pointer]:
+                        - generic [ref=e198]: Years
+                        - emphasis [ref=e199]: 
+                    - listitem [ref=e200]:
+                      - button "Applicants filter - 0 selected" [ref=e206] [cursor=pointer]:
+                        - generic [ref=e207]: Applicants
+                        - emphasis [ref=e208]: 
+                    - listitem:
+                      - generic: 
+                    - listitem:
+                      - generic: 
+                  - generic:
+                    - generic:            
+              - generic [ref=e210]:
+                - generic [ref=e217]:
+                  - button "Sort By Relevance" [ref=e223] [cursor=pointer]:
+                    - generic "Sort By Relevance" [ref=e224]: Relevance
+                    - emphasis [ref=e225]: 
+                    - text: 
+                  - list [ref=e226]:
+                    - listitem [ref=e227]:
+                      - generic [ref=e228]:
+                        - link "Data Scientist 4 Redwood City, CA, United States" [ref=e229] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/337674/?keyword=Data+Scientist
+                        - generic [ref=e231]:
+                          - generic [ref=e234]:
+                            - generic [ref=e236]: Data Scientist 4
+                            - list [ref=e239]:
+                              - listitem [ref=e240]:
+                                - generic [ref=e241]:
+                                  - generic [ref=e243]: Redwood City, CA, United States
+                                  - text: 
+                          - paragraph [ref=e248]: See job description for details.
+                        - button "Add Job to My Job Selections" [ref=e251] [cursor=pointer]: 
+                    - listitem [ref=e252]:
+                      - generic [ref=e253]:
+                        - link "[Remote] Principal Software Developer- Agent Toolkits & Cloud Infrastructure, Healthcare AI United States" [ref=e254] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/336280/?keyword=Data+Scientist
+                        - generic [ref=e256]:
+                          - generic [ref=e259]:
+                            - generic [ref=e261]: "[Remote] Principal Software Developer- Agent Toolkits & Cloud Infrastructure, Healthcare AI"
+                            - list [ref=e264]:
+                              - listitem [ref=e265]:
+                                - generic [ref=e266]:
+                                  - generic [ref=e268]: United States
+                                  - text: 
+                          - paragraph [ref=e273]: 1. Develop and maintain robust software toolkits in Python and Java to support applied scientists in building, testing, and deploying machine learning models and agents. 2. Design, implement, and optimize cloud-based services for running applied science models, with an emphasis on scalability, reliability, and security in Oracle Cloud Infrastructure (OCI). 3. Collaborate closely with scientists and engineers to deliver user-friendly APIs, libraries, and documentation enabling effective model experimentation and deployment.
+                        - button "Add Job to My Job Selections" [ref=e276] [cursor=pointer]: 
+                    - listitem [ref=e277]:
+                      - generic [ref=e278]:
+                        - link "Head of Scientific Analytics-Biostatistics/Real World Data United States" [ref=e279] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/327852/?keyword=Data+Scientist
+                        - generic [ref=e281]:
+                          - generic [ref=e284]:
+                            - generic [ref=e286]: Head of Scientific Analytics-Biostatistics/Real World Data
+                            - list [ref=e289]:
+                              - listitem [ref=e290]:
+                                - generic [ref=e291]:
+                                  - generic [ref=e293]: United States
+                                  - text: 
+                          - paragraph [ref=e298]: The Director of Scientific Analytics will be responsible for overseeing and leading advanced scientific analytics across Research Services (RS), including Real-World Data (RWD) analytics, Biostatistics, Advanced Commercial Analytics and other related analyses to support all domains. This role requires a strategic leader with strong expertise in analytic methodologies, research design, and the ability to drive scalable solutions for analyzing complex data. The Director will ensure the alignment of analytics capabilities with business goals and will lead a team of highly skilled data scientists and biostatisticians to deliver actionable insights and evidence for both internal and external stakeholders.
+                        - button "Add Job to My Job Selections" [ref=e301] [cursor=pointer]: 
+                    - listitem [ref=e302]:
+                      - generic [ref=e303]:
+                        - link "Senior Principal Applied Scientist (OCI/GEN AI) United States" [ref=e304] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/335774/?keyword=Data+Scientist
+                        - generic [ref=e306]:
+                          - generic [ref=e309]:
+                            - generic [ref=e311]: Senior Principal Applied Scientist (OCI/GEN AI)
+                            - list [ref=e314]:
+                              - listitem [ref=e315]:
+                                - generic [ref=e316]:
+                                  - generic [ref=e318]: United States
+                                  - text: 
+                          - paragraph [ref=e323]: Invent, implement and deploy state-of-the-art machine learning and/or specific domain industry algorithms and systems.
+                        - button "Add Job to My Job Selections" [ref=e326] [cursor=pointer]: 
+                    - listitem [ref=e327]:
+                      - generic [ref=e328]:
+                        - heading "Oracle Talent Network" [level=2] [ref=e329]
+                        - paragraph [ref=e330]: Get career insights and job opportunities
+                        - link "Join our network" [ref=e332] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/join-talent-community?keyword=Data+Scientist
+                          - generic [ref=e333]: Join our network
+                    - listitem [ref=e334]:
+                      - generic [ref=e335]:
+                        - link "Principal Consultant - Medicare Kansas City, MO, United States and 1 more" [ref=e336] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/330571/?keyword=Data+Scientist
+                        - generic [ref=e338]:
+                          - generic [ref=e341]:
+                            - generic [ref=e343]: Principal Consultant - Medicare
+                            - list [ref=e346]:
+                              - listitem [ref=e347]:
+                                - generic [ref=e348]:
+                                  - generic [ref=e350]:
+                                    - text: Kansas City, MO, United States
+                                    - generic "and 1 more" [ref=e352]:
+                                      - tooltip "Locations,Kansas City, MO, United States,United States" [ref=e354]:
+                                        - generic "Kansas City, MO, United States,United States" [ref=e355]:
+                                          - generic [ref=e356]: and 1 more
+                                  - text: 
+                          - paragraph [ref=e361]: As a member of the Consulting organization, you will be the subject matter expert (SME) for Medicare and Medicare Cost Reporting projects for the State Government organization’s clients. You will partner with the strategy lead on Medicare-centered projects for health system, and state and federal clients, applying your expertise to Medicare data design, tax filings, and analytics solutions.
+                        - button "Add Job to My Job Selections" [ref=e364] [cursor=pointer]: 
+                    - listitem [ref=e365]:
+                      - generic [ref=e366]:
+                        - link "[Remote] Principal Applied Scientist United States  Trending" [ref=e367] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/334692/?keyword=Data+Scientist
+                        - generic [ref=e369]:
+                          - generic [ref=e372]:
+                            - generic [ref=e374]: "[Remote] Principal Applied Scientist"
+                            - generic [ref=e375]:
+                              - list [ref=e377]:
+                                - listitem [ref=e378]:
+                                  - generic [ref=e379]:
+                                    - generic [ref=e381]: United States
+                                    - text: 
+                              - generic [ref=e385]:
+                                - emphasis [ref=e386]: 
+                                - generic [ref=e387]: Trending
+                          - paragraph [ref=e392]: As our Principal Applied Scientist, you will play a key role in shaping the future of AI at Oracle, with an emphasis on Large Language Models (LLMs) and Generative AI. Your contributions will be pivotal in delivering our new Generative AI-powered solutions for healthcare and enterprise customers.
+                        - button "Add Job to My Job Selections" [ref=e395] [cursor=pointer]: 
+                    - listitem [ref=e396]:
+                      - generic [ref=e397]:
+                        - link "Sr Director Data Automation, Supply Chain Santa Clara, CA, United States  Trending" [ref=e398] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/333312/?keyword=Data+Scientist
+                        - generic [ref=e400]:
+                          - generic [ref=e403]:
+                            - generic [ref=e405]: Sr Director Data Automation, Supply Chain
+                            - generic [ref=e406]:
+                              - list [ref=e408]:
+                                - listitem [ref=e409]:
+                                  - generic [ref=e410]:
+                                    - generic [ref=e412]: Santa Clara, CA, United States
+                                    - text: 
+                              - generic [ref=e416]:
+                                - emphasis [ref=e417]: 
+                                - generic [ref=e418]: Trending
+                          - paragraph [ref=e423]: Oracle Cloud Infrastructure (OCI) is seeking a visionary Senior Director of Data and Automation to lead the digital transformation of OCI’s global supply chain operations. This leader will drive the development of advanced data platforms, AI-enabled automation, predictive analytics, and intelligent decision-support systems that enable OCI’s supply chain organization to scale efficiently in support of rapid cloud infrastructure growth. This role will lead a multidisciplinary organization of data scientists, data engineers, AI/ML experts, and analytics professionals focused on building next-generation automation capabilities across forecasting, supply planning, inventory management, manufacturing operations, logistics, and deployment execution. The ideal candidate combines deep expertise in supply chain operations with strong technical leadership in AI, machine learning, data engineering, and enterprise-scale automation platforms.
+                        - button "Add Job to My Job Selections" [ref=e426] [cursor=pointer]: 
+                    - listitem [ref=e427]:
+                      - generic [ref=e428]:
+                        - link "Senior Research Scientist- RWE/Harm Reduction United States  Trending" [ref=e429] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/327795/?keyword=Data+Scientist
+                        - generic [ref=e431]:
+                          - generic [ref=e434]:
+                            - generic [ref=e436]: Senior Research Scientist- RWE/Harm Reduction
+                            - generic [ref=e437]:
+                              - list [ref=e439]:
+                                - listitem [ref=e440]:
+                                  - generic [ref=e441]:
+                                    - generic [ref=e443]: United States
+                                    - text: 
+                              - generic [ref=e447]:
+                                - emphasis [ref=e448]: 
+                                - generic [ref=e449]: Trending
+                          - paragraph [ref=e454]: Oracle Life Sciences is seeking a researcher (Master’s/PhD) specializing in Real-World Evidence (RWE) and Tobacco Harm Reduction, providing scientific leadership for complex premarket and postmarket THR studies. Lead study design, analysis, reporting, and dissemination, ensuring scientific rigor and clear, actionable insights for clients. Collaborate with cross-functional teams such as project leads, biostatistics and data management to guide evidence generation and support strategic decision-making. This role requires a strategic thinker with strong research, writing, and communication skills.
+                        - button "Add Job to My Job Selections" [ref=e457] [cursor=pointer]: 
+                    - listitem [ref=e458]:
+                      - generic [ref=e459]:
+                        - link "Snr Director, Applied Science United States" [ref=e460] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/335090/?keyword=Data+Scientist
+                        - generic [ref=e462]:
+                          - generic [ref=e465]:
+                            - generic [ref=e467]: Snr Director, Applied Science
+                            - list [ref=e470]:
+                              - listitem [ref=e471]:
+                                - generic [ref=e472]:
+                                  - generic [ref=e474]: United States
+                                  - text: 
+                          - paragraph [ref=e479]: Lead Oracle Cloud Infrastructure initiatives at the intersection of multimodal generative AI, applied science, and large-scale infrastructure management. This M5 Senior Director role is responsible for execution and operational excellence for teams building and running enterprise-grade multimodal GenAI capabilities that span image, video, audio, multimodal embeddings; underpinning these capabilities is large-scale training of multimodal frontier models and model-serving infrastructure at OCI scale
+                        - button "Add Job to My Job Selections" [ref=e482] [cursor=pointer]: 
+                    - listitem [ref=e483]:
+                      - generic [ref=e484]:
+                        - link "Principal Technical Program Manager – AI Transformation & Clinical Informatics Enablement United States  Trending" [ref=e485] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/337153/?keyword=Data+Scientist
+                        - generic [ref=e487]:
+                          - generic [ref=e490]:
+                            - generic [ref=e492]: Principal Technical Program Manager – AI Transformation & Clinical Informatics Enablement
+                            - generic [ref=e493]:
+                              - list [ref=e495]:
+                                - listitem [ref=e496]:
+                                  - generic [ref=e497]:
+                                    - generic [ref=e499]: United States
+                                    - text: 
+                              - generic [ref=e503]:
+                                - emphasis [ref=e504]: 
+                                - generic [ref=e505]: Trending
+                          - paragraph [ref=e510]: We are seeking a Principal Technical Program Manager to lead AI Transformation and Enablement initiatives across the Clinical Informatics organization. This highly visible role will partner with clinical leaders, product teams, engineers, data scientists, and operational stakeholders to reimagine end-to-end workflows, eliminate inefficiencies, automate manual processes, and drive organizational scale through intelligent technology adoption.
+                        - button "Add Job to My Job Selections" [ref=e513] [cursor=pointer]: 
+                    - listitem [ref=e514]:
+                      - generic [ref=e515]:
+                        - link "Software Developer 3 HYDERABAD, TELANGANA, India and 1 more  Trending" [ref=e516] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/335128/?keyword=Data+Scientist
+                        - generic [ref=e518]:
+                          - generic [ref=e521]:
+                            - generic [ref=e523]: Software Developer 3
+                            - generic [ref=e524]:
+                              - list [ref=e526]:
+                                - listitem [ref=e527]:
+                                  - generic [ref=e528]:
+                                    - generic [ref=e530]:
+                                      - text: HYDERABAD, TELANGANA, India
+                                      - generic "and 1 more" [ref=e532]:
+                                        - tooltip "Locations,HYDERABAD, TELANGANA, India,BENGALURU, KARNATAKA, India" [ref=e534]:
+                                          - generic "HYDERABAD, TELANGANA, India,BENGALURU, KARNATAKA, India" [ref=e535]:
+                                            - generic [ref=e536]: and 1 more
+                                    - text: 
+                              - generic [ref=e540]:
+                                - emphasis [ref=e541]: 
+                                - generic [ref=e542]: Trending
+                          - paragraph [ref=e547]: Senior Software Developer
+                        - button "Add Job to My Job Selections" [ref=e550] [cursor=pointer]: 
+                    - listitem [ref=e551]:
+                      - generic [ref=e552]:
+                        - link "Sales Development Representative - Oracle Cloud NORTH RYDE, Australia" [ref=e553] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/336656/?keyword=Data+Scientist
+                        - generic [ref=e555]:
+                          - generic [ref=e558]:
+                            - generic [ref=e560]: Sales Development Representative - Oracle Cloud
+                            - list [ref=e563]:
+                              - listitem [ref=e564]:
+                                - generic [ref=e565]:
+                                  - generic [ref=e567]: NORTH RYDE, Australia
+                                  - text: 
+                          - paragraph [ref=e572]: Hiring for Sales Development Representative who is responsible for creating early-stage pipeline by identifying, engaging, and qualifying prospective customers across Oracle’s Cloud portfolio.
+                        - button "Add Job to My Job Selections" [ref=e575] [cursor=pointer]: 
+                    - listitem [ref=e576]:
+                      - generic [ref=e577]:
+                        - link "GDI - AI Program Manager United States and 2 more" [ref=e578] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/336971/?keyword=Data+Scientist
+                        - generic [ref=e580]:
+                          - generic [ref=e583]:
+                            - generic [ref=e585]: GDI - AI Program Manager
+                            - list [ref=e588]:
+                              - listitem [ref=e589]:
+                                - generic [ref=e590]:
+                                  - generic [ref=e592]:
+                                    - text: United States
+                                    - generic "and 2 more" [ref=e594]:
+                                      - tooltip "Locations,United States,Washington, DC, United States,MD, United States" [ref=e596]:
+                                        - generic "United States,Washington, DC, United States,MD, United States" [ref=e597]:
+                                          - generic [ref=e598]: and 2 more
+                                  - text: 
+                          - paragraph [ref=e603]: We are seeking an AI Program Manager. Senior delivery leader responsible for planning, coordinating, and executing large-scale Artificial Intelligence (AI) and Machine Learning (ML) initiatives supporting U.S. Department of Defense (DoD) mission needs. This role leads multi-cloud and edge AI programs leveraging Oracle Cloud Infrastructure (OCI) to enable rapid development, deployment, and operationalization of AI/ML models, agents, and workflows across cloud and tactical edge environments. The AI Program Manager ensures alignment with operational requirements, security constraints, and delivery milestones to support machine-speed decision-making in contested and bandwidth-constrained environments.
+                        - button "Add Job to My Job Selections" [ref=e606] [cursor=pointer]: 
+                    - listitem [ref=e607]:
+                      - generic [ref=e608]:
+                        - link "Director, Product Management – Pharmacy United States  Trending" [ref=e609] [cursor=pointer]:
+                          - /url: https://careers.oracle.com/en/sites/jobsearch/job/335152/?keyword=Data+Scientist
+                        - generic [ref=e611]:
+                          - generic [ref=e614]:
+                            - generic [ref=e616]: Director, Product Management – Pharmacy
+                            - generic [ref=e617]:
+                              - list [ref=e619]:
+                                - listitem [ref=e620]:
+                                  - generic [ref=e621]:
+                                    - generic [ref=e623]: United States
+                                    - text: 
+                              - generic [ref=e627]:
+                                - emphasis [ref=e628]: 
+                                - generic [ref=e629]: Trending
+                          - paragraph [ref=e634]: We are seeking a visionary Director of Product Management to lead Oracle Health's Pharmacy portfolio and drive the next generation of Pharmacy Reimagined initiatives. This leader will define and execute the product strategy for a portfolio of pharmacy solutions while helping shape AI-enabled applications within the Oracle Health AI Application Suite. The ideal candidate combines deep pharmacy domain expertise with exceptional product leadership experience and a passion for solving complex healthcare challenges. They will work closely with customers, clinicians, engineers, designers, data scientists, and executive leaders to deliver innovative solutions that transform how pharmacy teams operate across inpatient, ambulatory, military, veteran, and emerging care settings. This is a highly visible leadership role responsible for balancing strategic innovation, customer needs, business growth, and operational excellence across a broad product portfolio.
+                        - button "Add Job to My Job Selections" [ref=e637] [cursor=pointer]: 
+                  - button "Show More Results" [ref=e639] [cursor=pointer]:
+                    - generic [ref=e640]: Show More Results
+                - generic [ref=e651]:
+                  - generic [ref=e652]:
+                    - text: 
+                    - generic [ref=e653]: See recommended jobs based on your CV/resume (your file will not be stored)
+                  - generic [ref=e654]:
+                    - button "See recommended jobs based on your CV/resume (your file will not be stored)" [ref=e655] [cursor=pointer]
+                    - button [ref=e656] [cursor=pointer]: Select a file or drop one here
+              - generic [ref=e658]:
+                - paragraph [ref=e665]: Create the future with us
+                - generic [ref=e668]:
+                  - generic [ref=e670]:
+                    - iframe [ref=e674]:
+                      - generic [active] [ref=f87e1]:
+                        - generic "YouTube Video Player" [ref=f87e3]
+                        - generic [ref=f87e5]:
+                          - generic:
+                            - generic:
+                              - button "Play video" [ref=f87e10] [cursor=pointer]
+                              - button "Hide player controls" [ref=f87e12] [cursor=pointer]
+                              - generic [ref=f87e14]:
+                                - generic [ref=f87e19]:
+                                  - generic [ref=f87e20]:
+                                    - link "Oracle Careers l Create the Future With Us" [ref=f87e21] [cursor=pointer]:
+                                      - /url: https://www.youtube.com/watch?v=BV0GMCITXg4
+                                    - link "Oracle Careers" [ref=f87e22] [cursor=pointer]:
+                                      - /url: /channel/UCPe0ulfPgXtndUKPs5WNyEA
+                                      - generic [ref=f87e23]: Oracle Careers
+                                  - generic [ref=f87e24]:
+                                    - button [ref=f87e25] [cursor=pointer]
+                                    - generic [ref=f87e27]:
+                                      - generic: Oracle Careers
+                                      - generic: 4.87k subscribers
+                                - generic [ref=f87e28]:
+                                  - button "Share" [ref=f87e31] [cursor=pointer]:
+                                    - generic [ref=f87e35]:
+                                      - img
+                                  - link "Watch on YouTube" [ref=f87e42] [cursor=pointer]:
+                                    - /url: https://www.youtube.com/watch?v=BV0GMCITXg4
+                                    - generic [ref=f87e45]:
+                                      - text: Watch on
+                                      - img [ref=f87e47]:
+                                        - generic [ref=f87e49]:
+                                          - img
+                    - paragraph [ref=e676]:
+                      - text: All over the world, people's lives are better because of Oracle. Want to make a difference?
+                      - link "Join our company of change makers." [ref=e677] [cursor=pointer]:
+                        - /url: https://www.oracle.com/careers/
+                  - generic [ref=e679]:
+                    - heading "Oracle Talent Network" [level=2] [ref=e681]
+                    - paragraph [ref=e683]:
+                      - generic [ref=e684]: Join the Oracle Talent Network to receive career insights and opportunities.
+                    - link "Join now" [ref=e686] [cursor=pointer]:
+                      - /url: https://careers.oracle.com/en/sites/jobsearch/join-talent-community?keyword=Data+Scientist
+                      - generic [ref=e687]: Join now
+      - contentinfo [ref=e15]:
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - heading "If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing accommodation-request_mb@oracle.com or by calling +1 888 404 2494 in the U.S." [level=2] [ref=e20]:
+              - text: If you require accessibility assistance or accommodation for a disability at any point, let us know by emailing
+              - link "accommodation-request_mb@oracle.com" [ref=e21] [cursor=pointer]:
+                - /url: mailto:accommodation-request_mb@oracle.com
+              - text: or by calling +1 888 404 2494 in the U.S.
+            - heading "Oracle’s U.S. affirmative action plan for people with disabilities and military veterans is available by contacting +1 888 404 2494." [level=2] [ref=e22]
+            - paragraph [ref=e23]:
+              - text: Need Help?
+              - link "Contact us" [ref=e25] [cursor=pointer]:
+                - /url: https://hrhelp.custhelp.com/app/hiring
+              - text: and include a detailed description of the issue.
+            - paragraph [ref=e26]:
+              - link "Oracle's Pre-employment Screening Process" [ref=e28] [cursor=pointer]:
+                - /url: https://www.oracle.com/corporate/careers/background-check.html
+              - link "Oracle's Equal Employment Opportunity and Pay Transparency" [ref=e30] [cursor=pointer]:
+                - /url: https://www.oracle.com/legal/eeo-pay-transparency/
+          - generic [ref=e32]:
+            - generic:
+              - list:
+                - listitem
+            - list [ref=e34]:
+              - listitem [ref=e35]:
+                - link "© 2026 Oracle" [ref=e36] [cursor=pointer]:
+                  - /url: https://www.oracle.com/legal/copyright.html
+              - listitem [ref=e37]:
+                - link "Privacy" [ref=e38] [cursor=pointer]:
+                  - /url: https://www.oracle.com/legal/privacy/
+                - text: /
+                - link "Do Not Sell My Info" [ref=e39] [cursor=pointer]:
+                  - /url: https://www.oracle.com/legal/privacy/privacy-choices.html
+              - listitem [ref=e40]:
+                - link "Ad Choices" [ref=e41] [cursor=pointer]:
+                  - /url: https://www.oracle.com/legal/privacy/marketing-cloud-data-cloud-privacy-policy.html#adchoices
+              - listitem [ref=e42]:
+                - link "Careers" [ref=e43] [cursor=pointer]:
+                  - /url: https://www.oracle.com/corporate/careers/
+              - listitem [ref=e44]:
+                - link "Policy" [ref=e45] [cursor=pointer]:
+                  - /url: https://www.oracle.com/corporate/careers/terms-conditions/
+            - list [ref=e47]:
+              - listitem [ref=e48]:
+                - link "Oracle on Facebook":
+                  - /url: https://www.facebook.com/Oracle/
+                  - img [ref=e49] [cursor=pointer]
+              - listitem [ref=e50]:
+                - link "Follow Oracle on Twitter":
+                  - /url: https://twitter.com/oracle
+                  - img [ref=e51] [cursor=pointer]
+              - listitem [ref=e53]:
+                - link "Oracle on LinkedIn":
+                  - /url: https://www.linkedin.com/company/oracle/
+                  - img [ref=e54] [cursor=pointer]
+              - listitem [ref=e55]:
+                - link "Watch Oracle on YouTube":
+                  - /url: http://www.youtube.com/oracle/
+                  - img [ref=e56] [cursor=pointer]
+    - alert
+    - status [ref=e57]
+    - alert [ref=e58]
+  - button "Oracle Assistant" [ref=e688] [cursor=pointer]
+  - status [ref=e690]
+  - status [ref=e691]
+  - status [ref=e692]

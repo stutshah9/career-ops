@@ -1,0 +1,774 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - button "Main menu" [ref=e5] [cursor=pointer]:
+          - img [ref=e6]
+        - link "Careers" [ref=e10] [cursor=pointer]:
+          - /url: /about/careers/applications/
+          - generic [ref=e12]: Careers
+      - generic [ref=e13]:
+        - link "Skip navigation links" [ref=e14]:
+          - generic: Skip navigation links
+        - generic [ref=e17]:
+          - navigation "Candidate Portal Left Navigation" [ref=e21]:
+            - menubar [ref=e23]:
+              - generic [ref=e24]:
+                - menuitem "Home navigation link" [ref=e25] [cursor=pointer]:
+                  - menuitem [ref=e27]:
+                    - generic [ref=e28]:
+                      - generic [ref=e29]:
+                        - generic [ref=e34]: home
+                        - generic [ref=e36]: Home
+                      - generic [ref=e38]: Home
+                - menuitem "Jobs navigation item" [ref=e39] [cursor=pointer]:
+                  - menuitem [ref=e41]:
+                    - generic [ref=e42]:
+                      - generic [ref=e43]:
+                        - generic [ref=e48]: work_outline
+                        - generic [ref=e50]: Jobs
+                      - generic [ref=e52]: Jobs
+                - menuitem "Students navigation item" [ref=e53] [cursor=pointer]:
+                  - menuitem [ref=e55]:
+                    - generic [ref=e56]:
+                      - generic [ref=e57]:
+                        - generic [ref=e62]: noogler_hat
+                        - generic [ref=e64]: Students
+                      - generic [ref=e66]: Students
+                - menuitem "How we work navigation item" [ref=e67] [cursor=pointer]:
+                  - menuitem [ref=e69]:
+                    - generic [ref=e70]:
+                      - generic [ref=e71]:
+                        - generic [ref=e76]: google
+                        - generic [ref=e78]: How we work
+                      - generic [ref=e80]: How we work
+                - menuitem "How we hire navigation item" [ref=e81] [cursor=pointer]:
+                  - menuitem [ref=e83]:
+                    - generic [ref=e84]:
+                      - generic [ref=e85]:
+                        - generic [ref=e90]: handyman
+                        - generic [ref=e92]: How we hire
+                      - generic [ref=e94]: How we hire
+                - menuitem "Your career navigation item" [ref=e95] [cursor=pointer]:
+                  - menuitem [ref=e97]:
+                    - generic [ref=e98]:
+                      - generic [ref=e99]:
+                        - generic [ref=e104]: person_outline
+                        - generic [ref=e106]: Your career
+                      - generic [ref=e108]: Your career
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - generic [ref=e116] [cursor=pointer]:
+                - generic [ref=e117]: help_outline
+                - link "Help link" [ref=e118]:
+                  - /url: https://support.google.com/googlecareers
+              - tooltip [ref=e119]: Help link
+            - generic [ref=e120]:
+              - button "Send feedback" [ref=e121] [cursor=pointer]:
+                - generic [ref=e122]: feedback
+              - tooltip [ref=e123]: Send feedback
+      - generic [ref=e125]:
+        - button "Google apps" [ref=e129] [cursor=pointer]:
+          - img [ref=e130]
+        - link "Sign in" [ref=e133] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Fabout%2Fcareers%2Fapplications%2Fjobs%2Fresults%2F%3Fq%3Ddata%2520scientist%26location%3DUnited%2520States&followup=https%3A%2F%2Fwww.google.com%2Fabout%2Fcareers%2Fapplications%2Fjobs%2Fresults%2F%3Fq%3Ddata%2520scientist%26location%3DUnited%2520States&ec=GAZA6QE
+  - generic [ref=e141]:
+    - heading "Search Jobs" [level=1]
+    - generic [ref=e143]:
+      - generic [ref=e145]:
+        - heading "Search sidebar" [level=2]
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - generic [ref=e148]: 866 jobs matched
+            - button "Clear filters" [ref=e150]:
+              - generic [ref=e153]: Clear filters
+          - generic:
+            - grid "tags chipset"
+          - generic [ref=e158]:
+            - generic:
+              - generic:
+                - generic: What do you want to do?
+            - combobox "What do you want to do?" [ref=e159]: data scientist
+          - generic "Job filters" [ref=e160]:
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - heading "Locations" [level=3] [ref=e164]
+                - button "Locations filter options" [expanded] [ref=e166] [cursor=pointer]:
+                  - generic [ref=e167]: expand_less
+              - region "Locations filter options" [ref=e168]:
+                - generic [ref=e169]:
+                  - generic [ref=e171]:
+                    - grid [ref=e172]:
+                      - row "United States Remove chip United States" [ref=e173]:
+                        - gridcell "United States" [ref=e174]:
+                          - generic [ref=e175]: United States
+                        - gridcell "Remove chip United States" [ref=e176]:
+                          - generic [ref=e177]:
+                            - button "Remove chip United States" [ref=e178] [cursor=pointer]:
+                              - img [ref=e181]
+                            - tooltip [ref=e183]: Remove
+                    - generic [ref=e186]:
+                      - generic:
+                        - generic:
+                          - generic: Which location(s) do you prefer?
+                      - generic: search
+                      - combobox "Which location(s) do you prefer working out of?" [ref=e187]
+                    - generic [ref=e189]: 1 / 4Locations
+                  - generic [ref=e190]:
+                    - generic [ref=e191]:
+                      - generic [ref=e192] [cursor=pointer]:
+                        - checkbox "Remote eligible" [ref=e193]
+                        - generic:
+                          - img
+                      - generic [ref=e194]: Remote eligible
+                    - img "Learn more about remote eligibility" [ref=e196] [cursor=pointer]:
+                      - generic [ref=e197]: info_outline
+            - generic [ref=e199]:
+              - heading "Experience" [level=3] [ref=e201]
+              - button "Experience filter options" [ref=e203] [cursor=pointer]:
+                - generic [ref=e204]: expand_more
+            - generic [ref=e206]:
+              - heading "Skills & qualifications" [level=3] [ref=e208]
+              - button "Skills & qualifications filter options" [ref=e210] [cursor=pointer]:
+                - generic [ref=e211]: expand_more
+            - generic [ref=e213]:
+              - heading "Degree" [level=3] [ref=e215]
+              - button "Degree filter options" [ref=e217] [cursor=pointer]:
+                - generic [ref=e218]: expand_more
+            - generic [ref=e220]:
+              - heading "Job types" [level=3] [ref=e222]
+              - button "Job types filter options" [ref=e224] [cursor=pointer]:
+                - generic [ref=e225]: expand_more
+            - generic [ref=e227]:
+              - heading "Organizations" [level=3] [ref=e229]
+              - button "Organizations filter options" [ref=e231] [cursor=pointer]:
+                - generic [ref=e232]: expand_more
+            - generic [ref=e234]:
+              - heading "Sort by" [level=3] [ref=e236]
+              - button "Sort jobs by date or relevance" [ref=e238] [cursor=pointer]:
+                - generic [ref=e239]: expand_more
+      - generic [ref=e240]:
+        - main [ref=e241]:
+          - generic [ref=e242]:
+            - heading "Jobs search results" [level=2]
+            - generic [ref=e244]:
+              - list [ref=e246]:
+                - listitem [ref=e247]:
+                  - generic [ref=e249]:
+                    - generic [ref=e251]:
+                      - heading "Data Scientist" [level=3] [ref=e254]
+                      - generic [ref=e256]:
+                        - generic [ref=e257]:
+                          - generic [ref=e258]: corporate_fare
+                          - generic [ref=e259]: Google
+                        - generic [ref=e260]:
+                          - generic [ref=e261]: place
+                          - generic [ref=e262]: San Bruno, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e266]:
+                          - generic [ref=e270]: bar_chart
+                          - generic [ref=e271]: Mid
+                      - generic [ref=e272]:
+                        - heading "Minimum qualifications" [level=4] [ref=e273]
+                        - list [ref=e274]:
+                          - listitem [ref=e275]: Bachelor’s degree in Statistics, Applied Mathematics, Data Science, Business Analytics, Economics or a related field and 5 years of progressive post-baccalaureate experience in the job offered or in a Data Scientist-related occupation.
+                          - listitem [ref=e276]: Alternatively, will accept a Master’s degree in Statistics, Applied Mathematics, Data Science, Business Analytics, Economics or a related field, and 3 years of experience in the job offered or in a Data Scientist-related occupation.
+                          - listitem [ref=e277]: "Position requires 3 years of experience in the following: Python or R for statistical analysis and data manipulation, Product analysis, including root cause analysis and quantitative assessment of critical user journeys, Translating open-ended business problems into structured analytical frameworks, Defining and rationalizing metrics to measure product success and business outcomes, Communicating quantitative insights to influence non-technical and senior leadership stakeholders."
+                      - generic [ref=e279]:
+                        - generic [ref=e281]: Learn more
+                        - link "Learn more about Data Scientist" [ref=e282] [cursor=pointer]:
+                          - /url: jobs/results/106536599407207110-data-scientist?q=data%20scientist&location=United%20States
+                    - button "Share Data Scientist" [ref=e287] [cursor=pointer]:
+                      - generic [ref=e288]: share
+                - listitem [ref=e289]:
+                  - generic [ref=e291]:
+                    - generic [ref=e293]:
+                      - heading "Staff Data Scientist, Discover Personalization and Quality" [level=3] [ref=e296]
+                      - generic [ref=e298]:
+                        - generic [ref=e299]:
+                          - generic [ref=e300]: corporate_fare
+                          - generic [ref=e301]: Google
+                        - generic [ref=e302]:
+                          - generic [ref=e303]: place
+                          - generic [ref=e304]: Mountain View, CA, USA
+                          - generic [ref=e305]: ; New York, NY, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e309]:
+                          - generic [ref=e313]: bar_chart
+                          - generic [ref=e314]: Advanced
+                      - generic [ref=e315]:
+                        - heading "Minimum qualifications" [level=4] [ref=e316]
+                        - list [ref=e317]:
+                          - listitem [ref=e318]: Master's degree in Statistics, Data Science, Mathematics, Physics, Economics, Operations Research, Engineering, or a related quantitative field.
+                          - listitem [ref=e319]: 8 years of work experience using analytics to solve product or business problems, coding (e.g., Python, R, SQL), querying databases or statistical analysis, or 6 years of work experience with a PhD degree.
+                      - generic [ref=e321]:
+                        - generic [ref=e323]: Learn more
+                        - link "Learn more about Staff Data Scientist, Discover Personalization and Quality" [ref=e324] [cursor=pointer]:
+                          - /url: jobs/results/92402841288614598-staff-data-scientist-discover-personalization-and-quality?q=data%20scientist&location=United%20States
+                    - button "Share Staff Data Scientist, Discover Personalization and Quality" [ref=e329] [cursor=pointer]:
+                      - generic [ref=e330]: share
+                - listitem [ref=e331]:
+                  - generic [ref=e333]:
+                    - generic [ref=e335]:
+                      - heading "Staff Data Scientist, Product" [level=3] [ref=e338]
+                      - generic [ref=e340]:
+                        - generic [ref=e341]:
+                          - generic [ref=e342]: corporate_fare
+                          - generic [ref=e343]: Google
+                        - generic [ref=e344]:
+                          - generic [ref=e345]: place
+                          - generic [ref=e346]: Kirkland, WA, USA
+                          - generic [ref=e347]: ; Sunnyvale, CA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e351]:
+                          - generic [ref=e355]: bar_chart
+                          - generic [ref=e356]: Advanced
+                      - generic [ref=e357]:
+                        - heading "Minimum qualifications" [level=4] [ref=e358]
+                        - list [ref=e359]:
+                          - listitem [ref=e360]: Bachelor's degree in Statistics, Mathematics, Data Science, Engineering, Physics, Economics, or a related quantitative field.
+                          - listitem [ref=e361]: 10 years of work experience using analytics to solve product or business problems, performing statistical analysis, and coding (e.g., Python, R, SQL) (or 8 years work experience plus a Master's degree).
+                      - generic [ref=e363]:
+                        - generic [ref=e365]: Learn more
+                        - link "Learn more about Staff Data Scientist, Product" [ref=e366] [cursor=pointer]:
+                          - /url: jobs/results/122786212933968582-staff-data-scientist-product?q=data%20scientist&location=United%20States
+                    - button "Share Staff Data Scientist, Product" [ref=e371] [cursor=pointer]:
+                      - generic [ref=e372]: share
+                - listitem [ref=e373]:
+                  - generic [ref=e375]:
+                    - generic [ref=e377]:
+                      - heading "Senior Staff Data Scientist, Product" [level=3] [ref=e380]
+                      - generic [ref=e382]:
+                        - generic [ref=e383]:
+                          - generic [ref=e384]: corporate_fare
+                          - generic [ref=e385]: Google
+                        - generic [ref=e386]:
+                          - generic [ref=e387]: place
+                          - generic [ref=e388]: Mountain View, CA, USA
+                          - generic [ref=e389]: ; San Francisco, CA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e393]:
+                          - generic [ref=e397]: bar_chart
+                          - generic [ref=e398]: Advanced
+                      - generic [ref=e399]:
+                        - heading "Minimum qualifications" [level=4] [ref=e400]
+                        - list [ref=e401]:
+                          - listitem [ref=e402]: Bachelor's degree in Statistics, Mathematics, Data Science, Engineering, Physics, Economics, or a related quantitative field.
+                          - listitem [ref=e403]: 13 years of work experience using analytics to solve product or business problems, performing statistical analysis, and coding (e.g., Python, R, SQL) (or 10 years work experience plus a Master's degree).
+                      - generic [ref=e405]:
+                        - generic [ref=e407]: Learn more
+                        - link "Learn more about Senior Staff Data Scientist, Product" [ref=e408] [cursor=pointer]:
+                          - /url: jobs/results/82520361421152966-senior-staff-data-scientist-product?q=data%20scientist&location=United%20States
+                    - button "Share Senior Staff Data Scientist, Product" [ref=e413] [cursor=pointer]:
+                      - generic [ref=e414]: share
+                - listitem [ref=e415]:
+                  - generic [ref=e417]:
+                    - generic [ref=e419]:
+                      - heading "Senior Data Scientist, Core Ranking and AI Context" [level=3] [ref=e422]
+                      - generic [ref=e424]:
+                        - generic [ref=e425]:
+                          - generic [ref=e426]: corporate_fare
+                          - generic [ref=e427]: Google
+                        - generic [ref=e428]:
+                          - generic [ref=e429]: place
+                          - generic [ref=e430]: Mountain View, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e434]:
+                          - generic [ref=e438]: bar_chart
+                          - generic [ref=e439]: Mid
+                      - generic [ref=e440]:
+                        - heading "Minimum qualifications" [level=4] [ref=e441]
+                        - list [ref=e442]:
+                          - listitem [ref=e443]: Master's degree in Statistics, Data Science, Mathematics, Physics, Economics, Operations Research, Engineering, or a related quantitative field.
+                          - listitem [ref=e444]: 5 years of experience using analytics to solve product or business problems, coding (e.g., Python, R, SQL), querying databases or statistical analysis, or 3 years of experience with a PhD degree.
+                      - generic [ref=e446]:
+                        - generic [ref=e448]: Learn more
+                        - link "Learn more about Senior Data Scientist, Core Ranking and AI Context" [ref=e449] [cursor=pointer]:
+                          - /url: jobs/results/94480883905372870-senior-data-scientist-core-ranking-and-ai-context?q=data%20scientist&location=United%20States
+                    - button "Share Senior Data Scientist, Core Ranking and AI Context" [ref=e454] [cursor=pointer]:
+                      - generic [ref=e455]: share
+                - listitem [ref=e456]:
+                  - generic [ref=e458]:
+                    - generic [ref=e460]:
+                      - heading "Senior Data Scientist, Search Growth" [level=3] [ref=e463]
+                      - generic [ref=e465]:
+                        - generic [ref=e466]:
+                          - generic [ref=e467]: corporate_fare
+                          - generic [ref=e468]: Google
+                        - generic [ref=e469]:
+                          - generic [ref=e470]: place
+                          - generic [ref=e471]: Mountain View, CA, USA
+                          - generic [ref=e472]: ; San Francisco, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e476]:
+                          - generic [ref=e480]: bar_chart
+                          - generic [ref=e481]: Mid
+                      - generic [ref=e482]:
+                        - heading "Minimum qualifications" [level=4] [ref=e483]
+                        - list [ref=e484]:
+                          - listitem [ref=e485]: Master's degree in Statistics, Data Science, Mathematics, Physics, Economics, Operations Research, Engineering, or a related quantitative field.
+                          - listitem [ref=e486]: 5 years of work experience using analytics to solve product or business problems, coding (e.g., Python, R, SQL), querying databases or statistical analysis, or 3 years of work experience with a PhD degree.
+                      - generic [ref=e488]:
+                        - generic [ref=e490]: Learn more
+                        - link "Learn more about Senior Data Scientist, Search Growth" [ref=e491] [cursor=pointer]:
+                          - /url: jobs/results/129413424881771206-senior-data-scientist-search-growth?q=data%20scientist&location=United%20States
+                    - button "Share Senior Data Scientist, Search Growth" [ref=e496] [cursor=pointer]:
+                      - generic [ref=e497]: share
+                - listitem [ref=e498]:
+                  - generic [ref=e500]:
+                    - generic [ref=e502]:
+                      - heading "Senior Data Scientist, Research, Search Intelligence Quality" [level=3] [ref=e505]
+                      - generic [ref=e507]:
+                        - generic [ref=e508]:
+                          - generic [ref=e509]: corporate_fare
+                          - generic [ref=e510]: Google
+                        - generic [ref=e511]:
+                          - generic [ref=e512]: place
+                          - generic [ref=e513]: Mountain View, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e517]:
+                          - generic [ref=e521]: bar_chart
+                          - generic [ref=e522]: Mid
+                      - generic [ref=e523]:
+                        - heading "Minimum qualifications" [level=4] [ref=e524]
+                        - list [ref=e525]:
+                          - listitem [ref=e526]: Master's degree in Statistics, Data Science, Mathematics, Physics, Economics, Operations Research, Engineering, or a related quantitative field.
+                          - listitem [ref=e527]: 5 years of work experience using analytics to solve product or business problems, coding (e.g., Python, R, SQL), querying databases or statistical analysis, or 3 years of work experience with a PhD degree.
+                      - generic [ref=e529]:
+                        - generic [ref=e531]: Learn more
+                        - link "Learn more about Senior Data Scientist, Research, Search Intelligence Quality" [ref=e532] [cursor=pointer]:
+                          - /url: jobs/results/113047778417877702-senior-data-scientist-research-search-intelligence-quality?q=data%20scientist&location=United%20States
+                    - button "Share Senior Data Scientist, Research, Search Intelligence Quality" [ref=e537] [cursor=pointer]:
+                      - generic [ref=e538]: share
+                - listitem [ref=e539]:
+                  - generic [ref=e541]:
+                    - generic [ref=e543]:
+                      - heading "Senior Product Data Scientist, Consumer Shopping" [level=3] [ref=e546]
+                      - generic [ref=e548]:
+                        - generic [ref=e549]:
+                          - generic [ref=e550]: corporate_fare
+                          - generic [ref=e551]: Google
+                        - generic [ref=e552]:
+                          - generic [ref=e553]: place
+                          - generic [ref=e554]: Mountain View, CA, USA
+                          - generic [ref=e555]: ; Kirkland, WA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e559]:
+                          - generic [ref=e563]: bar_chart
+                          - generic [ref=e564]: Mid
+                      - generic [ref=e565]:
+                        - heading "Minimum qualifications" [level=4] [ref=e566]
+                        - list [ref=e567]:
+                          - listitem [ref=e568]: Bachelor's degree in Statistics, Mathematics, Data Science, Engineering, Physics, Economics, or a related quantitative field.
+                          - listitem [ref=e569]: 8 years of work experience using analytics to solve product or business problems, performing statistical analysis, and coding (e.g., Python, R, SQL) (or 5 years of work experience with a Master's degree).
+                          - listitem [ref=e570]: Experience creating experiments and pilots to gather data and insights.
+                      - generic [ref=e572]:
+                        - generic [ref=e574]: Learn more
+                        - link "Learn more about Senior Product Data Scientist, Consumer Shopping" [ref=e575] [cursor=pointer]:
+                          - /url: jobs/results/73664085807243974-senior-product-data-scientist-consumer-shopping?q=data%20scientist&location=United%20States
+                    - button "Share Senior Product Data Scientist, Consumer Shopping" [ref=e580] [cursor=pointer]:
+                      - generic [ref=e581]: share
+                - listitem [ref=e582]:
+                  - generic [ref=e584]:
+                    - generic [ref=e586]:
+                      - heading "Product Data Scientist, Discover Experience" [level=3] [ref=e589]
+                      - generic [ref=e591]:
+                        - generic [ref=e592]:
+                          - generic [ref=e593]: corporate_fare
+                          - generic [ref=e594]: Google
+                        - generic [ref=e595]:
+                          - generic [ref=e596]: place
+                          - generic [ref=e597]: Mountain View, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e601]:
+                          - generic [ref=e605]: bar_chart
+                          - generic [ref=e606]: Mid
+                      - generic [ref=e607]:
+                        - heading "Minimum qualifications" [level=4] [ref=e608]
+                        - list [ref=e609]:
+                          - listitem [ref=e610]: Bachelor's degree in Statistics, Mathematics, Data Science, Engineering, Physics, Economics, or a related quantitative field.
+                          - listitem [ref=e611]: 5 years of work experience with analysis applications (extracting insights, performing statistical analysis, or solving business problems), and coding (Python, R, SQL), or 2 years of work experience with a Master's degree.
+                      - generic [ref=e613]:
+                        - generic [ref=e615]: Learn more
+                        - link "Learn more about Product Data Scientist, Discover Experience" [ref=e616] [cursor=pointer]:
+                          - /url: jobs/results/120533841990296262-product-data-scientist-discover-experience?q=data%20scientist&location=United%20States
+                    - button "Share Product Data Scientist, Discover Experience" [ref=e621] [cursor=pointer]:
+                      - generic [ref=e622]: share
+                - listitem [ref=e623]:
+                  - generic [ref=e625]:
+                    - generic [ref=e627]:
+                      - heading "Staff Product Data Scientist, Workspace Monetization" [level=3] [ref=e630]
+                      - generic [ref=e632]:
+                        - generic [ref=e633]:
+                          - generic [ref=e634]: corporate_fare
+                          - generic [ref=e635]: Google
+                        - generic [ref=e636]:
+                          - generic [ref=e637]: place
+                          - generic [ref=e638]: Sunnyvale, CA, USA
+                          - generic [ref=e639]: ; Kirkland, WA, USA
+                          - generic [ref=e640]: ; +1 more
+                        - img "Advanced, Learn more about experience filters." [ref=e644]:
+                          - generic [ref=e648]: bar_chart
+                          - generic [ref=e649]: Advanced
+                      - generic [ref=e650]:
+                        - heading "Minimum qualifications" [level=4] [ref=e651]
+                        - list [ref=e652]:
+                          - listitem [ref=e653]: Bachelor's degree in Statistics, Mathematics, Data Science, Engineering, Physics, Economics, or a related quantitative field.
+                          - listitem [ref=e654]: 10 years of work experience using analytics to solve product or business problems, performing statistical analysis, and coding (e.g., Python, R, SQL) (or 8 years of experience with a Master's degree).
+                      - generic [ref=e656]:
+                        - generic [ref=e658]: Learn more
+                        - link "Learn more about Staff Product Data Scientist, Workspace Monetization" [ref=e659] [cursor=pointer]:
+                          - /url: jobs/results/97959463817749190-staff-product-data-scientist-workspace-monetization?q=data%20scientist&location=United%20States
+                    - button "Share Staff Product Data Scientist, Workspace Monetization" [ref=e664] [cursor=pointer]:
+                      - generic [ref=e665]: share
+                - listitem [ref=e666]:
+                  - generic [ref=e668]:
+                    - generic [ref=e670]:
+                      - heading "Product Data Scientist, Search" [level=3] [ref=e673]
+                      - generic [ref=e675]:
+                        - generic [ref=e676]:
+                          - generic [ref=e677]: corporate_fare
+                          - generic [ref=e678]: Google
+                        - generic [ref=e679]:
+                          - generic [ref=e680]: place
+                          - generic [ref=e681]: Mountain View, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e685]:
+                          - generic [ref=e689]: bar_chart
+                          - generic [ref=e690]: Mid
+                      - generic [ref=e691]:
+                        - heading "Minimum qualifications" [level=4] [ref=e692]
+                        - list [ref=e693]:
+                          - listitem [ref=e694]: Bachelor's degree in Statistics, Mathematics, Data Science, Engineering, Physics, Economics, or a related quantitative field.
+                          - listitem [ref=e695]: 5 years of work experience with analysis applications (e.g., extracting insights, performing statistical analysis, or solving business problems), and coding (Python, R, SQL) or 2 years of experience with a Master's degree.
+                      - generic [ref=e697]:
+                        - generic [ref=e699]: Learn more
+                        - link "Learn more about Product Data Scientist, Search" [ref=e700] [cursor=pointer]:
+                          - /url: jobs/results/106924190140900038-product-data-scientist-search?q=data%20scientist&location=United%20States
+                    - button "Share Product Data Scientist, Search" [ref=e705] [cursor=pointer]:
+                      - generic [ref=e706]: share
+                - listitem [ref=e707]:
+                  - generic [ref=e709]:
+                    - generic [ref=e711]:
+                      - heading "Staff Product Data Scientist, Workspace Collab" [level=3] [ref=e714]
+                      - generic [ref=e716]:
+                        - generic [ref=e717]:
+                          - generic [ref=e718]: corporate_fare
+                          - generic [ref=e719]: Google
+                        - generic [ref=e720]:
+                          - generic [ref=e721]: place
+                          - generic [ref=e722]: Seattle, WA, USA
+                          - generic [ref=e723]: ; New York, NY, USA
+                          - generic [ref=e724]: ; +1 more
+                        - img "Advanced, Learn more about experience filters." [ref=e728]:
+                          - generic [ref=e732]: bar_chart
+                          - generic [ref=e733]: Advanced
+                      - generic [ref=e734]:
+                        - heading "Minimum qualifications" [level=4] [ref=e735]
+                        - list [ref=e736]:
+                          - listitem [ref=e737]: Bachelor's degree in Statistics, Mathematics, Data Science, Engineering, Physics, Economics, or a related quantitative field.
+                          - listitem [ref=e738]: 10 years of work experience using analytics to solve product or business problems, performing statistical analysis, and coding (e.g., Python, R, SQL) (or 8 years of experience with a Master's degree).
+                      - generic [ref=e740]:
+                        - generic [ref=e742]: Learn more
+                        - link "Learn more about Staff Product Data Scientist, Workspace Collab" [ref=e743] [cursor=pointer]:
+                          - /url: jobs/results/100812421613920966-staff-product-data-scientist-workspace-collab?q=data%20scientist&location=United%20States
+                    - button "Share Staff Product Data Scientist, Workspace Collab" [ref=e748] [cursor=pointer]:
+                      - generic [ref=e749]: share
+                - listitem [ref=e750]:
+                  - generic [ref=e752]:
+                    - generic [ref=e754]:
+                      - heading "Senior Staff Research Data Scientist, AI Data" [level=3] [ref=e757]
+                      - generic [ref=e759]:
+                        - generic [ref=e760]:
+                          - generic [ref=e761]: corporate_fare
+                          - generic [ref=e762]: Google
+                        - generic [ref=e763]:
+                          - generic [ref=e764]: place
+                          - generic [ref=e765]: Mountain View, CA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e769]:
+                          - generic [ref=e773]: bar_chart
+                          - generic [ref=e774]: Advanced
+                      - generic [ref=e775]:
+                        - heading "Minimum qualifications" [level=4] [ref=e776]
+                        - list [ref=e777]:
+                          - listitem [ref=e778]: Master's degree in Statistics, Data Science, Mathematics, Physics, Economics, Operations Research, Engineering, or a related quantitative field.
+                          - listitem [ref=e779]: 10 years of work experience using analytics to solve product or business problems, coding (e.g., Python, R, SQL), querying databases or statistical analysis, or 8 years of work experience with a PhD degree.
+                      - generic [ref=e781]:
+                        - generic [ref=e783]: Learn more
+                        - link "Learn more about Senior Staff Research Data Scientist, AI Data" [ref=e784] [cursor=pointer]:
+                          - /url: jobs/results/127735879274767046-senior-staff-research-data-scientist-ai-data?q=data%20scientist&location=United%20States
+                    - button "Share Senior Staff Research Data Scientist, AI Data" [ref=e789] [cursor=pointer]:
+                      - generic [ref=e790]: share
+                - listitem [ref=e791]:
+                  - generic [ref=e793]:
+                    - generic [ref=e795]:
+                      - heading "Senior Staff Research Data Scientist, DevIE" [level=3] [ref=e798]
+                      - generic [ref=e800]:
+                        - generic [ref=e801]:
+                          - generic [ref=e802]: corporate_fare
+                          - generic [ref=e803]: Google
+                        - generic [ref=e804]:
+                          - generic [ref=e805]: place
+                          - generic [ref=e806]: Sunnyvale, CA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e810]:
+                          - generic [ref=e814]: bar_chart
+                          - generic [ref=e815]: Advanced
+                      - generic [ref=e816]:
+                        - heading "Minimum qualifications" [level=4] [ref=e817]
+                        - list [ref=e818]:
+                          - listitem [ref=e819]: Master's degree in Statistics, Data Science, Mathematics, Physics, Economics, Operations Research, Engineering, or a related quantitative field.
+                          - listitem [ref=e820]: 10 years of work experience using analytics to solve product or business problems, coding (e.g., Python, R, SQL), querying databases or statistical analysis, or 8 years of work experience with a PhD degree.
+                      - generic [ref=e822]:
+                        - generic [ref=e824]: Learn more
+                        - link "Learn more about Senior Staff Research Data Scientist, DevIE" [ref=e825] [cursor=pointer]:
+                          - /url: jobs/results/104471617785995974-senior-staff-research-data-scientist-devie?q=data%20scientist&location=United%20States
+                    - button "Share Senior Staff Research Data Scientist, DevIE" [ref=e830] [cursor=pointer]:
+                      - generic [ref=e831]: share
+                - listitem [ref=e832]:
+                  - generic [ref=e834]:
+                    - generic [ref=e836]:
+                      - heading "Senior Research Data Scientist" [level=3] [ref=e839]
+                      - generic [ref=e841]:
+                        - generic [ref=e842]:
+                          - generic [ref=e843]: corporate_fare
+                          - generic [ref=e844]: Google
+                        - generic [ref=e845]:
+                          - generic [ref=e846]: place
+                          - generic [ref=e847]: Mountain View, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e851]:
+                          - generic [ref=e855]: bar_chart
+                          - generic [ref=e856]: Mid
+                      - generic [ref=e857]:
+                        - heading "Minimum qualifications" [level=4] [ref=e858]
+                        - list [ref=e859]:
+                          - listitem [ref=e860]: Master's degree in Statistics, Data Science, Mathematics, Physics, Economics, Operations Research, Engineering, or a related quantitative field.
+                          - listitem [ref=e861]: 5 years of work experience using analytics to solve product or business problems, coding (e.g., Python, R, SQL), querying databases or statistical analysis, or 3 years of work experience with a PhD degree.
+                      - generic [ref=e863]:
+                        - generic [ref=e865]: Learn more
+                        - link "Learn more about Senior Research Data Scientist" [ref=e866] [cursor=pointer]:
+                          - /url: jobs/results/114245180940264134-senior-research-data-scientist?q=data%20scientist&location=United%20States
+                    - button "Share Senior Research Data Scientist" [ref=e871] [cursor=pointer]:
+                      - generic [ref=e872]: share
+                - listitem [ref=e873]:
+                  - generic [ref=e875]:
+                    - generic [ref=e877]:
+                      - heading "Senior Product Data Scientist Manager, Android" [level=3] [ref=e880]
+                      - generic [ref=e882]:
+                        - generic [ref=e883]:
+                          - generic [ref=e884]: corporate_fare
+                          - generic [ref=e885]: Google
+                        - generic [ref=e886]:
+                          - generic [ref=e887]: place
+                          - generic [ref=e888]: San Jose, CA, USA
+                          - generic [ref=e889]: ; Kirkland, WA, USA
+                          - generic [ref=e890]: ; +2 more
+                        - img "Advanced, Learn more about experience filters." [ref=e894]:
+                          - generic [ref=e898]: bar_chart
+                          - generic [ref=e899]: Advanced
+                      - generic [ref=e900]:
+                        - heading "Minimum qualifications" [level=4] [ref=e901]
+                        - list [ref=e902]:
+                          - listitem [ref=e903]: Bachelor's degree in Statistics, Mathematics, Data Science, Engineering, Physics, Economics, or a related quantitative field.
+                          - listitem [ref=e904]: 13 years of work experience using analytics to solv.e product or business problems, performing statistical analysis, and coding (e.g., Python, R, SQL) (or 10 years work experience and a Master's degree)
+                          - listitem [ref=e905]: 5 years of experience as a people manager within a technical leadership role.
+                      - generic [ref=e907]:
+                        - generic [ref=e909]: Learn more
+                        - link "Learn more about Senior Product Data Scientist Manager, Android" [ref=e910] [cursor=pointer]:
+                          - /url: jobs/results/81347088561906374-senior-product-data-scientist-manager-android?q=data%20scientist&location=United%20States
+                    - button "Share Senior Product Data Scientist Manager, Android" [ref=e915] [cursor=pointer]:
+                      - generic [ref=e916]: share
+                - listitem [ref=e917]:
+                  - generic [ref=e919]:
+                    - generic [ref=e921]:
+                      - heading "Research Data Scientist, YouTube Gaming Discovery" [level=3] [ref=e924]
+                      - generic [ref=e926]:
+                        - generic [ref=e927]:
+                          - generic [ref=e928]: corporate_fare
+                          - generic [ref=e929]: YouTube
+                        - generic [ref=e930]:
+                          - generic [ref=e931]: place
+                          - generic [ref=e932]: San Bruno, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e936]:
+                          - generic [ref=e940]: bar_chart
+                          - generic [ref=e941]: Mid
+                      - generic [ref=e942]:
+                        - heading "Minimum qualifications" [level=4] [ref=e943]
+                        - list [ref=e944]:
+                          - listitem [ref=e945]: Master's degree in Statistics, Data Science, Mathematics, Physics, Economics, Operations Research, Engineering or a related quantitative field.
+                          - listitem [ref=e946]: 3 years of work experience using analytics to solve product or business problems, coding (e.g., Python, R, SQL), querying databases or statistical analysis, or a PhD degree.
+                      - generic [ref=e948]:
+                        - generic [ref=e950]: Learn more
+                        - link "Learn more about Research Data Scientist, YouTube Gaming Discovery" [ref=e951] [cursor=pointer]:
+                          - /url: jobs/results/87903798621545158-research-data-scientist-youtube-gaming-discovery?q=data%20scientist&location=United%20States
+                    - button "Share Research Data Scientist, YouTube Gaming Discovery" [ref=e956] [cursor=pointer]:
+                      - generic [ref=e957]: share
+                - listitem [ref=e958]:
+                  - generic [ref=e960]:
+                    - generic [ref=e962]:
+                      - heading "Business Data Scientist, Marketing" [level=3] [ref=e965]
+                      - generic [ref=e967]:
+                        - generic [ref=e968]:
+                          - generic [ref=e969]: corporate_fare
+                          - generic [ref=e970]: Google
+                        - generic [ref=e971]:
+                          - generic [ref=e972]: place
+                          - generic [ref=e973]: New York, NY, USA
+                        - img "Mid, Learn more about experience filters." [ref=e977]:
+                          - generic [ref=e981]: bar_chart
+                          - generic [ref=e982]: Mid
+                      - generic [ref=e983]:
+                        - heading "Minimum qualifications" [level=4] [ref=e984]
+                        - list [ref=e985]:
+                          - listitem [ref=e986]: Master's degree in a quantitative discipline such as Mathematics, Economics, Statistics, Engineering, Sciences, or equivalent practical experience
+                          - listitem [ref=e987]: 3 years of experience using analytics to solve product or business problems, coding (e.g., Python, R, SQL), querying databases and doing statistical analysis.
+                          - listitem [ref=e988]: Experience in causal inference, A/B testing, statistical modeling, or machine learning.
+                          - listitem [ref=e989]: "Experience in campaign brand or conversion lift measurement and using analytical insights to guide media planning or experience working in digital marketing: performance incrementality geo experiments (match market tests)."
+                      - generic [ref=e991]:
+                        - generic [ref=e993]: Learn more
+                        - link "Learn more about Business Data Scientist, Marketing" [ref=e994] [cursor=pointer]:
+                          - /url: jobs/results/128429254600729286-business-data-scientist-marketing?q=data%20scientist&location=United%20States
+                    - button "Share Business Data Scientist, Marketing" [ref=e999] [cursor=pointer]:
+                      - generic [ref=e1000]: share
+                - listitem [ref=e1001]:
+                  - generic [ref=e1003]:
+                    - generic [ref=e1005]:
+                      - heading "Business and Marketing Data Scientist, Applied Machine Learning" [level=3] [ref=e1008]
+                      - generic [ref=e1010]:
+                        - generic [ref=e1011]:
+                          - generic [ref=e1012]: corporate_fare
+                          - generic [ref=e1013]: Google
+                        - generic [ref=e1014]:
+                          - generic [ref=e1015]: place
+                          - generic [ref=e1016]: New York, NY, USA
+                          - generic [ref=e1017]: ; Mountain View, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e1021]:
+                          - generic [ref=e1025]: bar_chart
+                          - generic [ref=e1026]: Mid
+                      - generic [ref=e1027]:
+                        - heading "Minimum qualifications" [level=4] [ref=e1028]
+                        - list [ref=e1029]:
+                          - listitem [ref=e1030]: Master's degree in Computer Science, Mathematics, Applied Statistics, Machine Learning, or equivalent practical experience.
+                          - listitem [ref=e1031]: 3 years of experience using analytics to solve product or business problems, coding (e.g., Python, R, SQL), querying databases or statistical analysis, or a relevant PhD degree.
+                      - generic [ref=e1033]:
+                        - generic [ref=e1035]: Learn more
+                        - link "Learn more about Business and Marketing Data Scientist, Applied Machine Learning" [ref=e1036] [cursor=pointer]:
+                          - /url: jobs/results/128209708757459654-business-and-marketing-data-scientist-applied-machine-learning?q=data%20scientist&location=United%20States
+                    - button "Share Business and Marketing Data Scientist, Applied Machine Learning" [ref=e1041] [cursor=pointer]:
+                      - generic [ref=e1042]: share
+                - listitem [ref=e1043]:
+                  - generic [ref=e1045]:
+                    - generic [ref=e1047]:
+                      - heading "Senior Research Data Scientist, Payments Platform" [level=3] [ref=e1050]
+                      - generic [ref=e1052]:
+                        - generic [ref=e1053]:
+                          - generic [ref=e1054]: corporate_fare
+                          - generic [ref=e1055]: Google
+                        - generic [ref=e1056]:
+                          - generic [ref=e1057]: place
+                          - generic [ref=e1058]: Mountain View, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e1062]:
+                          - generic [ref=e1066]: bar_chart
+                          - generic [ref=e1067]: Mid
+                      - generic [ref=e1068]:
+                        - heading "Minimum qualifications" [level=4] [ref=e1069]
+                        - list [ref=e1070]:
+                          - listitem [ref=e1071]: Master's degree in Statistics, Data Science, Mathematics, Physics, Economics, Operations Research, Engineering, or a related quantitative field.
+                          - listitem [ref=e1072]: 5 years of work experience using analytics to solve product or business problems, coding (e.g., Python, R, SQL), querying databases or statistical analysis, or 3 years of work experience with a PhD degree.
+                          - listitem [ref=e1073]: 5 years of experience using Python for statistical programming.
+                      - generic [ref=e1075]:
+                        - generic [ref=e1077]: Learn more
+                        - link "Learn more about Senior Research Data Scientist, Payments Platform" [ref=e1078] [cursor=pointer]:
+                          - /url: jobs/results/110975207589454534-senior-research-data-scientist-payments-platform?q=data%20scientist&location=United%20States
+                    - button "Share Senior Research Data Scientist, Payments Platform" [ref=e1083] [cursor=pointer]:
+                      - generic [ref=e1084]: share
+              - generic [ref=e1089]:
+                - status [ref=e1090]:
+                  - generic [ref=e1091]: Showing 1 to 20 of 866 rows
+                  - generic [ref=e1092]: 1‑20 of 866
+                - generic [ref=e1093] [cursor=pointer]:
+                  - generic [ref=e1094]: navigate_next
+                  - link "Go to next page" [ref=e1095]:
+                    - /url: https://www.google.com/about/careers/applications/jobs/results/?q=data%20scientist&location=United%20States&page=2
+        - contentinfo [ref=e1097]:
+          - generic [ref=e1099]:
+            - generic [ref=e1100]:
+              - heading "Follow Life at Google on" [level=2] [ref=e1101]
+              - list [ref=e1102]:
+                - listitem [ref=e1103]:
+                  - link "View our Instagram feed (Opens in a new tab)" [ref=e1104] [cursor=pointer]:
+                    - /url: https://www.instagram.com/lifeatgoogle/
+                - listitem [ref=e1109]:
+                  - link "View our Twitter feed (Opens in a new tab)" [ref=e1110] [cursor=pointer]:
+                    - /url: https://twitter.com/lifeatgoogle
+                - listitem [ref=e1113]:
+                  - link "View our YouTube channel (Opens in a new tab)" [ref=e1114] [cursor=pointer]:
+                    - /url: https://www.youtube.com/lifeatgoogle
+                - listitem [ref=e1117]:
+                  - link "View LinkedIn (Opens in a new tab)" [ref=e1118] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/google/jobs/
+                - listitem [ref=e1121]:
+                  - link "View our Facebook (Opens in a new tab)" [ref=e1122] [cursor=pointer]:
+                    - /url: https://www.facebook.com/lifeatgoogle/
+            - generic [ref=e1127]:
+              - generic [ref=e1128]:
+                - heading "More about us" [level=2] [ref=e1129]
+                - generic [ref=e1130]:
+                  - link "About us (opens in a new tab)" [ref=e1131] [cursor=pointer]:
+                    - /url: https://about.google/
+                    - text: About us
+                    - generic [ref=e1133]: open_in_new
+                  - link "Contact us (opens in a new tab)" [ref=e1134] [cursor=pointer]:
+                    - /url: https://about.google/contact-google/
+                    - text: Contact us
+                    - generic [ref=e1136]: open_in_new
+                  - link "Press (opens in a new tab)" [ref=e1137] [cursor=pointer]:
+                    - /url: https://blog.google/press/
+                    - text: Press
+                    - generic [ref=e1139]: open_in_new
+              - generic [ref=e1140]:
+                - heading "Related Information" [level=2] [ref=e1141]
+                - generic [ref=e1142]:
+                  - link "Investor relations (opens in a new tab)" [ref=e1143] [cursor=pointer]:
+                    - /url: https://abc.xyz/investor/
+                    - text: Investor relations
+                    - generic [ref=e1145]: open_in_new
+                  - link "Blog (opens in a new tab)" [ref=e1146] [cursor=pointer]:
+                    - /url: https://blog.google/
+                    - text: Blog
+                    - generic [ref=e1148]: open_in_new
+              - generic [ref=e1149]:
+                - heading "Equal Opportunity" [level=2] [ref=e1150]
+                - paragraph [ref=e1151]:
+                  - text: Google is proud to be an equal opportunity and affirmative action employer. We are committed to building a workforce that is representative of the users we serve, creating a culture of belonging, and providing an equal employment opportunity regardless of race, creed, color, religion, gender, sexual orientation, gender identity/expression, national origin, disability, age, genetic information, veteran status, marital status, pregnancy or related condition (including breastfeeding), expecting or parents-to-be, criminal histories consistent with legal requirements, or any other basis protected by law. See also
+                  - link "Google's EEO Policy" [ref=e1152] [cursor=pointer]:
+                    - /url: https://www.google.com/about/careers/applications/eeo/
+                  - text: ","
+                  - 'link "Know your rights: workplace discrimination is illegal" [ref=e1153] [cursor=pointer]':
+                    - /url: https://careers.google.com/jobs/dist/legal/EEOC_KnowYourRights_10_20.pdf
+                  - text: ","
+                  - link "Belonging at Google" [ref=e1154] [cursor=pointer]:
+                    - /url: https://about.google/belonging/
+                  - text: ", and"
+                  - link "How we hire" [ref=e1155] [cursor=pointer]:
+                    - /url: https://careers.google.com/how-we-hire/
+                  - text: .
+            - generic [ref=e1156]:
+              - link "google.com (Opens in a new tab)" [ref=e1158] [cursor=pointer]:
+                - /url: https://www.google.com/
+                - img "Google" [ref=e1159]
+              - generic [ref=e1160]:
+                - generic [ref=e1161]:
+                  - link "Privacy (opens in a new tab)" [ref=e1163] [cursor=pointer]:
+                    - /url: https://policies.google.com/privacy
+                    - text: Privacy
+                    - generic [ref=e1165]: open_in_new
+                  - link "Applicant & Candidate Privacy (opens in a new tab)" [ref=e1167] [cursor=pointer]:
+                    - /url: ./privacy-policy
+                    - text: Applicant & Candidate Privacy
+                    - generic [ref=e1169]: open_in_new
+                  - link "Terms (opens in a new tab)" [ref=e1171] [cursor=pointer]:
+                    - /url: https://policies.google.com/terms
+                    - text: Terms
+                    - generic [ref=e1173]: open_in_new
+                - generic [ref=e1174]:
+                  - link "Help (opens in a new tab)" [ref=e1175] [cursor=pointer]:
+                    - /url: https://support.google.com/googlecareers/#topic=6095159
+                    - generic [ref=e1177]: help
+                    - text: Help
+                    - generic [ref=e1179]: open_in_new
+                  - combobox "Select language" [ref=e1183] [cursor=pointer]:
+                    - generic: language
+                    - generic:
+                      - generic: English
+                    - generic:
+                      - img

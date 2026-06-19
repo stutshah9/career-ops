@@ -1,0 +1,971 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic:
+      - link "Skip to main content":
+        - /url: "#skipToMainContent"
+    - generic [ref=e6]:
+      - link "Company Logo" [ref=e8] [cursor=pointer]:
+        - /url: https://careers.adobe.com/us/en/
+        - img "adobe-logo" [ref=e9]
+      - navigation "primary" [ref=e267]:
+        - list [ref=e268]:
+          - listitem [ref=e269]:
+            - button "Careers" [ref=e270] [cursor=pointer]:
+              - generic [ref=e271]: Careers
+              - img [ref=e273]
+          - listitem [ref=e275]:
+            - button "Teams" [ref=e276] [cursor=pointer]:
+              - generic [ref=e277]: Teams
+              - img [ref=e279]
+          - listitem [ref=e281]:
+            - link "University" [ref=e283] [cursor=pointer]:
+              - /url: https://careers.adobe.com/us/en/university
+          - listitem [ref=e284]:
+            - link "Adobe For All" [ref=e286] [cursor=pointer]:
+              - /url: https://www.adobe.com/diversity.html
+          - listitem [ref=e287]:
+            - link "View Application Status" [ref=e289] [cursor=pointer]:
+              - /url: https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/login
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - button "Login" [ref=e293] [cursor=pointer]:
+            - img [ref=e295]
+            - generic [ref=e297]: Login
+        - listitem [ref=e14]:
+          - link "saved jobs (0)" [ref=e302] [cursor=pointer]:
+            - /url: https://careers.adobe.com/us/en/jobcart
+            - img [ref=e304]
+            - generic [ref=e306]: Saved jobs
+            - generic [ref=e307]: (0)
+  - main [ref=e15]:
+    - generic: "-"
+    - generic [ref=e18]: "-"
+    - region "cookies message" [ref=e308]:
+      - generic [ref=e309]:
+        - generic [ref=e311]:
+          - text: We use cookies to offer you a better browsing experience, analyze site traffic, and personalize content. Read about how we use cookies and how you can control them by visiting our
+          - link "Cookie Settings" [ref=e312] [cursor=pointer]:
+            - /url: https://careers.adobe.com/us/en/cookiesettings
+          - text: page.
+        - generic [ref=e313]:
+          - button "Deny" [ref=e314] [cursor=pointer]:
+            - generic [ref=e315]: $
+            - text: Deny
+          - button " Allow" [ref=e316] [cursor=pointer]:
+            - generic [ref=e317]: 
+            - text: Allow
+    - generic [ref=e19]:
+      - generic [ref=e22]:
+        - figure [ref=e318]:
+          - img "SearchResultsHero" [ref=e23]
+        - generic [ref=e26]:
+          - heading "Careers at Adobe" [level=1] [ref=e27]
+          - form "Global search" [ref=e324]:
+            - generic [ref=e329]:
+              - generic [ref=e331]:
+                - generic [ref=e332]: Enter job title or location
+                - combobox "Enter job title or location" [ref=e333]: Software Engineer
+                - button "Clear text" [ref=e334] [cursor=pointer]:
+                  - img [ref=e336]
+              - button "Search" [ref=e341] [cursor=pointer]:
+                - generic [ref=e342]: Search
+      - generic [ref=e30]:
+        - region "Refine your search" [ref=e346]:
+          - text: $
+          - heading "Refine your search." [level=2] [ref=e349]:
+            - generic [ref=e351]: Refine your search.
+          - generic [ref=e352]:
+            - generic [ref=e353]:
+              - heading "Remote" [level=3] [ref=e356]:
+                - button "Remote" [ref=e357] [cursor=pointer]:
+                  - text: Remote
+                  - generic [ref=e358]: (
+              - generic: ":"
+            - generic [ref=e359]:
+              - heading "Country" [level=3] [ref=e362]:
+                - button "Country" [expanded] [ref=e363] [cursor=pointer]:
+                  - text: Country
+                  - generic [ref=e364]: "8"
+              - generic [ref=e366]:
+                - generic [ref=e368]:
+                  - searchbox "Search in Country" [ref=e369]
+                  - text: ":"
+                - group "Country" [ref=e371]:
+                  - generic [ref=e372]: Country
+                  - list [ref=e373]:
+                    - listitem [ref=e374]:
+                      - generic [ref=e375] [cursor=pointer]:
+                        - checkbox "Armenia 2 jobs" [ref=e376]
+                        - generic [ref=e378]:
+                          - text: Armenia
+                          - generic [ref=e379]:
+                            - text: (2)
+                            - generic [ref=e380]: jobs
+                    - listitem [ref=e381]:
+                      - generic [ref=e382] [cursor=pointer]:
+                        - checkbox "Australia 2 jobs" [ref=e383]
+                        - generic [ref=e385]:
+                          - text: Australia
+                          - generic [ref=e386]:
+                            - text: (2)
+                            - generic [ref=e387]: jobs
+                    - listitem [ref=e388]:
+                      - generic [ref=e389] [cursor=pointer]:
+                        - checkbox "Brazil 3 jobs" [ref=e390]
+                        - generic [ref=e392]:
+                          - text: Brazil
+                          - generic [ref=e393]:
+                            - text: (3)
+                            - generic [ref=e394]: jobs
+                    - listitem [ref=e395]:
+                      - generic [ref=e396] [cursor=pointer]:
+                        - checkbox "Canada 7 jobs" [ref=e397]
+                        - generic [ref=e399]:
+                          - text: Canada
+                          - generic [ref=e400]:
+                            - text: (7)
+                            - generic [ref=e401]: jobs
+                    - listitem [ref=e402]:
+                      - generic [ref=e403] [cursor=pointer]:
+                        - checkbox "Chile 1 job" [ref=e404]
+                        - generic [ref=e406]:
+                          - text: Chile
+                          - generic [ref=e407]:
+                            - text: (1)
+                            - generic [ref=e408]: job
+                    - listitem [ref=e409]:
+                      - generic [ref=e410] [cursor=pointer]:
+                        - checkbox "Denmark 1 job" [ref=e411]
+                        - generic [ref=e413]:
+                          - text: Denmark
+                          - generic [ref=e414]:
+                            - text: (1)
+                            - generic [ref=e415]: job
+                    - listitem [ref=e416]:
+                      - generic [ref=e417] [cursor=pointer]:
+                        - checkbox "France 6 jobs" [ref=e418]
+                        - generic [ref=e420]:
+                          - text: France
+                          - generic [ref=e421]:
+                            - text: (6)
+                            - generic [ref=e422]: jobs
+                    - listitem [ref=e423]:
+                      - generic [ref=e424] [cursor=pointer]:
+                        - checkbox "Germany 13 jobs" [ref=e425]
+                        - generic [ref=e427]:
+                          - text: Germany
+                          - generic [ref=e428]:
+                            - text: (13)
+                            - generic [ref=e429]: jobs
+                    - listitem [ref=e430]:
+                      - generic [ref=e431] [cursor=pointer]:
+                        - checkbox "Hong Kong 1 job" [ref=e432]
+                        - generic [ref=e434]:
+                          - text: Hong Kong
+                          - generic [ref=e435]:
+                            - text: (1)
+                            - generic [ref=e436]: job
+                    - listitem [ref=e437]:
+                      - generic [ref=e438] [cursor=pointer]:
+                        - checkbox "India 99 jobs" [ref=e439]
+                        - generic [ref=e441]:
+                          - text: India
+                          - generic [ref=e442]:
+                            - text: (99)
+                            - generic [ref=e443]: jobs
+                    - listitem [ref=e444]:
+                      - generic [ref=e445] [cursor=pointer]:
+                        - checkbox "Italy 3 jobs" [ref=e446]
+                        - generic [ref=e448]:
+                          - text: Italy
+                          - generic [ref=e449]:
+                            - text: (3)
+                            - generic [ref=e450]: jobs
+                    - listitem [ref=e451]:
+                      - generic [ref=e452] [cursor=pointer]:
+                        - checkbox "Japan 5 jobs" [ref=e453]
+                        - generic [ref=e455]:
+                          - text: Japan
+                          - generic [ref=e456]:
+                            - text: (5)
+                            - generic [ref=e457]: jobs
+                    - listitem [ref=e458]:
+                      - generic [ref=e459] [cursor=pointer]:
+                        - checkbox "Korea, Republic of 1 job" [ref=e460]
+                        - generic [ref=e462]:
+                          - text: Korea, Republic of
+                          - generic [ref=e463]:
+                            - text: (1)
+                            - generic [ref=e464]: job
+                    - listitem [ref=e465]:
+                      - generic [ref=e466] [cursor=pointer]:
+                        - checkbox "Mexico 1 job" [ref=e467]
+                        - generic [ref=e469]:
+                          - text: Mexico
+                          - generic [ref=e470]:
+                            - text: (1)
+                            - generic [ref=e471]: job
+                    - listitem [ref=e472]:
+                      - generic [ref=e473] [cursor=pointer]:
+                        - checkbox "Netherlands 3 jobs" [ref=e474]
+                        - generic [ref=e476]:
+                          - text: Netherlands
+                          - generic [ref=e477]:
+                            - text: (3)
+                            - generic [ref=e478]: jobs
+                    - listitem [ref=e479]:
+                      - generic [ref=e480] [cursor=pointer]:
+                        - checkbox "Romania 39 jobs" [ref=e481]
+                        - generic [ref=e483]:
+                          - text: Romania
+                          - generic [ref=e484]:
+                            - text: (39)
+                            - generic [ref=e485]: jobs
+                    - listitem [ref=e486]:
+                      - generic [ref=e487] [cursor=pointer]:
+                        - checkbox "Saudi Arabia 1 job" [ref=e488]
+                        - generic [ref=e490]:
+                          - text: Saudi Arabia
+                          - generic [ref=e491]:
+                            - text: (1)
+                            - generic [ref=e492]: job
+                    - listitem [ref=e493]:
+                      - generic [ref=e494] [cursor=pointer]:
+                        - checkbox "Singapore 3 jobs" [ref=e495]
+                        - generic [ref=e497]:
+                          - text: Singapore
+                          - generic [ref=e498]:
+                            - text: (3)
+                            - generic [ref=e499]: jobs
+                    - listitem [ref=e500]:
+                      - generic [ref=e501] [cursor=pointer]:
+                        - checkbox "Spain 1 job" [ref=e502]
+                        - generic [ref=e504]:
+                          - text: Spain
+                          - generic [ref=e505]:
+                            - text: (1)
+                            - generic [ref=e506]: job
+                    - listitem [ref=e507]:
+                      - generic [ref=e508] [cursor=pointer]:
+                        - checkbox "Switzerland 2 jobs" [ref=e509]
+                        - generic [ref=e511]:
+                          - text: Switzerland
+                          - generic [ref=e512]:
+                            - text: (2)
+                            - generic [ref=e513]: jobs
+                    - listitem [ref=e514]:
+                      - generic [ref=e515] [cursor=pointer]:
+                        - checkbox "United Kingdom 18 jobs" [ref=e516]
+                        - generic [ref=e518]:
+                          - text: United Kingdom
+                          - generic [ref=e519]:
+                            - text: (18)
+                            - generic [ref=e520]: jobs
+                    - listitem [ref=e521]:
+                      - generic [ref=e522] [cursor=pointer]:
+                        - checkbox "United States of America 348 jobs" [ref=e523]
+                        - generic [ref=e525]:
+                          - text: United States of America
+                          - generic [ref=e526]:
+                            - text: (348)
+                            - generic [ref=e527]: jobs
+            - generic [ref=e528]:
+              - heading "State/Province" [level=3] [ref=e531]:
+                - button "State/Province" [ref=e532] [cursor=pointer]:
+                  - text: State/Province
+                  - generic [ref=e533]: (
+              - generic: ":"
+            - generic [ref=e534]:
+              - heading "City" [level=3] [ref=e537]:
+                - button "City" [ref=e538] [cursor=pointer]:
+                  - text: City
+                  - generic [ref=e539]: (
+              - generic: ":"
+            - generic [ref=e540]:
+              - heading "Experience Level" [level=3] [ref=e543]:
+                - button "Experience Level" [ref=e544] [cursor=pointer]:
+                  - text: Experience Level
+                  - generic [ref=e545]: (
+              - generic: ":"
+            - generic [ref=e546]:
+              - heading "Teams" [level=3] [ref=e549]:
+                - button "Teams" [ref=e550] [cursor=pointer]:
+                  - text: Teams
+                  - generic [ref=e551]: (
+              - generic: ":"
+            - generic [ref=e552]:
+              - heading "Profession" [level=3] [ref=e555]:
+                - button "Profession" [ref=e556] [cursor=pointer]:
+                  - text: Profession
+                  - generic [ref=e557]: (
+              - generic: ":"
+            - generic [ref=e558]:
+              - heading "Employment Type" [level=3] [ref=e561]:
+                - button "Employment Type" [ref=e562] [cursor=pointer]:
+                  - text: Employment Type
+                  - generic [ref=e563]: (
+              - generic: ":"
+            - generic [ref=e564]:
+              - heading "Role Type" [level=3] [ref=e567]:
+                - button "Role Type" [ref=e568] [cursor=pointer]:
+                  - text: Role Type
+                  - generic [ref=e569]: (
+              - generic: ":"
+        - generic [ref=e573]:
+          - region "Search results" [ref=e574]:
+            - heading "Showing Search results for \"Software Engineer\"" [level=2] [ref=e577]:
+              - generic [ref=e578]: Showing Search results for
+              - text: "\"Software Engineer\""
+            - generic [ref=e580]:
+              - generic [ref=e582]:
+                - generic [ref=e585]:
+                  - generic [ref=e586]: Search from below list
+                  - textbox "Refine search by using specific job title or keyword" [ref=e587]:
+                    - /placeholder: Search from below list
+                  - text: "$ :"
+                - generic [ref=e589]:
+                  - generic [ref=e590]: 546 results
+                  - generic [ref=e591]:
+                    - text: "|"
+                    - generic [ref=e592]: Sort by
+                    - generic [ref=e593]:
+                      - combobox "Sort by" [ref=e594]:
+                        - option "Most relevant" [selected]
+                        - option "Most recent"
+                      - generic: 
+                  - text: F
+              - list [ref=e596]:
+                - listitem [ref=e597]:
+                  - generic [ref=e598]:
+                    - generic [ref=e599]:
+                      - heading "Software Development Engineer Job ID is R168236" [level=3] [ref=e600]:
+                        - link "Software Development Engineer Job ID is R168236" [ref=e601] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R168236/Software-Development-Engineer
+                          - generic [ref=e602]: Software Development Engineer
+                      - paragraph [ref=e603]:
+                        - generic [ref=e605]:
+                          - generic [ref=e606]: Location
+                          - generic [ref=e607]: 
+                          - text: San Jose, California, United States of America
+                        - generic [ref=e609]:
+                          - generic [ref=e610]: Job Id
+                          - generic [ref=e611]: 
+                          - text: R168236
+                        - generic [ref=e613]:
+                          - generic [ref=e614]: Posted Date
+                          - generic [ref=e615]: 
+                          - text: 06/04/2026
+                      - button "Software Development Engineer ADOBUSR168236EXTERNALENUS Job available in 2 categories" [ref=e618] [cursor=pointer]:
+                        - text: Job associated with 2 categories
+                        - generic [ref=e619]: 
+                      - text: 
+                      - paragraph [ref=e620]: Join our team as a Senior Software Development Engineer and help build industry-leading B2B applications using Databricks, Spark, Scala, and cloud platforms. Drive innovation, lead technical teams, and shape scalable solutions in a dynamic, collaborative environment. Grow your career with Adobe and make an impact on cutting-edge technology projects.
+                    - list [ref=e622]:
+                      - listitem [ref=e623]:
+                        - link "Apply Now for Software Development Engineer" [ref=e625] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR168236EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e626]: Software Development Engineer
+                      - listitem [ref=e627]:
+                        - generic [ref=e630] [cursor=pointer]:
+                          - checkbox "Save Software Development Engineer R168236 to job cart" [ref=e631]
+                          - generic [ref=e632]:
+                            - generic [ref=e633]: "|"
+                            - generic [ref=e634]: Save Software Development Engineer R168236
+                - listitem [ref=e635]:
+                  - generic [ref=e636]:
+                    - generic [ref=e637]:
+                      - heading "Software Development Engineer Job ID is R169033" [level=3] [ref=e638]:
+                        - link "Software Development Engineer Job ID is R169033" [ref=e639] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R169033/Software-Development-Engineer
+                          - generic [ref=e640]: Software Development Engineer
+                      - paragraph [ref=e641]:
+                        - generic [ref=e643]:
+                          - generic [ref=e644]: Location
+                          - generic [ref=e645]: 
+                          - text: Edinburgh, Midlothian, United Kingdom
+                        - generic [ref=e647]:
+                          - generic [ref=e648]: Job Id
+                          - generic [ref=e649]: 
+                          - text: R169033
+                        - generic [ref=e651]:
+                          - generic [ref=e652]: Posted Date
+                          - generic [ref=e653]: 
+                          - text: 06/04/2026
+                      - button "Software Development Engineer ADOBUSR169033EXTERNALENUS Job available in 2 categories" [ref=e656] [cursor=pointer]:
+                        - text: Job associated with 2 categories
+                        - generic [ref=e657]: 
+                      - text: 
+                      - paragraph [ref=e658]: Join us as a Software Development Engineer and help shape the future of Adobe’s Administration Platform. Collaborate with talented engineers, build scalable backend systems, and work with cutting-edge technologies in a hybrid environment. Grow your skills in cloud, microservices, and DevOps while making a global impact.
+                    - list [ref=e660]:
+                      - listitem [ref=e661]:
+                        - link "Apply Now for Software Development Engineer" [ref=e663] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR169033EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e664]: Software Development Engineer
+                      - listitem [ref=e665]:
+                        - generic [ref=e668] [cursor=pointer]:
+                          - checkbox "Save Software Development Engineer R169033 to job cart" [ref=e669]
+                          - generic [ref=e670]:
+                            - generic [ref=e671]: "|"
+                            - generic [ref=e672]: Save Software Development Engineer R169033
+                - listitem [ref=e673]:
+                  - generic [ref=e674]:
+                    - generic [ref=e675]:
+                      - heading "Software Development Engineer Job ID is R166329" [level=3] [ref=e676]:
+                        - link "Software Development Engineer Job ID is R166329" [ref=e677] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R166329/Software-Development-Engineer
+                          - generic [ref=e678]: Software Development Engineer
+                      - paragraph [ref=e679]:
+                        - generic [ref=e681]:
+                          - generic [ref=e682]: Job Id
+                          - generic [ref=e683]: 
+                          - text: R166329
+                        - generic [ref=e685]:
+                          - generic [ref=e686]: Posted Date
+                          - generic [ref=e687]: 
+                          - text: 06/03/2026
+                      - button "Software Development Engineer ADOBUSR166329EXTERNALENUS Job available in 2 locations" [ref=e690] [cursor=pointer]:
+                        - text: Job available in 2 locations
+                        - generic [ref=e691]: 
+                      - button "Software Development Engineer ADOBUSR166329EXTERNALENUS Job available in 2 categories" [ref=e694] [cursor=pointer]:
+                        - text: Job associated with 2 categories
+                        - generic [ref=e695]: 
+                      - text: 
+                      - paragraph [ref=e696]: Join us as a Software Development Engineer and help architect, build, and deliver innovative solutions for global clients. Collaborate with cross-functional teams, leverage AI and large-scale systems, and drive engineering excellence. If you thrive in dynamic environments and are passionate about impactful technology, this is your next challenge!
+                    - list [ref=e698]:
+                      - listitem [ref=e699]:
+                        - link "Apply Now for Software Development Engineer" [ref=e701] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR166329EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e702]: Software Development Engineer
+                      - listitem [ref=e703]:
+                        - generic [ref=e706] [cursor=pointer]:
+                          - checkbox "Save Software Development Engineer R166329 to job cart" [ref=e707]
+                          - generic [ref=e708]:
+                            - generic [ref=e709]: "|"
+                            - generic [ref=e710]: Save Software Development Engineer R166329
+                - listitem [ref=e711]:
+                  - generic [ref=e712]:
+                    - generic [ref=e713]:
+                      - heading "Software Development Engineer Job ID is R159512" [level=3] [ref=e714]:
+                        - link "Software Development Engineer Job ID is R159512" [ref=e715] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R159512/Software-Development-Engineer
+                          - generic [ref=e716]: Software Development Engineer
+                      - paragraph [ref=e717]:
+                        - generic [ref=e719]:
+                          - generic [ref=e720]: Location
+                          - generic [ref=e721]: 
+                          - text: San Jose, California, United States of America
+                        - generic [ref=e723]:
+                          - generic [ref=e724]: Job Id
+                          - generic [ref=e725]: 
+                          - text: R159512
+                        - generic [ref=e727]:
+                          - generic [ref=e728]: Posted Date
+                          - generic [ref=e729]: 
+                          - text: 04/09/2026
+                      - button "Software Development Engineer ADOBUSR159512EXTERNALENUS Job available in 2 categories" [ref=e732] [cursor=pointer]:
+                        - text: Job associated with 2 categories
+                        - generic [ref=e733]: 
+                      - text: 
+                      - paragraph [ref=e734]: Embrace the role of a Software Development Engineer and help build scalable, high-performance data systems for real-time analytics. Collaborate with experienced engineers and data scientists, work with cutting-edge technologies like Java, Python, and cloud platforms, and advance your expertise in distributed systems. Perfect for those starting or growing their careers in software engineering.
+                    - list [ref=e736]:
+                      - listitem [ref=e737]:
+                        - link "Apply Now for Software Development Engineer" [ref=e739] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR159512EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e740]: Software Development Engineer
+                      - listitem [ref=e741]:
+                        - generic [ref=e744] [cursor=pointer]:
+                          - checkbox "Save Software Development Engineer R159512 to job cart" [ref=e745]
+                          - generic [ref=e746]:
+                            - generic [ref=e747]: "|"
+                            - generic [ref=e748]: Save Software Development Engineer R159512
+                - listitem [ref=e749]:
+                  - generic [ref=e750]:
+                    - generic [ref=e751]:
+                      - heading "Software Development Engineer Job ID is R169196" [level=3] [ref=e752]:
+                        - link "Software Development Engineer Job ID is R169196" [ref=e753] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R169196/Software-Development-Engineer
+                          - generic [ref=e754]: Software Development Engineer
+                      - paragraph [ref=e755]:
+                        - generic [ref=e757]:
+                          - generic [ref=e758]: Location
+                          - generic [ref=e759]: 
+                          - text: Bucharest, Bucureşti, Romania
+                        - generic [ref=e761]:
+                          - generic [ref=e762]: Job Id
+                          - generic [ref=e763]: 
+                          - text: R169196
+                        - generic [ref=e765]:
+                          - generic [ref=e766]: Posted Date
+                          - generic [ref=e767]: 
+                          - text: 06/04/2026
+                      - button "Software Development Engineer ADOBUSR169196EXTERNALENUS Job available in 2 categories" [ref=e770] [cursor=pointer]:
+                        - text: Job associated with 2 categories
+                        - generic [ref=e771]: 
+                      - text: 
+                      - paragraph [ref=e772]: Join our team as a Senior Software Development Engineer and help shape the next generation of design tools at Adobe. Collaborate with talented engineers, leverage your expertise in C++, TypeScript, and modern web technologies, and contribute to innovative digital experiences used by millions worldwide. Grow your career in a dynamic, creative environment.
+                    - list [ref=e774]:
+                      - listitem [ref=e775]:
+                        - link "Apply Now for Software Development Engineer" [ref=e777] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR169196EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e778]: Software Development Engineer
+                      - listitem [ref=e779]:
+                        - generic [ref=e782] [cursor=pointer]:
+                          - checkbox "Save Software Development Engineer R169196 to job cart" [ref=e783]
+                          - generic [ref=e784]:
+                            - generic [ref=e785]: "|"
+                            - generic [ref=e786]: Save Software Development Engineer R169196
+                - listitem [ref=e787]:
+                  - generic [ref=e788]:
+                    - generic [ref=e789]:
+                      - heading "Software Development Engineer Job ID is R169042" [level=3] [ref=e790]:
+                        - link "Software Development Engineer Job ID is R169042" [ref=e791] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R169042/Software-Development-Engineer
+                          - generic [ref=e792]: Software Development Engineer
+                      - paragraph [ref=e793]:
+                        - generic [ref=e795]:
+                          - generic [ref=e796]: Location
+                          - generic [ref=e797]: 
+                          - text: Edinburgh, Midlothian, United Kingdom
+                        - generic [ref=e799]:
+                          - generic [ref=e800]: Job Id
+                          - generic [ref=e801]: 
+                          - text: R169042
+                        - generic [ref=e803]:
+                          - generic [ref=e804]: Posted Date
+                          - generic [ref=e805]: 
+                          - text: 06/04/2026
+                      - button "Software Development Engineer ADOBUSR169042EXTERNALENUS Job available in 2 categories" [ref=e808] [cursor=pointer]:
+                        - text: Job associated with 2 categories
+                        - generic [ref=e809]: 
+                      - text: 
+                      - paragraph [ref=e810]: Join us as a Software Development Engineer and help shape the future of Adobe’s Administration Platform. Collaborate with talented engineers, build scalable backend systems, and work with cutting-edge technologies in a hybrid environment. Grow your skills in cloud, microservices, and DevOps while making a global impact.
+                    - list [ref=e812]:
+                      - listitem [ref=e813]:
+                        - link "Apply Now for Software Development Engineer" [ref=e815] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR169042EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e816]: Software Development Engineer
+                      - listitem [ref=e817]:
+                        - generic [ref=e820] [cursor=pointer]:
+                          - checkbox "Save Software Development Engineer R169042 to job cart" [ref=e821]
+                          - generic [ref=e822]:
+                            - generic [ref=e823]: "|"
+                            - generic [ref=e824]: Save Software Development Engineer R169042
+                - listitem [ref=e825]:
+                  - generic [ref=e826]:
+                    - generic [ref=e827]:
+                      - heading "Software Development Engineer Job ID is R168225" [level=3] [ref=e828]:
+                        - link "Software Development Engineer Job ID is R168225" [ref=e829] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R168225/Software-Development-Engineer
+                          - generic [ref=e830]: Software Development Engineer
+                      - paragraph [ref=e831]:
+                        - generic [ref=e833]:
+                          - generic [ref=e834]: Job Id
+                          - generic [ref=e835]: 
+                          - text: R168225
+                        - generic [ref=e837]:
+                          - generic [ref=e838]: Posted Date
+                          - generic [ref=e839]: 
+                          - text: 06/08/2026
+                      - button "Software Development Engineer ADOBUSR168225EXTERNALENUS Job available in 3 locations" [ref=e842] [cursor=pointer]:
+                        - text: Job available in 3 locations
+                        - generic [ref=e843]: 
+                      - button "Software Development Engineer ADOBUSR168225EXTERNALENUS Job available in 2 categories" [ref=e846] [cursor=pointer]:
+                        - text: Job associated with 2 categories
+                        - generic [ref=e847]: 
+                      - text: 
+                      - paragraph [ref=e848]: Embrace the role of a Software Development Engineer and help shape the future of mobile automation at Adobe Express Mobile. Lead automation architecture, enhance test reliability, and work with cutting-edge AI tools. If you thrive in a fast-paced, innovative environment, this is your chance to make a real impact.
+                    - list [ref=e850]:
+                      - listitem [ref=e851]:
+                        - link "Apply Now for Software Development Engineer" [ref=e853] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR168225EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e854]: Software Development Engineer
+                      - listitem [ref=e855]:
+                        - generic [ref=e858] [cursor=pointer]:
+                          - checkbox "Save Software Development Engineer R168225 to job cart" [ref=e859]
+                          - generic [ref=e860]:
+                            - generic [ref=e861]: "|"
+                            - generic [ref=e862]: Save Software Development Engineer R168225
+                - listitem [ref=e863]:
+                  - generic [ref=e864]:
+                    - generic [ref=e865]:
+                      - heading "Software Development Engineer Job ID is R169563" [level=3] [ref=e866]:
+                        - link "Software Development Engineer Job ID is R169563" [ref=e867] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R169563/Software-Development-Engineer
+                          - generic [ref=e868]: Software Development Engineer
+                      - paragraph [ref=e869]:
+                        - generic [ref=e871]:
+                          - generic [ref=e872]: Location
+                          - generic [ref=e873]: 
+                          - text: Bucharest, Bucureşti, Romania
+                        - generic [ref=e875]:
+                          - generic [ref=e876]: Job Id
+                          - generic [ref=e877]: 
+                          - text: R169563
+                        - generic [ref=e879]:
+                          - generic [ref=e880]: Posted Date
+                          - generic [ref=e881]: 
+                          - text: 06/05/2026
+                      - button "Software Development Engineer ADOBUSR169563EXTERNALENUS Job available in 2 categories" [ref=e884] [cursor=pointer]:
+                        - text: Job associated with 2 categories
+                        - generic [ref=e885]: 
+                      - text: 
+                      - paragraph [ref=e886]: Join our team as a Senior Software Development Engineer and help build the data platforms powering real-time analytics for global enterprises. Leverage your expertise in Java, Scala, Spark, and cloud infrastructure to design scalable distributed systems. Collaborate with top engineers and drive innovation in customer journey analytics at Adobe.
+                    - list [ref=e888]:
+                      - listitem [ref=e889]:
+                        - link "Apply Now for Software Development Engineer" [ref=e891] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR169563EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e892]: Software Development Engineer
+                      - listitem [ref=e893]:
+                        - generic [ref=e896] [cursor=pointer]:
+                          - checkbox "Save Software Development Engineer R169563 to job cart" [ref=e897]
+                          - generic [ref=e898]:
+                            - generic [ref=e899]: "|"
+                            - generic [ref=e900]: Save Software Development Engineer R169563
+                - listitem [ref=e901]:
+                  - generic [ref=e902]:
+                    - generic [ref=e903]:
+                      - heading "Software Development Engineer Job ID is R169130" [level=3] [ref=e904]:
+                        - link "Software Development Engineer Job ID is R169130" [ref=e905] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R169130/Software-Development-Engineer
+                          - generic [ref=e906]: Software Development Engineer
+                      - paragraph [ref=e907]:
+                        - generic [ref=e909]:
+                          - generic [ref=e910]: Location
+                          - generic [ref=e911]: 
+                          - text: Noida, Uttar Pradesh, India
+                        - generic [ref=e913]:
+                          - generic [ref=e914]: Job Id
+                          - generic [ref=e915]: 
+                          - text: R169130
+                        - generic [ref=e917]:
+                          - generic [ref=e918]: Posted Date
+                          - generic [ref=e919]: 
+                          - text: 06/17/2026
+                      - button "Software Development Engineer ADOBUSR169130EXTERNALENUS Job available in 2 categories" [ref=e922] [cursor=pointer]:
+                        - text: Job associated with 2 categories
+                        - generic [ref=e923]: 
+                      - text: 
+                      - paragraph [ref=e924]: Join our team as a Senior Data Engineer and help design, build, and optimize scalable data pipelines using Databricks, PySpark, Python, and Azure. Collaborate with business analysts and engineers to deliver impactful data solutions, drive AI/ML initiatives, and shape the future of digital experiences at Adobe. Grow your career with us!
+                    - list [ref=e926]:
+                      - listitem [ref=e927]:
+                        - link "Apply Now for Software Development Engineer" [ref=e929] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR169130EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e930]: Software Development Engineer
+                      - listitem [ref=e931]:
+                        - generic [ref=e934] [cursor=pointer]:
+                          - checkbox "Save Software Development Engineer R169130 to job cart" [ref=e935]
+                          - generic [ref=e936]:
+                            - generic [ref=e937]: "|"
+                            - generic [ref=e938]: Save Software Development Engineer R169130
+                - listitem [ref=e939]:
+                  - generic [ref=e940]:
+                    - generic [ref=e941]:
+                      - heading "Software Development Engineer Job ID is R169623" [level=3] [ref=e942]:
+                        - link "Software Development Engineer Job ID is R169623" [ref=e943] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R169623/Software-Development-Engineer
+                          - generic [ref=e944]: Software Development Engineer
+                      - paragraph [ref=e945]:
+                        - generic [ref=e947]:
+                          - generic [ref=e948]: Location
+                          - generic [ref=e949]: 
+                          - text: Hamburg, Hamburg, Germany
+                        - generic [ref=e951]:
+                          - generic [ref=e952]: Job Id
+                          - generic [ref=e953]: 
+                          - text: R169623
+                        - generic [ref=e955]:
+                          - generic [ref=e956]: Posted Date
+                          - generic [ref=e957]: 
+                          - text: 06/17/2026
+                      - button "Software Development Engineer ADOBUSR169623EXTERNALENUS Job available in 2 categories" [ref=e960] [cursor=pointer]:
+                        - text: Job associated with 2 categories
+                        - generic [ref=e961]: 
+                      - text: 
+                      - paragraph [ref=e962]: Embrace the role of a Software Development Engineer and help shape the future of Adobe Cloud Platform & Collaboration. Own critical backend systems, work with cutting-edge cloud and AI tools, and collaborate across teams to deliver high-impact creative workflows. Grow your career in a dynamic, innovative environment at Adobe.
+                    - list [ref=e964]:
+                      - listitem [ref=e965]:
+                        - link "Apply Now for Software Development Engineer" [ref=e967] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR169623EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e968]: Software Development Engineer
+                      - listitem [ref=e969]:
+                        - generic [ref=e972] [cursor=pointer]:
+                          - checkbox "Save Software Development Engineer R169623 to job cart" [ref=e973]
+                          - generic [ref=e974]:
+                            - generic [ref=e975]: "|"
+                            - generic [ref=e976]: Save Software Development Engineer R169623
+          - region "pagination" [ref=e977]:
+            - text: Z
+            - button "Page 1": "1"
+            - button "Page 2" [ref=e978] [cursor=pointer]: "2"
+            - button "Page 3" [ref=e979] [cursor=pointer]: "3"
+            - button "Page 4" [ref=e980] [cursor=pointer]: "4"
+            - button "Page 5" [ref=e981] [cursor=pointer]: "5"
+            - button "Page 6" [ref=e982] [cursor=pointer]: "6"
+            - button "Page 7" [ref=e983] [cursor=pointer]: "7"
+            - button "Page 8" [ref=e984] [cursor=pointer]: "8"
+            - button "Page 9" [ref=e985] [cursor=pointer]: "9"
+            - button "Page 10" [ref=e986] [cursor=pointer]: "10"
+            - button "View next page" [ref=e987] [cursor=pointer]:
+              - generic [ref=e988]: 
+      - generic [ref=e38]:
+        - heading "Stay in the loop." [level=2] [ref=e39]
+        - generic [ref=e40]: Join a community of innovators and get early access to opportunities, insider insights, and exclusive updates on life at Adobe.
+        - link "Join our talent community" [ref=e41] [cursor=pointer]:
+          - /url: https://careers.adobe.com/us/en/jointalentcommunity
+          - generic [ref=e42]: Join our talent community
+      - list [ref=e46]:
+        - listitem [ref=e47]
+        - listitem [ref=e49]:
+          - figure [ref=e989]:
+            - img "LetsAdobeTogether" [ref=e50]
+        - listitem [ref=e52]
+  - generic [ref=e54]:
+    - region [ref=e57]:
+      - list [ref=e990]:
+        - listitem [ref=e991]:
+          - generic "Career Site Cookie Settings" [ref=e65] [cursor=pointer]:
+            - generic [ref=e66]: Career Site Cookie Settings
+            - text: 
+        - listitem [ref=e992]:
+          - generic "Personal Information" [ref=e71] [cursor=pointer]:
+            - generic [ref=e72]: Personal Information
+            - text: 
+    - contentinfo [ref=e75]:
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - generic [ref=e78]:
+            - list [ref=e80]:
+              - listitem [ref=e81]:
+                - heading "Shop for" [level=5] [ref=e82]
+              - list [ref=e83]:
+                - listitem [ref=e84]:
+                  - link "Creative Cloud" [ref=e85] [cursor=pointer]:
+                    - /url: https://www.adobe.com/creativecloud.html?promoid=ZP46FD38&mv=other
+                - listitem [ref=e86]:
+                  - link "Photoshop" [ref=e87] [cursor=pointer]:
+                    - /url: https://www.adobe.com/products/photoshop.html
+                - listitem
+              - listitem [ref=e88]:
+                - link "Photography" [ref=e89] [cursor=pointer]:
+                  - /url: https://www.adobe.com/creativecloud/photography.html
+              - listitem [ref=e90]:
+                - link "Premiere Pro" [ref=e91] [cursor=pointer]:
+                  - /url: https://www.adobe.com/products/premiere.html
+              - listitem [ref=e92]:
+                - link "Adobe Express" [ref=e93] [cursor=pointer]:
+                  - /url: https://www.adobe.com/express/
+              - listitem [ref=e94]:
+                - link "Adobe Stock" [ref=e95] [cursor=pointer]:
+                  - /url: https://stock.adobe.com/in/
+              - listitem [ref=e96]:
+                - link "Elements Family" [ref=e97] [cursor=pointer]:
+                  - /url: https://www.adobe.com/products/elements-family.html
+              - listitem [ref=e98]:
+                - link "Document Cloud" [ref=e99] [cursor=pointer]:
+                  - /url: https://www.adobe.com/documentcloud.html
+              - listitem [ref=e100]:
+                - link "Acrobat" [ref=e101] [cursor=pointer]:
+                  - /url: https://www.adobe.com/acrobat.html
+              - listitem [ref=e102]:
+                - link "Acrobat Sign" [ref=e103] [cursor=pointer]:
+                  - /url: https://www.adobe.com/sign.html
+              - listitem [ref=e104]:
+                - link "Special offers" [ref=e105] [cursor=pointer]:
+                  - /url: https://www.adobe.com/products/special-offers.html
+              - listitem [ref=e106]:
+                - link "View plans and pricing" [ref=e107] [cursor=pointer]:
+                  - /url: https://www.adobe.com/creativecloud/plans.html
+              - listitem [ref=e108]:
+                - link "View all products" [ref=e109] [cursor=pointer]:
+                  - /url: https://www.adobe.com/products/catalog.html?types=pf_252Fdesktop&types=pf_252Fmobile&types=pf_252Fweb
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - heading "For business" [level=5] [ref=e113]
+              - listitem [ref=e114]:
+                - link "Creative Cloud for teams" [ref=e115] [cursor=pointer]:
+                  - /url: https://www.adobe.com/creativecloud/business/teams.html
+              - listitem [ref=e116]:
+                - link "Creative Cloud for enterprise" [ref=e117] [cursor=pointer]:
+                  - /url: https://www.adobe.com/creativecloud/business/enterprise.html
+              - listitem [ref=e118]:
+                - link "Document Cloud for business" [ref=e119] [cursor=pointer]:
+                  - /url: https://www.adobe.com/documentcloud/business.html
+              - listitem [ref=e120]:
+                - list [ref=e122]:
+                  - listitem [ref=e123]:
+                    - heading "For education" [level=5] [ref=e124]
+                  - listitem [ref=e125]:
+                    - link "Discounts for students and teachers" [ref=e126] [cursor=pointer]:
+                      - /url: https://www.adobe.com/creativecloud/buy/students.html
+                  - listitem [ref=e127]:
+                    - link "Schools and universities" [ref=e128] [cursor=pointer]:
+                      - /url: https://www.adobe.com/education.html
+                  - listitem [ref=e129]:
+                    - link "Digital Learning Solutions" [ref=e130] [cursor=pointer]:
+                      - /url: https://www.adobe.com/elearning.html
+              - listitem [ref=e131]:
+                - list [ref=e133]:
+                  - listitem [ref=e134]:
+                    - heading "For mobile" [level=5] [ref=e135]
+                  - listitem [ref=e136]:
+                    - link "Apps for iOS" [ref=e137] [cursor=pointer]:
+                      - /url: https://apps.apple.com/sg/app/adobe-creative-cloud/id852473028
+                  - listitem [ref=e138]:
+                    - link "Apps for Android" [ref=e139] [cursor=pointer]:
+                      - /url: https://play.google.com/store/apps/details?id=com.adobe.cc
+            - list [ref=e141]:
+              - listitem [ref=e142]:
+                - heading "Experience Cloud" [level=5] [ref=e143]
+              - listitem [ref=e144]:
+                - link "What is Experience Cloud?" [ref=e145] [cursor=pointer]:
+                  - /url: https://business.adobe.com/
+              - listitem [ref=e146]:
+                - link "Analytics" [ref=e147] [cursor=pointer]:
+                  - /url: https://business.adobe.com/products/analytics/adobe-analytics.html
+              - listitem [ref=e148]:
+                - link "Experience Manager" [ref=e149] [cursor=pointer]:
+                  - /url: https://business.adobe.com/products/experience-manager/adobe-experience-manager.html
+              - listitem [ref=e150]:
+                - link "Commerce" [ref=e151] [cursor=pointer]:
+                  - /url: https://business.adobe.com/products/magento/magento-commerce.html
+              - listitem [ref=e152]:
+                - link "Marketo Engage" [ref=e153] [cursor=pointer]:
+                  - /url: https://business.adobe.com/products/marketo/adobe-marketo.html
+              - listitem [ref=e154]:
+                - link "Workfront" [ref=e155] [cursor=pointer]:
+                  - /url: https://www.workfront.com/
+            - list [ref=e157]:
+              - listitem [ref=e158]:
+                - heading "Support" [level=5] [ref=e159]
+              - listitem [ref=e160]:
+                - link "Download and install" [ref=e161] [cursor=pointer]:
+                  - /url: https://helpx.adobe.com/download-install.html
+              - listitem [ref=e162]:
+                - link "Help Center" [ref=e163] [cursor=pointer]:
+                  - /url: https://helpx.adobe.com/support.html
+              - listitem [ref=e164]:
+                - link "Adobe Support Community" [ref=e165] [cursor=pointer]:
+                  - /url: https://community.adobe.com/
+              - listitem [ref=e166]:
+                - link "Enterprise Support" [ref=e167] [cursor=pointer]:
+                  - /url: https://helpx.adobe.com/contact/enterprise-support.html
+              - listitem [ref=e168]:
+                - link "Genuine software" [ref=e169] [cursor=pointer]:
+                  - /url: https://www.adobe.com/genuine.html
+              - listitem [ref=e170]:
+                - list [ref=e172]:
+                  - listitem [ref=e173]:
+                    - heading "Resources" [level=5] [ref=e174]
+                  - listitem [ref=e175]:
+                    - link "Adobe Blog" [ref=e176] [cursor=pointer]:
+                      - /url: https://blog.adobe.com/
+                  - listitem [ref=e177]:
+                    - link "Adobe Developer" [ref=e178] [cursor=pointer]:
+                      - /url: https://developer.adobe.com/
+              - listitem [ref=e179]:
+                - list [ref=e181]:
+                  - listitem [ref=e182]:
+                    - heading "Adobe Account" [level=5] [ref=e183]
+                  - listitem [ref=e184]:
+                    - link "Log in to your account" [ref=e185] [cursor=pointer]:
+                      - /url: https://account.adobe.com/
+            - list [ref=e187]:
+              - listitem [ref=e188]:
+                - heading "Adobe" [level=5] [ref=e189]
+              - listitem [ref=e190]:
+                - link "About" [ref=e191] [cursor=pointer]:
+                  - /url: https://www.adobe.com/about-adobe.html
+              - listitem [ref=e192]:
+                - link "Careers" [ref=e193] [cursor=pointer]:
+                  - /url: https://www.adobe.com/careers.html
+              - listitem [ref=e194]:
+                - link "Newsroom" [ref=e195] [cursor=pointer]:
+                  - /url: https://news.adobe.com/home/default.aspx
+              - listitem [ref=e196]:
+                - link "Corporate responsibility" [ref=e197] [cursor=pointer]:
+                  - /url: https://www.adobe.com/corporate-responsibility.html
+              - listitem [ref=e198]:
+                - link "Investor Relations" [ref=e199] [cursor=pointer]:
+                  - /url: https://www.adobe.com/investor-relations.html
+              - listitem [ref=e200]:
+                - link "Supply chain" [ref=e201] [cursor=pointer]:
+                  - /url: https://www.adobe.com/corporate-responsibility/supply-chain.html
+              - listitem [ref=e202]:
+                - link "Trust Center" [ref=e203] [cursor=pointer]:
+                  - /url: https://www.adobe.com/trust.html
+              - listitem [ref=e204]:
+                - link "Events" [ref=e205] [cursor=pointer]:
+                  - /url: https://www.adobe.com/events.html
+              - listitem [ref=e206]:
+                - link "Adobe for All" [ref=e207] [cursor=pointer]:
+                  - /url: https://www.adobe.com/diversity.html
+              - listitem [ref=e208]:
+                - link "Integrity" [ref=e209] [cursor=pointer]:
+                  - /url: https://www.adobe.com/about-adobe/integrity.html
+          - list [ref=e212]:
+            - listitem [ref=e213]:
+              - paragraph [ref=e214]: Featured Downloads
+            - listitem [ref=e215]:
+              - link "acrobat-reader-icon Adobe Acrobat Reader" [ref=e216] [cursor=pointer]:
+                - /url: https://get.adobe.com/uk/reader/
+                - img "acrobat-reader-icon" [ref=e218]
+                - generic [ref=e219]: Adobe Acrobat Reader
+            - listitem [ref=e220]:
+              - link "photoshop-icon Photoshop" [ref=e221] [cursor=pointer]:
+                - /url: https://www.adobe.com/products/photoshop/free-trial-download.html
+                - img "photoshop-icon" [ref=e223]
+                - generic [ref=e224]: Photoshop
+            - listitem [ref=e225]:
+              - link "Illustrato Illustrator" [ref=e226] [cursor=pointer]:
+                - /url: https://www.adobe.com/products/illustrator/free-trial-download.html
+                - img "Illustrato" [ref=e228]
+                - generic [ref=e229]: Illustrator
+          - generic [ref=e230]:
+            - generic:
+              - list [ref=e233]:
+                - listitem [ref=e234]:
+                  - link "facebook" [ref=e235] [cursor=pointer]:
+                    - /url: https://www.facebook.com/adobe
+                    - generic [ref=e236]: 
+                - listitem [ref=e237]:
+                  - link "twitter" [ref=e238] [cursor=pointer]:
+                    - /url: https://twitter.com/Adobe
+                    - generic [ref=e239]: 
+                - listitem [ref=e240]:
+                  - link "linkedin" [ref=e241] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/adobe
+                    - generic [ref=e242]: 
+                - listitem [ref=e243]:
+                  - link "instagram" [ref=e244] [cursor=pointer]:
+                    - /url: https://www.instagram.com/adobe/
+                    - generic [ref=e245]: 
+              - list [ref=e247]:
+                - listitem [ref=e248]:
+                  - paragraph [ref=e249]: Copyright © 2022 Adobe. All rights reserved. /
+                - listitem [ref=e250]:
+                  - link "Privacy /" [ref=e251] [cursor=pointer]:
+                    - /url: https://www.adobe.com/privacy/applicant-privacy.html
+                - listitem [ref=e252]:
+                  - link "Terms of Use /" [ref=e253] [cursor=pointer]:
+                    - /url: https://www.adobe.com/legal/terms.html
+                - listitem [ref=e254]:
+                  - link "Cookie preferences /" [ref=e255] [cursor=pointer]:
+                    - /url: https://careers.adobe.com/us/en/cookiesettings
+                - listitem [ref=e256]:
+                  - link "Do not sell my personal information /" [ref=e257] [cursor=pointer]:
+                    - /url: https://www.adobe.com/privacy/ca-rights.html
+                - listitem [ref=e258]:
+                  - link "AdChoices" [ref=e259] [cursor=pointer]:
+                    - /url: https://www.adobe.com/privacy/opt-out.html#interest-based-ads
+                    - text: AdChoices
+        - text:              / / / / /

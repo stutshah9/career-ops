@@ -1,0 +1,839 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic:
+      - link "Skip to main content":
+        - /url: "#skipToMainContent"
+    - generic [ref=e6]:
+      - link "Company Logo" [ref=e8] [cursor=pointer]:
+        - /url: https://careers.adobe.com/us/en/
+        - img "adobe-logo" [ref=e9]
+      - navigation "primary" [ref=e16]:
+        - list [ref=e17]:
+          - listitem [ref=e18]:
+            - button "Careers" [ref=e19] [cursor=pointer]:
+              - generic [ref=e20]: Careers
+              - img [ref=e22]
+          - listitem [ref=e24]:
+            - button "Teams" [ref=e25] [cursor=pointer]:
+              - generic [ref=e26]: Teams
+              - img [ref=e28]
+          - listitem [ref=e30]:
+            - link "University" [ref=e32] [cursor=pointer]:
+              - /url: https://careers.adobe.com/us/en/university
+          - listitem [ref=e33]:
+            - link "Adobe For All" [ref=e35] [cursor=pointer]:
+              - /url: https://www.adobe.com/diversity.html
+          - listitem [ref=e36]:
+            - link "View Application Status" [ref=e38] [cursor=pointer]:
+              - /url: https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/login
+      - list [ref=e40]:
+        - listitem [ref=e41]:
+          - button "Login" [ref=e45] [cursor=pointer]:
+            - img [ref=e47]
+            - generic [ref=e49]: Login
+        - listitem [ref=e52]:
+          - link "saved jobs (0)" [ref=e55] [cursor=pointer]:
+            - /url: https://careers.adobe.com/us/en/jobcart
+            - img [ref=e57]
+            - generic [ref=e59]: Saved jobs
+            - generic [ref=e60]: (0)
+  - main [ref=e61]:
+    - generic: "-"
+    - generic [ref=e64]: "-"
+    - generic [ref=e65]:
+      - generic [ref=e68]:
+        - figure [ref=e69]:
+          - img "SearchResultsHero" [ref=e70]
+        - generic [ref=e73]:
+          - heading "Careers at Adobe" [level=1] [ref=e74]
+          - form "Global search" [ref=e80]:
+            - generic [ref=e85]:
+              - generic [ref=e87]:
+                - generic [ref=e88]: Enter job title or location
+                - combobox "Enter job title or location" [ref=e89]: University Graduate
+                - button "Clear text" [ref=e90] [cursor=pointer]:
+                  - img [ref=e92]
+              - button "Search" [ref=e97] [cursor=pointer]:
+                - generic [ref=e98]: Search
+      - generic [ref=e101]:
+        - region "Refine your search" [ref=e106]:
+          - text: $
+          - heading "Refine your search." [level=2] [ref=e109]:
+            - generic [ref=e111]: Refine your search.
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - heading "Remote" [level=3] [ref=e116]:
+                - button "Remote" [ref=e117] [cursor=pointer]:
+                  - text: Remote
+                  - generic [ref=e118]: (
+              - generic: ":"
+            - generic [ref=e119]:
+              - heading "Country" [level=3] [ref=e122]:
+                - button "Country" [expanded] [ref=e123] [cursor=pointer]:
+                  - text: Country
+                  - generic [ref=e124]: "8"
+              - generic [ref=e126]:
+                - generic [ref=e128]:
+                  - searchbox "Search in Country" [ref=e129]
+                  - text: ":"
+                - group "Country" [ref=e131]:
+                  - generic [ref=e132]: Country
+                  - list [ref=e133]:
+                    - listitem [ref=e134]:
+                      - generic [ref=e135] [cursor=pointer]:
+                        - checkbox "Canada 1 job" [ref=e136]
+                        - generic [ref=e138]:
+                          - text: Canada
+                          - generic [ref=e139]:
+                            - text: (1)
+                            - generic [ref=e140]: job
+                    - listitem [ref=e141]:
+                      - generic [ref=e142] [cursor=pointer]:
+                        - checkbox "Germany 3 jobs" [ref=e143]
+                        - generic [ref=e145]:
+                          - text: Germany
+                          - generic [ref=e146]:
+                            - text: (3)
+                            - generic [ref=e147]: jobs
+                    - listitem [ref=e148]:
+                      - generic [ref=e149] [cursor=pointer]:
+                        - checkbox "India 10 jobs" [ref=e150]
+                        - generic [ref=e152]:
+                          - text: India
+                          - generic [ref=e153]:
+                            - text: (10)
+                            - generic [ref=e154]: jobs
+                    - listitem [ref=e155]:
+                      - generic [ref=e156] [cursor=pointer]:
+                        - checkbox "Japan 2 jobs" [ref=e157]
+                        - generic [ref=e159]:
+                          - text: Japan
+                          - generic [ref=e160]:
+                            - text: (2)
+                            - generic [ref=e161]: jobs
+                    - listitem [ref=e162]:
+                      - generic [ref=e163] [cursor=pointer]:
+                        - checkbox "Romania 1 job" [ref=e164]
+                        - generic [ref=e166]:
+                          - text: Romania
+                          - generic [ref=e167]:
+                            - text: (1)
+                            - generic [ref=e168]: job
+                    - listitem [ref=e169]:
+                      - generic [ref=e170] [cursor=pointer]:
+                        - checkbox "United Kingdom 2 jobs" [ref=e171]
+                        - generic [ref=e173]:
+                          - text: United Kingdom
+                          - generic [ref=e174]:
+                            - text: (2)
+                            - generic [ref=e175]: jobs
+                    - listitem [ref=e176]:
+                      - generic [ref=e177] [cursor=pointer]:
+                        - checkbox "United States of America 27 jobs" [ref=e178]
+                        - generic [ref=e180]:
+                          - text: United States of America
+                          - generic [ref=e181]:
+                            - text: (27)
+                            - generic [ref=e182]: jobs
+            - generic [ref=e183]:
+              - heading "State/Province" [level=3] [ref=e186]:
+                - button "State/Province" [ref=e187] [cursor=pointer]:
+                  - text: State/Province
+                  - generic [ref=e188]: (
+              - generic: ":"
+            - generic [ref=e189]:
+              - heading "City" [level=3] [ref=e192]:
+                - button "City" [ref=e193] [cursor=pointer]:
+                  - text: City
+                  - generic [ref=e194]: (
+              - generic: ":"
+            - generic [ref=e195]:
+              - heading "Experience Level" [level=3] [ref=e198]:
+                - button "Experience Level" [ref=e199] [cursor=pointer]:
+                  - text: Experience Level
+                  - generic [ref=e200]: (
+              - generic: ":"
+            - generic [ref=e201]:
+              - heading "Teams" [level=3] [ref=e204]:
+                - button "Teams" [ref=e205] [cursor=pointer]:
+                  - text: Teams
+                  - generic [ref=e206]: (
+              - generic: ":"
+            - generic [ref=e207]:
+              - heading "Profession" [level=3] [ref=e210]:
+                - button "Profession" [ref=e211] [cursor=pointer]:
+                  - text: Profession
+                  - generic [ref=e212]: (
+              - generic: ":"
+            - generic [ref=e213]:
+              - heading "Employment Type" [level=3] [ref=e216]:
+                - button "Employment Type" [ref=e217] [cursor=pointer]:
+                  - text: Employment Type
+                  - generic [ref=e218]: (
+              - generic: ":"
+            - generic [ref=e219]:
+              - heading "Role Type" [level=3] [ref=e222]:
+                - button "Role Type" [ref=e223] [cursor=pointer]:
+                  - text: Role Type
+                  - generic [ref=e224]: (
+              - generic: ":"
+          - generic [ref=e226]: Search results updated 45 jobs found
+        - generic [ref=e231]:
+          - region "Search results" [ref=e232]:
+            - heading "Showing Search results for \"University Graduate\"" [level=2] [ref=e235]:
+              - generic [ref=e236]: Showing Search results for
+              - text: "\"University Graduate\""
+            - generic [ref=e238]:
+              - generic [ref=e240]:
+                - generic [ref=e243]:
+                  - generic [ref=e244]: Search from below list
+                  - textbox "Refine search by using specific job title or keyword" [ref=e245]:
+                    - /placeholder: Search from below list
+                  - text: "$ :"
+                - generic [ref=e247]:
+                  - generic [ref=e248]: 45 results
+                  - generic [ref=e249]:
+                    - text: "|"
+                    - generic [ref=e250]: Sort by
+                    - generic [ref=e251]:
+                      - combobox "Sort by" [ref=e252]:
+                        - option "Most relevant" [selected]
+                        - option "Most recent"
+                      - generic: 
+                  - text: F
+              - list [ref=e254]:
+                - listitem [ref=e255]:
+                  - generic [ref=e256]:
+                    - generic [ref=e257]:
+                      - heading "2026 University Graduate - Machine Learning Engineer Job ID is R160133" [level=3] [ref=e258]:
+                        - link "2026 University Graduate - Machine Learning Engineer Job ID is R160133" [ref=e259] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R160133/2026-University-Graduate-Machine-Learning-Engineer
+                          - generic [ref=e260]: 2026 University Graduate - Machine Learning Engineer
+                      - paragraph [ref=e261]:
+                        - generic [ref=e263]:
+                          - generic [ref=e264]: Location
+                          - generic [ref=e265]: 
+                          - text: Seattle, Washington, United States of America
+                        - generic [ref=e267]:
+                          - generic [ref=e268]: Category
+                          - generic [ref=e269]: 
+                          - text: Engineering and Product
+                        - generic [ref=e271]:
+                          - generic [ref=e272]: Job Id
+                          - generic [ref=e273]: 
+                          - text: R160133
+                        - generic [ref=e275]:
+                          - generic [ref=e276]: Posted Date
+                          - generic [ref=e277]: 
+                          - text: 03/16/2026
+                      - text: 
+                      - paragraph [ref=e278]: Exciting opportunity for a Machine Learning Engineer to join Adobe Firefly’s Generative AI Services team. Design and optimize scalable generative AI systems, build APIs, and collaborate with top engineers to power innovative features across Adobe products. Ideal for recent PhDs or early-career ML grads eager to shape the future of AI at Adobe.
+                    - list [ref=e280]:
+                      - listitem [ref=e281]:
+                        - link "Apply Now for 2026 University Graduate - Machine Learning Engineer" [ref=e283] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR160133EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e284]: 2026 University Graduate - Machine Learning Engineer
+                      - listitem [ref=e285]:
+                        - generic [ref=e288] [cursor=pointer]:
+                          - checkbox "Save 2026 University Graduate - Machine Learning Engineer R160133 to job cart" [ref=e289]
+                          - generic [ref=e290]:
+                            - generic [ref=e291]: "|"
+                            - generic [ref=e292]: Save 2026 University Graduate - Machine Learning Engineer R160133
+                - listitem [ref=e293]:
+                  - generic [ref=e294]:
+                    - generic [ref=e295]:
+                      - heading "Working Student - Business Development Representative Job ID is R169284" [level=3] [ref=e296]:
+                        - link "Working Student - Business Development Representative Job ID is R169284" [ref=e297] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R169284/Working-Student-Business-Development-Representative
+                          - generic [ref=e298]: Working Student - Business Development Representative
+                      - paragraph [ref=e299]:
+                        - generic [ref=e301]:
+                          - generic [ref=e302]: Location
+                          - generic [ref=e303]: 
+                          - text: Munich, Bavaria, Germany
+                        - generic [ref=e305]:
+                          - generic [ref=e306]: Category
+                          - generic [ref=e307]: 
+                          - text: Other
+                        - generic [ref=e309]:
+                          - generic [ref=e310]: Job Id
+                          - generic [ref=e311]: 
+                          - text: R169284
+                        - generic [ref=e313]:
+                          - generic [ref=e314]: Posted Date
+                          - generic [ref=e315]: 
+                          - text: 06/01/2026
+                      - text: 
+                      - paragraph [ref=e316]: Exciting opportunity for Adobe as a Working Student Business Development Representative! Join our dynamic Enterprise Sales Team in Germany, supporting strategic sales initiatives, account management, and business growth. Gain hands-on experience with leading brands, collaborate with top professionals, and develop your skills in a fast-paced, innovative environment. Apply now to shape your future in sales!
+                    - list [ref=e318]:
+                      - listitem [ref=e319]:
+                        - link "Apply Now for Working Student - Business Development Representative" [ref=e321] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR169284EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e322]: Working Student - Business Development Representative
+                      - listitem [ref=e323]:
+                        - generic [ref=e326] [cursor=pointer]:
+                          - checkbox "Save Working Student - Business Development Representative R169284 to job cart" [ref=e327]
+                          - generic [ref=e328]:
+                            - generic [ref=e329]: "|"
+                            - generic [ref=e330]: Save Working Student - Business Development Representative R169284
+                - listitem [ref=e331]:
+                  - generic [ref=e332]:
+                    - generic [ref=e333]:
+                      - heading "Working Student EMEA Community Marketing Job ID is R169434" [level=3] [ref=e334]:
+                        - link "Working Student EMEA Community Marketing Job ID is R169434" [ref=e335] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R169434/Working-Student-EMEA-Community-Marketing
+                          - generic [ref=e336]: Working Student EMEA Community Marketing
+                      - paragraph [ref=e337]:
+                        - generic [ref=e339]:
+                          - generic [ref=e340]: Location
+                          - generic [ref=e341]: 
+                          - text: Berlin, Berlin, Germany
+                        - generic [ref=e343]:
+                          - generic [ref=e344]: Category
+                          - generic [ref=e345]: 
+                          - text: Other
+                        - generic [ref=e347]:
+                          - generic [ref=e348]: Job Id
+                          - generic [ref=e349]: 
+                          - text: R169434
+                        - generic [ref=e351]:
+                          - generic [ref=e352]: Posted Date
+                          - generic [ref=e353]: 
+                          - text: 06/03/2026
+                      - text: 
+                      - paragraph [ref=e354]: Embrace the role of Adobe as a Working Student in EMEA Community Marketing! Apply your skills in data analysis, research, and analytics to support creative community engagement. Collaborate with diverse teams, generate actionable insights, and help shape the future of Adobe’s Creative Cloud products. Join us and make a real impact in a dynamic, global environment.
+                    - list [ref=e356]:
+                      - listitem [ref=e357]:
+                        - link "Apply Now for Working Student EMEA Community Marketing" [ref=e359] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR169434EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e360]: Working Student EMEA Community Marketing
+                      - listitem [ref=e361]:
+                        - generic [ref=e364] [cursor=pointer]:
+                          - checkbox "Save Working Student EMEA Community Marketing R169434 to job cart" [ref=e365]
+                          - generic [ref=e366]:
+                            - generic [ref=e367]: "|"
+                            - generic [ref=e368]: Save Working Student EMEA Community Marketing R169434
+                - listitem [ref=e369]:
+                  - generic [ref=e370]:
+                    - generic [ref=e371]:
+                      - 'heading "Er: 2026 Intern - Research Scientist / Engineer Job ID is R162130" [level=3] [ref=e372]':
+                        - 'link "Er: 2026 Intern - Research Scientist / Engineer Job ID is R162130" [ref=e373] [cursor=pointer]':
+                          - /url: https://careers.adobe.com/us/en/job/R162130/Er-2026-Intern-Research-Scientist-Engineer
+                          - generic [ref=e374]: "Er: 2026 Intern - Research Scientist / Engineer"
+                      - paragraph [ref=e375]:
+                        - generic [ref=e377]:
+                          - generic [ref=e378]: Category
+                          - generic [ref=e379]: 
+                          - text: Other
+                        - generic [ref=e381]:
+                          - generic [ref=e382]: Job Id
+                          - generic [ref=e383]: 
+                          - text: R162130
+                        - generic [ref=e385]:
+                          - generic [ref=e386]: Posted Date
+                          - generic [ref=e387]: 
+                          - text: 03/17/2026
+                      - 'button "Er: 2026 Intern - Research Scientist / Engineer ADOBUSR162130EXTERNALENUS Job available in 2 locations" [ref=e390] [cursor=pointer]':
+                        - text: Job available in 2 locations
+                        - generic [ref=e391]: 
+                      - text: 
+                      - paragraph [ref=e392]: Exciting opportunity for Adobe as a Research Scientist Intern! Collaborate on cutting-edge AI, machine learning, and computer vision projects, develop innovative algorithms, and present your findings. Join a global leader in creative technologies and gain hands-on experience in a dynamic research environment. Shape the future of digital experiences with us!
+                    - list [ref=e394]:
+                      - listitem [ref=e395]:
+                        - 'link "Apply Now for Er: 2026 Intern - Research Scientist / Engineer" [ref=e397] [cursor=pointer]':
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR162130EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e398]: "Er: 2026 Intern - Research Scientist / Engineer"
+                      - listitem [ref=e399]:
+                        - generic [ref=e402] [cursor=pointer]:
+                          - 'checkbox "Save Er: 2026 Intern - Research Scientist / Engineer R162130 to job cart" [ref=e403]'
+                          - generic [ref=e404]:
+                            - generic [ref=e405]: "|"
+                            - generic [ref=e406]: "Save Er: 2026 Intern - Research Scientist / Engineer R162130"
+                - listitem [ref=e407]:
+                  - generic [ref=e408]:
+                    - generic [ref=e409]:
+                      - heading "Account Executive – Higher Education (DACH) Job ID is R169889" [level=3] [ref=e410]:
+                        - link "Account Executive – Higher Education (DACH) Job ID is R169889" [ref=e411] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R169889/Account-Executive-Higher-Education-DACH
+                          - generic [ref=e412]: Account Executive – Higher Education (DACH)
+                      - paragraph [ref=e413]:
+                        - generic [ref=e415]:
+                          - generic [ref=e416]: Category
+                          - generic [ref=e417]: 
+                          - text: Sales
+                        - generic [ref=e419]:
+                          - generic [ref=e420]: Job Id
+                          - generic [ref=e421]: 
+                          - text: R169889
+                        - generic [ref=e423]:
+                          - generic [ref=e424]: Posted Date
+                          - generic [ref=e425]: 
+                          - text: 06/19/2026
+                      - button "Account Executive – Higher Education (DACH) ADOBUSR169889EXTERNALENUS Job available in 2 locations" [ref=e428] [cursor=pointer]:
+                        - text: Job available in 2 locations
+                        - generic [ref=e429]: 
+                      - text: 
+                      - paragraph [ref=e430]: Embrace the role of an Account Executive – Higher Education and drive digital transformation for leading universities across the DACH and Eastern Europe region. Leverage your enterprise software sales expertise to build executive relationships, deliver innovative solutions, and shape the future of higher education. Make a measurable impact on student success and institutional growth.
+                    - list [ref=e432]:
+                      - listitem [ref=e433]:
+                        - link "Apply Now for Account Executive – Higher Education (DACH)" [ref=e435] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR169889EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e436]: Account Executive – Higher Education (DACH)
+                      - listitem [ref=e437]:
+                        - generic [ref=e440] [cursor=pointer]:
+                          - checkbox "Save Account Executive – Higher Education (DACH) R169889 to job cart" [ref=e441]
+                          - generic [ref=e442]:
+                            - generic [ref=e443]: "|"
+                            - generic [ref=e444]: Save Account Executive – Higher Education (DACH) R169889
+                - listitem [ref=e445]:
+                  - generic [ref=e446]:
+                    - generic [ref=e447]:
+                      - heading "2026 Intern - Research Scientist/Engineer Job ID is R160317" [level=3] [ref=e448]:
+                        - link "2026 Intern - Research Scientist/Engineer Job ID is R160317" [ref=e449] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R160317/2026-Intern-Research-Scientist-Engineer
+                          - generic [ref=e450]: 2026 Intern - Research Scientist/Engineer
+                      - paragraph [ref=e451]:
+                        - generic [ref=e453]:
+                          - generic [ref=e454]: Category
+                          - generic [ref=e455]: 
+                          - text: Other
+                        - generic [ref=e457]:
+                          - generic [ref=e458]: Job Id
+                          - generic [ref=e459]: 
+                          - text: R160317
+                        - generic [ref=e461]:
+                          - generic [ref=e462]: Posted Date
+                          - generic [ref=e463]: 
+                          - text: 03/16/2026
+                      - button "2026 Intern - Research Scientist/Engineer ADOBUSR160317EXTERNALENUS Job available in 7 locations" [ref=e466] [cursor=pointer]:
+                        - text: Job available in 7 locations
+                        - generic [ref=e467]: 
+                      - text: 
+                      - paragraph [ref=e468]: Exciting opportunity for a 2026 intern – Research Scientist / Engineer to join Adobe’s cutting-edge research labs. Apply your skills in machine learning, computer vision, and data science to real-world projects, publish impactful work, and collaborate with top minds. Shape the future of digital experiences with Adobe’s innovative research teams.
+                    - list [ref=e470]:
+                      - listitem [ref=e471]:
+                        - link "Apply Now for 2026 Intern - Research Scientist/Engineer" [ref=e473] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR160317EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e474]: 2026 Intern - Research Scientist/Engineer
+                      - listitem [ref=e475]:
+                        - generic [ref=e478] [cursor=pointer]:
+                          - checkbox "Save 2026 Intern - Research Scientist/Engineer R160317 to job cart" [ref=e479]
+                          - generic [ref=e480]:
+                            - generic [ref=e481]: "|"
+                            - generic [ref=e482]: Save 2026 Intern - Research Scientist/Engineer R160317
+                - listitem [ref=e483]:
+                  - generic [ref=e484]:
+                    - generic [ref=e485]:
+                      - heading "2026 AI/ML Intern - Machine Learning Engineer Job ID is R158493" [level=3] [ref=e486]:
+                        - link "2026 AI/ML Intern - Machine Learning Engineer Job ID is R158493" [ref=e487] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R158493/2026-AI-ML-Intern-Machine-Learning-Engineer
+                          - generic [ref=e488]: 2026 AI/ML Intern - Machine Learning Engineer
+                      - paragraph [ref=e489]:
+                        - generic [ref=e491]:
+                          - generic [ref=e492]: Category
+                          - generic [ref=e493]: 
+                          - text: Other
+                        - generic [ref=e495]:
+                          - generic [ref=e496]: Job Id
+                          - generic [ref=e497]: 
+                          - text: R158493
+                        - generic [ref=e499]:
+                          - generic [ref=e500]: Posted Date
+                          - generic [ref=e501]: 
+                          - text: 04/16/2026
+                      - button "2026 AI/ML Intern - Machine Learning Engineer ADOBUSR158493EXTERNALENUS Job available in 7 locations" [ref=e504] [cursor=pointer]:
+                        - text: Job available in 7 locations
+                        - generic [ref=e505]: 
+                      - text: 
+                      - paragraph [ref=e506]: Exciting opportunity for Adobe as a Machine Learning Intern! Apply your skills in Python, machine learning, and statistical modeling to real-world projects in media optimization, analytics, and product development. Collaborate with top engineers and gain hands-on experience in a dynamic, innovative environment. Join us and help shape the future of digital experiences!
+                    - list [ref=e508]:
+                      - listitem [ref=e509]:
+                        - link "Apply Now for 2026 AI/ML Intern - Machine Learning Engineer" [ref=e511] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR158493EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e512]: 2026 AI/ML Intern - Machine Learning Engineer
+                      - listitem [ref=e513]:
+                        - generic [ref=e516] [cursor=pointer]:
+                          - checkbox "Save 2026 AI/ML Intern - Machine Learning Engineer R158493 to job cart" [ref=e517]
+                          - generic [ref=e518]:
+                            - generic [ref=e519]: "|"
+                            - generic [ref=e520]: Save 2026 AI/ML Intern - Machine Learning Engineer R158493
+                - listitem [ref=e521]:
+                  - generic [ref=e522]:
+                    - generic [ref=e523]:
+                      - heading "Senior Compensation & Benefits Partner Job ID is R167567" [level=3] [ref=e524]:
+                        - link "Senior Compensation & Benefits Partner Job ID is R167567" [ref=e525] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R167567/Senior-Compensation-Benefits-Partner
+                          - generic [ref=e526]: Senior Compensation & Benefits Partner
+                      - paragraph [ref=e527]:
+                        - generic [ref=e529]:
+                          - generic [ref=e530]: Location
+                          - generic [ref=e531]: 
+                          - text: Bangalore, Karnātaka, India
+                        - generic [ref=e533]:
+                          - generic [ref=e534]: Category
+                          - generic [ref=e535]: 
+                          - text: Employee Experience
+                        - generic [ref=e537]:
+                          - generic [ref=e538]: Job Id
+                          - generic [ref=e539]: 
+                          - text: R167567
+                        - generic [ref=e541]:
+                          - generic [ref=e542]: Posted Date
+                          - generic [ref=e543]: 
+                          - text: 04/13/2026
+                      - text: 
+                      - paragraph [ref=e544]: Join our team as a Senior Compensation & Benefits Partner and drive innovative reward strategies for top talent at Adobe. Shape competitive pay, ensure equity, and influence executive decisions through analytics and stakeholder collaboration. Make a real impact on talent attraction, retention, and performance in a dynamic, growth-focused environment.
+                    - list [ref=e546]:
+                      - listitem [ref=e547]:
+                        - link "Apply Now for Senior Compensation & Benefits Partner" [ref=e549] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR167567EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e550]: Senior Compensation & Benefits Partner
+                      - listitem [ref=e551]:
+                        - generic [ref=e554] [cursor=pointer]:
+                          - checkbox "Save Senior Compensation & Benefits Partner R167567 to job cart" [ref=e555]
+                          - generic [ref=e556]:
+                            - generic [ref=e557]: "|"
+                            - generic [ref=e558]: Save Senior Compensation & Benefits Partner R167567
+                - listitem [ref=e559]:
+                  - generic [ref=e560]:
+                    - generic [ref=e561]:
+                      - heading "Account Executive – Higher Education (Nordics, ME, Africa) Job ID is R169975" [level=3] [ref=e562]:
+                        - link "Account Executive – Higher Education (Nordics, ME, Africa) Job ID is R169975" [ref=e563] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R169975/Account-Executive-Higher-Education-Nordics-ME-Africa
+                          - generic [ref=e564]: Account Executive – Higher Education (Nordics, ME, Africa)
+                      - paragraph [ref=e565]:
+                        - generic [ref=e567]:
+                          - generic [ref=e568]: Category
+                          - generic [ref=e569]: 
+                          - text: Sales
+                        - generic [ref=e571]:
+                          - generic [ref=e572]: Job Id
+                          - generic [ref=e573]: 
+                          - text: R169975
+                        - generic [ref=e575]:
+                          - generic [ref=e576]: Posted Date
+                          - generic [ref=e577]: 
+                          - text: 06/19/2026
+                      - button "Account Executive – Higher Education (Nordics, ME, Africa) ADOBUSR169975EXTERNALENUS Job available in 2 locations" [ref=e580] [cursor=pointer]:
+                        - text: Job available in 2 locations
+                        - generic [ref=e581]: 
+                      - text: 
+                      - paragraph [ref=e582]: Embrace the role of an Account Executive – Higher Education and drive digital transformation across leading universities and research institutions across the Nordics, ME, and Africa. Leverage your enterprise software sales expertise to build executive relationships, deliver innovative solutions, and shape the future of higher education with Adobe.
+                    - list [ref=e584]:
+                      - listitem [ref=e585]:
+                        - link "Apply Now for Account Executive – Higher Education (Nordics, ME, Africa)" [ref=e587] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR169975EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e588]: Account Executive – Higher Education (Nordics, ME, Africa)
+                      - listitem [ref=e589]:
+                        - generic [ref=e592] [cursor=pointer]:
+                          - checkbox "Save Account Executive – Higher Education (Nordics, ME, Africa) R169975 to job cart" [ref=e593]
+                          - generic [ref=e594]:
+                            - generic [ref=e595]: "|"
+                            - generic [ref=e596]: Save Account Executive – Higher Education (Nordics, ME, Africa) R169975
+                - listitem [ref=e597]:
+                  - generic [ref=e598]:
+                    - generic [ref=e599]:
+                      - heading "Sr Manager, Corporate Development Job ID is R168171" [level=3] [ref=e600]:
+                        - link "Sr Manager, Corporate Development Job ID is R168171" [ref=e601] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/job/R168171/Sr-Manager-Corporate-Development
+                          - generic [ref=e602]: Sr Manager, Corporate Development
+                      - paragraph [ref=e603]:
+                        - generic [ref=e605]:
+                          - generic [ref=e606]: Category
+                          - generic [ref=e607]: 
+                          - text: Finance and Operations
+                        - generic [ref=e609]:
+                          - generic [ref=e610]: Job Id
+                          - generic [ref=e611]: 
+                          - text: R168171
+                        - generic [ref=e613]:
+                          - generic [ref=e614]: Posted Date
+                          - generic [ref=e615]: 
+                          - text: 05/22/2026
+                      - button "Sr Manager, Corporate Development ADOBUSR168171EXTERNALENUS Job available in 2 locations" [ref=e618] [cursor=pointer]:
+                        - text: Job available in 2 locations
+                        - generic [ref=e619]: 
+                      - text: 
+                      - paragraph [ref=e620]: Join our team as a Senior Manager, Corporate Development and drive strategic growth at Adobe. Leverage your expertise in deal execution, financial modeling, and stakeholder management to identify and implement high-impact investment opportunities. Collaborate with executives and shape the future of our business through innovative partnerships and integration planning.
+                    - list [ref=e622]:
+                      - listitem [ref=e623]:
+                        - link "Apply Now for Sr Manager, Corporate Development" [ref=e625] [cursor=pointer]:
+                          - /url: https://careers.adobe.com/us/en/apply?jobSeqNo=ADOBUSR168171EXTERNALENUS
+                          - text: Apply Now
+                          - generic [ref=e626]: Sr Manager, Corporate Development
+                      - listitem [ref=e627]:
+                        - generic [ref=e630] [cursor=pointer]:
+                          - checkbox "Save Sr Manager, Corporate Development R168171 to job cart" [ref=e631]
+                          - generic [ref=e632]:
+                            - generic [ref=e633]: "|"
+                            - generic [ref=e634]: Save Sr Manager, Corporate Development R168171
+          - region "pagination" [ref=e635]:
+            - text: Z
+            - button "Page 1": "1"
+            - button "Page 2" [ref=e636] [cursor=pointer]: "2"
+            - button "Page 3" [ref=e637] [cursor=pointer]: "3"
+            - button "Page 4" [ref=e638] [cursor=pointer]: "4"
+            - button "Page 5" [ref=e639] [cursor=pointer]: "5"
+            - button "View next page" [ref=e640] [cursor=pointer]:
+              - generic [ref=e641]: 
+      - generic [ref=e646]:
+        - heading "Stay in the loop." [level=2] [ref=e647]
+        - generic [ref=e648]: Join a community of innovators and get early access to opportunities, insider insights, and exclusive updates on life at Adobe.
+        - link "Join our talent community" [ref=e649] [cursor=pointer]:
+          - /url: https://careers.adobe.com/us/en/jointalentcommunity
+          - generic [ref=e650]: Join our talent community
+      - list [ref=e654]:
+        - listitem [ref=e655]
+        - listitem [ref=e657]:
+          - figure [ref=e658]:
+            - img "LetsAdobeTogether" [ref=e659]
+        - listitem [ref=e661]
+  - generic [ref=e663]:
+    - region [ref=e666]:
+      - list [ref=e669]:
+        - listitem [ref=e670]:
+          - generic "Career Site Cookie Settings" [ref=e674] [cursor=pointer]:
+            - generic [ref=e675]: Career Site Cookie Settings
+            - text: 
+        - listitem [ref=e676]:
+          - generic "Personal Information" [ref=e680] [cursor=pointer]:
+            - generic [ref=e681]: Personal Information
+            - text: 
+    - contentinfo [ref=e684]:
+      - generic [ref=e685]:
+        - generic [ref=e686]:
+          - generic [ref=e687]:
+            - list [ref=e689]:
+              - listitem [ref=e690]:
+                - heading "Shop for" [level=5] [ref=e691]
+              - list [ref=e692]:
+                - listitem [ref=e693]:
+                  - link "Creative Cloud" [ref=e694] [cursor=pointer]:
+                    - /url: https://www.adobe.com/creativecloud.html?promoid=ZP46FD38&mv=other
+                - listitem [ref=e695]:
+                  - link "Photoshop" [ref=e696] [cursor=pointer]:
+                    - /url: https://www.adobe.com/products/photoshop.html
+                - listitem
+              - listitem [ref=e697]:
+                - link "Photography" [ref=e698] [cursor=pointer]:
+                  - /url: https://www.adobe.com/creativecloud/photography.html
+              - listitem [ref=e699]:
+                - link "Premiere Pro" [ref=e700] [cursor=pointer]:
+                  - /url: https://www.adobe.com/products/premiere.html
+              - listitem [ref=e701]:
+                - link "Adobe Express" [ref=e702] [cursor=pointer]:
+                  - /url: https://www.adobe.com/express/
+              - listitem [ref=e703]:
+                - link "Adobe Stock" [ref=e704] [cursor=pointer]:
+                  - /url: https://stock.adobe.com/in/
+              - listitem [ref=e705]:
+                - link "Elements Family" [ref=e706] [cursor=pointer]:
+                  - /url: https://www.adobe.com/products/elements-family.html
+              - listitem [ref=e707]:
+                - link "Document Cloud" [ref=e708] [cursor=pointer]:
+                  - /url: https://www.adobe.com/documentcloud.html
+              - listitem [ref=e709]:
+                - link "Acrobat" [ref=e710] [cursor=pointer]:
+                  - /url: https://www.adobe.com/acrobat.html
+              - listitem [ref=e711]:
+                - link "Acrobat Sign" [ref=e712] [cursor=pointer]:
+                  - /url: https://www.adobe.com/sign.html
+              - listitem [ref=e713]:
+                - link "Special offers" [ref=e714] [cursor=pointer]:
+                  - /url: https://www.adobe.com/products/special-offers.html
+              - listitem [ref=e715]:
+                - link "View plans and pricing" [ref=e716] [cursor=pointer]:
+                  - /url: https://www.adobe.com/creativecloud/plans.html
+              - listitem [ref=e717]:
+                - link "View all products" [ref=e718] [cursor=pointer]:
+                  - /url: https://www.adobe.com/products/catalog.html?types=pf_252Fdesktop&types=pf_252Fmobile&types=pf_252Fweb
+            - list [ref=e720]:
+              - listitem [ref=e721]:
+                - heading "For business" [level=5] [ref=e722]
+              - listitem [ref=e723]:
+                - link "Creative Cloud for teams" [ref=e724] [cursor=pointer]:
+                  - /url: https://www.adobe.com/creativecloud/business/teams.html
+              - listitem [ref=e725]:
+                - link "Creative Cloud for enterprise" [ref=e726] [cursor=pointer]:
+                  - /url: https://www.adobe.com/creativecloud/business/enterprise.html
+              - listitem [ref=e727]:
+                - link "Document Cloud for business" [ref=e728] [cursor=pointer]:
+                  - /url: https://www.adobe.com/documentcloud/business.html
+              - listitem [ref=e729]:
+                - list [ref=e731]:
+                  - listitem [ref=e732]:
+                    - heading "For education" [level=5] [ref=e733]
+                  - listitem [ref=e734]:
+                    - link "Discounts for students and teachers" [ref=e735] [cursor=pointer]:
+                      - /url: https://www.adobe.com/creativecloud/buy/students.html
+                  - listitem [ref=e736]:
+                    - link "Schools and universities" [ref=e737] [cursor=pointer]:
+                      - /url: https://www.adobe.com/education.html
+                  - listitem [ref=e738]:
+                    - link "Digital Learning Solutions" [ref=e739] [cursor=pointer]:
+                      - /url: https://www.adobe.com/elearning.html
+              - listitem [ref=e740]:
+                - list [ref=e742]:
+                  - listitem [ref=e743]:
+                    - heading "For mobile" [level=5] [ref=e744]
+                  - listitem [ref=e745]:
+                    - link "Apps for iOS" [ref=e746] [cursor=pointer]:
+                      - /url: https://apps.apple.com/sg/app/adobe-creative-cloud/id852473028
+                  - listitem [ref=e747]:
+                    - link "Apps for Android" [ref=e748] [cursor=pointer]:
+                      - /url: https://play.google.com/store/apps/details?id=com.adobe.cc
+            - list [ref=e750]:
+              - listitem [ref=e751]:
+                - heading "Experience Cloud" [level=5] [ref=e752]
+              - listitem [ref=e753]:
+                - link "What is Experience Cloud?" [ref=e754] [cursor=pointer]:
+                  - /url: https://business.adobe.com/
+              - listitem [ref=e755]:
+                - link "Analytics" [ref=e756] [cursor=pointer]:
+                  - /url: https://business.adobe.com/products/analytics/adobe-analytics.html
+              - listitem [ref=e757]:
+                - link "Experience Manager" [ref=e758] [cursor=pointer]:
+                  - /url: https://business.adobe.com/products/experience-manager/adobe-experience-manager.html
+              - listitem [ref=e759]:
+                - link "Commerce" [ref=e760] [cursor=pointer]:
+                  - /url: https://business.adobe.com/products/magento/magento-commerce.html
+              - listitem [ref=e761]:
+                - link "Marketo Engage" [ref=e762] [cursor=pointer]:
+                  - /url: https://business.adobe.com/products/marketo/adobe-marketo.html
+              - listitem [ref=e763]:
+                - link "Workfront" [ref=e764] [cursor=pointer]:
+                  - /url: https://www.workfront.com/
+            - list [ref=e766]:
+              - listitem [ref=e767]:
+                - heading "Support" [level=5] [ref=e768]
+              - listitem [ref=e769]:
+                - link "Download and install" [ref=e770] [cursor=pointer]:
+                  - /url: https://helpx.adobe.com/download-install.html
+              - listitem [ref=e771]:
+                - link "Help Center" [ref=e772] [cursor=pointer]:
+                  - /url: https://helpx.adobe.com/support.html
+              - listitem [ref=e773]:
+                - link "Adobe Support Community" [ref=e774] [cursor=pointer]:
+                  - /url: https://community.adobe.com/
+              - listitem [ref=e775]:
+                - link "Enterprise Support" [ref=e776] [cursor=pointer]:
+                  - /url: https://helpx.adobe.com/contact/enterprise-support.html
+              - listitem [ref=e777]:
+                - link "Genuine software" [ref=e778] [cursor=pointer]:
+                  - /url: https://www.adobe.com/genuine.html
+              - listitem [ref=e779]:
+                - list [ref=e781]:
+                  - listitem [ref=e782]:
+                    - heading "Resources" [level=5] [ref=e783]
+                  - listitem [ref=e784]:
+                    - link "Adobe Blog" [ref=e785] [cursor=pointer]:
+                      - /url: https://blog.adobe.com/
+                  - listitem [ref=e786]:
+                    - link "Adobe Developer" [ref=e787] [cursor=pointer]:
+                      - /url: https://developer.adobe.com/
+              - listitem [ref=e788]:
+                - list [ref=e790]:
+                  - listitem [ref=e791]:
+                    - heading "Adobe Account" [level=5] [ref=e792]
+                  - listitem [ref=e793]:
+                    - link "Log in to your account" [ref=e794] [cursor=pointer]:
+                      - /url: https://account.adobe.com/
+            - list [ref=e796]:
+              - listitem [ref=e797]:
+                - heading "Adobe" [level=5] [ref=e798]
+              - listitem [ref=e799]:
+                - link "About" [ref=e800] [cursor=pointer]:
+                  - /url: https://www.adobe.com/about-adobe.html
+              - listitem [ref=e801]:
+                - link "Careers" [ref=e802] [cursor=pointer]:
+                  - /url: https://www.adobe.com/careers.html
+              - listitem [ref=e803]:
+                - link "Newsroom" [ref=e804] [cursor=pointer]:
+                  - /url: https://news.adobe.com/home/default.aspx
+              - listitem [ref=e805]:
+                - link "Corporate responsibility" [ref=e806] [cursor=pointer]:
+                  - /url: https://www.adobe.com/corporate-responsibility.html
+              - listitem [ref=e807]:
+                - link "Investor Relations" [ref=e808] [cursor=pointer]:
+                  - /url: https://www.adobe.com/investor-relations.html
+              - listitem [ref=e809]:
+                - link "Supply chain" [ref=e810] [cursor=pointer]:
+                  - /url: https://www.adobe.com/corporate-responsibility/supply-chain.html
+              - listitem [ref=e811]:
+                - link "Trust Center" [ref=e812] [cursor=pointer]:
+                  - /url: https://www.adobe.com/trust.html
+              - listitem [ref=e813]:
+                - link "Events" [ref=e814] [cursor=pointer]:
+                  - /url: https://www.adobe.com/events.html
+              - listitem [ref=e815]:
+                - link "Adobe for All" [ref=e816] [cursor=pointer]:
+                  - /url: https://www.adobe.com/diversity.html
+              - listitem [ref=e817]:
+                - link "Integrity" [ref=e818] [cursor=pointer]:
+                  - /url: https://www.adobe.com/about-adobe/integrity.html
+          - list [ref=e821]:
+            - listitem [ref=e822]:
+              - paragraph [ref=e823]: Featured Downloads
+            - listitem [ref=e824]:
+              - link "acrobat-reader-icon Adobe Acrobat Reader" [ref=e825] [cursor=pointer]:
+                - /url: https://get.adobe.com/uk/reader/
+                - img "acrobat-reader-icon" [ref=e827]
+                - generic [ref=e828]: Adobe Acrobat Reader
+            - listitem [ref=e829]:
+              - link "photoshop-icon Photoshop" [ref=e830] [cursor=pointer]:
+                - /url: https://www.adobe.com/products/photoshop/free-trial-download.html
+                - img "photoshop-icon" [ref=e832]
+                - generic [ref=e833]: Photoshop
+            - listitem [ref=e834]:
+              - link "Illustrato Illustrator" [ref=e835] [cursor=pointer]:
+                - /url: https://www.adobe.com/products/illustrator/free-trial-download.html
+                - img "Illustrato" [ref=e837]
+                - generic [ref=e838]: Illustrator
+          - generic [ref=e839]:
+            - generic:
+              - list [ref=e842]:
+                - listitem [ref=e843]:
+                  - link "facebook" [ref=e844] [cursor=pointer]:
+                    - /url: https://www.facebook.com/adobe
+                    - generic [ref=e845]: 
+                - listitem [ref=e846]:
+                  - link "twitter" [ref=e847] [cursor=pointer]:
+                    - /url: https://twitter.com/Adobe
+                    - generic [ref=e848]: 
+                - listitem [ref=e849]:
+                  - link "linkedin" [ref=e850] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/adobe
+                    - generic [ref=e851]: 
+                - listitem [ref=e852]:
+                  - link "instagram" [ref=e853] [cursor=pointer]:
+                    - /url: https://www.instagram.com/adobe/
+                    - generic [ref=e854]: 
+              - list [ref=e856]:
+                - listitem [ref=e857]:
+                  - paragraph [ref=e858]: Copyright © 2022 Adobe. All rights reserved. /
+                - listitem [ref=e859]:
+                  - link "Privacy /" [ref=e860] [cursor=pointer]:
+                    - /url: https://www.adobe.com/privacy/applicant-privacy.html
+                - listitem [ref=e861]:
+                  - link "Terms of Use /" [ref=e862] [cursor=pointer]:
+                    - /url: https://www.adobe.com/legal/terms.html
+                - listitem [ref=e863]:
+                  - link "Cookie preferences /" [ref=e864] [cursor=pointer]:
+                    - /url: https://careers.adobe.com/us/en/cookiesettings
+                - listitem [ref=e865]:
+                  - link "Do not sell my personal information /" [ref=e866] [cursor=pointer]:
+                    - /url: https://www.adobe.com/privacy/ca-rights.html
+                - listitem [ref=e867]:
+                  - link "AdChoices" [ref=e868] [cursor=pointer]:
+                    - /url: https://www.adobe.com/privacy/opt-out.html#interest-based-ads
+                    - text: AdChoices
+        - text:              / / / / /

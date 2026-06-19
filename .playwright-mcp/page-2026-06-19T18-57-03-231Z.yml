@@ -1,0 +1,151 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "Skip to main content" [ref=e4] [cursor=pointer]:
+      - /url: "#main-content"
+    - main [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e12]:
+          - generic [ref=e14]:
+            - generic [ref=e15]:
+              - text: 
+              - link "Walmart Careers Logo" [ref=e16] [cursor=pointer]:
+                - /url: undefined/undefined/home
+                - img "Walmart Careers Logo" [ref=e17]
+            - generic [ref=e20]:
+              - button "Career areas" [ref=e21] [cursor=pointer]: Career areas Career areas
+              - button "Brands" [ref=e22] [cursor=pointer]: Brands Brands
+              - button "Resources" [ref=e23] [cursor=pointer]: Resources Resources
+              - button "About Us" [ref=e24] [cursor=pointer]: About Us About Us
+              - link "Military" [ref=e25] [cursor=pointer]:
+                - /url: content/careers/us/en/home/careers-areas/Military
+          - generic [ref=e26]:
+            - search [ref=e32]:
+              - textbox "Search by team, department, keyword" [ref=e34]
+              - button "Search icon" [ref=e35] [cursor=pointer]:
+                - img [ref=e36]
+            - button "User Account Icon" [ref=e38] [cursor=pointer]:
+              - img [ref=e39]
+        - generic [ref=e43]:
+          - generic [ref=e45]: "404"
+          - generic [ref=e46]: Sorry, but it looks like this page no longer exists.
+          - link "Go to homepage" [ref=e48] [cursor=pointer]:
+            - /url: us/en/home
+            - generic [ref=e49]: Go to homepage
+        - generic [ref=e52]:
+          - generic [ref=e54]:
+            - generic [ref=e55]:
+              - heading "Careers" [level=2] [ref=e56]
+              - list [ref=e57]:
+                - listitem [ref=e58]:
+                  - link "Stores and Clubs" [ref=e60] [cursor=pointer]:
+                    - /url: content/careers/us/en/home/careers-areas/stores-and-clubs
+                - listitem [ref=e62]:
+                  - link "Supply Chain and Transportation" [ref=e64] [cursor=pointer]:
+                    - /url: content/careers/us/en/home/careers-areas/supply-chain-and-transportation
+                - listitem [ref=e66]:
+                  - link "Healthcare" [ref=e68] [cursor=pointer]:
+                    - /url: content/careers/us/en/home/careers-areas/healthcare
+                - listitem [ref=e70]:
+                  - link "Technology" [ref=e72] [cursor=pointer]:
+                    - /url: content/careers/us/en/home/careers-areas/technology
+                - listitem [ref=e74]:
+                  - link "Corporate" [ref=e76] [cursor=pointer]:
+                    - /url: content/careers/us/en/home/careers-areas/corporate
+            - generic [ref=e78]:
+              - heading "Brands" [level=2] [ref=e79]
+              - list [ref=e80]:
+                - listitem [ref=e81]:
+                  - link "Walmart" [ref=e83] [cursor=pointer]:
+                    - /url: content/careers/us/en/home
+                - listitem [ref=e85]:
+                  - link "Sam's Club" [ref=e87] [cursor=pointer]:
+                    - /url: content/careers/us/en/sams-home
+                - listitem [ref=e89]:
+                  - link "VIZIO" [ref=e91] [cursor=pointer]:
+                    - /url: content/careers/us/en/home/vizio
+            - generic [ref=e93]:
+              - heading "Resources" [level=2] [ref=e94]
+              - list [ref=e95]:
+                - listitem [ref=e96]:
+                  - link "How we hire" [ref=e98] [cursor=pointer]:
+                    - /url: content/careers/us/en/home/resources/hiring-process
+                - listitem [ref=e100]:
+                  - link "Office Locations" [ref=e102] [cursor=pointer]:
+                    - /url: content/careers/us/en/home/resources/location
+            - generic [ref=e104]:
+              - heading "About" [level=2] [ref=e105]
+              - list [ref=e106]:
+                - listitem [ref=e107]:
+                  - generic [ref=e108]:
+                    - link "Benefits" [ref=e109] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/about/working-at-walmart
+                    - link "Benefits" [ref=e111] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/about/working-at-walmart
+                      - img [ref=e112]
+                - listitem [ref=e115]:
+                  - generic [ref=e116]:
+                    - link "Belonging" [ref=e117] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/purpose/belonging
+                    - link "Belonging" [ref=e119] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/purpose/belonging
+                      - img [ref=e120]
+                - listitem [ref=e123]:
+                  - generic [ref=e124]:
+                    - link "Sustainability" [ref=e125] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/purpose/sustainability
+                    - link "Sustainability" [ref=e127] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/purpose/sustainability
+                      - img [ref=e128]
+                - listitem [ref=e131]:
+                  - generic [ref=e132]:
+                    - link "News" [ref=e133] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/content/corporate/en_us/news.html
+                    - link "News" [ref=e135] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/content/corporate/en_us/news.html
+                      - img [ref=e136]
+                - listitem [ref=e139]:
+                  - generic [ref=e140]:
+                    - link "History" [ref=e141] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/about/walmart-museum
+                    - link "History" [ref=e143] [cursor=pointer]:
+                      - /url: https://corporate.walmart.com/about/walmart-museum
+                      - img [ref=e144]
+          - generic [ref=e147]:
+            - link "social" [ref=e148] [cursor=pointer]:
+              - /url: https://www.facebook.com/WalmartWorld
+              - img [ref=e149]
+            - link "social" [ref=e150] [cursor=pointer]:
+              - /url: https://www.glassdoor.com/Overview/Working-at-Walmart-EI_IE715.11,18.htm
+              - img [ref=e151]
+            - link "social" [ref=e152] [cursor=pointer]:
+              - /url: https://www.instagram.com/walmartworld/
+              - img [ref=e153]
+            - link "social" [ref=e154] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/walmart/
+              - img [ref=e155]
+            - link "social" [ref=e156] [cursor=pointer]:
+              - /url: https://twitter.com/WalmartWorld
+              - img [ref=e157]
+            - link "social" [ref=e158] [cursor=pointer]:
+              - /url: https://www.youtube.com/playlist?list=PL14ED977FFA38F193
+              - img [ref=e159]
+          - generic [ref=e160]:
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - text: Walmart, Inc. is an Equal Opportunity Employer. We believe we are best equipped to help our associates, customers, and the communities we serve live better when we really know them. That means understanding, respecting, and valuing unique styles, experiences, identities, abilities, ideas and opinions- while welcoming all people. Walmart Inc. participates in E-verify. Learn more about
+                - link "applicant rights under Federal Employment Laws." [ref=e163] [cursor=pointer]:
+                  - /url: https://cms.careers.walmart.com/content/dam/careers/federal-employment-laws/applicant-rights-under-federal-employment-laws.pdf
+                  - generic [ref=e164]: applicant rights under Federal Employment Laws.
+              - generic [ref=e166]: Eligibility for benefits depends on your job classification, and benefits are subject to specific plan or program terms. For more information about your benefits options, please see the Associate Benefits Book at One.Walmart.com/BenefitsBook. For programs not covered in the Associate Benefits Book, you’ll find more information on One.Walmart.com, or you can call People Services at 800-421-1362 or chat at One.Walmart.com/BenefitsChat.
+            - generic [ref=e168]:
+              - generic [ref=e169]: ©2026 Walmart Inc.
+              - generic [ref=e170]:
+                - link "Walmart.com" [ref=e171] [cursor=pointer]:
+                  - /url: https://www.walmart.com/
+                - link "Terms & Conditions" [ref=e172] [cursor=pointer]:
+                  - /url: content/careers/us/en/home/resources/terms-and-conditions
+                - link "Privacy Policy" [ref=e173] [cursor=pointer]:
+                  - /url: https://corporate.walmart.com/privacy-security
+                - link "Notice At Collection" [ref=e174] [cursor=pointer]:
+                  - /url: https://corporate.walmart.com/privacy-security/california-privacy-rights#what-are-the-categories-of-personal-information-collected
+  - alert [ref=e175]

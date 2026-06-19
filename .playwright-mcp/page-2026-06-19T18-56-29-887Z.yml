@@ -1,0 +1,455 @@
+- generic [ref=e1]:
+  - dialog "Important System Message" [ref=e3]:
+    - text: Cookie Consent
+    - generic [ref=e4]: We use cookies and other tracking technologies to support navigation, to improve our products and services, to support our marketing activities and to provide content from third parties. To manage your preferences, select "Manage Settings" or choose "Accept" to consent to the use of Cookies.
+    - generic [ref=e5]:
+      - button "Accept" [active] [ref=e6] [cursor=pointer]
+      - button "Reject" [ref=e7] [cursor=pointer]
+      - button "Manage Settings" [ref=e8] [cursor=pointer]
+  - generic [ref=e9]:
+    - link "Skip to main content" [ref=e10] [cursor=pointer]:
+      - /url: "#content"
+    - banner [ref=e11]:
+      - generic [ref=e12]:
+        - link "Capital One" [ref=e14] [cursor=pointer]:
+          - /url: /
+          - img "Capital One" [ref=e16]
+        - navigation "primary" [ref=e17]:
+          - generic [ref=e18]:
+            - text: ×
+            - list [ref=e20]:
+              - listitem [ref=e21]:
+                - button "Explore Jobs" [ref=e22] [cursor=pointer]
+                - text: ×
+              - listitem [ref=e23]:
+                - button "Locations" [ref=e24] [cursor=pointer]
+                - text: ×
+              - listitem [ref=e25]:
+                - button "Students & Grads" [ref=e26] [cursor=pointer]
+                - text: ×
+              - listitem [ref=e27]:
+                - button "Working at Capital One" [ref=e28] [cursor=pointer]
+                - text: ×
+              - listitem [ref=e29]:
+                - link "Careers Blog" [ref=e30] [cursor=pointer]:
+                  - /url: /blog
+              - listitem [ref=e31]:
+                - link "FAQs" [ref=e32] [cursor=pointer]:
+                  - /url: https://www.capitalonecareers.com/faq
+        - button "Search Jobs" [expanded] [ref=e33] [cursor=pointer]
+        - link "Returning Applicant" [ref=e34] [cursor=pointer]:
+          - /url: https://capitalone.wd12.myworkdayjobs.com/Capital_One/login
+    - main [ref=e35]:
+      - search [ref=e36]:
+        - group "Search Jobs" [ref=e37]:
+          - paragraph [ref=e38]:
+            - generic [ref=e39]: You’re located near
+            - combobox "You’re located near" [ref=e40]
+          - paragraph [ref=e41]:
+            - generic [ref=e42]: You’re interested in
+            - searchbox "You’re interested in" [ref=e43]
+          - button "Find Jobs" [ref=e44] [cursor=pointer]
+      - generic [ref=e45]:
+        - heading "Here, one dream job leads to the next dream" [level=1] [ref=e49]:
+          - text: Here, one dream
+          - text: job leads to
+          - text: the next dream
+        - paragraph [ref=e51]:
+          - generic [ref=e52]: Mora,
+          - text: Supply Manager
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - region "Search Filter" [ref=e55]:
+            - generic [ref=e56]:
+              - heading "Refine Job Results" [level=2] [ref=e57]
+              - group "Teams +" [ref=e58]:
+                - button "Teams +" [ref=e59] [cursor=pointer]
+              - group "Locations +" [ref=e60]:
+                - button "Locations +" [ref=e61] [cursor=pointer]
+              - group "Students & Grads +" [ref=e62]:
+                - button "Students & Grads +" [ref=e63] [cursor=pointer]
+              - group "Remote +" [ref=e64]:
+                - button "Remote +" [ref=e65] [cursor=pointer]
+              - group "Sponsorship +" [ref=e66]:
+                - button "Sponsorship +" [ref=e67] [cursor=pointer]
+              - group "Role Type +" [ref=e68]:
+                - button "Role Type +" [ref=e69] [cursor=pointer]
+              - text: +
+              - button "Clear Filters" [ref=e71] [cursor=pointer]
+          - generic [ref=e72]:
+            - heading "Not sure where to start?" [level=2] [ref=e73]
+            - heading "Try Job Finder" [level=3] [ref=e74]
+            - paragraph [ref=e75]: Find jobs that reflect your personal interests and experience.
+            - link "Get Started using our Job Finder Quiz" [ref=e76] [cursor=pointer]:
+              - /url: /fit-finder
+              - text: Get Started
+              - generic [ref=e77]: using our Job Finder Quiz
+        - region "Search Results" [ref=e80]:
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - heading "1467 Jobs" [level=1] [ref=e83]
+              - button "Set Job Alert" [ref=e84] [cursor=pointer]
+            - generic [ref=e85]:
+              - list [ref=e86]:
+                - listitem [ref=e87]:
+                  - link "96654369984 06/19/2026 Senior Director, Financial Management (FP&A) - Personal Loans Riverwoods, IL" [ref=e88] [cursor=pointer]:
+                    - /url: /job/riverwoods/senior-director-financial-management-fp-and-a-personal-loans/1732/96654369984
+                    - generic [ref=e89]:
+                      - generic [ref=e90]: "96654369984"
+                      - generic [ref=e91]: 06/19/2026
+                    - heading "Senior Director, Financial Management (FP&A) - Personal Loans" [level=2] [ref=e92]
+                    - text: Riverwoods, IL
+                  - button "Save Job" [ref=e93] [cursor=pointer]: Pin
+                - listitem [ref=e94]:
+                  - link "96654369952 06/19/2026 Senior Director, Technical Program Management -Ai/ML (Remote Eligible) San Francisco, CA" [ref=e95] [cursor=pointer]:
+                    - /url: /job/san-francisco/senior-director-technical-program-management-ai-ml-remote-eligible/1732/96654369952
+                    - generic [ref=e96]:
+                      - generic [ref=e97]: "96654369952"
+                      - generic [ref=e98]: 06/19/2026
+                    - heading "Senior Director, Technical Program Management -Ai/ML (Remote Eligible)" [level=2] [ref=e99]
+                    - text: San Francisco, CA
+                  - button "Save Job" [ref=e100] [cursor=pointer]: Pin
+                - listitem [ref=e101]:
+                  - link "96654369872 06/19/2026 Manager, Data Scientist - Business Cards & Payments Credit Infrastructure Team McLean, VA" [ref=e102] [cursor=pointer]:
+                    - /url: /job/mclean/manager-data-scientist-business-cards-and-payments-credit-infrastructure-team/1732/96654369872
+                    - generic [ref=e103]:
+                      - generic [ref=e104]: "96654369872"
+                      - generic [ref=e105]: 06/19/2026
+                    - heading "Manager, Data Scientist - Business Cards & Payments Credit Infrastructure Team" [level=2] [ref=e106]
+                    - text: McLean, VA
+                  - button "Save Job" [ref=e107] [cursor=pointer]: Pin
+                - listitem [ref=e108]:
+                  - link "96644502784 06/19/2026 Pr. Coordinator, Capital One Concierge City of Muntinglupa, Calabarzon" [ref=e109] [cursor=pointer]:
+                    - /url: /job/city-of-muntinglupa/pr-coordinator-capital-one-concierge/1732/96644502784
+                    - generic [ref=e110]:
+                      - generic [ref=e111]: "96644502784"
+                      - generic [ref=e112]: 06/19/2026
+                    - heading "Pr. Coordinator, Capital One Concierge" [level=2] [ref=e113]
+                    - text: City of Muntinglupa, Calabarzon
+                  - button "Save Job" [ref=e114] [cursor=pointer]: Pin
+                - listitem [ref=e115]:
+                  - link "95905354368 06/02/2026 Lead Full Stack Engineer - Capital One Software (Remote) Richmond, VA" [ref=e116] [cursor=pointer]:
+                    - /url: /job/richmond/lead-full-stack-engineer-capital-one-software-remote/1732/95905354368
+                    - generic [ref=e117]:
+                      - generic [ref=e118]: "95905354368"
+                      - generic [ref=e119]: 06/02/2026
+                    - heading "Lead Full Stack Engineer - Capital One Software (Remote)" [level=2] [ref=e120]
+                    - text: Richmond, VA
+                  - button "Save Job" [ref=e121] [cursor=pointer]: Pin
+                - listitem [ref=e122]:
+                  - link "95591445232 05/26/2026 Senior Product Manager, Flights Search & Merchandising New York, NY" [ref=e123] [cursor=pointer]:
+                    - /url: /job/new-york/senior-product-manager-flights-search-and-merchandising/1732/95591445232
+                    - generic [ref=e124]:
+                      - generic [ref=e125]: "95591445232"
+                      - generic [ref=e126]: 05/26/2026
+                    - heading "Senior Product Manager, Flights Search & Merchandising" [level=2] [ref=e127]
+                    - text: New York, NY
+                  - button "Save Job" [ref=e128] [cursor=pointer]: Pin
+                - listitem [ref=e129]:
+                  - link "93251410736 06/18/2026 Sr. Business Analyst McLean, VA" [ref=e130] [cursor=pointer]:
+                    - /url: /job/mclean/sr-business-analyst/1732/93251410736
+                    - generic [ref=e131]:
+                      - generic [ref=e132]: "93251410736"
+                      - generic [ref=e133]: 06/18/2026
+                    - heading "Sr. Business Analyst" [level=2] [ref=e134]
+                    - text: McLean, VA
+                  - button "Save Job" [ref=e135] [cursor=pointer]: Pin
+                - listitem [ref=e136]:
+                  - link "96621293584 06/18/2026 Senior Associate, HR Business Partner- Financial Servicing Plano, TX" [ref=e137] [cursor=pointer]:
+                    - /url: /job/plano/senior-associate-hr-business-partner-financial-servicing/1732/96621293584
+                    - generic [ref=e138]:
+                      - generic [ref=e139]: "96621293584"
+                      - generic [ref=e140]: 06/18/2026
+                    - heading "Senior Associate, HR Business Partner- Financial Servicing" [level=2] [ref=e141]
+                    - text: Plano, TX
+                  - button "Save Job" [ref=e142] [cursor=pointer]: Pin
+                - listitem [ref=e143]:
+                  - link "96621293552 06/18/2026 Senior Data Analyst - US Card McLean, VA" [ref=e144] [cursor=pointer]:
+                    - /url: /job/mclean/senior-data-analyst-us-card/1732/96621293552
+                    - generic [ref=e145]:
+                      - generic [ref=e146]: "96621293552"
+                      - generic [ref=e147]: 06/18/2026
+                    - heading "Senior Data Analyst - US Card" [level=2] [ref=e148]
+                    - text: McLean, VA
+                  - button "Save Job" [ref=e149] [cursor=pointer]: Pin
+                - listitem [ref=e150]:
+                  - link "95257941136 05/18/2026 Senior Manager, Data Scientist - Experimentation Lead McLean, VA" [ref=e151] [cursor=pointer]:
+                    - /url: /job/mclean/senior-manager-data-scientist-experimentation-lead/1732/95257941136
+                    - generic [ref=e152]:
+                      - generic [ref=e153]: "95257941136"
+                      - generic [ref=e154]: 05/18/2026
+                    - heading "Senior Manager, Data Scientist - Experimentation Lead" [level=2] [ref=e155]
+                    - text: McLean, VA
+                  - button "Save Job" [ref=e156] [cursor=pointer]: Pin
+                - listitem [ref=e157]:
+                  - link "96621293504 06/18/2026 Senior Administrative Assistant (Administrative Support Assistant III) - Capital Markets, KippsDeSanto McLean, VA" [ref=e158] [cursor=pointer]:
+                    - /url: /job/mclean/senior-administrative-assistant-administrative-support-assistant-iii-capital-markets-kippsdesanto/1732/96621293504
+                    - generic [ref=e159]:
+                      - generic [ref=e160]: "96621293504"
+                      - generic [ref=e161]: 06/18/2026
+                    - heading "Senior Administrative Assistant (Administrative Support Assistant III) - Capital Markets, KippsDeSanto" [level=2] [ref=e162]
+                    - text: McLean, VA
+                  - button "Save Job" [ref=e163] [cursor=pointer]: Pin
+                - listitem [ref=e164]:
+                  - link "94525203840 06/18/2026 Principal Risk Specialist, Identity & Access Management | Retail Bank McLean, VA" [ref=e165] [cursor=pointer]:
+                    - /url: /job/mclean/principal-risk-specialist-identity-and-access-management-retail-bank/1732/94525203840
+                    - generic [ref=e166]:
+                      - generic [ref=e167]: "94525203840"
+                      - generic [ref=e168]: 06/18/2026
+                    - heading "Principal Risk Specialist, Identity & Access Management | Retail Bank" [level=2] [ref=e169]
+                    - text: McLean, VA
+                  - button "Save Job" [ref=e170] [cursor=pointer]: Pin
+                - listitem [ref=e171]:
+                  - link "96621293440 06/18/2026 Senior Lead Data Engineer McLean, VA" [ref=e172] [cursor=pointer]:
+                    - /url: /job/mclean/senior-lead-data-engineer/1732/96621293440
+                    - generic [ref=e173]:
+                      - generic [ref=e174]: "96621293440"
+                      - generic [ref=e175]: 06/18/2026
+                    - heading "Senior Lead Data Engineer" [level=2] [ref=e176]
+                    - text: McLean, VA
+                  - button "Save Job" [ref=e177] [cursor=pointer]: Pin
+                - listitem [ref=e178]:
+                  - link "96621293424 06/18/2026 Lead Data Engineer McLean, VA" [ref=e179] [cursor=pointer]:
+                    - /url: /job/mclean/lead-data-engineer/1732/96621293424
+                    - generic [ref=e180]:
+                      - generic [ref=e181]: "96621293424"
+                      - generic [ref=e182]: 06/18/2026
+                    - heading "Lead Data Engineer" [level=2] [ref=e183]
+                    - text: McLean, VA
+                  - button "Save Job" [ref=e184] [cursor=pointer]: Pin
+                - listitem [ref=e185]:
+                  - link "96359807600 06/18/2026 Chief of Staff McLean, VA" [ref=e186] [cursor=pointer]:
+                    - /url: /job/mclean/chief-of-staff/1732/96359807600
+                    - generic [ref=e187]:
+                      - generic [ref=e188]: "96359807600"
+                      - generic [ref=e189]: 06/18/2026
+                    - heading "Chief of Staff" [level=2] [ref=e190]
+                    - text: McLean, VA
+                  - button "Save Job" [ref=e191] [cursor=pointer]: Pin
+              - navigation "Pagination" [ref=e192]:
+                - generic [ref=e193]:
+                  - text: Page
+                  - spinbutton "Page" [ref=e194]: "1"
+                  - text: of 98
+                  - button "Go" [ref=e195] [cursor=pointer]
+                - link "Next" [ref=e197] [cursor=pointer]:
+                  - /url: /search-jobs&p=2
+    - contentinfo [ref=e198]:
+      - generic [ref=e200]:
+        - list [ref=e203]:
+          - listitem [ref=e204]:
+            - link "Instagram" [ref=e205] [cursor=pointer]:
+              - /url: //www.instagram.com/capitalonecareers/?hl=en
+              - generic [ref=e206]: Instagram
+          - listitem [ref=e207]:
+            - link "Facebook" [ref=e208] [cursor=pointer]:
+              - /url: //www.facebook.com/CapitalOneCareers/
+              - generic [ref=e209]: Facebook
+          - listitem [ref=e210]:
+            - link "LinkedIn" [ref=e211] [cursor=pointer]:
+              - /url: //www.linkedin.com/company/capital-one
+              - generic [ref=e212]: LinkedIn
+          - listitem [ref=e213]:
+            - link "YouTube" [ref=e214] [cursor=pointer]:
+              - /url: //www.youtube.com/user/capitalonejobs
+              - generic [ref=e215]: YouTube
+          - listitem [ref=e216]:
+            - link "Glassdoor" [ref=e217] [cursor=pointer]:
+              - /url: //www.glassdoor.com/Overview/Working-at-Capital-One-EI_IE3736.11,22.htm
+              - generic [ref=e218]: Glassdoor
+        - generic [ref=e219]:
+          - generic [ref=e220]:
+            - generic [ref=e222]:
+              - heading "Explore Jobs" [level=2] [ref=e223]
+              - list [ref=e224]:
+                - listitem [ref=e225]:
+                  - link "Job Search" [ref=e226] [cursor=pointer]:
+                    - /url: /search-jobs
+                - listitem [ref=e227]:
+                  - link "Teams" [ref=e228] [cursor=pointer]:
+                    - /url: /teams
+                - listitem [ref=e229]:
+                  - link "Military" [ref=e230] [cursor=pointer]:
+                    - /url: /military
+                - listitem [ref=e231]:
+                  - link "Students & Grads" [ref=e232] [cursor=pointer]:
+                    - /url: /students
+                - listitem [ref=e233]:
+                  - link "Technology" [ref=e234] [cursor=pointer]:
+                    - /url: /tech
+                - listitem [ref=e235]:
+                  - link "Customer Care" [ref=e236] [cursor=pointer]:
+                    - /url: /customercare
+            - generic [ref=e238]:
+              - heading "US Locations" [level=2] [ref=e239]
+              - list [ref=e240]:
+                - listitem [ref=e241]:
+                  - link "Overview" [ref=e242] [cursor=pointer]:
+                    - /url: /locations
+                - listitem [ref=e243]:
+                  - link "Atlanta, GA" [ref=e244] [cursor=pointer]:
+                    - /url: /atlanta
+                - listitem [ref=e245]:
+                  - link "Boston, MA" [ref=e246] [cursor=pointer]:
+                    - /url: /boston
+                - listitem [ref=e247]:
+                  - link "Chicago, IL" [ref=e248] [cursor=pointer]:
+                    - /url: /chicago
+                - listitem [ref=e249]:
+                  - link "Dallas, TX" [ref=e250] [cursor=pointer]:
+                    - /url: /dallas
+                - listitem [ref=e251]:
+                  - link "McLean, VA" [ref=e252] [cursor=pointer]:
+                    - /url: /mclean
+                - listitem [ref=e253]:
+                  - link "New York, NY" [ref=e254] [cursor=pointer]:
+                    - /url: /new-york
+                - listitem [ref=e255]:
+                  - link "Philadelphia, PA" [ref=e256] [cursor=pointer]:
+                    - /url: /philadelphia
+                - listitem [ref=e257]:
+                  - link "Richmond, VA" [ref=e258] [cursor=pointer]:
+                    - /url: /richmond
+                - listitem [ref=e259]:
+                  - link "San Francisco, CA" [ref=e260] [cursor=pointer]:
+                    - /url: /san-francisco
+                - listitem [ref=e261]:
+                  - link "View All Jobs" [ref=e262] [cursor=pointer]:
+                    - /url: /search-jobs
+            - generic [ref=e264]:
+              - heading "Working at Capital One" [level=2] [ref=e265]
+              - list [ref=e266]:
+                - listitem [ref=e267]:
+                  - link "Culture" [ref=e268] [cursor=pointer]:
+                    - /url: /culture
+                - listitem [ref=e269]:
+                  - link "Diversity, Inclusion & Belonging" [ref=e270] [cursor=pointer]:
+                    - /url: /diversity
+                - listitem [ref=e271]:
+                  - link "Benefits" [ref=e272] [cursor=pointer]:
+                    - /url: /benefits
+                - listitem [ref=e273]:
+                  - link "#LifeAtCapitalOne Blog" [ref=e274] [cursor=pointer]:
+                    - /url: /blog
+                - listitem [ref=e275]:
+                  - link "Awards" [ref=e276] [cursor=pointer]:
+                    - /url: /awards
+                - listitem [ref=e277]:
+                  - link "How We Work" [ref=e278] [cursor=pointer]:
+                    - /url: /how-we-work
+                - listitem [ref=e279]:
+                  - link "Innovation" [ref=e280] [cursor=pointer]:
+                    - /url: /innovation
+            - generic [ref=e282]:
+              - heading "Connect With Us" [level=2] [ref=e283]
+              - list [ref=e284]:
+                - listitem [ref=e285]:
+                  - link "FAQs" [ref=e286] [cursor=pointer]:
+                    - /url: /faq/
+            - generic [ref=e288]:
+              - heading "Locations" [level=2] [ref=e289]
+              - list [ref=e290]:
+                - listitem [ref=e291]:
+                  - link "United States" [ref=e292] [cursor=pointer]:
+                    - /url: /locations
+                - listitem [ref=e293]:
+                  - link "Canada" [ref=e294] [cursor=pointer]:
+                    - /url: https://www.capitalonecareers.ca/
+                - listitem [ref=e295]:
+                  - link "India" [ref=e296] [cursor=pointer]:
+                    - /url: /india
+                - listitem [ref=e297]:
+                  - link "Mexico" [ref=e298] [cursor=pointer]:
+                    - /url: /mexico
+                - listitem [ref=e299]:
+                  - link "Philippines" [ref=e300] [cursor=pointer]:
+                    - /url: https://capitalonecareers.com.ph/career-opportunities.php
+                - listitem [ref=e301]:
+                  - link "United Kingdom" [ref=e302] [cursor=pointer]:
+                    - /url: https://jobs.capitalone.co.uk/
+          - generic [ref=e303]:
+            - link "E-Verify":
+              - /url: https://www.e-verify.gov/
+              - img "E-Verify" [ref=e304] [cursor=pointer]
+            - paragraph [ref=e305]:
+              - text: E-Verify
+              - superscript [ref=e306]: ®
+              - text: is a registered trademark of the
+              - text: U.S. Department of Homeland Security.
+            - list [ref=e307]:
+              - listitem [ref=e308]:
+                - link "COVID-19 Response" [ref=e309] [cursor=pointer]:
+                  - /url: https://www.capitalone.com/updates/coronavirus/
+              - listitem [ref=e310]:
+                - link "www.capitalone.com" [ref=e311] [cursor=pointer]:
+                  - /url: https://www.capitalone.com/
+      - generic [ref=e313]:
+        - generic [ref=e314]:
+          - heading "Accommodation" [level=2] [ref=e315]
+          - generic [ref=e316]:
+            - paragraph [ref=e317]:
+              - text: If you have visited our website in search of information on employment opportunities or to apply for a position and you require an accommodation, please contact Capital One Recruiting at
+              - link "1-800-304-9102" [ref=e318] [cursor=pointer]:
+                - /url: tel:1-800-304-9102
+              - text: or via email at
+              - link "RecruitingAccommodation@capitalone.com" [ref=e319] [cursor=pointer]:
+                - /url: mailto:RecruitingAccommodation@capitalone.com
+              - text: . All information you provide will be kept confidential and will be used only to the extent required to provide needed reasonable accommodation.
+            - paragraph [ref=e320]:
+              - text: Capital One is an
+              - link "equal opportunity employer (PDF)" [ref=e321] [cursor=pointer]:
+                - /url: https://tbcdn.talentbrew.com/company/234/gst_v1_0/docs/2025_EEO_AAP_Policy_Statement.pdf
+              - text: committed to diversity and inclusion in the workplace. All qualified applicants will receive consideration for employment without regard to sex (including pregnancy, childbirth or related medical conditions), race, color, age (40 and older), national origin, religion, disability, genetic information, marital status, sexual orientation, gender identity, gender reassignment, citizenship, immigration status, protected veteran status, or any other basis prohibited under applicable federal, state or local law.
+            - paragraph [ref=e322]:
+              - link "Know Your Rights Poster (PDF)" [ref=e323] [cursor=pointer]:
+                - /url: https://www.eeoc.gov/sites/default/files/2022-10/EEOC_KnowYourRights_screen_reader_10_20.pdf
+            - paragraph [ref=e324]:
+              - link "Candidate Terms and Conditions (PDF)" [ref=e325] [cursor=pointer]:
+                - /url: https://tbcdn.talentbrew.com/company/234/cms/candidate_terms_and_conditions_2025_1.pdf
+        - generic [ref=e327]:
+          - heading "Footnotes" [level=2] [ref=e328]
+          - paragraph [ref=e329]: Capital One is a federally registered service mark. All rights reserved. Blank Check® is a registered trademark of Capital One Services, LLC. Capital One does not provide, endorse or guarantee and is not liable for third-party products, services, educational tools or other information available through this site.
+          - paragraph [ref=e330]: © 2026 FORTUNE Media IP Limited. All rights reserved. Used under license. FORTUNE is not affiliated with, and does not endorse products or services of, Capital One.
+          - paragraph [ref=e331]: PEOPLE Companies That Care logo is used under license, © 2026 TI Gotham, Inc.
+      - generic [ref=e333]:
+        - paragraph [ref=e334]: © 2026 Capital One
+        - img "Member FDIC. Equal Housing Lender." [ref=e335]
+        - list [ref=e336]:
+          - listitem [ref=e337]:
+            - link "Cookie Management" [ref=e338] [cursor=pointer]:
+              - /url: /cookie-management
+          - listitem [ref=e339]:
+            - link "Privacy" [ref=e340] [cursor=pointer]:
+              - /url: https://www.capitalone.com/privacy
+          - listitem [ref=e341]:
+            - link "Security" [ref=e342] [cursor=pointer]:
+              - /url: https://www.capitalone.com/digital/identity-protection/
+          - listitem [ref=e343]:
+            - link "AdChoices" [ref=e344] [cursor=pointer]:
+              - /url: https://www.capitalone.com/privacy
+          - listitem [ref=e345]:
+            - link "Your California Privacy Choices Privacy Options Icon" [ref=e346] [cursor=pointer]:
+              - /url: https://www.capitalone.com/privacy/your-california-privacy-choices/
+              - generic [ref=e347]: Your California Privacy Choices
+              - img "Privacy Options Icon" [ref=e348]
+          - listitem [ref=e349]:
+            - link "Terms & Conditions" [ref=e350] [cursor=pointer]:
+              - /url: https://www.capitalone.com/digital/terms-conditions/
+          - listitem [ref=e351]:
+            - link "Patriot Act Cert. (PDF)" [ref=e352] [cursor=pointer]:
+              - /url: https://www.capitalone.com/media/doc/corporate/Patriot-Act-Certification-COF-MASTER_2018-signed.pdf
+          - listitem [ref=e353]:
+            - link "Servicemembers Civil Relief Act" [ref=e354] [cursor=pointer]:
+              - /url: https://www.capitalone.com/military
+          - listitem [ref=e355]:
+            - link "Sitemap" [ref=e356] [cursor=pointer]:
+              - /url: /sitemap
+  - status
+  - status
+  - status
+  - generic [ref=e357]: 15 of 1467 results are now available.
+  - button "Candidate FEEDBACK Feedback button" [ref=e358] [cursor=pointer]:
+    - generic [ref=e359]:
+      - generic [ref=e360]: Candidate
+      - generic [ref=e361]: FEEDBACK
+    - img "Feedback button" [ref=e362]

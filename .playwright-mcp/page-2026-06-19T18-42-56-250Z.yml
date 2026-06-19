@@ -1,0 +1,415 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - button "Main menu" [ref=e5] [cursor=pointer]:
+          - img [ref=e6]
+        - link "Careers" [ref=e10] [cursor=pointer]:
+          - /url: /about/careers/applications/
+          - generic [ref=e12]: Careers
+      - generic [ref=e13]:
+        - link "Skip navigation links" [ref=e14]:
+          - generic: Skip navigation links
+        - generic [ref=e17]:
+          - navigation "Candidate Portal Left Navigation" [ref=e21]:
+            - menubar [ref=e23]:
+              - generic [ref=e24]:
+                - menuitem "Home navigation link" [ref=e25] [cursor=pointer]:
+                  - menuitem [ref=e27]:
+                    - generic [ref=e28]:
+                      - generic [ref=e29]:
+                        - generic [ref=e34]: home
+                        - generic [ref=e36]: Home
+                      - generic [ref=e38]: Home
+                - menuitem "Jobs navigation item" [ref=e39] [cursor=pointer]:
+                  - menuitem [ref=e41]:
+                    - generic [ref=e42]:
+                      - generic [ref=e43]:
+                        - generic [ref=e48]: work_outline
+                        - generic [ref=e50]: Jobs
+                      - generic [ref=e52]: Jobs
+                - menuitem "Students navigation item" [ref=e53] [cursor=pointer]:
+                  - menuitem [ref=e55]:
+                    - generic [ref=e56]:
+                      - generic [ref=e57]:
+                        - generic [ref=e62]: noogler_hat
+                        - generic [ref=e64]: Students
+                      - generic [ref=e66]: Students
+                - menuitem "How we work navigation item" [ref=e67] [cursor=pointer]:
+                  - menuitem [ref=e69]:
+                    - generic [ref=e70]:
+                      - generic [ref=e71]:
+                        - generic [ref=e76]: google
+                        - generic [ref=e78]: How we work
+                      - generic [ref=e80]: How we work
+                - menuitem "How we hire navigation item" [ref=e81] [cursor=pointer]:
+                  - menuitem [ref=e83]:
+                    - generic [ref=e84]:
+                      - generic [ref=e85]:
+                        - generic [ref=e90]: handyman
+                        - generic [ref=e92]: How we hire
+                      - generic [ref=e94]: How we hire
+                - menuitem "Your career navigation item" [ref=e95] [cursor=pointer]:
+                  - menuitem [ref=e97]:
+                    - generic [ref=e98]:
+                      - generic [ref=e99]:
+                        - generic [ref=e104]: person_outline
+                        - generic [ref=e106]: Your career
+                      - generic [ref=e108]: Your career
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - generic [ref=e116] [cursor=pointer]:
+                - generic [ref=e117]: help_outline
+                - link "Help link" [ref=e118]:
+                  - /url: https://support.google.com/googlecareers
+              - tooltip [ref=e119]: Help link
+            - generic [ref=e120]:
+              - button "Send feedback" [ref=e121] [cursor=pointer]:
+                - generic [ref=e122]: feedback
+              - tooltip [ref=e123]: Send feedback
+      - generic [ref=e125]:
+        - button "Google apps" [ref=e129] [cursor=pointer]:
+          - img [ref=e130]
+        - link "Sign in" [ref=e133] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Fabout%2Fcareers%2Fapplications%2Fjobs%2Fresults%2F%3Fq%3Duniversity%2520graduate%26location%3DUnited%2520States&followup=https%3A%2F%2Fwww.google.com%2Fabout%2Fcareers%2Fapplications%2Fjobs%2Fresults%2F%3Fq%3Duniversity%2520graduate%26location%3DUnited%2520States&ec=GAZA6QE
+  - generic [ref=e141]:
+    - heading "Search Jobs" [level=1]
+    - generic [ref=e143]:
+      - generic [ref=e145]:
+        - heading "Search sidebar" [level=2]
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - generic [ref=e148]: 6 jobs matched
+            - button "Clear filters" [ref=e150]:
+              - generic [ref=e153]: Clear filters
+          - generic:
+            - grid "tags chipset"
+          - generic [ref=e158]:
+            - generic:
+              - generic:
+                - generic: What do you want to do?
+            - combobox "What do you want to do?" [ref=e159]: university graduate
+          - generic "Job filters" [ref=e160]:
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - heading "Locations" [level=3] [ref=e164]
+                - button "Locations filter options" [expanded] [ref=e166] [cursor=pointer]:
+                  - generic [ref=e167]: expand_less
+              - region "Locations filter options" [ref=e168]:
+                - generic [ref=e169]:
+                  - generic [ref=e171]:
+                    - grid [ref=e172]:
+                      - row "United States Remove chip United States" [ref=e173]:
+                        - gridcell "United States" [ref=e174]:
+                          - generic [ref=e175]: United States
+                        - gridcell "Remove chip United States" [ref=e176]:
+                          - generic [ref=e177]:
+                            - button "Remove chip United States" [ref=e178] [cursor=pointer]:
+                              - img [ref=e181]
+                            - tooltip [ref=e183]: Remove
+                    - generic [ref=e186]:
+                      - generic:
+                        - generic:
+                          - generic: Which location(s) do you prefer?
+                      - generic: search
+                      - combobox "Which location(s) do you prefer working out of?" [ref=e187]
+                    - generic [ref=e189]: 1 / 4Locations
+                  - generic [ref=e190]:
+                    - generic [ref=e191]:
+                      - generic [ref=e192] [cursor=pointer]:
+                        - checkbox "Remote eligible" [ref=e193]
+                        - generic:
+                          - img
+                      - generic [ref=e194]: Remote eligible
+                    - img "Learn more about remote eligibility" [ref=e196] [cursor=pointer]:
+                      - generic [ref=e197]: info_outline
+            - generic [ref=e199]:
+              - heading "Experience" [level=3] [ref=e201]
+              - button "Experience filter options" [ref=e203] [cursor=pointer]:
+                - generic [ref=e204]: expand_more
+            - generic [ref=e206]:
+              - heading "Skills & qualifications" [level=3] [ref=e208]
+              - button "Skills & qualifications filter options" [ref=e210] [cursor=pointer]:
+                - generic [ref=e211]: expand_more
+            - generic [ref=e213]:
+              - heading "Degree" [level=3] [ref=e215]
+              - button "Degree filter options" [ref=e217] [cursor=pointer]:
+                - generic [ref=e218]: expand_more
+            - generic [ref=e220]:
+              - heading "Job types" [level=3] [ref=e222]
+              - button "Job types filter options" [ref=e224] [cursor=pointer]:
+                - generic [ref=e225]: expand_more
+            - generic [ref=e227]:
+              - heading "Organizations" [level=3] [ref=e229]
+              - button "Organizations filter options" [ref=e231] [cursor=pointer]:
+                - generic [ref=e232]: expand_more
+            - generic [ref=e234]:
+              - heading "Sort by" [level=3] [ref=e236]
+              - button "Sort jobs by date or relevance" [ref=e238] [cursor=pointer]:
+                - generic [ref=e239]: expand_more
+      - generic [ref=e240]:
+        - main [ref=e241]:
+          - generic [ref=e242]:
+            - heading "Jobs search results" [level=2]
+            - generic [ref=e244]:
+              - list [ref=e246]:
+                - listitem [ref=e247]:
+                  - generic [ref=e249]:
+                    - generic [ref=e251]:
+                      - heading "Network Operations Residency Program, University Graduate, August 2026 Start" [level=3] [ref=e254]
+                      - generic [ref=e256]:
+                        - generic [ref=e257]:
+                          - generic [ref=e258]: corporate_fare
+                          - generic [ref=e259]: Google
+                        - generic [ref=e260]:
+                          - generic [ref=e261]: place
+                          - generic [ref=e262]: Atlanta, GA, USA
+                        - img "Early, Learn more about experience filters." [ref=e266]:
+                          - generic [ref=e270]: bar_chart
+                          - generic [ref=e271]: Early
+                      - generic [ref=e272]:
+                        - heading "Minimum qualifications" [level=4] [ref=e273]
+                        - list [ref=e274]:
+                          - listitem [ref=e275]: Bachelor's degree in Telecommunications, Electrical Engineering, Computer Engineering, or a related field, or equivalent practical experience.
+                          - listitem [ref=e276]: Internship experience in network engineering, data center, system administration, or another technical capacity.
+                          - listitem [ref=e277]: Experience working with networking fundamentals (e.g., TCP/IP, ARP, IP Tables, routing) or Unix systems administration, including coding (e.g., Java, C/C++) or scripting in shell or Python.
+                      - generic [ref=e279]:
+                        - generic [ref=e281]: Learn more
+                        - link "Learn more about Network Operations Residency Program, University Graduate, August 2026 Start" [ref=e282] [cursor=pointer]:
+                          - /url: jobs/results/118981017938600646-network-operations-residency-program-university-graduate-august-2026-start?q=university%20graduate&location=United%20States
+                    - button "Share Network Operations Residency Program, University Graduate, August 2026 Start" [ref=e287] [cursor=pointer]:
+                      - generic [ref=e288]: share
+                - listitem [ref=e289]:
+                  - generic [ref=e291]:
+                    - generic [ref=e293]:
+                      - heading "Silicon CAD Engineer, University Graduate, PhD" [level=3] [ref=e296]
+                      - generic [ref=e298]:
+                        - generic [ref=e299]:
+                          - generic [ref=e300]: corporate_fare
+                          - generic [ref=e301]: Google
+                        - generic [ref=e302]:
+                          - generic [ref=e303]: place
+                          - generic [ref=e304]: Sunnyvale, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e308]:
+                          - generic [ref=e312]: bar_chart
+                          - generic [ref=e313]: Mid
+                      - generic [ref=e314]:
+                        - heading "Minimum qualifications" [level=4] [ref=e315]
+                        - list [ref=e316]:
+                          - listitem [ref=e317]: PhD degree in Electrical Engineering, Computer Engineering, Computer Science, a related field, or equivalent practical experience.
+                          - listitem [ref=e318]: Experience in Verilog, SystemVerilog, or equivalent hardware description language.
+                          - listitem [ref=e319]: Experience with scripting for automation (e.g., shell, Python, Perl).
+                          - listitem [ref=e320]: "Experience in one or more of the following: silicon design/verification, FPGA design/verification, or EDA tools."
+                      - generic [ref=e322]:
+                        - generic [ref=e324]: Learn more
+                        - link "Learn more about Silicon CAD Engineer, University Graduate, PhD" [ref=e325] [cursor=pointer]:
+                          - /url: jobs/results/140843668222157510-silicon-cad-engineer-university-graduate-phd?q=university%20graduate&location=United%20States
+                    - button "Share Silicon CAD Engineer, University Graduate, PhD" [ref=e330] [cursor=pointer]:
+                      - generic [ref=e331]: share
+                - listitem [ref=e332]:
+                  - generic [ref=e334]:
+                    - generic [ref=e336]:
+                      - heading "Hardware Architecture Modeling Engineer, PhD, University Graduate" [level=3] [ref=e339]
+                      - generic [ref=e341]:
+                        - generic [ref=e342]:
+                          - generic [ref=e343]: corporate_fare
+                          - generic [ref=e344]: Google
+                        - generic [ref=e345]:
+                          - generic [ref=e346]: place
+                          - generic [ref=e347]: Sunnyvale, CA, USA
+                        - img "Mid, Learn more about experience filters." [ref=e351]:
+                          - generic [ref=e355]: bar_chart
+                          - generic [ref=e356]: Mid
+                      - generic [ref=e357]:
+                        - heading "Minimum qualifications" [level=4] [ref=e358]
+                        - list [ref=e359]:
+                          - listitem [ref=e360]: PhD degree in Electrical Engineering, Computer Engineering, Computer Science, a related field, or equivalent practical experience
+                          - listitem [ref=e361]: Experience in any one domain of computer engineering or silicon engineering through internships, academic research, or publications (e.g., co-design, digital design, architecture).
+                          - listitem [ref=e362]: Experience programming in C++.
+                      - generic [ref=e364]:
+                        - generic [ref=e366]: Learn more
+                        - link "Learn more about Hardware Architecture Modeling Engineer, PhD, University Graduate" [ref=e367] [cursor=pointer]:
+                          - /url: jobs/results/74084359799218886-hardware-architecture-modeling-engineer-phd-university-graduate?q=university%20graduate&location=United%20States
+                    - button "Share Hardware Architecture Modeling Engineer, PhD, University Graduate" [ref=e372] [cursor=pointer]:
+                      - generic [ref=e373]: share
+                - listitem [ref=e374]:
+                  - generic [ref=e376]:
+                    - generic [ref=e378]:
+                      - heading "Principal Architect, Higher Education, Google Public Sector" [level=3] [ref=e381]
+                      - generic [ref=e383]:
+                        - generic [ref=e384]:
+                          - generic [ref=e385]: corporate_fare
+                          - generic [ref=e386]: Google
+                        - generic [ref=e387]:
+                          - generic [ref=e388]: place
+                          - generic [ref=e389]: Sunnyvale, CA, USA
+                          - generic [ref=e390]: ; Mountain View, CA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e394]:
+                          - generic [ref=e398]: bar_chart
+                          - generic [ref=e399]: Advanced
+                      - generic [ref=e400]:
+                        - heading "Minimum qualifications" [level=4] [ref=e401]
+                        - list [ref=e402]:
+                          - listitem [ref=e403]: Bachelor's degree in Computer Science or a related technical field or equivalent practical experience.
+                          - listitem [ref=e404]: 10 years of experience as an enterprise architect or equivalent experience in a customer-facing role.
+                          - listitem [ref=e405]: Experience with higher education markets in the state of California.
+                          - listitem [ref=e406]: Experience in cloud market insights and cloud computing across applications, infrastructure, storage, platforms, or data.
+                          - listitem [ref=e407]: Experience engaging with, and presenting to, technical stakeholders and executive leaders.
+                      - generic [ref=e409]:
+                        - generic [ref=e411]: Learn more
+                        - link "Learn more about Principal Architect, Higher Education, Google Public Sector" [ref=e412] [cursor=pointer]:
+                          - /url: jobs/results/120668227222020806-principal-architect-higher-education-google-public-sector?q=university%20graduate&location=United%20States
+                    - button "Share Principal Architect, Higher Education, Google Public Sector" [ref=e417] [cursor=pointer]:
+                      - generic [ref=e418]: share
+                - listitem [ref=e419]:
+                  - generic [ref=e421]:
+                    - generic [ref=e423]:
+                      - heading "Field Sales Representative, Higher Education, Public Sector" [level=3] [ref=e426]
+                      - generic [ref=e428]:
+                        - generic [ref=e429]:
+                          - generic [ref=e430]: corporate_fare
+                          - generic [ref=e431]: Google
+                        - generic [ref=e432]:
+                          - generic [ref=e433]: place
+                          - generic [ref=e434]: Los Angeles, CA, USA
+                          - generic [ref=e435]: ; Irvine, CA, USA
+                        - img "Advanced, Learn more about experience filters." [ref=e439]:
+                          - generic [ref=e443]: bar_chart
+                          - generic [ref=e444]: Advanced
+                      - generic [ref=e445]:
+                        - heading "Minimum qualifications" [level=4] [ref=e446]
+                        - list [ref=e447]:
+                          - listitem [ref=e448]: Bachelor's degree or equivalent practical experience.
+                          - listitem [ref=e449]: 10 years of experience in quota-carrying cloud or software sales, or consultative account management at a B2B software company.
+                          - listitem [ref=e450]: Experience working with the public sector market, including Higher Education entities in California.
+                          - listitem [ref=e451]: Experience engaging and building relationships with a wide range of internal teams and customer stakeholders.
+                      - generic [ref=e453]:
+                        - generic [ref=e455]: Learn more
+                        - link "Learn more about Field Sales Representative, Higher Education, Public Sector" [ref=e456] [cursor=pointer]:
+                          - /url: jobs/results/80226548874912454-field-sales-representative-higher-education-public-sector?q=university%20graduate&location=United%20States
+                    - button "Share Field Sales Representative, Higher Education, Public Sector" [ref=e461] [cursor=pointer]:
+                      - generic [ref=e462]: share
+                - listitem [ref=e463]:
+                  - generic [ref=e465]:
+                    - generic [ref=e467]:
+                      - heading "Workforce Data Security Specialist" [level=3] [ref=e470]
+                      - generic [ref=e472]:
+                        - generic [ref=e473]:
+                          - generic [ref=e474]: corporate_fare
+                          - generic [ref=e475]: Google
+                        - generic [ref=e476]:
+                          - generic [ref=e477]: place
+                          - generic [ref=e478]: Chicago, IL, USA
+                          - generic [ref=e479]: ; Ann Arbor, MI, USA
+                          - generic [ref=e480]: ; +3 more
+                        - img "Mid, Learn more about experience filters." [ref=e484]:
+                          - generic [ref=e488]: bar_chart
+                          - generic [ref=e489]: Mid
+                      - generic [ref=e490]:
+                        - heading "Minimum qualifications" [level=4] [ref=e491]
+                        - list [ref=e492]:
+                          - listitem [ref=e493]: Bachelor's degree or equivalent practical experience.
+                          - listitem [ref=e494]: 7 years of experience in information security, data access management, data protection, or related roles.
+                          - listitem [ref=e495]: 5 years of experience in end-to-end strategy, implementation, or navigating business structures.
+                      - generic [ref=e497]:
+                        - generic [ref=e499]: Learn more
+                        - link "Learn more about Workforce Data Security Specialist" [ref=e500] [cursor=pointer]:
+                          - /url: jobs/results/115411045517796038-workforce-data-security-specialist?q=university%20graduate&location=United%20States
+                    - button "Share Workforce Data Security Specialist" [ref=e505] [cursor=pointer]:
+                      - generic [ref=e506]: share
+              - status [ref=e512]:
+                - generic [ref=e513]: Showing 1 to 6 of 6 rows
+                - generic [ref=e514]: 1‑6 of 6
+        - contentinfo [ref=e516]:
+          - generic [ref=e518]:
+            - generic [ref=e519]:
+              - heading "Follow Life at Google on" [level=2] [ref=e520]
+              - list [ref=e521]:
+                - listitem [ref=e522]:
+                  - link "View our Instagram feed (Opens in a new tab)" [ref=e523] [cursor=pointer]:
+                    - /url: https://www.instagram.com/lifeatgoogle/
+                - listitem [ref=e528]:
+                  - link "View our Twitter feed (Opens in a new tab)" [ref=e529] [cursor=pointer]:
+                    - /url: https://twitter.com/lifeatgoogle
+                - listitem [ref=e532]:
+                  - link "View our YouTube channel (Opens in a new tab)" [ref=e533] [cursor=pointer]:
+                    - /url: https://www.youtube.com/lifeatgoogle
+                - listitem [ref=e536]:
+                  - link "View LinkedIn (Opens in a new tab)" [ref=e537] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/google/jobs/
+                - listitem [ref=e540]:
+                  - link "View our Facebook (Opens in a new tab)" [ref=e541] [cursor=pointer]:
+                    - /url: https://www.facebook.com/lifeatgoogle/
+            - generic [ref=e546]:
+              - generic [ref=e547]:
+                - heading "More about us" [level=2] [ref=e548]
+                - generic [ref=e549]:
+                  - link "About us (opens in a new tab)" [ref=e550] [cursor=pointer]:
+                    - /url: https://about.google/
+                    - text: About us
+                    - generic [ref=e552]: open_in_new
+                  - link "Contact us (opens in a new tab)" [ref=e553] [cursor=pointer]:
+                    - /url: https://about.google/contact-google/
+                    - text: Contact us
+                    - generic [ref=e555]: open_in_new
+                  - link "Press (opens in a new tab)" [ref=e556] [cursor=pointer]:
+                    - /url: https://blog.google/press/
+                    - text: Press
+                    - generic [ref=e558]: open_in_new
+              - generic [ref=e559]:
+                - heading "Related Information" [level=2] [ref=e560]
+                - generic [ref=e561]:
+                  - link "Investor relations (opens in a new tab)" [ref=e562] [cursor=pointer]:
+                    - /url: https://abc.xyz/investor/
+                    - text: Investor relations
+                    - generic [ref=e564]: open_in_new
+                  - link "Blog (opens in a new tab)" [ref=e565] [cursor=pointer]:
+                    - /url: https://blog.google/
+                    - text: Blog
+                    - generic [ref=e567]: open_in_new
+              - generic [ref=e568]:
+                - heading "Equal Opportunity" [level=2] [ref=e569]
+                - paragraph [ref=e570]:
+                  - text: Google is proud to be an equal opportunity and affirmative action employer. We are committed to building a workforce that is representative of the users we serve, creating a culture of belonging, and providing an equal employment opportunity regardless of race, creed, color, religion, gender, sexual orientation, gender identity/expression, national origin, disability, age, genetic information, veteran status, marital status, pregnancy or related condition (including breastfeeding), expecting or parents-to-be, criminal histories consistent with legal requirements, or any other basis protected by law. See also
+                  - link "Google's EEO Policy" [ref=e571] [cursor=pointer]:
+                    - /url: https://www.google.com/about/careers/applications/eeo/
+                  - text: ","
+                  - 'link "Know your rights: workplace discrimination is illegal" [ref=e572] [cursor=pointer]':
+                    - /url: https://careers.google.com/jobs/dist/legal/EEOC_KnowYourRights_10_20.pdf
+                  - text: ","
+                  - link "Belonging at Google" [ref=e573] [cursor=pointer]:
+                    - /url: https://about.google/belonging/
+                  - text: ", and"
+                  - link "How we hire" [ref=e574] [cursor=pointer]:
+                    - /url: https://careers.google.com/how-we-hire/
+                  - text: .
+            - generic [ref=e575]:
+              - link "google.com (Opens in a new tab)" [ref=e577] [cursor=pointer]:
+                - /url: https://www.google.com/
+                - img "Google" [ref=e578]
+              - generic [ref=e579]:
+                - generic [ref=e580]:
+                  - link "Privacy (opens in a new tab)" [ref=e582] [cursor=pointer]:
+                    - /url: https://policies.google.com/privacy
+                    - text: Privacy
+                    - generic [ref=e584]: open_in_new
+                  - link "Applicant & Candidate Privacy (opens in a new tab)" [ref=e586] [cursor=pointer]:
+                    - /url: ./privacy-policy
+                    - text: Applicant & Candidate Privacy
+                    - generic [ref=e588]: open_in_new
+                  - link "Terms (opens in a new tab)" [ref=e590] [cursor=pointer]:
+                    - /url: https://policies.google.com/terms
+                    - text: Terms
+                    - generic [ref=e592]: open_in_new
+                - generic [ref=e593]:
+                  - link "Help (opens in a new tab)" [ref=e594] [cursor=pointer]:
+                    - /url: https://support.google.com/googlecareers/#topic=6095159
+                    - generic [ref=e596]: help
+                    - text: Help
+                    - generic [ref=e598]: open_in_new
+                  - combobox "Select language" [ref=e602] [cursor=pointer]:
+                    - generic: language
+                    - generic:
+                      - generic: English
+                    - generic:
+                      - img

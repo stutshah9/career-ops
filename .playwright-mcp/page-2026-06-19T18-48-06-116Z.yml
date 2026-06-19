@@ -1,0 +1,364 @@
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-1781894885"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - navigation [ref=e8]:
+        - generic [ref=e9]:
+          - button "menu" [ref=e10] [cursor=pointer]
+          - link "Amazon Jobs home page" [ref=e12] [cursor=pointer]:
+            - /url: /en
+            - generic [ref=e14]: Amazon Jobs home page
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - combobox "Search for jobs by title or keyword" [ref=e21]: graduate software engineer
+            - generic [ref=e23]:
+              - text: h
+              - combobox "search job by location" [ref=e25]: United States
+          - button "Search jobs" [ref=e26] [cursor=pointer]
+        - menu [ref=e30] [cursor=pointer]: My career
+      - generic: h
+      - generic [ref=e33]:
+        - status [active] [ref=e34]:
+          - generic [ref=e36]:
+            - generic [ref=e38]:
+              - generic [ref=e40]: 
+              - paragraph [ref=e41]:
+                - text: Set job alerts for your search and never miss an opportunity!
+                - link "Login or create an account" [ref=e42] [cursor=pointer]:
+                  - /url: https://passport.amazon.jobs/accountInfo
+            - button "close" [ref=e44] [cursor=pointer]: ×
+        - generic [ref=e47]:
+          - heading "Search results" [level=1] [ref=e48]
+          - generic [ref=e49]:
+            - generic [ref=e51]:
+              - heading "Filter by" [level=2] [ref=e53]
+              - generic [ref=e54]:
+                - link "Skip to job results" [ref=e55] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e56]:
+                  - button "INDUSTRY EXPERIENCE (4 shown) filters" [expanded] [ref=e57] [cursor=pointer]:
+                    - generic [ref=e58]:
+                      - text: INDUSTRY EXPERIENCE
+                      - generic [ref=e59]: (4 shown)
+                  - group "INDUSTRY EXPERIENCE (4 shown) filters" [ref=e62]:
+                    - generic [ref=e63]: INDUSTRY EXPERIENCE (4 shown) filters
+                    - status [ref=e64]
+                    - generic [ref=e65]:
+                      - button "Less than 1 year" [ref=e66] [cursor=pointer]:
+                        - paragraph [ref=e67]: Less than 1 year
+                      - button "1-3 years" [ref=e68] [cursor=pointer]:
+                        - paragraph [ref=e69]: 1-3 years
+                      - button "4-6 years" [ref=e70] [cursor=pointer]:
+                        - paragraph [ref=e71]: 4-6 years
+                      - button "7+ years" [ref=e72] [cursor=pointer]:
+                        - paragraph [ref=e73]: 7+ years
+              - generic [ref=e74]:
+                - link "Skip to job results" [ref=e75] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e76]:
+                  - button "JOB TYPE (1 shown) filters" [expanded] [ref=e77] [cursor=pointer]:
+                    - generic [ref=e78]:
+                      - text: JOB TYPE
+                      - generic [ref=e79]: (1 shown)
+                  - group "JOB TYPE (1 shown) filters" [ref=e82]:
+                    - generic [ref=e83]: JOB TYPE (1 shown) filters
+                    - status [ref=e84]
+                    - checkbox "Full Time 1 job" [ref=e86] [cursor=pointer]:
+                      - paragraph [ref=e87]:
+                        - text: Full Time
+                        - generic [ref=e88]:
+                          - generic [ref=e89]: (1)
+                          - generic [ref=e90]: 1 job
+              - generic [ref=e92]:
+                - link "Skip to job results" [ref=e93] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e94]:
+                  - button "JOB CATEGORY (1 shown) filters" [expanded] [ref=e95] [cursor=pointer]:
+                    - generic [ref=e96]:
+                      - text: JOB CATEGORY
+                      - generic [ref=e97]: (1 shown)
+                  - group "JOB CATEGORY (1 shown) filters" [ref=e100]:
+                    - generic [ref=e101]: JOB CATEGORY (1 shown) filters
+                    - status [ref=e102]
+                    - checkbox "Software Development 1 job" [ref=e104] [cursor=pointer]:
+                      - paragraph [ref=e105]:
+                        - text: Software Development
+                        - generic [ref=e106]:
+                          - generic [ref=e107]: (1)
+                          - generic [ref=e108]: 1 job
+              - generic [ref=e110]:
+                - link "Skip to job results" [ref=e111] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e112]:
+                  - button "Country/Region (1 shown) filters" [expanded] [ref=e113] [cursor=pointer]:
+                    - generic [ref=e114]:
+                      - text: Country/Region
+                      - generic [ref=e115]: (1 shown)
+                  - generic [ref=e118]:
+                    - generic [ref=e119]:
+                      - generic [ref=e120]: 
+                      - textbox "Refine list of Country/Region (1 shown) filter options" [ref=e121]:
+                        - /placeholder: Country/Region
+                    - status [ref=e122]
+                    - group "Country/Region (1 shown) filters" [ref=e124]:
+                      - generic [ref=e125]: Country/Region (1 shown) filters
+                      - checkbox "Israel 1 job" [ref=e127] [cursor=pointer]:
+                        - paragraph [ref=e128]:
+                          - text: Israel
+                          - generic [ref=e129]:
+                            - generic [ref=e130]: (1)
+                            - generic [ref=e131]: 1 job
+              - generic [ref=e133]:
+                - link "Skip to job results" [ref=e134] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e135]:
+                  - button "State/Province (1 shown) filters" [expanded] [ref=e136] [cursor=pointer]:
+                    - generic [ref=e137]:
+                      - text: State/Province
+                      - generic [ref=e138]: (1 shown)
+                  - generic [ref=e141]:
+                    - generic [ref=e142]:
+                      - generic [ref=e143]: 
+                      - textbox "Refine list of State/Province (1 shown) filter options" [ref=e144]:
+                        - /placeholder: State/Province
+                    - status [ref=e145]
+                    - group "State/Province (1 shown) filters" [ref=e147]:
+                      - generic [ref=e148]: State/Province (1 shown) filters
+                      - checkbox "Haifa 1 job" [ref=e150] [cursor=pointer]:
+                        - paragraph [ref=e151]:
+                          - text: Haifa
+                          - generic [ref=e152]:
+                            - generic [ref=e153]: (1)
+                            - generic [ref=e154]: 1 job
+              - generic [ref=e156]:
+                - link "Skip to job results" [ref=e157] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e158]:
+                  - button "City (1 shown) filters" [expanded] [ref=e159] [cursor=pointer]:
+                    - generic [ref=e160]:
+                      - text: City
+                      - generic [ref=e161]: (1 shown)
+                  - generic [ref=e164]:
+                    - generic [ref=e165]:
+                      - generic [ref=e166]: 
+                      - textbox "Refine list of City (1 shown) filter options" [ref=e167]:
+                        - /placeholder: City
+                    - status [ref=e168]
+                    - group "City (1 shown) filters" [ref=e170]:
+                      - generic [ref=e171]: City (1 shown) filters
+                      - checkbox "Haifa 1 job" [ref=e173] [cursor=pointer]:
+                        - paragraph [ref=e174]:
+                          - text: Haifa
+                          - generic [ref=e175]:
+                            - generic [ref=e176]: (1)
+                            - generic [ref=e177]: 1 job
+              - generic [ref=e179]:
+                - link "Skip to job results" [ref=e180] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e181]:
+                  - generic [ref=e182] [cursor=pointer]:
+                    - generic [ref=e183]:
+                      - text: TEAM
+                      - button "More information about teams" [ref=e186]: 
+                    - button "TEAM filters" [expanded] [ref=e187]
+                  - generic:
+                    - group "TEAM filters":
+                      - generic [ref=e188]: TEAM filters
+                      - status [ref=e189]
+              - generic [ref=e190]:
+                - link "Skip to job results" [ref=e191] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e192]:
+                  - button "ROLE TYPE (1 shown) filters" [expanded] [ref=e193] [cursor=pointer]:
+                    - generic [ref=e194]:
+                      - text: ROLE TYPE
+                      - generic [ref=e195]: (1 shown)
+                  - group "ROLE TYPE (1 shown) filters" [ref=e198]:
+                    - generic [ref=e199]: ROLE TYPE (1 shown) filters
+                    - status [ref=e200]
+                    - checkbox "Individual Contributor 1 job" [ref=e202] [cursor=pointer]:
+                      - paragraph [ref=e203]:
+                        - text: Individual Contributor
+                        - generic [ref=e204]:
+                          - generic [ref=e205]: (1)
+                          - generic [ref=e206]: 1 job
+              - generic [ref=e208]:
+                - link "Skip to job results" [ref=e209] [cursor=pointer]:
+                  - /url: "#job-listings"
+                - generic [ref=e210]:
+                  - button "CATEGORY (2 shown) filters" [expanded] [ref=e211] [cursor=pointer]:
+                    - generic [ref=e212]:
+                      - text: CATEGORY
+                      - generic [ref=e213]: (2 shown)
+                  - group "CATEGORY (2 shown) filters" [ref=e216]:
+                    - generic [ref=e217]: CATEGORY (2 shown) filters
+                    - status [ref=e218]
+                    - generic [ref=e219]:
+                      - button "Corporate 1 job" [ref=e220] [cursor=pointer]:
+                        - paragraph [ref=e221]:
+                          - text: Corporate
+                          - generic [ref=e222]:
+                            - generic [ref=e223]: (1)
+                            - generic [ref=e224]: 1 job
+                      - button "Student Programs 1 job" [ref=e225] [cursor=pointer]:
+                        - paragraph [ref=e226]:
+                          - text: Student Programs
+                          - generic [ref=e227]:
+                            - generic [ref=e228]: (1)
+                            - generic [ref=e229]: 1 job
+            - generic [ref=e230]:
+              - generic [ref=e231]:
+                - heading "Results listed" [level=2] [ref=e232]
+                - generic [ref=e233]:
+                  - generic:
+                    - paragraph [ref=e234]: "Sort by:"
+                    - listbox "Sort by:" [ref=e235]:
+                      - button [ref=e236] [cursor=pointer]: "Sort by: Most relevant"
+              - generic [ref=e240]:
+                - generic [ref=e241]:
+                  - generic [ref=e242]:
+                    - heading "2026 Graduate Software Dev Engineer" [level=3] [ref=e243]:
+                      - link "2026 Graduate Software Dev Engineer" [ref=e244] [cursor=pointer]:
+                        - /url: /en/jobs/10386987/2026-graduate-software-dev-engineer
+                    - list [ref=e247]:
+                      - listitem [ref=e248]: Haifa, ISR
+                      - listitem [ref=e249]: "|"
+                      - listitem [ref=e250]: "Job ID: 10386987"
+                  - generic [ref=e251]:
+                    - generic [ref=e252]: Posted April 9, 2026
+                    - paragraph [ref=e253]: (Updated about 2 months ago)
+                - generic [ref=e255]:
+                  - generic [ref=e256]:
+                    - text: "Basic qualifications:"
+                    - list [ref=e257]:
+                      - listitem [ref=e258]: "Education Requirements (must meet one): Currently enrolled in Bachelor's degree or above in Computer Science, Computer Engineering, Data Science, Information Systems, or related STEM fields or completed Bachelor's or Graduate degree in specified fields"
+                      - listitem [ref=e259]: Graduated within the last 24 months
+                      - listitem [ref=e260]: Demonstrated experience with at least one general-purpose programming language such as Java, Python, C++, C#, Go, Rust, or TypeScript
+                      - listitem [ref=e261]: "Demonstrated experience one or more of the following: Data structures implementation, Basic algorithm development, Object-oriented design principles"
+                  - link "Read more about the job 2026 Graduate Software Dev Engineer , job Id 10386987" [ref=e262] [cursor=pointer]:
+                    - /url: /en/jobs/10386987/2026-graduate-software-dev-engineer
+                    - text: ...Read more
+      - generic:    
+    - generic [ref=e266]:
+      - generic [ref=e269]:
+        - generic [ref=e270]: JOIN US ON
+        - list [ref=e271]:
+          - listitem [ref=e272]:
+            - link "Join us on facebook" [ref=e273] [cursor=pointer]:
+              - /url: https://www.facebook.com/InsideAmazon/?Amazon.jobs=footer
+              - text: b
+          - listitem [ref=e274]:
+            - link "Join us on linkedin" [ref=e275] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/amazon?Amazon.jobs=footer
+              - text: d
+          - listitem [ref=e276]:
+            - link "Join us on instagram" [ref=e277] [cursor=pointer]:
+              - /url: https://www.instagram.com/insideamazon/?Amazon.jobs=footer
+              - text: c
+          - listitem [ref=e278]:
+            - link "Join us on twitter" [ref=e279] [cursor=pointer]:
+              - /url: https://twitter.com/amazonnews?Amazon.jobs=footer
+              - text: j
+        - generic [ref=e280]:
+          - generic [ref=e281]: DOWNLOAD OUR APP
+          - list [ref=e282]:
+            - listitem [ref=e283]:
+              - link "Download Amazon A to Z from App Store" [ref=e284] [cursor=pointer]:
+                - /url: https://apple.co/4mW6qxK
+                - img [ref=e285]
+            - listitem [ref=e286]:
+              - link "Download Amazon A to Z from Google Play" [ref=e287] [cursor=pointer]:
+                - /url: https://bit.ly/46JGIYu
+                - img [ref=e288]
+      - generic [ref=e292]:
+        - generic [ref=e293]:
+          - text: Find Careers
+          - list [ref=e294]:
+            - listitem [ref=e295]:
+              - link "Job Categories" [ref=e296] [cursor=pointer]:
+                - /url: /content/en/job-categories
+            - listitem [ref=e297]:
+              - link "Teams" [ref=e298] [cursor=pointer]:
+                - /url: /content/en/teams
+            - listitem [ref=e299]:
+              - link "Locations" [ref=e300] [cursor=pointer]:
+                - /url: /content/en/locations
+            - listitem [ref=e301]:
+              - link "Military careers" [ref=e302] [cursor=pointer]:
+                - /url: /content/en/career-programs/military
+            - listitem [ref=e303]:
+              - link "Hourly" [ref=e304] [cursor=pointer]:
+                - /url: /content/en/hourly
+        - generic [ref=e305]:
+          - text: Working At Amazon
+          - list [ref=e306]:
+            - listitem [ref=e307]:
+              - link "Culture" [ref=e308] [cursor=pointer]:
+                - /url: /content/en/our-workplace
+            - listitem [ref=e309]:
+              - link "Benefits" [ref=e310] [cursor=pointer]:
+                - /url: /content/en/benefits
+            - listitem [ref=e311]:
+              - link "Amazon Newsletter" [ref=e312] [cursor=pointer]:
+                - /url: https://email.aboutamazon.com/l/637851/2020-10-29/pd87g?utm_campaign=newslettersubscribers&utm_content=amazonnewssignup&utm_medium=amazonjobs&utm_source=footer
+            - listitem [ref=e313]:
+              - link "Inclusive experiences" [ref=e314] [cursor=pointer]:
+                - /url: /content/en/our-workplace/inclusive-experiences
+            - listitem [ref=e315]:
+              - link "Leadership Principles" [ref=e316] [cursor=pointer]:
+                - /url: /content/en/our-workplace/leadership-principles
+        - generic [ref=e317]:
+          - text: Help
+          - list [ref=e318]:
+            - listitem [ref=e319]:
+              - link "FAQ" [ref=e320] [cursor=pointer]:
+                - /url: /content/en/faq
+            - listitem [ref=e321]:
+              - link "How We Hire" [ref=e322] [cursor=pointer]:
+                - /url: /content/en/how-we-hire#onlineapp
+            - listitem [ref=e323]:
+              - link "Application status" [ref=e324] [cursor=pointer]:
+                - /url: https://www.amazon.jobs/applicant/check_application_status
+            - listitem [ref=e325]:
+              - link "Accommodations" [ref=e326] [cursor=pointer]:
+                - /url: /content/en/how-we-hire/accommodations
+            - listitem [ref=e327]:
+              - link "Legal disclosures and notices" [ref=e328] [cursor=pointer]:
+                - /url: /content/en/legal-disclosures-and-notices
+        - combobox "English" [ref=e334] [cursor=pointer]: English
+      - generic [ref=e336]:
+        - generic [ref=e338]:
+          - generic [ref=e339]: Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.
+          - generic [ref=e340]:
+            - link "Privacy and Data" [ref=e341] [cursor=pointer]:
+              - /url: /en/privacy_page
+            - link "Impressum" [ref=e342] [cursor=pointer]:
+              - /url: /en/impressum
+          - generic [ref=e343]: © 1996-2026, Amazon.com, Inc. or its affiliates
+        - generic [ref=e344]:
+          - generic [ref=e345]:
+            - heading "Notice of Right to Opt-Out Sharing" [level=3] [ref=e347]
+            - paragraph [ref=e348]:
+              - text: Amazon Jobs uses cookies and similar tools such as pixels (collectively, “cookies”) for advertising purposes. The cookies collect and share information about you with third-parties to serve you with relevant advertisements and job recommendations based on your interactions with Amazon Jobs and third-party sites. California residents may exercise their right to opt-out of the sharing of information for advertising purposes by clicking toggling the buttons below. You can also manage your cookie preferences through the
+              - link "Cookie Preference Center" [ref=e349] [cursor=pointer]:
+                - /url: /cookies
+              - text: .
+            - paragraph [ref=e350]:
+              - text: For more information about how we use cookies and information of how we collect cookies, please visit our
+              - link "Candidate Cookie Notice" [ref=e351] [cursor=pointer]:
+                - /url: /privacy_page?region_id=region_us&notice_id=us-cookies-notice-english
+              - text: and
+              - link "Candidate Privacy Notice" [ref=e352] [cursor=pointer]:
+                - /url: /privacy_page?region_id=region_us&notice_id=us-privacy-english
+              - text: and the
+              - link "California supplement notice" [ref=e353] [cursor=pointer]:
+                - /url: /privacy_page?region_id=region_california&notice_id=california-privacy-english
+              - text: .
+          - list [ref=e355]:
+            - listitem [ref=e356]:
+              - button "Accept" [ref=e357] [cursor=pointer]: Accept all
+            - listitem [ref=e358]:
+              - button "Reject" [ref=e359] [cursor=pointer]: Reject all
+            - listitem [ref=e360]:
+              - button "Customize" [ref=e361] [cursor=pointer]: Customize cookies
